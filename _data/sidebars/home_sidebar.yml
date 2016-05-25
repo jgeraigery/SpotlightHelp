@@ -5,16 +5,6 @@ entries:
   levels: one
   folders:
 
-  - title: News
-    output: web
-    folderitems:
-    - title: News
-      url: /news/
-      output: web
-    - title: News archive
-      url: /news_archive/
-      output: web
-
   - title: Products
     output: web
     folderitems:
