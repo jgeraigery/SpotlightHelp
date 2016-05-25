@@ -1,0 +1,82 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: News
+    output: web
+    folderitems:
+    - title: News
+      url: /news/
+      output: web
+    - title: News archive
+      url: /news_archive/
+      output: web
+
+  - title: Products
+    output: web
+    folderitems:
+    - title: Spotlight Enterprise
+      url: /enterprise_welcome/
+      output: web
+    - title: Spotlight Developer
+      url: /developer_landing_page/
+      output: web
+    - title: Spotlight Cloud
+      url: /cloud_landing_page/
+      output: web
+    - title: Spotlight Mobile
+      url: /mobile_welcome/
+      output: web
+
+  - title: Connections
+    output: web
+    folderitems:
+    - title: SQL Server
+      url: /sqlserver_landing_page/
+      output: web
+    - title: SQL Server Analysis Services
+      url: /analysisservices_landing_page/
+      output: web
+    - title: SQL Server Replication
+      url: /replication_landing_page/
+      output: web
+    - title: SQL Azure
+      url: /sqlazure_landing_page/
+      output: web
+    - title: Windows Server
+      url: /windows_landing_page/
+      output: web
+    - title: VMWare
+      url: /vmware_landing_page/
+      output: web
+    - title: Hyper-V
+      url: /hyperv_landing_page/
+      output: web
+
+  - title: Keyword search
+    output: web
+    folderitems:
+    - title: Acknowledge
+      url: /tag_acknowledge/
+      output: web
+    - title: Alarms Sort
+      url: /tag_alarms_sort/
+      output: web
+    - title: Heatmap
+      url: /tag_heatmap/
+      output: web
+    - title: Overview page
+      url: /tag_overview_page/
+      output: web
+    - title: Playback
+      url: /tag_playback/
+      output: web
+    - title: Setup
+      url: /tag_setup/
+      output: web
+    - title: Snooze
+      url: /tag_snooze/
+      output: web

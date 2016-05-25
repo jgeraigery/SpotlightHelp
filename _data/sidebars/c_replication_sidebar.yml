@@ -1,0 +1,51 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: SQL Server Replication
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage/
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage/
+      output: pdf
+      type: frontmatter
+
+  - title: Connect
+    output: web, pdf
+    folderitems:
+
+    - title: Connection details and requirements
+      url: /replication_connect/
+      output: web, pdf
+
+  - title: Alarms
+    output: web, pdf
+    folderitems:
+
+    - title: Alarms
+      url: /replication_alarms/
+      output: web, pdf
+
+  - title: Drilldowns
+    output: web, pdf
+    folderitems:
+
+    - title: Drilldowns
+      url: /replication_drilldowns/
+      output: web, pdf
+
+  - title: Collections
+    output: web, pdf
+    folderitems:
+
+    - title: Collections
+      url: /replication_collections/
+      output: web, pdf

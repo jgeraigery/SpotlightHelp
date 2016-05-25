@@ -1,0 +1,81 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Spotlight Mobile
+  version: 2.1
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage/
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage/
+      output: pdf
+      type: frontmatter
+
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+
+    - title: Welcome
+      url: /mobile_welcome/
+      output: web, pdf
+
+    - title: Setup
+      url: /mobile_deploy/
+      output: web, pdf
+
+  - title: Monitor
+    output: web, pdf
+    folderitems:
+
+    - title: Monitor
+      url: /mobile_monitor/
+      output: web, pdf
+
+    - title: Heatmap
+      url: /mobile_heatmap/
+      output: web, pdf
+
+    - title: Alarm list
+      url: /mobile_alarmlist/
+      output: web, pdf
+
+      subfolders:
+      - title: Alarm actions
+        output: web
+        subfolderitems:
+
+        - title: Sort / Group alarms
+          url: /mobile_alarm_sortgroup/
+          output: web, pdf
+
+        - title: Acknowledge alarm
+          url: /mobile_alarm_acknowledge/
+          output: web, pdf
+
+        - title: Snooze alarm
+          url: /mobile_alarm_snooze/
+          output: web, pdf
+
+    - title: Connections and connection views
+      url: /mobile_connections/
+      output: web, pdf
+
+    - title: Spotlight overview page
+      url: /mobile_overview/
+      output: web, pdf
+
+    - title: Playback
+      url: /mobile_playback/
+      output: web, pdf
+
+    - title: Settings
+      url: /mobile_settings/
+      output: web, pdf	  

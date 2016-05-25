@@ -1,0 +1,69 @@
+{% if page.sidebar == "home_sidebar" %}
+{% assign sidebar = site.data.sidebars.home_sidebar.entries %}
+
+{% elsif page.sidebar == "product1_sidebar" %}
+{% assign sidebar = site.data.sidebars.product1_sidebar.entries %}
+
+{% elsif page.sidebar == "product2_sidebar" %}
+{% assign sidebar = site.data.sidebars.product2_sidebar.entries %}
+
+{% elsif page.sidebar == "mydoc_sidebar" %}
+{% assign sidebar = site.data.sidebars.mydoc_sidebar.entries %}
+
+{% elsif page.sidebar == "tags_sidebar" %}
+{% assign sidebar = site.data.sidebars.tags_sidebar.entries %}
+
+{% elsif page.sidebar == "p_enterprise_sidebar" %}
+{% assign sidebar = site.data.sidebars.p_enterprise_sidebar.entries %}
+
+{% elsif page.sidebar == "p_developer_sidebar" %}
+{% assign sidebar = site.data.sidebars.p_developer_sidebar.entries %}
+
+{% elsif page.sidebar == "p_cloud_sidebar" %}
+{% assign sidebar = site.data.sidebars.p_cloud_sidebar.entries %}
+
+{% elsif page.sidebar == "p_mobile_sidebar" %}
+{% assign sidebar = site.data.sidebars.p_mobile_sidebar.entries %}
+
+{% elsif page.sidebar == "c_sqlserver_sidebar" %}
+{% assign sidebar = site.data.sidebars.c_sqlserver_sidebar.entries %}
+
+{% elsif page.sidebar == "c_analysisservices_sidebar" %}
+{% assign sidebar = site.data.sidebars.c_analysisservices_sidebar.entries %}
+
+{% elsif page.sidebar == "c_replication_sidebar" %}
+{% assign sidebar = site.data.sidebars.c_replication_sidebar.entries %}
+
+{% elsif page.sidebar == "c_sqlazure_sidebar" %}
+{% assign sidebar = site.data.sidebars.c_sqlazure_sidebar.entries %}
+
+{% elsif page.sidebar == "c_windows_sidebar" %}
+{% assign sidebar = site.data.sidebars.c_windows_sidebar.entries %}
+
+{% elsif page.sidebar == "c_vmware_sidebar" %}
+{% assign sidebar = site.data.sidebars.c_vmware_sidebar.entries %}
+
+{% elsif page.sidebar == "c_hyperv_sidebar" %}
+{% assign sidebar = site.data.sidebars.c_hyperv_sidebar.entries %}
+
+{% else %}
+{% assign sidebar = site.data.sidebars.home_sidebar.entries %}
+{% endif %}
+
+
+
+{% comment %}
+sidebar configuration for print files
+{% endcomment %}
+
+{% if site.product == "mydoc" %}
+{% assign sidebar_pdf = site.data.sidebars.mydoc_sidebar.entries %}
+{% endif %}
+
+{% if site.product == "product1" %}
+{% assign sidebar_pdf = site.data.sidebars.product1_sidebar.entries %}
+{% endif %}
+
+{% if site.product == "product2" %}
+{% assign sidebar_pdf = site.data.sidebars.product2_sidebar.entries %}
+{% endif %}

@@ -1,0 +1,52 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Analysis Services
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage/
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage/
+      output: pdf
+      type: frontmatter
+
+  - title: Connect
+    output: web, pdf
+    folderitems:
+
+    - title: Connection details and requirements
+      url: /analysisservices_connect/
+      output: web, pdf
+
+  - title: Alarms
+    output: web, pdf
+    folderitems:
+
+    - title: Alarms
+      url: /analysisservices_alarms/
+      output: web, pdf
+
+  - title: Drilldowns
+    output: web, pdf
+    folderitems:
+
+    - title: Drilldowns
+      url: /analysisservices_drilldowns/
+      output: web, pdf
+
+  - title: Collections
+    output: web, pdf
+    folderitems:
+
+    - title: Collections
+      url: /analysisservices_collections/
+      output: web, pdf
+

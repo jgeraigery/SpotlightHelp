@@ -1,0 +1,80 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: VMware
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage/
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage/
+      output: pdf
+      type: frontmatter
+
+  - title: Connect
+    output: web, pdf
+    folderitems:
+
+    - title: Connection details and requirements
+      url: /vmware_connect/
+      output: web, pdf
+
+    - title: Connection details
+      url: /vmware_connect_details/
+      output: web, pdf
+
+  - title: Alarms
+    output: web, pdf
+    folderitems:
+
+    - title: Alarms
+      url: /vmware_alarms/
+      output: web, pdf
+  
+    - title: Heartbeat alarm
+      url: /vmware_alarm_heartbeat/
+      output: web, pdf
+
+    - title: VMware memory reposessed alarm
+      url: /vmware_alarm_memoryreposessed/
+      output: web, pdf
+
+    - title: VMware Overhead alarm
+      url: /vmware_alarm_overhead/
+      output: web, pdf
+
+  - title: Drilldowns
+    output: web, pdf
+    folderitems:
+
+    - title: Drilldowns
+      url: /vmware_drilldowns/
+      output: web, pdf
+
+    - title: Status component
+      url: /vmware_component_status/
+      output: web, pdf
+
+    - title: Version component
+      url: /vmware_component_version/
+      output: web, pdf
+  
+    - title: Virtual machines grid
+      url: /vmware_grid_virtualmachines/
+      output: web, pdf
+  
+  - title: Collections
+    output: web, pdf
+    folderitems:
+
+    - title: Collections
+      url: /vmware_collections/
+      output: web, pdf
+

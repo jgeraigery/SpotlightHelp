@@ -1,0 +1,126 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: SQL Azure
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage/
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage/
+      output: pdf
+      type: frontmatter
+
+  - title: Connect
+    output: web, pdf
+    folderitems:
+
+    - title: Connection details and requirements
+      url: /sqlazure_connect/
+      output: web, pdf
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /sqlazure_overview/
+      output: web, pdf
+
+      subfolders:
+      - title: Sessions
+        output: web
+        subfolderitems:
+
+        - title: Response Time
+          url: /sqlazure_component_responsetime/
+          output: web, pdf
+
+        - title: Connections
+          url: /sqlazure_component_connections/
+          output: web, pdf
+
+        - title: Computers
+          url: /sqlazure_component_computers/
+          output: web, pdf
+
+        - title: Active
+          url: /sqlazure_component_active/
+          output: web, pdf
+
+        - title: System
+          url: /sqlazure_component_system/
+          output: web, pdf
+
+        - title: Status
+          url: /sqlazure_component_status/
+          output: web, pdf
+
+      subfolders:
+      - title: SQL Processes
+        output: web
+        subfolderitems:
+
+        - title: Total
+          url: /sqlazure_component_total/
+          output: web, pdf
+
+        - title: System
+          url: /sqlazure_component_system/
+          output: web, pdf
+
+        - title: User
+          url: /sqlazure_component_user/
+          output: web, pdf
+
+      subfolders:
+      - title: Data Storage
+        output: web
+        subfolderitems:
+
+        - title: Available
+          url: /sqlazure_component_available/
+          output: web, pdf
+
+        - title: Used
+          url: /sqlazure_component_used/
+          output: web, pdf
+
+        - title: Percent
+          url: /sqlazure_component_percent/
+          output: web, pdf
+
+  - title: SQL Activity drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Sessions grid
+      url: /sqlazure_grid_sessions/
+      output: web, pdf
+
+    - title: SQL
+      url: /sqlazure_sql/
+      output: web, pdf
+
+    - title: Plan
+      url: /sqlazure_plan/
+      output: web, pdf
+
+    - title: Session Locks
+      url: /sqlazure_drilldowns/
+      output: web, pdf
+
+  - title: Collections
+    output: web, pdf
+    folderitems:
+
+    - title: Collections
+      url: /sqlazure_collections/
+      output: web, pdf

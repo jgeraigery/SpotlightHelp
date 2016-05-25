@@ -1,0 +1,79 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Hyper-V
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage/
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage/
+      output: pdf
+      type: frontmatter
+
+  - title: Connect
+    output: web, pdf
+    folderitems:
+
+    - title: Connection details and requirements
+      url: /hyperv_connect/
+      output: web, pdf
+
+    - title: Connection details
+      url: /hyperv_connect_details/
+      output: web, pdf
+
+  - title: Alarms
+    output: web, pdf
+    folderitems:
+
+    - title: Alarms
+      url: /hyperv_alarms/
+      output: web, pdf
+  
+    - title: Hyper-V Virtual Machine Heartbeat Alarm
+      url: /hyperv_alarm_heartbeat/
+      output: web, pdf
+
+    - title: Hyper-V CPU wait time per dispatch Alarm
+      url: /hyperv_alarm_cpuwaittimedispatch/
+      output: web, pdf
+
+    - title: Hyper-V - Virtual Overhead Alarm
+      url: /hyperv_alarm_overhead/
+      output: web, pdf
+
+  - title: Drilldowns
+    output: web, pdf
+    folderitems:
+
+    - title: Drilldowns
+      url: /hyperv_drilldowns/
+      output: web, pdf
+
+    - title: Status component
+      url: /hyperv_component_status/
+      output: web, pdf
+
+    - title: Version component
+      url: /hyperv_component_version/
+      output: web, pdf
+  
+    - title: Virtual machines grid
+      url: /hyperv_grid_virtualmachines/
+      output: web, pdf
+
+  - title: Collections
+    output: web, pdf
+    folderitems:
+
+    - title: Collections
+      url: /hyperv_collections/
+      output: web, pdf
