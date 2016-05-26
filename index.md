@@ -25,7 +25,7 @@ Hyper-V | Spotlight can monitor the status of all virtual machines on a Hyper-V 
 Replication | About monitored SQL Server Replication environments.  
 SQL Azure | About monitored SQL Azure databases.  
 SQL Server | About monitored SQL Server instances.  
-VMware VMware  Spotlight can monitor the status of all virtual machines on a monitored VMware server.  
+VMware | Spotlight can monitor the status of all virtual machines on a monitored VMware server.  
 Windows | About monitored Windows Servers.
 
 
