@@ -18,15 +18,11 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Connect
+  - title: Connections
     output: web, pdf
     folderitems:
 
     - title: Connection details and requirements
-      url: /vmware_connect/
-      output: web, pdf
-
-    - title: Connection details
       url: /vmware_connect_details/
       output: web, pdf
 
@@ -34,10 +30,6 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Alarms
-      url: /vmware_alarms/
-      output: web, pdf
-  
     - title: Heartbeat alarm
       url: /vmware_alarm_heartbeat/
       output: web, pdf
@@ -50,13 +42,17 @@ entries:
       url: /vmware_alarm_overhead/
       output: web, pdf
 
-  - title: Drilldowns
+  - title: Spotlight Product displays
     output: web, pdf
     folderitems:
 
-    - title: Drilldowns
-      url: /vmware_drilldowns/
+    - title: Spotlight Enterprise
+      url: /vmware_productenterprise/
       output: web, pdf
+
+  - title: VMware Connection display
+    output: web, pdf
+    folderitems:
 
     - title: Status component
       url: /vmware_component_status/
