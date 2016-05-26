@@ -13,9 +13,9 @@ topnav_dropdowns:
         - title: Spotlight Enterprise
           url: /enterprise_welcome/
         - title: Spotlight Developer
-          url: /p1_landing_page/
+          url: /developer_landing_page/
         - title: Spotlight Cloud
-          url: /p2_landing_page/
+          url: /cloud_landing_page/
         - title: Spotlight Mobile
           url: /mobile_welcome/
       - title: Connection Types
