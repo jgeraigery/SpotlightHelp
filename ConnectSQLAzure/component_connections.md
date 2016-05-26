@@ -10,4 +10,5 @@ permalink: /sqlazure_component_connections/
 
 
 
-<note type="note">Many applications create multiple connections to the SQL Azure database.</note>
+
+{% include note.html content="Many applications create multiple connections to the SQL Azure database." %}

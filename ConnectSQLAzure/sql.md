@@ -4,7 +4,7 @@ keywords: mydoc
 summary: "Shows the batch of SQL statements last executed or currently executing by the selected session."
 sidebar: c_sqlazure_sidebar
 toc: false
-permalink: /sqlazure_component_status/
+permalink: /sqlazure_component_sql/
 ---
 
 

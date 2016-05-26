@@ -18,85 +18,94 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Connect
+  - title: Connections
     output: web, pdf
     folderitems:
 
-    - title: Connection details and requirements
-      url: /sqlazure_connect/
+    - title: Connection details
+      url: /sqlazure_connect_details/
       output: web, pdf
 
-  - title: Overview
+  - title: Spotlight Product displays
     output: web, pdf
     folderitems:
 
-    - title: Overview
-      url: /sqlazure_overview/
+    - title: Spotlight Enterprise
+      url: /sqlazure_productenterprise/
       output: web, pdf
 
-      subfolders:
-      - title: Sessions
-        output: web
-        subfolderitems:
+  - title: Spotlight Overview page
+    output: web, pdf
+    folderitems:
 
-        - title: Response Time
-          url: /sqlazure_component_responsetime/
-          output: web, pdf
+    - title: Response Time
+      url: /sqlazure_component_responsetime/
+      output: web, pdf
 
-        - title: Connections
-          url: /sqlazure_component_connections/
-          output: web, pdf
+    - title: Connections
+      url: /sqlazure_component_connections/
+      output: web, pdf
 
-        - title: Computers
-          url: /sqlazure_component_computers/
-          output: web, pdf
+    - title: Computers
+      url: /sqlazure_component_computers/
+      output: web, pdf
 
-        - title: Active
-          url: /sqlazure_component_active/
-          output: web, pdf
+    - title: Active
+      url: /sqlazure_component_active/
+      output: web, pdf
 
-        - title: System
-          url: /sqlazure_component_system/
-          output: web, pdf
+    - title: Version
+      url: /sqlazure_component_version/
+      output: web, pdf
+  
+    - title: Packets Written per Second
+      url: /sqlazure_component_flwpacketsin/
+      output: web, pdf
 
-        - title: Status
-          url: /sqlazure_component_status/
-          output: web, pdf
+    - title: Packets Read per Second
+      url: /sqlazure_component_flwpacketsout/
+      output: web, pdf
 
-      subfolders:
-      - title: SQL Processes
-        output: web
-        subfolderitems:
+    - title: Total
+      url: /sqlazure_component_sessionstotal/
+      output: web, pdf
 
-        - title: Total
-          url: /sqlazure_component_total/
-          output: web, pdf
+    - title: System
+      url: /sqlazure_component_sessionssys/
+      output: web, pdf
 
-        - title: System
-          url: /sqlazure_component_system/
-          output: web, pdf
+    - title: User
+      url: /sqlazure_component_sessionsuser/
+      output: web, pdf
+  
+    - title: Data Storage
+      url: /sqlazure_component_datafiles/
+      output: web, pdf
 
-        - title: User
-          url: /sqlazure_component_user/
-          output: web, pdf
+    - title: Available
+      url: /sqlazure_component_dataavailable/
+      output: web, pdf
 
-      subfolders:
-      - title: Data Storage
-        output: web
-        subfolderitems:
+    - title: Used
+      url: /sqlazure_component_dataused/
+      output: web, pdf
 
-        - title: Available
-          url: /sqlazure_component_available/
-          output: web, pdf
+    - title: Percent
+      url: /sqlazure_component_datapercent/
+      output: web, pdf
 
-        - title: Used
-          url: /sqlazure_component_used/
-          output: web, pdf
+    - title: Logical Reads
+      url: /sqlazure_component_flwlogicalreads/
+      output: web, pdf
 
-        - title: Percent
-          url: /sqlazure_component_percent/
-          output: web, pdf
+    - title: Physical Reads
+      url: /sqlazure_component_flwreads/
+      output: web, pdf
 
+    - title: Physical Writes
+      url: /sqlazure_component_flwwrites/
+      output: web, pdf
+  
   - title: SQL Activity drilldown
     output: web, pdf
     folderitems:
@@ -106,15 +115,39 @@ entries:
       output: web, pdf
 
     - title: SQL
-      url: /sqlazure_sql/
+      url: /sqlazure_component_sql/
       output: web, pdf
 
     - title: Plan
-      url: /sqlazure_plan/
+      url: /sqlazure_component_plan/
       output: web, pdf
 
     - title: Session Locks
-      url: /sqlazure_drilldowns/
+      url: /sqlazure_component_sessionlocks/
+      output: web, pdf
+
+  - title: Databases drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Database Space chart
+      url: /sqlazure_chart_databasespace/
+      output: web, pdf
+
+    - title: Tables grid
+      url: /sqlazure_grid_tables/
+      output: web, pdf
+
+    - title: Table Space chart
+      url: /sqlazure_chart_tablespace/
+      output: web, pdf
+
+    - title: Table Growth chart
+      url: /sqlazure_chart_tablegrowth/
+      output: web, pdf
+
+    - title: Indexes grid
+      url: /sqlazure_grid_indexes/
       output: web, pdf
 
   - title: Collections
