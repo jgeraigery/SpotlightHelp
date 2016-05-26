@@ -1,5 +1,5 @@
 ---
-title: Snooze alarm
+title: Snooze alarms
 tags: [snooze]
 keywords: alarms, snooze, mobile
 summary: "Temporarily remove the visual alert associated with an alarm."
@@ -21,9 +21,9 @@ Android | iPhone
 
 ![Snooze alarm]({{ "/imagesMobile/screen_snooze-alarm.PNG" | prepend: site.baseurl }})
 
-5. Tap Snooze.
+5. Tap **Snooze**.
 
-![My sample page]({{ "/imagesMobile/screen_tap-snooze-graphic.PNG" | prepend: site.baseurl }})
+![Tap Snooze]({{ "/imagesMobile/screen_tap-snooze-graphic.png" | prepend: site.baseurl }})
 
 
 ## How to unsnooze an alarm
