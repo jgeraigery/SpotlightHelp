@@ -3,9 +3,18 @@ title: Connection details
 keywords: mydoc
 summary: "Specify the connection details for a Hyper-V server."
 sidebar: c_hyperv_sidebar
-toc: false
+toc: true
 permalink: /hyperv_connect_details/
 ---
+
+
+## Requirements
+
+Hyper-V® 6.2 and above.
+
+The username used to connect to the virtual guest machine must have at least a read-only role.
+
+Ensure any firewall is configured to open TCP port 135.
 
 
 ## Address

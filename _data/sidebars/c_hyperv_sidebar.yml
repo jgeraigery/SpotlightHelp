@@ -18,25 +18,17 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Connect
+  - title: Connections
     output: web, pdf
     folderitems:
 
     - title: Connection details and requirements
-      url: /hyperv_connect/
-      output: web, pdf
-
-    - title: Connection details
       url: /hyperv_connect_details/
       output: web, pdf
 
   - title: Alarms
     output: web, pdf
     folderitems:
-
-    - title: Alarms
-      url: /hyperv_alarms/
-      output: web, pdf
   
     - title: Hyper-V Virtual Machine Heartbeat Alarm
       url: /hyperv_alarm_heartbeat/
@@ -50,13 +42,17 @@ entries:
       url: /hyperv_alarm_overhead/
       output: web, pdf
 
-  - title: Drilldowns
+  - title: Spotlight Product displays
     output: web, pdf
     folderitems:
 
-    - title: Drilldowns
-      url: /hyperv_drilldowns/
+    - title: Spotlight Enterprise
+      url: /hyperv_productenterprise/
       output: web, pdf
+
+  - title: Hyper-V Connection display
+    output: web, pdf
+    folderitems:
 
     - title: Status component
       url: /hyperv_component_status/

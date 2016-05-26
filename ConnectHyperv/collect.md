@@ -1,0 +1,14 @@
+---
+title: Collections
+keywords: mydoc
+summary: "The following collections are used for the displays."
+sidebar: c_hyperv_sidebar
+permalink: /hyperv_collections/
+---
+
+
+## Spotlight Overview page
+
+Component | Description
+----------|----------------
+Virtual Machines grid | Hyper-V - Virtual Machines
