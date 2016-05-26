@@ -8,9 +8,9 @@ permalink: /mobile_settings/
 
 
 
-Screen/Action | Android | iPhone
---------------|---------|-------
-Configure Spotlight Mobile settings. | ![Android settings button]({{ "/imagesMobile/tap_android-settings-icon.png" | prepend: site.baseurl }}) | ![iPhone settings button]({{ "/imagesMobile/tap_iOS_settings_icon.png" | prepend: site.baseurl }})
+Android | iPhone
+--------|-------
+![Android settings button]({{ "/imagesMobile/tap_android-settings-icon.png" | prepend: site.baseurl }}) | ![iPhone settings button]({{ "/imagesMobile/tap_iOS_settings_icon.png" | prepend: site.baseurl }})
 
 
 

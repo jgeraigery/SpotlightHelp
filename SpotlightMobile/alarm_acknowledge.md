@@ -13,7 +13,9 @@ permalink: /mobile_alarm_acknowledge/
 2. Tap the alarm severity icon for more detail on the alarm.
 3. Tap to acknowledge the alarm.
 
-![Ack button]({{ "/imagesMobile/tap_Ack-button-iOs.png" | prepend: site.baseurl }})
+Android | iPhone
+--------|-------
+![Ack Android]({{ "/imagesMobile/tap_android-ack-icon.png" | prepend: site.baseurl }}) | ![Ack ios]({{ "/imagesMobile/tap_Ack-button-iOs.png" | prepend: site.baseurl }}) 
 
 4. You may want to enter a comment on acknowledging the alarm. The comment shows up in the Alarm Log on the Spotlight Client.
 

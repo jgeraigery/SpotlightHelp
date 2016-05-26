@@ -11,4 +11,4 @@ The Heat Map is the first screen you see when you open Spotlight Mobile.
 
 Tap on a connection to open the Alarm list [Alarm list](/documentation-theme-jekyll/mobile_alarmlist) {{site.data.urls.mobile_alarmlist.link}} for the connection.
 
-![My sample page]({{ "/imagesMobile/screen_iOS-Heatmap.PNG" | prepend: site.baseurl }})
+![Heatmap]({{ "/imagesMobile/screen_iOS-Heatmap.PNG" | prepend: site.baseurl }})

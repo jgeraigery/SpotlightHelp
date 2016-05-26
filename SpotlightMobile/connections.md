@@ -7,6 +7,12 @@ permalink: /mobile_connections/
 ---
 
 
+Access the views of your enterprise: heatmaps, alarm lists and connection views. Create new Heatmap or Alarm list views.
+
+Android | iPhone
+--------|-------
+![Connections Android]({{ "/imagesMobile/tap_android-connection-nav-icon.png" | prepend: site.baseurl }}) | ![Connections iPhone]({{ "/imagesMobile/tap_iOS-connection-nav-icon.png" | prepend: site.baseurl }}) |
+
 
 Tap on a heatmap to view the Heatmap.
 

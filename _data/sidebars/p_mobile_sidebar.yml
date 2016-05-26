@@ -31,13 +31,17 @@ entries:
       url: /mobile_deploy/
       output: web, pdf
 
-  - title: Monitor
+  - title: Connections
     output: web, pdf
     folderitems:
 
-    - title: Monitor
-      url: /mobile_monitor/
+    - title: Connections and connection views
+      url: /mobile_connections/
       output: web, pdf
+  
+  - title: Displays
+    output: web, pdf
+    folderitems:
 
     - title: Heatmap
       url: /mobile_heatmap/
@@ -47,28 +51,7 @@ entries:
       url: /mobile_alarmlist/
       output: web, pdf
 
-      subfolders:
-      - title: Alarm actions
-        output: web
-        subfolderitems:
-
-        - title: Sort / Group alarms
-          url: /mobile_alarm_sortgroup/
-          output: web, pdf
-
-        - title: Acknowledge alarm
-          url: /mobile_alarm_acknowledge/
-          output: web, pdf
-
-        - title: Snooze alarm
-          url: /mobile_alarm_snooze/
-          output: web, pdf
-
-    - title: Connections and connection views
-      url: /mobile_connections/
-      output: web, pdf
-
-    - title: Spotlight overview page
+    - title: Spotlight Overview pages
       url: /mobile_overview/
       output: web, pdf
 
@@ -76,6 +59,42 @@ entries:
       url: /mobile_playback/
       output: web, pdf
 
+  - title: Alarms
+    output: web, pdf
+    folderitems:
+
+    - title: Diagnose
+      url: /mobile_alarm_diagnose/
+      output: web, pdf
+
+    - title: Acknoweldge
+      url: /mobile_alarm_acknowledge/
+      output: web, pdf
+
+    - title: Snooze
+      url: /mobile_alarm_snooze/
+      output: web, pdf
+
+    - title: Sort / Group
+      url: /mobile_alarm_sortgroup/
+      output: web, pdf
+
+    - title: Notifications
+      url: /mobile_alarm_notifications/
+      output: web, pdf
+
+  - title: Settings
+    output: web, pdf
+    folderitems:
+
     - title: Settings
       url: /mobile_settings/
-      output: web, pdf	  
+      output: web, pdf
+
+    - title: Profile
+      url: /mobile_profile/
+      output: web, pdf  
+
+    - title: Refresh
+      url: /mobile_refresh/
+      output: web, pdf  

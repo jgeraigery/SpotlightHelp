@@ -51,17 +51,26 @@ Sign in to the Spotlight Mobile app with your Spotlight Cloud account. If you ha
 
 A minimal Spotlight on SQL Server deployment consists of a Spotlight Client (to customize Spotlight and view data from monitored systems), a Spotlight Diagnostic Server (to collect data from monitored systems) and a Playback Database (to store recent history). These components are installed with Spotlight on SQL Server.
 
-Table 1: Spotlight Enterprise components and Spotlight Mobile
+### Spotlight Client
 
-Component | Description
-----------|------------
-Spotlight Client | A Spotlight Client is used to configure Spotlight. For example, a Spotlight Client is used to add and remove the connections monitored through Spotlight. This cannot be done in Spotlight Mobile.
-Spotlight Diagnostic Server | The Spotlight Diagnostic Server collects data from monitored systems. A prerequisite to using Spotlight Mobile is
+A Spotlight Client is used to configure Spotlight. For example, a Spotlight Client is used to add and remove the connections monitored through Spotlight. This cannot be done in Spotlight Mobile.
 
-The Spotlight Diagnostic Server is configured to upload data to the Spotlight Cloud.
-The Spotlight Diagnostic Server has access to the Internet.
-Port TCP 443 on the Spotlight Diagnostic Server is open.
+### Spotlight Diagnostic Server
 
-Spotlight Playback Database | Recent history is stored in the Playback Database. The Playback Database is deployed on SQL Server. Each Spotlight Diagnostic Server requires its own Playback Database. A Spotlight Client is used to configure the Spotlight Playback Database.
-Spotlight Statistics Repository | Long term history for reporting and trending is stored in the Spotlight Statistics Repository. The Spotlight Statistics Repository is inaccessible to Spotlight Mobile.
-Spotlight Cloud | Spotlight Cloud Health Performance data is uploaded to the Spotlight web site. This data is accessible only from the Spotlight web site.
+The Spotlight Diagnostic Server collects data from monitored systems. A prerequisite to using Spotlight Mobile is
+
+* The Spotlight Diagnostic Server is configured to upload data to the Spotlight Cloud.
+* The Spotlight Diagnostic Server has access to the Internet.
+* Port TCP 443 on the Spotlight Diagnostic Server is open.
+
+### Spotlight Playback Database
+
+Recent history is stored in the Playback Database. The Playback Database is deployed on SQL Server. Each Spotlight Diagnostic Server requires its own Playback Database. A Spotlight Client is used to configure the Spotlight Playback Database.
+
+### Spotlight Statistics Repository
+
+Long term history for reporting and trending is stored in the Spotlight Statistics Repository. The Spotlight Statistics Repository is inaccessible to Spotlight Mobile.
+
+### Spotlight Cloud
+
+Spotlight Cloud Health Performance data is uploaded to the Spotlight web site. This data is accessible only from the Spotlight web site.

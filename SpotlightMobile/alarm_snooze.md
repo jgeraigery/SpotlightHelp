@@ -13,7 +13,9 @@ permalink: /mobile_alarm_snooze/
 2. Tap the alarm severity icon for more detail on the alarm.
 3. Tap to snooze the alarm.
 
-![Zzz button]({{ "/imagesMobile/tap_iOS-snooze-icon.png" | prepend: site.baseurl }})
+Android | iPhone
+--------|-------
+![Snooze Android]({{ "/imagesMobile/tap_android-snooze-icon.png" | prepend: site.baseurl }}) | ![Snooze iPhone]({{ "/imagesMobile/tap_iOS-snooze-icon.png" | prepend: site.baseurl }})
 
 4. Enter the time frame. The alarm will be snoozed from now till the time given.
 
