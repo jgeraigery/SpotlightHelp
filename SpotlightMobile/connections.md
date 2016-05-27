@@ -19,5 +19,5 @@ Android | iPhone
 
 To open a view of the heatmap | Tap on the heatmap.
 To open a view of the Alarm list | Tap on the alarm list.
-to create a customized view of the Heatmap or Alarm list | Tap Add... or ![Add button]({{ "/imagesMobile/tap_edit-button.PNG" | prepend: site.baseurl }})
+to create a customized view of the Heatmap or Alarm list | Tap Add... or ![Add button]({{ "/imagesMobile/tap_edit-button.png" | prepend: site.baseurl }})
 To open the Spotlight Overview page | Tap on a connection.

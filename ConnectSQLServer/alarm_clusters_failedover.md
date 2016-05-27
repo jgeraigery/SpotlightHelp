@@ -1,9 +1,7 @@
 ---
 title: ﻿Clusters - Failed Over Alarm
-keywords: mydoc
 summary: "The Clusters - Failed Over alarm is raised when a cluster fails over."
 sidebar: c_sqlserver_sidebar
-toc: false
 permalink: /sqlserver_alarm_clusters_failedover/
 ---
 

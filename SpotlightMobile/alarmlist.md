@@ -20,4 +20,4 @@ Each alarm is colored according to the severity of the alarm. Tap the row for al
 
 {% include tip.html content="On an iPad, tap the colored icon." %}
 
-![Alarm List Screen]({{ "/imagesMobile/screen_iOS-iphone-alarm-list.PNG" | prepend: site.baseurl }})
+![Alarm List Screen]({{ "/imagesMobile/screen_iOS-iphone-alarm-list.png" | prepend: site.baseurl }})

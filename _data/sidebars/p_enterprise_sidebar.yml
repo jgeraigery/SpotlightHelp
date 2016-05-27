@@ -141,7 +141,7 @@ entries:
       url: /enterprise_alarm_diagnose/
       output: web, pdf
 
-    - title: Acknoweldge
+    - title: Acknowledge
       url: /enterprise_alarm_acknowledge/
       output: web, pdf
 

@@ -67,7 +67,7 @@ entries:
       url: /mobile_alarm_diagnose/
       output: web, pdf
 
-    - title: Acknoweldge
+    - title: Acknowledge
       url: /mobile_alarm_acknowledge/
       output: web, pdf
 

@@ -22,16 +22,252 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Connection details and requirements
-      url: /sqlserver_connect/
+    - title: Connection details
+      url: /sqlserver_connect_details/
+      output: web, pdf
+
+    - title: Connection requirements
+      url: /sqlserver_connect_requirements/
+      output: web, pdf
+
+    - title: Troubleshooting
+      url: /sqlserver_connect_troubleshoot/
+      output: web, pdf
+
+    - title: Grant account permissions
+      url: /sqlserver_connect_accountgrantpermissions/
       output: web, pdf
 
   - title: Alarms
     output: web, pdf
     folderitems:
 
-    - title: Alarms
-      url: /sqlserver_alarms/
+    - title: Backup - Days Since Last Full Backup
+      url: /sqlserver_alarm_backupdayssincelastfullbackup/
+      output: web, pdf
+
+    - title: Backup - Hours Since Last Differential Backup
+      url: /sqlserver_alarm_backuphourssincelastdifferentialbackup/
+      output: web, pdf
+
+    - title: Backup - Minutes Since Last Log Backup
+      url: /sqlserver_alarm_backupminutessincelastlogbackup/
+      output: web, pdf
+
+    - title: Clusters - Failed Over Alarm 
+      url: /sqlserver_alarm_clusters_failedover/
+      output: web, pdf
+
+    - title: Clusters - File Share Witness inaccessible alarm 
+      url: /sqlserver_alarm_clusters_filesharewitnessinaccessible/
+      output: web, pdf
+
+    - title: Clusters - Node Unavailable Alarm 
+      url: /sqlserver_alarm_clusters_nodeunavailable/
+      output: web, pdf
+
+    - title: Clusters - Non-Preferred Node Alarm 
+      url: /sqlserver_alarm_clusters_nonpreferrednode/
+      output: web, pdf
+
+    - title: Compiles - Percentage Recompilations Alarm 
+      url: /sqlserver_alarm_compiles_percentagerecompilations/
+      output: web, pdf
+
+    - title: Databases - Data File Group Space Used Alarm 
+      url: /sqlserver_alarm_databases_datafilegroupspaceused/
+      output: web, pdf
+
+    - title: Databases - Dynamic Data File Group Growths Remaining Alarm 
+      url: /sqlserver_alarm_databases_dynamicdatafilegroupgrowthsremaining/
+      output: web, pdf
+
+    - title: Databases - Dynamic Log File Growths Remaining Alarm
+      url: /sqlserver_alarm_databases_dynamiclogfilegrowthsremaining/
+      output: web, pdf
+
+    - title: Databases - Log File Space Used Alarm
+      url: /sqlserver_alarm_databases_logfilespaceused/
+      output: web, pdf
+
+    - title: Databases - Log Flush Wait Time Alarm
+      url: /sqlserver_alarm_databases_logflushwaittime/
+      output: web, pdf
+
+    - title: Databases - SQL I/O Errors Alarm
+      url: /sqlserver_alarm_databases_sqlioerrors/
+      output: web, pdf
+
+    - title: Databases - Unavailable Alarm
+      url: /sqlserver_alarm_databases_unavailable/
+      output: web, pdf
+
+    - title: Error Log - Error Count Alarm
+      url: /sqlserver_alarm_errorlog_errorcount/
+      output: web, pdf
+
+    - title: I/O Stall Time Alarm
+      url: /sqlserver_alarm_io_stalltime/
+      output: web, pdf
+
+    - title: Index Fragmentation Alarm
+      url: /sqlserver_alarm_index_fragmentation/
+      output: web, pdf
+
+    - title: Index Fragmentation Status Alarm
+      url: /sqlserver_alarm_index_fragmentationstatus/
+      output: web, pdf
+
+    - title: Latch - Total Wait Time Rate Alarm
+      url: /sqlserver_alarm_latch_totalwaittimerate/
+      output: web, pdf
+
+    - title: LiteSpeed Backup Alarms
+      url: /sqlserver_alarm_litespeedbackup/
+      output: web, pdf
+
+    - title: Locks - Blocked Processes Alarm
+      url: /sqlserver_alarm_locks_blockedprocesses/
+      output: web, pdf
+
+    - title: Locks - Deadlocks Alarm
+      url: /sqlserver_alarm_locks_deadlocks/
+      output: web, pdf
+
+    - title: Log Shipping - Primary Backup Job Alarm
+      url: /sqlserver_alarm_logshipping_primarybackupjob/
+      output: web, pdf
+
+    - title: Log Shipping - Secondary Job Alarm
+      url: /sqlserver_alarm_logshipping_secondaryjob/
+      output: web, pdf
+
+    - title: Log Shipping - Secondary Latency Alarm 
+      url: /sqlserver_alarm_logshipping_secondarylatency/
+      output: web, pdf
+
+    - title: Memory - Page Life Expectancy Alarm
+      url: /sqlserver_alarm_memory_pagelifeexpectancy/
+      output: web, pdf
+
+    - title: Mirroring - State Alarm
+      url: /sqlserver_alarm_mirroring_state/
+      output: web, pdf
+
+    - title: Mirroring - Unrestored Log Alarm
+      url: /sqlserver_alarm_mirroring_unrestoredlog/
+      output: web, pdf
+
+    - title: Mirroring - Unsent Log Alarm
+      url: /sqlserver_alarm_mirroring_unsentlog/
+      output: web, pdf
+
+    - title: Mirroring - Failed Over Alarm
+      url: /sqlserver_alarm_mirroring_failedover/
+      output: web, pdf
+
+    - title: Missing SQL Performance Counters Alarm
+      url: /sqlserver_alarm_missingsqlperformancecounters/
+      output: web, pdf
+
+    - title: Network - SQL Server Packets Error Rate Alarm
+      url: /sqlserver_alarm_network_sqlserverpacketserrorrate/
+      output: web, pdf
+
+    - title: Services - DTC Service Status Alarm
+      url: /sqlserver_alarm_services_dtcservicestatus/
+      output: web, pdf
+
+    - title: Services - Full Text Search Service Alarm
+      url: /sqlserver_alarm_services_fulltextsearchservice/
+      output: web, pdf
+
+    - title: Services - Integration Service Status
+      url: /sqlserver_alarm_services_integrationservicestatus/
+      output: web, pdf
+
+    - title: Services - Reporting Service Status
+      url: /sqlserver_alarm_services_reportingservicestatus/
+      output: web, pdf
+
+    - title: Services - SQL Mail Status Alarm / SQL Agent Mail Status Alarm
+      url: /sqlserver_alarm_services_sqlmailstatus/
+      output: web, pdf
+
+    - title: SQL - Long Running SQL alarm
+      url: /sqlserver_alarm_sql_longrunningsql/
+      output: web, pdf
+
+    - title: SQL Agent - Alerts Alarm
+      url: /sqlserver_alarm_sqlagent_alerts/
+      output: web, pdf
+
+    - title: SQL Agent - Jobs Failed Alarm
+      url: /sqlserver_alarm_sqlagent_jobsfailed/
+      output: web, pdf
+
+    - title: SQL Agent - Long Running Jobs Alarms
+      url: /sqlserver_alarm_sqlagent_longrunningjobs/
+      output: web, pdf
+
+    - title: SQL Agent - Status Alarm
+      url: /sqlserver_alarm_sqlagent_status/
+      output: web, pdf
+
+    - title: SQL Analysis - Aggregation Information Alarm
+      url: /sqlserver_alarm_sqlanalysis_aggregationinfo/
+      output: web, pdf
+
+    - title: SQL Custom Counters Alarm
+      url: /sqlserver_alarm_sqlcustomcounters/
+      output: web, pdf
+
+    - title: SQL Virtual Log Files Count alarm
+      url: /sqlserver_alarm_sqlvirtuallogfilescount/
+      output: web, pdf
+
+    - title: Tempdb Auto Growth
+      url: /sqlserver_alarm_tempdb_autogrowth/
+      output: web, pdf
+
+    - title: Tempdb Contention
+      url: /sqlserver_alarm_tempdb_contention/
+      output: web, pdf
+
+    - title: Tempdb File Location
+      url: /sqlserver_alarm_tempdb_filelocation/
+      output: web, pdf
+
+    - title: Tempdb File Size
+      url: /sqlserver_alarm_tempdb_filesize/
+      output: web, pdf
+
+    - title: Tempdb Growth Settings
+      url: /sqlserver_alarm_tempdb_growthsettings/
+      output: web, pdf
+
+    - title: Tempdb Number of Files
+      url: /sqlserver_alarm_tempdb_numberoffiles/
+      output: web, pdf
+
+    - title: Tempdb Version Store Generation Rate
+      url: /sqlserver_alarm_tempdb_versionstoregenerationrate/
+      output: web, pdf
+
+    - title: Tempdb Version Store Size
+      url: /sqlserver_alarm_tempdb_versionstoresize/
+      output: web, pdf
+
+    - title: User - Connection Count Alarm
+      url: /sqlserver_alarm_user_connectioncount/
+      output: web, pdf
+
+    - title: User - Logins Per Second Alarm
+      url: /sqlserver_alarm_user_loginspersecond/
+      output: web, pdf
+
+    - title: User - Response Time Alarm
+      url: /sqlserver_alarm_user_responsetime/
       output: web, pdf
 
   - title: Drilldowns

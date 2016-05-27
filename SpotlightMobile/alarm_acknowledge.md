@@ -23,7 +23,7 @@ Android | iPhone
 
 5. Tap **Save**.
 
-![Save button]({{ "/imagesMobile/screen_iOS-ack-screen.png" | prepend: site.baseurl }})
+![Save button]({{ "/imagesMobile/screen_iOS-ack-screen.PNG" | prepend: site.baseurl }})
 
 
 ## How to configure an alarm to require acknowledgment
