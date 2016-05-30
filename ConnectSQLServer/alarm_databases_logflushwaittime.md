@@ -2,7 +2,7 @@
 title: ﻿Databases - Log Flush Wait Time Alarm
 summary: "The Databases - Log Flush Wait Time alarm becomes active when the duration of the last log flush for a database exceeds a threshold."
 sidebar: c_sqlserver_sidebar
-permalink: /sqlserver_databases_logflushwaittime/
+permalink: /sqlserver_alarm_databases_logflushwaittime/
 ---
 
 
@@ -15,7 +15,7 @@ Note that Spotlight on SQL Server checks the log flush wait time for the last lo
 ## When the alarm is raised
 
 * On the SQL Server \| Databases Drilldown, select the Summary tab to review the Log Flush Wait Time counter in the Database History graph. The database with the high graph values is the one experiencing the problem. If a database has a consistently high value that never changes, run SQL command CHECKPOINT on that database to force another log flush and check the value in Spotlight on SQL Server again.
-* Select the Transaction Logs tab on the SQL Server \| Databases Drilldown to find the disks on which the log for this database resides. 
+* Select the Transaction Logs tab on the SQL Server \| Databases Drilldown to find the disks on which the log for this database resides.
 * For the connection to the Windows server host, select the Logical Disk Activity page on the Windows Server \| Disks Drilldown to check I/O service rates for the disks in question.
 * Consider moving the log files to disks that support fast write activity (for example, a fast RAID controller with write-back caching enabled).
 * Consider moving log files off RAID-5 devices as these are optimized for read activity, and log files generate mainly write activity.

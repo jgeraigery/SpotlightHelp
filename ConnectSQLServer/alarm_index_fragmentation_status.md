@@ -6,7 +6,7 @@ permalink: /sqlserver_alarm_index_fragmentationstatus/
 ---
 
 
-Another process has locked the database or table. For more information, see SQL Server | Databases Drilldown.
+Another process has locked the database or table. For more information, see SQL Server \| Databases Drilldown.
 
 ## When the alarm is raised
 

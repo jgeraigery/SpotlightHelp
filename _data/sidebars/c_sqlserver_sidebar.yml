@@ -43,15 +43,15 @@ entries:
     folderitems:
 
     - title: Backup - Days Since Last Full Backup
-      url: /sqlserver_alarm_backupdayssincelastfullbackup/
+      url: /sqlserver_alarm_backup_dayssincelastfullbackup/
       output: web, pdf
 
     - title: Backup - Hours Since Last Differential Backup
-      url: /sqlserver_alarm_backuphourssincelastdifferentialbackup/
+      url: /sqlserver_alarm_backup_hourssincelastdifferentialbackup/
       output: web, pdf
 
     - title: Backup - Minutes Since Last Log Backup
-      url: /sqlserver_alarm_backupminutessincelastlogbackup/
+      url: /sqlserver_alarm_backup_minutessincelastlogbackup/
       output: web, pdf
 
     - title: Clusters - Failed Over Alarm 
@@ -122,8 +122,12 @@ entries:
       url: /sqlserver_alarm_latch_totalwaittimerate/
       output: web, pdf
 
-    - title: LiteSpeed Backup Alarms
-      url: /sqlserver_alarm_litespeedbackup/
+    - title: LiteSpeed Backup Failed Alarm
+      url: /sqlserver_alarm_litespeed_failed/
+      output: web, pdf
+
+    - title: LiteSpeed Backup Warning Alarm
+      url: /sqlserver_alarm_litespeed_warning/
       output: web, pdf
 
     - title: Locks - Blocked Processes Alarm
@@ -430,20 +434,12 @@ entries:
       url: /sqlserver_component_sessions_user/
       output: web, pdf
 
-    - title: User Sessions
-      url: /sqlserver_component_sessions_user/
-      output: web, pdf
-
     - title: Sessions
       url: /sqlserver_component_sessions/
       output: web, pdf
 
     - title: SQL Memory
       url: /sqlserver_component_sqlmemory/
-      output: web, pdf
-
-    - title: User Sessions
-      url: /sqlserver_component_sessions_user/
       output: web, pdf
 
     - title: Support Services
