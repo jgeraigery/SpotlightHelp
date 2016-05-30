@@ -270,6 +270,202 @@ entries:
       url: /sqlserver_alarm_user_responsetime/
       output: web, pdf
 
+  - title: Spotlight Overview page
+    output: web, pdf
+    folderitems:
+
+    - title: Blocked Processes
+      url: /sqlserver_component_blockedprocesses/
+      output: web, pdf
+
+    - title: Buffer Cache size
+      url: /sqlserver_component_buffercache/
+      output: web, pdf
+
+    - title: Computers
+      url: /sqlserver_component_computers/
+      output: web, pdf
+
+    - title: CPU Usage
+      url: /sqlserver_component_cpuusage/
+      output: web, pdf
+
+    - title: Custom Counters
+      url: /sqlserver_component_customcounters/
+      output: web, pdf
+
+    - title: Databases
+      url: /sqlserver_component_databases/
+      output: web, pdf
+
+    - title: Data Files
+      url: /sqlserver_component_datafiles_disk/
+      output: web, pdf
+
+    - title: Data Files
+      url: /sqlserver_component_datafiles_number/
+      output: web, pdf
+
+    - title: Percentage of Data Files Used
+      url: /sqlserver_component_datafiles_pcnt/
+      output: web, pdf
+
+    - title: Data Files Space Used
+      url: /sqlserver_component_datafiles_space/
+      output: web, pdf
+
+    - title: Error Logs
+      url: /sqlserver_component_errorlogs/
+      output: web, pdf
+
+    - title: File Groups
+      url: /sqlserver_component_filegroups/
+      output: web, pdf
+
+    - title: Batches
+      url: /sqlserver_component_flwbatches/
+      output: web, pdf
+
+    - title: Checkpoint Page Writes
+      url: /sqlserver_component_flwcheckpointwrites/
+      output: web, pdf
+
+    - title: Compiles
+      url: /sqlserver_component_flwcompiles/
+      output: web, pdf
+
+    - title: Lazy Writes
+      url: /sqlserver_component_flwlazywrites/
+      output: web, pdf
+
+    - title: Log Flushes
+      url: /sqlserver_component_flwlogflushes/
+      output: web, pdf
+
+    - title: Logical Reads
+      url: /sqlserver_component_flwlogicalreads/
+      output: web, pdf
+
+    - title: Network Packets received
+      url: /sqlserver_component_flwnetworkpacketsreceived/
+      output: web, pdf
+
+    - title: Network Packets sent
+      url: /sqlserver_component_flwnetworkpacketssent/
+      output: web, pdf
+
+    - title: Physical Reads
+      url: /sqlserver_component_flwphysicalreads/
+      output: web, pdf
+
+    - title: Physical Writes
+      url: /sqlserver_component_flwphysicalwrites/
+      output: web, pdf
+
+    - title: Read Ahead
+      url: /sqlserver_component_flwreadahead/
+      output: web, pdf
+
+    - title: Large Index Files - Maximum Fragmentation
+      url: /sqlserver_component_fragmentationmax/
+      output: web, pdf
+
+    - title: Large Index Files - Medium Fragmentation
+      url: /sqlserver_component_fragmentationmedian/
+      output: web, pdf
+
+    - title: How is a health performance rating calculated?
+      url: /sqlserver_component_healthrating/
+      output: web, pdf
+
+    - title: Percentage of Log Files Used
+      url: /sqlserver_component_logfiles_pcnt/
+      output: web, pdf
+
+    - title: Number of Log Files
+      url: /sqlserver_component_logfiles/
+      output: web, pdf
+
+    - title: Log Space Used
+      url: /sqlserver_component_logspaceused/
+      output: web, pdf
+
+    - title: Max I/O Wait
+      url: /sqlserver_component_maxiowait/
+      output: web, pdf
+
+    - title: Max Memory Percentage
+      url: /sqlserver_component_maxmemorypcnt/
+      output: web, pdf
+
+    - title: Page Life Expectancy
+      url: /sqlserver_component_pagelifeexpectancy/
+      output: web, pdf
+
+    - title: Procedure Cache Size
+      url: /sqlserver_component_procedurecachesize/
+      output: web, pdf
+
+    - title: Response Time
+      url: /sqlserver_component_responsetime/
+      output: web, pdf
+
+    - title: Active Sessions
+      url: /sqlserver_component_sessions_active/
+      output: web, pdf
+
+    - title: Active Sessions Percentage
+      url: /sqlserver_component_sessions_activepcnt/
+      output: web, pdf
+
+    - title: System Sessions
+      url: /sqlserver_component_sessions_system/
+      output: web, pdf
+
+    - title: Total SQL Server Sessions
+      url: /sqlserver_component_sessions_total/
+      output: web, pdf
+
+    - title: User Sessions
+      url: /sqlserver_component_sessions_user/
+      output: web, pdf
+
+    - title: User Sessions
+      url: /sqlserver_component_sessions_user/
+      output: web, pdf
+
+    - title: Sessions
+      url: /sqlserver_component_sessions/
+      output: web, pdf
+
+    - title: SQL Memory
+      url: /sqlserver_component_sqlmemory/
+      output: web, pdf
+
+    - title: User Sessions
+      url: /sqlserver_component_sessions_user/
+      output: web, pdf
+
+    - title: Support Services
+      url: /sqlserver_component_supportservices/
+      output: web, pdf
+
+    - title: Tempdb
+      url: /sqlserver_component_tempdb/
+      output: web, pdf
+
+    - title: Total SQL Server Memory
+      url: /sqlserver_component_totalsqlservermemory/
+      output: web, pdf
+
+    - title: Version
+      url: /sqlserver_component_version/
+      output: web, pdf
+
+    - title: Virtualization Overhead
+      url: /sqlserver_component_virtualizationoverhead/
+      output: web, pdf
+
   - title: Drilldowns
     output: web, pdf
     folderitems:

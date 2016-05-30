@@ -6,7 +6,7 @@ permalink: /sqlserver_connect_accountgrantpermissions/
 ---
 
 
-In some environments the above may not be feasible. The following instructions are provided for these environments. Run the following SQL script (as sysadmin) to grant the required permissions to user *TrustedUser*. Note the comment lines at the end of the script and un-comment as appropriate for your environment.
+In some environments the above may not be feasible. The following instructions are provided for these environments. Run the following SQL script (as sysadmin) to grant the required permissions to user **TrustedUser**. Note the comment lines at the end of the script and un-comment as appropriate for your environment.
 
 ## Known issues with this script
 
