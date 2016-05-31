@@ -24,6 +24,8 @@ topnav_dropdowns:
           url: /sqlserver_landing_page/
         - title: SQL Server Analysis Services
           url: /analysisservices_landing_page/
+        - title: SQL Server Availability Group
+          url: /availabilitygroup_landing_page/
         - title: SQL Server Replication
           url: /replication_landing_page/
         - title: SQL Azure

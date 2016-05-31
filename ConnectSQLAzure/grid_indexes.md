@@ -17,6 +17,6 @@ You can filter the results displayed in the Indexes grid by the following criter
 * Top N Indexes
 * Size or row count
 * Index name
-* Table name 
+* Table name
 
-To filter the results, type appropriate values into the fields above the Indexes grid (wildcards are supported) and then click *Apply Filter*.
+To filter the results, type appropriate values into the fields above the Indexes grid (wildcards are supported) and then click **Apply Filter**.

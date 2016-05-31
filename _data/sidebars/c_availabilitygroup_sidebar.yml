@@ -1,0 +1,99 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Availability Group
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage/
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage/
+      output: pdf
+      type: frontmatter
+
+  - title: Connections
+    output: web, pdf
+    folderitems:
+
+    - title: Connection details and requirements
+      url: /availabilitygroup_connect_details/
+      output: web, pdf
+
+  - title: Alarms
+    output: web, pdf
+    folderitems:
+  
+    - title: Availability Group - Failed Over Alarm
+      url: /availabilitygroup_alarm_failedover/
+      output: web, pdf
+  
+    - title: Availability Group - Failover Availability Alarm
+      url: /availabilitygroup_alarm_automaticfailovernotavailable/
+      output: web, pdf
+
+    - title: Availability Group - Quorum Failure Imminent Alarm
+      url: /availabilitygroup_alarm_ quorumfailureimminent/
+      output: web, pdf
+
+    - title: Availability Group - Synchronization Health Alarm
+      url: /availabilitygroup_alarm_synchronizationhealth/
+      output: web, pdf
+
+  - title: Spotlight Product displays
+    output: web, pdf
+    folderitems:
+
+    - title: Spotlight Enterprise
+      url: /availabilitygroup_productenterprise/
+      output: web, pdf
+
+  - title: Availability Group Connection display
+    output: web, pdf
+    folderitems:
+
+    - title: Status component
+      url: /availabilitygroup_component_status/
+      output: web, pdf
+
+    - title: Synchroinization Health
+      url: /availabilitygroup_component_synchhealth/
+      output: web, pdf
+
+    - title: Primary instance
+      url: /availabilitygroup_component_primaryinstance/
+      output: web, pdf
+
+    - title: Failover indicator
+      url: /availabilitygroup_component_failoverindicator/
+      output: web, pdf
+
+    - title: Cluster
+      url: /availabilitygroup_component_cluster/
+      output: web, pdf
+
+    - title: Quorum Rating
+      url: /availabilitygroup_component_quorum/
+      output: web, pdf
+  
+    - title: Replicas grid
+      url: /availabilitygroup_grid_replicas/
+      output: web, pdf
+  
+    - title: Databases grid
+      url: /availabilitygroup_grid_databases/
+      output: web, pdf
+
+  - title: Collections
+    output: web, pdf
+    folderitems:
+
+    - title: Collections
+      url: /availabilitygroup_collections/
+      output: web, pdf
