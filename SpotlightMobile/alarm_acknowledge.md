@@ -10,18 +10,18 @@ permalink: /mobile_alarm_acknowledge/
 ## How to acknowledge an alarm
 
 1. Locate the alarm on the Alarm list.
-2. Tap the alarm severity icon for more detail on the alarm.
-3. Tap to acknowledge the alarm.
+1. Tap the alarm severity icon for more detail on the alarm.
+1. Tap to acknowledge the alarm.
    
    Android | iPhone
    --------|-------
    ![Ack Android]({{ "/imagesMobile/tap_android-ack-icon.png" | prepend: site.baseurl }}) | ![Ack ios]({{ "/imagesMobile/tap_Ack-button-iOs.png" | prepend: site.baseurl }})
    
-4. You may want to enter a comment on acknowledging the alarm. The comment shows up in the Alarm Log on the Spotlight Client.
-
-![Acknowledge comment]({{ "/imagesMobile/screen_iOS-ack-comment.png" | prepend: site.baseurl }})
-
-5. Tap **Save**.
+1. You may want to enter a comment on acknowledging the alarm. The comment shows up in the Alarm Log on the Spotlight Client.
+   
+   ![Acknowledge comment]({{ "/imagesMobile/screen_iOS-ack-comment.png" | prepend: site.baseurl }})
+   
+1. Tap **Save**.
 
 ![Save button]({{ "/imagesMobile/screen_iOS-ack-screen.PNG" | prepend: site.baseurl }})
 
