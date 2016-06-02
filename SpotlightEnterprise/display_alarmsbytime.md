@@ -21,7 +21,7 @@ List of connections and alarms | The vertical axis of the chart contains a tree 
 
 
 ## Filter alarms by time
-![Filter]({{ "/imagesClient/tb_action_changefilter.PNG" | prepend: site.baseurl }})
+![Filter]({{ "/imagesClient/tb_action_changefilter.png" | prepend: site.baseurl }})
 Filter the alarms by time display from the Filter ribbon group.
 
 Ribbon Select | Description
@@ -38,6 +38,6 @@ Icon | Ribbon Select | Description
 ![Diagnose]({{ "/imagesClient/tb_action_diagnose.png" | prepend: site.baseurl }}) | Diagnose | Show the drilldown relevant to the selected alarm.
 ![Alarm Settings]({{ "/imagesClient/tb_action_settings.png" | prepend: site.baseurl }}) | Alarm Settings | Configure the selected alarm by opening the Alarms dialog.
 ![Ignore this Alarm]({{ "/imagesClient/tb_action_ignorealarm.png" | prepend: site.baseurl }}) | Ignore this Alarm | Configure Spotlight to ignore this alarm and future cases of this alarm. Select the rule by which you want Spotlight to ignore future cases of this alarm: ignore this alarm for the current value or for the current connection. The choices are dependent on the type of alarm. This is a simplified interface for Configure \| Alarms \| Do not alarm for certain values.
-![Alarm log]({{ "/imagesClient/tb_alarms_log.PNG" | prepend: site.baseurl }}) | Show in Alarm Log | Show the selected alarm in the alarm log.
+![Alarm log]({{ "/imagesClient/tb_alarms_log.png" | prepend: site.baseurl }}) | Show in Alarm Log | Show the selected alarm in the alarm log.
 ![Find]({{ "/imagesClient/tb_grid_find.png" | prepend: site.baseurl }}) | Find | Find text in the display.
 ![Find]({{ "/imagesClient/tb_action_collapseall.png" | prepend: site.baseurl }}) | Collapse All | Collapse the tree view of the display.
