@@ -6,7 +6,7 @@ sidebar: p_enterprise_sidebar
 permalink: /enterprise_alarmlog/
 ---
 
-![Alarm log]({{ "/imagesClient/tb_alarms_log.PNG" | prepend: site.baseurl }})
+![Alarm log]({{ "/imagesClient/tb_alarms_log.png" | prepend: site.baseurl }})
 
 ## About the alarm log grid
 
@@ -29,7 +29,7 @@ Acknowledgment Comment | The comment entered by the user when they acknowledged 
 
 
 ## Filter the alarm log
-![Filter]({{ "/imagesClient/tb_action_changefilter.PNG" | prepend: site.baseurl }})
+![Filter]({{ "/imagesClient/tb_action_changefilter.png" | prepend: site.baseurl }})
 Filter the Alarm log from the Filter ribbon group.
 
 Ribbon Select | Description
@@ -44,8 +44,8 @@ These actions are selectable from the Action ribbon group while the alarm log is
 
 Icon | Ribbon Select | Description
 -----|---------------|-------------
-![Diagnose]({{ "/imagesClient/tb_action_diagnose.PNG" | prepend: site.baseurl }}) | Diagnose | Show the drilldown relevant to the selected alarm.
-![Alarm Settings]({{ "/imagesClient/tb_action_settings.PNG" | prepend: site.baseurl }}) | Alarm Settings | Configure the selected alarm.
-![Ignore this Alarm]({{ "/imagesClient/tb_action_ignorealarm.PNG" | prepend: site.baseurl }}) | Ignore this Alarm | Configure Spotlight to ignore this alarm and future cases of this alarm. Select the rule by which you want Spotlight to ignore future cases of this alarm: ignore this alarm for the current value or for the current connection. The choices are dependent on the type of alarm. This is a simplified interface for Configure \| Alarms \| Do not alarm for certain values.
-![Show in Alarms by Time]({{ "/imagesClient/tb_alarms_time.PNG" | prepend: site.baseurl }}) | Show in Alarms by Time | Show the selected alarm in alarms by time.
-![Find]({{ "/imagesClient/tb_grid_find.PNG" | prepend: site.baseurl }}) | Find | Find text in the display.
+![Diagnose]({{ "/imagesClient/tb_action_diagnose.png" | prepend: site.baseurl }}) | Diagnose | Show the drilldown relevant to the selected alarm.
+![Alarm Settings]({{ "/imagesClient/tb_action_settings.png" | prepend: site.baseurl }}) | Alarm Settings | Configure the selected alarm.
+![Ignore this Alarm]({{ "/imagesClient/tb_action_ignorealarm.png" | prepend: site.baseurl }}) | Ignore this Alarm | Configure Spotlight to ignore this alarm and future cases of this alarm. Select the rule by which you want Spotlight to ignore future cases of this alarm: ignore this alarm for the current value or for the current connection. The choices are dependent on the type of alarm. This is a simplified interface for Configure \| Alarms \| Do not alarm for certain values.
+![Show in Alarms by Time]({{ "/imagesClient/tb_alarms_time.png" | prepend: site.baseurl }}) | Show in Alarms by Time | Show the selected alarm in alarms by time.
+![Find]({{ "/imagesClient/tb_grid_find.png" | prepend: site.baseurl }}) | Find | Find text in the display.

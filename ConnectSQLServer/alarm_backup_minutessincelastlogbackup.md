@@ -10,9 +10,7 @@ permalink: /sqlserver_alarm_backup_minutessincelastlogbackup/
 
 
 
-﻿
-<note type="note">This alarm is not activated for missing backups of the <uicontrol>tempdb</uicontrol> database.</note>
-
+{% include note.html content="This alarm is not activated for missing backups of the **tempdb** database." %}
 
 When this alarm is current, you should:
 

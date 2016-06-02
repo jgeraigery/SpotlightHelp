@@ -11,18 +11,13 @@ permalink: /sqlserver_alarm_backup_hourssincelastdifferentialbackup/
 
 Differential backups are important for mission-critical databases.
 
-<note type="note">This alarm is not activated for missing backups of the <uicontrol>tempdb</uicontrol> database.</note>
-</context>
+{% include note.html content="This alarm is not activated for missing backups of the **tempdb** database." %}
 
-<steps-unordered>
-<stepsection>When this alarm is current, you should:</stepsection>
-<step><cmd>Check the date and time of the last backup.</cmd>
-<info>You will find this information on the <uicontrol>Databases</uicontrol> drilldown in the <uicontrol>Databases</uicontrol> grid.
-Set the <uicontrol>Database View</uicontrol> to <uicontrol>Backup Status</uicontrol>.</info></step>
-<step><cmd>Ensure you have appropriate backups of all necessary databases.</cmd></step>
-</steps-unordered>
-<postreq>
 
+When this alarm is current, you should:
+
+*  Check the date and time of the last backup.<br>You will find this information on the **Databases** drilldown in the **Databases** grid. Set the **Database View**to **Backup Status**.
+*  Ensure you have appropriate backups of all necessary databases.
 
 To exclude certain databases from the Backup - Hours Since Last Differential Backup Alarm:
 

@@ -2,25 +2,24 @@
 title: Backup - Days Since Last Full Backup Alarm
 summary: "The Backup - Days Since Last Full Backup Alarm becomes active when Spotlight detects that a full backup on the SQL Server database has never taken place or has not taken place in the last three days."
 sidebar: c_sqlserver_sidebar
+layout: "none"
 permalink: /sqlserver_alarm_backup_dayssincelastfullbackup/
 ---
 
 
 
-
-﻿<note type="note">This alarm is not activated for missing backups of the tempdb database.</note>
+{% include note.html content="This alarm is not activated for missing backups of the tempdb database." %}
 
 When this alarm is raised, you should:
 
-*  Check the date and time of the last backup from the <uicontrol>Databases</uicontrol> drilldown | <uicontrol>Databases</uicontrol> grid.</p></li>
-*   Ensure you have appropriate backups of all necessary databases.</p></li>
+*   Check the date and time of the last backup from the **Databases** drilldown \| **Databases** grid.
+*   Ensure you have appropriate backups of all necessary databases.
 
 To configure the Backup - Days since Last Full Backup alarm
-<ol>
-  <li>On the Spotlight home page, right-click the <uicontrol>Databases</uicontrol> button and select <uicontrol>Alarm Settings</uicontrol>.</li>
-  <li>Select <uicontrol>Backup - Days since Last Full Backup</uicontrol>.</li>
-  <li>Select <uicontrol>Override the default settings for the alarm</uicontrol>.</li>
-</ol>
+
+*  On the Spotlight home page, right-click the **Databases** button and select **Alarm Settings**
+*  Select **Backup - Days since Last Full Backup**
+*  Select **Override the default settings for the alarm**
 
 Use the Severity table to customize the number of days and the severity. By default 0 to 3 days is Normal. A High severity alarm is raised after 3 days. Click in the table to edit the values. Decimal values can be used to indicate portions of a day. For example you could edit the table to raise a high severity alarm after 3.5 (3 and a half) days or 3.25 (3 and a quarter days).
 
