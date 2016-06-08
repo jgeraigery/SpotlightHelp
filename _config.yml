@@ -67,7 +67,7 @@ defaults:
       path: ""
       type: "balloonhelp"
     values:
-      layout: "none"
+      layout: "balloonhelp"
       comments: false
       search: false
 
