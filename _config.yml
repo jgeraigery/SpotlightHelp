@@ -27,7 +27,7 @@ exclude:
   - .idea/
 # these are the files and directories that jekyll will exclude from the build
 
-#feedback_email: 
+#feedback_email:
 # used as a contact email for the Feedback link in the top navigation bar
 
 feedback_disable: true
@@ -47,8 +47,9 @@ kramdown:
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
 collections:
-  tooltips:
-    output: false
+  balloonhelp:
+    output: true
+    permalink: /balloonhelp/:path/
 # collection declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output.
 
 defaults:
@@ -58,28 +59,17 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      comments: true
+      comments: false
       search: true
       sidebar: home_sidebar
   -
     scope:
       path: ""
-      type: "tooltips"
+      type: "balloonhelp"
     values:
-      layout: "page"
-      comments: true
-      search: true
-      tooltip: true
-
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
-      search: true
-      sidebar: tags_sidebar
+      layout: "none"
+      comments: false
+      search: false
 
 # these are defaults used for the frontmatter for these file types
 
