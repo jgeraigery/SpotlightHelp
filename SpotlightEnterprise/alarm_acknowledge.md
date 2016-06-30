@@ -2,14 +2,14 @@
 title: Acknowledge alarms
 tags: [acknowledge]
 keywords: alarms, acknowledge
-summary: "When an alarm is configured to require acknowledgment each raised instance of the alarm remains present in Spotlight until the instance is acknowledged. Not all alarms require acknowledgment."
+summary: "When an alarm is configured to require acknowledgment each raised instance of the alarm remains present in Spotlight until the instance is acknowledged."
 sidebar: p_enterprise_sidebar
 permalink: /enterprise_alarm_acknowledge/
 ---
 
 ## How to acknowledge an alarm
 
-An alarm can be acknowledged from Spotlight today or Spotlight home page.
+An alarm can be acknowledged from Spotlight Today or a Spotlight Overview Page.
 
 ## Look up an alarm once it has been acknowledged
 

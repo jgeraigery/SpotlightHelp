@@ -1,7 +1,7 @@
 ---
-title: Configure connections
-keywords: sample
-summary: "Spotlight connects to the SQL Server, Windows Server and other supported connection types in your enterprise. Spotlight monitors the activity and performance of these connections. Use this screen to add and remove connections and configure connection properties."
+title: Configure Connections
+tags: [connection_details]
+summary: "Connect Spotlight to the SQL Server, Windows Server and other supported connection types in your enterprise. Add and remove connections and configure connection properties."
 sidebar: p_enterprise_sidebar
 permalink: /enterprise_cfg_connect/
 ---
@@ -10,8 +10,11 @@ permalink: /enterprise_cfg_connect/
 
 ## Add new connection
 
-Double click Add new connection. You may be prompted to enter New Connection Details.
-You will be prompted to fill in the connection properties.
+From the Spotlight Client
+
+1. Click Configure \| Connections.
+2. Double click **Add new connection**. You may be prompted to enter New Connection Details.
+3. You will be prompted to fill in the connection properties.
 
 Properties | Description
 -----------|------------
@@ -20,17 +23,29 @@ Tags | Tags are a free form organizational tool that may be optionally applied t
 
 ## Discover
 
-Double click Discover from the list of All connections, SQL Server or Windows.
-
 The Connection Discovery Wizard is used to locate resources on the network to add as Spotlight connections. The Connection Discovery Wizard can be used to locate SQL Server instances or Windows Servers. See the Connection Discovery Wizard.
+
+From the Spotlight Client
+
+1. Click Configure \| Connections.
+2. Double click **Discover** from the list of All connections, SQL Server or Windows.
+
+
 
 ## Diagnose
 
-Double click on the connection or click Diagnose to open the connection Spotlight home page.
+From the Spotlight Client
+
+1. Click Configure \| Connections.
+2. Double click on the connection or click **Diagnose** to open the Spotlight Overview Page for the connection.
+
 
 ## Properties
 
-Right click the connection and select Properties.
+From the Spotlight Client
+
+1. Click Configure \| Connections.
+2. Right click the connection and select **Properties**.
 
 Properties | Description
 -----------|------------
@@ -40,6 +55,9 @@ Monitoring | Edit connection monitoring settings
 
 ## Delete
 
-Right-click the connection and select Delete.
+From the Spotlight Client
+
+1. Click Configure \| Connections.
+2. Right-click on the connection and select **Delete**.
 
 If you have customized the alarms set for this connection or the scheduling information then those customizations will be deleted with the connection. You may like to backup your customizations before you delete the connection. To do so, backup the \Agent\Conf folder in the Spotlight Spotlight Diagnostic Server installation folder.

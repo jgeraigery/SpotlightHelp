@@ -2,15 +2,17 @@
 title: Spotlight overview pages
 tags: [overview_page]
 keywords: overview page, drilldowns
-summary: "The Spotlight overview page captures the performance of a single monitored connection. The flows and components are updated in real time to highlight obvious bottlenecks and problem areas and color coded to indicate when an alarm is raised."
+summary: "A Spotlight overview page captures the performance of a single monitored connection. Flows and components are updated in real time to highlight obvious bottlenecks and problem areas and color coded to indicate when an alarm is raised."
 sidebar: p_enterprise_sidebar
 permalink: /enterprise_overview/
 ---
 
 
-## Home page components
+## Flows and Components
 
 Each Spotlight home page component has various associated statistics.
+
+## Description of flows and components
 
 Action | Description
 -------|------------
@@ -21,16 +23,18 @@ Right click on the component | Select from the various options.
 
 {% include note.html content="During a planned outage, all home page controls are disabled except Status. A Monitored Server - Planned Outage alarm is raised against the Status control. For more information, see Configure \| Planned Outage." %}
 
+## Component color
 
 If the component's color is other than green then the component is in an alarm state. Click on the component for help to resolve the alarm. For more information, see What's this?.
 
 Connection drilldowns are tailored to the connection type.
 
 
-## Right click on the Spotlight home page component
+## What's This?
 
-### What's This?
- Show help on the component.
+Right click on the Spotlight Overview Page component and select **What's This?**.
+
+Show help on the component.
 
 Icon | Description
 -----|------------
@@ -39,7 +43,9 @@ Icon | Description
 
 The behavior of What's This is configurable. For more information, see Home page click action.
 
-### Show History
+## Show History
+
+Right click on the Spotlight Overview Page component and select **Show History**.
 
 Show the component's history in a popup chart.
 
@@ -49,11 +55,15 @@ Right-click the chart to set the time frame.
 
 For more historical views see Playback
 
-### Show Details
+## Show Details
 
-Open a Spotlight drilldown page with more numeric detail related to this Spotlight home page component.
+Right click on the Spotlight Overview Page component and select **Show Details**.
 
-### Copy to Clipboard
+Open a Spotlight drilldown page with more numeric detail related to this Spotlight Overview Page component.
+
+## Copy to Clipboard
+
+Right click on the Spotlight Overview Page  component and select **Copy to Clipboard**.
 
 Copy numeric data associated with the component to the clipboard. Paste from the clipboard to the desired destination –  as text within a text editor.
 

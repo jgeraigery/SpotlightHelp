@@ -1,6 +1,6 @@
 ---
-title: Collections
-keywords: mydoc
+title: VMware collections
+tags: [collections]
 summary: "The following collections are used for the displays."
 sidebar: c_vmware_sidebar
 permalink: /vmware_collections/

@@ -21,7 +21,9 @@ Run a Program Dialog | Run a program when an alarm is raised. The tag name can b
 
 
 
-## To replace / add / delete tags, open this screen from the Spotlight Client
+## Replace / add / delete tags
+
+From the Spotlight Client
 
 1. Click Configure \| Connections.
 2. Right-click the connection and select Properties \| Tags.
@@ -65,9 +67,9 @@ Use to add a tag to the list of tags.
 
 Use to delete a tag from the list of tags.
 
-Select the tag in the list of tags.
-The tag appears in the Value field.
-Click Delete.
+1. Select the tag in the list of tags.
+2. The tag appears in the Value field.
+3. Click Delete.
 
 
 Note: Read-only users cannot Add, Replace and Delete tags. For more information, see Spotlight diagnostic user groups.

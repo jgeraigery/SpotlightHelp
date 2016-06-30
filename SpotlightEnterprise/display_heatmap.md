@@ -2,27 +2,24 @@
 title: Heatmap
 tags: [heatmap]
 keywords: heatmap
-summary: "The Heat Map is an accurate reflection of the current environment. The Heat Map organizes connections based on the comparative number and severity of alarms raised against them. It refreshes itself automatically when connections are added and removed and when there is a change in the alarm status of the connections. Connections are removed from the heat map when monitoring is disabled and while they are in planned outage. The Heat Map answers the question: Which monitored connections require the most urgent attention?"
+summary: "The Heat Map display organizes connections based on the comparative number and severity of alarms raised against them. Connections with the most alarms raised against them are given the most surface area on the heat map. The heatmap refreshes itself automatically when connections are added and removed and when there is a change in the alarm status of the connections. Connections are removed from the heat map when monitoring is disabled and while they are in planned outage. The Heat Map answers the question: Which monitored connections require the most urgent attention?"
 sidebar: p_enterprise_sidebar
 permalink: /enterprise_heatmap/
 ---
 
 
-## About the heat map
-Connections with the most alarms raised against them are given the most surface area on the heat map.
-
-### Hover the mouse over a connection
+## Hover the mouse over a connection
 
 *  Show the full name of the connection
 *  Show the connection type (For example: SQL Server, Windows, Analysis Services, SQL Azure)
 *  Show the top 5 alarms currently raised against the connection
 *  If there are more than 5 alarms, list the remaining alarm counts of each severity
 
-### Click on a connection
+## Click on a connection
 
 Open the Spotlight Overview page for the connection.
 
-## Color
+## Connection color
 
 Connections are colored according to the most severe current alarm.
 

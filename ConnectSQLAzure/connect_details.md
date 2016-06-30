@@ -1,6 +1,6 @@
 ---
-title: Connection details
-keywords: mydoc
+title: SQL Azure Connection details
+tags: [connection_details]
 summary: "Specify the connection details for a SQL Azure database."
 sidebar: c_sqlazure_sidebar
 toc: false

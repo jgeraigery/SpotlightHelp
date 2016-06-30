@@ -1,6 +1,6 @@
 ---
-title: Collections
-keywords: mydoc
+title: SQL Server collections
+tags: [collections]
 summary: "The following collections are used for displays (home page components and drilldowns)."
 sidebar: c_sqlserver_sidebar
 permalink: /sqlserver_collections/

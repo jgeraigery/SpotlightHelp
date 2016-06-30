@@ -1,5 +1,6 @@
 ---
 title: Availability Group Collections
+tags: [collections]
 summary: "The following collections are used for displays (home page components and drilldowns)."
 sidebar: c_availabilitygroup_sidebar
 permalink: /availabilitygroup_collections/

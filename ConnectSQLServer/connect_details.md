@@ -1,5 +1,6 @@
 ---
-title: Connection details
+title: SQL Server Connection details
+tags: [connection_details]
 summary: "Specify the connection details for a SQL Server database."
 sidebar: c_sqlserver_sidebar
 permalink: /sqlserver_connect_details/

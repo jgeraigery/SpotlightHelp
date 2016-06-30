@@ -1,6 +1,6 @@
 ---
-title: Connection details
-keywords: mydoc
+title: Hyper-V Connection details
+tags: [connection_details]
 summary: "Specify the connection details for a Hyper-V server."
 sidebar: c_hyperv_sidebar
 toc: true

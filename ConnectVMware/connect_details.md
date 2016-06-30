@@ -1,6 +1,6 @@
 ---
-title: Connection details
-keywords: mydoc
+title: VMware Connection details
+tags: [connection_details]
 summary: "Specify the connection details for a VMware® connection to an ESX Server™ or VirtualCenter server hosting a Windows server®."
 sidebar: c_vmware_sidebar
 toc: false

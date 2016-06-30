@@ -6,6 +6,12 @@ sidebar: p_enterprise_sidebar
 permalink: /enterprise_connect_plannedoutage/
 ---
 
+## Schedule a planned outage
+
+To schedule maintenance times
+
+*  Click Configure \| Planned Outage.
+
 
 ## During a planned outage
 
@@ -17,12 +23,6 @@ Icon | Ribbon Select | Description
 ![Alarms by time]({{ "/imagesClient/tb_alarms_time.png" | prepend: site.baseurl }}) | Monitor \| Alarms by Time | A Monitored Server Planned Outage alarm is raised when planned outage begins. This information alarm clears when the planned outage completes.
 ![Alarm log]({{ "/imagesClient/tb_alarms_log.png" | prepend: site.baseurl }}) | Monitor \| Alarm Log |
 ![Spotlight overview page]({{ "/imagesClient/tb_drilldown_home.png" | prepend: site.baseurl }}) | Monitor \| Home | During a planned outage, all controls are disabled except Status. A Monitored Server - Planned Outage alarm is raised against the Status control.
-
-## Schedule a planned outage
-
-To schedule maintenance times
-
-*  Click Configure \| Planned Outage.
 
 
 ## Resume monitoring

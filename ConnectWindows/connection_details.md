@@ -1,6 +1,6 @@
 ---
-title: Connection Details
-keywords: sample
+title: Windows Connection Details
+tags: [connection_details]
 summary: "Spotlight homepages highlight obvious bottlenecks and problem areas for a connection."
 sidebar: c_windows_sidebar
 permalink: /windows_connection_details/
