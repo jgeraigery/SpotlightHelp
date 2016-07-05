@@ -1,9 +1,9 @@
 ---
-title: Connections display
+title: Connection Type
 keywords: sample
 summary: "The left hand side of the Spotlight Client window lists the monitored databases, instances and servers in your enterprise. These are grouped according to connection type. Additionally, you can group connections into Custom views."
 sidebar: p_enterprise_sidebar
-permalink: /enterprise_connect_display/
+permalink: /enterprise_connect_type/
 ---
 
 

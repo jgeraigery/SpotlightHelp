@@ -1,10 +1,49 @@
 ---
-title: Connections display
+title: Monitoring connections and Spotlight Enterprise connection displays
 keywords: sample
 summary: "The left hand side of the Spotlight Client window lists the monitored databases, instances and servers in your enterprise. These are grouped according to connection type. Additionally, you can group connections into Custom views."
 sidebar: p_enterprise_sidebar
-permalink: /enterprise_connect_display/
+permalink: /enterprise_connection/
 ---
+
+Spotlight monitors the activity and performance of these connections.
+
+## Customized views
+
+
+
+
+
+## Displays  of all monitored connections
+
+The Heatmap, Spotlight Today, Alarms by Time and the Alarm Log can be used to
+
+
+Click Monitor | Spotlight Today from the Spotlight ribbon to show all monitored connections in Spotlight Today.
+
+Spotlight Today can show a custom view (Custom views) of monitored connections. Click on a custom view or connection type from the Connections pane (Monitored connections) then click Spotlight Today from the display pane.
+
+To open Spotlight Today for just one connection, right click on the connection in the Connections pane (Monitored connections) and select Spotlight Today.
+
+
+## Real time displays monitoring all connections of a connection type
+
+
+
+## Real time displays monitoring all connections in a customized view
+
+
+
+
+## Real time displays monitoring a single connection
+
+
+
+
+
+## Color and number
+
+Alongside the connection type or custom view there are color and number indicators. The color indicates alarm severity. Each connection is colored according to the highest severity alarm raised against the connection or a component of that connection. The number indicates the number of connections in that color.
 
 
 ## Monitored databases, instances and servers in your enterprise
@@ -26,9 +65,7 @@ VMware | Show the status of all virtual machines on a monitored VMware server.
 Windows | Show all monitored Windows Servers.
 Spotlight Diagnostic Server | Show the status of Spotlight Diagnostic Server in the Spotlight deployment.  
 
-## Color and number
 
-Alongside the connection type or custom view there are color and number indicators. The color indicates alarm severity. Each connection is colored according to the highest severity alarm raised against the connection or a component of that connection. The number indicates the number of connections in that color.
 
 ## Spotlight displays for custom views and connection type
 
