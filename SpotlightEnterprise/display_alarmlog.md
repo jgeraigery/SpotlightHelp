@@ -8,6 +8,14 @@ permalink: /enterprise_alarmlog/
 
 ![Alarm log]({{ "/imagesClient/tb_alarms_log.png" | prepend: site.baseurl }})
 
+
+## Open the Alarm log
+
+Click **Monitor \| Alarm log** from the Spotlight ribbon to open the Alarm log for all monitored connections.
+
+{% include tip.html content="The Alarm log can be opened to show a custom view of monitored connections or a view of all connections of a specific type. From the left Connections pane, click on a custom view or connection type then click **Alarm log** from the display pane. To open the Alarm log for just one connection, right click on the connection in the Connections pane then click **Alarm log** from the display pane." %}
+
+
 ## About the alarm log grid
 
 The alarm log grid is made up of rows and columns where each row represents an alarm and each column information about that alarm.
@@ -17,8 +25,8 @@ Column | Description
 Time | The time the alarm was raised or canceled.
 Connection | The connection the alarm was raised on.
 Connection Type | The type of connection the alarm was raised on (for example, SQL Server). This column is hidden by default.
-Details | A brief description of the cause of the alarm. For more information, right click on the alarm and select What's This?.
-Severity | The degree of urgency of the alarm. The color used depends on the severity of the alarm.
+Details | A brief description of the cause of the alarm. For more information, right click on the alarm and select **What's This?**.
+Severity | The degree of urgency of the alarm. The color indicates the severity of the alarm.
 Alarm | The name of the alarm.
 Snoozed By | The user who requested the alarm be snoozed.
 Snoozed Until | The alarm is snoozed until this time.
@@ -44,8 +52,8 @@ These actions are selectable from the Action ribbon group while the alarm log is
 
 Icon | Ribbon Select | Description
 -----|---------------|-------------
-![Diagnose]({{ "/imagesClient/tb_action_diagnose.png" | prepend: site.baseurl }}) | Diagnose | Show the drilldown relevant to the selected alarm.
+![Diagnose]({{ "/imagesClient/tb_action_diagnose.png" | prepend: site.baseurl }}) | Diagnose | Drilldown on data from the connection relevant to the selected alarm.
 ![Alarm Settings]({{ "/imagesClient/tb_action_settings.png" | prepend: site.baseurl }}) | Alarm Settings | Configure the selected alarm.
-![Ignore this Alarm]({{ "/imagesClient/tb_action_ignorealarm.png" | prepend: site.baseurl }}) | Ignore this Alarm | Configure Spotlight to ignore this alarm and future cases of this alarm. Select the rule by which you want Spotlight to ignore future cases of this alarm: ignore this alarm for the current value or for the current connection. The choices are dependent on the type of alarm. This is a simplified interface for Configure \| Alarms \| Do not alarm for certain values.
+![Ignore this Alarm]({{ "/imagesClient/tb_action_ignorealarm.png" | prepend: site.baseurl }}) | Ignore this Alarm | Request Spotlight ignore this alarm and future cases of this alarm. For future cases, request Spotlight ignore this alarm for the current value or for the current connection. The choices are dependent on the type of alarm. This is a simplified interface for Configure \| Alarms \| Do not alarm for certain values.
 ![Show in Alarms by Time]({{ "/imagesClient/tb_alarms_time.png" | prepend: site.baseurl }}) | Show in Alarms by Time | Show the selected alarm in alarms by time.
 ![Find]({{ "/imagesClient/tb_grid_find.png" | prepend: site.baseurl }}) | Find | Find text in the display.

@@ -1,11 +1,18 @@
 ---
-title: Spotlight overview pages
+title: Spotlight Enterprise Overview pages
 tags: [overview_page]
 keywords: overview page, drilldowns
 summary: "A Spotlight overview page captures the performance of a single monitored connection. Flows and components are updated in real time to highlight obvious bottlenecks and problem areas and color coded to indicate when an alarm is raised."
 sidebar: p_enterprise_sidebar
 permalink: /enterprise_overview/
 ---
+
+
+## Open the Spotlight Overview page
+
+From the left Connections pane, click on the connection. Click on the connection.
+
+{% include tip.html content="There are many ways to open the Spotlight Overview page. From the Heatmap, left click on a connection to open the Spotlight Overview page for that connection." %}
 
 
 ## Flows and Components

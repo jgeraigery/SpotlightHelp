@@ -1,5 +1,5 @@
 ---
-title: Heatmap
+title: Spotlight Enterprise Heatmap
 tags: [heatmap]
 keywords: heatmap
 summary: "The Heat Map display organizes connections based on the comparative number and severity of alarms raised against them. Connections with the most alarms raised against them are given the most surface area on the heat map. The heatmap refreshes itself automatically when connections are added and removed and when there is a change in the alarm status of the connections. Connections are removed from the heat map when monitoring is disabled and while they are in planned outage. The Heat Map answers the question: Which monitored connections require the most urgent attention?"
@@ -8,20 +8,16 @@ permalink: /enterprise_heatmap/
 ---
 
 
-## Hover the mouse over a connection
+## Open the Heatmap
 
-*  Show the full name of the connection
-*  Show the connection type (For example: SQL Server, Windows, Analysis Services, SQL Azure)
-*  Show the top 5 alarms currently raised against the connection
-*  If there are more than 5 alarms, list the remaining alarm counts of each severity
+Click **Monitor \| Heat Map** from the Spotlight ribbon to open the Heat Map showing all monitored connections.
 
-## Click on a connection
+{% include tip.html content="The Heatmap can be opened showing a custom view of monitored connections. From the left Connections pane, click on a custom view or connection type then click **Heat Map** from the display pane." %}
 
-Open the Spotlight Overview page for the connection.
 
-## Connection color
+## Connection color and surface area
 
-Connections are colored according to the most severe current alarm.
+The Heat Map display organizes connections based on the comparative number and severity of alarms raised against them. Connections with the most alarms raised against them are given the most surface area on the heat map. Connections are colored according to the most severe current alarm.
 
 Default Color | Severity | Description
 --------------|----------|------------
@@ -30,6 +26,22 @@ Default Color | Severity | Description
 ![Low color]({{ "/imagesClient/icon_alarm_yellow.png" | prepend: site.baseurl }})  | Low | At least one low severity alarm is raised against this connection. No high or medium severity alarms are raised.
 ![Medium color]({{ "/imagesClient/icon_alarm_orange.png" | prepend: site.baseurl }})  | Medium | At least one medium severity alarm is raised against this connection. No high severity alarms are raised.
 ![High color]({{ "/imagesClient/icon_alarm_red.png" | prepend: site.baseurl }})  | High | At least one high severity alarm is raised against this connection.
+
+
+
+## Drilldown on a connection
+
+### Hover the mouse over a connection
+
+*  Show the full name of the connection
+*  Show the connection type (For example: SQL Server, Windows, Analysis Services, SQL Azure)
+*  Show the top 5 alarms currently raised against the connection
+*  If there are more than 5 alarms, list the remaining alarm counts of each severity
+
+
+### Click on a connection
+
+Open the Spotlight Overview page for the connection
 
 
 ## Configure

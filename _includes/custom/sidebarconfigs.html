@@ -4,12 +4,6 @@
 {% elsif page.sidebar == "product1_sidebar" %}
 {% assign sidebar = site.data.sidebars.product1_sidebar.entries %}
 
-{% elsif page.sidebar == "product2_sidebar" %}
-{% assign sidebar = site.data.sidebars.product2_sidebar.entries %}
-
-{% elsif page.sidebar == "mydoc_sidebar" %}
-{% assign sidebar = site.data.sidebars.mydoc_sidebar.entries %}
-
 {% elsif page.sidebar == "tags_sidebar" %}
 {% assign sidebar = site.data.sidebars.tags_sidebar.entries %}
 
@@ -58,6 +52,10 @@
 {% comment %}
 sidebar configuration for print files
 {% endcomment %}
+
+{% if site.product == "SpotlightEnterprise" %}
+{% assign sidebar_pdf = site.data.sidebars.p_enterprise_sidebar.entries %}
+{% endif %}
 
 {% if site.product == "mydoc" %}
 {% assign sidebar_pdf = site.data.sidebars.mydoc_sidebar.entries %}
