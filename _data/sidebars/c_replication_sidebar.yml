@@ -23,7 +23,7 @@ entries:
     folderitems:
 
     - title: Connection details and requirements
-      url: /replication_connect
+      url: /replication_connect.html
       output: web, pdf
 
   - title: Alarms
@@ -31,7 +31,7 @@ entries:
     folderitems:
 
     - title: Alarms
-      url: /replication_alarms
+      url: /replication_alarms.html
       output: web, pdf
 
   - title: Drilldowns
@@ -39,7 +39,7 @@ entries:
     folderitems:
 
     - title: Drilldowns
-      url: /replication_drilldowns
+      url: /replication_drilldowns.html
       output: web, pdf
 
   - title: Collections
@@ -47,5 +47,5 @@ entries:
     folderitems:
 
     - title: Collections
-      url: /replication_collections
+      url: /replication_collections.html
       output: web, pdf

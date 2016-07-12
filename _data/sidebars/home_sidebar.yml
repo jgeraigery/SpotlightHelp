@@ -10,64 +10,64 @@ entries:
     output: web
     folderitems:
     - title: Spotlight Enterprise
-      url: /enterprise_welcome
+      url: /enterprise_welcome.html
       output: web
     - title: Spotlight Developer
-      url: /developer_landing_page
+      url: /dev_landing_page.html
       output: web
     - title: Spotlight Cloud
-      url: /cloud_landing_page
+      url: /cloud_landing_page.html
       output: web
     - title: Spotlight Mobile
-      url: /mobile_welcome
+      url: /mobile_welcome.html
       output: web
 
   - title: Connections
     output: web
     folderitems:
     - title: SQL Server
-      url: /sqlserver_landing_page
+      url: /sqlserver_landing_page.html
       output: web
     - title: SQL Server Analysis Services
-      url: /analysisservices_landing_page
+      url: /analysisservices_landing_page.html
       output: web
     - title: SQL Server Replication
-      url: /replication_landing_page
+      url: /replication_landing_page.html
       output: web
     - title: SQL Azure
-      url: /sqlazure_landing_page
+      url: /sqlazure_landing_page.html
       output: web
     - title: Windows Server
-      url: /windows_landing_page
+      url: /windows_landing_page.html
       output: web
     - title: VMWare
-      url: /vmware_landing_page
+      url: /vmware_landing_page.html
       output: web
     - title: Hyper-V
-      url: /hyperv_landing_page
+      url: /hyperv_landing_page.html
       output: web
 
   - title: Keyword search
     output: web
     folderitems:
     - title: Acknowledge
-      url: /tag_acknowledge
+      url: /tag_acknowledge.html
       output: web
     - title: Alarms Sort
-      url: /tag_alarms_sort
+      url: /tag_alarms_sort.html
       output: web
     - title: Heatmap
-      url: /tag_heatmap/
+      url: /tag_heatmap.html
       output: web
     - title: Overview page
-      url: /tag_overview_page
+      url: /tag_overview_page.html
       output: web
     - title: Playback
-      url: /tag_playback
+      url: /tag_playback.html
       output: web
     - title: Setup
-      url: /tag_setup
+      url: /tag_setup.html
       output: web
     - title: Snooze
-      url: /tag_snooze
+      url: /tag_snooze.html
       output: web

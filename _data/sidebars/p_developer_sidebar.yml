@@ -15,7 +15,7 @@ entries:
       output: pdf
       type: frontmatter
     - title:
-      url: /tocpage/
+      url: /tocpage
       output: pdf
       type: frontmatter
 
@@ -24,5 +24,5 @@ entries:
     folderitems:
 
     - title: Welcome
-      url: /developer_welcome
+      url: /dev_welcome.html
       output: web, pdf
