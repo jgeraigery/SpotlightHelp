@@ -11,7 +11,7 @@ entries:
     type: frontmatter
     folderitems:
     - title:
-      url: /titlepage/
+      url: /titlepage
       output: pdf
       type: frontmatter
     - title:
@@ -24,23 +24,23 @@ entries:
     folderitems:
 
     - title: Welcome
-      url: /enterprise_welcome/
+      url: /enterprise_welcome
       output: web, pdf
 
     - title: Product licensing
-      url: /enterprise_license/
+      url: /enterprise_license
       output: web, pdf
 
     - title: Install Spotlight
-      url: /enterprise_install/
+      url: /enterprise_install
       output: web, pdf
 
     - title: Release Notes
-      url: /enterprise_releasenotes/
+      url: /enterprise_releasenotes
       output: web, pdf
 
     - title: Legal
-      url: /enterprise_legal/
+      url: /enterprise_legal
       output: web, pdf
 
   - title: Connections
@@ -48,43 +48,43 @@ entries:
     folderitems:
 
     - title: Connections display
-      url: /enterprise_connect_display/
+      url: /enterprise_connect_display
       output: web, pdf
 
     - title: Custom views
-      url: /enterprise_connect_customviews/
+      url: /enterprise_connect_customviews
       output: web, pdf
 
     - title: Connection Type
-      url: /enterprise_connect_type/
+      url: /enterprise_connect_type
       output: web, pdf
 
     - title: Connection
-      url: /enterprise_connection/
+      url: /enterprise_connection
       output: web, pdf
 
     - title: Search
-      url: /enterprise_connect_search/
+      url: /enterprise_connect_search
       output: web, pdf
 
     - title: Tags
-      url: /enterprise_connect_tags/
+      url: /enterprise_connect_tags
       output: web, pdf
 
     - title: Planned Outages
-      url: /enterprise_connect_plannedoutage/
+      url: /enterprise_connect_plannedoutage
       output: web, pdf
 
     - title: Monitoring properties
-      url: /enterprise_connect_monitoringproperties/
+      url: /enterprise_connect_monitoringproperties
       output: web, pdf
 
     - title: Configure Connections
-      url: /enterprise_cfg_connect/
+      url: /enterprise_cfg_connect
       output: web, pdf
 
     - title: Add / Remove Connections
-      url: /enterprise_connect_addremove/
+      url: /enterprise_connect_addremove
       output: web, pdf
 
   - title: Displays
@@ -92,23 +92,23 @@ entries:
     folderitems:
 
     - title: Heatmap
-      url: /enterprise_heatmap/
+      url: /enterprise_heatmap
       output: web, pdf
 
     - title: Spotlight Today
-      url: /enterprise_spotlighttoday/
+      url: /enterprise_spotlighttoday
       output: web, pdf
 
     - title: Alarms by time
-      url: /enterprise_alarmsbytime/
+      url: /enterprise_alarmsbytime
       output: web, pdf
 
     - title: Alarm log
-      url: /enterprise_alarmlog/
+      url: /enterprise_alarmlog
       output: web, pdf
 
     - title: Spotlight Overview pages
-      url: /enterprise_overview/
+      url: /enterprise_overview
       output: web, pdf
 
       subfolders:
@@ -117,19 +117,19 @@ entries:
         subfolderitems:
 
         - title: Spotlight grids
-          url: /enterprise_grids/
+          url: /enterprise_grids
           output: web, pdf
 
         - title: Toolbar
-          url: /enterprise_gridstoolbar/
+          url: /enterprise_gridstoolbar
           output: web, pdf
 
         - title: Header row
-          url: /enterprise_gridsheader/
+          url: /enterprise_gridsheader
           output: web, pdf
 
         - title: Grid content
-          url: /enterprise_gridscontent/
+          url: /enterprise_gridscontent
           output: web, pdf
 
       - title: Spotlight charts
@@ -137,27 +137,27 @@ entries:
         subfolderitems:
 
         - title: Spotlight charts
-          url: /enterprise_charts/
+          url: /enterprise_charts
           output: web, pdf
 
         - title: Toolbar
-          url: /enterprise_chartstoolbar/
+          url: /enterprise_chartstoolbar
           output: web, pdf
 
         - title: Header row
-          url: /enterprise_chartsheader/
+          url: /enterprise_chartsheader
           output: web, pdf
 
         - title: Chart content
-          url: /enterprise_chartscontent/
+          url: /enterprise_chartscontent
           output: web, pdf
 
     - title: Playback
-      url: /enterprise_playback/
+      url: /enterprise_playback
       output: web, pdf
 
     - title: Reports
-      url: /enterprise_reports/
+      url: /enterprise_reports
       output: web, pdf
 
   - title: Alarms
@@ -165,31 +165,31 @@ entries:
     folderitems:
 
     - title: Diagnose
-      url: /enterprise_alarm_diagnose/
+      url: /enterprise_alarm_diagnose
       output: web, pdf
 
     - title: Acknowledge
-      url: /enterprise_alarm_acknowledge/
+      url: /enterprise_alarm_acknowledge
       output: web, pdf
 
     - title: Snooze
-      url: /enterprise_alarm_snooze/
+      url: /enterprise_alarm_snooze
       output: web, pdf
 
     - title: Ignore
-      url: /enterprise_alarm_ignore/
+      url: /enterprise_alarm_ignore
       output: web, pdf
 
     - title: Notifications
-      url: /enterprise_alarm_notifications/
+      url: /enterprise_alarm_notifications
       output: web, pdf
 
     - title: Configure Alarms
-      url: /enterprise_cfg_alarms/
+      url: /enterprise_cfg_alarms
       output: web, pdf
 
     - title: Configure Alarm Actions
-      url: /enterprise_cfg_alarmactions/
+      url: /enterprise_cfg_alarmactions
       output: web, pdf
 
   - title: Data collection
@@ -197,39 +197,39 @@ entries:
     folderitems:
 
     - title: Configure Scheduling
-      url: /enterprise_cfg_scheduling/
+      url: /enterprise_cfg_scheduling
       output: web, pdf
 
     - title: Configure SQL Analysis
-      url: /enterprise_cfg_sqlanalysis/
+      url: /enterprise_cfg_sqlanalysis
       output: web, pdf
 
     - title: Configure SQL Server Response Time
-      url: /enterprise_cfg_sqlserverresponsetime/
+      url: /enterprise_cfg_sqlserverresponsetime
       output: web, pdf
 
     - title: Configure Custom Counters
-      url: /enterprise_cfg_customcounters/
+      url: /enterprise_cfg_customcounters
       output: web, pdf
 
     - title: Configure Error Log Entries
-      url: /enterprise_cfg_errorlogentries/
+      url: /enterprise_cfg_errorlogentries
       output: web, pdf
 
     - title: Configure Disks Display
-      url: /enterprise_cfg_disksdisplay/
+      url: /enterprise_cfg_disksdisplay
       output: web, pdf
 
     - title: Configure Monitored Files
-      url: /enterprise_cfg_monitoredfiles/
+      url: /enterprise_cfg_monitoredfiles
       output: web, pdf
 
     - title: Apply configuration to...
-      url: /enterprise_cfg_applyconfig/
+      url: /enterprise_cfg_applyconfig
       output: web, pdf
 
     - title: Configuration templates
-      url: /enterprise_cfg_templates/
+      url: /enterprise_cfg_templates
       output: web, pdf
 
   - title: Context Sensitive Help Dialogs
@@ -237,7 +237,7 @@ entries:
     folderitems:
 
     - title: Configure Scheduling
-      url: /enterprise_cfg/
+      url: /enterprise_cfg
       output: web, pdf
 
  

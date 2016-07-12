@@ -10,11 +10,11 @@ entries:
     type: frontmatter
     folderitems:
     - title:
-      url: /titlepage/
+      url: /titlepage
       output: pdf
       type: frontmatter
     - title:
-      url: /tocpage/
+      url: /tocpage
       output: pdf
       type: frontmatter
 
@@ -23,7 +23,7 @@ entries:
     folderitems:
 
     - title: Connection details
-      url: /sqlazure_connect_details/
+      url: /sqlazure_connect_details
       output: web, pdf
 
   - title: Spotlight Product displays
@@ -31,7 +31,7 @@ entries:
     folderitems:
 
     - title: Spotlight Enterprise
-      url: /sqlazure_productenterprise/
+      url: /sqlazure_productenterprise
       output: web, pdf
 
   - title: Spotlight Overview page
@@ -48,19 +48,19 @@ entries:
         subfolderitems:
 
         - title: Response Time
-          url: /sqlazure_component_responsetime/
+          url: /sqlazure_component_responsetime
           output: web, pdf
 
         - title: Connections
-          url: /sqlazure_component_connections/
+          url: /sqlazure_component_connections
           output: web, pdf
 
         - title: Computers
-          url: /sqlazure_component_computers/
+          url: /sqlazure_component_computers
           output: web, pdf
 
         - title: Active
-          url: /sqlazure_component_active/
+          url: /sqlazure_component_active
           output: web, pdf
 
       - title: Flows
@@ -68,11 +68,11 @@ entries:
         subfolderitems:
 
         - title: Packets Written per Second
-          url: /sqlazure_component_flwpacketsin/
+          url: /sqlazure_component_flwpacketsin
           output: web, pdf
 
         - title: Packets Read per Second
-          url: /sqlazure_component_flwpacketsout/
+          url: /sqlazure_component_flwpacketsout
           output: web, pdf
 
       - title: SQL Processes Panel
@@ -80,15 +80,15 @@ entries:
         subfolderitems:
 
         - title: Total
-          url: /sqlazure_component_sessionstotal/
+          url: /sqlazure_component_sessionstotal
           output: web, pdf
 
         - title: System
-          url: /sqlazure_component_sessionssys/
+          url: /sqlazure_component_sessionssys
           output: web, pdf
 
         - title: User
-          url: /sqlazure_component_sessionsuser/
+          url: /sqlazure_component_sessionsuser
           output: web, pdf
 
       - title: Flows
@@ -96,15 +96,15 @@ entries:
         subfolderitems:
 
         - title: Logical Reads
-          url: /sqlazure_component_flwlogicalreads/
+          url: /sqlazure_component_flwlogicalreads
           output: web, pdf
 
         - title: Physical Reads
-          url: /sqlazure_component_flwreads/
+          url: /sqlazure_component_flwreads
           output: web, pdf
 
         - title: Physical Writes
-          url: /sqlazure_component_flwwrites/
+          url: /sqlazure_component_flwwrites
           output: web, pdf
 
       - title: Data Storage Panel
@@ -112,19 +112,19 @@ entries:
         subfolderitems:
 
         - title: Data Storage
-          url: /sqlazure_component_datafiles/
+          url: /sqlazure_component_datafiles
           output: web, pdf
 
         - title: Available
-          url: /sqlazure_component_dataavailable/
+          url: /sqlazure_component_dataavailable
           output: web, pdf
 
         - title: Used
-          url: /sqlazure_component_dataused/
+          url: /sqlazure_component_dataused
           output: web, pdf
 
         - title: Percent
-          url: /sqlazure_component_datapercent/
+          url: /sqlazure_component_datapercent
           output: web, pdf
 
       - title: System Panel
@@ -132,7 +132,7 @@ entries:
         subfolderitems:
 
         - title: Version
-          url: /sqlazure_component_version/
+          url: /sqlazure_component_version
           output: web, pdf
 
   - title: SQL Activity drilldown
@@ -140,19 +140,19 @@ entries:
     folderitems:
 
     - title: Sessions grid
-      url: /sqlazure_grid_sessions/
+      url: /sqlazure_grid_sessions
       output: web, pdf
 
     - title: SQL
-      url: /sqlazure_component_sql/
+      url: /sqlazure_component_sql
       output: web, pdf
 
     - title: Plan
-      url: /sqlazure_component_plan/
+      url: /sqlazure_component_plan
       output: web, pdf
 
     - title: Session Locks
-      url: /sqlazure_component_sessionlocks/
+      url: /sqlazure_component_sessionlocks
       output: web, pdf
 
   - title: Databases drilldown
@@ -160,23 +160,23 @@ entries:
     folderitems:
 
     - title: Database Space chart
-      url: /sqlazure_chart_databasespace/
+      url: /sqlazure_chart_databasespace
       output: web, pdf
 
     - title: Tables grid
-      url: /sqlazure_grid_tables/
+      url: /sqlazure_grid_tables
       output: web, pdf
 
     - title: Table Space chart
-      url: /sqlazure_chart_tablespace/
+      url: /sqlazure_chart_tablespace
       output: web, pdf
 
     - title: Table Growth chart
-      url: /sqlazure_chart_tablegrowth/
+      url: /sqlazure_chart_tablegrowth
       output: web, pdf
 
     - title: Indexes grid
-      url: /sqlazure_grid_indexes/
+      url: /sqlazure_grid_indexes
       output: web, pdf
 
   - title: Collections
@@ -184,5 +184,5 @@ entries:
     folderitems:
 
     - title: Collections
-      url: /sqlazure_collections/
+      url: /sqlazure_collections
       output: web, pdf

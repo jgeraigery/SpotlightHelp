@@ -10,7 +10,7 @@ entries:
     type: frontmatter
     folderitems:
     - title:
-      url: /titlepage/
+      url: /titlepage
       output: pdf
       type: frontmatter
     - title:
@@ -23,19 +23,19 @@ entries:
     folderitems:
 
     - title: Connection details
-      url: /sqlserver_connect_details/
+      url: /sqlserver_connect_details
       output: web, pdf
 
     - title: Connection requirements
-      url: /sqlserver_connect_requirements/
+      url: /sqlserver_connect_requirements
       output: web, pdf
 
     - title: Troubleshooting
-      url: /sqlserver_connect_troubleshoot/
+      url: /sqlserver_connect_troubleshoot
       output: web, pdf
 
     - title: Grant account permissions
-      url: /sqlserver_connect_accountgrantpermissions/
+      url: /sqlserver_connect_accountgrantpermissions
       output: web, pdf
 
   - title: Alarms
@@ -43,235 +43,235 @@ entries:
     folderitems:
 
     - title: Backup - Days Since Last Full Backup
-      url: /sqlserver_alarm_backup_dayssincelastfullbackup/
+      url: /sqlserver_alarm_backup_dayssincelastfullbackup
       output: web, pdf
 
     - title: Backup - Hours Since Last Differential Backup
-      url: /sqlserver_alarm_backup_hourssincelastdifferentialbackup/
+      url: /sqlserver_alarm_backup_hourssincelastdifferentialbackup
       output: web, pdf
 
     - title: Backup - Minutes Since Last Log Backup
-      url: /sqlserver_alarm_backup_minutessincelastlogbackup/
+      url: /sqlserver_alarm_backup_minutessincelastlogbackup
       output: web, pdf
 
     - title: Clusters - Failed Over Alarm 
-      url: /sqlserver_alarm_clusters_failedover/
+      url: /sqlserver_alarm_clusters_failedover
       output: web, pdf
 
     - title: Clusters - File Share Witness inaccessible alarm 
-      url: /sqlserver_alarm_clusters_filesharewitnessinaccessible/
+      url: /sqlserver_alarm_clusters_filesharewitnessinaccessible
       output: web, pdf
 
     - title: Clusters - Node Unavailable Alarm 
-      url: /sqlserver_alarm_clusters_nodeunavailable/
+      url: /sqlserver_alarm_clusters_nodeunavailable
       output: web, pdf
 
     - title: Clusters - Non-Preferred Node Alarm 
-      url: /sqlserver_alarm_clusters_nonpreferrednode/
+      url: /sqlserver_alarm_clusters_nonpreferrednode
       output: web, pdf
 
     - title: Compiles - Percentage Recompilations Alarm 
-      url: /sqlserver_alarm_compiles_percentagerecompilations/
+      url: /sqlserver_alarm_compiles_percentagerecompilations
       output: web, pdf
 
     - title: Databases - Data File Group Space Used Alarm 
-      url: /sqlserver_alarm_databases_datafilegroupspaceused/
+      url: /sqlserver_alarm_databases_datafilegroupspaceused
       output: web, pdf
 
     - title: Databases - Dynamic Data File Group Growths Remaining Alarm 
-      url: /sqlserver_alarm_databases_dynamicdatafilegroupgrowthsremaining/
+      url: /sqlserver_alarm_databases_dynamicdatafilegroupgrowthsremaining
       output: web, pdf
 
     - title: Databases - Dynamic Log File Growths Remaining Alarm
-      url: /sqlserver_alarm_databases_dynamiclogfilegrowthsremaining/
+      url: /sqlserver_alarm_databases_dynamiclogfilegrowthsremaining
       output: web, pdf
 
     - title: Databases - Log File Space Used Alarm
-      url: /sqlserver_alarm_databases_logfilespaceused/
+      url: /sqlserver_alarm_databases_logfilespaceused
       output: web, pdf
 
     - title: Databases - Log Flush Wait Time Alarm
-      url: /sqlserver_alarm_databases_logflushwaittime/
+      url: /sqlserver_alarm_databases_logflushwaittime
       output: web, pdf
 
     - title: Databases - SQL I/O Errors Alarm
-      url: /sqlserver_alarm_databases_sqlioerrors/
+      url: /sqlserver_alarm_databases_sqlioerrors
       output: web, pdf
 
     - title: Databases - Unavailable Alarm
-      url: /sqlserver_alarm_databases_unavailable/
+      url: /sqlserver_alarm_databases_unavailable
       output: web, pdf
 
     - title: Error Log - Error Count Alarm
-      url: /sqlserver_alarm_errorlog_errorcount/
+      url: /sqlserver_alarm_errorlog_errorcount
       output: web, pdf
 
     - title: I/O Stall Time Alarm
-      url: /sqlserver_alarm_io_stalltime/
+      url: /sqlserver_alarm_io_stalltime
       output: web, pdf
 
     - title: Index Fragmentation Alarm
-      url: /sqlserver_alarm_index_fragmentation/
+      url: /sqlserver_alarm_index_fragmentation
       output: web, pdf
 
     - title: Index Fragmentation Status Alarm
-      url: /sqlserver_alarm_index_fragmentationstatus/
+      url: /sqlserver_alarm_index_fragmentationstatus
       output: web, pdf
 
     - title: Latch - Total Wait Time Rate Alarm
-      url: /sqlserver_alarm_latch_totalwaittimerate/
+      url: /sqlserver_alarm_latch_totalwaittimerate
       output: web, pdf
 
     - title: LiteSpeed Backup Failed Alarm
-      url: /sqlserver_alarm_litespeed_failed/
+      url: /sqlserver_alarm_litespeed_failed
       output: web, pdf
 
     - title: LiteSpeed Backup Warning Alarm
-      url: /sqlserver_alarm_litespeed_warning/
+      url: /sqlserver_alarm_litespeed_warning
       output: web, pdf
 
     - title: Locks - Blocked Processes Alarm
-      url: /sqlserver_alarm_locks_blockedprocesses/
+      url: /sqlserver_alarm_locks_blockedprocesses
       output: web, pdf
 
     - title: Locks - Deadlocks Alarm
-      url: /sqlserver_alarm_locks_deadlocks/
+      url: /sqlserver_alarm_locks_deadlocks
       output: web, pdf
 
     - title: Log Shipping - Primary Backup Job Alarm
-      url: /sqlserver_alarm_logshipping_primarybackupjob/
+      url: /sqlserver_alarm_logshipping_primarybackupjob
       output: web, pdf
 
     - title: Log Shipping - Secondary Job Alarm
-      url: /sqlserver_alarm_logshipping_secondaryjob/
+      url: /sqlserver_alarm_logshipping_secondaryjob
       output: web, pdf
 
     - title: Log Shipping - Secondary Latency Alarm 
-      url: /sqlserver_alarm_logshipping_secondarylatency/
+      url: /sqlserver_alarm_logshipping_secondarylatency
       output: web, pdf
 
     - title: Memory - Page Life Expectancy Alarm
-      url: /sqlserver_alarm_memory_pagelifeexpectancy/
+      url: /sqlserver_alarm_memory_pagelifeexpectancy
       output: web, pdf
 
     - title: Mirroring - State Alarm
-      url: /sqlserver_alarm_mirroring_state/
+      url: /sqlserver_alarm_mirroring_state
       output: web, pdf
 
     - title: Mirroring - Unrestored Log Alarm
-      url: /sqlserver_alarm_mirroring_unrestoredlog/
+      url: /sqlserver_alarm_mirroring_unrestoredlog
       output: web, pdf
 
     - title: Mirroring - Unsent Log Alarm
-      url: /sqlserver_alarm_mirroring_unsentlog/
+      url: /sqlserver_alarm_mirroring_unsentlog
       output: web, pdf
 
     - title: Mirroring - Failed Over Alarm
-      url: /sqlserver_alarm_mirroring_failedover/
+      url: /sqlserver_alarm_mirroring_failedover
       output: web, pdf
 
     - title: Missing SQL Performance Counters Alarm
-      url: /sqlserver_alarm_missingsqlperformancecounters/
+      url: /sqlserver_alarm_missingsqlperformancecounters
       output: web, pdf
 
     - title: Network - SQL Server Packets Error Rate Alarm
-      url: /sqlserver_alarm_network_sqlserverpacketserrorrate/
+      url: /sqlserver_alarm_network_sqlserverpacketserrorrate
       output: web, pdf
 
     - title: Services - DTC Service Status Alarm
-      url: /sqlserver_alarm_services_dtcservicestatus/
+      url: /sqlserver_alarm_services_dtcservicestatus
       output: web, pdf
 
     - title: Services - Full Text Search Service Alarm
-      url: /sqlserver_alarm_services_fulltextsearchservice/
+      url: /sqlserver_alarm_services_fulltextsearchservice
       output: web, pdf
 
     - title: Services - Integration Service Status
-      url: /sqlserver_alarm_services_integrationservicestatus/
+      url: /sqlserver_alarm_services_integrationservicestatus
       output: web, pdf
 
     - title: Services - Reporting Service Status
-      url: /sqlserver_alarm_services_reportingservicestatus/
+      url: /sqlserver_alarm_services_reportingservicestatus
       output: web, pdf
 
     - title: Services - SQL Mail Status Alarm / SQL Agent Mail Status Alarm
-      url: /sqlserver_alarm_services_sqlmailstatus/
+      url: /sqlserver_alarm_services_sqlmailstatus
       output: web, pdf
 
     - title: SQL - Long Running SQL alarm
-      url: /sqlserver_alarm_sql_longrunningsql/
+      url: /sqlserver_alarm_sql_longrunningsql
       output: web, pdf
 
     - title: SQL Agent - Alerts Alarm
-      url: /sqlserver_alarm_sqlagent_alerts/
+      url: /sqlserver_alarm_sqlagent_alerts
       output: web, pdf
 
     - title: SQL Agent - Jobs Failed Alarm
-      url: /sqlserver_alarm_sqlagent_jobsfailed/
+      url: /sqlserver_alarm_sqlagent_jobsfailed
       output: web, pdf
 
     - title: SQL Agent - Long Running Jobs Alarms
-      url: /sqlserver_alarm_sqlagent_longrunningjobs/
+      url: /sqlserver_alarm_sqlagent_longrunningjobs
       output: web, pdf
 
     - title: SQL Agent - Status Alarm
-      url: /sqlserver_alarm_sqlagent_status/
+      url: /sqlserver_alarm_sqlagent_status
       output: web, pdf
 
     - title: SQL Analysis - Aggregation Information Alarm
-      url: /sqlserver_alarm_sqlanalysis_aggregationinfo/
+      url: /sqlserver_alarm_sqlanalysis_aggregationinfo
       output: web, pdf
 
     - title: SQL Custom Counters Alarm
-      url: /sqlserver_alarm_sqlcustomcounters/
+      url: /sqlserver_alarm_sqlcustomcounters
       output: web, pdf
 
     - title: SQL Virtual Log Files Count alarm
-      url: /sqlserver_alarm_sqlvirtuallogfilescount/
+      url: /sqlserver_alarm_sqlvirtuallogfilescount
       output: web, pdf
 
     - title: Tempdb Auto Growth
-      url: /sqlserver_alarm_tempdb_autogrowth/
+      url: /sqlserver_alarm_tempdb_autogrowth
       output: web, pdf
 
     - title: Tempdb Contention
-      url: /sqlserver_alarm_tempdb_contention/
+      url: /sqlserver_alarm_tempdb_contention
       output: web, pdf
 
     - title: Tempdb File Location
-      url: /sqlserver_alarm_tempdb_filelocation/
+      url: /sqlserver_alarm_tempdb_filelocation
       output: web, pdf
 
     - title: Tempdb File Size
-      url: /sqlserver_alarm_tempdb_filesize/
+      url: /sqlserver_alarm_tempdb_filesize
       output: web, pdf
 
     - title: Tempdb Growth Settings
-      url: /sqlserver_alarm_tempdb_growthsettings/
+      url: /sqlserver_alarm_tempdb_growthsettings
       output: web, pdf
 
     - title: Tempdb Number of Files
-      url: /sqlserver_alarm_tempdb_numberoffiles/
+      url: /sqlserver_alarm_tempdb_numberoffiles
       output: web, pdf
 
     - title: Tempdb Version Store Generation Rate
-      url: /sqlserver_alarm_tempdb_versionstoregenerationrate/
+      url: /sqlserver_alarm_tempdb_versionstoregenerationrate
       output: web, pdf
 
     - title: Tempdb Version Store Size
-      url: /sqlserver_alarm_tempdb_versionstoresize/
+      url: /sqlserver_alarm_tempdb_versionstoresize
       output: web, pdf
 
     - title: User - Connection Count Alarm
-      url: /sqlserver_alarm_user_connectioncount/
+      url: /sqlserver_alarm_user_connectioncount
       output: web, pdf
 
     - title: User - Logins Per Second Alarm
-      url: /sqlserver_alarm_user_loginspersecond/
+      url: /sqlserver_alarm_user_loginspersecond
       output: web, pdf
 
     - title: User - Response Time Alarm
-      url: /sqlserver_alarm_user_responsetime/
+      url: /sqlserver_alarm_user_responsetime
       output: web, pdf
 
   - title: Spotlight Overview page
@@ -279,95 +279,95 @@ entries:
     folderitems:
 
     - title: Blocked Processes
-      url: /sqlserver_component_blockedprocesses/
+      url: /sqlserver_component_blockedprocesses
       output: web, pdf
 
     - title: Buffer Cache size
-      url: /sqlserver_component_buffercache/
+      url: /sqlserver_component_buffercache
       output: web, pdf
 
     - title: Computers
-      url: /sqlserver_component_computers/
+      url: /sqlserver_component_computers
       output: web, pdf
 
     - title: CPU Usage
-      url: /sqlserver_component_cpuusage/
+      url: /sqlserver_component_cpuusage
       output: web, pdf
 
     - title: Custom Counters
-      url: /sqlserver_component_customcounters/
+      url: /sqlserver_component_customcounters
       output: web, pdf
 
     - title: Databases
-      url: /sqlserver_component_databases/
+      url: /sqlserver_component_databases
       output: web, pdf
 
     - title: Data Files
-      url: /sqlserver_component_datafiles_disk/
+      url: /sqlserver_component_datafiles_disk
       output: web, pdf
 
     - title: Data Files
-      url: /sqlserver_component_datafiles_number/
+      url: /sqlserver_component_datafiles_number
       output: web, pdf
 
     - title: Percentage of Data Files Used
-      url: /sqlserver_component_datafiles_pcnt/
+      url: /sqlserver_component_datafiles_pcnt
       output: web, pdf
 
     - title: Data Files Space Used
-      url: /sqlserver_component_datafiles_space/
+      url: /sqlserver_component_datafiles_space
       output: web, pdf
 
     - title: Error Logs
-      url: /sqlserver_component_errorlogs/
+      url: /sqlserver_component_errorlogs
       output: web, pdf
 
     - title: File Groups
-      url: /sqlserver_component_filegroups/
+      url: /sqlserver_component_filegroups
       output: web, pdf
 
     - title: Batches
-      url: /sqlserver_component_flwbatches/
+      url: /sqlserver_component_flwbatches
       output: web, pdf
 
     - title: Checkpoint Page Writes
-      url: /sqlserver_component_flwcheckpointwrites/
+      url: /sqlserver_component_flwcheckpointwrites
       output: web, pdf
 
     - title: Compiles
-      url: /sqlserver_component_flwcompiles/
+      url: /sqlserver_component_flwcompiles
       output: web, pdf
 
     - title: Lazy Writes
-      url: /sqlserver_component_flwlazywrites/
+      url: /sqlserver_component_flwlazywrites
       output: web, pdf
 
     - title: Log Flushes
-      url: /sqlserver_component_flwlogflushes/
+      url: /sqlserver_component_flwlogflushes
       output: web, pdf
 
     - title: Logical Reads
-      url: /sqlserver_component_flwlogicalreads/
+      url: /sqlserver_component_flwlogicalreads
       output: web, pdf
 
     - title: Network Packets received
-      url: /sqlserver_component_flwnetworkpacketsreceived/
+      url: /sqlserver_component_flwnetworkpacketsreceived
       output: web, pdf
 
     - title: Network Packets sent
-      url: /sqlserver_component_flwnetworkpacketssent/
+      url: /sqlserver_component_flwnetworkpacketssent
       output: web, pdf
 
     - title: Physical Reads
-      url: /sqlserver_component_flwphysicalreads/
+      url: /sqlserver_component_flwphysicalreads
       output: web, pdf
 
     - title: Physical Writes
-      url: /sqlserver_component_flwphysicalwrites/
+      url: /sqlserver_component_flwphysicalwrites
       output: web, pdf
 
     - title: Read Ahead
-      url: /sqlserver_component_flwreadahead/
+      url: /sqlserver_component_flwreadahead
       output: web, pdf
 
     - title: Large Index Files - Maximum Fragmentation
@@ -375,91 +375,91 @@ entries:
       output: web, pdf
 
     - title: Large Index Files - Medium Fragmentation
-      url: /sqlserver_component_fragmentationmedian/
+      url: /sqlserver_component_fragmentationmedian
       output: web, pdf
 
     - title: How is a health performance rating calculated?
-      url: /sqlserver_component_healthrating/
+      url: /sqlserver_component_healthrating
       output: web, pdf
 
     - title: Percentage of Log Files Used
-      url: /sqlserver_component_logfiles_pcnt/
+      url: /sqlserver_component_logfiles_pcnt
       output: web, pdf
 
     - title: Number of Log Files
-      url: /sqlserver_component_logfiles/
+      url: /sqlserver_component_logfiles
       output: web, pdf
 
     - title: Log Space Used
-      url: /sqlserver_component_logspaceused/
+      url: /sqlserver_component_logspaceused
       output: web, pdf
 
     - title: Max I/O Wait
-      url: /sqlserver_component_maxiowait/
+      url: /sqlserver_component_maxiowait
       output: web, pdf
 
     - title: Max Memory Percentage
-      url: /sqlserver_component_maxmemorypcnt/
+      url: /sqlserver_component_maxmemorypcnt
       output: web, pdf
 
     - title: Page Life Expectancy
-      url: /sqlserver_component_pagelifeexpectancy/
+      url: /sqlserver_component_pagelifeexpectancy
       output: web, pdf
 
     - title: Procedure Cache Size
-      url: /sqlserver_component_procedurecachesize/
+      url: /sqlserver_component_procedurecachesize
       output: web, pdf
 
     - title: Response Time
-      url: /sqlserver_component_responsetime/
+      url: /sqlserver_component_responsetime
       output: web, pdf
 
     - title: Active Sessions
-      url: /sqlserver_component_sessions_active/
+      url: /sqlserver_component_sessions_active
       output: web, pdf
 
     - title: Active Sessions Percentage
-      url: /sqlserver_component_sessions_activepcnt/
+      url: /sqlserver_component_sessions_activepcnt
       output: web, pdf
 
     - title: System Sessions
-      url: /sqlserver_component_sessions_system/
+      url: /sqlserver_component_sessions_system
       output: web, pdf
 
     - title: Total SQL Server Sessions
-      url: /sqlserver_component_sessions_total/
+      url: /sqlserver_component_sessions_total
       output: web, pdf
 
     - title: User Sessions
-      url: /sqlserver_component_sessions_user/
+      url: /sqlserver_component_sessions_user
       output: web, pdf
 
     - title: Sessions
-      url: /sqlserver_component_sessions/
+      url: /sqlserver_component_sessions
       output: web, pdf
 
     - title: SQL Memory
-      url: /sqlserver_component_sqlmemory/
+      url: /sqlserver_component_sqlmemory
       output: web, pdf
 
     - title: Support Services
-      url: /sqlserver_component_supportservices/
+      url: /sqlserver_component_supportservices
       output: web, pdf
 
     - title: Tempdb
-      url: /sqlserver_component_tempdb/
+      url: /sqlserver_component_tempdb
       output: web, pdf
 
     - title: Total SQL Server Memory
-      url: /sqlserver_component_totalsqlservermemory/
+      url: /sqlserver_component_totalsqlservermemory
       output: web, pdf
 
     - title: Version
-      url: /sqlserver_component_version/
+      url: /sqlserver_component_version
       output: web, pdf
 
     - title: Virtualization Overhead
-      url: /sqlserver_component_virtualizationoverhead/
+      url: /sqlserver_component_virtualizationoverhead
       output: web, pdf
 
   - title: Drilldowns
@@ -467,7 +467,7 @@ entries:
     folderitems:
 
     - title: Drilldowns
-      url: /sqlserver_drilldowns/
+      url: /sqlserver_drilldowns
       output: web, pdf
 
   - title: Collections
@@ -475,7 +475,7 @@ entries:
     folderitems:
 
     - title: Collections
-      url: /sqlserver_collections/
+      url: /sqlserver_collections
       output: web, pdf
 
   - title: Troubleshooting
@@ -483,5 +483,5 @@ entries:
     folderitems:
 
     - title: Troubleshooting
-      url: /sqlserver_troubleshoot/
+      url: /sqlserver_troubleshoot
       output: web, pdf

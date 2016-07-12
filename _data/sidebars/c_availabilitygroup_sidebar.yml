@@ -10,11 +10,11 @@ entries:
     type: frontmatter
     folderitems:
     - title:
-      url: /titlepage/
+      url: /titlepage
       output: pdf
       type: frontmatter
     - title:
-      url: /tocpage/
+      url: /tocpage
       output: pdf
       type: frontmatter
 
@@ -23,7 +23,7 @@ entries:
     folderitems:
 
     - title: Connection details and requirements
-      url: /availabilitygroup_connect_details/
+      url: /availabilitygroup_connect_details
       output: web, pdf
 
   - title: Alarms
@@ -31,19 +31,19 @@ entries:
     folderitems:
   
     - title: Availability Group - Failed Over Alarm
-      url: /availabilitygroup_alarm_failedover/
+      url: /availabilitygroup_alarm_failedover
       output: web, pdf
   
     - title: Availability Group - Failover Availability Alarm
-      url: /availabilitygroup_alarm_automaticfailovernotavailable/
+      url: /availabilitygroup_alarm_automaticfailovernotavailable
       output: web, pdf
 
     - title: Availability Group - Quorum Failure Imminent Alarm
-      url: /availabilitygroup_alarm_ quorumfailureimminent/
+      url: /availabilitygroup_alarm_ quorumfailureimminent
       output: web, pdf
 
     - title: Availability Group - Synchronization Health Alarm
-      url: /availabilitygroup_alarm_synchronizationhealth/
+      url: /availabilitygroup_alarm_synchronizationhealth
       output: web, pdf
 
   - title: Spotlight Product displays
@@ -51,7 +51,7 @@ entries:
     folderitems:
 
     - title: Spotlight Enterprise
-      url: /availabilitygroup_productenterprise/
+      url: /availabilitygroup_productenterprise
       output: web, pdf
 
   - title: Availability Group Connection display
@@ -59,35 +59,35 @@ entries:
     folderitems:
 
     - title: Status component
-      url: /availabilitygroup_component_status/
+      url: /availabilitygroup_component_status
       output: web, pdf
 
     - title: Synchroinization Health
-      url: /availabilitygroup_component_synchhealth/
+      url: /availabilitygroup_component_synchhealth
       output: web, pdf
 
     - title: Primary instance
-      url: /availabilitygroup_component_primaryinstance/
+      url: /availabilitygroup_component_primaryinstance
       output: web, pdf
 
     - title: Failover indicator
-      url: /availabilitygroup_component_failoverindicator/
+      url: /availabilitygroup_component_failoverindicator
       output: web, pdf
 
     - title: Cluster
-      url: /availabilitygroup_component_cluster/
+      url: /availabilitygroup_component_cluster
       output: web, pdf
 
     - title: Quorum Rating
-      url: /availabilitygroup_component_quorum/
+      url: /availabilitygroup_component_quorum
       output: web, pdf
   
     - title: Replicas grid
-      url: /availabilitygroup_grid_replicas/
+      url: /availabilitygroup_grid_replicas
       output: web, pdf
   
     - title: Databases grid
-      url: /availabilitygroup_grid_databases/
+      url: /availabilitygroup_grid_databases
       output: web, pdf
 
   - title: Collections
@@ -95,5 +95,5 @@ entries:
     folderitems:
 
     - title: Collections
-      url: /availabilitygroup_collections/
+      url: /availabilitygroup_collections
       output: web, pdf

@@ -11,31 +11,31 @@ topnav_dropdowns:
       - title: Products
         folderitems:
         - title: Spotlight Enterprise
-          url: /enterprise_welcome/
+          url: /enterprise_welcome
         - title: Spotlight Developer
-          url: /developer_landing_page/
+          url: /developer_landing_page
         - title: Spotlight Cloud
-          url: /cloud_landing_page/
+          url: /cloud_landing_page
         - title: Spotlight Mobile
-          url: /mobile_welcome/
+          url: /mobile_welcome
       - title: Connection Types
         folderitems:
         - title: SQL Server
-          url: /sqlserver_landing_page/
+          url: /sqlserver_landing_page
         - title: SQL Server Analysis Services
-          url: /analysisservices_landing_page/
+          url: /analysisservices_landing_page
         - title: SQL Server Availability Group
-          url: /availabilitygroup_landing_page/
+          url: /availabilitygroup_landing_page
         - title: SQL Server Replication
-          url: /replication_landing_page/
+          url: /replication_landing_page
         - title: SQL Azure
-          url: /sqlazure_landing_page/
+          url: /sqlazure_landing_page
         - title: Windows server
-          url: /windows_landing_page/
+          url: /windows_landing_page
         - title: VMware
-          url: /vmware_landing_page/
+          url: /vmware_landing_page
         - title: Hyper-V
-          url: /hyperv_landing_page/
+          url: /hyperv_landing_page
 
 
 

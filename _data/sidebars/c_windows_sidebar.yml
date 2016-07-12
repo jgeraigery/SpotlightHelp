@@ -10,7 +10,7 @@ entries:
     type: frontmatter
     folderitems:
     - title:
-      url: /titlepage/
+      url: /titlepage
       output: pdf
       type: frontmatter
     - title:
@@ -23,15 +23,15 @@ entries:
     folderitems:
 
     - title: Connection details
-      url: /windows_connection_details/
+      url: /windows_connection_details
       output: web, pdf
 
     - title: Requirements
-      url: /windows_connection_requirements/
+      url: /windows_connection_requirements
       output: web, pdf
 
     - title: Troubleshooting
-      url: /windows_connection_troubleshooting/
+      url: /windows_connection_troubleshooting
       output: web, pdf
 
   - title: Alarms
@@ -39,7 +39,7 @@ entries:
     folderitems:
 
     - title: Alarms
-      url: /windows_alarms/
+      url: /windows_alarms
       output: web, pdf
 
   - title: Drilldowns
@@ -47,35 +47,35 @@ entries:
     folderitems:
 
     - title: Overview
-      url: /windows_drilldown_overview/
+      url: /windows_drilldown_overview
       output: web, pdf
 
     - title: Processes
-      url: /windows_drilldown_processes/
+      url: /windows_drilldown_processes
       output: web, pdf
 
     - title: CPU
-      url: /windows_drilldown_cpu/
+      url: /windows_drilldown_cpu
       output: web, pdf
 
     - title: Memory
-      url: /windows_drilldown_memory/
+      url: /windows_drilldown_memory
       output: web, pdf
 
     - title: Disks
-      url: /windows_drilldown_disks/
+      url: /windows_drilldown_disks
       output: web, pdf
 
     - title: Network
-      url: /windows_drilldown_network/
+      url: /windows_drilldown_network
       output: web, pdf
 
     - title: Event logs
-      url: /windows_drilldown_eventlogs/
+      url: /windows_drilldown_eventlogs
       output: web, pdf
 
     - title: Activity
-      url: /windows_drilldown_activity/
+      url: /windows_drilldown_activity
       output: web, pdf
 
   - title: Troubleshooting
@@ -87,6 +87,6 @@ entries:
     folderitems:
 
     - title: Data display and collection problems
-      url: /windows_datadisplayproblems/
+      url: /windows_datadisplayproblems
       output: web, pdf
 

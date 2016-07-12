@@ -10,7 +10,7 @@ entries:
     type: frontmatter
     folderitems:
     - title:
-      url: /titlepage/
+      url: /titlepage
       output: pdf
       type: frontmatter
     - title:
@@ -23,7 +23,7 @@ entries:
     folderitems:
 
     - title: Connection details and requirements
-      url: /vmware_connect_details/
+      url: /vmware_connect_details
       output: web, pdf
 
   - title: Alarms
@@ -31,15 +31,15 @@ entries:
     folderitems:
 
     - title: Heartbeat alarm
-      url: /vmware_alarm_heartbeat/
+      url: /vmware_alarm_heartbeat
       output: web, pdf
 
     - title: VMware memory reposessed alarm
-      url: /vmware_alarm_memoryreposessed/
+      url: /vmware_alarm_memoryreposessed
       output: web, pdf
 
     - title: VMware Overhead alarm
-      url: /vmware_alarm_overhead/
+      url: /vmware_alarm_overhead
       output: web, pdf
 
   - title: Spotlight Product displays
@@ -47,7 +47,7 @@ entries:
     folderitems:
 
     - title: Spotlight Enterprise
-      url: /vmware_productenterprise/
+      url: /vmware_productenterprise
       output: web, pdf
 
   - title: VMware Connection display
@@ -55,15 +55,15 @@ entries:
     folderitems:
 
     - title: Status component
-      url: /vmware_component_status/
+      url: /vmware_component_status
       output: web, pdf
 
     - title: Version component
-      url: /vmware_component_version/
+      url: /vmware_component_version
       output: web, pdf
   
     - title: Virtual machines grid
-      url: /vmware_grid_virtualmachines/
+      url: /vmware_grid_virtualmachines
       output: web, pdf
   
   - title: Collections
@@ -71,6 +71,6 @@ entries:
     folderitems:
 
     - title: Collections
-      url: /vmware_collections/
+      url: /vmware_collections
       output: web, pdf
 

@@ -2,5 +2,5 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "wdm"
-gem "jekyll"
+gem 'wdm'
+gem 'jekyll'

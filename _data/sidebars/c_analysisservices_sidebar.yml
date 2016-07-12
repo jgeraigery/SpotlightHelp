@@ -10,7 +10,7 @@ entries:
     type: frontmatter
     folderitems:
     - title:
-      url: /titlepage/
+      url: /titlepage
       output: pdf
       type: frontmatter
     - title:
@@ -23,7 +23,7 @@ entries:
     folderitems:
 
     - title: Connection details and requirements
-      url: /analysisservices_connect/
+      url: /analysisservices_connect
       output: web, pdf
 
   - title: Alarms
@@ -31,7 +31,7 @@ entries:
     folderitems:
 
     - title: Alarms
-      url: /analysisservices_alarms/
+      url: /analysisservices_alarms
       output: web, pdf
 
   - title: Drilldowns
@@ -39,7 +39,7 @@ entries:
     folderitems:
 
     - title: Drilldowns
-      url: /analysisservices_drilldowns/
+      url: /analysisservices_drilldowns
       output: web, pdf
 
   - title: Collections
@@ -47,6 +47,6 @@ entries:
     folderitems:
 
     - title: Collections
-      url: /analysisservices_collections/
+      url: /analysisservices_collections
       output: web, pdf
 

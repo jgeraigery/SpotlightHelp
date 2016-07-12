@@ -11,7 +11,7 @@ entries:
     type: frontmatter
     folderitems:
     - title:
-      url: /titlepage/
+      url: /titlepage
       output: pdf
       type: frontmatter
     - title:
@@ -24,5 +24,5 @@ entries:
     folderitems:
 
     - title: Welcome
-      url: /cloud_welcome/
+      url: /cloud_welcome
       output: web, pdf

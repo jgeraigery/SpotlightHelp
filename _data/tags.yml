@@ -1,12 +1,12 @@
 allowed-tags:
-  - snooze
-  - acknowledge
-  - alarms_sort
-  - heatmap
-  - setup
-  - overview_page
-  - playback
-  - connection_details
-  - collections
-  
-  
+  - getting_started
+  - content_types
+  - navigation
+  - formatting
+  - publishing
+  - single_sourcing
+  - special_layouts
+  - collaboration
+  - news
+  - troubleshooting
+  - mobile

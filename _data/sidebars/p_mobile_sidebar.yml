@@ -11,11 +11,11 @@ entries:
     type: frontmatter
     folderitems:
     - title:
-      url: /titlepage/
+      url: /titlepage
       output: pdf
       type: frontmatter
     - title:
-      url: /tocpage/
+      url: /tocpage
       output: pdf
       type: frontmatter
 
@@ -24,11 +24,11 @@ entries:
     folderitems:
 
     - title: Welcome
-      url: /mobile_welcome/
+      url: /mobile_welcome
       output: web, pdf
 
     - title: Setup
-      url: /mobile_deploy/
+      url: /mobile_deploy
       output: web, pdf
 
   - title: Connections
@@ -36,7 +36,7 @@ entries:
     folderitems:
 
     - title: Connections and connection views
-      url: /mobile_connections/
+      url: /mobile_connections
       output: web, pdf
   
   - title: Displays
@@ -44,19 +44,19 @@ entries:
     folderitems:
 
     - title: Heatmap
-      url: /mobile_heatmap/
+      url: /mobile_heatmap
       output: web, pdf
 
     - title: Alarm list
-      url: /mobile_alarmlist/
+      url: /mobile_alarmlist
       output: web, pdf
 
     - title: Spotlight Overview pages
-      url: /mobile_overview/
+      url: /mobile_overview
       output: web, pdf
 
     - title: Playback
-      url: /mobile_playback/
+      url: /mobile_playback
       output: web, pdf
 
   - title: Alarms
@@ -64,23 +64,23 @@ entries:
     folderitems:
 
     - title: Diagnose
-      url: /mobile_alarm_diagnose/
+      url: /mobile_alarm_diagnose
       output: web, pdf
 
     - title: Acknowledge
-      url: /mobile_alarm_acknowledge/
+      url: /mobile_alarm_acknowledge
       output: web, pdf
 
     - title: Snooze
-      url: /mobile_alarm_snooze/
+      url: /mobile_alarm_snooze
       output: web, pdf
 
     - title: Sort / Group
-      url: /mobile_alarm_sortgroup/
+      url: /mobile_alarm_sortgroup
       output: web, pdf
 
     - title: Notifications
-      url: /mobile_alarm_notifications/
+      url: /mobile_alarm_notifications
       output: web, pdf
 
   - title: Settings
@@ -88,13 +88,13 @@ entries:
     folderitems:
 
     - title: Settings
-      url: /mobile_settings/
+      url: /mobile_settings
       output: web, pdf
 
     - title: Profile
-      url: /mobile_profile/
+      url: /mobile_profile
       output: web, pdf  
 
     - title: Refresh
-      url: /mobile_refresh/
+      url: /mobile_refresh
       output: web, pdf  
