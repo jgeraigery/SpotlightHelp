@@ -26,7 +26,7 @@ port: 4005
 exclude:
   - .idea/
   - .gitignore
-  - balloonhelp/
+  - pages/
 # these are the files and directories that jekyll will exclude from the build
 
 # feedback_email: tomjohnson1492@gmail.com
@@ -63,10 +63,9 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "page"
-      comments: true
-      search: true
-      sidebar: home_sidebar
+      layout: "balloonhelp"
+      comments: false
+      search: false
   -
     scope:
       path: ""
