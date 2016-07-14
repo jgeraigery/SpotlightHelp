@@ -22,8 +22,12 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Connection details and requirements
+    - title: Hyper-V connection details
       url: /hyperv_connect_details.html
+      output: web, pdf
+
+    - title: Hyper-V connection requirements
+      url: /hyperv_connect_requirements.html
       output: web, pdf
 
   - title: Alarms
@@ -42,17 +46,13 @@ entries:
       url: /hyperv_alarm_overhead.html
       output: web, pdf
 
-  - title: Spotlight Product displays
-    output: web, pdf
-    folderitems:
-
-    - title: Spotlight Enterprise
-      url: /hyperv_productenterprise.html
-      output: web, pdf
-
   - title: Hyper-V Connection display
     output: web, pdf
     folderitems:
+
+    - title: Hyper-V connection display
+      url: /hyperv_display_connection.html
+      output: web, pdf
 
     - title: Status component
       url: /hyperv_component_status.html

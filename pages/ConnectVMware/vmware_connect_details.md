@@ -1,5 +1,5 @@
 ---
-title: VMware Connection details
+title: VMware connection details
 tags: [connection_details]
 summary: "Specify the connection details for a VMware® connection to an ESX Server™ or VirtualCenter server hosting a Windows server®."
 sidebar: c_vmware_sidebar
@@ -9,13 +9,16 @@ folder: ConnectVMware
 ---
 
 
-## Requirements
+## How to enter / edit VMware connection details
 
-VMware® ESX infrastructure. VMware vCenter 2.5 (or later). VMware ESX Server™ 4.0 (or later)
+Use a Spotlight Client to enter / edit VMware connection details.
 
-The username used to connect to the virtual guest machine must have at least a read-only role.
+From the Spotlight Client
 
-Ensure any firewall is configured to open TCP port 135.
+1.  Click **Configure \| Connections**.
+2.  Double click **Add new connection**.
+3.  Fill in the connection details as follows.
+4.  Click **Test** to test the connection.
 
 
 ## Address

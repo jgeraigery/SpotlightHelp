@@ -26,20 +26,12 @@ entries:
       url: /sqlazure_connect_details.html
       output: web, pdf
 
-  - title: Spotlight Product displays
-    output: web, pdf
-    folderitems:
-
-    - title: Spotlight Enterprise
-      url: /sqlazure_productenterprise.html
-      output: web, pdf
-
   - title: Spotlight Overview page
     output: web, pdf
     folderitems:
 
-    - title: SQL Azure Overview page
-      url: /sqlazure_overview.html
+    - title: Spotlight Overview page
+      url: /sqlazure_display_overview.html
       output: web, pdf
 
       subfolders:
@@ -139,6 +131,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: SQL Activity drilldown
+      url: /sqlazure_display_sqlactivity.html
+      output: web, pdf
+
     - title: Sessions grid
       url: /sqlazure_grid_sessions.html
       output: web, pdf
@@ -158,6 +154,10 @@ entries:
   - title: Databases drilldown
     output: web, pdf
     folderitems:
+
+    - title: Databases drilldown
+      url: /sqlazure_display_databases.html
+      output: web, pdf
 
     - title: Database Space chart
       url: /sqlazure_chart_databasespace.html

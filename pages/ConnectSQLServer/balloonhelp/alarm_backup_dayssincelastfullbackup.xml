@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "../dtd/technicalContent/dtd/task.dtd">
+<task id="alarm.backup.dayssincelastfullbackup" xml:lang="en-us">
+<title>Backup - Days Since Last Full Backup Alarm</title>
+<shortdesc>The <uicontrol>Backup - Days Since Last Full Backup Alarm</uicontrol> becomes active when Spotlight
+ detects that a full backup on the SQL Server database has never taken place or has not taken place in the last three days.</shortdesc>
+<taskbody>
+<context>
+<note type="note">This alarm is not activated for missing backups of the tempdb database.</note>
+<p>When this alarm is raised, you should:</p>
+<ul>
+	<li><p>Check the date and time of the last backup from the <uicontrol>Databases</uicontrol> drilldown | <uicontrol>Databases</uicontrol> grid.</p></li>
+	<li><p>Ensure you have appropriate backups of all necessary databases.</p></li>
+</ul>
+</context>
+<postreq>
+<p>To configure the Backup - Days since Last Full Backup alarm</p>
+<ol>
+  <li>On the Spotlight home page, right-click the <uicontrol>Databases</uicontrol> button and select <uicontrol>Alarm Settings</uicontrol>.</li>
+  <li>Select <uicontrol>Backup - Days since Last Full Backup</uicontrol>.</li>
+  <li>Select <uicontrol>Override the default settings for the alarm</uicontrol>.</li>
+</ol>
+<p>Use the Severity table to customize the number of days and the severity. By default 0 to 3 days is Normal. A High severity alarm is raised after 3 days. Click in the table to edit the values. Decimal values can be used to indicate portions of a day. For example you could edit the table to raise a high severity alarm after 3.5 (3 and a half) days or 3.25 (3 and a quarter days).</p>
+<p>To exclude certain databases, in the lower right pane, in <uicontrol>Do not raise an alarm for certain values</uicontrol>, click the <uicontrol>values</uicontrol> link to add the name of the database you want excluded.</p>
+<p>By default, the following databases are automatically excluded from the Backup alarms:</p>
+<ul>
+<li>model</li>
+<li>pubs</li>
+<li>Northwind</li>
+<li>AdventureWorks</li>
+<li>QuestSoftware</li>
+<li>QuestWorkDatabase</li>
+<li>tempdb</li>
+</ul>
+</postreq>
+</taskbody>
+</task>

@@ -1,10 +1,18 @@
 ---
-title: Spotlight Enterprise
+title: Spotlight Overview page for SQL Azure
 summary: "Drilldown on the SQL Azure database, tables, and indexes in Spotlight Enterprise."
 sidebar: c_sqlazure_sidebar
-permalink: sqlazure_productenterprise.html
+permalink: sqlazure_display_overview.html
 folder: ConnectSQLAzure
 ---
+
+{% include note.html content="When in Playback, history will not be displayed for SQL Azure database information." %}
+
+## How to open the SQL Azure Overview page  (Spotlight Client)
+
+1. Select the connection from the left Connections pane.
+2. Click **Monitor \| Overview** from the ribbon.
+
 
 
 Icon | Name | Description
@@ -13,7 +21,7 @@ Icon | Name | Description
 ![SQL Activity]({{ "/imagesClient/tb_drilldown_sqlactivity.png" | prepend: site.baseurl }}) | SQL Activity Drilldown | Drilldown on current and recent activity.
 ![Databases]({{ "/imagesClient/tb_drilldown_databases.png" | prepend: site.baseurl }}) | Databases Drilldown | Drilldown on the SQL Azure database, tables, and indexes.  
 
-{% include note.html content="When in Playback, history will not be displayed for SQL Azure database information." %}
+
 
 
 {% include links.html %}

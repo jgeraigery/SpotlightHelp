@@ -1,5 +1,5 @@
 ---
-title: Availability Group Connection details and requirements
+title: Availability Group Connection details
 tags: [connection_details]
 summary: "An availability group is a set of user databases that fail over together. An availability group consists of a primary availability replica and one to four secondary replicas that are maintained through SQL Server log-based data movement for data protection without the need for shared storage. Each replica is hosted by an instance of SQL Server on a different node of the Windows Server Failover Cluster (WSFC). The availability group and a corresponding virtual network name are registered as resources in the WSFC."
 sidebar: c_availabilitygroup_sidebar
@@ -10,8 +10,17 @@ folder: ConnectAvailabilityGroup
 
  {% include tip.html content="The Availability Groups connection type requires SQL Server 2012 or above." %}
 
+## How to enter / edit Availability Group connection details
 
-## Specify the connection details for the Availability Group
+ Use a Spotlight Client to enter / edit Availability Group connection details.
+
+ From the Spotlight Client
+
+ 1.  Click **Configure \| Connections**.
+ 2.  Double click **Add new connection**.
+ 3.  Fill in the connection details as follows.
+ 4.  Click **Test** to test the connection.
+
 
 # Address
 

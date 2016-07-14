@@ -7,6 +7,18 @@ permalink: sqlazure_connect_details.html
 folder: ConnectSQLAzure
 ---
 
+## How to enter / edit SQL Azure connection details
+
+Use a Spotlight Client to enter / edit SQL Azure connection details.
+
+From the Spotlight Client
+
+1.  Click **Configure \| Connections**.
+2.  Double click **Add new connection**.
+3.  Fill in the connection details as follows.
+4.  Click **Test** to test the connection.
+
+
 
 ## Address
 

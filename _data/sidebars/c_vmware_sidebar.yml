@@ -22,8 +22,12 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Connection details and requirements
+    - title: VMware connection details
       url: /vmware_connect_details.html
+      output: web, pdf
+
+    - title: VMware connection requirements
+      url: /vmware_connect_requirements.html
       output: web, pdf
 
   - title: Alarms
@@ -42,17 +46,13 @@ entries:
       url: /vmware_alarm_overhead.html
       output: web, pdf
 
-  - title: Spotlight Product displays
-    output: web, pdf
-    folderitems:
-
-    - title: Spotlight Enterprise
-      url: /vmware_productenterprise.html
-      output: web, pdf
-
   - title: VMware Connection display
     output: web, pdf
     folderitems:
+
+    - title: VMware connection display
+      url: /vmware_display_connection.html
+      output: web, pdf
 
     - title: Status component
       url: /vmware_component_status.html

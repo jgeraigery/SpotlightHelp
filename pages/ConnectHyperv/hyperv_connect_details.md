@@ -1,5 +1,5 @@
 ---
-title: Hyper-V Connection details
+title: Hyper-V connection details
 tags: [connection_details]
 summary: "Specify the connection details for a Hyper-V server."
 sidebar: c_hyperv_sidebar
@@ -9,13 +9,16 @@ folder: ConnectHyperv
 ---
 
 
-## Requirements
+## How to enter / edit Hyper-V connection details
 
-Hyper-V® 6.2 and above.
+Use a Spotlight Client to enter / edit Hyper-V connection details.
 
-The username used to connect to the virtual guest machine must have at least a read-only role.
+From the Spotlight Client
 
-Ensure any firewall is configured to open TCP port 135.
+1.  Click **Configure \| Connections**.
+2.  Double click **Add new connection**.
+3.  Fill in the connection details as follows.
+4.  Click **Test** to test the connection.
 
 
 ## Address
