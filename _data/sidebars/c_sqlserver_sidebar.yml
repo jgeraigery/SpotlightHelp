@@ -278,197 +278,805 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Blocked Processes
-      url: /sqlserver_component_blockedprocesses.html
+    - title: Spotlight Overview page
+      url: /sqlserver_drilldown_overview.html
       output: web, pdf
 
-    - title: Buffer Cache size
-      url: /sqlserver_component_buffercache.html
-      output: web, pdf
+      subfolders:
+      - title: Sessions Panel
+        output: web
+        subfolderitems:
 
-    - title: Computers
-      url: /sqlserver_component_computers.html
-      output: web, pdf
+        - title: Response Time
+          url: /sqlserver_component_responsetime.html
+          output: web, pdf
 
-    - title: CPU Usage
-      url: /sqlserver_component_cpuusage.html
-      output: web, pdf
+        - title: Sessions
+          url: /sqlserver_component_sessions.html
+          output: web, pdf
 
-    - title: Custom Counters
-      url: /sqlserver_component_customcounters.html
-      output: web, pdf
+        - title: Computers
+          url: /sqlserver_component_computers.html
+          output: web, pdf
 
-    - title: Databases
-      url: /sqlserver_component_databases.html
-      output: web, pdf
+        - title: Active Sessions
+          url: /sqlserver_component_sessions_active.html
+          output: web, pdf
 
-    - title: Data Files
-      url: /sqlserver_component_datafiles_disk.html
-      output: web, pdf
+        - title: Active Sessions Percentage
+          url: /sqlserver_component_sessions_activepcnt.html
+          output: web, pdf
 
-    - title: Data Files
-      url: /sqlserver_component_datafiles_number.html
-      output: web, pdf
+      - title: Flows
+        output: web
+        subfolderitems:
 
-    - title: Percentage of Data Files Used
-      url: /sqlserver_component_datafiles_pcnt.html
-      output: web, pdf
+        - title: Network Packets received
+          url: /sqlserver_component_flwnetworkpacketsreceived.html
+          output: web, pdf
 
-    - title: Data Files Space Used
-      url: /sqlserver_component_datafiles_space.html
-      output: web, pdf
+        - title: Network Packets sent
+          url: /sqlserver_component_flwnetworkpacketssent.html
+          output: web, pdf
 
-    - title: Error Logs
-      url: /sqlserver_component_errorlogs.html
-      output: web, pdf
+        - title: Batches
+          url: /sqlserver_component_flwbatches.html
+          output: web, pdf
 
-    - title: File Groups
-      url: /sqlserver_component_filegroups.html
-      output: web, pdf
+      - title: Processes Panel
+        output: web
+        subfolderitems:
 
-    - title: Batches
-      url: /sqlserver_component_flwbatches.html
-      output: web, pdf
+        - title: Total SQL Server Sessions
+          url: /sqlserver_component_sessions_total.html
+          output: web, pdf
 
-    - title: Checkpoint Page Writes
-      url: /sqlserver_component_flwcheckpointwrites.html
-      output: web, pdf
+        - title: System Sessions
+          url: /sqlserver_component_sessions_system.html
+          output: web, pdf
 
-    - title: Compiles
-      url: /sqlserver_component_flwcompiles.html
-      output: web, pdf
+        - title: User Sessions
+          url: /sqlserver_component_sessions_user.html
+          output: web, pdf
 
-    - title: Lazy Writes
-      url: /sqlserver_component_flwlazywrites.html
-      output: web, pdf
+        - title: Blocked Processes
+          url: /sqlserver_component_blockedprocesses.html
+          output: web, pdf
 
-    - title: Log Flushes
-      url: /sqlserver_component_flwlogflushes.html
-      output: web, pdf
+        - title: Virtualization Overhead
+          url: /sqlserver_component_virtualizationoverhead.html
+          output: web, pdf
 
-    - title: Logical Reads
-      url: /sqlserver_component_flwlogicalreads.html
-      output: web, pdf
+        - title: CPU Usage
+          url: /sqlserver_component_cpuusage.html
+          output: web, pdf
 
-    - title: Network Packets received
-      url: /sqlserver_component_flwnetworkpacketsreceived.html
-      output: web, pdf
+      - title: Flows
+        output: web
+        subfolderitems:
 
-    - title: Network Packets sent
-      url: /sqlserver_component_flwnetworkpacketssent.html
-      output: web, pdf
+        - title: Logical Reads
+          url: /sqlserver_component_flwlogicalreads.html
+          output: web, pdf
 
-    - title: Physical Reads
-      url: /sqlserver_component_flwphysicalreads.html
-      output: web, pdf
+        - title: Compiles
+          url: /sqlserver_component_flwcompiles.html
+          output: web, pdf
 
-    - title: Physical Writes
-      url: /sqlserver_component_flwphysicalwrites.html
-      output: web, pdf
+      - title: Memory Panel
+        output: web
+        subfolderitems:
 
-    - title: Read Ahead
-      url: /sqlserver_component_flwreadahead.html
-      output: web, pdf
+        - title: Max Memory Percentage
+          url: /sqlserver_component_maxmemorypcnt.html
+          output: web, pdf
 
-    - title: Large Index Files - Maximum Fragmentation
-      url: /sqlserver_component_fragmentationmax.html
-      output: web, pdf
+        - title: SQL Memory
+          url: /sqlserver_component_sqlmemory.html
+          output: web, pdf
 
-    - title: Large Index Files - Medium Fragmentation
-      url: /sqlserver_component_fragmentationmedian.html
-      output: web, pdf
+        - title: Total SQL Server Memory
+          url: /sqlserver_component_totalsqlservermemory.html
+          output: web, pdf
 
-    - title: How is a health performance rating calculated?
-      url: /sqlserver_component_healthrating.html
-      output: web, pdf
+        - title: Buffer Cache size
+          url: /sqlserver_component_buffercache.html
+          output: web, pdf
 
-    - title: Percentage of Log Files Used
-      url: /sqlserver_component_logfiles_pcnt.html
-      output: web, pdf
+        - title: Page Life Expectancy
+          url: /sqlserver_component_pagelifeexpectancy.html
+          output: web, pdf
 
-    - title: Number of Log Files
-      url: /sqlserver_component_logfiles.html
-      output: web, pdf
+        - title: Procedure Cache Size
+          url: /sqlserver_component_procedurecachesize.html
+          output: web, pdf
 
-    - title: Log Space Used
-      url: /sqlserver_component_logspaceused.html
-      output: web, pdf
+      - title: Flows
+        output: web
+        subfolderitems:
 
-    - title: Max I/O Wait
-      url: /sqlserver_component_maxiowait.html
-      output: web, pdf
+        - title: Checkpoint Page Writes
+          url: /sqlserver_component_flwcheckpointwrites.html
+          output: web, pdf
 
-    - title: Max Memory Percentage
-      url: /sqlserver_component_maxmemorypcnt.html
-      output: web, pdf
+        - title: Lazy Writes
+          url: /sqlserver_component_flwlazywrites.html
+          output: web, pdf
 
-    - title: Page Life Expectancy
-      url: /sqlserver_component_pagelifeexpectancy.html
-      output: web, pdf
+        - title: Log Flushes
+          url: /sqlserver_component_flwlogflushes.html
+          output: web, pdf
 
-    - title: Procedure Cache Size
-      url: /sqlserver_component_procedurecachesize.html
-      output: web, pdf
+        - title: Physical Reads
+          url: /sqlserver_component_flwphysicalreads.html
+          output: web, pdf
 
-    - title: Response Time
-      url: /sqlserver_component_responsetime.html
-      output: web, pdf
+        - title: Physical Writes
+          url: /sqlserver_component_flwphysicalwrites.html
+          output: web, pdf
 
-    - title: Active Sessions
-      url: /sqlserver_component_sessions_active.html
-      output: web, pdf
+        - title: Read Ahead
+          url: /sqlserver_component_flwreadahead.html
+          output: web, pdf
 
-    - title: Active Sessions Percentage
-      url: /sqlserver_component_sessions_activepcnt.html
-      output: web, pdf
+      - title: Disk Storage Panel
+        output: web
+        subfolderitems:
 
-    - title: System Sessions
-      url: /sqlserver_component_sessions_system.html
-      output: web, pdf
+        - title: Databases
+          url: /sqlserver_component_databases.html
+          output: web, pdf
 
-    - title: Total SQL Server Sessions
-      url: /sqlserver_component_sessions_total.html
-      output: web, pdf
+        - title: Tempdb
+          url: /sqlserver_component_tempdb.html
+          output: web, pdf
 
-    - title: User Sessions
-      url: /sqlserver_component_sessions_user.html
-      output: web, pdf
+        - title: Data Files
+          url: /sqlserver_component_datafiles_disk.html
+          output: web, pdf
 
-    - title: Sessions
-      url: /sqlserver_component_sessions.html
-      output: web, pdf
+        - title: Data Files
+          url: /sqlserver_component_datafiles_number.html
+          output: web, pdf
 
-    - title: SQL Memory
-      url: /sqlserver_component_sqlmemory.html
-      output: web, pdf
+        - title: Percentage of Data Files Used
+          url: /sqlserver_component_datafiles_pcnt.html
+          output: web, pdf
 
-    - title: Support Services
-      url: /sqlserver_component_supportservices.html
-      output: web, pdf
+        - title: Data Files Space Used
+          url: /sqlserver_component_datafiles_space.html
+          output: web, pdf
 
-    - title: Tempdb
-      url: /sqlserver_component_tempdb.html
-      output: web, pdf
+        - title: File Groups
+          url: /sqlserver_component_filegroups.html
+          output: web, pdf
 
-    - title: Total SQL Server Memory
-      url: /sqlserver_component_totalsqlservermemory.html
-      output: web, pdf
+        - title: Percentage of Log Files Used
+          url: /sqlserver_component_logfiles_pcnt.html
+          output: web, pdf
 
-    - title: Version
-      url: /sqlserver_component_version.html
-      output: web, pdf
+        - title: Number of Log Files
+          url: /sqlserver_component_logfiles.html
+          output: web, pdf
 
-    - title: Virtualization Overhead
-      url: /sqlserver_component_virtualizationoverhead.html
-      output: web, pdf
+        - title: Large Index Files - Maximum Fragmentation
+          url: /sqlserver_component_fragmentationmax.html
+          output: web, pdf
 
-  - title: Drilldowns
+        - title: Large Index Files - Medium Fragmentation
+          url: /sqlserver_component_fragmentationmedian.html
+          output: web, pdf
+
+        - title: Max I/O Wait
+          url: /sqlserver_component_maxiowait.html
+          output: web, pdf
+
+        - title: Log Space Used
+          url: /sqlserver_component_logspaceused.html
+          output: web, pdf
+
+      - title: Performance Health Panel
+        output: web
+        subfolderitems:
+
+        - title: How is a health performance rating calculated?
+          url: /sqlserver_component_healthrating.html
+          output: web, pdf
+
+      - title: System Panel
+        output: web
+        subfolderitems:
+
+        - title: Version
+          url: /sqlserver_component_version.html
+          output: web, pdf
+
+        - title: Custom Counters
+          url: /sqlserver_component_customcounters.html
+          output: web, pdf
+
+      - title: Background Processes Panel
+        output: web
+        subfolderitems:
+
+        - title: Error Logs
+          url: /sqlserver_component_errorlogs.html
+          output: web, pdf
+
+        - title: Support Services
+          url: /sqlserver_component_supportservices.html
+          output: web, pdf
+
+  - title: Memory drilldown
     output: web, pdf
     folderitems:
 
-    - title: Drilldowns
-      url: /sqlserver_drilldowns.html
+    - title: Memory drilldown
+      url: /sqlserver_drilldown_memory.html
       output: web, pdf
+
+      subfolders:
+      - title: Summary page
+        output: web
+        subfolderitems:
+
+        - title: Memory Areas chart
+          url: /sqlserver_chart_memoryareas.html
+          output: web, pdf
+
+        - title: Hit Rates chart
+          url: /sqlserver_chart_hitrates.html
+          output: web, pdf
+
+        - title: Server Memory chart
+          url: /sqlserver_chart_servermemory.html
+          output: web, pdf
+
+        - title: Cache chart
+          url: /sqlserver_chart_cache.html
+          output: web, pdf
+
+        - title: Buffer Cache Page Life Expectancy chart
+          url: /sqlserver_chart_buffercachepagelifeexpectancy.html
+          output: web, pdf
+
+  - title: SQL Activity drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: SQL Activity drilldown
+      url: /sqlserver_drilldown_sqlactivity.html
+      output: web, pdf
+
+      subfolders:
+      - title: Sessions page
+        output: web
+        subfolderitems:
+
+        - title: Session grid
+          url: /sqlserver_grid_session.html
+          output: web, pdf
+
+        - title: SQL
+          url: /sqlserver_sql.html
+          output: web, pdf
+
+        - title: Plan
+          url: /sqlserver_plan.html
+          output: web, pdf
+
+        - title: Session Trace
+          url: /sqlserver_grid_sessiontrace.html
+          output: web, pdf
+
+        - title: Session Locks
+          url: /sqlserver_grid_sessionlocks.html
+          output: web, pdf
+
+        - title: Session Details
+          url: /sqlserver_details_session.html
+          output: web, pdf
+
+      - title: Summary page
+        output: web
+        subfolderitems:
+
+        - title: Access Methods chart
+          url: /sqlserver_chart_accessmethods.html
+          output: web, pdf
+
+        - title: SQL Server I/O chart
+          url: /sqlserver_chart_sqlserverio.html
+          output: web, pdf
+
+        - title: Cache Hit Rates chart
+          url: /sqlserver_chart_cachehitrates.html
+          output: web, pdf
+
+        - title: CPU Utilization chart
+          url: /sqlserver_chart_cpuutilization.html
+          output: web, pdf
+
+        - title: Call Rates chart
+          url: /sqlserver_chart_callrates.html
+          output: web, pdf
+
+        - title: Connected Sessions chart
+          url: /sqlserver_chart_connectedsessions.html
+          output: web, pdf
+
+      - title: Locks page
+        output: web
+        subfolderitems:
+
+        - title: Locks grid
+          url: /sqlserver_grid_locks.html
+          output: web, pdf
+
+        - title: Locks Type chart
+          url: /sqlserver_chart_lockstype.html
+          output: web, pdf
+
+        - title: Latches chart
+          url: /sqlserver_chart_latches.html
+          output: web, pdf
+
+      - title: Blocking page
+        output: web
+        subfolderitems:
+
+        - title: Blocking grid
+          url: /sqlserver_grid_blocking.html
+          output: web, pdf
+
+        - title: Number of Blocked Processes chart
+          url: /sqlserver_chart_numberofblockedprocesses.html
+          output: web, pdf
+
+      - title: Deadlocks page
+        output: web
+        subfolderitems:
+
+        - title: Deadlocks list
+          url: /sqlserver_grid_deadlocks.html
+          output: web, pdf
+
+      - title: I/O by File page
+        output: web
+        subfolderitems:
+
+        - title: I/O by file grid
+          url: /sqlserver_grid_iobyfile.html
+          output: web, pdf
+
+        - title: I/O by file chart
+          url: /sqlserver_chart_iobyfile.html
+          output: web, pdf
+
+      - title: SQL Analysis page
+        output: web
+        subfolderitems:
+
+        - title: SQL Analysis grid
+          url: /sqlserver_grid_sqlanalysis.html
+          output: web, pdf
+
+      - title: Custom Counters page
+        output: web
+        subfolderitems:
+
+        - title: Custom Counters chart
+          url: /sqlserver_chart_customcounters.html
+          output: web, pdf
+
+        - title: Custom Counters grid
+          url: /sqlserver_grid_customcounters.html
+          output: web, pdf
+
+      - title: Top SQL Statements page
+        output: web
+        subfolderitems:
+
+        - title: Top SQL Statements grid
+          url: /sqlserver_grid_topsqlstatements.html
+          output: web, pdf
+
+        - title: SQL Statement
+          url: /sqlserver_detail_sqlstatement.html
+          output: web, pdf
+
+        - title: Query Plan
+          url: /sqlserver_detail_queryplan.html
+          output: web, pdf
+
+  - title: Performance Health drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Performance Health drilldown
+      url: /sqlserver_drilldown_performancehealth.html
+      output: web, pdf
+
+  - title: Wait Statistics drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Wait Statistics drilldown
+      url: /sqlserver_drilldown_waitstatistics.html
+      output: web, pdf
+
+    - title: Wait Time Trend chart
+      url: /sqlserver_chart_waittimetrend.html
+      output: web, pdf
+
+    - title: Wait Details grid
+      url: /sqlserver_grid_waitdetails.html
+      output: web, pdf
+
+  - title: Wait Events drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Wait Events drilldown
+      url: /sqlserver_drilldown_waitevents.html
+      output: web, pdf
+
+  - title: High Availability drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: High Availability drilldown
+      url: /sqlserver_drilldown_highavailability.html
+      output: web, pdf
+
+      subfolders:
+      - title: Transaction Log Shipping page
+        output: web
+        subfolderitems:
+
+        - title: Transaction Log Shipping Primaries grid
+          url: /sqlserver_grid_transactionlogshippingprimaries.html
+          output: web, pdf
+
+        - title: Transaction Log Shipping Secondaries grid
+          url: /sqlserver_grid_transactionlogshippingsecondaries.html
+          output: web, pdf
+
+        - title: Transaction Log Shipping History grid
+          url: /sqlserver_grid_transactionlogshippinghistory.html
+          output: web, pdf
+
+        - title: Transaction Log Shipping Secondary Database details
+          url: /sqlserver_details_transactionlogshippingdetails.html
+          output: web, pdf
+
+      - title: Database Mirroring page
+        output: web
+        subfolderitems:
+
+        - title: Database Mirroring grid
+          url: /sqlserver_grid_databasemirroring.html
+          output: web, pdf
+
+        - title: Database Mirroring details
+          url: /sqlserver_details_databasemirroring.html
+          output: web, pdf
+
+  - title: Databases drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Databases drilldown
+      url: /sqlserver_drilldown_databases.html
+      output: web, pdf
+
+      subfolders:
+      - title: Databases page
+        output: web
+        subfolderitems:
+
+        - title: Databases grid
+          url: /sqlserver_grid_databases.html
+          output: web, pdf
+
+      - title: Summary page
+        output: web
+        subfolderitems:
+
+        - title: Database Space chart 
+          url: /sqlserver_chart_databasespace.html
+          output: web, pdf
+
+        - title: Database History chart
+          url: /sqlserver_chart_databasehistory.html
+          output: web, pdf
+
+      - title: File Groups page
+        output: web
+        subfolderitems:
+
+        - title: File Groups grid
+          url: /sqlserver_grid_filegroups.html
+          output: web, pdf
+
+        - title: File Group Space chart
+          url: /sqlserver_chart_filegroupspace.html
+          output: web, pdf
+
+        - title: File Group Growth chart
+          url: /sqlserver_chart_filegroupgrowth.html
+          output: web, pdf
+
+      - title: Data Files page
+        output: web
+        subfolderitems:
+
+        - title: Data Files grid
+          url: /sqlserver_grid_datafiles.html
+          output: web, pdf
+
+        - title: Data Files Space chart
+          url: /sqlserver_chart_datafilesspace.html
+          output: web, pdf
+
+        - title: Data Files Growth chart
+          url: /sqlserver_chart_datafilesgrowth.html
+          output: web, pdf
+
+      - title: Transaction Logs page
+        output: web
+        subfolderitems:
+
+        - title: Transaction Logs grid
+          url: /sqlserver_grid_transactionlogs.html
+          output: web, pdf
+
+        - title: Transaction Log Space chart
+          url: /sqlserver_chart_transactionlogspace.html
+          output: web, pdf
+
+        - title: Transaction Log Growth chart
+          url: /sqlserver_chart_transactionloggrowth.html
+          output: web, pdf
+
+      - title: Log Files page
+        output: web
+        subfolderitems:
+
+        - title: Log Files grid
+          url: /sqlserver_grid_logfiles.html
+          output: web, pdf
+
+        - title: Log File Space chart
+          url: /sqlserver_chart_logfilespace.html
+          output: web, pdf
+
+        - title: Log File Growth chart
+          url: /sqlserver_chart_logfilegrowth.html
+          output: web, pdf
+
+      - title: Tables page
+        output: web
+        subfolderitems:
+
+        - title: Tables grid
+          url: /sqlserver_grid_tables.html
+          output: web, pdf
+
+        - title: Table Space chart
+          url: /sqlserver_chart_tablespace.html
+          output: web, pdf
+
+        - title: Table Growth chart
+          url: /sqlserver_chart_tablegrowth.html
+          output: web, pdf
+
+      - title: Indexes page
+        output: web
+        subfolderitems:
+
+        - title: Indexes grid
+          url: /sqlserver_grid_indexes.html
+          output: web, pdf
+
+        - title: Index Statsitics Summary
+          url: /sqlserver_details_indexstatistics.html
+          output: web, pdf
+
+        - title: Index Density grid
+          url: /sqlserver_grid_indexdensity.html
+          output: web, pdf
+
+        - title: Index Distribution chart
+          url: /sqlserver_chart_indexdistribution.html
+          output: web, pdf
+
+        - title: Fragmentation grid
+          url: /sqlserver_grid_fragmentation.html
+          output: web, pdf
+
+      - title: Disk Space page
+        output: web
+        subfolderitems:
+
+        - title: Disk Space chart
+          url: /sqlserver_chart_diskspace.html
+          output: web, pdf
+
+      - title: LiteSpeed Backups page
+        output: web
+        subfolderitems:
+
+        - title: LiteSpeed Backup History grid
+          url: /sqlserver_grid_litespeedbackuphistory.html
+          output: web, pdf
+
+      - title: Fragmented Indexes page
+        output: web
+        subfolderitems:
+
+        - title: Fragmented Indexes grid
+          url: /sqlserver_grid_fragmentedindexes.html
+          output: web, pdf
+
+  - title: Support Services drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Support Services drilldown
+      url: /sqlserver_drilldown_supportservices.html
+      output: web, pdf
+
+      subfolders:
+      - title: SQL Agent Jobs page
+        output: web
+        subfolderitems:
+
+        - title: SQL Agent Jobs grid
+          url: /sqlserver_grid_sqlagentjobs.html
+          output: web, pdf
+
+        - title: Job History grid
+          url: /sqlserver_grid_jobhistory.html
+          output: web, pdf
+
+        - title: SQL Agent Jobs Status chart
+          url: /sqlserver_chart_sqlagentjobsstatus.html
+          output: web, pdf
+
+      - title: Service Status page
+        output: web
+        subfolderitems:
+
+        - title: Service Status grid
+          url: /sqlserver_grid_servicestatus.html
+          output: web, pdf
+
+        - title: Service Status History chart
+          url: /sqlserver_chart_servicestatushistory.html
+          output: web, pdf
+
+      - title: SQL Agent Alerts page
+        output: web
+        subfolderitems:
+
+        - title: SQL Agent Alerts grid
+          url: /sqlserver_grid_sqlagentalerts.html
+          output: web, pdf
+
+        - title: Alert Occurrences chart
+          url: /sqlserver_chart_alertoccurrences.html
+          output: web, pdf
+
+      - title: Cluster Services page
+        output: web
+        subfolderitems:
+
+        - title: Cluster Services grid
+          url: /sqlserver_grid_clusterservices.html
+          output: web, pdf
+
+      - title: DTC page
+        output: web
+        subfolderitems:
+
+        - title: DTC Details chart
+          url: /sqlserver_chart_dtcdetails.html
+          output: web, pdf
+
+      - title: Full Text Search page
+        output: web
+        subfolderitems:
+
+        - title: Full Text Search Service grid
+          url: /sqlserver_grid_fulltextsearchservice.html
+          output: web, pdf
+
+      - title: OLAP Services page
+        output: web
+        subfolderitems:
+
+        - title: OLAP grid
+          url: /sqlserver_grid_olap.html
+          output: web, pdf
+
+  - title: Configuration drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Configuration drilldown
+      url: /sqlserver_drilldown_configuration.html
+      output: web, pdf
+
+      subfolders:
+      - title: Configuration page
+        output: web
+        subfolderitems:
+
+        - title: SQL Server Configuration grid
+          url: /sqlserver_grid_sqlserverconfiguration.html
+          output: web, pdf
+
+  - title: Error log drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Error log drilldown
+      url: /sqlserver_drilldown_errorlog.html
+      output: web, pdf
+
+    - title: SQL Server Error Logs grid
+      url: /sqlserver_grid_sqlservererrorlogs.html
+      output: web, pdf
+
+    - title: SQL Agent Error Logs grid
+      url: /sqlserver_grid_sqlagenterrorlogs.html
+      output: web, pdf
+
+  - title: Workload Analysis drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Workload Analysis drilldown
+      url: /sqlserver_drilldown_workloadanalysis.html
+      output: web, pdf
+
+  - title: Tempdb drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Tempdb drilldown
+      url: /sqlserver_drilldown_tempdb.html
+      output: web, pdf
+
+      subfolders:
+      - title: Usage page
+        output: web
+        subfolderitems:
+
+        - title: Tempdb Space Used chart
+          url: /sqlserver_chart_tempdbspaceused.html
+          output: web, pdf
+
+        - title: Version Store Size (Change) chart
+          url: /sqlserver_chart_versionstoresize.html
+          output: web, pdf
+
+        - title: Top 25 Tempdb sessions grid
+          url: /sqlserver_grid_top25tempdbsessions.html
+          output: web, pdf
+
+      - title: Contention page
+        output: web
+        subfolderitems:
+
+        - title: Wait Time chart
+          url: /sqlserver_chart_waittime.html
+          output: web, pdf
+
+        - title: Sessions involved in this contention grid
+          url: /sqlserver_grid_sessionsinvolvedinthiscontention.html
+          output: web, pdf
 
   - title: Collections
     output: web, pdf

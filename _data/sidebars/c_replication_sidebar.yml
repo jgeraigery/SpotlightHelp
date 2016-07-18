@@ -22,8 +22,12 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Connection details and requirements
-      url: /replication_connect.html
+    - title: Connection details
+      url: /replication_connect_details.html
+      output: web, pdf
+
+    - title: Connection requirements
+      url: /replication_connect_requirements.html
       output: web, pdf
 
   - title: Alarms
@@ -34,13 +38,82 @@ entries:
       url: /replication_alarms.html
       output: web, pdf
 
-  - title: Drilldowns
+  - title: Spotlight Overview page
     output: web, pdf
     folderitems:
 
-    - title: Drilldowns
-      url: /replication_drilldowns.html
+    - title: Spotlight Overview page
+      url: /replication_drilldown_overview.html
       output: web, pdf
+
+  - title: Activity drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Activity drilldown
+      url: /replication_drilldown_activity.html
+      output: web, pdf
+
+      subfolders:
+      - title: Publications page
+        output: web
+        subfolderitems:
+
+        - title: Publications grid
+          url: /replication_grid_publications.html
+          output: web, pdf
+
+      - title: Subscriptions page
+        output: web
+        subfolderitems:
+
+        - title: Subscriptions grid
+          url: /replication_grid_subscriptions.html
+          output: web, pdf
+
+        - title: Sessions for Subscription
+          url: /replication_grid_sessionsforsubscription.html
+          output: web, pdf
+
+        - title: Sessions of the Log Reader Agent grid
+          url: /replication_grid_sessionsofthelogreaderagent.html
+          output: web, pdf
+
+        - title: Sessions grid
+          url: /replication_grid_sessions.html
+          output: web, pdf
+
+        - title: Session Acticles grid
+          url: /replication_grid_sessionarticles.html
+          output: web, pdf
+
+        - title: Sessions of the Distribution Agent
+          url: /replication_grid_sessionsofthedistributionagent.html
+          output: web, pdf
+
+        - title: Top 200 Actions grid
+          url: /replication_grid_top200actions.html
+          output: web, pdf
+
+      - title: Agents page
+        output: web
+        subfolderitems:
+
+        - title: Agents grid
+          url: /replication_grid_agents.html
+          output: web, pdf
+
+        - title: Performance chart
+          url: /replication_chart_performance.html
+          output: web, pdf
+
+        - title: Sessions grid
+          url: /replication_grid_sessions.html
+          output: web, pdf
+
+        - title: Top 200 actions grid
+          url: /replication_grid_top200actions.html
+          output: web, pdf
 
   - title: Collections
     output: web, pdf

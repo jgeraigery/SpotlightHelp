@@ -22,8 +22,12 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Connection details and requirements
-      url: /analysisservices_connect.html
+    - title: Connection details
+      url: /analysisservices_connect_details.html
+      output: web, pdf
+
+    - title: Connection requirements
+      url: /analysisservices_connect_requirements.html
       output: web, pdf
 
   - title: Alarms
@@ -34,12 +38,44 @@ entries:
       url: /analysisservices_alarms.html
       output: web, pdf
 
-  - title: Drilldowns
+  - title: Spotlight Overview page
     output: web, pdf
     folderitems:
 
-    - title: Drilldowns
-      url: /analysisservices_drilldowns.html
+    - title: Spotlight Overview page
+      url: /analysisservices_drilldown_overview.html
+      output: web, pdf
+
+  - title: Activity drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Activity drilldown
+      url: /analysisservices_drilldown_activity.html
+      output: web, pdf
+
+  - title: Memory drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Memory drilldown
+      url: /analysisservices_drilldown_memory.html
+      output: web, pdf
+
+  - title: Storage drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Storage drilldown
+      url: /analysisservices_drilldown_storage.html
+      output: web, pdf
+
+  - title: Configuration drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Configuration drilldown
+      url: /analysisservices_drilldown_configuration.html
       output: web, pdf
 
   - title: Collections
