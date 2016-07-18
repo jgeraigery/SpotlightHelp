@@ -38,11 +38,67 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Alarms
-      url: /windows_alarms.html
+    - title: CPU - Average CPU Usage alarm
+      url: /windows_alarm_cpu_averagecpuusage.html
       output: web, pdf
 
-  - title: Drilldowns
+    - title: CPU - Individual CPU Usage alarm
+      url: /windows_alarm_cpu_individualcpuusage.html
+      output: web, pdf
+
+    - title: CPU - Processor Queue Length alarm
+      url: /windows_alarm_cpu_processorqueuelength.html
+      output: web, pdf
+
+    - title: Disks - Percentage Used (Free Space) alarm
+      url: /windows_alarm_disks_percentageused.html
+      output: web, pdf
+
+    - title: Disks - Queue Length alarm
+      url: /windows_alarm_disks_queuelength.html
+      output: web, pdf
+
+    - title: Disks - Transfer Time alarm
+      url: /windows_alarm_disks_transfertime.html
+      output: web, pdf
+
+    - title: File - Exceeded Set Size alarm
+      url: /windows_alarm_file_exceededsetsize.html
+      output: web, pdf
+
+    - title: Memory - Free System Page Table Entries alarm
+      url: /windows_alarm_memory_freesystempagetableentries.html
+      output: web, pdf
+
+    - title: Memory - Percentage Free Virtual Memory alarm
+      url: /windows_alarm_memory_percentagefreevirtualmemory.html
+      output: web, pdf
+
+    - title: Memory - Physical Memory Available Alarm 
+      url: /windows_alarm_memory_physicalmemoryavailable.html
+      output: web, pdf
+
+    - title: Network - Percentage Bandwidth Alarm 
+      url: /windows_alarm_network_percentagebandwidth.html
+      output: web, pdf
+
+    - title: Paging - Disk Activity Alarm  
+      url: /windows_alarm_paging_diskactivity.html
+      output: web, pdf
+
+    - title: Paging - File Collision Alarm  
+      url: /windows_alarm_paging_filecollision.html
+      output: web, pdf
+
+    - title: Services - Service Not Running Alarm   
+      url: /windows_alarm_services_servicenotrunning.html
+      output: web, pdf
+
+    - title: Windows Custom Counters Alarm  
+      url: /windows_alarm_customcounters.html
+      output: web, pdf
+
+  - title: Spotlight Overview page
     output: web, pdf
     folderitems:
 
@@ -77,6 +133,481 @@ entries:
     - title: Activity
       url: /windows_drilldown_activity.html
       output: web, pdf
+
+  - title: Processes drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Processes drilldown
+      url: /windows_drilldown_processes.html
+      output: web, pdf
+
+      subfolders:
+      - title: Processes page
+        output: web
+        subfolderitems:
+
+        - title: Processes grid
+          url: /windows_grid_process.html
+          output: web, pdf
+
+        - title: Process details
+          url: /windows_details_process.html
+          output: web, pdf
+
+        - title: Processor Utilization chart
+          url: /windows_chart_processorutilization.html
+          output: web, pdf
+
+        - title: Read / Writes chart
+          url: /windows_chart_readwrites.html
+          output: web, pdf
+
+        - title: Memory Usage chart
+          url: /windows_chart_memoryusage.html
+          output: web, pdf
+
+        - title: Page Faults chart
+          url: /windows_chart_pagefaults.html
+          output: web, pdf
+
+        - title: Process Threads grid
+          url: /windows_grid_processthreads.html
+          output: web, pdf
+
+      - title: Services page
+        output: web
+        subfolderitems:
+
+        - title: Services grid
+          url: /windows_grid_services.html
+          output: web, pdf
+
+        - title: Service details
+          url: /windows_details_service.html
+          output: web, pdf
+
+        - title: Services and Drivers required by this service grid
+          url: /womdpws_grid_servicesanddriversrequiredbythisservice.html
+          output: web, pdf
+
+        - title: Services dependent on this service grid
+          url: /windows_grid_servicesdependentonthisservice.html
+          output: web, pdf
+
+        - title: System drivers grid
+          url: /windows_grid_sysemdrivers.html
+          output: web, pdf
+  
+  - title: CPU drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: CPU drilldown
+      url: /windows_drilldown_cpu.html
+      output: web, pdf
+
+      subfolders:
+      - title: CPU page
+        output: web
+        subfolderitems:
+
+        - title: CPU Utilization chart
+          url: /windows_chart_cpuutilization.html
+          output: web, pdf
+
+        - title: Server Work Queues chart
+          url: /windows_chart_serverworkqueues.html
+          output: web, pdf
+
+        - title: Interrupts chart
+          url: /windows_chart_interrupts.html
+          output: web, pdf
+
+        - title: Kilobytes Transferred chart
+          url: /windows_chart_kilobytestransferred.html
+          output: web, pdf
+
+      - title: Processing page
+        output: web
+        subfolderitems:
+
+        - title: Total CPU Utilization chart
+          url: /windows_chart_totalcpuutilization.html
+          output: web, pdf
+
+        - title: Processor Queue Length chart
+          url: /windows_chart_processorqueuelength.html
+          output: web, pdf
+
+        - title: Total Process and Thread Count chart
+          url: /windows_chart_totalprocessandthreadscount.html
+          output: web, pdf
+
+        - title: Context Switching chart
+          url: /windows_chart_contextswitching.html
+          output: web, pdf
+
+      - title: Virtualized CPU page (VMware server host)
+        output: web
+        subfolderitems:
+
+        - title: CPU Usage Percent
+          url: /windows_vmware_cpuusagepercent.html
+          output: web, pdf
+
+        - title: CPU Usage MHz
+          url: /windows_vmware_cpuusagemhz.html
+          output: web, pdf
+
+      - title: Virtualized CPU page (Hyper-V server host)
+        output: web
+        subfolderitems:
+
+        - title: CPU Usage
+          url: /windows_hyperv_cpuusage.html
+          output: web, pdf
+
+        - title: CPU wait time per dispatch
+          url: /windows_hyperv_cpuwaittimeperdispatch.html
+          output: web, pdf
+
+        - title: Host Processor Usage
+          url: /windows_hypervhostprocessorusage.html
+          output: web, pdf
+
+  - title: Memory drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Memory drilldown
+      url: /windows_drilldown_memory.html
+      output: web, pdf
+
+      subfolders:
+      - title: Summary page
+        output: web
+        subfolderitems:
+
+        - title: Physical Memory chart
+          url: /windows_chart_physicalmemory.html
+          output: web, pdf
+
+        - title: Virtual Memory chart
+          url: /windows_chart_virtualmemory.html
+          output: web, pdf
+
+        - title: Paging chart
+          url: /windows_chart_paging.html
+          output: web, pdf
+
+        - title: Physical Memory Usage chart
+          url: /windows_chart_physicalmemoryusage.html
+          output: web, pdf
+
+      - title: Paging Activity page
+        output: web
+        subfolderitems:
+
+        - title: Page File Transfers chart
+          url: /windows_chart_pagefiletransfers.html
+          output: web, pdf
+
+        - title: Page Faults chart
+          url: /windows_chart_pagefaults.html
+          output: web, pdf
+
+        - title: Page Files grid
+          url: /windows_grid_pagefiles.html
+          output: web, pdf
+
+      - title: Cache page
+        output: web
+        subfolderitems:
+
+        - title: Cache Hit Rate chart
+          url: /windows_chart_cachehitrate.html
+          output: web, pdf
+
+        - title: Cache Size chart
+          url: /windows_chart_cachesize.html
+          output: web, pdf
+
+        - title: Physical Cache IO chart
+          url: /windows_chart_physicalcacheio.html
+          output: web, pdf
+
+        - title: Cache Faults chart
+          url: /windows_chart_cachefaults.html
+          output: web, pdf
+
+      - title: Virtualized Memory page (VMware server host)
+        output: web
+        subfolderitems:
+
+        - title: Memory Starvation
+          url: /windows_vmware_memorystarvation.html
+          output: web, pdf
+
+        - title: Memory Reposessed
+          url: /windows_vmware_memoryreposessed.html
+          output: web, pdf
+
+      - title: Virtualizd Memory page (Hyper-V server host)
+        output: web
+        subfolderitems:
+
+        - title: Average Memory Pressure
+          url: /windows_hyperv_averagememorypressure.html
+          output: web, pdf
+
+  - title: Disks drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Disks drilldown
+      url: /windows_drilldown_disks.html
+      output: web, pdf
+
+      subfolders:
+      - title: Logical Disk Activity page
+        output: web
+        subfolderitems:
+
+        - title: Disk Reads chart
+          url: /windows_chart_logical_diskreads.html
+          output: web, pdf
+
+        - title: Disk Writes chart
+          url: /windows_chart_logical_diskwrites.html
+          output: web, pdf
+
+        - title: Disk I/O chart
+          url: /windows_chart_logical_diskio.html
+          output: web, pdf
+
+        - title: Disk Queue Length chart
+          url: /windows_chart_logical_diskqueuelength.html
+          output: web, pdf
+
+        - title: Transfer Time chart
+          url: /windows_chart_logical_transfertime.html
+          output: web, pdf
+
+        - title: Disk Load chart
+          url: /windows_chart_logical_diskload.html
+          output: web, pdf
+
+      - title: Physical Disk Activity page
+        output: web
+        subfolderitems:
+
+        - title: Disk Reads chart
+          url: /windows_chart_physical_diskreads.html
+          output: web, pdf
+
+        - title: Disk Writes chart
+          url: /windows_chart_physical_diskwrites.html
+          output: web, pdf
+
+        - title: Disk I/O chart
+          url: /windows_chart_physical_diskio.html
+          output: web, pdf
+
+        - title: Disk Queue Length chart
+          url: /windows_chart_physical_diskqueuelength.html
+          output: web, pdf
+
+        - title: Transfer Time chart
+          url: /windows_chart_physical_transfertime.html
+          output: web, pdf
+
+        - title: Disk Load chart
+          url: /windows_chart_physical_diskload.html
+          output: web, pdf
+
+      - title: Logical Disk Space Usage page
+        output: web
+        subfolderitems:
+
+        - title: Disk Space by Gigabytes/Percentage chart
+          url: /windows_chart_diskspacebygigapercent.html
+          output: web, pdf
+
+      - title: Disk Summary page
+        output: web
+        subfolderitems:
+
+        - title: Physical Disks grid
+          url: /windows_grid_physicaldisks.html
+          output: web, pdf
+
+        - title: Logical Disks grid
+          url: /windows_grid_logicaldisks.html
+          output: web, pdf
+
+      - title: File Sizes page
+        output: web
+        subfolderitems:
+
+        - title: File Sizes chart
+          url: /windows_chart_filesizes.html
+          output: web, pdf
+
+  - title: Network drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Network drilldown
+      url: /windows_drilldown_network.html
+      output: web, pdf
+
+      subfolders:
+      - title: Network page
+        output: web
+        subfolderitems:
+
+        - title: Total Packets In/Out chart
+          url: /windows_chart_totalpacketsinout.html
+          output: web, pdf
+
+        - title: Packets by Network Card chart
+          url: /windows_chart_packetsbynetworkcard.html
+          output: web, pdf
+
+        - title: Total Kilobytes In/Out chart
+          url: /windows_chart_totalkilobytesinout.html
+          output: web, pdf
+
+        - title: Errors and Retries chart
+          url: /windows_chart_errorsandretries.html
+          output: web, pdf
+
+      - title: TCP/IP page
+        output: web
+        subfolderitems:
+
+        - title: TCP Segments chart
+          url: /windows_chart_tcpsegments.html
+          output: web, pdf
+
+        - title: IP Fragments chart
+          url: /windows_chart_ipfragments.html
+          output: web, pdf
+
+        - title: UDP Datagrams chart
+          url: /windows_chart_udpdiagrams.html
+          output: web, pdf
+
+        - title: IP Datagrams /IP Datagrams Errors chart
+          url: /windows_chart_ipdatagrams.html
+          output: web, pdf
+
+      - title: NBT page
+        output: web
+        subfolderitems:
+
+        - title: NBT grid
+          url: /windows_grid_nbt.html
+          output: web, pdf
+
+      - title: Sessions page
+        output: web
+        subfolderitems:
+
+        - title: Open Sessions grid
+          url: /windows_grid_opensessions.html
+          output: web, pdf
+
+      - title: Shares page
+        output: web
+        subfolderitems:
+
+        - title: Shares grid
+          url: /windows_grid_shares.html
+          output: web, pdf
+
+        - title: Open Connections grid
+          url: /windows_grid_openconnections.html
+          output: web, pdf
+
+      - title: Virtualized Network page
+        output: web
+        subfolderitems:
+
+        - title: Total Kilobytes In/Out chart
+          url: /windows_chart_totalkilobytesinout.html
+          output: web, pdf
+
+  - title: Event Logs drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Event Logs drilldown
+      url: /windows_drilldown_eventlogs.html
+      output: web, pdf
+
+      subfolders:
+      - title: Event Logs page
+        output: web
+        subfolderitems:
+
+        - title: Event Logs grid
+          url: /windows_grid_eventlogs.html
+          output: web, pdf
+
+        - title: Event Log details
+          url: /windows_details_eventlog.html
+          output: web, pdf
+
+  - title: Activity drilldown
+    output: web, pdf
+    folderitems:
+
+    - title: Activity
+      url: /windows_drilldown_activity.html
+      output: web, pdf
+
+      subfolders:
+      - title: Summary page
+        output: web
+        subfolderitems:
+
+        - title: Processor chart
+          url: /windows_chart_processor.html
+          output: web, pdf
+
+        - title: Paging chart
+          url: /windows_chart_paging.html
+          output: web, pdf
+
+        - title: Memory chart
+          url: /windows_chart_memory.html
+          output: web, pdf
+
+        - title: Processor Queue Length chart
+          url: /windows_chart_processorqueuelength.html
+          output: web, pdf
+
+        - title: Disk Queue Length chart
+          url: /windows_chart_diskqueuelength.html
+          output: web, pdf
+
+        - title: Network Packets chart
+          url: /windows_chart_networkpackets.html
+          output: web, pdf
+
+      - title: Custom Counters page
+        output: web
+        subfolderitems:
+
+        - title: Custom Coutners chart
+          url: /windows_chart_customcounters.html
+          output: web, pdf
+
+        - title: Custom Counters grid
+          url: /windows_grid_customcounters.html
+          output: web, pdf
 
   - title: Troubleshooting
     output: web, pdf
