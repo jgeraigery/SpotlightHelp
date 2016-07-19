@@ -34,6 +34,38 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Replication - Agent Failure alarm
+      url: /replication_alarm_agentfailure.html
+      output: web, pdf
+
+    - title: Replication - Latency alarm
+      url: /replication_alarm_latency.html
+      output: web, pdf
+
+    - title: Replication - Estimated time to apply alarm
+      url: /replication_alarm_estimatedtimetoapply.html
+      output: web, pdf
+
+    - title: Replication - Publication Expiration alarm
+      url: /replication_alarm_publicationexpiration.html
+      output: web, pdf
+
+    - title: Replication - Publication Failure alarm
+      url: /replication_alarm_publicationfailure.html
+      output: web, pdf
+
+    - title: Replication - Publisher Failure alarm
+      url: /replication_alarm_publisherfailure.html
+      output: web, pdf
+
+    - title: Replication - Subscription Failure alarm
+      url: /replication_alarm_subscriptionfailure.html
+      output: web, pdf
+
+    - title: Replication - Undistributed commands alarm
+      url: /replication_alarm_undistributedcommands.html
+      output: web, pdf
+
     - title: Alarms
       url: /replication_alarms.html
       output: web, pdf
@@ -45,6 +77,95 @@ entries:
     - title: Spotlight Overview page
       url: /replication_drilldown_overview.html
       output: web, pdf
+
+      subfolders:
+      - title: System Panel
+        output: web
+        subfolderitems:
+
+        - title: Distributor
+          url: /replication_component_distributor.html
+          output: web, pdf
+
+        - title: Distributor Version
+          url: /replication_component_distributorversion.html
+          output: web, pdf
+
+      - title: Distributor Panel
+        output: web
+        subfolderitems:
+
+        - title: Log Reader Agents
+          url: /replication_component_logreaderagents.html
+          output: web, pdf
+
+        - title: Distributor Agents
+          url: /replication_component_distributoragents.html
+          output: web, pdf
+
+        - title: Merge Agents
+          url: /replication_component_mergeagents.html
+          output: web, pdf
+
+        - title: Snapshot Agents
+          url: /replication_component_snapshotagents.html
+          output: web, pdf
+
+        - title: Queue Reader Agents
+          url: /replication_component_queuereaderagents.html
+          output: web, pdf
+
+        - title: Miscellaneous Agents
+          url: /replication_component_miscellaneousagents.html
+          output: web, pdf
+
+      - title: Subscribers Panel
+        output: web
+        subfolderitems:
+
+        - title: Subscribers
+          url: /replication_component_subscribers.html
+          output: web, pdf
+
+        - title: Subscriptions
+          url: /replication_component_subscriptions.html
+          output: web, pdf
+
+        - title: Subscription
+          url: /replication_component_subscription.html
+          output: web, pdf
+
+        - title: Undistributed commands
+          url: /replication_component_undistributedcommands.html
+          output: web, pdf
+
+        - title: Time to apply
+          url: /replication_component_timetoapply.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
+        - title: Log Reader
+          url: /replication_component_logreader.html
+          output: web, pdf
+
+        - title: Merge Uploads
+          url: /replication_component_mergeuploads.html
+          output: web, pdf
+
+        - title: Distribution
+          url: /replication_component_distribution.html
+          output: web, pdf
+
+        - title: Merge Downloads
+          url: /replication_component_mergedownloads.html
+          output: web, pdf
+
+        - title: Snapshot
+          url: /replication_component_snapshot.html
+          output: web, pdf
 
   - title: Activity drilldown
     output: web, pdf
@@ -104,15 +225,15 @@ entries:
           output: web, pdf
 
         - title: Performance chart
-          url: /replication_chart_performance.html
+          url: /replication_chart_agentperformance.html
           output: web, pdf
 
         - title: Sessions grid
-          url: /replication_grid_sessions.html
+          url: /replication_grid_agentsessions.html
           output: web, pdf
 
         - title: Top 200 actions grid
-          url: /replication_grid_top200actions.html
+          url: /replication_grid_agenttop200actions.html
           output: web, pdf
 
   - title: Collections
