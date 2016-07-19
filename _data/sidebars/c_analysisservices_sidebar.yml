@@ -34,8 +34,16 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Alarms
-      url: /analysisservices_alarms.html
+    - title: Cubes - Days Since Last Processed alarm
+      url: /analysisservices_alarm_cubesdayssincelastprocessed.html
+      output: web, pdf
+
+    - title: Long Running Command alarm
+      url: /analysisservices_alarm_longrunningcommand.html
+      output: web, pdf
+
+    - title: Unprocessed Cubes alarm
+      url: /analysisservices_alarm_unprocessedcubes.html
       output: web, pdf
 
   - title: Spotlight Overview page
@@ -46,12 +54,161 @@ entries:
       url: /analysisservices_drilldown_overview.html
       output: web, pdf
 
+      subfolders:
+      - title: Connections Panel
+        output: web
+        subfolderitems:
+
+        - title: Connections
+          url: /analysisservices_component_connections.html
+          output: web, pdf
+
+        - title: User Sessions
+          url: /analysisservices_component_usersessions.html
+          output: web, pdf
+
+        - title: Average Time per Query
+          url: /analysisservices_component_averagetimeperquery.html
+          output: web, pdf
+
+      - title: Server Panel
+        output: web
+        subfolderitems:
+
+        - title: Server description
+          url: /analysisservices_component_serverdescription.html
+          output: web, pdf
+
+        - title: Edition
+          url: /analysisservices_component_edition.html
+          output: web, pdf
+
+        - title: Version
+          url: /analysisservices_component_version.html
+          output: web, pdf
+
+        - title: Status
+          url: /analysisservices_component_status.html
+          output: web, pdf
+
+      - title: Memory Panel
+        output: web
+        subfolderitems:
+
+        - title: Memory limit low
+          url: /analysisservices_component_memorylimitlow.html
+          output: web, pdf
+
+        - title: Memory limit high
+          url: /analysisservices_component_memorylimithigh.html
+          output: web, pdf
+
+        - title: Memory usage
+          url: /analysisservices_component_memoryusage.html
+          output: web, pdf
+
+        - title: Cleaner memory shrinkable
+          url: /analysisservices_component_cleanermemoryshrinkable.html
+          output: web, pdf
+
+        - title: File Store
+          url: /analysisservices_component_filestore.html
+          output: web, pdf
+
+        - title: Direct Hit Ratio
+          url: /analysisservices_component_directhitratio.html
+          output: web, pdf
+
+        - title: Current Latch Waits
+          url: /analysisservices_component_currentlatchwaits.html
+          output: web, pdf
+
+        - title: Current Lock Waits
+          url: /analysisservices_component_currentlockwaits.html
+          output: web, pdf
+
+        - title: Query Pool Job Queue Length
+          url: /analysisservices_component_querypooljobqueuelength.html
+          output: web, pdf
+
+      - title: CPU Panel
+        output: web
+        subfolderitems:
+
+        - title: Virtualization Overhead
+          url: /analysisservices_component_virtualoverhead.html
+          output: web, pdf
+
+        - title: CPU usage
+          url: /analysisservices_component_cpu.html
+          output: web, pdf
+
+      - title: Storage Panel
+        output: web
+        subfolderitems:
+
+        - title: Databases
+          url: /analysisservices_component_databases.html
+          output: web, pdf
+
+        - title: Cubes
+          url: /analysisservices_component_cubes.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
+        - title: Queries Answered
+          url: /analysisservices_component_queriesanswered.html
+          output: web, pdf
+
+        - title: Queries Requested
+          url: /analysisservices_component_queriesrequested.html
+          output: web, pdf
+
+        - title: Queries from cache direct
+          url: /analysisservices_component_queriesfromcachedirect.html
+          output: web, pdf
+
+        - title: Queries from cache filtered
+          url: /analysisservices_component_queriesfromcachefiltered.html
+          output: web, pdf
+
+        - title: Queries from file
+          url: /analysisservices_component_queriesfromfile.html
+          output: web, pdf
+
+        - title: Temp file rows written
+          url: /analysisservices_component_tempfilerowswritten.html
+          output: web, pdf
+
+        - title: Rows read
+          url: /analysisservices_component_rowsread.html
+          output: web, pdf
+
+        - title: Rows written
+          url: /analysisservices_component_rowswritten.html
+          output: web, pdf
+
   - title: Activity drilldown
     output: web, pdf
     folderitems:
 
     - title: Activity drilldown
       url: /analysisservices_drilldown_activity.html
+      output: web, pdf
+
+    - title: Connection grid
+      url: /analysisservices_grid_connection.html
+      output: web, pdf
+
+    - title: Sessions grid
+      url: /analysisservices_grid_sessions.html
+      output: web, pdf
+
+    - title: Commands grid
+      url: /analysisservices_grid_commands.html
       output: web, pdf
 
   - title: Memory drilldown
@@ -62,6 +219,22 @@ entries:
       url: /analysisservices_drilldown_memory.html
       output: web, pdf
 
+    - title: Cache chart
+      url: /analysisservices_chart_cache.html
+      output: web, pdf
+
+    - title: Proactive Caching chart
+      url: /analysisservices_chart_proactivecaching.html
+      output: web, pdf
+
+    - title: Memory chart
+      url: /analysisservices_chart_memory.html
+      output: web, pdf
+
+    - title: Threads chart
+      url: /analysisservices_chart_threads.html
+      output: web, pdf
+
   - title: Storage drilldown
     output: web, pdf
     folderitems:
@@ -70,12 +243,24 @@ entries:
       url: /analysisservices_drilldown_storage.html
       output: web, pdf
 
+    - title: Databases grid
+      url: /analysisservices_grid_databases.html
+      output: web, pdf
+
+    - title: Cubes grid
+      url: /analysisservices_grid_cubes.html
+      output: web, pdf
+
   - title: Configuration drilldown
     output: web, pdf
     folderitems:
 
     - title: Configuration drilldown
       url: /analysisservices_drilldown_configuration.html
+      output: web, pdf
+
+    - title: Configuration grid
+      url: /analysisservices_grid_configuration.html
       output: web, pdf
 
   - title: Collections
