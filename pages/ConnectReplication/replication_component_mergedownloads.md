@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "../dtd/technicalContent/dtd/concept.dtd">
-<concept id="Home.flwMergeDownloads" xml:lang="en-us">
-<title>Merge Downloads Delivery Rate</title>
-<shortdesc>The rate of commands downloaded from the merge agents to the subscribers. This rate includes all updates, inserts and deletes.</shortdesc>
-<conbody>
-</conbody>
-</concept>
+---
+title: Merge Downloads Delivery Rate
+summary: "The rate of commands downloaded from the merge agents to the subscribers. This rate includes all updates, inserts and deletes."
+sidebar: c_replication_sidebar
+permalink: replication_component_mergedownloads.html
+folder: ConnectReplication
+---
+
+
+{% include links.html %}
