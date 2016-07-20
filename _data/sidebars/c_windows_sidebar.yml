@@ -219,7 +219,7 @@ entries:
           url: /windows_component_physicalram.html
           output: web, pdf
 
-        - title: Maxiumum Virtual Memory
+        - title: Maximum Virtual Memory
           url: /windows_component_maxvirtualmemory.html
           output: web, pdf
 
