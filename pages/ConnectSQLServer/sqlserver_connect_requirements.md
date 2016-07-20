@@ -1,5 +1,6 @@
 ---
-title: Connection requirements
+title: SQL Server connection requirements
+tags: [connection_requirements]
 summary: "System requirements for a SQL Server database."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_connect_requirements.html

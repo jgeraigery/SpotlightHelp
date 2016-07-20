@@ -106,33 +106,202 @@ entries:
       url: /windows_drilldown_overview.html
       output: web, pdf
 
-    - title: Processes
-      url: /windows_drilldown_processes.html
-      output: web, pdf
+      subfolders:
+      - title: Network Panel
+        output: web
+        subfolderitems:
 
-    - title: CPU
-      url: /windows_drilldown_cpu.html
-      output: web, pdf
+        - title: Windows networking users
+          url: /windows_component_windowsnetworkingusers.html
+          output: web, pdf
 
-    - title: Memory
-      url: /windows_drilldown_memory.html
-      output: web, pdf
+        - title: Open sessions
+          url: /windows_component_opensessions.html
+          output: web, pdf
 
-    - title: Disks
-      url: /windows_drilldown_disks.html
-      output: web, pdf
+        - title: Theoretical bandwidth limit
+          url: /windows_component_theoreticalbandwidthlimit.html
+          output: web, pdf
 
-    - title: Network
-      url: /windows_drilldown_network.html
-      output: web, pdf
+      - title: System Panel
+        output: web
+        subfolderitems:
 
-    - title: Event logs
-      url: /windows_drilldown_eventlogs.html
-      output: web, pdf
+        - title: Operating System
+          url: /windows_component_operatingsystem.html
+          output: web, pdf
 
-    - title: Activity
-      url: /windows_drilldown_activity.html
-      output: web, pdf
+        - title: Version
+          url: /windows_component_version.html
+          output: web, pdf
+
+        - title: Service Pack
+          url: /windows_component_servicepack.html
+          output: web, pdf
+
+        - title: Event log
+          url: /windows_component_eventlog.html
+          output: web, pdf
+
+        - title: Custom Counters
+          url: /windows_component_customcounters.html
+          output: web, pdf
+
+        - title: Status
+          url: /windows_component_status.html
+          output: web, pdf
+
+      - title: CPU Panel
+        output: web
+        subfolderitems:
+
+        - title: CPUs
+          url: /windows_component_processors.html
+          output: web, pdf
+
+        - title: Processor Speed
+          url: /windows_component_processorspeed.html
+          output: web, pdf
+
+        - title: Processor Type
+          url: /windows_component_processortype.html
+          output: web, pdf
+
+        - title: Uptime
+          url: /windows_component_uptime.html
+          output: web, pdf
+
+        - title: Virtual Overhead
+          url: /windows_component_virtualoverhead.html
+          output: web, pdf
+
+        - title: CPU Usage
+          url: /windows_component_cpuusage.html
+          output: web, pdf
+
+        - title: Queue Length
+          url: /windows_component_queuelength.html
+          output: web, pdf
+
+        - title: Processes
+          url: /windows_component_processes.html
+          output: web, pdf
+
+        - title: Threads
+          url: /windows_component_threads.html
+          output: web, pdf
+
+      - title: Files Panel
+        output: web
+        subfolderitems:
+
+        - title: Files
+          url: /windows_component_files.html
+          output: web, pdf
+
+      - title: Memory Panel
+        output: web
+        subfolderitems:
+
+        - title: Total RAM
+          url: /windows_component_physicalmemory.html
+          output: web, pdf
+
+        - title: Free RAM
+          url: /windows_component_freephysicalmemory.html
+          output: web, pdf
+
+        - title: Free RAM (percent)
+          url: /windows_component_freephysicalmemorypercent.html
+          output: web, pdf
+
+        - title: Physical RAM
+          url: /windows_component_physicalram.html
+          output: web, pdf
+
+        - title: Maxiumum Virtual Memory
+          url: /windows_component_maxvirtualmemory.html
+          output: web, pdf
+
+        - title: Free Virtual Memory
+          url: /windows_component_freevirtualmemory.html
+          output: web, pdf
+
+        - title: Free Virtual Memory (percent)
+          url: /windows_component_freevirtualmemorypercent.html
+          output: web, pdf
+
+        - title: Virtual Memory
+          url: /windows_component_virtualmemory.html
+          output: web, pdf
+
+        - title: Pages in RAM
+          url: /windows_component_pagesfoundinram.html
+          output: web, pdf
+
+        - title: Read Hit Ratio
+          url: /windows_component_readhitratio.html
+          output: web, pdf
+
+      - title: Paging Files Panel
+        output: web
+        subfolderitems:
+
+        - title: Paging Files
+          url: /windows_component_pagingfiles.html
+          output: web, pdf
+
+      - title: Disks Panel
+        output: web
+        subfolderitems:
+
+        - title: Disk information
+          url: /windows_component_diskinformation.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
+        - title: Total Network KB Received
+          url: /windows_component_totalnetworkkbreceived.html
+          output: web, pdf
+
+        - title: Total Network KB Sent
+          url: /windows_component_totalnetworkkbsent.html
+          output: web, pdf
+
+        - title: Page Outs
+          url: /windows_component_pageoutspersecond.html
+          output: web, pdf
+
+        - title: Page Faults
+          url: /windows_component_pagefaultspersecond.html
+          output: web, pdf
+
+        - title: Cache Writes
+          url: /windows_component_cachewrites.html
+          output: web, pdf
+
+        - title: Cache Reads
+          url: /windows_component_cachereads.html
+          output: web, pdf
+
+        - title: Page Writes
+          url: /windows_component_pagewrites.html
+          output: web, pdf
+
+        - title: Page Reads
+          url: /windows_component_pagereads.html
+          output: web, pdf
+
+        - title: Disk Writes
+          url: /windows_component_diskwrites.html
+          output: web, pdf
+
+        - title: Disk Reads
+          url: /windows_component_diskreads.html
+          output: web, pdf
 
   - title: Processes drilldown
     output: web, pdf

@@ -1,5 +1,5 @@
 ---
-title: SQL Azure Connection details
+title: SQL Azure connection details
 tags: [connection_details]
 summary: "Specify the connection details for a SQL Azure database."
 sidebar: c_sqlazure_sidebar
@@ -7,9 +7,9 @@ permalink: sqlazure_connect_details.html
 folder: ConnectSQLAzure
 ---
 
-## How to enter / edit SQL Azure connection details
+## How to enter / edit connection details
 
-Use a Spotlight Client to enter / edit SQL Azure connection details.
+Use a Spotlight Client to enter / edit connection details.
 
 From the Spotlight Client
 

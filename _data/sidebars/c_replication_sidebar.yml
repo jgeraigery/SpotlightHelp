@@ -26,10 +26,6 @@ entries:
       url: /replication_connect_details.html
       output: web, pdf
 
-    - title: Connection requirements
-      url: /replication_connect_requirements.html
-      output: web, pdf
-
   - title: Alarms
     output: web, pdf
     folderitems:
@@ -64,10 +60,6 @@ entries:
 
     - title: Replication - Undistributed commands alarm
       url: /replication_alarm_undistributedcommands.html
-      output: web, pdf
-
-    - title: Alarms
-      url: /replication_alarms.html
       output: web, pdf
 
   - title: Spotlight Overview page

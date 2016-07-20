@@ -26,10 +26,6 @@ entries:
       url: /analysisservices_connect_details.html
       output: web, pdf
 
-    - title: Connection requirements
-      url: /analysisservices_connect_requirements.html
-      output: web, pdf
-
   - title: Alarms
     output: web, pdf
     folderitems:

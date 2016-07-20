@@ -1,5 +1,5 @@
 ---
-title: SQL Server Connection details
+title: SQL Server connection details
 tags: [connection_details]
 summary: "Specify the connection details for a SQL Server database."
 sidebar: c_sqlserver_sidebar
@@ -8,7 +8,18 @@ folder: ConnectSQLServer
 ---
 
 
-TIP: Spotlight can add multiple SQL Server instances via discovery or by importing details from a file. See the Connection Discovery Wizard.
+{% include note.html content="Spotlight can add multiple SQL Server instances via discovery or by importing details from a file. See the Connection Discovery Wizard." %}
+
+## How to enter / edit connection details
+
+Use a Spotlight Client to enter / edit connection details.
+
+From the Spotlight Client
+
+1.  Click **Configure \| Connections**.
+2.  Double click **Add new connection**.
+3.  Fill in the connection details as follows.
+4.  Click **Test** to test the connection.
 
 
 ## Address

@@ -3,15 +3,14 @@ title: VMware connection details
 tags: [connection_details]
 summary: "Specify the connection details for a VMware® connection to an ESX Server™ or VirtualCenter server hosting a Windows server®."
 sidebar: c_vmware_sidebar
-toc: false
 permalink: vmware_connect_details.html
 folder: ConnectVMware
 ---
 
 
-## How to enter / edit VMware connection details
+## How to enter / edit connection details
 
-Use a Spotlight Client to enter / edit VMware connection details.
+Use a Spotlight Client to enter / edit connection details.
 
 From the Spotlight Client
 

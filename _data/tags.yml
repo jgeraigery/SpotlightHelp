@@ -1,6 +1,7 @@
 allowed-tags:
   - collections
   - connection_details
+  - connection_requirements
   - acknowledge
   - alarms_sort
   - heatmap

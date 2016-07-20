@@ -22,11 +22,11 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Hyper-V connection details
+    - title: Connection details
       url: /hyperv_connect_details.html
       output: web, pdf
 
-    - title: Hyper-V connection requirements
+    - title: Connection requirements
       url: /hyperv_connect_requirements.html
       output: web, pdf
 

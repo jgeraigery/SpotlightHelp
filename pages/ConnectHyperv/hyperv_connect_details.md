@@ -9,9 +9,9 @@ folder: ConnectHyperv
 ---
 
 
-## How to enter / edit Hyper-V connection details
+## How to enter / edit connection details
 
-Use a Spotlight Client to enter / edit Hyper-V connection details.
+Use a Spotlight Client to enter / edit connection details.
 
 From the Spotlight Client
 
