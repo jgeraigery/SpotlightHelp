@@ -1,5 +1,6 @@
 ---
 title: Spotlight Overview page for SQL Azure
+tags: overview_page
 summary: "Drilldown on the SQL Azure database, tables, and indexes in Spotlight Enterprise."
 sidebar: c_sqlazure_sidebar
 permalink: sqlazure_display_overview.html
@@ -14,12 +15,15 @@ folder: ConnectSQLAzure
 2. Click **Monitor \| Overview** from the ribbon.
 
 
+{% include imageClient.html file="pane_home_sqlazure.png" alt="Spotlight Overview page for SQL Azure" %}
+
+
 
 Icon | Name | Description
 -----|------|------------
-![Overview]({{ "/imagesClient/tb_drilldown_home.png" | prepend: site.baseurl }}) | Overview Page | The Spotlight Home Page highlights obvious bottlenecks and problem areas. Statistics and flows are updated in real time.  
-![SQL Activity]({{ "/imagesClient/tb_drilldown_sqlactivity.png" | prepend: site.baseurl }}) | SQL Activity Drilldown | Drilldown on current and recent activity.
-![Databases]({{ "/imagesClient/tb_drilldown_databases.png" | prepend: site.baseurl }}) | Databases Drilldown | Drilldown on the SQL Azure database, tables, and indexes.  
+{% include inline_imageClient.html file="tb_drilldown_home.png" alt="Overview" %} | Overview Page | The Spotlight Home Page highlights obvious bottlenecks and problem areas. Statistics and flows are updated in real time.  
+{% include inline_imageClient.html file="tb_drilldown_sqlactivity.png" alt="SQL Activity" %} | SQL Activity Drilldown | Drilldown on current and recent activity.
+{% include inline_imageClient.html file="tb_drilldown_databases.png" alt="Databases" %} | Databases Drilldown | Drilldown on the SQL Azure database, tables, and indexes.  
 
 
 

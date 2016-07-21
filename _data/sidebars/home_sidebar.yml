@@ -31,6 +31,9 @@ entries:
     - title: SQL Server Analysis Services
       url: /analysisservices_landing_page.html
       output: web
+    - title: SQL Server Availability Group
+      url: /availabilitygroup_landing_page.html
+      output: web
     - title: SQL Server Replication
       url: /replication_landing_page.html
       output: web
@@ -70,4 +73,10 @@ entries:
       output: web
     - title: Snooze
       url: /tag_snooze.html
+      output: web
+    - title: Connection details
+      url: /connection_details.html
+      output: web
+    - title: Connection requirements
+      url: /connection_requirements.html
       output: web

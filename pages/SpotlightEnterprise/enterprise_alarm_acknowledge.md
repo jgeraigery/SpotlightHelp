@@ -1,5 +1,5 @@
 ---
-title: Acknowledge alarms
+title: Acknowledge alarms in Spotlight Enterprise
 tags: [acknowledge]
 keywords: alarms, acknowledge
 summary: "When an alarm is configured to require acknowledgment each raised instance of the alarm remains present in Spotlight until the instance is acknowledged."

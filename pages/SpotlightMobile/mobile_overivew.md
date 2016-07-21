@@ -1,5 +1,5 @@
 ---
-title: Spotlight overview pages
+title: Spotlight Mobile Overview pages
 tags: [overview_page]
 keywords: overview, mobile
 summary: "Spotlight overview pages highlight obvious bottlenecks and problem areas for a connection."

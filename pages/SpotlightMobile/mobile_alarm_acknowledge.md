@@ -1,5 +1,5 @@
 ---
-title: Acknowledge alarms
+title: Acknowledge alarms in Spotlight Mobile
 tags: [acknowledge]
 keywords: alarm, acknowledge, mobile
 summary: "When an alarm is configured to require acknowledgment each raised instance of the alarm remains present in Spotlight until the instance is acknowledged."

@@ -1,5 +1,5 @@
 ---
-title: Connections and connection views
+title: Connections and connection views in Spotlight Mobile
 keywords: sample
 summary: "Tap the icon to access the views of your enterprise: heatmaps, alarm lists and connection views. Create new Heatmap or Alarm list views."
 sidebar: p_mobile_sidebar

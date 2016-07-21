@@ -778,6 +778,14 @@ entries:
           url: /windows_grid_customcounters.html
           output: web, pdf
 
+  - title: Collections
+    output: web, pdf
+    folderitems:
+
+    - title: Collections
+      url: /windows_collections.html
+      output: web, pdf
+
   - title: Troubleshooting
     output: web, pdf
     folderitems:

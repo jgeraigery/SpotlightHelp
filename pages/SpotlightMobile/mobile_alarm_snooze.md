@@ -1,5 +1,5 @@
 ---
-title: Snooze alarms
+title: Snooze alarms in Spotlight Mobile
 tags: [snooze]
 keywords: alarms, snooze, mobile
 summary: "Temporarily remove the visual alert associated with an alarm."
