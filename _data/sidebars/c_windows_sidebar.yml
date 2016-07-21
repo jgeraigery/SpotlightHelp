@@ -30,6 +30,10 @@ entries:
       url: /windows_connection_requirements.html
       output: web, pdf
 
+    - title: Configure WMI with minimum required permissions
+      url: /windows_connection_wmiminimumpermissions.html
+      output: web, pdf
+
     - title: Troubleshooting
       url: /windows_connection_troubleshooting.html
       output: web, pdf
@@ -786,15 +790,15 @@ entries:
       url: /windows_collections.html
       output: web, pdf
 
-  - title: Troubleshooting
-    output: web, pdf
-    folderitems:
-
-    - title: CollectionsTData display and collection problems
+  - title: Data display and collection problems
     output: web, pdf
     folderitems:
 
     - title: Data display and collection problems
-      url: /windows_datadisplayproblems.html
+    output: web, pdf
+    folderitems:
+
+    - title: Data display and collection problems
+      url: /windows_troubleshoot_datadisplay.html
       output: web, pdf
 
