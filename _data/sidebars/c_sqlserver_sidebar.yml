@@ -1091,5 +1091,5 @@ entries:
     folderitems:
 
     - title: Troubleshooting
-      url: /sqlserver_troubleshoot.html
+      url: /sqlserver_troubleshoot_datadisplaycollect.html
       output: web, pdf
