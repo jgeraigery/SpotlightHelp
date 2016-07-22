@@ -1,10 +1,10 @@
 ---
-title: Spotlight charts
+title: Charts Legend
 tags: [spotlight_charts]
 keywords: charts, drilldowns
 summary: "Charts are used in Spotlight drilldowns."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_charts.html
+permalink: enterprise_chartslegend.html
 folder: SpotlightEnterprise
 ---
 

@@ -9,3 +9,5 @@ allowed-tags:
   - playback
   - setup
   - snooze
+  - spotlight_grids
+  - spotlight_charts

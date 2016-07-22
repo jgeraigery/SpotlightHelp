@@ -1,6 +1,6 @@
 ---
 title: Spotlight grids toolbar
-tags: [drilldowns]
+tags: [spotlight_grids]
 keywords: grids, drilldowns
 summary: "Use the toolbar in the top right corner of the grid to configure the way the grid presents information."
 sidebar: p_enterprise_sidebar
@@ -40,11 +40,13 @@ Find next | Find the next occurrence of the text in the grid.
 
 Save the Spotlight grid to a file.
 
-Control | Description
---------|------------
-File name | The name of the file to save the grid to.
-Save as type | The choices include formatted text file and comma-delimited text file.
-Text encoding | Select the text encoding to use when saving the file.
+### Save as type
+
+The choices include formatted text file and comma-delimited text file.
+
+### Text encoding
+
+Select the text encoding to use when saving the file.
 
 Encoding | Description
 ---------|------------

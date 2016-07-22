@@ -1,6 +1,6 @@
 ---
 title: Data display and collection problems
-summary: "Known issues where unknown values or missing values or too many "0" values are shown on the SQL Server home page or its drilldowns."
+summary: "Known issues where unknown values or missing values or too many 0 values are shown on the SQL Server home page or its drilldowns."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_troubleshoot_datadisplaycollect.html
 folder: ConnectSQLServer
@@ -39,7 +39,7 @@ Sometimes, for a variety of reasons, the SQL Server Performance Monitor counters
     unlodctr.exe MSSQLServer
 
 2. Then type:
-    lodctr.exe <SQL Server path>\binn\sqlctr.ini
+    lodctr.exe <SQL Server path>\\binn\\sqlctr.ini
 
 3. Reboot the server.
 
@@ -48,7 +48,7 @@ Sometimes, for a variety of reasons, the SQL Server Performance Monitor counters
 Open the SQL Server Knowledge Base at http://msdn.microsoft.com.
 
 
-## Errors on the SQL Server | SQL Activity Drilldown | Sessions page
+## Errors on the SQL Server \| SQL Activity Drilldown \| Sessions page
 
 If errors are displayed on the SQL Activity drilldown \| Sessions page then install SQL Server Management Tools on the Spotlight Diagnostic Server host. The version of SQL Server Management Tools required is dependent on the most current version of SQL Server monitored. When monitoring SQL Server 2012, SQL Server 2012 Management Tools are required.
 

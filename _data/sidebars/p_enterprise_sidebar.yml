@@ -144,12 +144,16 @@ entries:
           url: /enterprise_chartstoolbar.html
           output: web, pdf
 
-        - title: Header row
-          url: /enterprise_chartsheader.html
+        - title: Legend
+          url: /enterprise_chartslegend.html
           output: web, pdf
 
         - title: Chart content
           url: /enterprise_chartscontent.html
+          output: web, pdf
+
+        - title: Compare - Select time range (Baselining)
+          url: /enterprise_chartsbaselining.html
           output: web, pdf
 
     - title: Playback

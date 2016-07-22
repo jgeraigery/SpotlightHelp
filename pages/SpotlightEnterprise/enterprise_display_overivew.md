@@ -16,11 +16,9 @@ From the left Connections pane, click on the connection. Click on the connection
 {% include tip.html content="There are many ways to open the Spotlight Overview page. From the Heatmap, left click on a connection to open the Spotlight Overview page for that connection." %}
 
 
-## Flows and Components
+## About the flows and components of a Spotlight Overview page
 
-Each Spotlight home page component has various associated statistics.
-
-## Description of flows and components
+The flows and components are tailored to the connection type.
 
 Action | Description
 -------|------------
@@ -31,16 +29,16 @@ Right click on the component | Select from the various options.
 
 {% include note.html content="During a planned outage, all home page controls are disabled except Status. A Monitored Server - Planned Outage alarm is raised against the Status control. For more information, see Configure \| Planned Outage." %}
 
-## Component color
+## Alarms and component color
 
-If the component's color is other than green then the component is in an alarm state. Click on the component for help to resolve the alarm. For more information, see What's this?.
+If a Spotlight Overview page component's color is other than green then the component is in an alarm state. Click on the component for help to resolve the alarm. For more information, see What's this?.
 
 Connection drilldowns are tailored to the connection type.
 
 
 ## What's This?
 
-Right click on the Spotlight Overview Page component and select **What's This?**.
+Right click on a Spotlight Overview page component and select **What's This?**.
 
 Show help on the component.
 
@@ -54,7 +52,7 @@ The behavior of What's This is configurable. For more information, see Home page
 
 ## Show History
 
-Right click on the Spotlight Overview Page component and select **Show History**.
+Right click on a Spotlight Overview page component and select **Show History**.
 
 Show the component's history in a popup chart.
 
@@ -66,13 +64,13 @@ For more historical views see Playback
 
 ## Show Details
 
-Right click on the Spotlight Overview Page component and select **Show Details**.
+Right click on a Spotlight Overview page component and select **Show Details**.
 
-Open a Spotlight drilldown page with more numeric detail related to this Spotlight Overview Page component.
+Open a Spotlight drilldown page made up of grids and charts that further details the data related to this Spotlight Overview page component.
 
 ## Copy to Clipboard
 
-Right click on the Spotlight Overview Page  component and select **Copy to Clipboard**.
+Right click on a Spotlight Overview page component and select **Copy to Clipboard**.
 
 Copy numeric data associated with the component to the clipboard. Paste from the clipboard to the desired destination –  as text within a text editor.
 
