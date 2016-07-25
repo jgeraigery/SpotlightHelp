@@ -842,6 +842,7 @@ span.soft {
 
 .githubEditButton {
     margin-bottom:7px;
+    z-index: 9999;
 }
 
 .endpoint {
