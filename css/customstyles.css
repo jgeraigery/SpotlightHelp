@@ -70,7 +70,10 @@ body {
 
 
 .breadcrumb > .active {color: #777 !important;}
-
+.page-header-panel
+{
+  margin-top: 60px;
+}
 /* make room for the nav bar */
 h1[id],
 h2[id],
@@ -79,7 +82,6 @@ h4[id],
 h5[id],
 h6[id],
 dt[id]{
-padding-top: 60px;
 margin-top: -40px
 }
 
@@ -842,7 +844,6 @@ span.soft {
 
 .githubEditButton {
     margin-bottom:7px;
-    z-index: 9999;
 }
 
 .endpoint {
