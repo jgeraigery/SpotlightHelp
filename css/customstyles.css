@@ -79,7 +79,9 @@ h4[id],
 h5[id],
 h6[id],
 dt[id]{
-  margin-top: 20px
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 body h1 {margin-top:40px;}
