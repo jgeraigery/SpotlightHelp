@@ -11,6 +11,6 @@ folder: SpotlightEnterprise
 {% include imageClient.html file="pane_chart.png" alt="Sample Chart" %}
 
 
-{% include note.html content="Spotlight overview pages are fully documented in the Spotlight Enterprise help." %}
+{% include note.html content="Did this update? Spotlight overview pages are fully documented in the Spotlight Enterprise help." %}
 
 {% include links.html %}
