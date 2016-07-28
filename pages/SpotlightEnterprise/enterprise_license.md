@@ -10,7 +10,7 @@ folder: SpotlightEnterprise
 
 A purchased commercial license may be applied to a single Spotlight Diagnostic Server deployment or a federation of Spotlight Diagnostic Server. The license and the procedure for entering the license is the same.
 
-## To activate a purchased commercial license
+## To activate a purchased commercial license.
 
 1. From a Spotlight Client connected to the Spotlight deployment:
 
