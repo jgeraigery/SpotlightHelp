@@ -8,8 +8,8 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-      - title: Products
-        folderitems:
+    - title: Products
+      folderitems:
         - title: Spotlight Enterprise
           url: /enterprise_welcome.html
         - title: Spotlight Developer
@@ -18,8 +18,8 @@ topnav_dropdowns:
           url: /cloud_landing_page.html
         - title: Spotlight Mobile
           url: /mobile_welcome.html
-      - title: Connection Types
-        folderitems:
+    - title: Connection Types
+      folderitems:
         - title: SQL Server
           url: /sqlserver_landing_page.html
         - title: SQL Server Analysis Services

@@ -3,7 +3,6 @@
 entries:
 - title: Sidebar
   product: Spotlight help
-  levels: one
   folders:
 
   - title: Products
@@ -75,8 +74,8 @@ entries:
       url: /tag_snooze.html
       output: web
     - title: Connection details
-      url: /connection_details.html
+      url: /tag_connection_details.html
       output: web
     - title: Connection requirements
-      url: /connection_requirements.html
+      url: /tag_connection_requirements.html
       output: web
