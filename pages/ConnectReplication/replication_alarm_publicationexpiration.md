@@ -1,8 +1,10 @@
 ---
 title: Replication - Publication Expiration Alarm
+last_updated: July 29, 2016
 summary: "The Replication - Publication Expiration alarm alerts you to any publications that have expired."
 sidebar: c_replication_sidebar
 permalink: replication_alarm_publicationexpiration.html
+id: Publication Expiration.Alarm
 folder: ConnectReplication
 ---
 
@@ -11,8 +13,7 @@ folder: ConnectReplication
 
 
 
-
-<note type="note">This alarm does not apply to Merge publications.</note>
+{% include note.html content="This alarm does not apply to Merge publications." %}
 
 
 ## When this alarm occurs:
@@ -30,12 +31,6 @@ To do this:
 5. Click the Sessions tab.
 6. Select the session in the Sessions grid. The informational and error messages logged for that session are shown in the Top 200 Actions grid.
 
-
-<note type="tip"></note>
-<ul>
-<li>You can configure this alarm to ignore certain values. See "Configure an Alarm to Ignore Certain Values" in the online help.</li>
-<li>You can also configure different thresholds for specific publications. See "Configure Keyed Alarms" in the online help.</li>
-</ul>
-
+{% include tip.html content="You can configure this alarm to ignore certain values. See *Configure an Alarm to Ignore Certain Values* in the online help. You can configure different alarm severities for specific agents. See *Configure Keyed Alarms* in the online help." %}
 
 {% include links.html %}

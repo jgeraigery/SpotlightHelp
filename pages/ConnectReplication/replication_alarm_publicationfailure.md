@@ -1,8 +1,10 @@
 ---
 title: Replication - Publication Failure Alarm
+last_updated: July 29, 2016
 summary: "The Replication - Publication Failure alarm alerts you to any publications that have failed."
 sidebar: c_replication_sidebar
 permalink: replication_alarm_publicationfailure.html
+id: Publication Failure.Alarm
 folder: ConnectReplication
 ---
 
@@ -22,12 +24,6 @@ Look at the history of the agent involved. To do this:
 
 
 
-<note type="tip"></note>
-<ul>
-<li>You can configure this alarm to ignore certain values. See "Configure an Alarm to Ignore Certain Values" in the online help.</li>
-<li>You can also configure different thresholds for specific publications. See "Configure Keyed Alarms" in the online help.</li>
-</ul>
-
-
+{% include tip.html content="You can configure this alarm to ignore certain values. See *Configure an Alarm to Ignore Certain Values* in the online help. You can also configure different thresholds for specific publications. See *Configure Keyed Alarms* in the online help." %}
 
 {% include links.html %}

@@ -7,8 +7,7 @@ folder: ConnectAnalysisServices
 ---
 
 
-<note type="note">This alarm applies only to Analysis Services 2008.</note>
-
+{% include note.html content="This alarm applies only to Analysis Services 2008." %}
 
 ## When this alarm occurs
 

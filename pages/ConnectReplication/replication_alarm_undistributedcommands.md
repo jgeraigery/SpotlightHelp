@@ -1,8 +1,10 @@
 ---
 title: Undistributed Commands alarm
+last_updated: July 29, 2016
 summary: "The Replication - Undistributed Commands alarm becomes active when the number of undistributed commands exceeds a threshold."
 sidebar: c_replication_sidebar
 permalink: replication_alarm_undistributedcommands.html
+id: Undistributed Commands.Alarm
 folder: ConnectReplication
 ---
 
@@ -19,11 +21,8 @@ Look at the history of the affected subscription. To do this:
 
   If you select a merge publication in the subscription grid, the Sessions grid is displayed. Selecting a session displays the Session Articles grid.
 
-<note type="note"></note>
-<ul>
-<li>You can configure this alarm to ignore certain values. See *Configure an Alarm to Ignore Certain Values* in the online help.</li>
-<li>You can also configure different thresholds for specific subscriptions. See *Configure Keyed Alarms* in the online help.</li>
-</ul>
+{% include tip.html content="You can configure this alarm to ignore certain values. See *Configure an Alarm to Ignore Certain Values* in the online help. You can also configure different thresholds for specific subscriptions. See *Configure Keyed Alarms* in the online help." %}
+
 
 
 
