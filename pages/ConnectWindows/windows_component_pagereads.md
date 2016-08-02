@@ -1,8 +1,10 @@
 ---
 title: Page Reads
+last_updated: July 29, 2016
 summary: "Represents the rate at which virtual memory pages are swapped from disk into memory."
 sidebar: c_windows_sidebar
 permalink: windows_component_pagereads.html
+id: SoWHomePage.flwPageReads
 folder: ConnectWindows
 ---
 

@@ -1,8 +1,10 @@
 ---
 title: ﻿I/O Stall Time Alarm
+last_updated: July 29, 2016
 summary: "The I/O Stall Time alarm becomes active when the average I/O wait time for any database file exceeds a threshold. This value is taken over a specific number of background collections."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_io_stalltime.html
+id: IO Wait Time.Alarm
 folder: ConnectSQLServer
 ---
 

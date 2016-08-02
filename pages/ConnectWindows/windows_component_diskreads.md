@@ -1,9 +1,10 @@
 ---
 title: Disk Reads
+last_updated: July 29, 2016
 summary: "Represents the rate of data being read from disk to memory. There is one Disk Reads dataflow for every disk in the Disks panel."
 sidebar: c_windows_sidebar
 permalink: windows_component_diskreads.html
-id: "SoWHomePage.flwReadsDisk"
+id: SoWHomePage.flwReadsDisk
 folder: ConnectWindows
 ---
 

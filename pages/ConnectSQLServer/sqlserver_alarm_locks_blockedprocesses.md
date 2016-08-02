@@ -1,8 +1,10 @@
 ---
 title: ﻿Locks - Blocked Processes Alarm
+last_updated: July 29, 2016
 summary: "The Locks - Blocked Processes alarm is raised when a block persists for longer than the time specified in the threshold. The default is 120 seconds."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_locks_blockedprocesses.html
+id: btnLocks.Seconds session blocked.alarm
 folder: ConnectSQLServer
 ---
 

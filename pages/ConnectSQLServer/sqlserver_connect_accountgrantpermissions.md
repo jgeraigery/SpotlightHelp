@@ -1,5 +1,6 @@
 ---
 title: Grant account permissions
+last_updated: July 29, 2016
 summary: "Spotlight connects to the SQL Server instance using the authentication defined by SQL Server | Connection Details. Spotlight requires necessary account permissions to connect to the SQL Server instance. Typically the account will be a member of the sysadmin server role. It could be a SQL Server login (such as 'sa'). It could be the Windows account that runs the Spotlight Diagnostic Server provided that account is trusted by the SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_connect_accountgrantpermissions.html

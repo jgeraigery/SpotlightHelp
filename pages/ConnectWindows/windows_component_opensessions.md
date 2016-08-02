@@ -1,8 +1,10 @@
 ---
 title: Open Sessions
+last_updated: July 29, 2016
 summary: "This shows the current number of Windows Networking sessions open on this machine."
 sidebar: c_windows_sidebar
 permalink: windows_component_opensessions.html
+id: SoWHomePage.btnOpenSessions
 folder: ConnectWindows
 ---
 

@@ -1,36 +1,97 @@
 ---
 title: Network drilldown
+last_updated: July 29, 2016
 summary: "Drilldown on the network activity to and from the Windows server."
 sidebar: c_windows_sidebar
 permalink: windows_drilldown_network.html
 folder: ConnectWindows
 ---
 
+## Network page
+Investigate recent network activity to and from the Windows server.
 
-Screen / Action | Android | iPhone | Description
-----------------|---------|--------|------------
-Heatmap | | | The Heat Map organizes connections based on the comparative number and severity of their alarms. Connections with the most alarms raised against them are given the most surface area. Tap a connection to list all alarms currently raised against that connection.
-Alarm list | | | List the alarms currently raised against a connection or connection view. Tap an alarm for more details.  
-Sort / Group Alarms | ![Sort Android]({{ "/imagesMobile/tap_android-sort-icon.png" | prepend: site.baseurl }}) | ![Sort iPhone]({{ "/imagesMobile/tap_iOS-sort-group-alarms.png" | prepend: site.baseurl }}) | Sort or group alarms on the Alarm List. Sort by date or severity. Group by server, severity or alarm.
-Acknowledge Alarm | ![Ack Android]({{ "/imagesMobile/tap_android-ack-icon.png" | prepend: site.baseurl }}) | ![Ack ios]({{ "/imagesMobile/tap_Ack-button-iOs.png" | prepend: site.baseurl }}) | Acknowledge an instance of an alarm requiring acknowledgment.
-Snooze Alarm | ![Snooze Android]({{ "/imagesMobile/tap_android-snooze-icon.png" | prepend: site.baseurl }}) | ![Snooze iPhone]({{ "/imagesMobile/tap_iOS-snooze-icon.png" | prepend: site.baseurl }}) | Temporarily remove the visual alert associated with an alarm.  
-Connections and connection views | ![Connections Android]({{ "/imagesMobile/tap_android-connection-nav-icon.png" | prepend: site.baseurl }}) | ![Connections iPhone]({{ "/imagesMobile/tap_iOS-connection-nav-icon.png" | prepend: site.baseurl }}) | Access the views of your enterprise: heatmaps, alarm lists and connection views. Create new Heatmap or Alarm list views.
-Spotlight overview page | ![overview Android]({{ "/imagesMobile/tap_android-homepage-icon.png" | prepend: site.baseurl }}) | ![overview iPhone]({{ "/imagesMobile/tap_iOS-homepage-icon.png" | prepend: site.baseurl }}) | Show the Spotlight overview page panels for the connection.
-Playback | ![Playback]({{ "/imagesMobile/tap_playback-icon_iphone.png" | prepend: site.baseurl }}) | ![Playback]({{ "/imagesMobile/tap_playback-icon_iphone.png" | prepend: site.baseurl }}) | Reproduce the Spotlight overview page for a date and time from the recent past.
-Settings | ![Settings Android]({{ "/imagesMobile/tap_android-settings-icon.png" | prepend: site.baseurl }}) | ![Settings iPhone]({{ "/imagesMobile/tap_iOS_settings_icon.png" | prepend: site.baseurl }}) |  Configure Spotlight Mobile.
-Profile | ![Profile Android]({{ "/imagesMobile/tap_android-users-profile-icon.png" | prepend: site.baseurl }}) | ![Profile iPhone]({{ "/imagesMobile/tap_iOS-users-profile-icon.png" | prepend: site.baseurl }}) | Show / change the current user. This is applicable where more than one Spotlight Cloud user has signed in to Spotlight Mobile.
-Refresh | ![Refresh Android]({{ "/imagesMobile/tap_android-refresh-icon.png" | prepend: site.baseurl }}) | ![Refresh iPhone]({{ "/imagesMobile/tap_iOS-refresh-icon.png" | prepend: site.baseurl }}) | Refresh the screen. The time and date of the last refresh is on display. From time to time the refresh button may be grayed out (disabled).
+### Total Packets In/Out chart
+Shows the incoming and outgoing packet rates as an aggregate across all network cards for the Windows server.
 
-## Color
+### Packets by Network Card chart
+Shows the total number of packets (incoming and outgoing) broken down by network card.
 
-The alarm, connection or connection view is colored according to the most severe current alarm.
+### Total Kilobytes In/Out chart
+Shows the level of traffic being received and sent by the Windows server in kilobytes.
 
-Default Color | Severity | Description
---------------|----------|------------
-![Normal color]({{ "/imagesMobile/icon_alarm_green.png" | prepend: site.baseurl }})  | Normal | No alarms are raised against this connection.
-![Information color]({{ "/imagesMobile/icon_alarm_blue.png" | prepend: site.baseurl }})  | Information | At least one information alarm is raised against this connection. No other alarms are raised.
-![Low color]({{ "/imagesMobile/icon_alarm_yellow.png" | prepend: site.baseurl }})  | Low | At least one low severity alarm is raised against this connection. No high or medium severity alarms are raised.
-![Medium color]({{ "/imagesMobile/icon_alarm_orange.png" | prepend: site.baseurl }})  | Medium | At least one medium severity alarm is raised against this connection. No high severity alarms are raised.
-![High color]({{ "/imagesMobile/icon_alarm_red.png" | prepend: site.baseurl }})  | High | At least one high severity alarm is raised against this connection.
+### Errors and Retries chart
+Shows the number of errors and retries on the network subsystem. A consistent number of retries or errors usually means one of the following:
+
+* A network segment attached to the Windows server is over-utilized.
+* There are problems with a network card, cabling or other networking device on a network segment.
+
+### TCPIP page
+Investigate recent TCP/IP activity to and from the Windows server.
+
+### TCP Segments chart
+Shows different graphs representing the rate at which TCP segments are transmitted or received in the Windows server.
+
+When TCP transfers a stream data, it breaks up the stream into small segments
+
+### IP Fragments chart
+Shows the rates at which the fragmented packets are received and rebuilt.
+
+When data packets are transmitted across a network via TCP/IP, they may be further fragmented en route, and need to be reassembled.
+
+### UDP Datagrams chart
+Shows different graphs representing the rate at which UDP datagrams are transmitted or received in the Windows server.
+
+UDP (User Datagram Protocol) is an alternative communications protocol to the Transmission Control Protocol (TCP).
+
+Unlike TCP, UDP does not provide a sequencing service, so when UDP datagrams (packets) arrive at a destination, they are reassembled into a complete message via an end-point application that is active on the port(s) specified in the datagram.
+
+### IP Datagrams /IP Datagrams Errors chart
+Shows the rates at which IP packets are sent, received, and routed to other destinations.
+
+IP datagrams (packets) are the message units that are transmitted across a network (and across the Internet) via the Internet Protocol.
+
+You can view either the IP Datagrams chart or the IP Datagrams Errors chart. Select the desired option from the drop-down menu at the top of the chart.
+
+To switch between IP Datagram and IP Datagram Errors view, click the arrow next to the chart name.
+
+
+
+## NBT page
+Investigate which machines have NBT connections to this system.
+
+### NBT grid
+Shows the machines that have a connection to the Windows server, and the corresponding level of traffic (in kilobytes) being generated between the connections.
+
+This is only for NBT (NetBios over TCP/IP) connections – that is, only Microsoft Networking connection over TCPIP.
+
+
+## Sessions page
+Investigate which users of other systems are connected to this system.
+
+### Open Sessions grid
+Shows active connections made to the Windows Server by users on other systems.
+
+Remote Desktop sessions are not shown.
+
+
+## Shares page
+Investigate shared resources on this system and any current connections to those resources.
+
+### Shares grid
+Shows the resources on the Windows Server that can be shared with users on other systems
+
+### Open Connections grid
+Shows the connections currently established to the shared resource selected in the Shares grid.
+
+
+
+## Virtualized Network page
+Investigate the load this virtual machine is placing on the Hyper-V server network bandwidth. This is applicable only to virtual machines hosted on a Hyper-V server.
+
+### Total Kilobytes In/Out chart 
+For this chart network traffic is defined as that passing through locations external to the Hyper-V server and the virtual machine. Network traffic passing between virtual machines on the same Hyper-V server does not count.
+
+
+
 
 {% include links.html %}

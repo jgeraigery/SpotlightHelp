@@ -1,7 +1,9 @@
 ---
 title: Database Space chart
+last_updated: July 29, 2016
 summary: "Shows the disk space usage for databases, displayed in megabytes or as a percentage."
 sidebar: c_sqlazure_sidebar
+id: Databases2_Summary.DBSpaceChart_sosa
 permalink: sqlazure_chart_databasespace.html
 folder: ConnectSQLAzure
 ---

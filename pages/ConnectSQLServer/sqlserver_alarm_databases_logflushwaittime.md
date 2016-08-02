@@ -1,8 +1,10 @@
 ---
 title: ﻿Databases - Log Flush Wait Time Alarm
+last_updated: July 29, 2016
 summary: "The Databases - Log Flush Wait Time alarm becomes active when the duration of the last log flush for a database exceeds a threshold."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_databases_logflushwaittime.html
+id: mcLogFilesMaximum Log Flush Wait Time.Alarm
 folder: ConnectSQLServer
 ---
 

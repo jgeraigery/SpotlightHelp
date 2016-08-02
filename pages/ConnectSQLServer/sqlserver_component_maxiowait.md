@@ -1,5 +1,6 @@
 ---
 title: ﻿Max I/O Wait
+last_updated: July 29, 2016
 summary: "The file currently experienceing the highest I/O Waits."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_maxiowait.html

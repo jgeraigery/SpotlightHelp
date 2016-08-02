@@ -1,36 +1,110 @@
 ---
 title: Processes drilldown
+last_updated: July 29, 2016
 summary: "Drilldown on running processes, installed services and installed drivers on the Windows server."
 sidebar: c_windows_sidebar
 permalink: windows_drilldown_processes.html
 folder: ConnectWindows
 ---
 
+## Processes page
 
-Screen / Action | Android | iPhone | Description
-----------------|---------|--------|------------
-Heatmap | | | The Heat Map organizes connections based on the comparative number and severity of their alarms. Connections with the most alarms raised against them are given the most surface area. Tap a connection to list all alarms currently raised against that connection.
-Alarm list | | | List the alarms currently raised against a connection or connection view. Tap an alarm for more details.  
-Sort / Group Alarms | ![Sort Android]({{ "/imagesMobile/tap_android-sort-icon.png" | prepend: site.baseurl }}) | ![Sort iPhone]({{ "/imagesMobile/tap_iOS-sort-group-alarms.png" | prepend: site.baseurl }}) | Sort or group alarms on the Alarm List. Sort by date or severity. Group by server, severity or alarm.
-Acknowledge Alarm | ![Ack Android]({{ "/imagesMobile/tap_android-ack-icon.png" | prepend: site.baseurl }}) | ![Ack ios]({{ "/imagesMobile/tap_Ack-button-iOs.png" | prepend: site.baseurl }}) | Acknowledge an instance of an alarm requiring acknowledgment.
-Snooze Alarm | ![Snooze Android]({{ "/imagesMobile/tap_android-snooze-icon.png" | prepend: site.baseurl }}) | ![Snooze iPhone]({{ "/imagesMobile/tap_iOS-snooze-icon.png" | prepend: site.baseurl }}) | Temporarily remove the visual alert associated with an alarm.  
-Connections and connection views | ![Connections Android]({{ "/imagesMobile/tap_android-connection-nav-icon.png" | prepend: site.baseurl }}) | ![Connections iPhone]({{ "/imagesMobile/tap_iOS-connection-nav-icon.png" | prepend: site.baseurl }}) | Access the views of your enterprise: heatmaps, alarm lists and connection views. Create new Heatmap or Alarm list views.
-Spotlight overview page | ![overview Android]({{ "/imagesMobile/tap_android-homepage-icon.png" | prepend: site.baseurl }}) | ![overview iPhone]({{ "/imagesMobile/tap_iOS-homepage-icon.png" | prepend: site.baseurl }}) | Show the Spotlight overview page panels for the connection.
-Playback | ![Playback]({{ "/imagesMobile/tap_playback-icon_iphone.png" | prepend: site.baseurl }}) | ![Playback]({{ "/imagesMobile/tap_playback-icon_iphone.png" | prepend: site.baseurl }}) | Reproduce the Spotlight overview page for a date and time from the recent past.
-Settings | ![Settings Android]({{ "/imagesMobile/tap_android-settings-icon.png" | prepend: site.baseurl }}) | ![Settings iPhone]({{ "/imagesMobile/tap_iOS_settings_icon.png" | prepend: site.baseurl }}) |  Configure Spotlight Mobile.
-Profile | ![Profile Android]({{ "/imagesMobile/tap_android-users-profile-icon.png" | prepend: site.baseurl }}) | ![Profile iPhone]({{ "/imagesMobile/tap_iOS-users-profile-icon.png" | prepend: site.baseurl }}) | Show / change the current user. This is applicable where more than one Spotlight Cloud user has signed in to Spotlight Mobile.
-Refresh | ![Refresh Android]({{ "/imagesMobile/tap_android-refresh-icon.png" | prepend: site.baseurl }}) | ![Refresh iPhone]({{ "/imagesMobile/tap_iOS-refresh-icon.png" | prepend: site.baseurl }}) | Refresh the screen. The time and date of the last refresh is on display. From time to time the refresh button may be grayed out (disabled).
+Investigate running processes.
 
-## Color
+Select a process in the Process grid to see related sub-pages.
 
-The alarm, connection or connection view is colored according to the most severe current alarm.
+#### Processes grid
 
-Default Color | Severity | Description
---------------|----------|------------
-![Normal color]({{ "/imagesMobile/icon_alarm_green.png" | prepend: site.baseurl }})  | Normal | No alarms are raised against this connection.
-![Information color]({{ "/imagesMobile/icon_alarm_blue.png" | prepend: site.baseurl }})  | Information | At least one information alarm is raised against this connection. No other alarms are raised.
-![Low color]({{ "/imagesMobile/icon_alarm_yellow.png" | prepend: site.baseurl }})  | Low | At least one low severity alarm is raised against this connection. No high or medium severity alarms are raised.
-![Medium color]({{ "/imagesMobile/icon_alarm_orange.png" | prepend: site.baseurl }})  | Medium | At least one medium severity alarm is raised against this connection. No high severity alarms are raised.
-![High color]({{ "/imagesMobile/icon_alarm_red.png" | prepend: site.baseurl }})  | High | At least one high severity alarm is raised against this connection.
+Shows information for each process running on the current system.
+
+Members of the Spotlight Diagnostic Administrators group can end processes from the shortcut menu.
+
+To view detailed information about a process, select a process in the grid.
+
+To view the grid as a hierarchical tree, right-click the grid and select Show Tree.
+
+
+### Process details
+
+Investigate detailed information about a running process.
+
+To see the values for a statistic over the last hour, right-click a statistic shown in dark green and select Show History.
+
+
+### Process history
+
+Investigate recent activity of a process.
+
+#### Processor Utilization chart
+Shows the percentage of Privileged and User Time.
+
+High Privileged time means that the program is predominantly busy accessing resources through operating system requests.
+
+High User time means that the program is predominantly CPU-bound with the program code itself.
+
+#### Read/Writes chart
+Reads / Second - Shows the number of IO reads (such as hard disk reads and memory reads) being performed by the process.
+
+Writes / Second - Shows the number of IO writes (such as hard disk writes and memory writes) being performed by the process.
+
+#### Memory Usage chart
+Shows the current memory allocated to the selected process.
+
+Memory Usage shows the current size of the working set of the selected process. The working set is the set of memory pages touched recently by the threads in the process.
+
+Virtual Memory Size shows the current size of the memory allocated to this process that cannot be shared with other processes.
+
+#### Page Faults chart
+Shows the number of page faults being generated by the program. A consistently high value may indicate a lack of memory. However, this collection includes both soft and hard page faults; as such, there may be no associated problems.
+
+
+### Process threads
+
+Investigate threads executed by a process.
+
+##### Process Threads grid
+Shows current information about the threads executed by the selected process.
+
+
+## Services page
+
+Investigate Windows services installed on the current system.
+
+### Services grid
+
+Shows details about the Windows services installed on the current system.
+
+Click Start  / Stop  / Pause  to change the running state of a selected service or device. You must be a member of the Spotlight diagnostic administrators group to change the running state. For more information, see Spotlight diagnostic user groups.
+
+Right - click Select Process to locate the process running a selected share process.
+
+### service details
+
+Shows further details for the selected Windows service such as a service description, the control accepted, and the executable.
+
+Click an item in the grid to display service details.
+
+
+### Service dependencies
+
+Investigate dependencies between services and drivers.
+
+#### Services and Drivers required by this service grid
+Shows any services or drivers that must be running for the selected service to run. Stopping any of these services will also stop the selected service.
+
+Double-click an entry to see its full details.
+
+#### Services dependent on this service grid
+Shows any services that depend on the selected service running. Stopping the selected service will also stop these services.
+
+Double-click a service to see its full details.
+
+
+## System drivers
+
+Investigate the Windows kernel and file system drivers on the Windows server.
+
+### System Drivers grid
+Shows details about the kernel drivers and file system drivers on the current system.
 
 {% include links.html %}

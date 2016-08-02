@@ -1,8 +1,10 @@
 ---
 title: ﻿Tempdb Contention
+last_updated: July 29, 2016
 summary: "This alarm is raised when Tempdb is experiencing contention"
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_tempdb_contention.html
+id: alarm_TempDB_Contention
 folder: ConnectSQLServer
 ---
 

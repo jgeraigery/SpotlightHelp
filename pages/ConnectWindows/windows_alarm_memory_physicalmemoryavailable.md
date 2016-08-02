@@ -1,8 +1,10 @@
 ---
 title: Memory - Physical memory available alarm
+last_updated: July 29, 2016
 summary: "The Memory - Physical Memory Available alarm is activated when the available memory drops below a threshold."
 sidebar: c_windows_sidebar
 permalink: windows_alarm_memory_physicalmemoryavailable.html
+id: sowhomepage.gauphysram.free physical memory.alarm
 folder: ConnectWindows
 ---
 

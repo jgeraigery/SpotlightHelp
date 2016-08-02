@@ -1,8 +1,10 @@
 ---
 title: SQL Analysis - Aggregation Information Alarm
+last_updated: July 29, 2016
 summary: "The SQL Analysis - Aggregation Information alarm is raised to indicate that some SQL statements have been discarded during the collection of SQL Analysis data."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_sqlanalysis_aggregationinformation.html
+id: sqlactivity_sqlanalysis.alarm
 folder: ConnectSQLServer
 ---
 

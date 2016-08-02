@@ -1,8 +1,10 @@
 ---
 title: Disks - Percentage Used (Free Space) Alarm
+last_updated: July 29, 2016
 summary: "This shows the logical disk is filling up or is full."
 sidebar: c_windows_sidebar
 permalink: windows_alarm_disks_percentageused.html
+id: SoWHomePage.conDisk.Disk full.Alarm
 folder: ConnectWindows
 ---
 

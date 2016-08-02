@@ -1,8 +1,10 @@
 ---
 title: Pages Found in RAM
+last_updated: July 29, 2016
 summary: ""
 sidebar: c_windows_sidebar
 permalink: windows_component_pagesfoundinram.html
+id: SoWHomePage.gauPagesInRAM
 folder: ConnectWindows
 ---
 

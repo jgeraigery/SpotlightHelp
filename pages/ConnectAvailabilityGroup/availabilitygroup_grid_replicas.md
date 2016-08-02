@@ -1,8 +1,10 @@
 ---
 title: Replicas grid
+last_updated: July 29, 2016
 summary: "Show data for each node in the Availability Group."
 sidebar: c_availabilitygroup_sidebar
 permalink: availabilitygroup_grid_replicas.html
+id: HighAvailabilityAlwaysOn_Home_Grid_Replicas
 folder: ConnectAvailabilityGroup
 ---
 

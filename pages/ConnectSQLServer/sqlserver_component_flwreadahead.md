@@ -1,5 +1,6 @@
 ---
 title: Read Ahead
+last_updated: July 29, 2016
 summary: "This flow represents pages being read from disk before they are requested."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_flwreadahead.html

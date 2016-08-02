@@ -1,8 +1,10 @@
 ---
 title: ﻿Clusters - Node Unavailable Alarm
+last_updated: July 29, 2016
 summary: "The Clusters - Node Unavailable Alarm alarm is raised when Spotlight detects that at least one cluster node (computer system) is not currently running as part of the cluster."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_clusters_nodeunavailable.html
+id: Home.btnServices.ClusterServerDown.Alarm
 folder: ConnectSQLServer
 ---
 

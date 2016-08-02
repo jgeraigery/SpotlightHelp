@@ -1,5 +1,6 @@
 ---
 title: Availability Group Collections
+last_updated: July 29, 2016
 tags: [collections]
 summary: "The following collections are used for displays (home page components and drilldowns)."
 sidebar: c_availabilitygroup_sidebar

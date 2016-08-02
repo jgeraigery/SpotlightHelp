@@ -1,8 +1,10 @@
 ---
 title: ﻿Mirroring - Failed Over Alarm
+last_updated: July 29, 2016
 summary: "The principal database has failed. The mirror has taken over."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_mirroring_failedover.html
+id: alarm_mirroring_failedover
 folder: ConnectSQLServer
 ---
 

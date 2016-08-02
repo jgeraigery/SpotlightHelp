@@ -1,8 +1,10 @@
 ---
 title: Page Writes
+last_updated: July 29, 2016
 summary: "Represents the rate at which virtual memory pages are written to disk from memory."
 sidebar: c_windows_sidebar
 permalink: windows_component_pagewrites.html
+id: SoWHomePage.flwPageWrites
 folder: ConnectWindows
 ---
 

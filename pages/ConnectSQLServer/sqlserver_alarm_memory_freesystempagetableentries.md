@@ -1,8 +1,10 @@
 ---
 title: Memory - Free System Page Table Entries Alarm
+last_updated: July 29, 2016
 summary: "The Memory - Free System Page Table Entries (PTE) alarm is raised when this performance counter falls below a threshold."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_memory_freesystempagetableentries.html
+id: Free_System_Page_Table_Entries.alarm
 folder: ConnectSQLServer
 ---
 

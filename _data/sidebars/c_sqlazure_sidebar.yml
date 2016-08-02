@@ -132,7 +132,7 @@ entries:
     folderitems:
 
     - title: SQL Activity drilldown
-      url: /sqlazure_display_sqlactivity.html
+      url: /sqlazure_drilldown_sqlactivity.html
       output: web, pdf
 
     - title: Sessions grid
@@ -156,7 +156,7 @@ entries:
     folderitems:
 
     - title: Databases drilldown
-      url: /sqlazure_display_databases.html
+      url: /sqlazure_drilldown_databases.html
       output: web, pdf
 
     - title: Database Space chart

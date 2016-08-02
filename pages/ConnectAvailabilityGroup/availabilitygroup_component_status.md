@@ -1,8 +1,10 @@
 ---
 title: Status
+last_updated: July 29, 2016
 summary: "The status indicator is colored according to the highest raised alarm on the Availability Group."
 sidebar: c_availabilitygroup_sidebar
 permalink: availabilitygroup_component_status.html
+id: HighAvailabilityAlwaysOn_Home_Status
 folder: ConnectAvailabilityGroup
 ---
 

@@ -1,8 +1,10 @@
 ---
 title: Paging - File Collision Alarm
+last_updated: July 29, 2016
 summary: "This alarm becomes active when there is more than one paging file on a single physical disk."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_paging_filecollision.html
+id: SoWHomePage.lblPageFiles.PagingFileDiskLocation.Alarm
 folder: ConnectSQLServer
 ---
 

@@ -1,8 +1,10 @@
 ---
 title: Failover Indicator
+last_updated: July 29, 2016
 summary: "The current failover availability."
 sidebar: c_availabilitygroup_sidebar
 permalink: availabilitygroup_component_failoverindicator.html
+id: HighAvailabilityAlwaysOn_Home_FailoverIndicator
 folder: ConnectAvailabilityGroup
 ---
 

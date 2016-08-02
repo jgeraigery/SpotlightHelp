@@ -1,8 +1,10 @@
 ---
 title: ﻿Latch - Total Wait Time Rate Alarm
+last_updated: July 29, 2016
 summary: "Latches are monitored to help identify performance bottlenecks."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_latch_totalwaittimerate.html
+id: 
 folder: ConnectSQLServer
 ---
 

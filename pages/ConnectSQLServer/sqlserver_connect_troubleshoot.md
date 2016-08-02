@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting
+last_updated: July 29, 2016
 summary: "The Spotlight Diagnostic Server collects data from the SQL Server instances it connects to (Monitored connections) and uses WMI queries to retrieve performance counter information from the Windows Server hosts (Monitoring Windows Servers and hosts of database connections). This data is then displayed in real time on a Spotlight Client or other Spotlight viewer (View data and configure Spotlight)."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_connect_troubleshoot.html

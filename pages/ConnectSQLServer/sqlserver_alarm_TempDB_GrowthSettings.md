@@ -1,8 +1,10 @@
 ---
 title: Tempdb Growth Settings
+last_updated: July 29, 2016
 summary: "This alarm is raised when Tempdb files have nonidentical growth settings."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_tempdb_growthsettings.html
+id: alarm_TempDB_GrowthSettings
 folder: ConnectSQLServer
 ---
 

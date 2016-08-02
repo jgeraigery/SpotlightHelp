@@ -1,9 +1,10 @@
 ---
 title: Threads
+last_updated: July 29, 2016
 summary: "Shows the number of threads currently active in all processes."
 sidebar: c_windows_sidebar
-id: SoWHomePage.btnThreads
 permalink: windows_component_threads.html
+id: SoWHomePage.btnThreads
 folder: ConnectWindows
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Hyper-V connection details
+last_updated: July 29, 2016
 tags: [connection_details]
 summary: "Specify the connection details for a Hyper-V server."
 sidebar: c_hyperv_sidebar

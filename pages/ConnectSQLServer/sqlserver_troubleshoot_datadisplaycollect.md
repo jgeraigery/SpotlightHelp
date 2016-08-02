@@ -1,5 +1,6 @@
 ---
 title: Data display and collection problems
+last_updated: July 29, 2016
 summary: "Known issues where unknown values or missing values or too many 0 values are shown on the SQL Server home page or its drilldowns."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_troubleshoot_datadisplaycollect.html
@@ -8,7 +9,7 @@ folder: ConnectSQLServer
 
 ## SQL Server \| Wait Events Drilldown
 
-<Unknown> entries in the All Workload | Database tree and SQL not available entries in the All Workload \| Statement tree may mean:
+\<Unknown\> entries in the All Workload \| Database tree and SQL not available entries in the All Workload \| Statement tree may mean:
 
 * SQL Server did not add the metric to the event. Perhaps the metric was too difficult to get or the metric was no longer available.
 * The event was created by a process that does not have that metric. Typically these are internal SQL Server processes.

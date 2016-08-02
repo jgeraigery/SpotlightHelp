@@ -1,7 +1,9 @@
 ---
 title: Indexes grid
+last_updated: July 29, 2016
 summary: "Shows the index statistics for all indexes in the SQL Azure database."
 sidebar: c_sqlazure_sidebar
+id: DatabaseIndexes.IndexesGrid
 permalink: sqlazure_grid_indexes.html
 folder: ConnectSQLAzure
 ---

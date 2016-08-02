@@ -1,5 +1,6 @@
 ---
 title: Hyper-V connection requirements
+last_updated: July 29, 2016
 tags: [connection_requirements]
 summary: "Spotlight requirements to monitor a Hyper-V server."
 sidebar: c_hyperv_sidebar

@@ -1,8 +1,10 @@
 ---
 title: Databases grid
+last_updated: July 29, 2016
 summary: "Show data for each database in the Availability Group."
 sidebar: c_availabilitygroup_sidebar
 permalink: availabilitygroup_grid_databases.html
+id: HighAvailabilityAlwaysOn_Home_Grid_Databases
 folder: ConnectAvailabilityGroup
 ---
 

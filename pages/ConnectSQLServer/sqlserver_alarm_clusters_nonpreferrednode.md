@@ -1,8 +1,10 @@
 ---
 title: Clusters - Non-Preferred Node Alarm
+last_updated: July 29, 2016
 summary: "The Clusters - Non-preferred Node alarm is raised when Spotlight detects that SQL Server is running on a Windows cluster, and at least one SQL Server instance is not running on its preferred cluster node."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_clusters_nonpreferrednode.html
+id: Home.btnServices.NonPreferredClusterNode.Alarm
 folder: ConnectSQLServer
 ---
 

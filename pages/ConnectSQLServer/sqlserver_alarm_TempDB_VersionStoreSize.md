@@ -1,8 +1,10 @@
 ---
 title: Tempdb Version Store Size
+last_updated: July 29, 2016
 summary: "This alarm is raised when the Tempdb version store is too large for your environment."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_tempdb_versionstoresize.html
+id: alarm_TempDB_VersionStoreSize
 folder: ConnectSQLServer
 ---
 

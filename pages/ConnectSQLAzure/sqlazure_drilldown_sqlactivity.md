@@ -1,8 +1,9 @@
 ---
 title: SQL Activity drilldown for SQL Azure
+last_updated: July 29, 2016
 summary: "Drilldown on the SQL Azure database, tables, and indexes in Spotlight Enterprise."
 sidebar: c_sqlazure_sidebar
-permalink: sqlazure_display_sqlactivity.html
+permalink: sqlazure_drilldown_sqlactivity.html
 folder: ConnectSQLAzure
 ---
 

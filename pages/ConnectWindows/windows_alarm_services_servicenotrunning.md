@@ -1,8 +1,10 @@
 ---
 title: Services - Service Not Running Alarm
+last_updated: July 29, 2016
 summary: "The Services - Service Not Running alarm occurs when a Windows service that is set to start automatically is not running."
 sidebar: c_windows_sidebar
 permalink: windows_alarm_services_servicenotrunning.html
+id: ServiceNotRunning.alarm
 folder: ConnectWindows
 ---
 

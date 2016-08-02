@@ -1,8 +1,10 @@
 ---
 title: Page Faults per Second
+last_updated: July 29, 2016
 summary: "This is a measure of the number of page faults per second on the system. This value includes soft faults and hard faults."
 sidebar: c_windows_sidebar
 permalink: windows_component_pagefaultspersecond.html
+id: SoWHomePage.flwPageFaults
 folder: ConnectWindows
 ---
 

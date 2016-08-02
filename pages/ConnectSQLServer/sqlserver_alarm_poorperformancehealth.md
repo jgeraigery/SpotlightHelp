@@ -1,8 +1,10 @@
 ---
 title: Poor Performance Health Alarm
+last_updated: July 29, 2016
 summary: ""
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_poorperformancehealth.html
+id: alarm_poorperformancehealth.xml
 folder: ConnectSQLServer
 ---
 

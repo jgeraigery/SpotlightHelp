@@ -1,5 +1,6 @@
 ---
 title: Physical Reads
+last_updated: July 29, 2016
 summary: "This flow represents normal page reads per second."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_flwphysicalreads.html

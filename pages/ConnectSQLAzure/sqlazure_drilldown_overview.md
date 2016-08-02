@@ -1,9 +1,10 @@
 ---
 title: Spotlight Overview page for SQL Azure
+last_updated: July 29, 2016
 tags: overview_page
 summary: "Drilldown on the SQL Azure database, tables, and indexes in Spotlight Enterprise."
 sidebar: c_sqlazure_sidebar
-permalink: sqlazure_display_overview.html
+permalink: sqlazure_drilldown_overview.html
 folder: ConnectSQLAzure
 ---
 

@@ -1,8 +1,10 @@
 ---
 title: Paging Files
+last_updated: July 29, 2016
 summary: "Shows information on paging space for all paging files active on this system."
 sidebar: c_windows_sidebar
 permalink: windows_component_pagingfiles.html
+id: SoWHomePage.conPagingFiles
 folder: ConnectWindows
 ---
 

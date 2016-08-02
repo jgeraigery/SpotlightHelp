@@ -1,8 +1,10 @@
 ---
 title: Disk Queue Length alarm
+last_updated: July 29, 2016
 summary: "The Disk Queue Length alarm becomes active when the maximum disk queue length of any disk exceeds a threshold."
 sidebar: c_windows_sidebar
 permalink: windows_alarm_disks_queuelength.html
+id: maximum_windows_disk_queue_length.alarm
 folder: ConnectWindows
 ---
 

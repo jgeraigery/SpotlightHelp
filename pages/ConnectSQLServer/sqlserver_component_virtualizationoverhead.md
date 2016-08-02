@@ -1,5 +1,6 @@
 ---
 title: ﻿Virtualization Overhead
+last_updated: July 29, 2016
 summary: "In a virtual environment the physical CPU of a host is shared by virtual machines and the hypervisor. Multiple processes may want to use the physical CPU of the host at the same time. The virtual machines may have to wait to be scheduled on a CPU."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_virtualizationoverhead.html

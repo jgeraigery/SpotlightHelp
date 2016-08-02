@@ -1,5 +1,6 @@
 ---
 title: ﻿Large Index Files - Median Fragmentation
+last_updated: July 29, 2016
 summary: "Measures the median fragmentation of all large index files on the SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_fragmentationmedian.html

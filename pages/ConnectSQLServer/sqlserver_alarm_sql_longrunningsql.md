@@ -1,5 +1,6 @@
 ---
 title: SQL - Long Running SQL alarm
+last_updated: July 29, 2016
 summary: "The SQL - Long Running SQL alarm is raised when SQL has been running longer than a configured time. Because the (configured time) is unique to each environment, the SQL - Long Running SQL alarm, by default, is not configured."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_sql_longrunningsql.html

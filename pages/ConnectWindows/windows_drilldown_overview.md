@@ -1,5 +1,6 @@
 ---
 title: Spotlight Overview page for Windows Server connections
+last_updated: July 29, 2016
 tags: overview_page
 summary: "The Spotlight Overview page highlights obvious bottlenecks and problem areas."
 sidebar: c_windows_sidebar

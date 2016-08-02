@@ -1,8 +1,10 @@
 ---
 title: ﻿Mirroring - State Alarm
+last_updated: July 29, 2016
 summary: "The Mirroring - State alarm is raised when the mirror database is not synchronized or is synchronizing."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_mirroring_state.html
+id: btnDatabasesMirroringState.Alarm
 folder: ConnectSQLServer
 ---
 

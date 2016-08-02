@@ -1,8 +1,10 @@
 ---
 title: ﻿User - Logins Per Second Alarm
+last_updated: July 29, 2016
 summary: "The User - Logins Per Second alarm is raised when the average number of logins per second exceeds a threshold. This value is taken over a specific number of background collections."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_user_loginspersecond.html
+id: btnUserSQL Server Logins per second.Alarm
 folder: ConnectSQLServer
 ---
 

@@ -1,8 +1,10 @@
 ---
 title: ﻿Databases - SQL I/O Errors Alarm
+last_updated: July 29, 2016
 summary: "The Databases - SQL I/O Errors alarm is raised when I/O errors are encountered by SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_databases_sqlioerrors.html
+id: mcfilessql server io errors per second.alarm
 folder: ConnectSQLServer
 ---
 

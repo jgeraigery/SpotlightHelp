@@ -1,7 +1,9 @@
 ---
 title: Physical Reads
+last_updated: July 29, 2016
 summary: "This flow represents normal page reads per second."
 sidebar: c_sqlazure_sidebar
+id: Home.flwReads
 permalink: sqlazure_component_flwreads.html
 folder: ConnectSQLAzure
 ---

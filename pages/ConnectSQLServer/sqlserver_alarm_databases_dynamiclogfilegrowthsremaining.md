@@ -1,8 +1,10 @@
 ---
 title: ﻿Databases - Dynamic Log File Growths Remaining Alarm
+last_updated: July 29, 2016
 summary: "The Databases - Dynamic Log File Growths Remaining alarm becomes active when a non fixed size log file in any database is in danger of running out of space to grow."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_databases_dynamiclogfilegrowthsremaining.html
+id: Home.mcLogFiles.Dynamic Log File Growths Remaining.alarm
 folder: ConnectSQLServer
 ---
 

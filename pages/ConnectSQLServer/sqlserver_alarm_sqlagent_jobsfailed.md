@@ -1,8 +1,10 @@
 ---
 title: SQL Agent - Jobs Failed Alarm
+last_updated: July 29, 2016
 summary: "The SQL Agent - Jobs Failed alarm is raised when Spotlight on SQL Server detects that at least one SQL Agent job has failed in the last few minutes."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_sqlagent_jobsfailed.html
+id: Home.btnServices.ServiceJobsFailed.Alarm
 folder: ConnectSQLServer
 ---
 

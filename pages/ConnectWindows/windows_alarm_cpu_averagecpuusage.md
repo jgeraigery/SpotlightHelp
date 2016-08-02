@@ -1,8 +1,10 @@
 ---
 title: CPU - Average CPU Usage alarm
+last_updated: July 29, 2016
 summary: "The CPU - Average CPU Usage alarm becomes active when the average CPU utilization of the server exceeds a threshold."
 sidebar: c_windows_sidebar
 permalink: windows_alarm_cpu_averagecpuusage.html
+id: average_percentage_cpu_used.alarm
 folder: ConnectWindows
 ---
 

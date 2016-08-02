@@ -1,7 +1,9 @@
 ---
 title: Tables grid
+last_updated: July 29, 2016
 summary: "Shows all tables in the SQL Azure database, including their size, number of rows, and free space."
 sidebar: c_sqlazure_sidebar
+id: DatabaseTables.TablesGrid
 permalink: sqlazure_grid_tables.html
 folder: ConnectSQLAzure
 ---

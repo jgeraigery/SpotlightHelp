@@ -1,5 +1,6 @@
 ---
 title: ﻿Response Time
+last_updated: July 29, 2016
 summary: "This shows the full round-trip response time (in milliseconds) of a query representative of general workload (select 1, by default)."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_responsetime.html

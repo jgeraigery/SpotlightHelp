@@ -1,5 +1,6 @@
 ---
 title: Data Files
+last_updated: July 29, 2016
 summary: "This disk shows information on the total number of data files in all databases in this SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_datafiles_disk.html
