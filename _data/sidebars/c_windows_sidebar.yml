@@ -321,30 +321,30 @@ entries:
         subfolderitems:
 
         - title: Processes grid
-          url: /windows_grid_process.html
+          url: /windows_grid_processes.html
           output: web, pdf
 
         - title: Process details
           url: /windows_details_process.html
           output: web, pdf
 
-        - title: Processor Utilization chart
+        - title: Processor utilization chart
           url: /windows_chart_processorutilization.html
           output: web, pdf
 
-        - title: Read / Writes chart
+        - title: Read / writes chart
           url: /windows_chart_readwrites.html
           output: web, pdf
 
-        - title: Memory Usage chart
+        - title: Memory usage chart
           url: /windows_chart_memoryusage.html
           output: web, pdf
 
-        - title: Page Faults chart
+        - title: Page faults chart
           url: /windows_chart_pagefaults.html
           output: web, pdf
 
-        - title: Process Threads grid
+        - title: Process threads grid
           url: /windows_grid_processthreads.html
           output: web, pdf
 
@@ -360,8 +360,8 @@ entries:
           url: /windows_details_service.html
           output: web, pdf
 
-        - title: Services and Drivers required by this service grid
-          url: /womdpws_grid_servicesanddriversrequiredbythisservice.html
+        - title: Services and drivers required by this service grid
+          url: /windows_grid_servicesanddriversrequiredbythisservice.html
           output: web, pdf
 
         - title: Services dependent on this service grid
@@ -369,7 +369,7 @@ entries:
           output: web, pdf
 
         - title: System drivers grid
-          url: /windows_grid_sysemdrivers.html
+          url: /windows_grid_systemdrivers.html
           output: web, pdf
   
   - title: CPU drilldown
@@ -446,7 +446,7 @@ entries:
           output: web, pdf
 
         - title: Host Processor Usage
-          url: /windows_hypervhostprocessorusage.html
+          url: /windows_hyperv_hostprocessorusage.html
           output: web, pdf
 
   - title: Memory drilldown
@@ -791,10 +791,6 @@ entries:
       output: web, pdf
 
   - title: Data display and collection problems
-    output: web, pdf
-    folderitems:
-
-    - title: Data display and collection problems
     output: web, pdf
     folderitems:
 
