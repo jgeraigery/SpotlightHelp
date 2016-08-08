@@ -62,7 +62,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "balloonhelp"
+      layout: "balloonhelpOffline"
       comments: false
       search: false
   -
