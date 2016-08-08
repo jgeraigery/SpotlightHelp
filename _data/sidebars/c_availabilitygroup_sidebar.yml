@@ -51,7 +51,7 @@ entries:
     folderitems:
 
     - title: Availability Group Connection display
-      url: /availabilitygroup_display_connection.html
+      url: /availabilitygroup_drillown_overview.html
       output: web, pdf
 
     - title: Status component

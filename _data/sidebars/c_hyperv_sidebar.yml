@@ -51,7 +51,7 @@ entries:
     folderitems:
 
     - title: Hyper-V connection display
-      url: /hyperv_display_connection.html
+      url: /hyperv_drilldown_overview.html
       output: web, pdf
 
     - title: Status component

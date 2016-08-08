@@ -3,7 +3,7 @@ title: Availability Group connection display
 last_updated: July 29, 2016
 summary: "Show the components and virtual machines grid for the Availability Group connection."
 sidebar: c_availabilitygroup_sidebar
-permalink: availabilitygroup_display_connection.html
+permalink: availabilitygroup_drilldown_overview.html
 folder: ConnectAvailabilityGroup
 ---
 

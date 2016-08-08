@@ -3,7 +3,7 @@ title: Hyper-V connection display
 last_updated: July 29, 2016
 summary: "Show the components and virtual machines grid for the Hyper-V connection."
 sidebar: c_hyperv_sidebar
-permalink: hyperv_display_connection.html
+permalink: hyperv_drilldown_overview.html
 folder: ConnectHyperv
 ---
 

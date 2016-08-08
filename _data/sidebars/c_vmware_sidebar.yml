@@ -51,7 +51,7 @@ entries:
     folderitems:
 
     - title: VMware connection display
-      url: /vmware_display_connection.html
+      url: /vmware_drilldown_overview.html
       output: web, pdf
 
     - title: Status component
