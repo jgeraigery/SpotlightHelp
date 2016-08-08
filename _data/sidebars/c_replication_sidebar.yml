@@ -185,7 +185,7 @@ entries:
           output: web, pdf
 
         - title: Sessions for Subscription
-          url: /replication_grid_sessionsforsubscription.html
+          url: /replication_chart_sessionsforsubscription.html
           output: web, pdf
 
         - title: Sessions of the Log Reader Agent grid
