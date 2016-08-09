@@ -79,3 +79,6 @@ entries:
     - title: Connection requirements
       url: /tag_connection_requirements.html
       output: web
+    - title: configure monitoring
+      url: /tag_configure_monitoring.html
+      output: web

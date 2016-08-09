@@ -11,3 +11,4 @@ allowed-tags:
   - snooze
   - spotlight_grids
   - spotlight_charts
+  - configure_monitoring
