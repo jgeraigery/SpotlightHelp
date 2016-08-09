@@ -1,6 +1,6 @@
 ---
 title: Configure Alarms
-keywords: alarms
+tags: [configure_monitoring]
 summary: "Set the thresholds and severities that determine when an alarm is raised. Disable an alarm. Set an alarm to require acknowledgment. Configure keyed alarms. Collect additional diagnostic information on an alarm."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfg_alarms.html
