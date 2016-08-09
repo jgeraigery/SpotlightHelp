@@ -341,7 +341,7 @@ entries:
           url: /enterprise_cfg_templates_save.html
           output: web, pdf
 
-  - title: Configure deployment
+  - title: Configure operations
     output: web, pdf
     folderitems:
 
