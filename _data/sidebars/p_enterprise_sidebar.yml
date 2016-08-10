@@ -80,8 +80,12 @@ entries:
           url: /enterprise_connect_plannedoutage.html
           output: web, pdf
 
+        - title: Planned outage
+          url: /enterprise_cfg_plannedoutage.html
+          output: web, pdf
+
         - title: Planned outage details
-          url: /enterprise_connect_plannedoutage_details.html
+          url: /enterprise_cfg_plannedoutage_details.html
           output: web, pdf
 
     - title: Monitoring properties
