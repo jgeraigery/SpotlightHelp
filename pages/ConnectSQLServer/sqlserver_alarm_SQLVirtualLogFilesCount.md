@@ -1,5 +1,5 @@
 ---
-title: SQL Virtual Log Files Count alarm
+title: SQL Virtual Log Files Count Alarm
 last_updated: July 29, 2016
 summary: "This alarm is raised on the SQL Server | Home Page | Disk Storage Panel | Log Files component when the count of Virtual Log Files (VLFs) is excessive."
 sidebar: c_sqlserver_sidebar

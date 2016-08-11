@@ -1,5 +1,5 @@
 ---
-title: ﻿Tempdb Version Store Generation Rate
+title: ﻿Tempdb Version Store Generation Rate Alarm
 last_updated: July 29, 2016
 summary: "This alarm is raised when the Tempdb Version Store growth rate is high compared to the cleanup rate."
 sidebar: c_sqlserver_sidebar

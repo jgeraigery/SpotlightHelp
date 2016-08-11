@@ -1,5 +1,5 @@
 ---
-title: Tempdb Number of Files
+title: Tempdb Number of Files Alarm
 last_updated: July 29, 2016
 summary: "This alarm is raised when the number of files in the Tempdb database is less than the number of processors and the SQL Server is experiencing contention on Tempdb."
 sidebar: c_sqlserver_sidebar

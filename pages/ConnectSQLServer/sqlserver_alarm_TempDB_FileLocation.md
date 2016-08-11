@@ -1,5 +1,5 @@
 ---
-title: ﻿Tempdb File Location
+title: ﻿Tempdb File Location Alarm
 last_updated: July 29, 2016
 summary: "This alarm is raised when Tempdb files are in the same location as other database files and I/O activity is significant and more than one drive is available."
 sidebar: c_sqlserver_sidebar
