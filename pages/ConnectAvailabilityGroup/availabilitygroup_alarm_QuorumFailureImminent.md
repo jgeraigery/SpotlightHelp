@@ -2,7 +2,7 @@
 title: Availability Group - Quorum Failure Imminent Alarm
 last_updated: July 29, 2016
 sidebar: c_availabilitygroup_sidebar
-permalink: availabilitygroup_alarm_ quorumfailureimminent.html
+permalink: availabilitygroup_alarm_quorumfailureimminent.html
 id: alarm_AvailabilityGroup_QuarumFailureImminent
 folder: ConnectAvailabilityGroup
 ---

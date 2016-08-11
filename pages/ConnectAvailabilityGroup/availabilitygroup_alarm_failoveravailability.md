@@ -2,7 +2,7 @@
 title: Availability Group - Failover Availability Alarm
 last_updated: July 29, 2016
 sidebar: c_availabilitygroup_sidebar
-permalink: availabilitygroup_alarm_automaticfailovernotavailable.html
+permalink: availabilitygroup_alarm_failoveravailability.html
 id: alarm_AvailabilityGroup_AutomaticFailoverNotAvailable
 folder: ConnectAvailabilityGroup
 ---

@@ -30,20 +30,44 @@ entries:
     output: web, pdf
     folderitems:
   
-    - title: Availability Group - Failed Over Alarm
+    - title: Availability Group - Failed Over
       url: /availabilitygroup_alarm_failedover.html
       output: web, pdf
   
-    - title: Availability Group - Failover Availability Alarm
-      url: /availabilitygroup_alarm_automaticfailovernotavailable.html
+    - title: Availability Group - Failover Availability
+      url: /availabilitygroup_alarm_failoveravailability.html
       output: web, pdf
 
-    - title: Availability Group - Quorum Failure Imminent Alarm
-      url: /availabilitygroup_alarm_ quorumfailureimminent.html
+    - title: Availability Group - Quorum Failure Imminent
+      url: /availabilitygroup_alarm_quorumfailureimminent.html
       output: web, pdf
 
-    - title: Availability Group - Synchronization Health Alarm
+    - title: Availability Group - Synchronization Health
       url: /availabilitygroup_alarm_synchronizationhealth.html
+      output: web, pdf
+
+    - title: Monitored Server - Availability Group Alarm Action Failure
+      url: /availabilitygroup_alarm_monitoredserver_alarmactionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Availability Group Alarm Evaluation Failure
+      url: /availabilitygroup_alarm_monitoredserver_alarmevaluationfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Availability Group Collection Execution Failure
+      url: /availabilitygroup_alarm_monitoredserver_collectionexecutionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Availability Group Connection Failure
+      url: /availabilitygroup_alarm_monitoredserver_connectionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Availability Group Planned Outage
+      url: /availabilitygroup_alarm_monitoredserver_plannedoutage.html
+      output: web, pdf
+
+    - title: Monitored Server - Availability Group Secondary Connection Failure
+      url: /availabilitygroup_alarm_monitoredserver_secondaryconnectionfailure.html
       output: web, pdf
 
   - title: Availability Group Connection display
