@@ -30,16 +30,36 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Cubes - Days Since Last Processed alarm
-      url: /analysisservices_alarm_cubesdayssincelastprocessed.html
+    - title: Command - Long Running Command
+      url: /analysisservices_alarm_command_longrunning.html
       output: web, pdf
 
-    - title: Long Running Command alarm
-      url: /analysisservices_alarm_longrunningcommand.html
+    - title: Cubes - Days Since Last Processed
+      url: /analysisservices_alarm_cubes_dayssincelastprocessed.html
       output: web, pdf
 
-    - title: Unprocessed Cubes alarm
-      url: /analysisservices_alarm_unprocessedcubes.html
+    - title: Cubes - Unprocessed
+      url: /analysisservices_alarm_cubes_unprocessed.html
+      output: web, pdf
+
+    - title: Monitored Server - Analysis Services Alarm Action Failure
+      url: /analysisservices_alarm_monitoredserver_alarmactionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Analysis Services Alarm Evaluation Failure
+      url: /analysisservices_alarm_monitoredserver_alarmevaluationfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Analysis Services Collection Execution Failure
+      url: /analysisservices_alarm_monitoredserver_collectionexecutionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Analysis Services Connection Failure
+      url: /analysisservices_alarm_monitoredserver_connectionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Analysis Services Planned Outage
+      url: /analysisservices_alarm_monitoredserver_plannedoutage.html
       output: web, pdf
 
   - title: Spotlight Overview page
