@@ -179,31 +179,31 @@ entries:
       output: web, pdf
 
     - title: Monitored Server - SQL Server Alarm Action Failure
-      url: /sqlserver_alarm_monitoredserver_sqlserveralarmactionfailure.html
+      url: /sqlserver_alarm_monitoredserver_alarmactionfailure.html
       output: web, pdf
 
     - title: Monitored Server - SQL Server Alarm Evaluation Failure
-      url: /sqlserver_alarm_monitoredserver_sqlserveralarmevaluationfailure.html
+      url: /sqlserver_alarm_monitoredserver_alarmevaluationfailure.html
       output: web, pdf
 
     - title: Monitored Server - SQL Server Collection Execution Failure
-      url: /sqlserver_alarm_monitoredserver_sqlservercollectionexecutionfailure.html
+      url: /sqlserver_alarm_monitoredserver_collectionexecutionfailure.html
       output: web, pdf
 
     - title: Monitored Server - SQL Server Connection Failure
-      url: /sqlserver_alarm_monitoredserver_sqlserverconnectionfailure.html
+      url: /sqlserver_alarm_monitoredserver_connectionfailure.html
       output: web, pdf
 
     - title: Monitored Server - SQL Server Host Not Defined
-      url: /sqlserver_alarm_monitoredserver_sqlserverhostnotdefined.html
+      url: /sqlserver_alarm_monitoredserver_hostnotdefined.html
       output: web, pdf
 
     - title: Monitored Server - SQL Server Planned Outage
-      url: /sqlserver_alarm_monitoredserver_sqlserverplannedoutage.html
+      url: /sqlserver_alarm_monitoredserver_plannedoutage.html
       output: web, pdf
 
     - title: Monitored Server - SQL Server Secondary Connection Failure
-      url: /sqlserver_alarm_monitoredserver_sqlserversecondaryconnectionfailure.html
+      url: /sqlserver_alarm_monitoredserver_secondaryconnectionfailure.html
       output: web, pdf
 
     - title: Network - SQL Server Packets Error Rate

@@ -3,7 +3,7 @@ title: ﻿Monitored Server - SQL Server Secondary Connection Failure Alarm
 last_updated: July 29, 2016
 summary: "The service is not responding."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_alarm_monitoredserver_sqlserversecondaryconnectionfailure.html
+permalink: sqlserver_alarm_monitoredserver_secondaryconnectionfailure.html
 id:
 folder: ConnectSQLServer
 ---

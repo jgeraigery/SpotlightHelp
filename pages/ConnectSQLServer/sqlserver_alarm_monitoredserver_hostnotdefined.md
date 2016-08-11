@@ -3,7 +3,7 @@ title: ﻿Monitored Server - SQL Server Host Not Defined Alarm
 last_updated: July 29, 2016
 summary: ""
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_alarm_monitoredserver_sqlserverhostnotdefined.html
+permalink: sqlserver_alarm_monitoredserver_hostnotdefined.html
 id:
 folder: ConnectSQLServer
 ---
