@@ -1,5 +1,5 @@
 ---
-title: CPU - Processor Queue Length alarm
+title: CPU - Processor Queue Length Alarm
 last_updated: July 29, 2016
 summary: "The CPU - Processor Queue Length alarm becomes active when the number of Windows threads waiting for CPU resources exceeds a threshold."
 sidebar: c_windows_sidebar

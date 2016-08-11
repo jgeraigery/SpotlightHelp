@@ -1,5 +1,5 @@
 ---
-title: Memory - Percentage Free Virtual Memory alarm
+title: Memory - Percentage Free Virtual Memory Alarm
 last_updated: July 29, 2016
 summary: "This alarm is activated when the average free virtual memory drops below a threshold."
 sidebar: c_windows_sidebar

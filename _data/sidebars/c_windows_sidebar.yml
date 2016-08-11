@@ -42,63 +42,87 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: CPU - Average CPU Usage alarm
+    - title: CPU - Average CPU Usage
       url: /windows_alarm_cpu_averagecpuusage.html
       output: web, pdf
 
-    - title: CPU - Individual CPU Usage alarm
+    - title: CPU - Individual CPU Usage
       url: /windows_alarm_cpu_individualcpuusage.html
       output: web, pdf
 
-    - title: CPU - Processor Queue Length alarm
+    - title: CPU - Processor Queue Length
       url: /windows_alarm_cpu_processorqueuelength.html
       output: web, pdf
 
-    - title: Disks - Percentage Used (Free Space) alarm
+    - title: Disks - Percentage Used / Free Space
       url: /windows_alarm_disks_percentageused.html
       output: web, pdf
 
-    - title: Disks - Queue Length alarm
+    - title: Disks - Queue Length
       url: /windows_alarm_disks_queuelength.html
       output: web, pdf
 
-    - title: Disks - Transfer Time alarm
+    - title: Disks - Transfer Time
       url: /windows_alarm_disks_transfertime.html
       output: web, pdf
 
-    - title: File - Exceeded Set Size alarm
+    - title: File - Exceeded Set Size
       url: /windows_alarm_file_exceededsetsize.html
       output: web, pdf
 
-    - title: Memory - Free System Page Table Entries alarm
+    - title: Memory - Free System Page Table Entries
       url: /windows_alarm_memory_freesystempagetableentries.html
       output: web, pdf
 
-    - title: Memory - Percentage Free Virtual Memory alarm
+    - title: Memory - Percentage Free Virtual Memory
       url: /windows_alarm_memory_percentagefreevirtualmemory.html
       output: web, pdf
 
-    - title: Memory - Physical Memory Available Alarm 
+    - title: Memory - Physical Memory Available
       url: /windows_alarm_memory_physicalmemoryavailable.html
       output: web, pdf
 
-    - title: Network - Percentage Bandwidth Alarm 
+    - title: Monitored Server - Windows Alarm Action Failure
+      url: /windows_alarm_monitoredserver_alarmactionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Windows Alarm Evaluation Failure
+      url: /windows_alarm_monitoredserver_alarmevaluationfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Windows Collection Execution Failure
+      url: /windows_alarm_monitoredserver_collectionexecutionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Windows Connection Failure
+      url: /windows_alarm_monitoredserver_connectionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Windows Planned Outage
+      url: /windows_alarm_monitoredserver_plannedoutage.html
+      output: web, pdf
+
+    - title: Monitored Server - Windows Secondary Connection Failure
+      url: /windows_alarm_monitoredserver_secondaryconnectionfailure.html
+      output: web, pdf
+
+    - title: Network - Percentage Bandwidth
       url: /windows_alarm_network_percentagebandwidth.html
       output: web, pdf
 
-    - title: Paging - Disk Activity Alarm  
+    - title: Paging - Disk Activity
       url: /windows_alarm_paging_diskactivity.html
       output: web, pdf
 
-    - title: Paging - File Collision Alarm  
+    - title: Paging - File Collision
       url: /windows_alarm_paging_filecollision.html
       output: web, pdf
 
-    - title: Services - Service Not Running Alarm   
+    - title: Services - Service Not Running
       url: /windows_alarm_services_servicenotrunning.html
       output: web, pdf
 
-    - title: Windows Custom Counters Alarm  
+    - title: Windows Custom Counters
       url: /windows_alarm_customcounters.html
       output: web, pdf
 

@@ -1,5 +1,5 @@
 ---
-title: Disks - Percentage Used (Free Space) Alarm
+title: Disks - Percentage Used / Free Space Alarms
 last_updated: July 29, 2016
 summary: "This shows the logical disk is filling up or is full."
 sidebar: c_windows_sidebar

@@ -1,5 +1,5 @@
 ---
-title: Network - Percentage Bandwidth alarm
+title: Network - Percentage Bandwidth Alarm
 last_updated: July 29, 2016
 summary: "The average network bandwidth capacity of the specified network card is nearing the limit where it is saturating the network link. This value is taken over a specific number of background collections."
 sidebar: c_windows_sidebar

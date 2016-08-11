@@ -1,5 +1,5 @@
 ---
-title: Disks - Transfer Time alarm
+title: Disks - Transfer Time Alarm
 last_updated: July 29, 2016
 summary: "Disk transfer time measures the time it takes in milliseconds to transfer data between disk and memory. The metric includes disk reads and disk writes."
 sidebar: c_windows_sidebar
