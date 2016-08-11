@@ -1,9 +1,9 @@
 ---
-title: Replication - Latency Alarm
+title: Replication - Distribution Latency Alarm
 last_updated: July 29, 2016
 summary: "A Replication - Latency alarm alerts you when latency on the Distributor or Log Reader agent exceeds a threshold."
 sidebar: c_replication_sidebar
-permalink: replication_alarm_latency.html
+permalink: replication_alarm_latency_distribution.html
 id: Latency.Alarm
 folder: ConnectReplication
 ---

@@ -30,35 +30,79 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Replication - Agent Failure alarm
-      url: /replication_alarm_agentfailure.html
+    - title: Monitored Server - Replication Alarm Action Failure
+      url: /replication_alarm_monitoredserver_alarmactionfailure.html
       output: web, pdf
 
-    - title: Replication - Latency alarm
-      url: /replication_alarm_latency.html
+    - title: Monitored Server - Replication Alarm Evaluation Failure
+      url: /replication_alarm_monitoredserver_alarmevaluationfailure.html
       output: web, pdf
 
-    - title: Replication - Estimated time to apply alarm
+    - title: Monitored Server - Replication Collection Execution Failure
+      url: /replication_alarm_monitoredserver_collectionexecutionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Replication Connection Failure
+      url: /replication_alarm_monitoredserver_connectionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Replication Planned Outage
+      url: /replication_alarm_monitoredserver_plannedoutage.html
+      output: web, pdf
+
+    - title: Replication - Distribution Agent Failure
+      url: /replication_alarm_agentfailure_distribution.html
+      output: web, pdf
+
+    - title: Replication - Distribution Latency
+      url: /replication_alarm_latency_distribution.html
+      output: web, pdf
+
+    - title: Replication - Estimated Time To Apply
       url: /replication_alarm_estimatedtimetoapply.html
       output: web, pdf
 
-    - title: Replication - Publication Expiration alarm
+    - title: Replication - Log Reader Agent Failure
+      url: /replication_alarm_agentfailure_logreader.html
+      output: web, pdf
+
+    - title: Replication - Log Reader Latency
+      url: /replication_alarm_latency_logreader.html
+      output: web, pdf
+
+    - title: Replication - Merge Agent Failure
+      url: /replication_alarm_agentfailure_merge.html
+      output: web, pdf
+
+    - title: Replication - Miscellaneous Agent Failure
+      url: /replication_alarm_agentfailure_miscellaneous.html
+      output: web, pdf
+
+    - title: Replication - Publication Expiration
       url: /replication_alarm_publicationexpiration.html
       output: web, pdf
 
-    - title: Replication - Publication Failure alarm
+    - title: Replication - Publication Failure
       url: /replication_alarm_publicationfailure.html
       output: web, pdf
 
-    - title: Replication - Publisher Failure alarm
+    - title: Replication - Publisher Failure
       url: /replication_alarm_publisherfailure.html
       output: web, pdf
 
-    - title: Replication - Subscription Failure alarm
+    - title: Replication - Queue Reader Agent Failure
+      url: /replication_alarm_agentfailure_queuereader.html
+      output: web, pdf
+
+    - title: Replication - Snapshot Agent Failure
+      url: /replication_alarm_agentfailure_snapshot.html
+      output: web, pdf
+
+    - title: Replication - Subscription Failure
       url: /replication_alarm_subscriptionfailure.html
       output: web, pdf
 
-    - title: Replication - Undistributed commands alarm
+    - title: Replication - Undistributed commands
       url: /replication_alarm_undistributedcommands.html
       output: web, pdf
 

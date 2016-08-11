@@ -1,9 +1,9 @@
 ---
-title: Replication - Agent Failure Alarm
+title: Replication - Merge Agent Failure Alarm
 last_updated: July 29, 2016
 summary: "A Replication - Agent Failure alarm becomes active when a SQL Server replication agent has failed."
 sidebar: c_replication_sidebar
-permalink: replication_alarm_agentfailure.html
+permalink: replication_alarm_agentfailure_merge.html
 id: Agent Failure.Alarm
 folder: ConnectReplication
 ---

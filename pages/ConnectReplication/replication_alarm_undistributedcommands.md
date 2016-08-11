@@ -1,5 +1,5 @@
 ---
-title: Undistributed Commands alarm
+title: Replication - Undistributed Commands Alarm
 last_updated: July 29, 2016
 summary: "The Replication - Undistributed Commands alarm becomes active when the number of undistributed commands exceeds a threshold."
 sidebar: c_replication_sidebar
