@@ -62,6 +62,10 @@ entries:
       url: /analysisservices_alarm_monitoredserver_plannedoutage.html
       output: web, pdf
 
+    - title: Monitored Server - Analysis Services Unsupported Version
+      url: /analysisservices_alarm_monitoredserver_unsupportedversion.html
+      output: web, pdf
+
   - title: Spotlight Overview page
     output: web, pdf
     folderitems:
