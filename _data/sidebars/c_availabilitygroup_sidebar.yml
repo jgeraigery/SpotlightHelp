@@ -70,6 +70,10 @@ entries:
       url: /availabilitygroup_alarm_monitoredserver_secondaryconnectionfailure.html
       output: web, pdf
 
+    - title: Monitored Server - Availability Group Unsupported Version
+      url: /availabilitygroup_alarm_monitoredserver_unsupportedversion.html
+      output: web, pdf
+
   - title: Availability Group Connection display
     output: web, pdf
     folderitems:
