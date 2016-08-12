@@ -34,10 +34,6 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: VMware - Memory Reposessed
-      url: /vmware_alarm_memoryreposessed.html
-      output: web, pdf
-
     - title: Monitored Server - VMware Alarm Action Failure
       url: /vmware_alarm_monitoredserver_alarmactionfailure.html
       output: web, pdf
@@ -56,6 +52,10 @@ entries:
 
     - title: Monitored Server - VMware Planned Outage
       url: /vmware_alarm_monitoredserver_plannedoutage.html
+      output: web, pdf
+
+    - title: VMware - Memory Reposessed
+      url: /vmware_alarm_memoryreposessed.html
       output: web, pdf
 
     - title: VMware - Virtual Machine Heartbeat
