@@ -30,6 +30,14 @@ entries:
     output: web, pdf
     folderitems:
   
+    - title: Diagnostic Server - Alarm Action Failure
+      url: /spotlightds_alarm_actionfailure.html
+      output: web, pdf
+
+    - title: Diagnostic Server - Alarm Evaluation Failure
+      url: /spotlightds_alarm_evaluationfailure.html
+      output: web, pdf
+  
     - title: Diagnostic Server - Auto Update Failure
       url: /spotlightds_alarm_autoupdatefailure.html
       output: web, pdf
@@ -50,20 +58,12 @@ entries:
       url: /spotlightds_alarm_federationcommunicationsfailure.html
       output: web, pdf
 
-    - title: Diagnostic Server - Health Check Data Upload
-      url: /spotlightds_alarm_healthcheckdataupload.html
-      output: web, pdf
-
     - title: Diagnostic Server - License Service
-      url: /spotlightds_alarm_licensedispatch.html
+      url: /spotlightds_alarm_licenseservice.html
       output: web, pdf
 
     - title: Diagnostic Server - Microsoft .NET 4.5 Required
       url: /spotlightds_alarm_microsoftnet45required.html
-      output: web, pdf
-
-    - title: Diagnostic Server - Mobile Monitoring Data Transfer
-      url: /spotlightds_alarm_mobilemonitoringdatatransfer.html
       output: web, pdf
 
     - title: Diagnostic Server - PagerDuty Service
@@ -78,12 +78,53 @@ entries:
       url: /spotlightds_alarm_snmpservice.html
       output: web, pdf
 
-    - title: Diagnostic Server - Spotlight Playback
-      url: /spotlightds_alarm_spotlightplayback.html
+    - title: Diagnostic Server - Spotlight Cloud Data Transfer
+      url: /spotlightds_alarm_spotlightclouddatatransfer.html
       output: web, pdf
+
+      subfolders:
+      - title: Diagnostic Server - Spotlight Playback
+        output: web
+        subfolderitems:
+
+        - title: Connection Error
+          url: /spotlightds_alarm_playback_connectionerror.html
+          output: web, pdf
+
+        - title: Maintenance Error
+          url: /spotlightds_alarm_playback_maintenanceerror.html
+          output: web, pdf
+
+        - title: Queue Error
+          url: /spotlightds_alarm_playback_queueerror.html
+          output: web, pdf
+
+        - title: Read Error
+          url: /spotlightds_alarm_playback_readerror.html
+          output: web, pdf
+
+        - title: Update Error
+          url: /spotlightds_alarm_playback_updateerror.html
+          output: web, pdf
+
+        - title: Upgrade Error
+          url: /spotlightds_alarm_playback_upgradeerror.html
+          output: web, pdf
+
+        - title: Upgrade In Progress
+          url: /spotlightds_alarm_playback_upgradeinprogess.html
+          output: web, pdf
+
+        - title: Version Error
+          url: /spotlightds_alarm_playback_versionerror.html
+          output: web, pdf
 
     - title: Diagnostic Server - Spotlight Statistics Repository
       url: /spotlightds_alarm_spotlightssr.html
+      output: web, pdf
+
+    - title: Diagnostic Server - Synchronize Connections Upload Failure
+      url: /spotlightds_alarm_synchronizeconnectionsuploadfailure.html
       output: web, pdf
 
   - title: Spotlight Overview Page
