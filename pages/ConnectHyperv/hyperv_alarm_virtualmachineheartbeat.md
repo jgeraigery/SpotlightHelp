@@ -1,9 +1,9 @@
 ---
-title: Hyper-V Virtual Heartbeat Alarm
+title: Hyper-V Virtual Machine Heartbeat Alarm
 last_updated: July 29, 2016
 summary: "The Hyper-V Virtual Machine Heartbeat alarm is raised when the virtual machine has stopped responding to the hypervisor or is not responding at regular intervals."
 sidebar: c_hyperv_sidebar
-permalink: hyperv_alarm_virtualheartbeat.html
+permalink: hyperv_alarm_virtualmachineheartbeat.html
 folder: ConnectHyperv
 ---
 

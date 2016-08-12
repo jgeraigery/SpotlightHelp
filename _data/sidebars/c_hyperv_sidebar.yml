@@ -33,17 +33,17 @@ entries:
   - title: Alarms
     output: web, pdf
     folderitems:
-  
-    - title: Hyper-V Virtual Heartbeat
-      url: /hyperv_alarm_virtualheartbeat.html
+
+    - title: Hyper-V Virtual Overhead
+      url: /hyperv_alarm_virtualoverhead.html
       output: web, pdf
 
     - title: Hyper-V CPU Wait Time Per Dispatch
       url: /hyperv_alarm_cpuwaittimedispatch.html
       output: web, pdf
-
-    - title: Hyper-V Virtual Overhead
-      url: /hyperv_alarm_virtualoverhead.html
+  
+    - title: Hyper-V Virtual Machine Heartbeat
+      url: /hyperv_alarm_virtualmachineheartbeat.html
       output: web, pdf
 
     - title: Monitored Server - Hyper-V Alarm Action Failure
