@@ -50,6 +50,10 @@ entries:
       url: /replication_alarm_monitoredserver_plannedoutage.html
       output: web, pdf
 
+    - title: Monitored Server - Replication Unsupported Version
+      url: /replication_alarm_monitoredserver_unsupportedversion.html
+      output: web, pdf
+
     - title: Replication - Distribution Agent Failure
       url: /replication_alarm_agentfailure_distribution.html
       output: web, pdf
