@@ -206,6 +206,10 @@ entries:
       url: /sqlserver_alarm_monitoredserver_secondaryconnectionfailure.html
       output: web, pdf
 
+    - title: Monitored Server - SQL Server Unsupported Version
+      url: /sqlserver_alarm_monitoredserver_unsupportedversion.html
+      output: web, pdf
+
     - title: Network - SQL Server Packets Error Rate
       url: /sqlserver_alarm_network_sqlserverpacketserrorrate.html
       output: web, pdf
