@@ -1,9 +1,8 @@
 ---
-title: VMware - Overhead Alarm
-summary: "The VMware - Overhead alarm is raised when Virtualization Overhead is greater than a threshold and CPU Usage is 95% or higher."
+title: VMware - Virtual Overhead Alarm
+summary: "The VMware - Virtual Overhead alarm is raised when Virtualization Overhead is greater than a threshold and CPU Usage is 95% or higher."
 sidebar: c_vmware_sidebar
-toc: false
-permalink: vmware_alarm_overhead.html
+permalink: vmware_alarm_virtualoverhead.html
 folder: ConnectVMware
 ---
 

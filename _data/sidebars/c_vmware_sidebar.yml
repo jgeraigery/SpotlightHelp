@@ -34,16 +34,36 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Heartbeat alarm
-      url: /vmware_alarm_heartbeat.html
-      output: web, pdf
-
-    - title: VMware memory reposessed alarm
+    - title: VMware - Memory Reposessed
       url: /vmware_alarm_memoryreposessed.html
       output: web, pdf
 
-    - title: VMware Overhead alarm
-      url: /vmware_alarm_overhead.html
+    - title: Monitored Server - VMware Alarm Action Failure
+      url: /vmware_alarm_monitoredserver_alarmactionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - VMware Alarm Evaluation Failure
+      url: /vmware_alarm_monitoredserver_alarmevaluationfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - VMware Collection Execution Failure
+      url: /vmware_alarm_monitoredserver_collectionexecutionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - VMware Connection Failure
+      url: /vmware_alarm_monitoredserver_connectionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - VMware Planned Outage
+      url: /vmware_alarm_monitoredserver_plannedoutage.html
+      output: web, pdf
+
+    - title: VMware - Virtual Machine Heartbeat
+      url: /vmware_alarm_virtualmachineheartbeat.html
+      output: web, pdf
+
+    - title: VMware - Virtual Overhead
+      url: /vmware_alarm_virtualoverhead.html
       output: web, pdf
 
   - title: VMware Connection display
