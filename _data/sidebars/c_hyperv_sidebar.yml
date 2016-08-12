@@ -70,6 +70,10 @@ entries:
       url: /hyperv_alarm_monitoredserver_secondaryconnectionfailure.html
       output: web, pdf
 
+    - title: Monitored Server - Hyper-V Unsupported Version
+      url: /hyperv_alarm_monitoredserver_unsupportedversion.html
+      output: web, pdf
+
   - title: Hyper-V Connection display
     output: web, pdf
     folderitems:
