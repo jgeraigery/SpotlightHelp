@@ -94,6 +94,7 @@ sidebars:
 - c_availabilitygroup_sidebar
 - c_hyperv_sidebar
 - c_replication_sidebar
+- c_spotlightds_sidebar
 - c_sqlazure_sidebar
 - c_sqlserver_sidebar
 - c_vmware_sidebar

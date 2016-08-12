@@ -36,3 +36,5 @@ topnav_dropdowns:
           url: /vmware_landing_page.html
         - title: Hyper-V
           url: /hyperv_landing_page.html
+        - title: Spotlight Diagnostic Server
+          url: /spotlightds_landing_page.html

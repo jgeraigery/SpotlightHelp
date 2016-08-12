@@ -1,0 +1,99 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Spotlight Diagnostic Server
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Connections
+    output: web, pdf
+    folderitems:
+
+    - title: Connection details
+      url: /blah.html
+      output: web, pdf
+
+  - title: Alarms
+    output: web, pdf
+    folderitems:
+  
+    - title: Diagnostic Server - Auto Update Failure
+      url: /spotlightds_alarm_autoupdatefailure.html
+      output: web, pdf
+
+    - title: Diagnostic Server - Auto Update Success
+      url: /spotlightds_alarm_autoupdatesuccess.html
+      output: web, pdf
+
+    - title: Monitored Server - Collection Execution Failure
+      url: /spotlightds_alarm_collectionexecutionfailure.html
+      output: web, pdf
+
+    - title: Diagnostic Server - Email Service
+      url: /spotlightds_alarm_emailservice.html
+      output: web, pdf
+
+    - title: Diagnostic Server - Federation Communications Failure
+      url: /spotlightds_alarm_federationcommunicationsfailure.html
+      output: web, pdf
+
+    - title: Diagnostic Server - Health Check Data Upload
+      url: /spotlightds_alarm_healthcheckdataupload.html
+      output: web, pdf
+
+    - title: Diagnostic Server - License Service
+      url: /spotlightds_alarm_licensedispatch.html
+      output: web, pdf
+
+    - title: Diagnostic Server - Microsoft .NET 4.5 Required
+      url: /spotlightds_alarm_microsoftnet45required.html
+      output: web, pdf
+
+    - title: Diagnostic Server - Mobile Monitoring Data Transfer
+      url: /spotlightds_alarm_mobilemonitoringdatatransfer.html
+      output: web, pdf
+
+    - title: Diagnostic Server - PagerDuty Service
+      url: /spotlightds_alarm_pagerdutyservice.html
+      output: web, pdf
+
+    - title: Diagnostic Server - Push Notification To Mobile Device
+      url: /spotlightds_alarm_pushnotificationtomobiledevice.html
+      output: web, pdf
+
+    - title: Diagnostic Server - SNMP Service
+      url: /spotlightds_alarm_snmpservice.html
+      output: web, pdf
+
+    - title: Diagnostic Server - Spotlight Playback
+      url: /spotlightds_alarm_spotlightplayback.html
+      output: web, pdf
+
+    - title: Diagnostic Server - Spotlight Statistics Repository
+      url: /spotlightds_alarm_spotlightssr.html
+      output: web, pdf
+
+  - title: Spotlight Overview Page
+    output: web, pdf
+    folderitems:
+
+    - title: Spotlight Overview Page
+      url: /spotlightds_drilldown_overview.html
+      output: web, pdf
+
+    - title: Status component
+      url: /spotlightds_component_status.html
+      output: web, pdf
