@@ -106,6 +106,10 @@ entries:
       url: /windows_alarm_monitoredserver_secondaryconnectionfailure.html
       output: web, pdf
 
+    - title: Monitored Server - Windows Unsupported Version
+      url: /windows_alarm_monitoredserver_unsupportedversion.html
+      output: web, pdf
+
     - title: Network - Percentage Bandwidth
       url: /windows_alarm_network_percentagebandwidth.html
       output: web, pdf
