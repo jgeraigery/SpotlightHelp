@@ -34,16 +34,40 @@ entries:
     output: web, pdf
     folderitems:
   
-    - title: Hyper-V Virtual Machine Heartbeat Alarm
-      url: /hyperv_alarm_heartbeat.html
+    - title: Hyper-V Virtual Heartbeat
+      url: /hyperv_alarm_virtualheartbeat.html
       output: web, pdf
 
-    - title: Hyper-V CPU wait time per dispatch Alarm
+    - title: Hyper-V CPU Wait Time Per Dispatch
       url: /hyperv_alarm_cpuwaittimedispatch.html
       output: web, pdf
 
-    - title: Hyper-V - Virtual Overhead Alarm
-      url: /hyperv_alarm_overhead.html
+    - title: Hyper-V Virtual Overhead
+      url: /hyperv_alarm_virtualoverhead.html
+      output: web, pdf
+
+    - title: Monitored Server - Hyper-V Alarm Action Failure
+      url: /hyperv_alarm_monitoredserver_alarmactionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Hyper-V Alarm Evaluation Failure
+      url: /hyperv_alarm_monitoredserver_alarmevaluationfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Hyper-V Collection Execution Failure
+      url: /hyperv_alarm_monitoredserver_collectionexecutionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Hyper-V Connection Failure
+      url: /hyperv_alarm_monitoredserver_connectionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Hyper-V Planned Outage
+      url: /hyperv_alarm_monitoredserver_plannedoutage.html
+      output: web, pdf
+
+    - title: Monitored Server - Hyper-V Secondary Connection Failure
+      url: /hyperv_alarm_monitoredserver_secondaryconnectionfailure.html
       output: web, pdf
 
   - title: Hyper-V Connection display
