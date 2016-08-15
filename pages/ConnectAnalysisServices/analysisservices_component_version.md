@@ -1,5 +1,5 @@
 ---
-title: Server version
+title: Server Version
 last_updated: July 29, 2016
 summary: ""
 sidebar: c_analysisservices_sidebar

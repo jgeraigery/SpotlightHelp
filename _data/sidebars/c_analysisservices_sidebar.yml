@@ -87,92 +87,8 @@ entries:
           url: /analysisservices_component_usersessions.html
           output: web, pdf
 
-        - title: Average Time per Query
+        - title: Average Time Per Query
           url: /analysisservices_component_averagetimeperquery.html
-          output: web, pdf
-
-      - title: Server Panel
-        output: web
-        subfolderitems:
-
-        - title: Server description
-          url: /analysisservices_component_serverdescription.html
-          output: web, pdf
-
-        - title: Edition
-          url: /analysisservices_component_edition.html
-          output: web, pdf
-
-        - title: Version
-          url: /analysisservices_component_version.html
-          output: web, pdf
-
-        - title: Status
-          url: /analysisservices_component_status.html
-          output: web, pdf
-
-      - title: Memory Panel
-        output: web
-        subfolderitems:
-
-        - title: Memory limit low
-          url: /analysisservices_component_memorylimitlow.html
-          output: web, pdf
-
-        - title: Memory limit high
-          url: /analysisservices_component_memorylimithigh.html
-          output: web, pdf
-
-        - title: Memory usage
-          url: /analysisservices_component_memoryusage.html
-          output: web, pdf
-
-        - title: Cleaner memory shrinkable
-          url: /analysisservices_component_cleanermemoryshrinkable.html
-          output: web, pdf
-
-        - title: File Store
-          url: /analysisservices_component_filestore.html
-          output: web, pdf
-
-        - title: Direct Hit Ratio
-          url: /analysisservices_component_directhitratio.html
-          output: web, pdf
-
-        - title: Current Latch Waits
-          url: /analysisservices_component_currentlatchwaits.html
-          output: web, pdf
-
-        - title: Current Lock Waits
-          url: /analysisservices_component_currentlockwaits.html
-          output: web, pdf
-
-        - title: Query Pool Job Queue Length
-          url: /analysisservices_component_querypooljobqueuelength.html
-          output: web, pdf
-
-      - title: CPU Panel
-        output: web
-        subfolderitems:
-
-        - title: Virtualization Overhead
-          url: /analysisservices_component_virtualoverhead.html
-          output: web, pdf
-
-        - title: CPU usage
-          url: /analysisservices_component_cpu.html
-          output: web, pdf
-
-      - title: Storage Panel
-        output: web
-        subfolderitems:
-
-        - title: Databases
-          url: /analysisservices_component_databases.html
-          output: web, pdf
-
-        - title: Cubes
-          url: /analysisservices_component_cubes.html
           output: web, pdf
 
       - title: Flows
@@ -199,6 +115,54 @@ entries:
           url: /analysisservices_component_queriesfromfile.html
           output: web, pdf
 
+      - title: Memory Panel
+        output: web
+        subfolderitems:
+
+        - title: Memory Limit Low
+          url: /analysisservices_component_memorylimitlow.html
+          output: web, pdf
+
+        - title: Memory Limit High
+          url: /analysisservices_component_memorylimithigh.html
+          output: web, pdf
+
+        - title: Memory Usage
+          url: /analysisservices_component_memoryusage.html
+          output: web, pdf
+
+        - title: Cleaner Balance/sec
+          url: /analysisservices_component_cleanerbalancepersec.html
+          output: web, pdf
+
+        - title: Cleaner Memory Shrinkable
+          url: /analysisservices_component_cleanermemoryshrinkable.html
+          output: web, pdf
+
+        - title: Filestore
+          url: /analysisservices_component_filestore.html
+          output: web, pdf
+
+        - title: Direct Hit Ratio
+          url: /analysisservices_component_directhitratio.html
+          output: web, pdf
+
+        - title: Current Latch Waits
+          url: /analysisservices_component_currentlatchwaits.html
+          output: web, pdf
+
+        - title: Current Lock Waits
+          url: /analysisservices_component_currentlockwaits.html
+          output: web, pdf
+
+        - title: Query Pool Job Queue Length
+          url: /analysisservices_component_querypooljobqueuelength.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
         - title: Temp file rows written
           url: /analysisservices_component_tempfilerowswritten.html
           output: web, pdf
@@ -209,6 +173,50 @@ entries:
 
         - title: Rows written
           url: /analysisservices_component_rowswritten.html
+          output: web, pdf
+
+      - title: Storage Panel
+        output: web
+        subfolderitems:
+
+        - title: Databases
+          url: /analysisservices_component_databases.html
+          output: web, pdf
+
+        - title: Cubes
+          url: /analysisservices_component_cubes.html
+          output: web, pdf
+
+      - title: Server Panel
+        output: web
+        subfolderitems:
+
+        - title: Description
+          url: /analysisservices_component_serverdescription.html
+          output: web, pdf
+
+        - title: Edition
+          url: /analysisservices_component_edition.html
+          output: web, pdf
+
+        - title: Version
+          url: /analysisservices_component_version.html
+          output: web, pdf
+
+        - title: Status
+          url: /analysisservices_component_status.html
+          output: web, pdf
+
+      - title: CPU Panel
+        output: web
+        subfolderitems:
+
+        - title: Virtualization Overhead
+          url: /analysisservices_component_virtualoverhead.html
+          output: web, pdf
+
+        - title: CPU usage
+          url: /analysisservices_component_cpu.html
           output: web, pdf
 
   - title: Activity drilldown
