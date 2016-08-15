@@ -74,11 +74,11 @@ entries:
       url: /availabilitygroup_alarm_monitoredserver_unsupportedversion.html
       output: web, pdf
 
-  - title: Availability Group Overview page
+  - title: Spotlight Overview page
     output: web, pdf
     folderitems:
 
-    - title: Availability Group Overview page
+    - title: Spotlight Overview page
       url: /availabilitygroup_drillown_overview.html
       output: web, pdf
 
