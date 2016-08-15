@@ -1,8 +1,7 @@
 ---
-title: Status component
+title: Status
 summary: "The condition of the virtual machine. Green indicates that no alarms have been raised. Yellow and red indicate that VMware has raised an alarm."
 sidebar: c_vmware_sidebar
-toc: false
 permalink: vmware_component_status.html
 folder: ConnectVMware
 ---

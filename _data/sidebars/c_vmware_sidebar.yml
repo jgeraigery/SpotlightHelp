@@ -66,23 +66,23 @@ entries:
       url: /vmware_alarm_virtualoverhead.html
       output: web, pdf
 
-  - title: VMware Connection display
+  - title: Spotlight Overview page
     output: web, pdf
     folderitems:
 
-    - title: VMware connection display
+    - title: Spotlight Overview page
       url: /vmware_drilldown_overview.html
       output: web, pdf
 
-    - title: Status component
+    - title: Status
       url: /vmware_component_status.html
       output: web, pdf
 
-    - title: Version component
+    - title: Version
       url: /vmware_component_version.html
       output: web, pdf
   
-    - title: Virtual machines grid
+    - title: Virtual Machines grid
       url: /vmware_grid_virtualmachines.html
       output: web, pdf
   
