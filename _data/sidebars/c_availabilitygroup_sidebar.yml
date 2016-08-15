@@ -74,15 +74,15 @@ entries:
       url: /availabilitygroup_alarm_monitoredserver_unsupportedversion.html
       output: web, pdf
 
-  - title: Availability Group Connection display
+  - title: Availability Group Overview page
     output: web, pdf
     folderitems:
 
-    - title: Availability Group Connection display
+    - title: Availability Group Overview page
       url: /availabilitygroup_drillown_overview.html
       output: web, pdf
 
-    - title: Status component
+    - title: Status
       url: /availabilitygroup_component_status.html
       output: web, pdf
 
@@ -90,11 +90,11 @@ entries:
       url: /availabilitygroup_component_synchhealth.html
       output: web, pdf
 
-    - title: Primary instance
+    - title: Primary Instance
       url: /availabilitygroup_component_primaryinstance.html
       output: web, pdf
 
-    - title: Failover indicator
+    - title: Failover Indicator
       url: /availabilitygroup_component_failoverindicator.html
       output: web, pdf
 

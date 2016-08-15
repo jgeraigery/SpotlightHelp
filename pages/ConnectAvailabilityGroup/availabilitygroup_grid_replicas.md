@@ -11,12 +11,11 @@ folder: ConnectAvailabilityGroup
 
 
 
-## Primary role
+## Role
 
-One node takes the Primary role. Usually all other nodes have a Secondary role. If a node's role is Resolving then that node may be down.
-The failover mode for each node is configured by the DBA in the SQL Server Management Studio.
-
- When the failover mode is set to manual an accompanying icon highlights that manual failover is required. When no failover is available this icon is red.
+* One node takes the **Primary** role. Usually all other nodes have a **Secondary** role. If a node's role is **Resolving** then that node may be down.
+* The failover mode for each node is configured by the DBA in the SQL Server Management Studio.
+* When the failover mode is set to **manual** an accompanying icon highlights that manual failover is required. When no failover is available this icon is red.
 
  ![icon]({{ "/imagesClient/icon_refresherror.png" | prepend: site.baseurl }})
 
@@ -26,11 +25,11 @@ Synchronization Health is indicative of the health of the node. A warning is sho
 
 ## Availability mode
 
-The availability mode is Synchronous or Asynchronous Commit as configured by the DBA in the SQL Server Management Studio.
+The availability mode is **Synchronous** or **Asynchronous Commit** as configured by the DBA in the SQL Server Management Studio.
 
 ## Connected / Disconnected
 
-The node with the primary role is always Connected. Nodes with a secondary role in a Connected state are available for connection. Nodes with a secondary role in a Disconnected state are not available for connection.
+The node with the Primary role is always **Connected**. Nodes with a Secondary role in a **Connected** state are available for connection. Nodes with a Secondary role in a **Disconnected** state are not available for connection.
 
 ## Backup priority
 
