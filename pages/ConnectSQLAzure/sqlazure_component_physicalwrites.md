@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "This flow represents data/index pages written to disk."
 sidebar: c_sqlazure_sidebar
 id: Home.flwWrites
-permalink: sqlazure_component_flwwrites.html
+permalink: sqlazure_component_physicalwrites.html
 folder: ConnectSQLAzure
 ---
 

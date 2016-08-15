@@ -1,10 +1,10 @@
 ---
-title: Packets Read per Second
+title: Packets Read
 last_updated: July 29, 2016
-summary: "This flow represents the rate at which network packets are sent by the SQL Azure database to client applications."
+summary: "This flow represents the rate (per second) at which network packets are sent by the SQL Azure database to client applications."
 sidebar: c_sqlazure_sidebar
 id: Home.flwPacketsOut
-permalink: sqlazure_component_flwpacketsout.html
+permalink: sqlazure_component_packetsread.html
 ---
 
 

@@ -59,12 +59,12 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Packets Written per Second
-          url: /sqlazure_component_flwpacketsin.html
+        - title: Packets Written
+          url: /sqlazure_component_packetswritten.html
           output: web, pdf
 
-        - title: Packets Read per Second
-          url: /sqlazure_component_flwpacketsout.html
+        - title: Packets Read
+          url: /sqlazure_component_packetsread.html
           output: web, pdf
 
       - title: SQL Processes Panel
@@ -88,15 +88,15 @@ entries:
         subfolderitems:
 
         - title: Logical Reads
-          url: /sqlazure_component_flwlogicalreads.html
+          url: /sqlazure_component_logicalreads.html
           output: web, pdf
 
         - title: Physical Reads
-          url: /sqlazure_component_flwreads.html
+          url: /sqlazure_component_physicalreads.html
           output: web, pdf
 
         - title: Physical Writes
-          url: /sqlazure_component_flwwrites.html
+          url: /sqlazure_component_physicalwrites.html
           output: web, pdf
 
       - title: Data Storage Panel
@@ -104,7 +104,7 @@ entries:
         subfolderitems:
 
         - title: Data Storage
-          url: /sqlazure_component_datafiles.html
+          url: /sqlazure_component_datastorage.html
           output: web, pdf
 
         - title: Available

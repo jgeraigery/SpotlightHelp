@@ -1,5 +1,5 @@
 ---
-title: Percentage of Data Files Used
+title: Percent of Data Storage Used
 last_updated: July 29, 2016
 summary: "The percentage of data storage reserved for this database in use."
 sidebar: c_sqlazure_sidebar

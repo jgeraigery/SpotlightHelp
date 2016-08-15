@@ -1,5 +1,5 @@
 ---
-title: Data Storage Available
+title: Available Data Storage
 last_updated: July 29, 2016
 summary: "The quantity of data storage available for use, measured in gigabytes."
 sidebar: c_sqlazure_sidebar
