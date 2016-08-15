@@ -79,7 +79,7 @@ entries:
     folderitems:
 
     - title: Spotlight Overview page
-      url: /availabilitygroup_drillown_overview.html
+      url: /availabilitygroup_drilldown_overview.html
       output: web, pdf
 
     - title: Status
