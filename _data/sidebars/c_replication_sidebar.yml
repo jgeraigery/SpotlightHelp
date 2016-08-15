@@ -119,68 +119,16 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: System Panel
+      - title: Publishers Panel
         output: web
         subfolderitems:
 
-        - title: Distributor
-          url: /replication_component_distributor.html
+        - title: Publishers
+          url: /replication_component_publishers.html
           output: web, pdf
 
-        - title: Distributor Version
-          url: /replication_component_distributorversion.html
-          output: web, pdf
-
-      - title: Distributor Panel
-        output: web
-        subfolderitems:
-
-        - title: Log Reader Agents
-          url: /replication_component_logreaderagents.html
-          output: web, pdf
-
-        - title: Distributor Agents
-          url: /replication_component_distributoragents.html
-          output: web, pdf
-
-        - title: Merge Agents
-          url: /replication_component_mergeagents.html
-          output: web, pdf
-
-        - title: Snapshot Agents
-          url: /replication_component_snapshotagents.html
-          output: web, pdf
-
-        - title: Queue Reader Agents
-          url: /replication_component_queuereaderagents.html
-          output: web, pdf
-
-        - title: Miscellaneous Agents
-          url: /replication_component_miscellaneousagents.html
-          output: web, pdf
-
-      - title: Subscribers Panel
-        output: web
-        subfolderitems:
-
-        - title: Subscribers
-          url: /replication_component_subscribers.html
-          output: web, pdf
-
-        - title: Subscriptions
-          url: /replication_component_subscriptions.html
-          output: web, pdf
-
-        - title: Subscription
-          url: /replication_component_subscription.html
-          output: web, pdf
-
-        - title: Undistributed commands
-          url: /replication_component_undistributedcommands.html
-          output: web, pdf
-
-        - title: Time to apply
-          url: /replication_component_timetoapply.html
+        - title: Publications
+          url: /replication_component_publications.html
           output: web, pdf
 
       - title: Flows
@@ -195,6 +143,38 @@ entries:
           url: /replication_component_mergeuploads.html
           output: web, pdf
 
+      - title: Distributor Panel
+        output: web
+        subfolderitems:
+
+        - title: Log Reader Agents
+          url: /replication_component_logreaderagents.html
+          output: web, pdf
+
+        - title: Distribution Agents
+          url: /replication_component_distributionagents.html
+          output: web, pdf
+
+        - title: Merge Agents
+          url: /replication_component_mergeagents.html
+          output: web, pdf
+
+        - title: Snapshot Agents
+          url: /replication_component_snapshotagents.html
+          output: web, pdf
+
+        - title: Queue Reader Agents
+          url: /replication_component_queuereaderagents.html
+          output: web, pdf
+
+        - title: Miscellaneous Jobs
+          url: /replication_component_miscellaneousjobs.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
         - title: Distribution
           url: /replication_component_distribution.html
           output: web, pdf
@@ -205,6 +185,42 @@ entries:
 
         - title: Snapshot
           url: /replication_component_snapshot.html
+          output: web, pdf
+
+      - title: Subscribers Panel
+        output: web
+        subfolderitems:
+
+        - title: Subscribers
+          url: /replication_component_subscribers.html
+          output: web, pdf
+
+        - title: Subscriptions
+          url: /replication_component_subscriptions.html
+          output: web, pdf
+
+        - title: Subscriber
+          url: /replication_component_subscriber.html
+          output: web, pdf
+
+        - title: Undistributed commands
+          url: /replication_component_undistributedcommands.html
+          output: web, pdf
+
+        - title: Estimated Time to Apply
+          url: /replication_component_estimatedtimetoapply.html
+          output: web, pdf
+
+      - title: System Panel
+        output: web
+        subfolderitems:
+
+        - title: Distributor
+          url: /replication_component_distributor.html
+          output: web, pdf
+
+        - title: Version
+          url: /replication_component_version.html
           output: web, pdf
 
   - title: Activity drilldown
