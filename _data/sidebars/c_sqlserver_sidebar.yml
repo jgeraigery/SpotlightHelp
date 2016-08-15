@@ -38,7 +38,7 @@ entries:
       url: /sqlserver_connect_accountgrantpermissions.html
       output: web, pdf
 
-  - title: Alarms
+  - title: Alarms (A-K)
     output: web, pdf
     folderitems:
 
@@ -117,6 +117,10 @@ entries:
     - title: Index Fragmentation Status
       url: /sqlserver_alarm_index_fragmentationstatus.html
       output: web, pdf
+
+  - title: Alarms (L-M)
+    output: web, pdf
+    folderitems:
 
     - title: Latch - Total Wait Time Rate
       url: /sqlserver_alarm_latch_totalwaittimerate.html
@@ -209,6 +213,10 @@ entries:
     - title: Monitored Server - SQL Server Unsupported Version
       url: /sqlserver_alarm_monitoredserver_unsupportedversion.html
       output: web, pdf
+
+  - title: Alarms (N-Z)
+    output: web, pdf
+    folderitems:
 
     - title: Network - SQL Server Packets Error Rate
       url: /sqlserver_alarm_network_sqlserverpacketserrorrate.html
