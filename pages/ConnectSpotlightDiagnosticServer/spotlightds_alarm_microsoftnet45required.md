@@ -9,7 +9,7 @@ folder: ConnectSpotlightDS
 ---
 
 
-To obtain Microsoft .NET 4.5 go to <xref href="http://www.microsoft.com/en-au/download/details.aspx?id=30653" format="html" scope="external">http://www.microsoft.com/en-au/download/details.aspx?id=30653</xref>.</p>
+To obtain Microsoft .NET 4.5 go to <xref href="http://www.microsoft.com/en-au/download/details.aspx?id=30653" format="html" scope="external">http://www.microsoft.com/en-au/download/details.aspx?id=30653</xref>.
 
 
 {% include links.html %}

@@ -1,5 +1,5 @@
 ---
-title: ﻿Diagnostic Server - Collection Execution Failure Alarm
+title: ﻿Diagnostic Server - Playback Alarm - Connection Error
 last_updated: July 29, 2016
 summary: "Spotlight cannot connect to the playback database."
 sidebar: c_spotlightds_sidebar

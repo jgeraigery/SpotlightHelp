@@ -31,11 +31,11 @@ entries:
     folderitems:
   
     - title: Diagnostic Server - Alarm Action Failure
-      url: /spotlightds_alarm_actionfailure.html
+      url: /spotlightds_alarm_alarmactionfailure.html
       output: web, pdf
 
     - title: Diagnostic Server - Alarm Evaluation Failure
-      url: /spotlightds_alarm_evaluationfailure.html
+      url: /spotlightds_alarm_alarmevaluationfailure.html
       output: web, pdf
   
     - title: Diagnostic Server - Auto Update Failure
@@ -46,7 +46,7 @@ entries:
       url: /spotlightds_alarm_autoupdatesuccess.html
       output: web, pdf
 
-    - title: Monitored Server - Collection Execution Failure
+    - title: Diagnostic Server - Collection Execution Failure
       url: /spotlightds_alarm_collectionexecutionfailure.html
       output: web, pdf
 
@@ -112,16 +112,44 @@ entries:
           output: web, pdf
 
         - title: Upgrade In Progress
-          url: /spotlightds_alarm_playback_upgradeinprogess.html
+          url: /spotlightds_alarm_playback_upgradeinprogress.html
           output: web, pdf
 
         - title: Version Error
           url: /spotlightds_alarm_playback_versionerror.html
           output: web, pdf
 
-    - title: Diagnostic Server - Spotlight Statistics Repository
-      url: /spotlightds_alarm_spotlightssr.html
-      output: web, pdf
+      - title: Diagnostic Server - Spotlight Statistics Repository
+        output: web
+        subfolderitems:
+
+        - title: Connection Error
+          url: /spotlightds_alarm_ssr_connectionerror.html
+          output: web, pdf
+
+        - title: Maintenance Error
+          url: /spotlightds_alarm_ssr_maintenanceerror.html
+          output: web, pdf
+
+        - title: Queue Error
+          url: /spotlightds_alarm_ssr_queueerror.html
+          output: web, pdf
+
+        - title: Update Error
+          url: /spotlightds_alarm_ssr_updateerror.html
+          output: web, pdf
+
+        - title: Upgrade Error
+          url: /spotlightds_alarm_ssr_upgradeerror.html
+          output: web, pdf
+
+        - title: Upgrade In Progress
+          url: /spotlightds_alarm_ssr_upgradeinprogress.html
+          output: web, pdf
+
+        - title: Version Error
+          url: /spotlightds_alarm_ssr_versionerror.html
+          output: web, pdf
 
     - title: Diagnostic Server - Synchronize Connections Upload Failure
       url: /spotlightds_alarm_synchronizeconnectionsuploadfailure.html

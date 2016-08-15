@@ -1,5 +1,5 @@
 ---
-title: ﻿Diagnostic Server - Playback Read Error Alarm
+title: ﻿Diagnostic Server - Playback Alarm - Read Error
 last_updated: July 29, 2016
 summary: "There was a problem reading data from the playback database."
 sidebar: c_spotlightds_sidebar

@@ -1,5 +1,5 @@
 ---
-title: ﻿Diagnostic Server - Playback Database Update Error Alarm
+title: ﻿Diagnostic Server - Playback Alarm - Update Error
 last_updated: July 29, 2016
 summary: "There was a problem writing data to or deleting data from the playback database."
 sidebar: c_spotlightds_sidebar
