@@ -31,7 +31,7 @@ entries:
     folderitems:
 
     - title: Spotlight Overview page
-      url: /sqlazure_display_overview.html
+      url: /sqlazure_drilldown_overview.html
       output: web, pdf
 
       subfolders:
