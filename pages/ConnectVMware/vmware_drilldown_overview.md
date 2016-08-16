@@ -2,7 +2,6 @@
 title: VMware connection display
 summary: "Show the components and virtual machines grid for the VMware connection."
 sidebar: c_vmware_sidebar
-toc: false
 permalink: vmware_drilldown_overview.html
 folder: ConnectVMware
 ---

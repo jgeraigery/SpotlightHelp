@@ -3,7 +3,6 @@ title: VMware connection requirements
 tags: [connection_requirements]
 summary: "Spotlight requirements to monitor a VMware® connection to an ESX Server™ or VirtualCenter server hosting a Windows server®."
 sidebar: c_vmware_sidebar
-toc: true
 permalink: vmware_connect_requirements.html
 folder: ConnectVMware
 ---
