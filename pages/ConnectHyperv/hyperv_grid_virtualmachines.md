@@ -3,8 +3,8 @@ title: Virtual machines grid
 last_updated: July 29, 2016
 summary: "Use this grid to investigate the status of all virtual machines on the Hyper-V server."
 sidebar: c_hyperv_sidebar
-toc: false
 permalink: hyperv_grid_virtualmachines.html
+id: Home.grdHome_HyperV
 folder: ConnectHyperv
 ---
 

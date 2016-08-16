@@ -4,7 +4,6 @@ last_updated: July 29, 2016
 tags: [connection_requirements]
 summary: "Spotlight requirements to monitor a Hyper-V server."
 sidebar: c_hyperv_sidebar
-toc: true
 permalink: hyperv_connect_requirements.html
 folder: ConnectHyperv
 ---
