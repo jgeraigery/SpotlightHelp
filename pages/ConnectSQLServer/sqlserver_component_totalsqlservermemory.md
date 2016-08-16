@@ -4,6 +4,7 @@ last_updated: July 29, 2016
 summary: "This shows the total amount of memory that SQL Server is currently using."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_totalsqlservermemory.html
+id: lblCurrMemMB
 folder: ConnectSQLServer
 ---
 

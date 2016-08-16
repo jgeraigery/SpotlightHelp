@@ -4,6 +4,7 @@ last_updated: July 29, 2016
 summary: "This shows the current Page Life Expectancy."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_pagelifeexpectancy.html
+id: lblpagelife
 folder: ConnectSQLServer
 ---
 

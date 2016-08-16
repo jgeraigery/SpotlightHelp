@@ -4,6 +4,7 @@ last_updated: July 29, 2016
 summary: "This shows the amount of memory currently being used by SQL Server as a percentage of the maximum amount of memory that SQL Server is configured to use."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_maxmemorypcnt.html
+id: lblMemPercent
 folder: ConnectSQLServer
 ---
 

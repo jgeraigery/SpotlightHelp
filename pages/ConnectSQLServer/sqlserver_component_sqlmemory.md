@@ -4,6 +4,7 @@ last_updated: July 29, 2016
 summary: "This gauge shows the total memory that SQL Server is currently using scaled against the maximum amount of memory it can use."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_sqlmemory.html
+id: mgSQLMemory
 folder: ConnectSQLServer
 ---
 

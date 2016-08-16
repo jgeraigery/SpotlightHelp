@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "This alarm is activated when paging is low, but the average disk activity on a paging file disk is high. This value is taken over a specific number of background collections."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_paging_diskactivity.html
-id: 
+id: Paging_Disk_Activity.alarm
 folder: ConnectSQLServer
 ---
 

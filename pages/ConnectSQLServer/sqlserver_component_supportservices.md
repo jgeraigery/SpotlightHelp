@@ -4,6 +4,7 @@ last_updated: July 29, 2016
 summary: "This button shows the state of the SQL Server Support Services."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_supportservices.html
+id: btnServices
 folder: ConnectSQLServer
 ---
 

@@ -4,6 +4,7 @@ last_updated: July 29, 2016
 summary: "This flow shows the rate at which pages in the buffer cache are being referenced by SQL connections (logical page reads)."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_flwlogicalreads.html
+id: flwLogicalReads
 folder: ConnectSQLServer
 ---
 

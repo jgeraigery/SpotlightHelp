@@ -4,6 +4,7 @@ last_updated: July 29, 2016
 summary: "This spinner represents the total amount of CPU being used on the machine being diagnosed."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_component_cpuusage.html
+id: mgCPUUsage
 folder: ConnectSQLServer
 ---
 
