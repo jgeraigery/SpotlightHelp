@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "This alarm becomes active when there is more than one paging file on a single physical disk."
 sidebar: c_windows_sidebar
 permalink: windows_alarm_paging_filecollision.html
-id: 
+id:  SoWHomePage.lblPageFiles.PagingFileDiskLocation.Alarm
 folder: ConnectWindows
 ---
 
