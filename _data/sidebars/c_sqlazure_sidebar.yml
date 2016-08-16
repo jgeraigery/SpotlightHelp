@@ -140,15 +140,15 @@ entries:
       output: web, pdf
 
     - title: SQL
-      url: /sqlazure_component_sql.html
+      url: /sqlazure_detail_sql.html
       output: web, pdf
 
     - title: Plan
-      url: /sqlazure_component_plan.html
+      url: /sqlazure_detail_plan.html
       output: web, pdf
 
     - title: Session Locks
-      url: /sqlazure_component_sessionlocks.html
+      url: /sqlazure_grid_sessionlocks.html
       output: web, pdf
 
   - title: Databases drilldown
