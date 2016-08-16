@@ -227,8 +227,8 @@ entries:
       url: /analysisservices_drilldown_activity.html
       output: web, pdf
 
-    - title: Connection grid
-      url: /analysisservices_grid_connection.html
+    - title: Connections grid
+      url: /analysisservices_grid_connections.html
       output: web, pdf
 
     - title: Sessions grid
