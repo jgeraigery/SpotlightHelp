@@ -1,7 +1,7 @@
 ---
 title: ﻿Monitored Server - Windows Alarm Evaluation Failure Alarm
 last_updated: July 29, 2016
-summary: "Raised when a (specified alarm) failed to evaluate."
+summary: "The specified alarm failed to evaluate."
 sidebar: c_windows_sidebar
 permalink: windows_alarm_monitoredserver_alarmevaluationfailure.html
 id: ruleevaluationfailure.alarm
@@ -10,24 +10,23 @@ folder: ConnectWindows
 
 
 
-<p>The specified alarm failed to evaluate. </p>
-<p>To clear this alarm, go to the Alarms dialog for this connection and disable this alarm. Alternatively, you can add a disabled severity to the 'Monitored Server - Alarm Evaluation Failure' key for the particular alarm that is failing.</p>
-<p>To do either of these:</p>
-<ol>
-    <li>Click <b>Configure | Alarms</b>.</li>
-    <li>Select the connection where the alarm failed.</li>
-    <li>Select the alarm <strong>Monitored Server - Alarm Evaluation Failure</strong> for the connection type.</li>
-    <li>Select <strong>Override default setting for alarm 'Monitored Server - Alarm Evaluation Failure'</strong>.</li>
-    <li>Do one of the following:</li>
-    <ul>
-        <li>To disable the alarm, select <strong>Disable this alarm</strong>.</li>
-        <li>To add a disabled severity:</li>
-        <ol type="a">
-            <li>Click <strong>Add</strong>.</li>
-            <li>From the Key value list, select the key that the alarm was raised for.</li>
-            <li>With the key selected, click the Severity list and select <strong>Disabled</strong>.</li>
-        </ol>
-    </ul>
-</ol>
+
+To clear this alarm, go to the Alarms dialog for this connection and disable this alarm. Alternatively, you can add a disabled severity to the *Monitored Server - Alarm Evaluation Failure* key for the particular alarm that is failing.
+
+To do either of these:
+
+1. Click **Configure \| Alarms**.
+2. Select the connection where the alarm failed.
+3. Select the alarm **Monitored Server - Alarm Evaluation Failure** for the connection type.
+4. Select **Override default setting for alarm 'Monitored Server - Alarm Evaluation Failure'**.
+5. Do one of the following:
+
+        * To disable the alarm, select <strong>Disable this alarm</strong>.
+        * To add a disabled severity:
+
+            1. Click **Add**.
+            2. From the Key value list, select the key that the alarm was raised for.
+            3. With the key selected, click the Severity list and select **Disabled**.
+
 
 {% include links.html %}
