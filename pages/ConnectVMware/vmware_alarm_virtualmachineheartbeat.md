@@ -3,6 +3,7 @@ title: VMware - Virtual Machine Heartbeat Alarm
 summary: "The VMware - Virtual Machine Heartbeat alarm shows the status of communication between the VMware VirtualCenter and the VMware Tools on the virtual machine."
 sidebar: c_vmware_sidebar
 permalink: vmware_alarm_virtualmachineheartbeat.html
+id: alarm_heartbeat
 folder: ConnectVMware
 ---
 
