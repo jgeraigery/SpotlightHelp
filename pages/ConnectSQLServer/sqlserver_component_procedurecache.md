@@ -1,9 +1,9 @@
 ---
-title: ﻿Procedure Cache Size
+title: ﻿Procedure Cache
 last_updated: July 29, 2016
 summary: "This shows the amount of memory currently allocated to the Procedure Cache."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_component_procedurecachesize.html
+permalink: sqlserver_component_procedurecache.html
 id: lblProcCacheMB
 folder: ConnectSQLServer
 ---

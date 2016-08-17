@@ -1,9 +1,9 @@
 ---
-title: ﻿Error Logs
+title: ﻿Error Log
 last_updated: July 29, 2016
 summary: "This button represents the SQL Server and SQL Agent error logs."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_component_errorlogs.html
+permalink: sqlserver_component_errorlog.html
 id: btnErrorLog
 folder: ConnectSQLServer
 ---

@@ -3,7 +3,7 @@ title: How is a performance health rating calculated?
 last_updated: July 29, 2016
 summary: ""
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_component_healthrating.html
+permalink: sqlserver_component_performancehealth.html
 id: Home.SQLServer.HealthRating
 folder: ConnectSQLServer
 ---

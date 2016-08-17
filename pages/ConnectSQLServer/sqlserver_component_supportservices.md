@@ -1,5 +1,5 @@
 ---
-title: Support Services button
+title: Support Services
 last_updated: July 29, 2016
 summary: "This button shows the state of the SQL Server Support Services."
 sidebar: c_sqlserver_sidebar

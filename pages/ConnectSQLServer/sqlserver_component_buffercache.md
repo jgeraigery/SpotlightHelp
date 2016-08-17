@@ -1,5 +1,5 @@
 ---
-title: Buffer Cache Size
+title: Buffer Cache
 last_updated: July 29, 2016
 summary: "This shows the amount of memory currently allocated to the Buffer Cache."
 sidebar: c_sqlserver_sidebar

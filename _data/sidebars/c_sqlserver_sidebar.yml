@@ -351,44 +351,44 @@ entries:
           url: /sqlserver_component_computers.html
           output: web, pdf
 
-        - title: Active Sessions
-          url: /sqlserver_component_sessions_active.html
+        - title: Active
+          url: /sqlserver_component_activesessions.html
           output: web, pdf
 
-        - title: Active Sessions Percentage
-          url: /sqlserver_component_sessions_activepcnt.html
+        - title: Active Sessions
+          url: /sqlserver_component_activesessions_gauge.html
           output: web, pdf
 
       - title: Flows
         output: web
         subfolderitems:
 
-        - title: Network Packets received
-          url: /sqlserver_component_flwnetworkpacketsreceived.html
+        - title: Network Packets Sent
+          url: /sqlserver_component_networkpacketssent.html
           output: web, pdf
 
-        - title: Network Packets sent
-          url: /sqlserver_component_flwnetworkpacketssent.html
+        - title: Network Packets Received
+          url: /sqlserver_component_networkpacketsreceived.html
           output: web, pdf
 
         - title: Batches
-          url: /sqlserver_component_flwbatches.html
+          url: /sqlserver_component_batches.html
           output: web, pdf
 
       - title: Processes Panel
         output: web
         subfolderitems:
 
-        - title: Total SQL Server Sessions
-          url: /sqlserver_component_sessions_total.html
+        - title: Total
+          url: /sqlserver_component_totalsessions.html
           output: web, pdf
 
-        - title: System Sessions
-          url: /sqlserver_component_sessions_system.html
+        - title: System
+          url: /sqlserver_component_systemsessions.html
           output: web, pdf
 
-        - title: User Sessions
-          url: /sqlserver_component_sessions_user.html
+        - title: User
+          url: /sqlserver_component_usersessions.html
           output: web, pdf
 
         - title: Blocked Processes
@@ -408,30 +408,22 @@ entries:
         subfolderitems:
 
         - title: Logical Reads
-          url: /sqlserver_component_flwlogicalreads.html
+          url: /sqlserver_component_logicalreads.html
           output: web, pdf
 
         - title: Compiles
-          url: /sqlserver_component_flwcompiles.html
+          url: /sqlserver_component_compiles.html
           output: web, pdf
 
       - title: Memory Panel
         output: web
         subfolderitems:
 
-        - title: Max Memory Percentage
-          url: /sqlserver_component_maxmemorypcnt.html
+        - title: Total Memory
+          url: /sqlserver_component_totalmemory.html
           output: web, pdf
 
-        - title: SQL Memory
-          url: /sqlserver_component_sqlmemory.html
-          output: web, pdf
-
-        - title: Total SQL Server Memory
-          url: /sqlserver_component_totalsqlservermemory.html
-          output: web, pdf
-
-        - title: Buffer Cache size
+        - title: Buffer Cache
           url: /sqlserver_component_buffercache.html
           output: web, pdf
 
@@ -439,36 +431,36 @@ entries:
           url: /sqlserver_component_pagelifeexpectancy.html
           output: web, pdf
 
-        - title: Procedure Cache Size
-          url: /sqlserver_component_procedurecachesize.html
+        - title: Procedure Cache
+          url: /sqlserver_component_procedurecache.html
           output: web, pdf
 
       - title: Flows
         output: web
         subfolderitems:
 
-        - title: Checkpoint Page Writes
-          url: /sqlserver_component_flwcheckpointwrites.html
-          output: web, pdf
-
-        - title: Lazy Writes
-          url: /sqlserver_component_flwlazywrites.html
-          output: web, pdf
-
-        - title: Log Flushes
-          url: /sqlserver_component_flwlogflushes.html
-          output: web, pdf
-
         - title: Physical Reads
-          url: /sqlserver_component_flwphysicalreads.html
+          url: /sqlserver_component_physicalreads.html
           output: web, pdf
 
         - title: Physical Writes
-          url: /sqlserver_component_flwphysicalwrites.html
+          url: /sqlserver_component_physicalwrites.html
           output: web, pdf
 
         - title: Read Ahead
-          url: /sqlserver_component_flwreadahead.html
+          url: /sqlserver_component_readahead.html
+          output: web, pdf
+
+        - title: Checkpoint Page Writes
+          url: /sqlserver_component_checkpointpagewrites.html
+          output: web, pdf
+
+        - title: Lazy Writes
+          url: /sqlserver_component_lazywrites.html
+          output: web, pdf
+
+        - title: Log Flushes
+          url: /sqlserver_component_logflushes.html
           output: web, pdf
 
       - title: Disk Storage Panel
@@ -487,52 +479,56 @@ entries:
           url: /sqlserver_component_datafiles_disk.html
           output: web, pdf
 
-        - title: Data Files
+        - title: Number of Data Files
           url: /sqlserver_component_datafiles_number.html
-          output: web, pdf
-
-        - title: Percentage of Data Files Used
-          url: /sqlserver_component_datafiles_pcnt.html
           output: web, pdf
 
         - title: Data Files Space Used
           url: /sqlserver_component_datafiles_space.html
           output: web, pdf
 
-        - title: File Groups
-          url: /sqlserver_component_filegroups.html
+        - title: Percentage of Data Files Used
+          url: /sqlserver_component_datafiles_pcnt.html
+          output: web, pdf
+
+        - title: Log Files
+          url: /sqlserver_component_logfiles_disk.html
+          output: web, pdf
+
+        - title: Number of Log Files
+          url: /sqlserver_component_logfiles_number.html
+          output: web, pdf
+
+        - title: Log Space Used
+          url: /sqlserver_component_logfiles_space.html
           output: web, pdf
 
         - title: Percentage of Log Files Used
           url: /sqlserver_component_logfiles_pcnt.html
           output: web, pdf
 
-        - title: Number of Log Files
-          url: /sqlserver_component_logfiles.html
-          output: web, pdf
-
         - title: Large Index Files - Maximum Fragmentation
           url: /sqlserver_component_fragmentationmax.html
           output: web, pdf
 
-        - title: Large Index Files - Medium Fragmentation
+        - title: Large Index Files - Median Fragmentation
           url: /sqlserver_component_fragmentationmedian.html
           output: web, pdf
 
-        - title: Max I/O Wait
-          url: /sqlserver_component_maxiowait.html
+        - title: Max I/O Stall Time
+          url: /sqlserver_component_maxiostalltime.html
           output: web, pdf
 
-        - title: Log Space Used
-          url: /sqlserver_component_logspaceused.html
+        - title: Max I/O Wait
+          url: /sqlserver_component_maxiowaittime.html
           output: web, pdf
 
       - title: Performance Health Panel
         output: web
         subfolderitems:
 
-        - title: How is a health performance rating calculated?
-          url: /sqlserver_component_healthrating.html
+        - title: Performance Health
+          url: /sqlserver_component_performancehealth.html
           output: web, pdf
 
       - title: System Panel
@@ -543,19 +539,23 @@ entries:
           url: /sqlserver_component_version.html
           output: web, pdf
 
-        - title: Custom Counters
+        - title: Custom
           url: /sqlserver_component_customcounters.html
+          output: web, pdf
+
+        - title: Status
+          url: /sqlserver_component_status.html
           output: web, pdf
 
       - title: Background Processes Panel
         output: web
         subfolderitems:
 
-        - title: Error Logs
-          url: /sqlserver_component_errorlogs.html
+        - title: Error Log
+          url: /sqlserver_component_errorlog.html
           output: web, pdf
 
-        - title: Support Services
+        - title: Services
           url: /sqlserver_component_supportservices.html
           output: web, pdf
 

@@ -3,7 +3,7 @@ title: ﻿Physical Writes
 last_updated: July 29, 2016
 summary: "This flow represents data/index pages written to disk."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_component_flwphysicalwrites.html
+permalink: sqlserver_component_physicalwrites.html
 id: flwSyncWrites
 folder: ConnectSQLServer
 ---

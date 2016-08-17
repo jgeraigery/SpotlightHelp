@@ -3,7 +3,7 @@ title: ﻿Compiles
 last_updated: July 29, 2016
 summary: "This flow shows the rate of SQL compilations and re-compilations."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_component_flwcompiles.html
+permalink: sqlserver_component_compiles.html
 id: flwCompiles
 folder: ConnectSQLServer
 ---
