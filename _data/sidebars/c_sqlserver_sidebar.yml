@@ -520,7 +520,7 @@ entries:
           output: web, pdf
 
         - title: Max I/O Wait
-          url: /sqlserver_component_maxiowaittime.html
+          url: /sqlserver_component_maxiowait.html
           output: web, pdf
 
       - title: Performance Health Panel
