@@ -223,6 +223,10 @@ entries:
           url: /replication_component_version.html
           output: web, pdf
 
+        - title: Status
+          url: /replication_component_status.html
+          output: web, pdf
+
   - title: Activity drilldown
     output: web, pdf
     folderitems:
