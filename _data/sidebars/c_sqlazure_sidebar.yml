@@ -127,6 +127,10 @@ entries:
           url: /sqlazure_component_version.html
           output: web, pdf
 
+        - title: Status
+          url: /sqlazure_component_status.html
+          output: web, pdf
+
   - title: SQL Activity drilldown
     output: web, pdf
     folderitems:
