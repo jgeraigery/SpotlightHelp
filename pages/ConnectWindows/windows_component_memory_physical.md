@@ -1,9 +1,9 @@
 ---
-title: Physical Memory
+title: Physical Memory Gauge
 last_updated: July 29, 2016
 summary: "Physical Memory shows how much physical memory (RAM) Windows is using."
 sidebar: c_windows_sidebar
-permalink: windows_component_physicalmemory.html
+permalink: windows_component_memory_physical.html
 id: SoWHomePage.gauPhysRAM
 folder: ConnectWindows
 ---

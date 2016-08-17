@@ -143,44 +143,28 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Windows networking users
+        - title: Windows Networking Users
           url: /windows_component_windowsnetworkingusers.html
           output: web, pdf
 
-        - title: Open sessions
+        - title: Open Sessions
           url: /windows_component_opensessions.html
           output: web, pdf
 
-        - title: Theoretical bandwidth limit
+        - title: Theoretical Bandwidth Limit
           url: /windows_component_theoreticalbandwidthlimit.html
           output: web, pdf
 
-      - title: System Panel
+      - title: Flows
         output: web
         subfolderitems:
 
-        - title: Operating System
-          url: /windows_component_operatingsystem.html
+        - title: Total Network KB Received/s
+          url: /windows_component_totalnetworkkbreceived.html
           output: web, pdf
 
-        - title: Version
-          url: /windows_component_version.html
-          output: web, pdf
-
-        - title: Service Pack
-          url: /windows_component_servicepack.html
-          output: web, pdf
-
-        - title: Event log
-          url: /windows_component_eventlog.html
-          output: web, pdf
-
-        - title: Custom Counters
-          url: /windows_component_customcounters.html
-          output: web, pdf
-
-        - title: Status
-          url: /windows_component_status.html
+        - title: Total Network KB Sent/s
+          url: /windows_component_totalnetworkkbsent.html
           output: web, pdf
 
       - title: CPU Panel
@@ -188,22 +172,22 @@ entries:
         subfolderitems:
 
         - title: CPUs
-          url: /windows_component_processors.html
+          url: /windows_component_cpus.html
           output: web, pdf
 
-        - title: Processor Speed
-          url: /windows_component_processorspeed.html
+        - title: Speed
+          url: /windows_component_cpu_speed.html
           output: web, pdf
 
-        - title: Processor Type
-          url: /windows_component_processortype.html
+        - title: Type
+          url: /windows_component_cpu_type.html
           output: web, pdf
 
-        - title: Uptime
+        - title: Up Time
           url: /windows_component_uptime.html
           output: web, pdf
 
-        - title: Virtual Overhead
+        - title: Virtualization Overhead
           url: /windows_component_virtualoverhead.html
           output: web, pdf
 
@@ -223,12 +207,24 @@ entries:
           url: /windows_component_threads.html
           output: web, pdf
 
-      - title: Files Panel
+      - title: Flows
         output: web
         subfolderitems:
 
-        - title: Files
-          url: /windows_component_files.html
+        - title: Page Outs/s
+          url: /windows_component_pageouts.html
+          output: web, pdf
+
+        - title: Page Faults/s
+          url: /windows_component_pagefaults.html
+          output: web, pdf
+
+        - title: Cache Writes/s
+          url: /windows_component_cachewrites.html
+          output: web, pdf
+
+        - title: Cache Reads/s
+          url: /windows_component_cachereads.html
           output: web, pdf
 
       - title: Memory Panel
@@ -236,43 +232,63 @@ entries:
         subfolderitems:
 
         - title: Total RAM
-          url: /windows_component_physicalmemory.html
+          url: /windows_component_memory_physical_totalram.html
           output: web, pdf
 
-        - title: Free RAM
-          url: /windows_component_freephysicalmemory.html
+        - title: Free (Physical)
+          url: /windows_component_memory_physical_free.html
           output: web, pdf
 
-        - title: Free RAM (percent)
-          url: /windows_component_freephysicalmemorypercent.html
+        - title: Free Pct. (Physical)
+          url: /windows_component_memory_physical_freepcnt.html
           output: web, pdf
 
-        - title: Physical RAM
-          url: /windows_component_physicalram.html
+        - title: Physical Memory Gauge
+          url: /windows_component_memory_physical.html
           output: web, pdf
 
-        - title: Maximum Virtual Memory
-          url: /windows_component_maxvirtualmemory.html
+        - title: Max Size
+          url: /windows_component_memory_virtual_max.html
           output: web, pdf
 
-        - title: Free Virtual Memory
-          url: /windows_component_freevirtualmemory.html
+        - title: Free (Virtual)
+          url: /windows_component_memory_virtual_free.html
           output: web, pdf
 
-        - title: Free Virtual Memory (percent)
-          url: /windows_component_freevirtualmemorypercent.html
+        - title: Free Pct. (Virtual)
+          url: /windows_component_memory_virtual_freepcnt.html
           output: web, pdf
 
-        - title: Virtual Memory
-          url: /windows_component_virtualmemory.html
+        - title: Virtual Memory Gauge
+          url: /windows_component_memory_virtual.html
           output: web, pdf
 
-        - title: Pages in RAM
+        - title: Pages Found in RAM
           url: /windows_component_pagesfoundinram.html
           output: web, pdf
 
         - title: Read Hit Ratio
           url: /windows_component_readhitratio.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
+        - title: Page Writes/s
+          url: /windows_component_pagewrites.html
+          output: web, pdf
+
+        - title: Page Reads/s
+          url: /windows_component_pagereads.html
+          output: web, pdf
+
+        - title: Disk Writes
+          url: /windows_component_diskwrites.html
+          output: web, pdf
+
+        - title: Disk Reads
+          url: /windows_component_diskreads.html
           output: web, pdf
 
       - title: Paging Files Panel
@@ -287,52 +303,44 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Disk information
-          url: /windows_component_diskinformation.html
+        - title: Disks
+          url: /windows_component_disks.html
           output: web, pdf
 
-      - title: Flows
+      - title: System Panel
         output: web
         subfolderitems:
 
-        - title: Total Network KB Received
-          url: /windows_component_totalnetworkkbreceived.html
+        - title: Operating System (OS)
+          url: /windows_component_operatingsystem.html
           output: web, pdf
 
-        - title: Total Network KB Sent
-          url: /windows_component_totalnetworkkbsent.html
+        - title: Version (Ver)
+          url: /windows_component_version.html
           output: web, pdf
 
-        - title: Page Outs
-          url: /windows_component_pageoutspersecond.html
+        - title: Service Pack (SP)
+          url: /windows_component_servicepack.html
           output: web, pdf
 
-        - title: Page Faults
-          url: /windows_component_pagefaultspersecond.html
+        - title: Event logs
+          url: /windows_component_eventlogs.html
           output: web, pdf
 
-        - title: Cache Writes
-          url: /windows_component_cachewrites.html
+        - title: Custom
+          url: /windows_component_customcounters.html
           output: web, pdf
 
-        - title: Cache Reads
-          url: /windows_component_cachereads.html
+        - title: Status
+          url: /windows_component_status.html
           output: web, pdf
 
-        - title: Page Writes
-          url: /windows_component_pagewrites.html
-          output: web, pdf
+      - title: Files Panel
+        output: web
+        subfolderitems:
 
-        - title: Page Reads
-          url: /windows_component_pagereads.html
-          output: web, pdf
-
-        - title: Disk Writes
-          url: /windows_component_diskwrites.html
-          output: web, pdf
-
-        - title: Disk Reads
-          url: /windows_component_diskreads.html
+        - title: Files
+          url: /windows_component_files.html
           output: web, pdf
 
   - title: Processes drilldown
