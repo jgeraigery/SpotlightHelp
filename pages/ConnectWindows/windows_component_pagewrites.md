@@ -1,5 +1,5 @@
 ---
-title: Page Writes
+title: Page Writes per Second
 last_updated: July 29, 2016
 summary: "Represents the rate at which virtual memory pages are written to disk from memory."
 sidebar: c_windows_sidebar

@@ -1,5 +1,5 @@
 ---
-title: Free Physical Memory
+title: Free (Physical Memory)
 last_updated: July 29, 2016
 summary: "Displays the amount of physical memory available to applications."
 sidebar: c_windows_sidebar

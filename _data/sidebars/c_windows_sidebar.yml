@@ -231,7 +231,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Total RAM
+        - title: Total RAM (Physical)
           url: /windows_component_memory_physical_totalram.html
           output: web, pdf
 
@@ -247,8 +247,8 @@ entries:
           url: /windows_component_memory_physical.html
           output: web, pdf
 
-        - title: Max Size
-          url: /windows_component_memory_virtual_max.html
+        - title: Max Size (Virtual)
+          url: /windows_component_memory_virtual_maxsize.html
           output: web, pdf
 
         - title: Free (Virtual)

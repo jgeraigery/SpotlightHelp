@@ -1,5 +1,5 @@
 ---
-title: Page Reads
+title: Page Reads per Second
 last_updated: July 29, 2016
 summary: "Represents the rate at which virtual memory pages are swapped from disk into memory."
 sidebar: c_windows_sidebar
