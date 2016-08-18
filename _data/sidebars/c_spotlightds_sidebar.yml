@@ -163,6 +163,6 @@ entries:
       url: /spotlightds_drilldown_overview.html
       output: web, pdf
 
-    - title: Status component
+    - title: Status
       url: /spotlightds_component_status.html
       output: web, pdf
