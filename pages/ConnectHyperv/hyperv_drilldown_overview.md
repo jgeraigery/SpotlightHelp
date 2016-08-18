@@ -1,5 +1,5 @@
 ---
-title: Hyper-V connection display
+title: Spotlight Overview page for Hyper-V connections
 last_updated: July 29, 2016
 summary: "Show the components and virtual machines grid for the Hyper-V connection."
 sidebar: c_hyperv_sidebar

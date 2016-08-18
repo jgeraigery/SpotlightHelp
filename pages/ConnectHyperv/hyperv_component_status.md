@@ -1,5 +1,5 @@
 ---
-title: Status component
+title: Status
 last_updated: July 29, 2016
 summary: "Show the condition of the virtual machine. Green indicates that no alarms have been raised. Yellow and red indicate that an alarm has been raised. Possible alarms on the status control include the connection failure alarm, heartbeat alarm and planned outage alarm."
 sidebar: c_hyperv_sidebar

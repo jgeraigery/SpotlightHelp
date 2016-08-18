@@ -74,19 +74,19 @@ entries:
       url: /hyperv_alarm_monitoredserver_unsupportedversion.html
       output: web, pdf
 
-  - title: Hyper-V Connection display
+  - title: Spotlight Overview page
     output: web, pdf
     folderitems:
 
-    - title: Hyper-V connection display
+    - title: Spotlight Overview page
       url: /hyperv_drilldown_overview.html
       output: web, pdf
 
-    - title: Status component
+    - title: Status
       url: /hyperv_component_status.html
       output: web, pdf
 
-    - title: Version component
+    - title: Version
       url: /hyperv_component_version.html
       output: web, pdf
   
