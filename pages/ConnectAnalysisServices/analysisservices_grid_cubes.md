@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "The Cubes grid shows information about the cubes that are currently defined on the Analysis Services server."
 sidebar: c_analysisservices_sidebar
 permalink: analysisservices_grid_cubes.html
-id: Storage.Cubes.CubesGrid
+id: Storage_Cubes.CubesGrid
 folder: ConnectAnalysisServices
 ---
 
