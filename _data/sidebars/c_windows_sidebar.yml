@@ -705,7 +705,7 @@ entries:
           output: web, pdf
 
         - title: UDP Datagrams chart
-          url: /windows_chart_udpdiagrams.html
+          url: /windows_chart_udpdatagrams.html
           output: web, pdf
 
         - title: IP Datagrams /IP Datagrams Errors chart

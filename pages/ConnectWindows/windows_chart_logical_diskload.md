@@ -1,9 +1,10 @@
 ---
 title: Logical Disk Load Chart
 last_updated: July 29, 2016
-summary: ""
+summary: "This shows how busy the individual logical disks are."
 sidebar: c_windows_sidebar
 permalink: windows_chart_logical_diskload.html
+id: LogicalDiskActivity.DiskLoadChart
 folder: ConnectWindows
 ---
 
