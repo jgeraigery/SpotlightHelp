@@ -31,27 +31,27 @@ The rate at which the system successfully receives and accepts IP packets.
 
 ## IP Datagrams Errors chart
 
-## Outbound Discarded
+### Outbound Discarded
 
 The number of outbound packets that are discarded because of an issue unrelated to the packets themselves (for example, if the send buffer is full).
 
-## Received Address Errors
+### Received Address Errors
 
 The number of packets received by the system that do not have a valid return address.
 
-## Outbound No Route
+### Outbound No Route
 
 The number of outbound packets that are discarded because the system cannot route the packets to the destination IP address.
 
-## Received Discarded
+### Received Discarded
 
 The number of received packets that are discarded because of an issue unrelated to the packets themselves (for example, if the receive buffer is full).
 
-## Received Header Errors
+### Received Header Errors
 
 The number of packets received that have errors in the IP header area (for example, a packet checksum error).
 
-## Received Unknown Protocol
+### Received Unknown Protocol
 
 The number of packets received that are correctly addressed but use a protocol unsupported by the IP handler on the system.
 

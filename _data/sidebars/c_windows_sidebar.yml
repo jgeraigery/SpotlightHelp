@@ -377,7 +377,7 @@ entries:
           output: web, pdf
 
         - title: Page faults chart
-          url: /windows_chart_pagefaults.html
+          url: /windows_chart_pagefaults_processes.html
           output: web, pdf
 
         - title: Process threads grid
@@ -446,7 +446,7 @@ entries:
           output: web, pdf
 
         - title: Processor Queue Length chart
-          url: /windows_chart_processorqueuelength.html
+          url: /windows_chart_processorqueuelength_cpu.html
           output: web, pdf
 
         - title: Total Process and Thread Count chart
@@ -523,7 +523,7 @@ entries:
           output: web, pdf
 
         - title: Page Faults chart
-          url: /windows_chart_pagefaults.html
+          url: /windows_chart_pagefaults_memory.html
           output: web, pdf
 
         - title: Page Files grid
@@ -795,7 +795,7 @@ entries:
           output: web, pdf
 
         - title: Processor Queue Length chart
-          url: /windows_chart_processorqueuelength.html
+          url: /windows_chart_processorqueuelength_activity.html
           output: web, pdf
 
         - title: Disk Queue Length chart

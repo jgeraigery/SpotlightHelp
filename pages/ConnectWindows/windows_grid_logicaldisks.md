@@ -1,12 +1,39 @@
 ---
 title: Logical disks grid
 last_updated: July 29, 2016
-summary: ""
+summary: "This shows the logical disk details of the selected physical disk systems."
 sidebar: c_windows_sidebar
 permalink: windows_grid_logicaldisks.html
+id: logicaldisks.logicaldisksgrid
 folder: ConnectWindows
 ---
 
+
+Following are the column details:
+
+## Drive
+
+The disk's drive letter.
+
+## Label
+
+The logical disk's label.
+
+## File system
+
+The file system in use on the disk.
+
+## Total MB
+
+The capacity of the logical disk.
+
+## Free MB
+
+Indicates the amount of free space on the disk.
+
+## Compressed
+
+If the disk is compressed.
 
 
 
