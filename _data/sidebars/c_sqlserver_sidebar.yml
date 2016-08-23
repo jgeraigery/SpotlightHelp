@@ -787,19 +787,19 @@ entries:
         subfolderitems:
 
         - title: Transaction Log Shipping Primaries grid
-          url: /sqlserver_grid_transactionlogshippingprimaries.html
+          url: /sqlserver_grid_transaction_logshippingprimaries.html
           output: web, pdf
 
         - title: Transaction Log Shipping Secondaries grid
-          url: /sqlserver_grid_transactionlogshippingsecondaries.html
+          url: /sqlserver_grid_transaction_logshippingsecondaries.html
           output: web, pdf
 
         - title: Transaction Log Shipping History grid
-          url: /sqlserver_grid_transactionlogshippinghistory.html
+          url: /sqlserver_grid_transaction_logshippinghistory.html
           output: web, pdf
 
         - title: Transaction Log Shipping Secondary Database details
-          url: /sqlserver_details_transactionlogshippingdetails.html
+          url: /sqlserver_details_transaction_logshippingsecondarydatabase.html
           output: web, pdf
 
       - title: Database Mirroring page
@@ -811,7 +811,7 @@ entries:
           output: web, pdf
 
         - title: Database Mirroring details
-          url: /sqlserver_details_databasemirroring.html
+          url: /sqlserver_grid_databasemirroringdetails.html
           output: web, pdf
 
   - title: Databases drilldown
@@ -1066,7 +1066,7 @@ entries:
         subfolderitems:
 
         - title: SQL Server Configuration grid
-          url: /sqlserver_grid_sqlserverconfiguration.html
+          url: /sqlserver_grid_sqlserverconfig.html
           output: web, pdf
 
   - title: Error log drilldown
@@ -1081,8 +1081,8 @@ entries:
       url: /sqlserver_grid_sqlservererrorlogs.html
       output: web, pdf
 
-    - title: SQL Agent Error Logs grid
-      url: /sqlserver_grid_sqlagenterrorlogs.html
+    - title: SQL Agent Error Log grid
+      url: /sqlserver_grid_sqlagenterrorlog.html
       output: web, pdf
 
   - title: Workload Analysis drilldown
@@ -1110,8 +1110,12 @@ entries:
           url: /sqlserver_chart_tempdbspaceused.html
           output: web, pdf
 
-        - title: Version Store Size (Change) chart
+        - title: Version Store Size chart
           url: /sqlserver_chart_versionstoresize.html
+          output: web, pdf
+
+        - title: Version Store Size Change chart
+          url: /sqlserver_chart_versionstoresizechange.html
           output: web, pdf
 
         - title: Top 25 Tempdb sessions grid

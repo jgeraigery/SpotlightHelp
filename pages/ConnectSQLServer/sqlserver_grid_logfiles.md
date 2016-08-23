@@ -11,7 +11,7 @@ folder: ConnectSQLServer
 
 The Log Files grid displays the following information:
 
-## Database Name</uicontrol></pt>
+## Database Name
 
 The name of the specified database.
 

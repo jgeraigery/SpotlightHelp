@@ -48,7 +48,7 @@ High internal fragmentation causes less data to be stored on each page. This can
 High external fragmentation can affect SQL Server performance only for full or partial table and index scans. When SQL Server has to read table or index pages in logical order, external fragmentation can cause SQL Server to perform extra I/O and processing. In general, if you do not do many table/index scans then external fragmentation will not cause performance problems. Most online, OLTP, or web applications use direct index lookups to access the required data in a few read operations. These types of applications will normally not suffer any performance degradation when the database has high external fragmentation.
 
 
-## How fragmented are my tables?</title>
+## How fragmented are my tables?
 
 Five values can be used to determine the overall fragmentation in your tables:
 
