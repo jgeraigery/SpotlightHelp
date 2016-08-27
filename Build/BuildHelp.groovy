@@ -5,8 +5,8 @@ def BuildHelp()
         stage 'Build Help'
         def HelpDir=pwd()
 
-        bat """jekyll build --config "${HelpDir}\\spotlightHelp_configOffline.yml" -s "${HelpDir}" -d "${HelpDir}\\spotlightHelp_site" """
-        bat """jekyll build --config "${HelpDir}\\spotlightHelp_configOffline.yml" -s "${HelpDir}" -d "${HelpDir}\\spotlightHelp_site" """
+        bat """jekyll build --config "${HelpDir}\\_configOffline.yml" -s "${HelpDir}" -d "${HelpDir}\\spotlightHelp_site" """
+        bat """jekyll build --config "${HelpDir}\\_configBalloonHelpOffline.yml" -s "${HelpDir}" -d "${HelpDir}\\spotlightHelp_siteBalloonHelp" """
     }
     catch (any)
     {

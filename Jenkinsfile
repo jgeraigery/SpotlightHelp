@@ -53,12 +53,6 @@ timestamps
             CLIENTBRANCH = checkoutBranchWithParent('Spotlight', PARENTBRANCH);
         }
 
-        stage 'Checkout Help'
-        dir("${CurrentDir}/OnlineHelp")
-        {
-            checkoutBranchWithParent('SpotlightHelp', PARENTBRANCH);
-        }
-
         dir("${CurrentDir}/DiagnosticServer")
         {
             def ds = load("${CurrentDir}/DiagnosticServer/build/BuildDS.groovy")
