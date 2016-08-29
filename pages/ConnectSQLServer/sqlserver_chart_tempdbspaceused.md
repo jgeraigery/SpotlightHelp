@@ -1,7 +1,7 @@
 ---
 title: Tempdb Space Used Chart
 last_updated: July 29, 2016
-summary: "The Tempdb Space Used chart represents "points in time" usage. It is populated from sys.dm_db_file_space_usage."
+summary: "The Tempdb Space Used chart represents 'points in time' usage. It is populated from sys.dm_db_file_space_usage."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_chart_tempdbspaceused.html
 id: SQLServer_TempDB_SpaceUsedChart
