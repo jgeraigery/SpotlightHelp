@@ -10,8 +10,9 @@ def BuildHelp()
         
         def wixToolsetBin="C:\\Program Files (x86)\\WiX Toolset v3.9\\bin" 
         
-        bat """"${wixToolsetBin}\\heat.exe" dir "${HelpDir}\\spotlightHelp_site" -o "${HelpDir}\\helpsite.wxs" -scom -sfrag -srd -sreg -gg -cg HelpSiteGroup -dr HELP_SITE_DIR """
-        bat """"${wixToolsetBin}\\heat.exe" dir "${HelpDir}\\spotlightHelp_siteBalloonHelp" -o "${HelpDir}\\balloonhelpsite.wxs" -scom -sfrag -srd -sreg -gg -cg BalloonHelpSiteGroup -dr BALLOONHELP_SITE_DIR """
+        bat """"${wixToolsetBin}\\heat.exe" dir "${HelpDir}\\spotlightHelp_site" -o "${HelpDir}\\helpsite.wxs" -scom -sfrag -srd -sreg -gg -cg HelpSiteGroup -dr HELP_SITE_DIR -var var.spotlightHelpsite """
+        bat """"${wixToolsetBin}\\heat.exe" dir "${HelpDir}\\spotlightHelp_siteBalloonHelp" -o "${HelpDir}\\balloonhelpsite.wxs" -scom -sfrag -srd -sreg -gg -cg BalloonHelpSiteGroup -dr BALLOONHELP_SITE_DIR -var var.spotlightBalloonHelpsite """
+        bat """"${wixToolsetBin}\\heat.exe" file "${HelpDir}\\csh.map" -o "${HelpDir}\\helpmap.wxs" -scom -sfrag -srd -sreg -gg -cg HelpMapGroup -dr Help_dir -var var.HelpSource """
         
     }
     catch (any)
