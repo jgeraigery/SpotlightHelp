@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "The Data Files grid shows all files (excluding the Transaction Log) in the selected databases."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_datafiles.html
-id: Databases2_DataFiles.DataFilesGrid.
+id: Databases2_DataFiles.DataFilesGrid
 folder: ConnectSQLServer
 ---
 

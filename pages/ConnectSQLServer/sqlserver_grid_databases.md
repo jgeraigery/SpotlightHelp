@@ -1,49 +1,151 @@
 ---
 title: Databases Grid
 last_updated: July 29, 2016
-summary: "The Databases grid lists details of all databases in the Analysis Services instance."
+summary: "The Databases grid provides details of all databases in SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_databases.html
-id: Storage_Databases.DatabasesGrid
+id: Databases2.DatabasesGrid
 folder: ConnectSQLServer
 ---
 
 
+Use the **Database View** list to change the category of information displayed in the Databases grid. Choose from the following views:
 
-## Name
+
+## Overview
+
+### Database Name
 
 The name of the database.
 
-## Created Time
+### Status
 
-Date and time the database was created.
+The status of the database.
 
-## Estimated Size (MB)
+### Data MB
 
-Estimated size of the database.
+The total size of data files, measured in megabytes.
 
-## Last Processed
+### Data Used MB
 
-Date and time the database was last processed.
+The total size of all data files in the database, measured in megabytes.
 
-## Last Schema Update
+### Data Free MB
 
-Date and time the metadata for the database was last updated.
+The amount of database space that is not allocated to the log, measured in megabytes.
 
-## Last Update
+### Log MB
 
-Date and time the data for the database was last updated.
+The total size of the log, measured in megabytes.
 
-## Processing Priority
+### Log Used MB
 
-Specify the priority for processing the measure group.
+The total size of all logs in the database, measured in megabytes.
 
-## State
+### Log Free MB
 
-The state of the objects in the database.
+The amount of log space that is not allocated to the log, measured in megabytes.
 
-Processed | All processable object in the database are processed. All major objects could be queried.
-Partially processed | At least one major processable object is not processed. Some objects may not be queryable.
-Unprocessed | None of the objects in the database are processed. Objects cannot be queried.
+### # Tables
+
+The number of tables, where table type=user, that exist on the database.
+
+<note type="note">The # Tables column may not match the number of tables shown in the Tables grid. This is most evident when viewing table details for the tempdb database and is due to its dynamic nature.</note>
+
+
+### # File Groups
+
+The number of file groups that exist on the database.
+
+### Disks
+
+The disk(s) where the database files reside.
+
+### Last Full Backup
+
+The date and time of the most recent full backup of the database. For more information change the Database View to Backup Status.
+
+### Oldest Tran SPID
+
+The system process ID of the session owning the oldest transaction in the database.
+
+### Oldest Tran Start Time
+
+The date and time at which the oldest transaction in the database began.
+
+### Recovery
+
+The recovery model for the database. For example, Simple, Bulk_Logged, or Full.
+
+### dbid
+
+The ID of the database.
+
+
+## Transactions
+
+### Database Name
+
+The name of the database.
+
+### Oldest Tran Start Time
+
+The date and time at which the oldest transaction in the database began.
+
+### Oldest Tran SPID
+
+The system process ID of the session owning the oldest transaction in the database.
+
+### dbid
+
+The ID of the database.
+
+<note type="note">To view the session details of a transaction, right-click a transaction in the grid and select **Session Details**. The session details for the selected transaction are displayed in the Session Details page of the SQL Activity drilldown.</note>
+
+
+## Backup Status
+
+### Database Name
+
+The name of the database.
+
+### Status
+
+The status of the database.
+
+### Data MB
+
+The total size of data files, measured in megabytes.
+
+### Log MB
+
+The total size of the log, measured in megabytes.
+
+### Last Full Backup
+
+The date and time of the most recent full backup of the database.
+
+### Last Differential Backup
+
+The date and time of the most recent differential backup of the database.
+
+### Last Log Backup
+
+The date and time of the most recent log backup of the database.
+
+### dbid
+
+The ID of the database.
+
+
+## Properties
+
+The **Properties** view displays the properties of the SQL Server databases on the system under diagnosis.
+
+The columns in the Properties grid correspond to the data returned by the SQL Server **DatabasePropertyEx** function. For more information on these properties, see the **Transact-SQL Reference** section in Microsoft? SQL Server Books Online.
+
+Select one or more databases in the Databases grid to show just those databases in Database Details. Press the **Shift** key to select a block of multiple databases or the **CTRL** key to select individual databases.
+
+The tempdb database has its own drilldown. Click on tempdb to open the tempdb drilldown. Click on another cell in the tempdb row to show tempdb in Database Details.
 
 {% include links.html %}

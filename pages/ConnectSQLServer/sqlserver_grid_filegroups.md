@@ -3,7 +3,7 @@ title: File Groups Grid
 last_updated: July 29, 2016
 summary: "The File Groups grid shows information on all file groups in the selected databases."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_grid_filegroupshtml
+permalink: sqlserver_grid_filegroups.html
 id: Databases2_FileGroups.FileGroupsGrid
 folder: ConnectSQLServer
 ---

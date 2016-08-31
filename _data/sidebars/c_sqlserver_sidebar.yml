@@ -625,8 +625,12 @@ entries:
           url: /sqlserver_grid_sessionlocks.html
           output: web, pdf
 
-        - title: Session Details
-          url: /sqlserver_details_session.html
+        - title: Session Details (CPU)
+          url: /sqlserver_chart_sessioncpu.html
+          output: web, pdf
+
+        - title: Session Details (IO)
+          url: /sqlserver_chart_sessionio.html
           output: web, pdf
 
       - title: Summary page
@@ -681,16 +685,16 @@ entries:
           url: /sqlserver_grid_blocking.html
           output: web, pdf
 
-        - title: Number of Blocked Processes chart
-          url: /sqlserver_chart_numberofblockedprocesses.html
+        - title: Blocked Processes chart
+          url: /sqlserver_chart_blockedprocesses.html
           output: web, pdf
 
       - title: Deadlocks page
         output: web
         subfolderitems:
 
-        - title: Deadlocks list
-          url: /sqlserver_grid_deadlocks.html
+        - title: Deadlock List
+          url: /sqlserver_grid_deadlocklist.html
           output: web, pdf
 
       - title: I/O by File page
@@ -799,7 +803,7 @@ entries:
           output: web, pdf
 
         - title: Transaction Log Shipping Secondary Database details
-          url: /sqlserver_details_transaction_logshippingsecondarydatabase.html
+          url: /sqlserver_grid_transaction_logshippingsecondarydbdetails.html
           output: web, pdf
 
       - title: Database Mirroring page
@@ -932,7 +936,7 @@ entries:
           output: web, pdf
 
         - title: Index Statsitics Summary
-          url: /sqlserver_details_indexstatistics.html
+          url: /sqlserver_grid_indexstatistics.html
           output: web, pdf
 
         - title: Index Density grid
