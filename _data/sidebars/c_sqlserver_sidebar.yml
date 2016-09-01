@@ -610,11 +610,11 @@ entries:
           output: web, pdf
 
         - title: SQL
-          url: /sqlserver_sql.html
+          url: /sqlserver_detail_sql.html
           output: web, pdf
 
-        - title: Plan
-          url: /sqlserver_plan.html
+        - title: Query Plan
+          url: /sqlserver_detail_queryplan.html
           output: web, pdf
 
         - title: Session Trace
@@ -738,7 +738,7 @@ entries:
           output: web, pdf
 
         - title: SQL Statement
-          url: /sqlserver_detail_sqlstatement.html
+          url: /sqlserver_detail_sql.html
           output: web, pdf
 
         - title: Query Plan
