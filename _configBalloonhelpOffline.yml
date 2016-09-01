@@ -29,6 +29,7 @@ exclude:
   - "*.bat"
   - Gemfile
   - Gemfile.lock
+  - build
 # these are the files and directories that jekyll will exclude from the build
 
 # feedback_email: tomjohnson1492@gmail.com
