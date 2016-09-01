@@ -462,11 +462,11 @@ entries:
         subfolderitems:
 
         - title: CPU Usage Percent
-          url: /windows_vmware_cpuusagepercent.html
+          url: /windows_chart_vmware_cpuusagepercent.html
           output: web, pdf
 
         - title: CPU Usage MHz
-          url: /windows_vmware_cpuusagemhz.html
+          url: /windows_chart_vmware_cpuusagemhz.html
           output: web, pdf
 
       - title: Virtualized CPU page (Hyper-V server host)
@@ -474,15 +474,15 @@ entries:
         subfolderitems:
 
         - title: CPU Usage
-          url: /windows_hyperv_cpuusage.html
+          url: /windows_chart_hyperv_cpuusage.html
           output: web, pdf
 
         - title: CPU wait time per dispatch
-          url: /windows_hyperv_cpuwaittimeperdispatch.html
+          url: /windows_chart_hyperv_cpuwaittimeperdispatch.html
           output: web, pdf
 
         - title: Host Processor Usage
-          url: /windows_hyperv_hostprocessorusage.html
+          url: /windows_chart_hyperv_hostprocessorusage.html
           output: web, pdf
 
   - title: Memory drilldown
@@ -507,7 +507,7 @@ entries:
           output: web, pdf
 
         - title: Paging chart
-          url: /windows_chart_paging.html
+          url: /windows_chart_paging_memory.html
           output: web, pdf
 
         - title: Physical Memory Usage chart
@@ -555,11 +555,11 @@ entries:
         subfolderitems:
 
         - title: Memory Starvation
-          url: /windows_vmware_memorystarvation.html
+          url: /windows_chart_vmware_memorystarvation.html
           output: web, pdf
 
         - title: Memory Reposessed
-          url: /windows_vmware_memoryreposessed.html
+          url: /windows_chart_vmware_memoryreposessed.html
           output: web, pdf
 
       - title: Virtualizd Memory page (Hyper-V server host)
@@ -567,7 +567,7 @@ entries:
         subfolderitems:
 
         - title: Average Memory Pressure
-          url: /windows_hyperv_averagememorypressure.html
+          url: /windows_chart_hyperv_averagememorypressure.html
           output: web, pdf
 
   - title: Disks drilldown
@@ -639,8 +639,8 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Disk Space by Gigabytes/Percentage chart
-          url: /windows_chart_diskspacebygigapercent.html
+        - title: Disk Space
+          url: /windows_chart_diskspace.html
           output: web, pdf
 
       - title: Disk Summary page
@@ -659,8 +659,8 @@ entries:
         output: web
         subfolderitems:
 
-        - title: File Sizes chart
-          url: /windows_chart_filesizes.html
+        - title: File Sizes
+          url: /windows_grid_filesizes.html
           output: web, pdf
 
   - title: Network drilldown
@@ -745,7 +745,7 @@ entries:
         subfolderitems:
 
         - title: Total Kilobytes In/Out chart
-          url: /windows_chart_totalkilobytesinout.html
+          url: /windows_chart_totalkilobytesinout_virtualizednetwork.html
           output: web, pdf
 
   - title: Event Logs drilldown
@@ -787,7 +787,7 @@ entries:
           output: web, pdf
 
         - title: Paging chart
-          url: /windows_chart_paging.html
+          url: /windows_chart_paging_activity.html
           output: web, pdf
 
         - title: Memory chart

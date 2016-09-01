@@ -3,7 +3,7 @@ title: Paging chart
 last_updated: July 29, 2016
 summary: "Shows the rate at which pages are being swapped in and out of memory."
 sidebar: c_windows_sidebar
-permalink: windows_chart_paging.html
+permalink: windows_chart_paging_activity.html
 id: MemorySummary.SpotlightChart2
 folder: ConnectWindows
 ---
