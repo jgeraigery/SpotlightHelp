@@ -9,11 +9,15 @@ folder: ConnectSQLServer
 ---
 
 
-<p>This service is in a planned outage.</p>
-<p>Spotlight will resume monitoring the service at the end of the planned outage period.</p>
-<p>To check the planned outage schedule, click Configure | Planned Outage.</p>
-<p>To resume monitoring early, right click on the connection and select "Resume Monitoring".</p>
-<p><strong>Note:</strong> No new alarms are raised during a planned outage. Pre-existing alarms requiring acknowledgement remain visible and can be acknowledged.</p>
+This service is in a planned outage.
+
+Spotlight will resume monitoring the service at the end of the planned outage period.
+
+To check the planned outage schedule, click Configure \| Planned Outage.
+
+To resume monitoring early, right click on the connection and select "Resume Monitoring".
+
+<strong>Note:</strong> No new alarms are raised during a planned outage. Pre-existing alarms requiring acknowledgement remain visible and can be acknowledged.
 
 
 For more information, see Configure \| Planned Outage.

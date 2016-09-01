@@ -10,18 +10,13 @@ folder: ConnectSQLServer
 
 
 
-<p>The <strong>Monitored Server - SQL Server host not defined</strong> alarm is raised for:
-<ol>
-<li>A Microsoft Cluster Server (MSCS)
-<li>Where the <strong>SQL Server Connection Details</strong> dialog <strong>Connection</strong> field is set to <strong>Cluster (monitor active node)</strong>.
-<li>And the active cluster node is NOT in the list of available OS connections in the <strong>SQL Server Connection Details</strong> dialog <strong>Linked OS Connection</strong> drop down field.
-</ol>
+The **Monitored Server - SQL Server host not defined** alarm is raised for:
 
-<p>
-For a SQL Server cluster that uses the Cluster (monitor active node) feature there must be a Windows connection for each Windows node in the cluster.
-See the online help <strong>Spotlight | Spotlight on SQL Server | Connections to SQL Servers</strong> page for more information.
-This alarm  clears once the Windows connection has been created.
-</p>
+1. A Microsoft Cluster Server (MSCS)
+2. Where the **SQL Server Connection Details** dialog **Connection** field is set to **Cluster (monitor active node)**.
+3. And the active cluster node is NOT in the list of available OS connections in the **SQL Server Connection Details** dialog **Linked OS Connection** drop down field.
+
+For a SQL Server cluster that uses the Cluster (monitor active node) feature there must be a Windows connection for each Windows node in the cluster. See the online help **Spotlight \| Spotlight on SQL Server \| Connections to SQL Servers** page for more information. This alarm  clears once the Windows connection has been created.
 
 
 The Monitored Server - SQL Server Host Not Defined Alarm is raised for:

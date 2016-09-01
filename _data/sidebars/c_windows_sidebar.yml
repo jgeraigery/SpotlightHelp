@@ -446,7 +446,7 @@ entries:
           output: web, pdf
 
         - title: Processor Queue Length chart
-          url: /windows_chart_processorqueuelength_cpu.html
+          url: /windows_chart_processorqueuelength.html
           output: web, pdf
 
         - title: Total Process and Thread Count chart
@@ -507,7 +507,7 @@ entries:
           output: web, pdf
 
         - title: Paging chart
-          url: /windows_chart_paging_memory.html
+          url: /windows_chart_paging.html
           output: web, pdf
 
         - title: Physical Memory Usage chart
@@ -765,10 +765,6 @@ entries:
           url: /windows_grid_eventlogs.html
           output: web, pdf
 
-        - title: Event Log details
-          url: /windows_details_eventlog.html
-          output: web, pdf
-
   - title: Activity drilldown
     output: web, pdf
     folderitems:
@@ -783,11 +779,11 @@ entries:
         subfolderitems:
 
         - title: Processor chart
-          url: /windows_chart_processor.html
+          url: /windows_chart_totalcpuutilization.html
           output: web, pdf
 
         - title: Paging chart
-          url: /windows_chart_paging_activity.html
+          url: /windows_chart_paging.html
           output: web, pdf
 
         - title: Memory chart
@@ -795,15 +791,15 @@ entries:
           output: web, pdf
 
         - title: Processor Queue Length chart
-          url: /windows_chart_processorqueuelength_activity.html
+          url: /windows_chart_processorqueuelength.html
           output: web, pdf
 
         - title: Disk Queue Length chart
-          url: /windows_chart_diskqueuelength.html
+          url: /windows_chart_logical_diskqueuelength.html
           output: web, pdf
 
         - title: Network Packets chart
-          url: /windows_chart_networkpackets.html
+          url: /windows_chart_totalpacketsinout.html
           output: web, pdf
 
       - title: Custom Counters page
