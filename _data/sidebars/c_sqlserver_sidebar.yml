@@ -222,6 +222,10 @@ entries:
       url: /sqlserver_alarm_network_sqlserverpacketserrorrate.html
       output: web, pdf
 
+    - title: Performance Investigator
+      url: /sqlserver_alarm_performanceinvestigator.html
+      output: web, pdf
+
     - title: Poor Performance Health
       url: /sqlserver_alarm_poorperformancehealth.html
       output: web, pdf
