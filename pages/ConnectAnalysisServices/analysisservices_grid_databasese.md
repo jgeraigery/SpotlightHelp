@@ -1,5 +1,5 @@
 ---
-title: Databases grid
+title: Databases
 last_updated: July 29, 2016
 summary: "The Databases grid lists details of all databases in the Analysis Services instance."
 sidebar: c_analysisservices_sidebar
@@ -42,15 +42,15 @@ Specify the priority for processing the measure group.
 
 The state of the objects in the database.
 
-## Processed
+### Processed
 
 All processable object in the database are processed. All major objects could be queried.
 
-## Partially processed
+### Partially processed
 
 At least one major processable object is not processed. Some objects may not be queryable.
 
-## Unprocessed
+### Unprocessed
 
 None of the objects in the database are processed. Objects cannot be queried.
 

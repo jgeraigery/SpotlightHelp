@@ -1,5 +1,5 @@
 ---
-title: Commands grid
+title: Commands
 last_updated: July 29, 2016
 summary: "The Commands grid provides resource usage and activity information for currently executing or last executed commands on the server."
 sidebar: c_analysisservices_sidebar

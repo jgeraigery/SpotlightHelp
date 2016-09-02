@@ -227,15 +227,15 @@ entries:
       url: /analysisservices_drilldown_activity.html
       output: web, pdf
 
-    - title: Connections grid
+    - title: Connections
       url: /analysisservices_grid_connections.html
       output: web, pdf
 
-    - title: Sessions grid
+    - title: Sessions
       url: /analysisservices_grid_sessions.html
       output: web, pdf
 
-    - title: Commands grid
+    - title: Commands
       url: /analysisservices_grid_commands.html
       output: web, pdf
 
@@ -271,11 +271,11 @@ entries:
       url: /analysisservices_drilldown_storage.html
       output: web, pdf
 
-    - title: Databases grid
+    - title: Databases
       url: /analysisservices_grid_databases.html
       output: web, pdf
 
-    - title: Cubes grid
+    - title: Cubes
       url: /analysisservices_grid_cubes.html
       output: web, pdf
 
@@ -287,7 +287,7 @@ entries:
       url: /analysisservices_drilldown_configuration.html
       output: web, pdf
 
-    - title: Configuration grid
+    - title: Configuration
       url: /analysisservices_grid_configuration.html
       output: web, pdf
 

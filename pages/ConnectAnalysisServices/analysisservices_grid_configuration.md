@@ -1,5 +1,5 @@
 ---
-title: Configuration grid
+title: Configuration
 last_updated: July 29, 2016
 summary: "The Configuration grid shows the various configuration options that control the Analysis Services server."
 sidebar: c_analysisservices_sidebar
