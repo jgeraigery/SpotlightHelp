@@ -8,9 +8,9 @@ folder: SpotlightEnterprise
 ---
 
 
-Response time is reported on the SQL Server \| Home Page \| Sessions Panel and the SQL Server \| SQL Activity Drilldown \| SQL Summary page. The associated alarm is User - Response Time Alarm.
+The measure of SQL Server Response Time is reported on the SQL Server \| Home Page \| Sessions panel and the SQL Server \| SQL Activity Drilldown \| SQL Summary page. The associated alarm is **User - Response Time Alarm**.
 
-{% include note.html content="Membership of the Spotlight diagnostic administrators group is required to change the SQL Statement. For more information, see Spotlight diagnostic user groups." %}
+{% include note.html content="Membership of the Spotlight diagnostic administrators group is required to change the SQL Statement used to measure SQL Server response time. For more information, see Spotlight diagnostic user groups." %}
 
 
 ## Configure SQL Server Response Time from the Spotlight Client
@@ -23,25 +23,16 @@ Select the SQL Server connection from the list of available options. Spotlight w
 
 Alternatively, select a template to configure. The templates you have previously saved for SQL Server response time are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see Configuration templates.
 
-## Override the factory settings
-
-### Select
-
-Return the settings for the selected template or connection to the Factory Settings. These are the settings that were shipped with Spotlight.
-
-### Clear
-
-Modify the settings for the selected template or connection.
 
 ## Define the SQL statement used to measure SQL Server response time
 
-### Select
+### Override the factory settings
 
 Select the **Override the factory settings** option to modify the settings for the selected template or connection.
 
 Edit or replace the SQL statement.
 
-### Clear
+### Use the factory settings
 
 Clear the **Override the factory settings** option to return the settings for the selected template or connection to the Factory Settings. These are the settings that were shipped with Spotlight.
 
@@ -66,7 +57,7 @@ Save the SQL Server response time for the selected connection or template.
 
 ### Cancel
 
-Discard changes to this screen. 
+Discard changes to this screen.
 
 
 {% include links.html %}

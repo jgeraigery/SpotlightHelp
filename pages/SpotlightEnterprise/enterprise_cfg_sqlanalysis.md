@@ -1,7 +1,7 @@
 ---
 title: Configure SQL Analysis
 tags: [configure_monitoring]
-summary: "The SQL Analysis dialog is used to determine what data is collected and displayed in the SQL Analysis - Workload View and the SQL Server | SQL Activity Drilldown | SQL Analysis page."
+summary: "Enable or disable SQL Analysis. Define the data to be collected and displayed in the SQL Analysis - Workload View and the SQL Server | SQL Activity Drilldown | SQL Analysis page."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfg_sqlanalysis.html
 folder: SpotlightEnterprise
@@ -17,8 +17,7 @@ folder: SpotlightEnterprise
 Click Configure \| SQL Analysis
 
 
- TIP: To open this screen with a connection pre-selected, Select the SQL Server connection (Monitored connections) then click Monitor \| SQL Activity \| SQL Analysis.
-
+{% include tip.html content="To open this screen with a connection pre-selected, Select the SQL Server connection (Monitored connections) then click Monitor \| SQL Activity \| SQL Analysis." %}
 
 ## Select template or connection to configure
 
@@ -26,19 +25,23 @@ Select the SQL Server connection from the list of available options. Spotlight w
 
 Alternatively, select a template to configure. The templates you have previously saved for SQL Analysis configuration are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see Configuration templates.
 
-## factory settings
 
-### Override
+## Enable SQL Analysis or use the factory settings
 
-Select the Override the factory settings option to modify the settings for the selected template or connection.
+### Override the factory settings
 
-Select to Enable SQL Analysis. SQL Analysis is disabled by default.
+Select the **Override the factory settings** option to modify the settings for the selected template or connection.
 
-Note: Enabling SQL Analysis may adversely affect the performance of your SQL Server. SQL Analysis data collection puts extra load on your SQL Server; the more data you collect the more the load. For this reason Spotlight does not allow you to Enable SQL Analysis for a Template. If you select the option to **Apply Configuration to…** at the bottom of the screen then the Enable SQL Analysis configuration is NOT automatically applied to selected connections; SQL Analysis can only be enabled one connection at a time.
+Select to **Enable SQL Analysis**. SQL Analysis is disabled by default.
 
-### Clear
+{% include note.html content="Enabling SQL Analysis may adversely affect the performance of your SQL Server. SQL Analysis data collection puts extra load on your SQL Server; the more data you collect the more the load. For this reason Spotlight does not allow you to Enable SQL Analysis for a Template. If you select the option to **Apply Configuration to…** at the bottom of the screen then the Enable SQL Analysis configuration is NOT automatically applied to selected connections; SQL Analysis can only be enabled one connection at a time." %}
 
-Clear the **Override the factory settings** option to return the settings for the selected template or connection to the Factory Settings. These are the settings that were shipped with Spotlight. By default SQL Analysis is disabled.
+
+### Use the factory settings
+
+Clear the **Override the factory settings** option to return the settings for the selected template or connection to the Factory Settings. These are the settings that were shipped with Spotlight.
+
+For factory settings SQL Analysis is disabled.
 
 
 ## Filters pane
@@ -161,11 +164,25 @@ This setting determines what the top SQL executions are to collect. Choose from 
 
 ## Reuse this configuration
 
-Click | Description
-------|------------
-Apply configuration to… |  Optionally, apply this configuration to other connections.
-Save to Template  | Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to Delete or Rename the template. For more information on Templates, see Configuration templates.
+### Apply configuration to…  
 
+Optionally, apply this configuration to other connections.
+
+{% include note.html content="Enabling SQL Analysis may adversely affect the performance of your SQL Server. SQL Analysis data collection puts extra load on your SQL Server; the more data you collect the more the load. For this reason Spotlight does not allow you to Enable SQL Analysis for a Template. The Enable SQL Analysis configuration is NOT automatically applied to selected connections; SQL Analysis can only be enabled one connection at a time." %}
+
+### Save to Template  
+
+Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to **Delete** or **Rename** the template. For more information on Templates, see Configuration templates.
+
+## Close the dialog
+
+### OK
+
+Save the SQL Analysis configuration  for the selected connection or template.
+
+### Cancel
+
+Discard changes to this screen.
 
 
 {% include links.html %}
