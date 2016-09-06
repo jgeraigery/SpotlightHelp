@@ -1,7 +1,7 @@
 ---
 title: Databases - Unavailable Alarm
 last_updated: July 29, 2016
-summary: "The Databases - Unavailable alarm becomes active when Spotlight on SQL Server detects that a SQL Server database is not available for reading. Users attempting to access an unavailable database will receive an error message."
+summary: "The Databases - Unavailable alarm becomes active when Spotlight Enterprise detects that a SQL Server database is not available for reading. Users attempting to access an unavailable database will receive an error message."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_databases_unavailable.html
 id: btnDatabasesNumber of Unavailable Databases.Alarm

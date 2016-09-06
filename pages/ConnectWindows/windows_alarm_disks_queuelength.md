@@ -17,9 +17,9 @@ The occurrence of this alarm does not necessarily indicate a problem with SQL Se
 
 ## When this alarm occurs you should look at:
 
-* In Spotlight on SQL Server, the Summary tab on the SQL Activity drilldown to see if SQL Server is generating high amounts of disk activity. The SQL Server IO graph shows the rate (pages per second) for each type of I/O that SQL Server is performing. If SQL Server is not generating a lot of I/O activity, then it is most likely being caused by some other Windows process, or by Windows itself.
-* In Spotlight on Windows, the Logical Disk Activity tab on the Disks drilldown to see which disk(s) are being hit the hardest. This, and the list of disks that contain SQL Server databases (from the Databases drilldown in Spotlight on SQL Server), may help to determine if SQL Server is generating the I/O.
-* In Spotlight on SQL Server, the Sessions tab on the SQL Activity drilldown to see what SQL Server processes are executing at the time, and the SQL currently being executed.
+* The SQL Server | SQL Activity drilldown | Summary page to see if SQL Server is generating high amounts of disk activity. The SQL Server IO graph shows the rate (pages per second) for each type of I/O that SQL Server is performing. If SQL Server is not generating a lot of I/O activity, then it is most likely being caused by some other Windows process, or by Windows itself.
+* The Windows Server | Disks drilldown | Logical Disk Activity page to see which disk(s) are being hit the hardest. This, and the list of disks that contain SQL Server databases (from the SQL Server \| Databases drilldown), may help to determine if SQL Server is generating the I/O.
+* The SQL Server | SQL Activity drilldown | Sessions page to see what SQL Server processes are executing at the time, and the SQL currently being executed.
 * Consider moving database files to faster disks. If you are not using hardware RAID, consider purchasing a RAID subsystem. If you are using RAID-5 for write-intensive files (such as Database Logs or heavily updated database files), consider moving to a faster RAID implementation (RAID-0 or RAID-10).
 * In some cases, you can speed up all disk I/O by reviewing the RAID options on your RAID controllers. One example is to enable disk-write caching, as long as your disk subsystem is protected by battery backups or UPS.
 

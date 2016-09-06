@@ -1,7 +1,7 @@
 ---
 title: Files
 last_updated: July 29, 2016
-summary: "Shows the number of files whose file size is currently under diagnosis by Spotlight on Windows."
+summary: "Shows the number of files whose file size is currently under diagnosis by Spotlight Enterprise."
 sidebar: c_windows_sidebar
 permalink: windows_component_files.html
 id: SoWHomePage.btnFiles

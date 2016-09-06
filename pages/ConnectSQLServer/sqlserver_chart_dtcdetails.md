@@ -9,7 +9,7 @@ folder: ConnectSQLServer
 ---
 
 
-<note type="note">The DTC Details page provides additional data on SQL Server transactions. If the server that Spotlight on SQL Server is currently connected to has more than one instance running then details reported in this page are for all instances of SQL Server on the current machine, not only the instance currently under analysis.</note>
+<note type="note">The DTC Details page provides additional data on SQL Server transactions. If the server that Spotlight Enterprise is currently connected to has more than one instance running then details reported in this page are for all instances of SQL Server on the current machine, not only the instance currently under analysis.</note>
 
 The DTC Details chart displays data of the following aspects of DTC performance:
 

@@ -19,7 +19,7 @@ The grid contains the following columns:
 
 ## Date/Time
 
-When the entry was entered into the Windows event log. Not when it was brought into Spotlight on Windows.
+When the entry was entered into the Windows event log. Not when it was brought into Spotlight Enterprise.
 
 ## Event ID
 

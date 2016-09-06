@@ -9,7 +9,7 @@ folder: ConnectSQLServer
 ---
 
 
-By default, Spotlight on SQL Server retrieves the first log in the list above the grid, if the log is less than 1MB in size. If the log is larger than 1MB, Spotlight will not retrieve it unless you click the **Refresh** button. Retrieving large error logs can impose significant load on the server.
+By default, Spotlight Enterprise retrieves the first log in the list above the grid, if the log is less than 1MB in size. If the log is larger than 1MB, Spotlight will not retrieve it unless you click the **Refresh** button. Retrieving large error logs can impose significant load on the server.
 
 
 {% include links.html %}

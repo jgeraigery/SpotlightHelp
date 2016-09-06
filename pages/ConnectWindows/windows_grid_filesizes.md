@@ -10,7 +10,7 @@ folder: ConnectWindows
 
 
 
-To open the Files Options page, on the Spotlight on Windows home page, right-click the Files panel and select **Files Options**.
+To open the Files Options page, on the Spotlight Overview page for the Windows Server connection, right-click the Files panel and select **Files Options**.
 
 ## File Name
 

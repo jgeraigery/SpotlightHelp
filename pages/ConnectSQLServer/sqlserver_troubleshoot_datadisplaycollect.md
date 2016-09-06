@@ -18,15 +18,15 @@ folder: ConnectSQLServer
 
 When SQL Server performance counters are missing, Spotlight will not be able to collect the data it requires, and will display "0" for many of its components. Most obvious will be the Memory icons on the SQL Server \| Home Page, which will show 0 MB of memory used by SQL Server. Also, many of the flows on the home page will show no activity, and many drilldowns will show incomplete information.
 
-Spotlight on SQL Server uses sys.dm_os_performance_counters (sysperfinfo for SQL Server 2000) to retrieve data for many of its displays. In some rare cases, this table may not contain information.
+Spotlight Enterprise uses sys.dm_os_performance_counters (sysperfinfo for SQL Server 2000) to retrieve data for many of its displays. In some rare cases, this table may not contain information.
 
 When SQL Server performance counters are missing, Spotlight will not be able to collect the data it requires, and will display "0" for many of its components. Most obvious will be the Memory icons on the SQL Server \| Home Page, which will show 0 MB of memory used by SQL Server. Also, many of the flows on the home page will show no activity, and many drilldowns will show incomplete information.
 
-Spotlight on SQL Server raises the Missing SQL Performance Counters Alarm shortly after connecting if it detects that the sysperfinfo or sys.dm_os_performance_counters table contains no data.
+Spotlight Enterprise raises the Missing SQL Performance Counters Alarm shortly after connecting if it detects that the sysperfinfo or sys.dm_os_performance_counters table contains no data.
 
 ### Verify the sys.dm_os_performance_counters table contains no data
 
-Run the following SQL in the appropriate version of SQL Server Management Studio for SQL Server. If this query returns no records, then your SQL Server performance counters are missing. Spotlight on SQL Server will not be able to operate correctly.
+Run the following SQL in the appropriate version of SQL Server Management Studio for SQL Server. If this query returns no records, then your SQL Server performance counters are missing. Spotlight Enterprise will not be able to operate correctly.
 
 select * from sys.dm_os_performance_counters
 

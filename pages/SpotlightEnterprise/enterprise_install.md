@@ -30,7 +30,7 @@ Spotlight during the installation process, if possible.
 If multiple users of a system install Spotlight for use, the additional users must be local administrators.
 
 ## Install
-Run the Spotlight on SQL Server installer. During installation you will be prompted to supply details for the
+Run the Spotlight Enterprise installer. During installation you will be prompted to supply details for the
 Spotlight Client, Spotlight Diagnostic Server and Playback Database.
 
 ### Types of installation
@@ -68,7 +68,7 @@ access on page 16.
 Not
 Selected
 All updates to the Spotlight Diagnostic Server will require a new version and
-installation of Spotlight on SQL Server.
+installation of Spotlight Enterprise.
 Spotlight on SQL Server Enterprise 11.6
 Deployment Guide
 10

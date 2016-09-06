@@ -42,7 +42,7 @@ To enable the collection of network data
 
 ## Troubleshooting
 
-Check the Known Issues section of the Spotlight on SQL Server Release Notes.
+Check the Known Issues section of the Spotlight Enterprise Release Notes.
 
 
 {% include links.html %}

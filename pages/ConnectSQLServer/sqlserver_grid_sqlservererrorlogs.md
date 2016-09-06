@@ -45,9 +45,9 @@ A brief description of the error.
 
 The SQL Server Error Logs grid displays the contents of the error log selected in the list above the grid. As this is a snapshot of the selected error log it is not updated automatically. To update the SQL Server Error Logs grid, click **Refresh**.
 
-For performance reasons, Spotlight on SQL Server limits the number of records that can be viewed in this page. By default, it will show the last 500 records that have been logged. To change the number of records, enter a value in the Max Records field above the SQL Server Error Log grid and then click **Refresh**.
+For performance reasons, Spotlight Enterprise limits the number of records that can be viewed in this page. By default, it will show the last 500 records that have been logged. To change the number of records, enter a value in the Max Records field above the SQL Server Error Log grid and then click **Refresh**.
 
-By default, Spotlight on SQL Server retrieves the first log in the list above the grid, if the log is less than 1MB in size. If the log is larger than 1MB, Spotlight will not retrieve it unless you click **Refresh**. Retrieving large error logs can impose significant load on the server.
+By default, Spotlight Enterprise retrieves the first log in the list above the grid, if the log is less than 1MB in size. If the log is larger than 1MB, Spotlight will not retrieve it unless you click **Refresh**. Retrieving large error logs can impose significant load on the server.
 
 To define and edit the alert rules that Spotlight scans the SQL Server Error Log for, click **Error Log Scanning**.
 

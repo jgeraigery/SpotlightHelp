@@ -9,7 +9,7 @@ folder: ConnectSpotlightDS
 ---
 
 
-The upgrade will be triggered by the installation of a new version of Spotlight on SQL Server if the database schema has changed between versions.
+The upgrade will be triggered by the installation of a new version of Spotlight Enterprise if the database schema has changed between versions.
 This alarm is for information only purposes and clears once the upgrade has finished.
 
 

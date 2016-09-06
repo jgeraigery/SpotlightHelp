@@ -18,7 +18,7 @@ A Deadlock occurs when multiple SQL Server sessions request conflicting locks in
 
 Here we have Session 1 waiting on a lock held by Session 2 and Session 2 waiting on one held by Session 1. In this example, both sessions would wait forever, so SQL Server chooses one of them as the deadlock victim, kills their connection and rolls back their updates so that the other can continue. The user that is rolled back will often receive an error message.
 
-The example above is the simplest type of deadlock, involving only two sessions. However, deadlocks can involve many more sessions, and it can be very difficult to track down the root cause of all the trouble. Spotlight on SQL Server provides some features to make this task easier.
+The example above is the simplest type of deadlock, involving only two sessions. However, deadlocks can involve many more sessions, and it can be very difficult to track down the root cause of all the trouble. Spotlight Enterprise provides some features to make this task easier.
 
 ## When the alarm is raised
 

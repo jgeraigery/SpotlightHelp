@@ -16,16 +16,16 @@ Note also that, if you are running the Diagnostic Server on the machine you are 
 
 ## When this alarm is current, you should:
 
-* Look at the Spotlight on Windows \| Activity drilldown \| Summary page \| Processor Queue Length chart. This will show you how long the Processor Queue Length has been high.
-* Look at the Spotlight on Windows \| Processes drilldown \| Processes page to see which Windows process is consuming the CPU. SQL Server is shown as the process called **sqlservr**
-* Look at the Spotlight on SQL Server \| SQl Activity drilldown \| Summary page to determine how much of the CPU is being consumed by SQL Server.
+* Look at the Windows Server \| Activity drilldown \| Summary page \| Processor Queue Length chart. This will show you how long the Processor Queue Length has been high.
+* Look at the Windows Server \| Processes drilldown \| Processes page to see which Windows process is consuming the CPU. SQL Server is shown as the process called **sqlservr**
+* Look at the SQL Server \| SQl Activity drilldown \| Summary page to determine how much of the CPU is being consumed by SQL Server.
 
-* If you determine from the steps above that SQL Server is consuming most of the CPU, look at the Spotlight on SQL Server \| SQl Activity drilldown \| Sessions page to see which SQL Server users are currently consuming the most CPU.
+* If you determine from the steps above that SQL Server is consuming most of the CPU, look at the SQL Server \| SQl Activity drilldown \| Sessions page to see which SQL Server users are currently consuming the most CPU.
 
   On the Sessions page, select the sessions that have the highest CPU figure to see the exact SQL statement that the user is currently running. If necessary, use the Session Trace sub-tab to see further information about the active sessions.
 
 * Consider upgrading to a faster CPU or adding processors to your server.
 
-* Look at the Spotlight on Windows \| Memory drilldown \| Paging Activity page to see if there is a high paging rate. High paging rate can cause inflated CPU utilization. Adding more memory to the system may overcome the problem.
+* Look at the Windows Server \| Memory drilldown \| Paging Activity page to see if there is a high paging rate. High paging rate can cause inflated CPU utilization. Adding more memory to the system may overcome the problem.
 
 If SQL Server is consuming most of the CPU and your system supports many concurrent users, you might benefit from SQL Server's lightweight pooling option, which causes SQL Server sessions to be scheduled as fibers rather than threads. On some heavily loaded systems this can save a small amount of CPU. Ensure you test this properly, because on some systems it can actually increase SQL Server's CPU demands. This option can be changed from Spotlight's SQL Server Configuration drilldown. Changes to this option do not take effect until SQL Server is stopped and restarted.

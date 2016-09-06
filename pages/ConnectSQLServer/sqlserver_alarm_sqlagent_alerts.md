@@ -1,7 +1,7 @@
 ---
 title: SQL Agent - Alerts Alarm
 last_updated: July 29, 2016
-summary: "The SQL Agent - Alerts alarm is raised when Spotlight on SQL Server detects that at least one SQL Agent alert has occurred in the last few minutes."
+summary: "The SQL Agent - Alerts alarm is raised when Spotlight Enterprise detects that at least one SQL Agent alert has occurred in the last few minutes."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_sqlagent_alerts.html
 id: Home.btnServices.ServiceAlerts.Alarm

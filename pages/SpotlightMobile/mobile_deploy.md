@@ -50,7 +50,7 @@ Sign in to the Spotlight Mobile app with your Spotlight Cloud account. If you ha
 
 ## Spotlight Enterprise components and Spotlight Mobile
 
-A minimal Spotlight on SQL Server deployment consists of a Spotlight Client (to customize Spotlight and view data from monitored systems), a Spotlight Diagnostic Server (to collect data from monitored systems) and a Playback Database (to store recent history). These components are installed with Spotlight on SQL Server.
+A minimal Spotlight Enterprise deployment consists of a Spotlight Client (to customize Spotlight and view data from monitored systems), a Spotlight Diagnostic Server (to collect data from monitored systems) and a Playback Database (to store recent history). These components are installed with Spotlight Enterprise.
 
 ### Spotlight Client
 

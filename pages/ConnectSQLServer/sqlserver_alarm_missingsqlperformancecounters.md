@@ -1,7 +1,7 @@
 ---
 title: ﻿Missing SQL Performance Counters Alarm
 last_updated: July 29, 2016
-summary: "Spotlight on SQL Server uses the SQL Server virtual table sysperfinfo to retrieve data for many of its displays. In some rare cases, this table may not contain information. When this is the case, Spotlight on SQL Server will not be able to collect the data it requires, and will display '0' for many of its metrics. Most obvious will be the Memory icons on the home page, which will show 0 MB of memory used by SQL Server. Also, many of the flows on the home page will show no activity, and many drilldowns will show incomplete information."
+summary: "Spotlight Enterprise uses the SQL Server virtual table sysperfinfo to retrieve data for many of its displays. In some rare cases, this table may not contain information. When this is the case, Spotlight Enterprise will not be able to collect the data it requires, and will display '0' for many of its metrics. Most obvious will be the Memory icons on the Spotlight Overview page, which will show 0 MB of memory used by SQL Server. Also, many of the flows on the home page will show no activity, and many drilldowns will show incomplete information."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_missingsqlperformancecounters.html
 id: missingperformancecounters
@@ -12,7 +12,7 @@ folder: ConnectSQLServer
 ﻿
 
 
-Spotlight on SQL Server raises an informational alarm shortly after connecting if it detects that the sysperfinfo table contains no data.
+Spotlight Enterprise raises an informational alarm shortly after connecting if it detects that the sysperfinfo table contains no data.
 
 You can confirm the existence of this problem by running the following SQL in SQL Server Management Studio for SQL Server 2005 or later:
 
@@ -22,7 +22,7 @@ or by running the following SQL in Query Analyzer for SQL Server 2000:
 
 select * from master..sysperfinfo
 
-If this query returns no records, then your SQL Server performance counters are missing and Spotlight on SQL Server will not be able to operate correctly.
+If this query returns no records, then your SQL Server performance counters are missing and Spotlight Enterprise will not be able to operate correctly.
 
 Sometimes, for a variety of reasons, the SQL Server Performance Monitor counters will not show up as they should. Often, but not always, this problem can be fixed by following these steps:
 

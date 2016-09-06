@@ -18,7 +18,7 @@ Spotlight can monitor SQL Server instances of the following versions:
 * SQL Server 2008 (32-bit and 64-bit)
 * SQL Server 2005 (32-bit and 64-bit)
 
-Spotlight on SQL Server also supports MSDE (2000), SQL Express (2005) and SQL Server 2008 Express Edition. Note that use of these versions to host playback or Spotlight Statistics Repository databases is not supported.
+Spotlight Enterprise also supports MSDE (2000), SQL Express (2005) and SQL Server 2008 Express Edition. Note that use of these versions to host playback or Spotlight Statistics Repository databases is not supported.
 
 Spotlight continues to monitor SQL Server 2000 instances Service Pack 3 or later, however no further support (fixes) will be provided.
 

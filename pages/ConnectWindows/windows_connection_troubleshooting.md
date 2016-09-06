@@ -35,7 +35,7 @@ Verify TCP port 135 is open on the Windows server.
 
 ## Troubleshooting
 
-Check the System Requirements and Known Issues sections of the Spotlight on SQL Server Release Notes.
+Check the System Requirements and Known Issues sections of the Spotlight Enterprise Release Notes.
 
 
 

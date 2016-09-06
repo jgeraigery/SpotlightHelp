@@ -74,7 +74,7 @@ Investigate State of your current Microsoft Cluster Server.
 ### Cluster Services grid
 Displays information about the state of your current Microsoft Cluster Server.
 
-You can view the status of each cluster resource and group, as well as the status of any cluster resources owned by each server (node) in the cluster. Spotlight on SQL Server highlights any unusual conditions such as resources offline, or cluster nodes down.
+You can view the status of each cluster resource and group, as well as the status of any cluster resources owned by each server (node) in the cluster. Spotlight Enterprise highlights any unusual conditions such as resources offline, or cluster nodes down.
 
 You can also perform the following basic cluster control operations on some resources by right-clicking the grid and selecting an option from the shortcut menu. You must be a member of the Spotlight Diagnostic Administrators group to perform these operations.
 

@@ -13,11 +13,11 @@ As users make modifications to SQL Server databases, SQL Server records these ch
 
 When a user transaction is committed (either explicitly via a COMMIT statement, or implicitly), SQL Server writes all changes from the Log Cache out to the log files on disk. This process is termed a log flush. The user that issued the commit must wait until the log flush is complete before they can continue. If the log flush takes a long time, this will degrade the user's response time.
 
-Note that Spotlight on SQL Server checks the log flush wait time for the last log flush performed for each database. If a database has a slow log flush, and then has no update activity (and therefore no more log flushes) for a long time, Spotlight on SQL Server will still continue to report this as an alarm until another log flush is performed for that database.
+Note that Spotlight Enterprise checks the log flush wait time for the last log flush performed for each database. If a database has a slow log flush, and then has no update activity (and therefore no more log flushes) for a long time, Spotlight Enterprise will still continue to report this as an alarm until another log flush is performed for that database.
 
 ## When the alarm is raised
 
-* On the SQL Server \| Databases Drilldown, select the Summary tab to review the Log Flush Wait Time counter in the Database History graph. The database with the high graph values is the one experiencing the problem. If a database has a consistently high value that never changes, run SQL command CHECKPOINT on that database to force another log flush and check the value in Spotlight on SQL Server again.
+* On the SQL Server \| Databases Drilldown \| Summary page review the Log Flush Wait Time counter in the Database History graph. The database with the high graph values is the one experiencing the problem. If a database has a consistently high value that never changes, run SQL command CHECKPOINT on that database to force another log flush and check the value in Spotlight Enterprise again.
 * Select the Transaction Logs tab on the SQL Server \| Databases Drilldown to find the disks on which the log for this database resides.
 * For the connection to the Windows server host, select the Logical Disk Activity page on the Windows Server \| Disks Drilldown to check I/O service rates for the disks in question.
 * Consider moving the log files to disks that support fast write activity (for example, a fast RAID controller with write-back caching enabled).

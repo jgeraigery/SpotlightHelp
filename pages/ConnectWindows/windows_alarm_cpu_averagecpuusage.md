@@ -14,10 +14,10 @@ Note that since this is a Windows-based alarm, it can include CPU that was consu
 
 When this alarm is current, you should:
 
-* Look at the Spotlight on SQL Server \| Diagnostics drilldown \| CPU page to see possible causes of high CPU usage.
-* Look at the Spotlight on SQL Server \| SQL Activity drilldown \| Sessions page to see which SQL Server users are currently
+* Look at the SQL Server \| Diagnostics drilldown \| CPU page to see possible causes of high CPU usage.
+* Look at the SQL Server \| SQL Activity drilldown \| Sessions page to see which SQL Server users are currently
  executing SQL, and to determine the exact SQL that is running. If necessary, use the Session Trace sub-tab on active sessions.
-* Look at the Spotlight on Windows \| Processes drilldown \| Processes page to see which Windows process is consuming the CPU.
-* Look at the Spotlight on Windows \| Memory drilldown \| Paging Activity page to see if there
+* Look at the Windows Server \| Processes drilldown \| Processes page to see which Windows process is consuming the CPU.
+* Look at the Windows Server \| Memory drilldown \| Paging Activity page to see if there
   is a high paging rate. High paging rate can cause inflated CPU utilization. If this is the case, adding more memory to the system may overcome the problem.
 * Consider upgrading to a faster CPU or adding processors to your server.

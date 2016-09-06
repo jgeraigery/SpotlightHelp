@@ -15,13 +15,13 @@ Resource | Description
 CPU | This resource measures the rate of CPU time needed to parse, compile, and execute each statement in the query. Select this resource to inquire into any strain the SQL Server instance is putting upon the CPU.
 Duration | Select this resource to analyze the time taken to parse, compile and execute a given query.
 Reads | This resource measures the number of pages read per second: from the data cache and from disk. A high number of page reads may indicate that the SQL Server is executing inefficient queries. <br><br>SQL Server 2012 and above differentiates physical reads from logical reads.
- Writes | This resource measures the number of physical disk writes performed per second. A high number of page writes may indicate that the SQL Server is executing inefficient queries.
+Writes | This resource measures the number of physical disk writes performed per second. A high number of page writes may indicate that the SQL Server is executing inefficient queries.
 
  TIP: Select the time frame to investigate: the last 15 minutes, the last day... Select Custom to enter a start time and end time.
 
 ## 2. Workload
 
- Drilldown on the workload menu. Select the item to analyze on the grid and charts. The basic workload menu can be expanded to select a specific database, application or other workload.
+Drilldown on the workload menu. Select the item to analyze on the grid and charts. The basic workload menu can be expanded to select a specific database, application or other workload.
 
 Workload | Description
 ---------|------------
@@ -52,8 +52,6 @@ Statement | Analyze which SQL statement is contributing most to the workload of 
 
 #### CPU / Duration
   Where the selected resource is CPU or Duration, the grid shows the time (ms) spent by the selected workload over the selected time frame on this resource.
-
- The % Total column gives the proportion of time spent on the selected workload compared to other workloads of the same type.
 
  The % CPU column is scaled to represent the percent relative to the available CPU time. The values are small as the available CPU time in milliseconds over an hour (the period selected) would be 1000 * 3600 * the number of CPUs.
 

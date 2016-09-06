@@ -55,6 +55,6 @@ Verify TCP port 135 is open on the Windows server host.
 
  If Spotlight cannot connect to the SQL Server instance then use another tool such as Microsoft's SQL Server Management Studio or sqlcmd to connect to the SQL Server instance. Is the issue with Spotlight's ability to connect to the SQL Server instance or with any any/every tool's ability to connect to the SQL Server instance?
 
-Check the System Requirements and Known Issues sections of the Spotlight on SQL Server Release Notes for further assistance.
+Check the System Requirements and Known Issues sections of the Spotlight Enterprise Release Notes for further assistance.
 
 {% include links.html %}
