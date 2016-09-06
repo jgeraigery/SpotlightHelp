@@ -100,7 +100,7 @@ Select a disk in the Physical Disks grid to see information about the associated
 Investigate The growth of files you specified in the Files Options
 
 ### File Sizes grid 
-Shows information on the size of files. For more information, see Windows Server | Home Page | Files Panel.
+Shows information on the size of files. For more information, see Windows Server | Spotlight Overview page | Files Panel.
 
 
 

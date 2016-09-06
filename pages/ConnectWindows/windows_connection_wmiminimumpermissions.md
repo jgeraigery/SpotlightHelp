@@ -19,7 +19,7 @@ The OpenSessions collection sends a list of the open Windows network sessions to
 
 The OpenSessions collection is used in:
 
-* The Windows Server \| Home Page \| Network Panel \| Open Sessions count.
+* The Windows Server \| Spotlight Overview page \| Network Panel \| Open Sessions count.
 * The Windows Server \| Network Drilldown \| Sessions page.
 
 Spotlight does not alarm on this data.

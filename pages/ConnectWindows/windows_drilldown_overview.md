@@ -20,6 +20,6 @@ The Spotlight Overview page provides a unique view of the activity of the system
 {% include imageClient.html file="pane_home_windows.png" alt="Spotlight Overview page for SQL Azure" %}
 
 
-For a Microsoft Cluster Server (MSCS) the home page shows information for the current node in the cluster. Drilldowns for the monitored Operating System correlate with the physical machine operating as the current node in the cluster.
+For a Microsoft Cluster Server (MSCS) the Spotlight Overview page shows information for the current node in the cluster. Drilldowns for the monitored Operating System correlate with the physical machine operating as the current node in the cluster.
 
 {% include links.html %}

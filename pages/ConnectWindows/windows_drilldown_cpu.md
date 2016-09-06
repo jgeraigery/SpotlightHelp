@@ -86,7 +86,7 @@ Show the average queue time for the virtual machine waiting for CPU to become av
 
 The average queue time should remain under 60,000ns. If the average queue time exceeds 60,000ns then an alarm is raised. A high Hyper-V CPU wait time per dispatch alarm is raised if the average queue time exceeds 100,000ns.
 
-The current value for this metric is displayed on the Windows Server \| Home Page \| CPU Panel Virtualization Overhead control.
+The current value for this metric is displayed on the Windows Server \| Spotlight Overview page \| CPU Panel \| Virtualization Overhead control.
 
 ### Host Processor Usage
 Show the load on the logical processor and virtual processor.

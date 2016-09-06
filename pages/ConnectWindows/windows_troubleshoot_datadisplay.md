@@ -16,11 +16,11 @@ In order to execute actions on the Windows Server (like kill a session) from the
 
 Ensure necessary components are enabled on the Windows Server (SQL Server host) to ensure correct data display and collection.
 
-### Windows Server \| Home Page \| Disks Panel and Windows Server \| Disks Drilldown
+### Windows Server \| Spotlight Overview page \| Disks Panel and Windows Server \| Disks Drilldown
 
 If disk counters are disabled on the monitored Windows Server you may notice the following:
 
-* The Spotlight home page Disks Panel and Disks Drilldown show no data.
+* The Spotlight Overview page Disks panel and Disks drilldown show no data.
 * Various I/O charts on the SQL I/O Activity tab and Windows Activities drilldowns, and disk graphs on the Databases drilldown show no data.
 * Errors executing "LogicalDisk" or "PagingFile" queries.
 

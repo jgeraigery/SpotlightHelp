@@ -11,7 +11,7 @@ folder: ConnectWindows
 
 The average queue time should remain under 60,000ns. If the average queue time exceeds 60,000ns then an alarm is raised. A high alarm is raised if the average queue time exceeds 100,000ns.
 
-The current metric value is displayed on the Windows Server Home Page Virtualization Overhead control.
+The current metric value is displayed on the Windows Server \| Spotlight Overview page \| Virtualization Overhead control.
 
 
 

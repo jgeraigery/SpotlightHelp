@@ -9,7 +9,7 @@ folder: ConnectWindows
 ---
 
 
-If there are multiple network cards, right-click the gauge and select **Select network card** to choose which one you want to display on the home page.
+If there are multiple network cards, right-click the gauge and select **Select network card** to choose which one you want to display on the Spotlight Overview page.
 
 Alarms can be raised in this panel for all network cards in the machine, not only the card displayed.
 
