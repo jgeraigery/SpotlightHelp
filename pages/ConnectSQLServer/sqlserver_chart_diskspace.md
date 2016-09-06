@@ -47,7 +47,7 @@ You can choose to display the chart in either megabytes (MB) or percentage via t
 
 <note type="note">The space shown for SQL Data and Log files refers to files in this instance of SQL Server only. If there are multiple SQL Server instances on this server, the data/log files for other instances will be included in the **Non-SQL Files** figure.</note>
 
-<note type="note">If the Windows server being monitored does not have Logical Disk performance counters enabled, the **Non-SQL Files** component of this chart will always be zero. If disk counters are not enabled, the Disk Counters Disabled alarm will be shown on the home page. To enable disk counters, run the Windows command diskperf -y and restart the server.</note>
+<note type="note">If the Windows server being monitored does not have Logical Disk performance counters enabled, the **Non-SQL Files** component of this chart will always be zero. If disk counters are not enabled, the Disk Counters Disabled alarm will be shown on the Spotlight Overview page. To enable disk counters, run the Windows command diskperf -y and restart the server.</note>
 
 
 {% include links.html %}

@@ -19,7 +19,7 @@ When this alarm is raised, you should:
 
 To configure the Backup - Days since Last Full Backup alarm
 
-*  On the Spotlight home page, right-click the **Databases** button and select **Alarm Settings**
+*  On the Spotlight Overview page, right-click the **Databases** button and select **Alarm Settings**
 *  Select **Backup - Days since Last Full Backup**
 *  Select **Override the default settings for the alarm**
 

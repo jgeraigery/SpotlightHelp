@@ -24,7 +24,7 @@ When this alarm is current, you should:
 
 To exclude certain databases from the Backup - Minutes Since Last Log Backup Alarm:
 
-1.  On the Spotlight home page, right-click the Databases button and select **Alarm Settings**.
+1.  On the Spotlight Overview page, right-click the Databases button and select **Alarm Settings**.
 2.  Select **Backup - Minutes Since Last Log Backup**.
 3.  Select **Override the default settings for the alarm**.
 4.  In the lower right pane, in **Do not raise an alarm for certain values**, click the **values** link to add the name of the database you want excluded.

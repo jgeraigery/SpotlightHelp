@@ -22,7 +22,7 @@ folder: ConnectSQLAzure
 
 Icon | Name | Description
 -----|------|------------
-{% include inline_imageClient.html file="tb_drilldown_home.png" alt="Overview" %} | Overview Page | The Spotlight Home Page highlights obvious bottlenecks and problem areas. Statistics and flows are updated in real time.  
+{% include inline_imageClient.html file="tb_drilldown_home.png" alt="Overview" %} | Overview Page | The Spotlight Overview page highlights obvious bottlenecks and problem areas. Statistics and flows are updated in real time.  
 {% include inline_imageClient.html file="tb_drilldown_sqlactivity.png" alt="SQL Activity" %} | SQL Activity Drilldown | Drilldown on current and recent activity.
 {% include inline_imageClient.html file="tb_drilldown_databases.png" alt="Databases" %} | Databases Drilldown | Drilldown on the SQL Azure database, tables, and indexes.  
 

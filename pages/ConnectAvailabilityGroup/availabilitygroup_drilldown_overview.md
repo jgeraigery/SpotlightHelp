@@ -64,7 +64,7 @@ Show data for each node in the Availability Group.
 * One node takes the Primary role. Usually all other nodes have a Secondary role. If a node's role is Resolving then that node may be down.
 * The failover mode for each node is configured by the DBA in the SQL Server Management Studio.
 * When the failover mode is set to manual an accompanying icon highlights that manual failover is required. When no failover is available this icon is red.
-* Synchronization Health is indicative of the health of the node. A warning is shown for a partially healthy node. An error is shown for an unhealthy node. For the health of the Availability Group as a whole see Synchronization Health at the top of the Home Page.
+* Synchronization Health is indicative of the health of the node. A warning is shown for a partially healthy node. An error is shown for an unhealthy node. For the health of the Availability Group as a whole see Synchronization Health at the top of the Spotlight Overview page.
 * The availability mode is Synchronous or Asynchronous Commit as configured by the DBA in the SQL Server Management Studio.
 * The node with the primary role is always Connected. Nodes with a secondary role in a Connected state are available for connection. Nodes with a secondary role in a Disconnected state are not available for connection.
 * The backup priority is a numeric value between 1 and 100 configured by the DBA in the SQL Server Management Studio.

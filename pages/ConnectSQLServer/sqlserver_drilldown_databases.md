@@ -289,7 +289,7 @@ Shows each logical disk on the server, and allocates the space on each disk into
 * To switch between Disk Space Utilization by megabytes and Disk Space Utilization by percent, click the arrow next to the chart name.
 * Select one or more of the databases in the Databases grid to restrict the Data and Log figures to only the space used by those databases.
 * The space shown for SQL Data and Log files refers to files in this instance of SQL Server only.  If there are multiple SQL Server instances on this server, the data/log files for other instances will be included in the Non-SQL Files figure.
-* If the Windows server being monitored does not have Logical Disk performance counters enabled, the Non-SQL Files component of this chart will always be zero. If disk counters are not enabled, the Disk Counters Disabled alarm will be shown on the home page. To enable disk counters, run the Windows command diskperf -y and restart the server.  
+* If the Windows server being monitored does not have Logical Disk performance counters enabled, the Non-SQL Files component of this chart will always be zero. If disk counters are not enabled, the Disk Counters Disabled alarm will be shown on the Spotlight Overview page. To enable disk counters, run the Windows command diskperf -y and restart the server.  
 
 
 ## LiteSpeed backups page
