@@ -11,16 +11,16 @@ folder: ConnectAvailabilityGroup
 
 ## Alarms
 
-Alarm | Collection
+Alarm | Collection Name
 ------|-----------
 Availability Group - Failover Availability | Group States
 Availability Group - Failed Over | Availability Group Failover Detection
 Availability Group - Quorum Failure Imminent | Group States
 Availability Group - Synchronization Health | Availability Group States
 
-## Availability Group Connection display
+## Spotlight Overview page
 
-Component | Collection
+Component | Collection Name
 ----------|-----------
 Status | N/A   
 Synchronization Health | Availability Group States   

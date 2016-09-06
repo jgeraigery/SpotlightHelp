@@ -1,7 +1,7 @@
 ---
 title: VMware collections
 tags: [collections]
-summary: "The following collections are used for the displays."
+summary: "The following collections are used for the VMware displays."
 sidebar: c_vmware_sidebar
 permalink: vmware_collections.html
 folder: ConnectVMware
@@ -10,14 +10,14 @@ folder: ConnectVMware
 
 ## Alarms
 
-Component | Description
+Alarm     | Collection Name
 ----------|----------------
 VMware - Overhead Alarm | Virtual Machine Usage
 
 
-## VMware Connection display
+## Spotlight Overview page
 
-Component | Description
+Component | Collection Name
 ----------|----------------
 Virtual Machines | Virtual Machines
 Version | VMware Version

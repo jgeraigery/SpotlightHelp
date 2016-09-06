@@ -19,7 +19,7 @@ Cubes - Unprocessed Alarm | SSAS - Cube List
 
 ## Spotlight Overview page
 
-### Connections Panel
+### Connections panel
 
 Component | Collection Name
 ----------|----------------
@@ -32,7 +32,7 @@ Data Flow: Queries From Cache Direct | SSAS - Storage Engine Query
 Data Flow: Queries from Cache Filtered | SSAS - Storage Engine Query
 Data Flow: Queries From File | SSAS - Storage Engine Query
 
-### Memory Panel
+### Memory panel
 
 Component | Collection Name
 ----------|----------------
@@ -46,11 +46,11 @@ Data Flow: Temp File Rows Written | SSAS - Proc Aggregations
 Data Flow: Rows Read | SSAS - Processing
 Data Flow: Rows Written | SSAS - Processing
 
-### Storage Panel
+### Storage panel
 
 Component | Collection Name
-----------|----------------
- | SSAS - Database Summary
+----------|-----------------
+*All* | SSAS - Database Summary
 
 
 ## SQL Activity drilldown
@@ -84,7 +84,7 @@ Cubes page | SSAS - Cube List
 
 Page | Collection Name
 ----------|----------------
- | SSAS - Server Properties
+*All* | SSAS - Server Properties
 
 
 

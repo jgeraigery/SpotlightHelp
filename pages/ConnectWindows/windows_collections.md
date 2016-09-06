@@ -11,7 +11,7 @@ folder: ConnectWindows
 
 ## Alarms
 
-Component | Description
+Alarm | Collection Name
 ----------|----------------
 CPU - Average CPU Usage Alarm | Processors
 CPU - Individual CPU Usage Alarm | Processors  
@@ -30,68 +30,68 @@ VMware - Overhead Alarm | Virtual Machine Usage
 
 
 
-## Spotlight Overview Page
+## Spotlight Overview page
 
-### Network Panel
+### Network panel
 
-Component | Description
+Component | Collection Name
 ----------|----------------
  | Network
 Open Sessions | Open Sessions
 Data Flows | Network
 
 
-### CPU Panel
+### CPU panel
 
-Component | Description
+Component | Collection Name | Notes
 ----------|------------
-CPUs | Processor Details   
-Speed | Processor Details   
-Type | OS and CPU short version
-Uptime System | Performance   
-Queue Length | System Performance   
-Virtualization Overhead (Hyper-V) | Hyper-V - Virtual Machine Data  
+CPUs | Processor Details  |
+Speed | Processor Details  |
+Type | OS and CPU short version | Non configurable
+Uptime System | Performance |  
+Queue Length | System Performance |  
+Virtualization Overhead (Hyper-V) | Hyper-V - Virtual Machine Data |
 
 
-### Memory Panel
+### Memory panel
 
-Component | Description
+Component | Collection Name
 ----------|------------
- | Memory
+*All* | Memory
 
 
-### Disks Panel
+### Disks panel
 
- Component | Description
+ Component | Collection Name
  ----------|------------
-  | File Sizes
-Data Flows | Logical Disks
+ *All* | File Sizes
+*Data Flows* | Logical Disks
 
 
 ### System Panel
 
- Component | Description
- ----------|------------
-  | Operating System   
-OS | OS and CPU short version
+ Component | Collection Name | Notes
+ ----------|-----------------|-----
+*General*  | Operating System   
+OS | OS and CPU short version | Non configurable
 
 
-## Processes Drilldown  
+## Processes drilldown  
 
- Page, Grid, Chart | Description
- ----------|------------
-Processes page | Processes    
-Processes page, Terminate Process | Kill Process
-Processes \| Process Threads page | Threads
-Services page | Services   
-Services page, Start/Stop/Pause Services | Start/Stop Services
+Page, grid, chart | Collection Name | Notes
+------------------|-----------------|------
+Processes page | Processes  |  
+Processes page, Terminate Process | Kill Process | Non configurable
+Processes \| Process Threads page | Threads | Non configurable
+Services page | Services |
+Services page, Start/Stop/Pause Services | Start/Stop Services | Non configurable
 Services \| Service Dependencies page | Service Dependencies   
 System Drivers page | System Drivers
 
 
-## CPU Drilldown  
+## CPU drilldown  
 
- Page, Grid, Chart | Description
+Page, grid, chart | Collection Name
  ----------|------------
 CPus page | Processors   
 CPUs \| Server Work Queues chart | Server Work Queues   
@@ -103,9 +103,9 @@ Virtual CPU (VMware) | Virtual Machine Usage
 Virtual CPU (Hyper-V) |  Hyper-V - Hypervisor Logical Processor<br>Hyper-V - Hypervisor Virtual Processor<br>Hyper-V - Virtual Machine Data
 
 
-## Memory Drilldown  
+## Memory drilldown  
 
- Page, Grid, Chart | Description
+Page, grid, chart | Collection Name
  ----------|------------
  Summary page | Memory    
  Paging Activity \| Page File Transfers chart | Memory    
@@ -118,19 +118,19 @@ Virtual CPU (Hyper-V) |  Hyper-V - Hypervisor Logical Processor<br>Hyper-V - Hyp
  Virtualized Memory (Hyper-V) | Hyper-V - Dynamic Memory VM
 
 
-## Disks Drilldown  
+## Disks drilldown  
 
-Page, Grid, Chart | Description
-----------|------------
- Logical Disk Activity page | Logical Disks   
- Physical Disk Activity page | Physical Disks   
- Disk Summary \| Physical Disks grid | Physical Disk Drive   
- Disk Summary \| Logical Disks grid | Logical Disk Drive<br>The configurable Logical Disk Drive collection is no longer used.
- File Sizes page | File Sizes
+Page, grid, chart | Collection Name | Notes
+------------------|-----------------|------
+ Logical Disk Activity page | Logical Disks |  
+ Physical Disk Activity page | Physical Disks |  
+ Disk Summary \| Physical Disks grid | Physical Disk Drive |  
+ Disk Summary \| Logical Disks grid | Logical Disk Drive | Non configurable. The configurable Logical Disk Drive collection is no longer used.
+ File Sizes page | File Sizes |
 
-## Network Drilldown  
+## Network drilldown  
 
-Page, Grid, Chart | Description
+Page, grid, chart | Collection Name
 ----------|------------
  Network page | Network    
  TCP IP \|TCP Segments chart | Network TCP    
@@ -144,29 +144,29 @@ Page, Grid, Chart | Description
  Virtualized Network (Hyper-V) | Hyper-V - Virtual Network Adapter
 
 
-## Event Logs Drilldown  
+## Event Logs drilldown  
 
-Page, Grid, Chart | Description
-----------|------------
-  | Event Logs    
+Page, grid, chart | Collection Name | Notes
+------------------|-----------------|------
+*All* | Event Logs | Non configurable   
 
 
-## Activity Drilldown  
+## Activity drilldown  
 
-Page, Grid, Chart | Description
+Page, grid, chart | Collection Name
 ----------|------------
 Summary page | Network   
-Summary Page | Processors   
+Summary page | Processors   
 Summary page | System Performance   
 Custom Counters page | Custom Counters - Windows
 
 
 
-## Support Services \| DTC
+## SQL Server drilldown \| Support Services \| DTC
 
-Page, Grid, Chart | Description
+Page, grid, chart | Collection Name
 ----------|------------
- | DTC Information
+*All* | DTC Information
 
 
 {% include links.html %}

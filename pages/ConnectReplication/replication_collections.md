@@ -13,15 +13,15 @@ folder: ConnectReplication
 
 Alarm | Collection Name
 ------|-----------------
-Replication - Distribution Agent Failure (Replication - Agent Failure Alarms) | Replication Agents
-Replication - Log Reader Agent Failure (Replication - Agent Failure Alarms) | Replication Agents
-Replication - Merge Agent Failure (Replication - Agent Failure Alarms) | Replication Agents
-Replication - Miscellaneous Agent Failure (Replication - Agent Failure Alarms) | Replication Agents
-Replication - Queue Reader Agent Failure (Replication - Agent Failure Alarms) | Replication Agents
-Replication - Snapshot Agent Failure (Replication - Agent Failure Alarms) | Replication Agents
+Replication - Distribution Agent Failure | Replication Agents
+Replication - Log Reader Agent Failure | Replication Agents
+Replication - Merge Agent Failure | Replication Agents
+Replication - Miscellaneous Agent Failure | Replication Agents
+Replication - Queue Reader Agent Failure | Replication Agents
+Replication - Snapshot Agent Failure | Replication Agents
 Replication - Estimated Time To Apply Alarm | Replication Subscriptions
-Replication - Distribution Latency (Replication - Latency Alarms) | Replication Agents
-Replication - Log Reader Latency (Replication - Latency Alarms) | Replication Agents
+Replication - Distribution Latency | Replication Agents
+Replication - Log Reader Latency | Replication Agents
 Replication - Publication Expiration Alarm | Replication Publications
 Replication - Publication Failure Alarm | Replication Publications
 Replication - Publisher Failure Alarm | Replication Publishers
@@ -30,20 +30,20 @@ Replication - Undistributed Commands Alarm | Replication Subscriptions
 
 ## Spotlight Overview page
 
-### Publishers Panel
+### Publishers panel
 
 Component | Collection Name
 ----------|----------------
 Publishers | Replication Publishers   
 Publications | Replication Publications
 
-### Distributor Panel
+### Distributor panel
 
 Component | Collection Name
 ----------|----------------
-Data flows: All | Replication Agent Summary
+Data flows: *All* | Replication Agent Summary
 
-### Subscribers Panel
+### Subscribers panel
 
 Component | Collection Name
 ----------|----------------
@@ -51,22 +51,22 @@ Subscribers | Replication Subscribers
 Subscriptions | Replication Subscriptions   
 Max Unidst. Commands | Replication Subscriptions   
 
-### System Panel
+### System panel
 
-Component | Collection Name
-----------|----------------
-Version | Replication Version
+Component | Collection Name | Notes
+----------|-----------------|------
+Version | Replication Version | Non configurable
 
 
 ## Activity drilldown
 
-Page | Collection Name
------|----------------
-Publications page | Replication Publications   
-Subscriptions page | Replication Subscriptions   
-Agents \| Performance chart | Replication Agents   
-Agents \| Sessions grid | Replication Agent Sessions
-Agents \| Top 200 Actions grid | Replication Agent Session Actions
+Page, chart, grid | Collection Name | Notes
+------------------|-----------------|------
+Publications page | Replication Publications |
+Subscriptions page | Replication Subscriptions |
+Agents \| Performance chart | Replication Agents |
+Agents \| Sessions grid | Replication Agent Sessions | Non configurable
+Agents \| Top 200 Actions grid | Replication Agent Session Actions | Non configurable 
 
 
 
