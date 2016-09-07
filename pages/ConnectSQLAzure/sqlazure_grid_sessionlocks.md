@@ -10,8 +10,6 @@ folder: ConnectSQLAzure
 
 
 
-If a lock is one on which this session is waiting, the Status column will show it as being blocked. This column also highlights locks that are blocking other sessions.
-
 The Status column shows whether the locks have been **granted** to the session, or whether they are currently **blocked** and waiting on another session.
 
 The details in this grid are:
@@ -30,7 +28,7 @@ The status of the lock (Blocked, Blocking, or blank (Granted)).
 
 ## Count
 
-The number of locks of the type specified in the Lock Type column against the database specified in the Database column from the SPID specified in the SPID column.<
+The number of locks of the type specified in the Lock Type column against the database specified in the Database column from the SPID specified in the SPID column.
 
 ## Index
 

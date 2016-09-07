@@ -26,6 +26,30 @@ entries:
       url: /sqlazure_connect_details.html
       output: web, pdf
 
+  - title: Alarms
+    output: web, pdf
+    folderitems:
+
+    - title: Monitored Server - SQL Azure Alarm Action Failure
+      url: /sqlazure_alarm_monitoredserver_alarmactionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - SQL Azure Alarm Evaluation Failure
+      url: /sqlazure_alarm_monitoredserver_alarmevaluationfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - SQL Azure Collection Execution Failure
+      url: /sqlazure_alarm_monitoredserver_collectionexecutionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - SQL Azure Connection Failure
+      url: /sqlazure_alarm_monitoredserver_connectionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - SQL Azure Planned Outage
+      url: /sqlazure_alarm_monitoredserver_plannedoutage.html
+      output: web, pdf
+
   - title: Spotlight Overview page
     output: web, pdf
     folderitems:
@@ -139,21 +163,26 @@ entries:
       url: /sqlazure_drilldown_sqlactivity.html
       output: web, pdf
 
-    - title: Sessions grid
-      url: /sqlazure_grid_sessions.html
-      output: web, pdf
+      subfolders:
+      - title: Sessions page
+        output: web
+        subfolderitems:
 
-    - title: SQL
-      url: /sqlazure_detail_sql.html
-      output: web, pdf
+        - title: Sessions grid
+          url: /sqlazure_grid_sessions.html
+          output: web, pdf
 
-    - title: Plan
-      url: /sqlazure_detail_plan.html
-      output: web, pdf
+        - title: SQL
+          url: /sqlazure_detail_sql.html
+          output: web, pdf
 
-    - title: Session Locks
-      url: /sqlazure_grid_sessionlocks.html
-      output: web, pdf
+        - title: Plan
+          url: /sqlazure_detail_plan.html
+          output: web, pdf
+
+        - title: Session Locks
+          url: /sqlazure_grid_sessionlocks.html
+          output: web, pdf
 
   - title: Databases drilldown
     output: web, pdf
@@ -163,25 +192,38 @@ entries:
       url: /sqlazure_drilldown_databases.html
       output: web, pdf
 
-    - title: Database Space chart
-      url: /sqlazure_chart_databasespace.html
-      output: web, pdf
+      subfolders:
+      - title: Summary page
+        output: web
+        subfolderitems:
 
-    - title: Tables grid
-      url: /sqlazure_grid_tables.html
-      output: web, pdf
+        - title: Database Space chart
+          url: /sqlazure_chart_databasespace.html
+          output: web, pdf
 
-    - title: Table Space chart
-      url: /sqlazure_chart_tablespace.html
-      output: web, pdf
+      - title: Tables page
+        output: web
+        subfolderitems:
 
-    - title: Table Growth chart
-      url: /sqlazure_chart_tablegrowth.html
-      output: web, pdf
+        - title: Tables grid
+          url: /sqlazure_grid_tables.html
+          output: web, pdf
 
-    - title: Indexes grid
-      url: /sqlazure_grid_indexes.html
-      output: web, pdf
+        - title: Table Space chart
+          url: /sqlazure_chart_tablespace.html
+          output: web, pdf
+
+        - title: Table Growth chart
+          url: /sqlazure_chart_tablegrowth.html
+          output: web, pdf
+
+      - title: Indexes page
+        output: web
+        subfolderitems:
+
+        - title: Indexes grid
+          url: /sqlazure_grid_indexes.html
+          output: web, pdf
 
   - title: Collections
     output: web, pdf
