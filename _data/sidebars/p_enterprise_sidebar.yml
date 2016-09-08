@@ -145,6 +145,10 @@ entries:
           url: /enterprise_gridscontent.html
           output: web, pdf
 
+        - title: Properties
+          url: /enterprise_gridsproperties.html
+          output: web, pdf
+
       - title: Spotlight charts
         output: web
         subfolderitems:
@@ -167,6 +171,14 @@ entries:
 
         - title: Compare - Select time range (Baselining)
           url: /enterprise_chartsbaselining.html
+          output: web, pdf
+
+        - title: Properties (Chart)
+          url: /enterprise_chartsproperties.html
+          output: web, pdf
+
+        - title: Properties (Chart filters)
+          url: /enterprise_chartsproperties_filter.html
           output: web, pdf
 
     - title: Playback

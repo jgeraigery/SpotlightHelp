@@ -1,13 +1,15 @@
 ---
 title: Configure Error Log Entries
 tags: [configure_monitoring]
-summary: "Spotlight can be configured to scan the SQL Server error log for matching entries. Use this screen to enable error log scanning and define the log entry text for Spotlight to match."
+summary: "Configure Spotlight to scan the SQL Server error log for matching entries."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfg_errorlogentries.html
 folder: SpotlightEnterprise
 ---
 
-If Spotlight finds a match the Error Log - Error Count Alarm is raised on the SQL Server \| Overview Page \| Background Processes Panel \| Error Log button. More information on the error log item raised is available from the SQL Server \| Error Log Drilldown
+
+
+Matched entries raise the Error Log - Error Count Alarm on the SQL Server \| Overview Page \| Background Processes Panel \| Error Log button. More information on the matched entry is available from the SQL Server \| Error Log Drilldown
 
 {% include note.html content="Spotlight scans the error logs at the configured frequency. If you make changes to the alert rules it may take some time for changes to take effect. You can change the frequency via Configure \| Scheduling." %}
 
@@ -16,8 +18,7 @@ If Spotlight finds a match the Error Log - Error Count Alarm is raised on the SQ
 
 Click Configure \| Error Log Entries.
 
-TIP: To open this screen with a connection pre-selected, from the SQL Server \| Overview Page click Error Log, or from the SQL Server \| Error Log Drilldown click Error Log Entries.
-
+{% include tip.html content="To open this screen with a connection pre-selected, from the SQL Server \| Overview Page click Error Log, or from the SQL Server \| Error Log Drilldown click Error Log Entries." %}
 
 ## Select template or connection to configure
 
@@ -75,7 +76,16 @@ Optionally, apply this configuration to other connections.
 
 ### Save to Template  
 
-Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to Delete or Rename the template. For more information on Templates, see Configuration templates.
+Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to **Delete** or **Rename** the template. For more information on Templates, see Configuration templates.
 
+## Close the dialog
+
+### OK
+
+Save the Error Log Entries configuration for the selected connection or template.
+
+### Cancel
+
+Discard changes to this screen.
 
 {% include links.html %}

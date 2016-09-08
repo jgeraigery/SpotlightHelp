@@ -54,13 +54,13 @@ If a connection is deleted, data for the deleted connection is stored in the Spo
 * Before you change the scheduling configurations you may like to backup the current schedules. You can do this by backing up the \\Agent\\Conf folder in the Spotlight Diagnostic Server installation folder.
 * The schedules of some collections cannot be modified.
 
-The following collections are used for displays (alarms, home page components and drilldowns).
+The following collections are used for displays (alarms, Spotlight Overview page components and drilldowns).
 
 
 ## Note:
 
 Background collection schedules (collected when no Spotlight client is displaying that collection) are configurable unless otherwise stated. Collections with Cfg=N are non configurable.
-Some collections are used for multiple displays (home page components and drilldowns). Modifying a collection schedule may impact more than just one display.
+Some collections are used for multiple displays (Spotlight Overview page components and drilldowns). Modifying a collection schedule may impact more than just one display.
 To configure the collection schedule, see Configure | Scheduling.
 Data collected by background collection schedules is stored in the Playback Database.
 For collections specific to reporting, see Spotlight collections for Reporting and Trending
@@ -72,7 +72,7 @@ The following collections are used for Reporting and Trending. Data is stored in
  Note:
 
 To view / change the rate of data collection, see Configure | Scheduling. Collections are configurable unless otherwise stated. Collections with Cfg=N are non configurable.
-Some collections used for Reporting and Trending are also used for displays (alarms, home page components and drilldowns). Collections for Reporting and Trending are performed entirely independently of the same collections that run in the foreground / background.
+Some collections used for Reporting and Trending are also used for displays (alarms, Spotlight Overview page components and drilldowns). Collections for Reporting and Trending are performed entirely independently of the same collections that run in the foreground / background.
 The SQL code is available for most SQL Server collections. For more information, see Spotlight SQL query scripts.  
 
 

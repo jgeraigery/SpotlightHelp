@@ -12,7 +12,7 @@ folder: SpotlightEnterprise
 
 
 
-## Open this screen from the Spotlight Client
+## Configure SQL Analysis from the Spotlight Client
 
 Click Configure \| SQL Analysis
 
@@ -26,7 +26,7 @@ Select the SQL Server connection from the list of available options. Spotlight w
 Alternatively, select a template to configure. The templates you have previously saved for SQL Analysis configuration are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see Configuration templates.
 
 
-## Enable SQL Analysis or use the factory settings
+## Override or use the factory settings
 
 ### Override the factory settings
 

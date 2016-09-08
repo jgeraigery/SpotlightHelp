@@ -8,18 +8,17 @@ folder: SpotlightEnterprise
 
 
 
-## Open this screen from the Spotlight Client
+## Enable debug logging from the Spotlight Client
 
 1. Click **Configure \| Spotlight**.
 2. Select **Troubleshooting \| Enable debug logging**.
 
 ## Select the desired behavior
 
-Select Enable debug logging when asked to do so by a Support Technician.
-
-NOTE: Debug logging is automatically disabled when the Spotlight Client is closed.
+Select **Enable debug logging** when asked to do so by a Support Technician.
 
 
+{% include note.html content="Debug logging is automatically disabled when the Spotlight Client is closed." %}
 
 
 {% include links.html %}

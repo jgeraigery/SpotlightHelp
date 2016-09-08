@@ -55,7 +55,7 @@ Register for a Spotlight Cloud Services account
 Spotlight Services Agreement
 
 
- Important: If you monitored your Spotlight on SQL Server connections on a mobile device in the past (Spotlight 11.0 or earlier) then you must uninstall the Spotlight Web Publisher via Windows \| Control Panel \| Programs and Features. The Spotlight Web Publisher was required in the past to monitor SQL Server connections on a mobile device. It is now important that you uninstall it. By default the Spotlight Web Publisher was installed on the same computer as the Spotlight Diagnostic Server.
+ Important: If you used Spotlight to monitor your SQL Server connections on a mobile device in the past (Spotlight on SQL Server 11.0 or earlier) then you must uninstall the Spotlight Web Publisher via Windows \| Control Panel \| Programs and Features. The Spotlight Web Publisher was required in the past to monitor SQL Server connections on a mobile device. It is now important that you uninstall it. By default the Spotlight Web Publisher was installed on the same computer as the Spotlight Diagnostic Server.
 
 
 {% include links.html %}

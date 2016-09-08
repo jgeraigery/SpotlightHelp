@@ -16,7 +16,7 @@ Spotlight can be configured to raise an alarm on custom counters. For more infor
 
 Click Configure \| Custom Counters.
 
-TIP: To open this screen with a connection pre-selected, from the Spotlight home page click Custom Counters, or right-click Custom on the System panel and select Configure Custom Counters, or from the SQL Activity drilldown \| Custom Counters page, click Configure \| Custom Counters.
+TIP: To open this screen with a connection pre-selected, from the Spotlight Overview page click Custom Counters, or right-click Custom on the System panel and select Configure Custom Counters, or from the SQL Activity drilldown \| Custom Counters page, click Configure \| Custom Counters.
 
 
 ## Select template or connection to configure

@@ -14,11 +14,11 @@ This authentication is used to create the Spotlight Statistics Repository. Ensur
 
 ### Windows authentication (Client)
 
-Select Windows authentication to create the Spotlight Statistics Repository using the Windows credentials of the logged in user on the Spotlight Client.
+Select **Windows authentication** to create the Spotlight Statistics Repository using the Windows credentials of the logged in user on the Spotlight Client.
 
 ### SQL Server authentication
 
-Alternatively, select SQL Server authentication and fill in the User and Password fields. This SQL Server user must have permission to create databases on the SQL Server instance.
+Alternatively, select **SQL Server authentication** and fill in the **User** and **Password** fields. This SQL Server user must have permission to create databases on the SQL Server instance.
 
 ## Configure repository data and log files...
 
@@ -39,6 +39,6 @@ Click the …button to locate the data file.
 The name and location of the corresponding log file. The file name is automatically updated when you change the name of the Spotlight Statistics Repository. Update the file name and location, if required.
 
 Click the …button to locate the log file.
- 
+
 
 {% include links.html %}

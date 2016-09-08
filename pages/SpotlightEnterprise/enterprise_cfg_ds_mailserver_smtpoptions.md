@@ -1,6 +1,6 @@
 ---
 title: SMTP mail options dialog
-summary: "This dialog is opened from Configure the Diagnostic Server's mail server or Send an Email Dialog. The settings are used by Configure | Alarm Actions | Alarm Action | Send email to."
+summary: "These mail server settings are used by the Spotlight Diagnostic Server to fulfill on Configure | Alarm Actions | Alarm Action | Send email to. This dialog is opened from Configure the Diagnostic Server's mail server or Send an Email Dialog."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfg_ds_mailserver_smtpoptions.html
 folder: SpotlightEnterprise
@@ -22,7 +22,7 @@ This section is filled in for you if you clicked **Import Settings**.
 
 ## Recipient list
 
-When an alarm is raised, email will be sent to the addresses in this recipient list (by default). Type each email address on a separate line or separate each email address with a semi-colon. 
+When an alarm is raised, email will be sent to the addresses in this recipient list (by default). Type each email address on a separate line or separate each email address with a semi-colon.
 
 ## Server information
 

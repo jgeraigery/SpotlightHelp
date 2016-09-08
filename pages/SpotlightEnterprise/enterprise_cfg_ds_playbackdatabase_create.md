@@ -14,16 +14,16 @@ This authentication is used to create the Playback Database. Ensure this authent
 
 ### Windows authentication (Client)
 
-Select Windows authentication to create the Playback Database using the Windows credentials of the logged in user on the Spotlight Client.
+Select **Windows authentication** to create the Playback Database using the Windows credentials of the logged in user on the Spotlight Client.
 
 ### SQL Server authentication
 
-Alternatively, select SQL Server authentication and fill in the User and Password fields. This SQL Server user must have permission to create databases on the SQL Server instance.
+Alternatively, select **SQL Server authentication** and fill in the **User** and **Password** fields. This SQL Server user must have permission to create databases on the SQL Server instance.
 
 
 ## Configure playback data and log files...
 
-Click Configure playback data and log files to change the default name of the playback database or the location of the corresponding data and log files. By default, the playback and data log files are created in the same location as those of the model database.
+Click **Configure playback data and log files** to change the default name of the playback database or the location of the corresponding data and log files. By default, the playback and data log files are created in the same location as those of the model database.
 
 ### Database
 

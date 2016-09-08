@@ -8,7 +8,7 @@ folder: SpotlightEnterprise
 ---
 
 
-The measure of SQL Server Response Time is reported on the SQL Server \| Home Page \| Sessions panel and the SQL Server \| SQL Activity Drilldown \| SQL Summary page. The associated alarm is **User - Response Time Alarm**.
+The measure of SQL Server Response Time is reported on the SQL Server \| Overview page \| Sessions panel and the SQL Server \| SQL Activity drilldown \| SQL Summary page. The associated alarm is **User - Response Time Alarm**.
 
 {% include note.html content="Membership of the Spotlight diagnostic administrators group is required to change the SQL Statement used to measure SQL Server response time. For more information, see Spotlight diagnostic user groups." %}
 

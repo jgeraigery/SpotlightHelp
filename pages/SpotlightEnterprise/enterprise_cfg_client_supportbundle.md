@@ -1,6 +1,6 @@
 ---
 title: Configure support bundle emails
-summary: "Select the message service for the Spotlight Client to use to send a Support bundle to Dell (Build the support bundle)."
+summary: "Select the message service for the Spotlight Client to use to send a Support bundle to Dell."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfg_client_supportbundle.html
 folder: SpotlightEnterprise
@@ -19,10 +19,10 @@ folder: SpotlightEnterprise
 ### Messaging Application Program Interface (MAPI)
 
 A standard Windows interface.
- 
+
 ### Simple Mail Transfer Protocol (SMTP)
 
-An independent TCP/IP protocol. **Click Change SMTP settings** to set SMTP mail options.
+An independent TCP/IP protocol. Click **Change SMTP settings** to set SMTP mail options.
 
 
 

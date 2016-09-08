@@ -1,6 +1,6 @@
 ---
 title: Configure the Spotlight Statistics Repository
-summary: "The Spotlight Diagnostic Server (optionally) stores data for long term history for reporting and trending in the Spotlight Statistics Repository."
+summary: "Data for long term history for reporting and trending is stored in the Spotlight Statistics Repository. By default, use of the Spotlight Statistics Repository is disabled. Data for long term history for reporting and trending is only stored when the use of the Spotlight Statistics Repository is enabled and the Spotlight Statistics Repository is appropriately configured."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfg_ds_ssr.html
 folder: SpotlightEnterprise
@@ -8,10 +8,12 @@ folder: SpotlightEnterprise
 
 
 
-## Open this screen from the Spotlight Client
+## Configure the Spotlight Statistics Repository from the Spotlight Client
 
 1. Click **Configure \| Diagnostic server**.
 2. Select **Configure the Spotlight Statistics Repository**.
+
+In the Spotlight deployment the Spotlight Client communicates with the Spotlight Diagnostic Server which communicates with the Spotlight Statistics Repository.
 
 ## Select the Diagnostic Server
 
@@ -21,17 +23,19 @@ For federated Spotlight Diagnostic Server (Federate Diagnostic Servers) you will
 
 ### Enable use of the Spotlight Statistics Repository
 
-Select to store data in the Spotlight Statistics Repository. Clear to stop storing (not store) data in the Spotlight Statistics Repository.
+Select **Enable use of the Spotlight Statistics Repository** to store data in the Spotlight Statistics Repository.
+
+If **Enable use of the Spotlight Statistics Repository** is not selected then Spotlight will stop storing (not store) data in the Spotlight Statistics Repository.
 
 ### Instance
 
-The name of the SQL Server instance to host the Spotlight Statistics Repository. Click the down arrow to list available instances.
+Specify the name of the SQL Server instance to host the Spotlight Statistics Repository. Click the down arrow to list available instances.
 
-Note: Due to the size of the Spotlight Statistics Repository, it is recommended that this database is not installed on a SQL Express instance. The Spotlight Statistics Repository is not supported on High Availability Always On and mirrored databases. The Spotlight Statistics Repository cannot be installed on SQL Server 2000.
+{% include note.html content="Due to the size of the Spotlight Statistics Repository, it is recommended that this database is not installed on a SQL Express instance. The Spotlight Statistics Repository is not supported on High Availability Always On and mirrored databases. The Spotlight Statistics Repository cannot be installed on SQL Server 2000." %}
 
 ### Authentication
 
-The authentication for Spotlight to use to connect to the Spotlight Statistics Repository.
+Specify the authentication for Spotlight to use to connect to the Spotlight Statistics Repository.
 
 Select **Windows Authentication (using Diagnostic Server credentials)** to use the account that runs the Spotlight Diagnostic Server. Ensure this account is trusted by the SQL Server.
 
@@ -39,7 +43,7 @@ Alternatively, select **SQL Server authentication** and fill in the User and Pas
 
 ### Database
 
-The name of the Spotlight Statistics Repository.
+Specify the name of the Spotlight Statistics Repository.
 
 ### Create
 
@@ -47,7 +51,7 @@ Click **Create** to create a new Spotlight Statistics Repository. For more infor
 
 ### Store alarms in the repository for … days
 
-The number of days to store alarm data in the repository, by default 30.
+Specify the number of days to store alarm data in the repository, by default 30.
 
 
 

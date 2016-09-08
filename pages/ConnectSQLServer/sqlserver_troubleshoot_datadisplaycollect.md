@@ -1,7 +1,7 @@
 ---
 title: Data display and collection problems
 last_updated: July 29, 2016
-summary: "Known issues where unknown values or missing values or too many 0 values are shown on the SQL Server home page or its drilldowns."
+summary: "Known issues where unknown values or missing values or too many 0 values are shown on the SQL Server Overview page or its drilldowns."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_troubleshoot_datadisplaycollect.html
 folder: ConnectSQLServer
@@ -16,11 +16,11 @@ folder: ConnectSQLServer
 
 ## SQL Server performance counters
 
-When SQL Server performance counters are missing, Spotlight will not be able to collect the data it requires, and will display "0" for many of its components. Most obvious will be the Memory icons on the SQL Server \| Home Page, which will show 0 MB of memory used by SQL Server. Also, many of the flows on the home page will show no activity, and many drilldowns will show incomplete information.
+When SQL Server performance counters are missing, Spotlight will not be able to collect the data it requires, and will display "0" for many of its components. Most obvious will be the Memory icons on the SQL Server \| Overview page, which will show 0 MB of memory used by SQL Server. Also, many of the flows on the Overview page will show no activity, and many drilldowns will show incomplete information.
 
 Spotlight Enterprise uses sys.dm_os_performance_counters (sysperfinfo for SQL Server 2000) to retrieve data for many of its displays. In some rare cases, this table may not contain information.
 
-When SQL Server performance counters are missing, Spotlight will not be able to collect the data it requires, and will display "0" for many of its components. Most obvious will be the Memory icons on the SQL Server \| Home Page, which will show 0 MB of memory used by SQL Server. Also, many of the flows on the home page will show no activity, and many drilldowns will show incomplete information.
+When SQL Server performance counters are missing, Spotlight will not be able to collect the data it requires, and will display "0" for many of its components. Most obvious will be the Memory icons on the SQL Server \| Overview page, which will show 0 MB of memory used by SQL Server. Also, many of the flows on the Spotlight Overview page will show no activity, and many drilldowns will show incomplete information.
 
 Spotlight Enterprise raises the Missing SQL Performance Counters Alarm shortly after connecting if it detects that the sysperfinfo or sys.dm_os_performance_counters table contains no data.
 

@@ -4,6 +4,7 @@ keywords: alarms by Time
 summary: "Alarms by Time is a display of alarm history. It tracks the start time, duration, and severity of logged alarms."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_alarmsbytime.html
+id: 40005
 folder: SpotlightEnterprise
 ---
 

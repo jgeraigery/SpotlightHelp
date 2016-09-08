@@ -9,25 +9,30 @@ folder: SpotlightEnterprise
 
 
 
-## Configure scheduling from the Spotlight Client
+## Configure Spotlight's data collection schedules from the Spotlight Client
 
 Click Configure \| Scheduling.
 
 
 ## Select template or connection to configure
 
-Option | Description
--------|------------
-Factory Settings | Select to show Factory Settings for Spotlight data collection schedules. These are the settings shipped with Spotlight. These settings cannot be changed.
-Connection | Select a Spotlight connection to show / change the schedules for that connection.
-Template | Select a template to show / change / reapply a template configuration. The configuration templates you have previously saved are listed. For more information, see Configuration templates.
+ Select **Factory Settings** to show Factory Settings for Spotlight data collection schedules. These are the settings shipped with Spotlight. These settings cannot be changed.
 
-## Spotlight Statistics Repository
+Alternatively, select a Spotlight connection from the list of available options. Spotlight will show the data collection schedules for that connection. Make changes if required. Optionally use the options at the bottom of the screen to apply the same configuration to other Spotlight connections or save the configuration as a template.
 
-Option               | Description
----------------------|------------
-Store reporting data | Select to store reporting data in the Spotlight Statistics Repository for the selected connection. Reporting data is used by Reporting and Trending requires the Spotlight Statistics Repository to be configured (Configure the Spotlight Statistics Repository.
-Do not collect and store reporting data |  Do not store reporting data in the Spotlight Statistics Repository for the selected connection. No future data will be stored in the Spotlight Statistics Repository for the selected connection. No future data will be available for Reporting and Trending for the selected connection.
+If listed you may choose to select a template to configure. The templates you have previously saved for Spotlight data collection schedules (for this connection type) are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see Configuration templates.
+
+
+## Store reporting data
+
+
+### Store reporting data
+
+Select to store reporting data in the Spotlight Statistics Repository for the selected connection. Reporting data is used by Reporting and Trending requires the Spotlight Statistics Repository to be configured (Configure the Spotlight Statistics Repository.
+
+### Do not collect and store reporting data
+
+Do not store reporting data in the Spotlight Statistics Repository for the selected connection. No future data will be stored in the Spotlight Statistics Repository for the selected connection. No future data will be available for Reporting and Trending for the selected connection.
 
 ## Select a collection
 
@@ -49,7 +54,7 @@ No | The collection schedule is set as per the Factory Settings.
 
 ### Collect in background
 
-Is Spotlight scheduled to collect data from this collection in the background? How often? Background schedules are used when the Spotlight home page or drilldowns are not being viewed. The data is stored for Playback in the Playback Database.
+Is Spotlight scheduled to collect data from this collection in the background? How often? Background schedules are used when the Spotlight Overview page or drilldowns are not being viewed. The data is stored for Playback in the Playback Database.
 
 Keywords may be
 
@@ -66,27 +71,36 @@ Is Spotlight scheduled to collect data from this collection for reporting? How o
 For how long is data from this collection stored in the Spotlight Statistics Repository.
 
 
-
 ## Reuse this configuration
 
-Column | Description
--------|------------
-Apply configuration to… | Optionally, apply this configuration to other connections.
-Save to Template | Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to Delete or Rename the template. For more information on Templates, see Configuration templates.
+### Apply configuration to…  
+
+Optionally, apply this configuration to other connections.
+
+### Save to Template  
+
+Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to **Delete** or **Rename** the template. For more information on Templates, see Configuration templates.
+
 
 ## Close the dialog
 
-Click | Description
-------|------------
-OK | Save changes to the collections for the selected connection or template.
-Cancel | Discard changes to this screen.
+### OK
+
+Save changes to the collections for the selected connection or template.
+
+### Cancel
+
+Discard changes to this screen.
+
+
+
 
 ## Notes
 
 * Before you change a collection's schedule you may like to backup the current schedules. You can do this by backing up the \\Agent\\Conf folder in the Spotlight Diagnostic Server installation folder.
 * Some collections cannot be scheduled for reporting. They may gather too much data or there may be no value in the data for the purpose of reporting. Other collections are only collected for reporting so cannot be scheduled to run in the background.
 * The background and reporting schedules for some collections cannot be modified.
-* Real time schedules are used to view data live on the Spotlight home page or drilldowns. Real time schedules cannot be modified.
+* Real time schedules are used to view data live on the Spotlight Overview page or drilldowns. Real time schedules cannot be modified.
 
 
 

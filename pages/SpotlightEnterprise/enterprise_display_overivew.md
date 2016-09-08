@@ -20,20 +20,31 @@ From the left Connections pane, click on the connection. Click on the connection
 
 The flows and components are tailored to the connection type.
 
-Action | Description
--------|------------
-Hover the mouse over the component | Show a basic description of the component.
-Left click on the component | Show a detailed description of the component. If the component is in an alarm state
-Right click on the component | Select from the various options.
-{% include inline_imageClient.html file="icon_refresherror.png" alt="Refresh Error" %} | If Spotlight is unable to collect the data required, Spotlight displays a small icon  on the affected component. Click the icon to see more information about the problem.
+### Show a basic description of the component.
 
-{% include note.html content="During a planned outage, all home page controls are disabled except Status. A Monitored Server - Planned Outage alarm is raised against the Status control. For more information, see Configure \| Planned Outage." %}
+Hover the mouse over the component
 
-## Alarms and component color
+### Show a detailed description of the component.
+
+Left click on the component
+
+### Alarms and component color
 
 If a Spotlight Overview page component's color is other than green then the component is in an alarm state. Click on the component for help to resolve the alarm. For more information, see What's this?.
 
 Connection drilldowns are tailored to the connection type.
+
+### Actions
+
+Right click on the component | Select from the various options.
+
+### Unable to collect data
+
+{% include inline_imageClient.html file="icon_refresherror.png" alt="Refresh Error" %} | If Spotlight is unable to collect the data required, Spotlight displays a small icon  on the affected component. Click the icon to see more information about the problem.
+
+{% include note.html content="During a planned outage, all Spotlight Overview page controls are disabled except Status. A Monitored Server - Planned Outage alarm is raised against the Status control. For more information, see Configure \| Planned Outage." %}
+
+
 
 
 ## What's This?
@@ -44,7 +55,7 @@ Show help on the component.
 
 Icon | Description
 -----|------------
-{% include inline_imageClient.html file="tb_whatsthis_showme.png" alt="Show Me" %} | If available, click to show more numerical detail related to the Spotlight home page component.
+{% include inline_imageClient.html file="tb_whatsthis_showme.png" alt="Show Me" %} | If available, click to show more numerical detail related to the Spotlight Overview page component.
 {% include inline_imageClient.html file="tb_whatsthis_diagnose.png" alt="Diagnose" %} | If alarms have been raised against the component then What's This? provides assistance in resolving the alarms.
 
 

@@ -8,11 +8,11 @@ folder: SpotlightEnterprise
 
 
 
-## Requirements
+## SNMP and Spotlight
 
 A textual representation of the information sent by the Spotlight Diagnostic Server to the SNMP manager is defined in a MIB file. Ensure this MIB file is accessible to your SNMP manager. The MIB file is in the Spotlight Diagnostic Server installation folder, Agent\\bin\\DiagnosticServer.mib.
 
-## Open this screen from the Spotlight Client
+## Configure the SNMP trap from the Spotlight Client
 
 1. Click **Configure \| Diagnostic server**.
 2. Select **Configure the SNMP Trap**.

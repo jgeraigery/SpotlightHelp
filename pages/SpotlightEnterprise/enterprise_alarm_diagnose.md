@@ -23,7 +23,7 @@ Icon | Title | Description
 
 ## Color
 
-Spotlight uses color to identify the severity of an alarm. The alarm, home page component or connection is colored. If more than one alarm is raised against the component or connection then the color shows the highest severity alarm raised.
+Spotlight uses color to identify the severity of an alarm. The alarm, Spotlight Overview page component or connection is colored. If more than one alarm is raised against the component or connection then the color shows the highest severity alarm raised.
 
 Default Color | Severity
 --------------|---------

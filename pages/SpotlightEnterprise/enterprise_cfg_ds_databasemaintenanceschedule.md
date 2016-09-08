@@ -1,6 +1,6 @@
 ---
 title: Configure the database maintenance schedule
-summary: "Schedule when the Spotlight Diagnostic Server runs maintenance procedures for the Playback Database and Spotlight Statistics Repository. You can also use this screen to enable / disable maintenance procedures."
+summary: "Schedule a time for the Spotlight Diagnostic Server to run maintenance procedures for the Playback Database and Spotlight Statistics Repository."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfg_ds_databasemaintenanceschedule.html
 folder: SpotlightEnterprise
@@ -9,7 +9,7 @@ folder: SpotlightEnterprise
 
 It is highly recommended that regular maintenance is performed to maintain efficient data retrieval. Scheduling automatic maintenance is just one step in the recommended maintenance plan. For more information, see Maintenance plan for Spotlight Statistics Repository and Playback Database.
 
-## Open this screen from the Spotlight Client
+## Configure the database maintenance schedule from the Spotlight Client
 
 1. Click **Configure \| Diagnostic server**.
 2. Select **Configure the database maintenance schedule**.
@@ -18,11 +18,14 @@ It is highly recommended that regular maintenance is performed to maintain effic
 
 For federated Spotlight Diagnostic Server (Federate Diagnostic Servers) you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server has an independently configured database maintenance schedule.
 
-## Fill in the necessary details
+## Set the maintenance schedule
 
 ### Run maintenance procedure for the Playback database / Statistics repository.
 
-Enable / disable maintenance procedures. It is highly recommended that regular maintenance is performed to maintain efficient data retrieval.
+Enable / disable maintenance procedures.
+
+{% include note.html content="It is highly recommended that regular maintenance is performed to maintain efficient data retrieval." %}
+
 
 ### Run maintenance procedures…
 

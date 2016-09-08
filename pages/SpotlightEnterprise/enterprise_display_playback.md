@@ -37,7 +37,7 @@ Icon | Name | Description
 
  {% include note.html content="Playback data is not displayed for SQL Azure database connections." %}
 
- {% include tip.html content="On the Spotlight Home Page you can view the recent history of a single component. For more information, see Spotlight home page." %}
+ {% include tip.html content="On the Spotlight Overview page you can view the recent history of a single component." %}
 
 
 ## Configuration and deployment

@@ -1,6 +1,6 @@
 ---
-title: Appearance of charts
-tsummary: "Configure the appearance of Spotlight charts (Spotlight charts) in this Spotlight Client."
+title: Configure the appearance of Spotlight charts
+summary: "Configure the appearance of Spotlight charts for this Spotlight Client."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfg_client_appearanceofcharts.html
 folder: SpotlightEnterprise
@@ -8,7 +8,7 @@ folder: SpotlightEnterprise
 
 
 
-## Configure the appearance of Spotlight charts from the Spotlight Client
+## Configure the appearance of Spotlight charts for this Spotlight Client
 
 1. Click **Configure \| Spotlight**.
 2. Select **Appearance \| Appearance of charts**.

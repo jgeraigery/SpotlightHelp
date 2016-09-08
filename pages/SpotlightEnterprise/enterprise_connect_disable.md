@@ -38,7 +38,7 @@ Request Spotlight raise an alarm when certain SQL error log entries are logged. 
 
 Set the SQL statement that is used to measure SQL Server response time.
 
-The response time itself can be viewed in the SQL Server \| SQL Activity Drilldown and the SQL Server \| Home Page. For more information, see Configure \| SQL Server Response Time.
+The response time itself can be viewed in the SQL Server \| SQL Activity Drilldown and the SQL Server \| Spotlight Overview page. For more information, see Configure \| SQL Server Response Time.
 
 ## SQL Analysis Filters
 

@@ -8,13 +8,11 @@ folder: SpotlightEnterprise
 
 
 
-## Requirements
+## Auto update and your Spotlight deployment
 
-The Spotlight Diagnostic Server requires access to the Internet when Auto-Update is enabled (Spotlight services requiring Internet access). An outgoing HTTPS connection to the following URL is used to retrieve updates.
+When auto-update is enabled the Spotlight Diagnostic Server must have Internet access. An outgoing HTTPS connection to the following URL is used to retrieve updates: https://spotlight.blob.core.windows.net
 
-https://spotlight.blob.core.windows.net
-
-Enabling of Auto-update does not open a port that allows incoming connections.
+{% include note.html content="Enabling of Auto-update does not open a port that allows incoming connections." %}
 
 ## Open this screen from the Spotlight Client
 
@@ -25,18 +23,11 @@ Enabling of Auto-update does not open a port that allows incoming connections.
 
 For federated Spotlight Diagnostic Server (Federate Diagnostic Servers) you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server is independently configured to auto update.
 
-## Select - Enable auto-update facility - as appropriate.
+## Enable auto-update facility as appropriate.
 
-### Enable auto-update facility (Selected)
+Select **Enable auto-update facility** and the Spotlight Diagnostic Server will receive minor updates automatically.
 
-The Spotlight Diagnostic Server will receive minor updates automatically.
-
-### Enable auto-update facility (Not Selected)
-
-
-Any update to the Spotlight Diagnostic Server will require a new version and installation of Spotlight on SQL Server.
-
-
+If **Enable auto-update facility** is Not Selected then an update to the Spotlight Diagnostic Server will require installation of a new version of Spotlight Enterprise.
 
 
 {% include links.html %}

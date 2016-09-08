@@ -4,6 +4,7 @@ keywords: alarm log
 summary: "The alarm log is a display of logged alarms."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_alarmlog.html
+id: 40006
 folder: SpotlightEnterprise
 ---
 

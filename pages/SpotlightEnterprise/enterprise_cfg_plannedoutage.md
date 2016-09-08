@@ -9,7 +9,7 @@ folder: SpotlightEnterprise
 
 
 
-Note: A Monitored Server Planned Outage alarm is raised when planned outage begins. This information alarm clears when the planned outage completes. The information alarm shows up on Alarms by time and the Alarm log. On the Spotlight Home Page during a Planned Outage all controls are disabled (except Status).
+Note: A Monitored Server Planned Outage alarm is raised when planned outage begins. This information alarm clears when the planned outage completes. The information alarm shows up on Alarms by time and the Alarm log. On the Spotlight Overview page during a Planned Outage all controls are disabled (except Status).
 
 Alarm Actions (Configure \| Alarm Actions) can be written for the Monitored Server - Planned Outage alarm.
 
