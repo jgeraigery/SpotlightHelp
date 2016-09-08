@@ -404,6 +404,10 @@ entries:
           url: /windows_grid_servicesdependentonthisservice.html
           output: web, pdf
 
+      - title: System drivers page
+        output: web
+        subfolderitems:
+
         - title: System drivers grid
           url: /windows_grid_systemdrivers.html
           output: web, pdf
@@ -417,7 +421,7 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: CPU page
+      - title: CPUs page
         output: web
         subfolderitems:
 
@@ -425,12 +429,12 @@ entries:
           url: /windows_chart_cpuutilization.html
           output: web, pdf
 
-        - title: Server Work Queues chart
-          url: /windows_chart_serverworkqueues.html
-          output: web, pdf
-
         - title: Interrupts chart
           url: /windows_chart_interrupts.html
+          output: web, pdf
+
+        - title: Server Work Queues chart
+          url: /windows_chart_serverworkqueues.html
           output: web, pdf
 
         - title: Kilobytes Transferred chart
@@ -445,12 +449,12 @@ entries:
           url: /windows_chart_totalcpuutilization.html
           output: web, pdf
 
-        - title: Processor Queue Length chart
-          url: /windows_chart_processorqueuelength.html
-          output: web, pdf
-
         - title: Total Process and Thread Count chart
           url: /windows_chart_totalprocessandthreadscount.html
+          output: web, pdf
+
+        - title: Processor Queue Length chart
+          url: /windows_chart_processorqueuelength.html
           output: web, pdf
 
         - title: Context Switching chart
@@ -502,12 +506,12 @@ entries:
           url: /windows_chart_physicalmemory.html
           output: web, pdf
 
-        - title: Virtual Memory chart
-          url: /windows_chart_virtualmemory.html
-          output: web, pdf
-
         - title: Paging chart
           url: /windows_chart_paging.html
+          output: web, pdf
+
+        - title: Virtual Memory chart
+          url: /windows_chart_virtualmemory.html
           output: web, pdf
 
         - title: Physical Memory Usage chart
@@ -518,16 +522,16 @@ entries:
         output: web
         subfolderitems:
 
+        - title: Page Files grid
+          url: /windows_grid_pagefiles.html
+          output: web, pdf
+
         - title: Page File Transfers chart
           url: /windows_chart_pagefiletransfers.html
           output: web, pdf
 
         - title: Page Faults chart
           url: /windows_chart_pagefaults_memory.html
-          output: web, pdf
-
-        - title: Page Files grid
-          url: /windows_grid_pagefiles.html
           output: web, pdf
 
       - title: Cache page
@@ -538,12 +542,12 @@ entries:
           url: /windows_chart_cachehitrate.html
           output: web, pdf
 
-        - title: Cache Size chart
-          url: /windows_chart_cachesize.html
+        - title: Physical Cache I/O chart
+          url: /windows_chart_physicalcacheio.html
           output: web, pdf
 
-        - title: Physical Cache IO chart
-          url: /windows_chart_physicalcacheio.html
+        - title: Cache Size chart
+          url: /windows_chart_cachesize.html
           output: web, pdf
 
         - title: Cache Faults chart
@@ -692,7 +696,7 @@ entries:
           url: /windows_chart_errorsandretries.html
           output: web, pdf
 
-      - title: TCP/IP page
+      - title: TCPIP page
         output: web
         subfolderitems:
 
@@ -708,7 +712,7 @@ entries:
           url: /windows_chart_udpdatagrams.html
           output: web, pdf
 
-        - title: IP Datagrams /IP Datagrams Errors chart
+        - title: IP Datagrams chart
           url: /windows_chart_ipdatagrams.html
           output: web, pdf
 
@@ -778,7 +782,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Processor chart
+        - title: Total CPU Utilization chart
           url: /windows_chart_totalcpuutilization.html
           output: web, pdf
 
@@ -806,7 +810,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Custom Coutners chart
+        - title: Custom Counters chart
           url: /windows_chart_customcounters.html
           output: web, pdf
 
