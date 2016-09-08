@@ -1,5 +1,5 @@
 ---
-title: Logical disk reads chart
+title: Disk Reads chart (Logical Disk Activity)
 last_updated: July 29, 2016
 summary: "This shows a recent summary of the rate at which read requests have been sent to each logical disk."
 sidebar: c_windows_sidebar

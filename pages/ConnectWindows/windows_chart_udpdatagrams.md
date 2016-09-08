@@ -8,12 +8,7 @@ id: TCPIP.UDPDatagramsChart
 folder: ConnectWindows
 ---
 
-Unlike TCP, UDP does not provide a sequencing service, so when UDP datagrams
-(packets) arrive at a destination, they are reassembled into a complete message
-via an end-point application that is active on the port(s) specified in the
-datagram. The UDP Datagrams chart displays different graphs representing
-the rate at which UDP datagrams are transmitted or received in the current
-Windows system.
+Unlike TCP, UDP does not provide a sequencing service, so when UDP datagrams (packets) arrive at a destination, they are reassembled into a complete message via an end-point application that is active on the port(s) specified in the datagram. The UDP Datagrams chart displays different graphs representing the rate at which UDP datagrams are transmitted or received in the current Windows system.
 
 ## Sent
 

@@ -10,7 +10,8 @@ folder: ConnectWindows
 ---
 
 
-<note type="note">Remote Desktop sessions are not shown.</note>
+{% include note.html content="Remote Desktop sessions are not shown." %}
+
 
 The Sessions grid on this page displays data for each connection in the following columns:
 

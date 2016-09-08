@@ -1,5 +1,5 @@
 ---
-title: Logical Disk Load Chart
+title: Disk Load chart (Logical Disk Activity)
 last_updated: July 29, 2016
 summary: "This shows how busy the individual logical disks are."
 sidebar: c_windows_sidebar

@@ -9,7 +9,7 @@ folder: ConnectWindows
 ---
 
 
-A **Process** is one instance of an application program or system service that is currently executing on the server.</p>
+A **Process** is one instance of an application program or system service that is currently executing on the server.
 
 Each process will have one or more **threads** which are the basic entity that can be scheduled. Sophisticated application processes such as SQL Server or Exchange can have dozens of threads running concurrently.
 

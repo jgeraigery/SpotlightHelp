@@ -1,5 +1,5 @@
 ---
-title: Physical Disk I/O chart
+title: Disk I/O chart (Pysical Disk Activity)
 last_updated: July 29, 2016
 summary: "This shows a recent summary of the number of read and write requests that have been sent to each physical disk."
 sidebar: c_windows_sidebar

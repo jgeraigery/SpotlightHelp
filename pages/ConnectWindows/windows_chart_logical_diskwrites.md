@@ -1,5 +1,5 @@
 ---
-title: Logical disk writes chart
+title: Disk Writes chart (Logical Disk Activity)
 last_updated: July 29, 2016
 summary: "This shows a recent summary of the rate at which write requests have been sent to each logical disk."
 sidebar: c_windows_sidebar

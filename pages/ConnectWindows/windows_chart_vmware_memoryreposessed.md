@@ -13,7 +13,7 @@ folder: ConnectWindows
 
 Amount of memory reclaimed by ESX via ballooning to give to other virtual machines.
 
-<note type="note">For memory to be reclaimed via ballooning, VMware Tools must be installed on the virtual machine.</note>
+{% include note.html content="For memory to be reclaimed via ballooning, VMware Tools must be installed on the virtual machine." %}
 
 ## ESX Swapped
 

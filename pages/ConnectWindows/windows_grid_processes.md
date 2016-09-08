@@ -33,7 +33,8 @@ The percentage of CPU time that the program is currently consuming in user mode.
 
 The current size of the total address space of the process.
 
-<note type="note">A process is limited to 2GB of address space no matter how much free RAM may be available.</note>
+
+{% include note.html content="A process is limited to 2GB of address space no matter how much free RAM may be available." %}
 
 ## Elapsed Time
 
@@ -120,10 +121,11 @@ The priority of the program. Program priorities range from 1 to 31, and depend o
 The image name of the application itself. This can be used as a parameter in system programs, such as the TASKKILL.EXE command on Windows systems.
 
 Members of the Spotlight Diagnostic Administrators group can use the Processes page to end any processes currently running on a local machine or remote machines. To do this:
-    1. Right-click a process in the grid to display its shortcut menu.
-    2. Choose the **End Process** option (if enabled) from the menu.
 
-<note type="note">You must be a member of the Spotlight Diagnostic Administrators group to use the End Process option.</note>
+1. Right-click a process in the grid to display its shortcut menu.
+2. Choose the **End Process** option (if enabled) from the menu.
+
+{% include note.html content="You must be a member of the Spotlight Diagnostic Administrators group to use the End Process option." %}
 
 ## Services
 

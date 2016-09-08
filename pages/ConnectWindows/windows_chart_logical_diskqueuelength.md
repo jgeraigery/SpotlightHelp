@@ -1,5 +1,5 @@
 ---
-title: Disk Queue Length chart
+title: Disk Queue Length chart (Logical Disk Activity)
 last_updated: July 29, 2016
 summary: "This shows the number of I/O requests that were queued for each logical disk."
 sidebar: c_windows_sidebar

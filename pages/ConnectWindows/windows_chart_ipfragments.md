@@ -33,7 +33,7 @@ The rate at which IP fragments are created on the current system. This applies o
 The rate at which the current system receives data packets that are too large to be transmitted, and that cannot be fragmented.
 The cause may be the presence of a "do not fragment" flag in the IP packet header.
 
-## Reassembly Failures</uicontrol></pt>
+## Reassembly Failures
 
 The rate at which errors are reported when IP fragments are reassembled into data packets. This may be due to an error in one or more fragments.
 

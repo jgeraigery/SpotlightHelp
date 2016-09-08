@@ -9,11 +9,9 @@ folder: ConnectWindows
 ---
 
 
-Virtual Memory usage will increase and decrease as Windows processes request
-and give up memory and as processes are started and stopped.
+Virtual Memory usage will increase and decrease as Windows processes request and give up memory and as processes are started and stopped.
 
-A steady increase in Virtual memory usage can indicate that a process on the
-system has a memory leak.
+A steady increase in Virtual memory usage can indicate that a process on the system has a memory leak.
 
 
 
