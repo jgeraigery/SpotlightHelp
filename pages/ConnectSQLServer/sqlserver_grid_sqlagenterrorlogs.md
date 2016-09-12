@@ -1,9 +1,9 @@
 ---
-title: SQL Agent Error Log Grid
+title: SQL Agent Error Logs Grid
 last_updated: July 29, 2016
 summary: "The SQL Agent Error Log list shows the contents of the SQL Server Agent Error Log."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_grid_sqlagenterrorlog.html
+permalink: sqlserver_grid_sqlagenterrorlogs.html
 id: SQLErrorLog_SQLAgent.ErrorLogGrid
 folder: ConnectSQLServer
 ---

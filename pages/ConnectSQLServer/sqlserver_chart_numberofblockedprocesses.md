@@ -1,9 +1,9 @@
 ---
-title: Blocked Processes Chart
+title: Number of Blocked Processes chart
 last_updated: July 29, 2016
 summary: "The Blocked Processes chart shows the number of SQL Server sessions that were involved in blocks over time."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_chart_blockedprocesses.html
+permalink: sqlserver_chart_numberofblockedprocesses.html
 id: SQLActivity_Blocking.BlockedProcessesChart
 folder: ConnectSQLServer
 ---

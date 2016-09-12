@@ -1,9 +1,9 @@
 ---
-title: Log File Space Chart
+title: Log Files Space Chart
 last_updated: July 29, 2016
 summary: ""
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_chart_logfilespace.html
+permalink: sqlserver_chart_logfilesspace.html
 id: Databases2_LogFiles.LogFileSpaceChart
 folder: ConnectSQLServer
 ---

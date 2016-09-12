@@ -1,9 +1,9 @@
 ---
-title: Transaction Log Space Chart
+title: Transaction Logs Space Chart
 last_updated: July 29, 2016
 summary: "The Transaction Log Space chart shows **used** space and **free** space for each of the selected database's transaction logs."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_chart_transactionlogspace.html
+permalink: sqlserver_chart_transactionlogsspace.html
 id: Databases2_TransactionLogs.TransLogSpaceChart
 folder: ConnectSQLServer
 ---

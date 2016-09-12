@@ -1,9 +1,9 @@
 ---
-title: Locks Type Chart
+title: Lock Types Chart
 last_updated: July 29, 2016
 summary: "The Lock Types chart shows lock statistics broken down by lock type."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_chart_lockstype.html
+permalink: sqlserver_chart_locktypes.html
 id: SQLActivity_Locks.LockTypesChart
 folder: ConnectSQLServer
 ---

@@ -1,9 +1,9 @@
 ---
-title: Log File Growth Chart
+title: Log Files Growth Chart
 last_updated: July 29, 2016
 summary: "The Log File Growth chart shows the amount by which each log file is growing over time."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_chart_logfilegrowth.html
+permalink: sqlserver_chart_logfilesgrowth.html
 id: Databases2_LogFiles.LogFileGrowthChart
 folder: ConnectSQLServer
 ---

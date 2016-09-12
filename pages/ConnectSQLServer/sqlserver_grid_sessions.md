@@ -3,7 +3,7 @@ title: Session Grid
 last_updated: July 29, 2016
 summary: "The Sessions grid shows all SQL Server sessions, each row representing a single SQL Server session."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_grid_session.html
+permalink: sqlserver_grid_sessions.html
 id: SQLActivity_Sessions.ConnectionsGrid
 folder: ConnectSQLServer
 ---

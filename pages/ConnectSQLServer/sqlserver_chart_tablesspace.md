@@ -1,9 +1,9 @@
 ---
-title: Table Space Chart
+title: Tables Space Chart
 last_updated: July 29, 2016
 summary: "The Table Space chart shows the amount of space used by each table."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_chart_tablespace.html
+permalink: sqlserver_chart_tablesspace.html
 id: Databases2_Tables.TableSpaceChart
 folder: ConnectSQLServer
 ---
