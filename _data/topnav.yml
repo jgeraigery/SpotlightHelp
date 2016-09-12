@@ -30,6 +30,8 @@ topnav_dropdowns:
           url: /replication_landing_page.html
         - title: SQL Azure
           url: /sqlazure_landing_page.html
+        - title: Oracle
+          url: /oracle_landing_page.html
         - title: Windows server
           url: /windows_landing_page.html
         - title: VMware

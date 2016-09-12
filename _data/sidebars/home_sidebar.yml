@@ -39,6 +39,9 @@ entries:
     - title: SQL Azure
       url: /sqlazure_landing_page.html
       output: web
+    - title: Oracle
+      url: /oracle_landing_page.html
+      output: web
     - title: Windows Server
       url: /windows_landing_page.html
       output: web

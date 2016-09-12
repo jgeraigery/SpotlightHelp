@@ -1,0 +1,80 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Oracle
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Connections
+    output: web, pdf
+    folderitems:
+
+    - title: Connection details
+      url: /oracle_connect_details.html
+      output: web, pdf
+
+    - title: Connection requirements
+      url: /oracle_connect_requirements.html
+      output: web, pdf
+
+  - title: Alarms
+    output: web, pdf
+    folderitems:
+
+    - title: Monitored Server - Oracle Alarm Action Failure
+      url: /oracle_alarm_monitoredserver_alarmactionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Oracle Alarm Evaluation Failure
+      url: /oracle_alarm_monitoredserver_alarmevaluationfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Oracle Collection Execution Failure
+      url: /oracle_alarm_monitoredserver_collectionexecutionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Oracle Connection Failure
+      url: /oracle_alarm_monitoredserver_connectionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Oracle Planned Outage
+      url: /oracle_alarm_monitoredserver_plannedoutage.html
+      output: web, pdf
+
+  - title: Spotlight Overview page
+    output: web, pdf
+    folderitems:
+
+    - title: Spotlight Overview page
+      url: /oracle_drilldown_overview.html
+      output: web, pdf
+
+    - title: Status
+      url: /oracle_component_status.html
+      output: web, pdf
+
+    - title: Version
+      url: /oracle_component_version.html
+      output: web, pdf
+  
+  - title: Collections
+    output: web, pdf
+    folderitems:
+
+    - title: Collections
+      url: /oracle_collections.html
+      output: web, pdf
+
