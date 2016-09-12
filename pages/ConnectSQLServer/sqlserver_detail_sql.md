@@ -11,7 +11,7 @@ folder: ConnectSQLServer
 
 From this window, you can right-click to:
 
-* Copy the SQL text contained in the window to the Windows clipboard.</p></li>
+* Copy the SQL text contained in the window to the Windows clipboard.
 * Use Dell SQL Optimizer (if installed) to tune the displayed SQL. Alternatively, click the **Optimize SQL** link located above the SQL statement.
 
 

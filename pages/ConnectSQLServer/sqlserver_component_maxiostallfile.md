@@ -1,9 +1,9 @@
 ---
-title: ﻿Max I/O Wait Time
+title: ﻿Max I/O Stall File
 last_updated: July 29, 2016
-summary: "The file currently experienceing the highest I/O Waits."
+summary: "The file currently experienceing the highest I/O Stall time."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_component_maxiowait.html
+permalink: sqlserver_component_maxiostallfile.html
 id: Home.SQLServer.lblMaxIOWaitFileName
 folder: ConnectSQLServer
 ---

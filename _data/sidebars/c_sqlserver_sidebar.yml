@@ -523,8 +523,8 @@ entries:
           url: /sqlserver_component_maxiostalltime.html
           output: web, pdf
 
-        - title: Max I/O Wait
-          url: /sqlserver_component_maxiowait.html
+        - title: Max I/O Stall File
+          url: /sqlserver_component_maxiostallfile.html
           output: web, pdf
 
       - title: Performance Health Panel
