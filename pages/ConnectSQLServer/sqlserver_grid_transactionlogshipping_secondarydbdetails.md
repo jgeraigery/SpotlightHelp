@@ -3,7 +3,7 @@ title: Transaction Log Shipping Secondaries Grid
 last_updated: July 29, 2016
 summary: "Shows details about the secondary servers involved in the log shipping configuration for the primary server selected in the grid above."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_grid_transaction_logshippingsecondarydbdetails.html
+permalink: sqlserver_grid_transactionlogshipping_secondarydbdetails.html
 id: HighAvailability_LogShippingDetailsSecondaries.grdLogShippingDetailsSecondaries
 folder: ConnectSQLServer
 ---

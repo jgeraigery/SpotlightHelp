@@ -1,7 +1,7 @@
 ---
-title: Tempdb - Sessions involved with this contention
+title: Tempdb - Sessions involved in this contention
 last_updated: July 29, 2016
-summary: "Use the Sessions involved with this contention grid to determine which user or application is the cause of Tempdb contention."
+summary: "Use the Sessions involved in this contention grid to determine which user or application is the cause of Tempdb contention."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_sessionsinvolvedinthiscontention.html
 id: SQLServer_TempDB_Sessionsinvolvedinthiscontention

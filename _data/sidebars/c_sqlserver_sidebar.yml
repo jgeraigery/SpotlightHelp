@@ -624,11 +624,11 @@ entries:
           url: /sqlserver_grid_sessionlocks.html
           output: web, pdf
 
-        - title: Session Details (CPU)
+        - title: Session CPU (Session Details)
           url: /sqlserver_chart_sessioncpu.html
           output: web, pdf
 
-        - title: Session Details (IO)
+        - title: Session I/O (Session Details)
           url: /sqlserver_chart_sessionio.html
           output: web, pdf
 
@@ -790,19 +790,19 @@ entries:
         subfolderitems:
 
         - title: Transaction Log Shipping Primaries grid
-          url: /sqlserver_grid_transaction_logshippingprimaries.html
+          url: /sqlserver_grid_transactionlogshipping_primaries.html
           output: web, pdf
 
         - title: Transaction Log Shipping Secondaries grid
-          url: /sqlserver_grid_transaction_logshippingsecondaries.html
+          url: /sqlserver_grid_transactionlogshipping_secondaries.html
           output: web, pdf
 
         - title: Transaction Log Shipping History grid
-          url: /sqlserver_grid_transaction_logshippinghistory.html
+          url: /sqlserver_grid_transactionlogshipping_history.html
           output: web, pdf
 
         - title: Transaction Log Shipping Secondary Database details
-          url: /sqlserver_grid_transaction_logshippingsecondarydbdetails.html
+          url: /sqlserver_grid_transactionlogshipping_secondarydbdetails.html
           output: web, pdf
 
       - title: Database Mirroring page

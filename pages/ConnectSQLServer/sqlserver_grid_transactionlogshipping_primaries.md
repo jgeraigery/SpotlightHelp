@@ -3,7 +3,7 @@ title: Transaction Log Shipping Primaries Grid
 last_updated: July 29, 2016
 summary: "Shows statistics relating to the primary database."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_grid_transaction_logshippingprimaries.html
+permalink: sqlserver_grid_transactionlogshipping_primaries.html
 id: HighAvailability_LogShippingPrimaries.grdLogShippingPrimaries
 folder: ConnectSQLServer
 ---
