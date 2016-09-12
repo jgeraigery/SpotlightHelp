@@ -8,7 +8,12 @@ folder: SpotlightEnterprise
 ---
 
 
-All alarms in Spotlight, including Diagnostic Server and operational alarms, can be configured. The kinds of configuration include:
+All alarms in Spotlight, including Diagnostic Server and operational alarms, can be configured.
+
+{% include tip.html content="Before you change the alarm configurations you may like to backup the current configurations. You can do this by backing up the \Agent\Conf folder in the Spotlight Diagnostic Server installation folder." %}
+
+
+The kinds of configuration include:
 
 *  Disable an alarm
 *  Set an alarm to require acknowledgment
@@ -20,7 +25,7 @@ All alarms in Spotlight, including Diagnostic Server and operational alarms, can
 
 ## Configure alarms from the Spotlight Client
 
-Click Configure \| Alarms.
+Click **Configure \| Alarms**.
 
 
 ### Select template or connection to configure
@@ -32,30 +37,48 @@ Connection | Select a Spotlight connection to show / change alarm configurations
 Template | Select a template to show / change / reapply a template configuration. Select a template to delete or rename that template. The templates you have previously saved are listed. For more information, see Configuration templates.
 
 
-### Select an alarm
+### Select (Configure) an alarm
 
-The table of alarms is as follows.
+The table of alarms is as follows. Double click on an alarm to Configure the alarm. See also About each alarm.
 
 Column | Description
 -------|------------
-Name | The name of the alarm. Double click to Configure an alarm. See also About each alarm.
+Name | The name of the alarm.
 Type | The alarm applies to this connection type.
 Modified | Yes if the alarm is set to other than the Factory Settings.
 
-### Reuse this configuration
+The connection properties are dependent on the connection type.
 
-Column | Description
--------|------------
-Apply configuration to… | Optionally, apply this configuration to other connections.
-Save to Template | Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to Delete or Rename the template. For more information on Templates, see Configuration templates.
+<ul>
+{% assign sorted_pages = (site.pages | sort: 'title') %}
+{% for page in sorted_pages %}
+{% for tag in page.tags %}
+{% if tag == "collections" %}
+<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</ul>
 
-### Close the dialog
+## Reuse this configuration
 
-Click | Description
-------|------------
-OK | Save the alarm configuration(s) for the selected connection or template.
-Cancel | Discard changes to this screen.
+### Apply configuration to…  
 
-{% include tip.html content="Before you change the alarm configurations you may like to backup the current configurations. You can do this by backing up the \Agent\Conf folder in the Spotlight Diagnostic Server installation folder." %}
+Optionally, apply this configuration to other connections.
+
+### Save to Template  
+
+Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to **Delete** or **Rename** the template. For more information on Templates, see Configuration templates.
+
+## Close the dialog
+
+### OK
+
+Save the alarm configuration(s) for the selected connection or template.
+
+### Cancel
+
+Discard changes to this screen.
+
 
 {% include links.html %}

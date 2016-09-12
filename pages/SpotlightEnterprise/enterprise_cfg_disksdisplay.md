@@ -1,7 +1,7 @@
 ---
 title: Configure Disks Display
 tags: [configure_monitoring]
-summary: "Configure how the disks are represented on the Windows Server | Overview Page | Disks Panel."
+summary: "Configure how disks are displayed on the Windows Server | Overview Page | Disks panel."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfg_disksdisplay.html
 folder: SpotlightEnterprise
@@ -9,25 +9,29 @@ folder: SpotlightEnterprise
 
 
 
-## Configure disks display from the Spotlight Client
+## Configure the disks display from the Spotlight Client
 
 1. Select the Windows Server from Monitored connections.
 2. Click **Monitor \| Disks Display**.
 
-## Configure how disks are represented on the Disks panel
+## Configure
 
 ### Automatically configure disk display
 
-Select this option if you want Spotlight to determine which disks are displayed in the Disks panel.
+#### Select
 
-Clear this option if you want to configure how disks are displayed in the Disks panel.
+Spotlight determines which disks are displayed in the Disks panel.
+
+#### Clear
+
+You configure how disks are displayed in the Disks panel.
 
 ### By drive letter/ By lowest % free space
 
 Select **by drive letter** to display disk information according to the alphabetical label assigned to each disk.
 Select **by lowest % free space** to display disk information for disks having the lowest percentage of free space.
 
-### Number of disks to show on home page
+### Number of disks to show on Overview page
 
 The number of disks to display.
 
@@ -39,7 +43,12 @@ Disks are numbered from top to bottom starting at one. The number of available d
 
 ### Display information for
 
-Choose the type of information you want to display for the selected disk (Logical Disk, Lowest % Free Space, Smallest Disk Size, Most "Read from" disk, or Most "Written to" disk).
+Choose the type of information you want to display for the selected disk:
+* Logical Disk
+* Lowest % Free Space 
+* Smallest Disk Size
+* Most "Read from" disk
+* Most "Written to" disk
 
 ### Logical disk to display
 

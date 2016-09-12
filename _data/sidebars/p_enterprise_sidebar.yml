@@ -96,9 +96,22 @@ entries:
       url: /enterprise_cfg_connect.html
       output: web, pdf
 
-    - title: Add / Remove Connections
-      url: /enterprise_connect_addremove.html
-      output: web, pdf
+      subfolders:
+      - title: Add and remove connections and edit connection details
+        output: web
+        subfolderitems:
+
+        - title: Add connections one by one
+          url: /enterprise_connect_add.html
+          output: web, pdf
+
+        - title: Add connections by discovery
+          url: /enterprise_connect_adddiscovery.html
+          output: web, pdf
+
+        - title: Remove connections
+          url: /enterprise_connect_remove.html
+          output: web, pdf
 
   - title: Displays
     output: web, pdf

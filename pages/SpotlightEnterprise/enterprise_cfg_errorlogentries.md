@@ -26,15 +26,24 @@ Select the SQL Server connection from the list of available options. Spotlight w
 
 Alternatively, select a template to configure. The templates you have previously saved for Spotlight Error Log Entries configuration are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see Configuration templates.
 
-## Define log entry text for Spotlight to match
+## Override or use the factory settings
 
-### Select
+### Override the factory settings
 
-Select the **Override the factory settings** option to modify the settings for the selected template or connection.
+1. Select the **Override the factory settings** option to modify the settings for the selected template or connection.
+2. Select **Enable error log scanning** to request Spotlight scan the SQL Server error log for matching entries.
+3. Edit the list of log entry text strings as appropriate.
 
-Select **Enable error log scanning** to request Spotlight scan the SQL Server error log for matching entries.
+### Use factory settings
 
-See a list of log entry text strings. Click **Add** to add to the list. Each text string can be enabled or disabled as appropriate. Spotlight only matches enabled text strings.
+Clear the **Override the factory settings** option to return the settings for the selected template or connection to the Factory Settings. These are the settings that were shipped with Spotlight.
+
+The default setting is to not scan the SQL Server error log for matching entries.
+
+
+## Edit the list of log entry text strings as appropriate
+
+Click **Add** to add to the list. Each text string can be enabled or disabled as appropriate. Spotlight only matches enabled text strings.
 
 #### Add
 
@@ -61,11 +70,6 @@ Enable all text strings.
 #### Disable All
 
 Disable all text strings.
-
-
-### Clear
-
-Clear the **Override the factory settings** option to return the settings for the selected template or connection to the Factory Settings. These are the settings that were shipped with Spotlight. The default setting is to not scan the SQL Server error log for matching entries.
 
 
 ## Reuse this configuration

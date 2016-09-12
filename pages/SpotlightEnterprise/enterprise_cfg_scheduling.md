@@ -11,20 +11,18 @@ folder: SpotlightEnterprise
 
 ## Configure Spotlight's data collection schedules from the Spotlight Client
 
-Click Configure \| Scheduling.
+Click **Configure \| Scheduling**.
 
 
 ## Select template or connection to configure
 
- Select **Factory Settings** to show Factory Settings for Spotlight data collection schedules. These are the settings shipped with Spotlight. These settings cannot be changed.
+Option | Description
+-------|------------
+Factory Settings | Select to show the settings for Spotlight data collection schedules shipped with Spotlight. These settings can be reapplied to a connection. These settings cannot be changed.
+Connection | Select a Spotlight connection to show / change the data collection schedules for that connection. Optionally use the options at the bottom of the screen to apply the same configuration to other Spotlight connections or save the configuration as a template.
+Template | Select a template to show / change / reapply a template configuration. Select a template to delete or rename that template. The templates you have previously saved for Spotlight data collection schedules (for this connection type) are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see Configuration templates.
 
-Alternatively, select a Spotlight connection from the list of available options. Spotlight will show the data collection schedules for that connection. Make changes if required. Optionally use the options at the bottom of the screen to apply the same configuration to other Spotlight connections or save the configuration as a template.
-
-If listed you may choose to select a template to configure. The templates you have previously saved for Spotlight data collection schedules (for this connection type) are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see Configuration templates.
-
-
-## Store reporting data
-
+## Store reporting data?
 
 ### Store reporting data
 
@@ -34,7 +32,7 @@ Select to store reporting data in the Spotlight Statistics Repository for the se
 
 Do not store reporting data in the Spotlight Statistics Repository for the selected connection. No future data will be stored in the Spotlight Statistics Repository for the selected connection. No future data will be available for Reporting and Trending for the selected connection.
 
-## Select a collection
+## Select a collection from the collection table
 
 The table of collections is as follows.
 
@@ -52,12 +50,26 @@ Yes | The collection schedule has modified from the default.
 No | The collection schedule is set as per the Factory Settings.
 
 
+The connection properties are dependent on the connection type.
+
+<ul>
+{% assign sorted_pages = (site.pages | sort: 'title') %}
+{% for page in sorted_pages %}
+{% for tag in page.tags %}
+{% if tag == "collections" %}
+<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</ul>
+
 ### Collect in background
 
 Is Spotlight scheduled to collect data from this collection in the background? How often? Background schedules are used when the Spotlight Overview page or drilldowns are not being viewed. The data is stored for Playback in the Playback Database.
 
 Keywords may be
-
+Keyword | Description
+--------|------------
 Not collecting | Spotlight is not currently collecting data for this collection. This is configurable.
 Not collectable | Spotlight does not collect data for this collection and Spotlight cannot be configured to collect data for this collection.
 Collected automatically | Spotlight collects data for this collection automatically.

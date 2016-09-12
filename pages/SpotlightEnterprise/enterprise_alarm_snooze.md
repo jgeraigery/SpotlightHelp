@@ -2,7 +2,7 @@
 title: Snooze alarms in Spotlight Enterprise
 tags: [snooze]
 keywords: alarms, snooze
-summary: "Temporarily remove the visual alert associated with an alarm."
+summary: "To snooze an alarm is to temporarily remove the visual alert associated with an alarm."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_alarm_snooze.html
 folder: SpotlightEnterprise
