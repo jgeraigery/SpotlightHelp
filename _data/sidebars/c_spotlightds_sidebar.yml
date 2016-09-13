@@ -29,6 +29,10 @@ entries:
   - title: Alarms
     output: web, pdf
     folderitems:
+
+    - title: Alarms
+      url: /spotlightds_alarms.html
+      output: web, pdf
   
     - title: Diagnostic Server - Alarm Action Failure
       url: /spotlightds_alarm_alarmactionfailure.html

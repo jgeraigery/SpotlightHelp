@@ -42,6 +42,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Alarms
+      url: /windows_alarms.html
+      output: web, pdf
+
     - title: CPU - Average CPU Usage
       url: /windows_alarm_cpu_averagecpuusage.html
       output: web, pdf
@@ -824,6 +828,10 @@ entries:
 
     - title: Collections
       url: /windows_collections.html
+      output: web, pdf
+
+    - title: Collect additional diagnostic information
+      url: /windows_collections_adddiaginfo.html
       output: web, pdf
 
   - title: Data display and collection problems

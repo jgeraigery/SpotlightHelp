@@ -29,6 +29,10 @@ entries:
   - title: Alarms
     output: web, pdf
     folderitems:
+
+    - title: Alarms
+      url: /availabilitygroup_alarms.html
+      output: web, pdf
   
     - title: Availability Group - Failed Over
       url: /availabilitygroup_alarm_failedover.html

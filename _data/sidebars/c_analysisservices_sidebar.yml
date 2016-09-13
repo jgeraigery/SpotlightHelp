@@ -30,6 +30,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Alarms
+      url: /analysisservices_alarms.html
+      output: web, pdf
+
     - title: Command - Long Running Command
       url: /analysisservices_alarm_command_longrunning.html
       output: web, pdf

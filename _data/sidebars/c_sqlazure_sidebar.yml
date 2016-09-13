@@ -30,6 +30,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Alarms
+      url: /sqlazure_alarms.html
+      output: web, pdf
+
     - title: Monitored Server - SQL Azure Alarm Action Failure
       url: /sqlazure_alarm_monitoredserver_alarmactionfailure.html
       output: web, pdf

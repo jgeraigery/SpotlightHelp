@@ -28,7 +28,7 @@ The kinds of configuration include:
 Click **Configure \| Alarms**.
 
 
-### Select template or connection to configure
+## Select template or connection to configure
 
 Option | Description
 -------|------------
@@ -37,9 +37,9 @@ Connection | Select a Spotlight connection to show / change alarm configurations
 Template | Select a template to show / change / reapply a template configuration. Select a template to delete or rename that template. The templates you have previously saved are listed. For more information, see Configuration templates.
 
 
-### Select (Configure) an alarm
+## Select an alarm to configure
 
-The table of alarms is as follows. Double click on an alarm to Configure the alarm. See also About each alarm.
+The table of alarms is as follows.
 
 Column | Description
 -------|------------
@@ -47,13 +47,15 @@ Name | The name of the alarm.
 Type | The alarm applies to this connection type.
 Modified | Yes if the alarm is set to other than the Factory Settings.
 
-The connection properties are dependent on the connection type.
+Double click on an alarm to configure the alarm.
+
+Information about each alarm is documented under the connection type.
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
-{% if tag == "collections" %}
+{% if tag == "alarms" %}
 <li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}

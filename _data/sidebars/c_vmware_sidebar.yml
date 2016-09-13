@@ -34,6 +34,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Alarms
+      url: /vmware_alarms.html
+      output: web, pdf
+
     - title: Monitored Server - VMware Alarm Action Failure
       url: /vmware_alarm_monitoredserver_alarmactionfailure.html
       output: web, pdf

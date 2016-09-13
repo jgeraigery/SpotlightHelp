@@ -239,6 +239,22 @@ entries:
           url: /enterprise_cfg_alarm.html
           output: web, pdf
 
+        - title: Severity thresholds
+          url: /enterprise_cfg_alarm_severity.html
+          output: web, pdf
+
+        - title: Alarms - message variables
+          url: /enterprise_cfg_alarm_messagevariables.html
+          output: web, pdf
+
+        - title: Ignore Values
+          url: /enterprise_cfg_alarm_ignorevalues.html
+          output: web, pdf
+
+        - title: Custom Counters
+          url: /enterprise_cfg_alarm_customcounters.html
+          output: web, pdf
+
       - title: Configure Alarm actions
         output: web
         subfolderitems:

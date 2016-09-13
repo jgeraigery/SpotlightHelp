@@ -18,9 +18,9 @@ Click **Configure \| Scheduling**.
 
 Option | Description
 -------|------------
-Factory Settings | Select to show the settings for Spotlight data collection schedules shipped with Spotlight. These settings can be reapplied to a connection. These settings cannot be changed.
+Factory Settings | Select to show the data collection schedules shipped with Spotlight. These settings cannot be changed. These settings can be reapplied to a connection.
 Connection | Select a Spotlight connection to show / change the data collection schedules for that connection. Optionally use the options at the bottom of the screen to apply the same configuration to other Spotlight connections or save the configuration as a template.
-Template | Select a template to show / change / reapply a template configuration. Select a template to delete or rename that template. The templates you have previously saved for Spotlight data collection schedules (for this connection type) are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see Configuration templates.
+Template | Select a template to show / change / reapply a template configuration. Select a template to delete or rename that template. The templates you have previously saved for Spotlight data collection schedules (for this connection type) are listed.
 
 ## Store reporting data?
 
@@ -32,25 +32,19 @@ Select to store reporting data in the Spotlight Statistics Repository for the se
 
 Do not store reporting data in the Spotlight Statistics Repository for the selected connection. No future data will be stored in the Spotlight Statistics Repository for the selected connection. No future data will be available for Reporting and Trending for the selected connection.
 
-## Select a collection from the collection table
+## Select a collection to modify the collection schedule
 
 The table of collections is as follows.
 
-### Name
-Double click an item to modify the collection schedule (Configure a schedule).
+Column | Description
+-------|------------
+Name | The name of the collection.
+Type | The collection relates to this connection type.
+Modified | Yes if the collection schedule is set to other than the Factory Settings. No if the collection schedule is set as per the Factory Settings.
 
-Click for more information in the help as to how the collections are used.
+Double click on a collection to modify the collection schedule.
 
-### Type
-The collection relates to this connection type.
-
-### Modified
-
-Yes | The collection schedule has modified from the default.
-No | The collection schedule is set as per the Factory Settings.
-
-
-The connection properties are dependent on the connection type.
+Information about each collection is documented under the connection type.
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}

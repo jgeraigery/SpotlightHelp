@@ -34,6 +34,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Alarms
+      url: /oracle_alarms.html
+      output: web, pdf
+
     - title: Lock Wait
       url: /oracle_alarm_lockwait.html
       output: web, pdf

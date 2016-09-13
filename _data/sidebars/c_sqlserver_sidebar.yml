@@ -42,6 +42,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Alarms
+      url: /sqlserver_alarms.html
+      output: web, pdf
+
     - title: Backup - Days Since Last Full Backup
       url: /sqlserver_alarm_backup_dayssincelastfullbackup.html
       output: web, pdf
@@ -1143,6 +1147,10 @@ entries:
 
     - title: Collections
       url: /sqlserver_collections.html
+      output: web, pdf
+
+    - title: Collect additional diagnostic information
+      url: /sqlserver_collections_adddiaginfo.html
       output: web, pdf
 
   - title: Troubleshooting

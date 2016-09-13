@@ -34,6 +34,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Alarms
+      url: /hyperv_alarms.html
+      output: web, pdf
+
     - title: Hyper-V CPU Wait Time Per Dispatch
       url: /hyperv_alarm_cpuwaittimedispatch.html
       output: web, pdf
