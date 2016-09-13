@@ -3,7 +3,7 @@ title: ﻿Diagnostic Server - Repository Alarm - Upgrade in Progress
 last_updated: July 29, 2016
 summary: "The Spotlight Statistics Repository database is being upgraded."
 sidebar: c_spotlightds_sidebar
-permalink: spotlightds_alarm_ssr_upgradeinprogress.html
+permalink: spotlightds_alarm_ssr_UpgradeinProgress.html
 id: Repository.Alarm_Upgrade in Progress
 folder: ConnectSpotlightDS
 ---

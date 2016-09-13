@@ -92,7 +92,7 @@ entries:
           output: web, pdf
 
         - title: Maintenance Error
-          url: /spotlightds_alarm_playback_maintenanceerror.html
+          url: /spotlightds_alarm_playback_MaintenanceError.html
           output: web, pdf
 
         - title: Queue Error
@@ -112,7 +112,7 @@ entries:
           output: web, pdf
 
         - title: Upgrade In Progress
-          url: /spotlightds_alarm_playback_upgradeinprogress.html
+          url: /spotlightds_alarm_playback_UpgradeinProgress.html
           output: web, pdf
 
         - title: Version Error
@@ -128,7 +128,7 @@ entries:
           output: web, pdf
 
         - title: Maintenance Error
-          url: /spotlightds_alarm_ssr_maintenanceerror.html
+          url: /spotlightds_alarm_ssr_MaintenanceError.html
           output: web, pdf
 
         - title: Queue Error
@@ -144,7 +144,7 @@ entries:
           output: web, pdf
 
         - title: Upgrade In Progress
-          url: /spotlightds_alarm_ssr_upgradeinprogress.html
+          url: /spotlightds_alarm_ssr_UpgradeinProgress.html
           output: web, pdf
 
         - title: Version Error
