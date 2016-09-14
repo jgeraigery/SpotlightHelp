@@ -7,6 +7,15 @@ permalink: enterprise_cfg_alarmactions.html
 folder: SpotlightEnterprise
 ---
 
+
+
+## To open the alarm action editor
+
+Click **Configure \| Alarm Actions**.
+
+
+
+
 ## New rule
 
 Click New to create a new rule. This opens the Alarm Action Dialog. A rule is made up of conditions and actions. ALL actions of the rule are executed when ALL conditions of the rule are met. You may want to create many rules to ensure your requirements are met.
