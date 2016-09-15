@@ -1,18 +1,18 @@
 ---
 title: Monitoring Properties
-keywords: sample
+tags: [connection_details]
 summary: "Configure the monitoring properties of a single connection."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_connect_monitoringproperties.html
+permalink: enterprise_cfg_connect_monitor.html
 folder: SpotlightEnterprise
 ---
 
 
 
-From the Spotlight Client
+## From the Spotlight Client
 
-1. Click Configure \| Connections.
-2. Right-click the connection and select Properties \| Monitoring.
+1. Click **Configure \| Connections**.
+2. Right-click the connection and select **Properties \| Monitoring**.
 3. Select monitoring options
 
 Note: The visibility of some of these options is dependent on connection type.
@@ -47,5 +47,6 @@ Enable SQL Analysis. Configure the filters used to gather SQL Analysis data. For
 ## Monitored Files
 
 Track the growth of files (usually log files) on monitored Windows Servers. For more information, see Configure \| Monitored Files.
+
 
 {% include links.html %}

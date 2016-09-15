@@ -1,8 +1,9 @@
 ---
-title: Tags
+title: Connection Tags
+tags: [connection_details]
 summary: "Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_connect_tags.html
+permalink: enterprise_cfg_connect_tags.html
 folder: SpotlightEnterprise
 ---
 

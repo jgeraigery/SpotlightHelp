@@ -3,7 +3,7 @@ title: Monitoring connections and Spotlight Enterprise connection displays
 keywords: sample
 summary: "The left hand side of the Spotlight Client window lists the monitored databases, instances and servers in your enterprise. These are grouped according to connection type. Additionally, you can group connections into Custom views."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_connection.html
+permalink: enterprise_connect_connection.html
 folder: SpotlightEnterprise
 ---
 
