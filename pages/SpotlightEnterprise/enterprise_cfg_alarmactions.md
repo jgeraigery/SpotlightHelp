@@ -28,7 +28,12 @@ Rules are executed in the order they are displayed in the Alarm Action Editor (t
 
 Click on a rule to select it. When the rule is selected a "read only" view of the Rule description is displayed. A rule is made up of at least one action and usually one or more conditions. This is what a rule looks like.
 
+{% raw %}
+```
 For all alarms where the day of the week is Sunday or Saturday and the alarm severity is High send email to jsmith@company.com
+```
+{% endraw %}
+
 
 All the actions in the rule are executed when all the conditions in the rule are met.
 

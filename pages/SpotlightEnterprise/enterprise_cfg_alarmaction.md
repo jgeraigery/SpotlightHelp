@@ -16,8 +16,11 @@ folder: SpotlightEnterprise
 
 The Alarm Action Dialog works with one rule at a time. A rule is made up of at least one action and usually one or more conditions. This is what a rule looks like.
 
-
+{% raw %}
+```
 For all alarms where the day of the week is Sunday or Saturday and the alarm severity is High send email to jsmith@company.com
+```
+{% endraw %}
 
 All the actions in the rule are executed when all the conditions in the rule are met. You may want to create many rules to ensure your requirements are met. To manage multiple rules and the order they are executed see Configure \| Alarm Actions.
 
@@ -150,8 +153,21 @@ When filling in the command line field:
 * Use variables where applicable. For more information, see Alarms - Message Variables.
 * Here is an example. You can echo tag values as follows.
 
-Output to file: | echo {{TAG_VALUE #tagname}} >>c:\output.txt
-Output to monitor: | MSG /SERVER:<computer name> * "{{TAG_VALUE #tagname}}"
+#### Output to file
+
+{% raw %}
+```liquid
+echo {{TAG_VALUE #tagname}} >>c:\output.txt
+```
+{% endraw %}
+
+#### Output to monitor
+
+{% raw %}
+```liquid
+MSG /SERVER:<computer name> * "{{TAG_VALUE #tagname}}"
+```
+{% endraw %}
 
 The behavior of the invoked program depends on the nature of the program.
 * It is recommended that you do not invoke a UI-based program in response to the alarm, as the program will run as a service on a remote host.

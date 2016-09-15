@@ -23,22 +23,22 @@ How can this rule be created and maintained in the Alarm Action Editor?
 2. Click New to create a new rule.
 3. If this rule is related to specific connections
 
-    a.In the list of conditions, tick **The connection is...**
-    b.In the rule description click **connections**. Select the connections this rule applies to.
+   1. In the list of conditions, tick **The connection is...**
+   2. In the rule description click **connections**. Select the connections this rule applies to.
 
-4.If this rule is related to specific alarms
+4. If this rule is related to specific alarms
 
-    a.In the list of conditions, tick **The alarm is...**
-    b.In the rule description click **alarms**. Select the alarms this rule applies to.
+   1. In the list of conditions, tick **The alarm is...**
+   2. In the rule description click **alarms**. Select the alarms this rule applies to.
 
-5.If this rule is related to specific severities
+5. If this rule is related to specific severities
 
-    a.In the list of conditions, tick **The alarm severity is...**
-    b.In the rule description click **Low, Medium or High**. Select the severities this rule applies to.
+   1. In the list of conditions, tick **The alarm severity is...**
+   2. In the rule description click **Low, Medium or High**. Select the severities this rule applies to.
 
-6.In the list of actions to perform, tick **Send Push Notification to my mobile device**
+6. In the list of actions to perform, tick **Send Push Notification to my mobile device**
 
-    a.In the rule description, click (add recipient account). This opens the Send a Push Notification Dialog.
+   1. In the rule description, click (add recipient account). This opens the Send a Push Notification Dialog.
 
 
 
@@ -51,7 +51,8 @@ TIP: When you use The connection is... condition there are some things to be awa
 
 For any given rule, all the actions are taken when all the conditions are met. Any variability requires separate rules. Push notifications for operating system related alarms and SQL Server related alarms may have different recipients.
 
-
+{% raw %}
+```
 For all alarms
 where the connection type is one of os/vmware, os/windows
    send Push Notification to helpdesk@company com
@@ -59,10 +60,13 @@ where the connection type is one of os/vmware, os/windows
 For all alarms
 where the connection type is database/sqlserver
    send Push Notification to dbagroup@company com
+```
+{% endraw %}
 
 The severity may determine the action.
 
-
+{% raw %}
+```
 For all alarms
 where the connection type is one of os/vmware, os/windows
       and the alarm severity is High
@@ -72,7 +76,8 @@ For all alarms
 where the connection type is database/sqlserver
       and the alarm severity is Medium or High
    send Push Notification to dbagroup@company com
-
+```
+{% endraw %}
 
 ## Send a Push Notification Dialog
 
@@ -83,9 +88,9 @@ Configure Spotlight to send a push notification to a mobile device when an alarm
 1. Click Configure \| Alarms Actions. For more information, see Configure \| Alarm Actions.
 2. Click New to create a new rule. This opens the Alarm Action Dialog.
 
-   a.Give a meaningful name to the rule.
-   b.Select the conditions under which the rule will run.
-   c.Under actions select **Send push notification to my mobile device**.
+  1. Give a meaningful name to the rule.
+  2. Select the conditions under which the rule will run.
+  3. Under actions select **Send push notification to my mobile device**.
 
 
 ## The Send a Push Notification dialog

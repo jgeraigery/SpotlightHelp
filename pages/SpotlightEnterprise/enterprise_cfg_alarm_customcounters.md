@@ -24,14 +24,21 @@ Prior to following these instructions, ensure you Configure \| Custom Counters.
 
 To include the key name and current value in the description, use the following syntax:
 
+{% raw %}
+```liquid
 {{key}} = Custom counter name
 
 {{value}} = Custom counter value
+```
+{% endraw %}
 
 Example:
 
+{% raw %}
+```liquid
 {{key}} has a value of {{value}}
-
+```
+{% endraw %}
 
 
 {% include links.html %}
