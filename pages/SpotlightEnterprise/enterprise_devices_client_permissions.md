@@ -2,7 +2,7 @@
 title: Permissions for the Spotlight Client
 summary: "The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to access the Spotlight Diagnostic Server, to configure the Spotlight Diagnostic Server, to acknowledge and snooze alarms, and execute actions on monitored systems like kill and pause."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_client_permissions.html
+permalink: enterprise_devices_client_permissions.html
 folder: SpotlightEnterprise
 ---
 

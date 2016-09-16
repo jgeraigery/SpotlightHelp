@@ -2,7 +2,7 @@
 title: Maintenance plan for Spotlight Statistics Repository and Playback Database
 summary: "It is recommended that a maintenance plan for both the Spotlight Statistics Repository and the Playback Database is implemented."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_backup_maintenanceplan.html
+permalink: enterprise_backend_maintenanceplan.html
 folder: SpotlightEnterprise
 ---
 

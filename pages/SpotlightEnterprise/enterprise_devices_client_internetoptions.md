@@ -2,7 +2,7 @@
 title: Internet Options on the Spotlight Client
 summary: "The Spotlight Client connects to the Spotlight Diagnostic Server via Internet port 40403. If you have customized Internet Options on the Spotlight Client, verify that your customized configurations do not conflict with Spotlight."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_client_internetoptions.html
+permalink: enterprise_devices_client_internetoptions.html
 folder: SpotlightEnterprise
 ---
 
@@ -10,7 +10,7 @@ folder: SpotlightEnterprise
 
 On the computer hosting the Spotlight Client:
 
-1. Open the Control Panel | Internet Options.
+1. Open the Control Panel \| Internet Options.
 2. Select the Advanced tab.
 3. Verify Use SSL 3.0 is selected. Verify Use TLS 1.2 is selected.
 

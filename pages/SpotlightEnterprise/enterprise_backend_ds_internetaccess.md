@@ -2,7 +2,7 @@
 title: Spotlight services requiring Internet access
 summary: "The following Spotlight services require Internet access on the Spotlight Diagnostic Server. Use this page to ensure the Spotlight Diagnostic Server is appropriately configured."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_ds_internetaccess.html
+permalink: enterprise_backend_ds_internetaccess.html
 folder: SpotlightEnterprise
 ---
 
@@ -17,11 +17,11 @@ Enable Auto Update so the Spotlight Diagnostic Server will receive minor updates
 Monitor Spotlight connections in a web browser or Spotlight Mobile. Upload performance data for health check analysis.
 
 
-## Windows Control Panel | Internet Options | Connections
+## Windows Control Panel \| Internet Options \| Connections
 
 On the computer hosting the Spotlight Diagnostic Server:
 
-1. Open the Control Panel | Internet Options.
+1. Open the Control Panel \| Internet Options.
 2. Select the Connections tab.
 3. Click LAN Settings.
 4. Ensure the settings on this screen are appropriate to the settings of your local environment.
@@ -40,12 +40,12 @@ Note: After the Spotlight Diagnostic Server is installed, restart the Spotlight 
 
 
 
-## Windows Control Panel | Internet Options | Advanced
+## Windows Control Panel \| Internet Options \| Advanced
 
 
 On the computer hosting the Spotlight Diagnostic Server:
 
-1. Open the Control Panel | Internet Options.
+1. Open the Control Panel \| Internet Options.
 2. Select the Advanced tab.
 3. Ensure Use HTTP 1.1 and Use HTTP 1.1 through proxy connections are selected.
 

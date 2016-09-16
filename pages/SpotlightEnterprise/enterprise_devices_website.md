@@ -21,7 +21,7 @@ The Spotlight Diagnostic Server must be configured to allow you to monitor Spotl
 
 
 
-TIP: In a corporate enterprise your Spotlight Cloud (Spotlight Essentials) account may receive a request to join an organization. In an organization, performance analysis data is uploaded to the organization and is available to all members of the organization. For more information, see Spotlight Cloud | Organizations.
+TIP: In a corporate enterprise your Spotlight Cloud (Spotlight Essentials) account may receive a request to join an organization. In an organization, performance analysis data is uploaded to the organization and is available to all members of the organization. For more information, see Spotlight Cloud \| Organizations.
 
 ## Deployment
 

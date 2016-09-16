@@ -44,7 +44,7 @@ Changes to Planned Outage are recorded in the log of user actions.
 
 #### SQL Analysis
 
-The SQL Analysis dialog is used to determine what data is collected and displayed in the SQL Analysis - Workload View and the SQL Server | SQL Activity Drilldown \| SQL Analysis page. The log records all changes to the SQL Analysis dialog as applied to a monitored connection or template.
+The SQL Analysis dialog is used to determine what data is collected and displayed in the SQL Analysis - Workload View and the SQL Server \| SQL Activity Drilldown \| SQL Analysis page. The log records all changes to the SQL Analysis dialog as applied to a monitored connection or template.
 
 #### SQL Server Response Time
 
@@ -131,7 +131,7 @@ The log records when an alarm is ignored.
 
 #### SQL Activity
 
-The log records when a user kills a session from the Spotlight Client. That is command Sessions | Kill Session.
+The log records when a user kills a session from the Spotlight Client. That is command Sessions \| Kill Session.
 
 #### Databases
 

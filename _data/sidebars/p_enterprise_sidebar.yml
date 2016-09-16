@@ -69,11 +69,11 @@ entries:
           output: web, pdf
 
         - title: New connection view properties
-          url: /enterprise_connect_newconnectviewproperties.html
+          url: /enterprise_connect_newconnectionviewproperties.html
           output: web, pdf
 
         - title: Connection view properties
-          url: /enterprise_connect_connectviewproperties.html
+          url: /enterprise_connect_connectionviewproperties.html
           output: web, pdf
 
         - title: Select connections

@@ -37,7 +37,7 @@ Spotlight on SQL Server Enterprise 11.1 or later is required to snooze / unsnooz
 In the deployment of Spotlight, consider the following:
 
 * It is recommended that the Spotlight Diagnostic Server and SCOM Management Server be installed on different host computers.
-* The Spotlight Client is required to Configure Spotlight, Configure | Connections and Configure | Alarms.
+* The Spotlight Client is required to Configure Spotlight, Configure \| Connections and Configure \| Alarms.
 * The Spotlight Client is not required by SCOM. The SCOM Console and SCOM Management Server communicate directly with the Spotlight Diagnostic Server.
 
 

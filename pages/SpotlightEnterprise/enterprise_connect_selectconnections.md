@@ -22,7 +22,7 @@ The connection type: Analysis Services, Hyper-V, SQL Server, Windows Server etc.
 
 ### Tag
 
-Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection. For more information on tags, see Connection Properties | Tags.
+Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection. For more information on tags, see Connection Properties \| Tags.
 
 
 ## Select
@@ -31,7 +31,7 @@ Select from the connections monitored by Spotlight. Select connections to add to
 
 
 
-Every connection monitored by Spotlight (as per Configure | Connections) is listed.
+Every connection monitored by Spotlight (as per Configure \| Connections) is listed.
 
 ## Selected
 
