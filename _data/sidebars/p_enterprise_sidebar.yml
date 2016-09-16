@@ -68,6 +68,18 @@ entries:
           url: /enterprise_connect_customviews.html
           output: web, pdf
 
+        - title: New connection view properties
+          url: /enterprise_connect_newconnectviewproperties.html
+          output: web, pdf
+
+        - title: Connection view properties
+          url: /enterprise_connect_connectviewproperties.html
+          output: web, pdf
+
+        - title: Select connections
+          url: /enterprise_connect_selectconnections.html
+          output: web, pdf
+
         - title: Connection Type
           url: /enterprise_connect_type.html
           output: web, pdf
@@ -95,6 +107,10 @@ entries:
 
         - title: Remove connections
           url: /enterprise_connect_remove.html
+          output: web, pdf
+
+        - title: Command line access
+          url: /enterprise_connect_commandline.html
           output: web, pdf
 
   - title: Displays
@@ -522,6 +538,150 @@ entries:
 
     - title: Configure user experience
       url: /enterprise_cfg_client_userexperience.html
+      output: web, pdf
+
+  - title: Install Spotlight
+    output: web, pdf
+    folderitems:
+
+    - title: Install Spotlight
+      url: /enterprise_install.html
+      output: web, pdf
+
+  - title: Data on all your devices
+    output: web, pdf
+    folderitems:
+
+    - title: Data on all your devices
+      url: /enterprise_devices.html
+      output: web, pdf
+
+      subfolders:
+      - title: Spotlight Client
+        output: web
+        subfolderitems:
+
+        - title: Spotlight Client
+          url: /enterprise_devices_client.html
+          output: web, pdf
+
+        - title: Internet Options
+          url: /enterprise_devices_client_internetoptions.html
+          output: web, pdf
+
+        - title: Permissions
+          url: /enterprise_devices_client_permissions.html
+          output: web, pdf
+
+    - title: Spotlight Web Site
+      url: /enterprise_devices_website.html
+      output: web, pdf
+
+    - title: Spotlight Mobile
+      url: /enterprise_devices_mobile.html
+      output: web, pdf
+
+    - title: Pager Duty
+      url: /enterprise_devices_pagerduty.html
+      output: web, pdf
+
+    - title: Spotlight Management Pack for SCOM
+      url: /enterprise_devices_scom.html
+      output: web, pdf
+
+  - title: Backend deployment
+    output: web, pdf
+    folderitems:
+
+    - title: Backend deployment
+      url: /enterprise_backend.html
+      output: web, pdf
+
+      subfolders:
+      - title: Spotlght Diagnostic Server
+        output: web
+        subfolderitems:
+
+        - title: Spotlght Diagnostic Server
+          url: /enterprise_backend_ds.html
+          output: web, pdf
+
+        - title: Spotlight services requiring Internet access
+          url: /enterprise_backend_ds_internetaccess.html
+          output: web, pdf
+
+        - title: Start and stop the Spotlight Diagnostic Server
+          url: /enterprise_backend_ds_startstop.html
+          output: web, pdf
+
+        - title: Java KeyStore
+          url: /enterprise_backend_ds_javakeystore.html
+          output: web, pdf
+
+        - title: Deployment of federated Spotlight Diagnostic Server
+          url: /enterprise_backend_ds_federated.html
+          output: web, pdf
+
+    - title: Playback Database
+      url: /enterprise_backend_playback.html
+      output: web, pdf
+
+      subfolders:
+      - title: Spotlight Statistics Repository
+        output: web
+        subfolderitems:
+
+        - title: Spotlight Statistics Repository
+          url: /enterprise_backend_ssr.html
+          output: web, pdf
+
+        - title: Relocate the Spotlight Statistics Repository
+          url: /enterprise_backend_ssr_relocate.html
+          output: web, pdf
+
+    - title: Spotlight Cloud
+      url: /enterprise_backend_cloud.html
+      output: web, pdf
+
+    - title: Database Objects and Privileges
+      url: /enterprise_backend_dbobjectsprivileges.html
+      output: web, pdf
+
+    - title: Maintenance Plan
+      url: /enterprise_backend_maintenanceplan.html
+      output: web, pdf
+
+    - title: Backup Spotlight Data
+      url: /enterprise_backend_backupdata.html
+      output: web, pdf
+
+    - title: Log of User Actions
+      url: /enterprise_backend_logofuseractions.html
+      output: web, pdf
+
+      subfolders:
+      - title: Deployment over the Windows Network
+        output: web
+        subfolderitems:
+
+        - title: Network Ports
+          url: /enterprise_backend_winnetworkports.html
+          output: web, pdf
+
+        - title: Spotlight Diagnostic User Groups
+          url: /enterprise_backend_spotlightdiagnosticusergroups.html
+          output: web, pdf
+
+        - title: Troubleshooting WMI
+          url: /enterprise_backend_wmi_troubleshooting.html
+          output: web, pdf
+
+        - title: How to limit the number of ports used by WMI
+          url: /enterprise_backend_wmi_limitports.html
+          output: web, pdf
+
+    - title: Federation
+      url: /enterprise_backend_federation.html
       output: web, pdf
 
  
