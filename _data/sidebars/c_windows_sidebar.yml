@@ -615,6 +615,10 @@ entries:
           url: /windows_chart_logical_diskload.html
           output: web, pdf
 
+        - title: Logical Disks grid
+          url: /windows_grid_logicaldisks_diskactivity.html
+          output: web, pdf
+
       - title: Physical Disk Activity page
         output: web
         subfolderitems:
@@ -643,6 +647,10 @@ entries:
           url: /windows_chart_physical_diskload.html
           output: web, pdf
 
+        - title: Physical Disks grid
+          url: /windows_grid_physicaldisks_diskactivity.html
+          output: web, pdf
+
       - title: Logical Disk Space Usage page
         output: web
         subfolderitems:
@@ -656,11 +664,11 @@ entries:
         subfolderitems:
 
         - title: Physical Disks grid
-          url: /windows_grid_physicaldisks.html
+          url: /windows_grid_physicaldisks_disksummary.html
           output: web, pdf
 
         - title: Logical Disks grid
-          url: /windows_grid_logicaldisks.html
+          url: /windows_grid_logicaldisks_disksummary.html
           output: web, pdf
 
       - title: File Sizes page

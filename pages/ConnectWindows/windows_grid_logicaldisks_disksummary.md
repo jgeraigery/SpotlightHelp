@@ -3,7 +3,7 @@ title: Logical disks grid
 last_updated: July 29, 2016
 summary: "This shows the logical disk details of the selected physical disk systems."
 sidebar: c_windows_sidebar
-permalink: windows_grid_logicaldisks.html
+permalink: windows_grid_logicaldisks_disksummary.html
 id: logicaldisks.logicaldisksgrid
 folder: ConnectWindows
 ---
