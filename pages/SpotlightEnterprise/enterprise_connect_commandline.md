@@ -2,7 +2,7 @@
 title: Command Line Access
 summary: "List / edit / delete Spotlight Connections from the command line."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_connect_commandlineaccess.html
+permalink: enterprise_connect_commandline.html
 folder: SpotlightEnterprise
 ---
 
@@ -109,7 +109,7 @@ TIP: A list of connection names can be summarized by wildcards * and ? as per pr
 
 ### -Address address
 
-Supply the address of the Spotlight connection as per the form of the address entered in the Spotlight Client | Configure Connections | Properties | Details | Address field. For example: the Server Name, Server Instance Name, or IP address.
+Supply the address of the Spotlight connection as per the form of the address entered in the Spotlight Client \| Configure Connections \| Properties \| Details \| Address field. For example: the Server Name, Server Instance Name, or IP address.
 
 ### -Technology connectionType
 
