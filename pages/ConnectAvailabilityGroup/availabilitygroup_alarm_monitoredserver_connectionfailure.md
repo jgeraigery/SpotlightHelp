@@ -1,7 +1,7 @@
 ---
 title: ﻿Monitored Server - Availability Group Connection Failure Alarm
 last_updated: July 29, 2016
-summary: "The service is not responding."
+summary: "Spotlight has failed to connect to the SQL Server Availability Group."
 sidebar: c_availabilitygroup_sidebar
 permalink: availabilitygroup_alarm_monitoredserver_connectionfailure.html
 id: alarm_MonitoredServer_ConnectionFailure_AvailabilityGroups
@@ -10,41 +10,36 @@ folder: ConnectAvailabilityGroup
 
 
 
-<h2>Connection Failure</h2>
-<p>Spotlight has failed to connect to the SQL Server Availability Group.</p>
+Possible things to consider:
 
-<p>Possible things to consider:</p>
+## Availability
 
-  <p><b>Availability</b></p>
-  <p>Verify a node from the availability group is available and accessible over the network.</p>
+Verify a node from the availability group is available and accessible over the network.
 
-<p><b>Address</b></p>
-<p>The address is entered on the Availability Groups | Connection Details screen. Click Configure | Connections and select the Availability Groups connection type; right click on the connection and select Properties.</p>
-<p>Check the address is a valid availability listener: hostname, URL or IP address.</p>
+## Address
 
-  <p><b>Authentication</b></p>
-  <p>Authentication to the Availability Group is defined on the Availability Groups | Connection Details screen. Click Configure | Connections and select the Availability Group connection type; right click on the connection and select Properties.</p>
+The address is entered on the **Availability Groups \| Connection Details** screen. Click **Configure \| Connections** and select the Availability Groups connection type; right click on the connection and select Properties.
 
-  <p>When Use Diagnostic Server credentials is selected then the account running the Spotlight Diagnostic Server is used to connect to the Availability Group.</p>
+Check the address is a valid availability listener: hostname, URL or IP address.
 
-<p>When filling in the User and Password fields, ensure the database user has sufficient privileges to retrieve server information, query the registry, and access WMI and performance monitor objects. An account with administrative rights to the listener allows this.</p>
+## Authentication
 
-  <p><b>WMI Operability</b></p>
-  <p>Verify WMI is working and returns data properly. Verify TCP port 135 is open on the Windows server host. For more information see Troubleshooting WMI in the online help.</p>
+Authentication to the Availability Group is defined on the Availability Groups \| Connection Details screen. Click Configure \| Connections and select the Availability Group connection type; right click on the connection and select Properties.
 
-  <p><b>UDP port 1434</b></p>
-  <p>If UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance.</p>
+When Use Diagnostic Server credentials is selected then the account running the Spotlight Diagnostic Server is used to connect to the Availability Group.
 
-<p><strong>Note:</strong> The alarm will clear automatically if the error is due to the service being down or network problems and the error condition goes away.</p>
+When filling in the User and Password fields, ensure the database user has sufficient privileges to retrieve server information, query the registry, and access WMI and performance monitor objects. An account with administrative rights to the listener allows this.
 
+## WMI Operability
 
+Verify WMI is working and returns data properly. Verify TCP port 135 is open on the Windows server host. For more information see Troubleshooting WMI in the online help.
 
+## UDP port 1434
 
-* Check the connection to the service.
-* Check the availability of the service.
-* Check the network.
+If UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance.
 
-If WMI queries fail then a Windows Connection Failure alarm is raised on the third successive failed attempt, not on every failed attempt.
+{% include note.html content="The alarm will clear automatically if the error is due to the service being down or network problems and the error condition goes away." %}
+
 
 
 {% include links.html %}

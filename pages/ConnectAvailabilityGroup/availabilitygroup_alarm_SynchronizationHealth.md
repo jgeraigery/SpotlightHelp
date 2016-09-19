@@ -9,7 +9,7 @@ folder: ConnectAvailabilityGroup
 ---
 
 
-The Replicas grid on the Spotlight Overview page for the Availability Group will tell you which node(s) are unhealthy.
+The Spotlight Overview page \| Replicas grid will tell you which node(s) are unhealthy.
 
 
 {% include links.html %}

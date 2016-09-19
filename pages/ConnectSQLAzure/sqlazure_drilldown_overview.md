@@ -10,7 +10,7 @@ folder: ConnectSQLAzure
 
 {% include note.html content="When in Playback, history will not be displayed for SQL Azure database information." %}
 
-## How to open the SQL Azure Overview page  (Spotlight Client)
+## How to open the Spotlight Overview page  (Spotlight Client)
 
 1. Select the connection from the left Connections pane.
 2. Click **Monitor \| Overview** from the ribbon.

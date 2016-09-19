@@ -9,9 +9,10 @@ folder: ConnectAnalysisServices
 ---
 
 
-## When this alarm occurs
+When this alarm is raised
 
-Go to the Cubes page on the Storage drilldown and look at the **State** column to locate the unprocessed cube.
+* Open the **Storage drilldown \| Cubes page**.
+* Use the **State** column to locate the unprocessed cube.
 
 
 {% include links.html %}

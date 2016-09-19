@@ -1,7 +1,7 @@
 ---
 title: Session Locks grid
 last_updated: July 29, 2016
-summary: "Shows all locks held or requested by the selected session."
+summary: "Show all locks held or requested by the selected session."
 sidebar: c_sqlazure_sidebar
 id: SessionLocks.SessionLocksGrid
 permalink: sqlazure_grid_sessionlocks.html
@@ -10,9 +10,7 @@ folder: ConnectSQLAzure
 
 
 
-The Status column shows whether the locks have been **granted** to the session, or whether they are currently **blocked** and waiting on another session.
-
-The details in this grid are:
+{% include tip.html content="The Status column shows whether the locks have been **granted** to the session, or whether they are currently **blocked** and waiting on another session." %}
 
 ## Lock Type
 

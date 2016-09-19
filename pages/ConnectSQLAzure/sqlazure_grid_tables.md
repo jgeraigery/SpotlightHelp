@@ -8,7 +8,7 @@ permalink: sqlazure_grid_tables.html
 folder: ConnectSQLAzure
 ---
 
-## The columns in the Tables grid are:
+## The columns are:
 
 ### Table Name
 
@@ -47,13 +47,15 @@ Total number of pages reserved for the table.
 Total number of pages used for the table.
 
 
-## You can filter the results displayed in the Tables grid by the following criteria:
+## How to filter the results
+
+You can filter the grid by the following criteria:
 
 * Top N tables
 * Size or row count
 * Table name
 
-To filter the results, type appropriate values into the fields above the Tables grid (wildcards are supported) and then click **Apply Filter**.
+Type appropriate values into the fields above the Tables grid (wildcards are supported) and click **Apply Filter**.
 
 
 {% include links.html %}

@@ -1,7 +1,7 @@
 ---
 title: Data Storage
 last_updated: July 29, 2016
-summary: "This shows the space used and reserved for the database."
+summary: "The space used and reserved for the database."
 sidebar: c_sqlazure_sidebar
 id: Home.mcDataFiles
 permalink: sqlazure_component_datastorage.html

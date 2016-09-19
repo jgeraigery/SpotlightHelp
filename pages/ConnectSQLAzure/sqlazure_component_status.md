@@ -1,6 +1,6 @@
 ---
 title: Status
-summary: "This button indicates the current status of the SQL Azure connection."
+summary: "The current status of the SQL Azure connection."
 sidebar: c_sqlazure_sidebar
 permalink: sqlazure_component_status.html
 folder: ConnectSQLAzure

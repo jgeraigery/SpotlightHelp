@@ -9,9 +9,10 @@ folder: ConnectAnalysisServices
 ---
 
 
-## When this alarm occurs
+When this alarm is raised
 
-Go to the Cubes page on the Storage drilldown and look at the **Last Processed** column to see when the cube was last processed.
+* Open the Storage drilldown \| Cubes page.
+* Use the **Last Processed** column to determine when the cube was last processed.
 
 
 

@@ -7,8 +7,6 @@ folder: ConnectVMware
 ---
 
 
-## When the alarm is raised
-
-See your VMware administrator for ways to address this issue.
+When this alarm is raised, see your VMware administrator for ways to address this issue.
 
 {% include links.html %}

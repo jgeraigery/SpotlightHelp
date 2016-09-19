@@ -8,14 +8,14 @@ id: alarm_ms_plannedoutage
 folder: ConnectVMware
 ---
 
-<p>This service is in a planned outage.</p>
-<p>Spotlight will resume monitoring the service at the end of the planned outage period.</p>
-<p>To check the planned outage schedule, click Configure | Planned Outage.</p>
-<p>To resume monitoring early, right click on the connection and select "Resume Monitoring".</p>
-<p><strong>Note:</strong> No new alarms are raised during a planned outage. Pre-existing alarms requiring acknowledgement remain visible and can be acknowledged.</p>
 
+Spotlight will resume monitoring the service at the end of the planned outage period.
 
-For more information, see Configure \| Planned Outage.
+To check the planned outage schedule, click Configure \| Planned Outage.
+
+To resume monitoring early, right click on the connection and select **Resume Monitoring**.
+
+{% include note.html content="No new alarms are raised during a planned outage. Pre-existing alarms requiring acknowledgement remain visible and can be acknowledged." %}
 
 
 {% include links.html %}

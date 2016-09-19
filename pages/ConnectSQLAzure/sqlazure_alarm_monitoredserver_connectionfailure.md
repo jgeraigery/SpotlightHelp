@@ -1,15 +1,13 @@
 ---
 title: ﻿Monitored Server - SQL Azure Connection Failure Alarm
 last_updated: July 29, 2016
-summary: "Spotlight has failed to connect to the SQL Azure database."
+summary: "Spotlight has failed to connect to the SQL Azure database. Check the SQL Azure connection details and SQL Azure availability."
 sidebar: c_sqlazure_sidebar
 permalink: sqlazure_alarm_monitoredserver_connectionfailure.html
 id: alarm_MonitoredServer_ConnectionFailure_SQLAzure
 folder: ConnectSQLAzure
 ---
 
-
-Possible things to consider:
 
 ## SQL Azure connection details
 

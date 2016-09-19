@@ -16,7 +16,7 @@ Investigate memory usage for the Analysis Services server.
 
 The Cache chart shows performance counters from Analysis Services. For information on the counters shown in the Cache chart, search Microsoft SQL Server Books Online for "Agg Cache Object".
 
-To switch between statistics, click the arrow next to the chart name.
+{% include tip.html content="To switch between statistics, click the arrow next to the chart name." %}
 
 ### Proactive caching chart
 

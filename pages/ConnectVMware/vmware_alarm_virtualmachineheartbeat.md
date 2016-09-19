@@ -8,13 +8,17 @@ folder: ConnectVMware
 ---
 
 
-## When the alarm is raised
+## When an Information alarm is raised
 
-Severity | Description
----------|------------
-Information | VMware Tools are not installed or are not running.
-Low | There is an intermittent heartbeat. This may be due to guest load.
-Medium | There is no heartbeat. The guest operating system may have stopped responding.
+VMware Tools are not installed or are not running.
+
+## When a Low severity alarm is raised
+
+There is an intermittent heartbeat. This may be due to guest load.
+
+## When a Medium severity alarm is raised
+
+There is no heartbeat. The guest operating system may have stopped responding.
 
 
 {% include links.html %}

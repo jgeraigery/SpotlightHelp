@@ -9,11 +9,12 @@ folder: ConnectAnalysisServices
 ---
 
 
-{% include note.html content="This alarm applies only to Analysis Services 2008." %}
+{% include note.html content="This alarm applies only to SQL Server Analysis Services 2008." %}
 
-## When this alarm occurs
+When this alarm is raised
 
-Go to the Commands page on the Activity drilldown to view the long running command. Look at the **Elapsed Time** column to locate the long running command.
+* Open the Activity drilldown \| Commands page to view the long running command.
+* Use the **Elapsed Time** column to locate the long running command.
 
 For information on how to configure the Long Running Command alarm, see the online help.
 

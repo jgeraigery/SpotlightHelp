@@ -8,7 +8,7 @@ folder: ConnectAnalysisServices
 ---
 
 
-{% include note.html content="All times shown in the grids of the Activity drilldown are displayed as Greenwich mean time (GMT)." %}
+{% include note.html content="All times shown in the grids of the Activity drilldown are displayed as Greenwich mean time (GMT). This feature requires SQL Server Analysis Services 2008 or later." %}
 
 
 ## Connections page
@@ -16,17 +16,16 @@ folder: ConnectAnalysisServices
 Investigate open connections on the server.
 
 ### Connections grid
-Provides resource usage and activity information for current connections on the server.
 
+Provides resource usage and activity information for current connections on the server.
 
 ## Sessions page
 
 Investigate open sessions on the server.
 
-### Sessions grid 
+### Sessions grid
 
 Provides resource usage and activity information for current sessions on the server.
-
 
 ## Commands page
 
@@ -35,11 +34,6 @@ Investigate Commands that are currently executing or last executed.
 ### Commands grid
 
 Provides resource usage and activity information for currently executing or last executed commands on the server.
-
-
-{% include note.html content="This feature requires SQL Server Analysis Services 2008 or later." %}
-
-
 
 
 {% include links.html %}

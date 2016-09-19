@@ -9,9 +9,7 @@ folder: ConnectHyperv
 ---
 
 
-## When the alarm is raised
-
-See your Hyper-V administrator for ways to address this issue.
+When the alarm is raised, see your Hyper-V administrator for ways to address this issue.
 
 
 {% include links.html %}
