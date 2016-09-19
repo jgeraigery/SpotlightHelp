@@ -23,7 +23,7 @@ A Spotlight Client monitors connections from one Spotlight Diagnostic Server at 
 A Spotlight Client monitors connections from all Spotlight Diagnostic Server in the federation. Spotlight Clients in the federation share the same custom views, templates, alarm actions and list of planned outages.
 
 
-For more information, refer to the Spotlight on SQL Server Enterprise Federation Guide.
+For more information, refer to the Spotlight Enterprise Federation Guide.
 
 
 {% include links.html %}

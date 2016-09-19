@@ -8,9 +8,9 @@ folder: SpotlightEnterprise
 
 ## Deployment
 
-The Spotlight Statistics Repository is deployed on SQL Server. For specifications see the Spotlight on SQL Server Enterprise Release Notes.
+The Spotlight Statistics Repository is deployed on SQL Server. For specifications see the Spotlight Enterprise Release Notes.
 
-The Spotlight Statistics Repository is not created during the installation of Spotlight on SQL Server. The Spotlight Statistics Repository is (optionally) enabled in the Spotlight Client for the Spotlight Diagnostic Server following installation of Spotlight.
+The Spotlight Statistics Repository is not created during the installation of Spotlight Enterprise. The Spotlight Statistics Repository is (optionally) enabled in the Spotlight Client for the Spotlight Diagnostic Server following installation of Spotlight.
 
  Many Spotlight Diagnostic Server can connect to one Spotlight Statistics Repository.
 

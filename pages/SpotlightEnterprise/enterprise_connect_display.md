@@ -51,7 +51,7 @@ Properties | View/edit the properties of this custom view.
 
 Expand the connection type or custom view to list connections by name.
 
-Click on the connection name to show the Spotlight Home Page for the connection (Spotlight home page).
+Click on the connection name to show the Spotlight Overview page for the connection.
 
 ### Right click on a connection.
 

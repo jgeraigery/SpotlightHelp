@@ -8,7 +8,7 @@ folder: SpotlightEnterprise
 
 ## Installation
 
-The Spotlight Client is installed on a Windows server. For specifications see the Spotlight on SQL Server Enterprise Release Notes.
+The Spotlight Client is installed on a Windows server. For specifications see the Spotlight Enterprise Release Notes.
 
 The Spotlight Client is installed by the Spotlight installer. The Spotlight Client can be installed on the same Windows server as the Spotlight Diagnostic Server but does not have to be.
 

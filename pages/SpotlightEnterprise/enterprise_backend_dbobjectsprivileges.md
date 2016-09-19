@@ -1,6 +1,6 @@
 ---
 title: Database Objects and Privileges
-summary: "This document covers information about database object creation, privilege/grant creation and requirements, and encryption security for Spotlight on SQL Server. The Security and Encryption section identifies changes to Spotlight on SQL Server that could affect your security auditing process for both client and server."
+summary: "This document covers information about database object creation, privilege/grant creation and requirements, and encryption security for Spotlight Enterprise. The Security and Encryption section identifies changes to Spotlight Enterprise that could affect your security auditing process for both client and server."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_backend_dbobjectsprivileges.html
 folder: SpotlightEnterprise
@@ -20,7 +20,7 @@ The user must have the appropriate privileges required to update the tables of t
 
 ## Spotlight Statistics Repository Objects Created
 
-The following repository objects are created by Spotlight on SQL Server in the Spotlight Statistics Repository:spotlight_daily_ssr_maintenance
+The following repository objects are created by Spotlight Enterprise in the Spotlight Statistics Repository:spotlight_daily_ssr_maintenance
 
 spotlight_get_datasources
 
@@ -377,7 +377,7 @@ The user must have the appropriate privileges required to update the table of th
 
 ## Playback Database Objects Created
 
-The following repository objects are created by Spotlight on SQL Server in the playback database:
+The following repository objects are created by Spotlight Enterprise in the playback database:
 
 
 
@@ -435,9 +435,9 @@ The Spotlight user requires the following:
 * Execute permission on the following extended stored procedures: xp_enumerrorlogs , xp_readerrorlog, and xp_servicecontrol.
 * To be granted VIEW DEFINITION privilege on all databases on the monitored instance.
 
-## Spotlight on SQL Server Security and Encryption
+## Spotlight Enterprise Security and Encryption
 
-The following statement provides security and encryption information for Spotlight on SQL Server.
+The following statement provides security and encryption information for Spotlight Enterprise.
 
 Encryption is used by the product to encrypt the credentials that are used to connect to monitored connections and to store licensing configuration.
 

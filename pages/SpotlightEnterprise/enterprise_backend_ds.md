@@ -1,6 +1,6 @@
 ---
 title: Spotlight Diagnostic Server
-summary: "The Spotlight Diagnostic Server is at the core of the Spotlight on SQL Server architecture. All Spotlight data passes through the Spotlight Diagnostic Server."
+summary: "The Spotlight Diagnostic Server is at the core of the Spotlight Enterprise architecture. All Spotlight data passes through the Spotlight Diagnostic Server."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_backend_ds.html
 folder: SpotlightEnterprise
@@ -8,7 +8,7 @@ folder: SpotlightEnterprise
 
 ## Installation
 
-The Spotlight Diagnostic Server is a Windows service. For specifications see the Spotlight on SQL Server Enterprise Release Notes.
+The Spotlight Diagnostic Server is a Windows service. For specifications see the Spotlight Enterprise Release Notes.
 
 The Spotlight Diagnostic Server is installed by the Spotlight installer.
 
@@ -37,7 +37,7 @@ A single Spotlight Diagnostic Server is designed to monitor a maximum of 100 SQL
 
 ### Deployment over the Windows network
 
-A Spotlight on SQL Server deployment consists of many components that may be spread over a wide network. Spotlight's ability to function, to collect and display data, may depend on account permissions granted over the network and specific open network ports.
+A Spotlight Enterprise deployment consists of many components that may be spread over a wide network. Spotlight's ability to function, to collect and display data, may depend on account permissions granted over the network and specific open network ports.
 
 ### Spotlight services requiring Internet access
 

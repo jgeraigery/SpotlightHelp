@@ -172,7 +172,7 @@ MSG /SERVER:<computer name> * "{{TAG_VALUE #tagname}}"
 The behavior of the invoked program depends on the nature of the program.
 * It is recommended that you do not invoke a UI-based program in response to the alarm, as the program will run as a service on a remote host.
 * If the program that runs in response to an alarm is still executing when the alarm fires again, subsequent commands to run the program are ignored until that execution finishes.
-* If you attempt to stop Spotlight on SQL Server whilst a program or command line action is still executing, Spotlight on SQL Server will wait until that program or command line action has ended before stopping.
+* If you attempt to stop Spotlight whilst a program or command line action is still executing, Spotlight will wait until that program or command line action has ended before stopping.
 
 ### Run actions again after
 

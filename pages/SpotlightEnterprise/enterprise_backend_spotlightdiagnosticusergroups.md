@@ -13,7 +13,7 @@ folder: SpotlightEnterprise
 
 ### Spotlight Diagnostic Users
 
-Members of this group are granted user privileges to Spotlight. They can do the usual diagnostic tasks. For example, they can view the home pages, the drilldown pages, browse the playback data and change alarm thresholds.
+Members of this group are granted user privileges to Spotlight. They can do the usual diagnostic tasks. For example, they can view the Spotlight Overview pages, the drilldown pages, browse the playback data and change alarm thresholds.
 
 ### Spotlight Diagnostic Administrators
 
@@ -25,7 +25,7 @@ Note: Administrative changes are logged. The logged entry includes the date, tim
 ### Spotlight Diagnostic Read-Only
 
 
-Members of this group can view the home pages, the drilldown pages, the playback data and alarm cases. They cannot make changes to Spotlight's operation. For example, they cannot alter the state of Spotlight on SQL Server and Monitored Servers.
+Members of this group can view the Spotlight Overview pages, the drilldown pages, the playback data and alarm cases. They cannot make changes to Spotlight's operation. For example, they cannot alter the state of Spotlight Enterprise and Monitored Servers.
 
 
 Add members, increase / decrease your level of membership

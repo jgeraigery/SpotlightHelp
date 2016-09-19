@@ -8,7 +8,7 @@ folder: SpotlightEnterprise
 
 ## Deployment
 
-The Playback Database is deployed on SQL Server. For specifications, see the Spotlight on SQL Server Enterprise Release Notes.
+The Playback Database is deployed on SQL Server. For specifications, see the Spotlight Enterprise Release Notes.
 
 The Playback Database is created by the Spotlight installer.
 

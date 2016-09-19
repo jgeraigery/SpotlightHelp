@@ -1,6 +1,6 @@
 ---
 title: Network ports
-summary: "A Spotlight on SQL Server deployment consists of many components that may be spread over a wide network. Spotlight's ability to function, to collect and display data, may depend on account permissions granted over the network and specific open network ports."
+summary: "A Spotlight Enterprise deployment consists of many components that may be spread over a wide network. Spotlight's ability to function, to collect and display data, may depend on account permissions granted over the network and specific open network ports."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_backend_winnetworkports.html
 folder: SpotlightEnterprise

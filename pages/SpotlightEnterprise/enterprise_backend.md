@@ -10,7 +10,7 @@ folder: SpotlightEnterprise
 
 ## Spotlight Diagnostic Server
 
-The Spotlight Diagnostic Server is at the core of the Spotlight on SQL Server architecture. All Spotlight data passes through the Spotlight Diagnostic Server. The Spotlight Diagnostic Server is a Windows service. It runs under Windows credentials.
+The Spotlight Diagnostic Server is at the core of the Spotlight Enterprise architecture. All Spotlight data passes through the Spotlight Diagnostic Server. The Spotlight Diagnostic Server is a Windows service. It runs under Windows credentials.
 
 ## Playback Database
 

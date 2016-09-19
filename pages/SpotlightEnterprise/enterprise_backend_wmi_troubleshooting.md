@@ -94,7 +94,7 @@ The following is a guide to troubleshooting WMI errors.
 Exception from HRESULT: 0x800706BA
 
 
-Spotlight on SQL Server is not able to establish a connection with the Windows server to be monitored.
+Spotlight is not able to establish a connection with the Windows server to be monitored.
 
 Verify the following:
 
