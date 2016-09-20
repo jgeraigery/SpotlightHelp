@@ -42,6 +42,9 @@ entries:
     - title: Oracle
       url: /oracle_landing_page.html
       output: web
+    - title: Unix
+      url: /unix_landing_page.html
+      output: web
     - title: Windows Server
       url: /windows_landing_page.html
       output: web

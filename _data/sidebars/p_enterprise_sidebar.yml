@@ -118,23 +118,23 @@ entries:
     folderitems:
 
     - title: Heatmap
-      url: /enterprise_heatmap.html
+      url: /enterprise_display_heatmap.html
       output: web, pdf
 
     - title: Spotlight Today
-      url: /enterprise_spotlighttoday.html
+      url: /enterprise_display_spotlighttoday.html
       output: web, pdf
 
     - title: Alarms by time
-      url: /enterprise_alarmsbytime.html
+      url: /enterprise_display_alarmsbytime.html
       output: web, pdf
 
     - title: Alarm log
-      url: /enterprise_alarmlog.html
+      url: /enterprise_display_alarmlog.html
       output: web, pdf
 
     - title: Spotlight Overview pages
-      url: /enterprise_overview.html
+      url: /enterprise_display_overview.html
       output: web, pdf
 
       subfolders:
@@ -143,23 +143,23 @@ entries:
         subfolderitems:
 
         - title: Spotlight grids
-          url: /enterprise_grids.html
+          url: /enterprise_display_grids.html
           output: web, pdf
 
         - title: Toolbar
-          url: /enterprise_gridstoolbar.html
+          url: /enterprise_display_gridstoolbar.html
           output: web, pdf
 
         - title: Header row
-          url: /enterprise_gridsheader.html
+          url: /enterprise_display_gridsheader.html
           output: web, pdf
 
         - title: Grid content
-          url: /enterprise_gridscontent.html
+          url: /enterprise_display_gridscontent.html
           output: web, pdf
 
         - title: Properties
-          url: /enterprise_gridsproperties.html
+          url: /enterprise_display_gridsproperties.html
           output: web, pdf
 
       - title: Spotlight charts
@@ -167,23 +167,23 @@ entries:
         subfolderitems:
 
         - title: Spotlight charts
-          url: /enterprise_charts.html
+          url: /enterprise_display_charts.html
           output: web, pdf
 
         - title: Toolbar
-          url: /enterprise_chartstoolbar.html
+          url: /enterprise_display_chartstoolbar.html
           output: web, pdf
 
         - title: Legend
-          url: /enterprise_chartslegend.html
+          url: /enterprise_display_chartslegend.html
           output: web, pdf
 
         - title: Chart content
-          url: /enterprise_chartscontent.html
+          url: /enterprise_display_chartscontent.html
           output: web, pdf
 
         - title: Compare - Select time range (Baselining)
-          url: /enterprise_chartsbaselining.html
+          url: /enterprise_display_chartsbaselining.html
           output: web, pdf
 
         - title: Properties (Chart)
@@ -191,7 +191,7 @@ entries:
           output: web, pdf
 
         - title: Properties (Chart filters)
-          url: /enterprise_chartsproperties_filter.html
+          url: /enterprise_display_chartsproperties_filter.html
           output: web, pdf
 
     - title: Playback
