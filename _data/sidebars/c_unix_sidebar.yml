@@ -38,8 +38,8 @@ entries:
       url: /unix_alarms.html
       output: web, pdf
 
-    - title: Blocked Process
-      url: /unix_alarm_blockedprocess.html
+    - title: Blocked Processes
+      url: /unix_alarm_blockedprocesses.html
       output: web, pdf
 
     - title: Monitored Server - Unix Alarm Action Failure
