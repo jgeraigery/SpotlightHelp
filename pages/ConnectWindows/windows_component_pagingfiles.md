@@ -17,4 +17,4 @@ The disk icon also shows:
 * The total size of all paging files on all disks in the system.
 * The current amount of space being used by all paging files on all disks in the system.
 
-<note type="note">This does not include any potential growth of the paging files.</note>
+{% include note.html content="This does not include any potential growth of the paging files." %}

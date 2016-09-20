@@ -8,10 +8,11 @@ id: TCPIP.IPDatagramsChart
 folder: ConnectWindows
 ---
 
-You can view either the **IP Datagrams** chart or the **IP Datagrams Errors** chart. Select the desired option from the drop-down menu at the top of the chart.
+
+{% include note.html content="You can view either the **IP Datagrams** chart or the **IP Datagrams Errors** chart. Select the desired option from the drop-down menu at the top of the chart." %}
+
 
 ## IP Datagrams chart
-
 
 ### Sent
 

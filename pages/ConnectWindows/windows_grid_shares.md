@@ -1,7 +1,7 @@
 ---
 title: Shares grid
 last_updated: July 29, 2016
-summary: "The Shares grid displays the resources on the monitored Windows system that can be shared with users on other systems."
+summary: "The Shares grid displays the resources on the Windows Server that can be shared with users on other systems."
 sidebar: c_windows_sidebar
 permalink: windows_grid_shares.html
 id: Shares.SharesGrid

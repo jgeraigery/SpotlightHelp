@@ -8,8 +8,6 @@ id: MemorySummary.SpotlightChart4
 folder: ConnectWindows
 ---
 
-It displays the following:
-
 
 ## Free
 

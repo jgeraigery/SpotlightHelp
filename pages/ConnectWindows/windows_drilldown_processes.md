@@ -13,7 +13,7 @@ Investigate running processes.
 
 Select a process in the Process grid to see related sub-pages.
 
-#### Processes grid
+### Processes grid
 
 Shows information for each process running on the current system.
 
@@ -76,7 +76,7 @@ Shows details about the Windows services installed on the current system.
 
 Click Start  / Stop  / Pause  to change the running state of a selected service or device. You must be a member of the Spotlight diagnostic administrators group to change the running state. For more information, see Spotlight diagnostic user groups.
 
-Right - click Select Process to locate the process running a selected share process.
+Right - click **Select Process** to locate the process running a selected share process.
 
 ### service details
 
@@ -100,7 +100,7 @@ Shows any services that depend on the selected service running. Stopping the sel
 Double-click a service to see its full details.
 
 
-## System drivers
+## System drivers page
 
 Investigate the Windows kernel and file system drivers on the Windows server.
 

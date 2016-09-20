@@ -21,8 +21,7 @@ The rate at which IP datagram fragments are generated as a result of fragmentati
 
 ## Re-assembled
 
-The rate at which IP fragments are rebuilt into their original data packets.
-Packets are fragmented when they travel through a router that needs to send packets that are smaller than the packets received.
+The rate at which IP fragments are rebuilt into their original data packets. Packets are fragmented when they travel through a router that needs to send packets that are smaller than the packets received.
 
 ## Datagrams
 
@@ -30,8 +29,7 @@ The rate at which IP fragments are created on the current system. This applies o
 
 ## Failures
 
-The rate at which the current system receives data packets that are too large to be transmitted, and that cannot be fragmented.
-The cause may be the presence of a "do not fragment" flag in the IP packet header.
+The rate at which the current system receives data packets that are too large to be transmitted, and that cannot be fragmented. The cause may be the presence of a "do not fragment" flag in the IP packet header.
 
 ## Reassembly Failures
 

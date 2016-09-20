@@ -9,7 +9,7 @@ folder: ConnectWindows
 ---
 
 
-## If this is happening regularly, look at:
+If this is happening regularly, look at:
 
 * The NBT page of the Network drilldown to see if any users or other systems are copying an inordinate amount of data between systems.
 * Moving network applications or shared files to another machine to balance the load.

@@ -27,7 +27,7 @@ If disk counters are disabled on the monitored Windows Server you may notice the
 To enable disk counters
 
 1. Open a command line window on the monitored Windows Server.
-2. Type the following at the command prompt: diskperf -y
+2. Type the following at the command prompt: **diskperf -y**
 3. Restart the Windows Server.  
 
 

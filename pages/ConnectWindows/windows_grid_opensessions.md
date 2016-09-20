@@ -1,8 +1,7 @@
 ---
 title: Open sessions grid
 last_updated: July 29, 2016
-summary: "The sessions displayed are the active connections made to the current
-Windows system by users on other systems."
+summary: "The sessions displayed are the active connections made to the current Windows system by users on other systems."
 sidebar: c_windows_sidebar
 permalink: windows_grid_opensessions.html
 id: Sessions.OpenSessionsGrid
@@ -11,9 +10,6 @@ folder: ConnectWindows
 
 
 {% include note.html content="Remote Desktop sessions are not shown." %}
-
-
-The Sessions grid on this page displays data for each connection in the following columns:
 
 
 ## Computer

@@ -10,6 +10,4 @@ folder: ConnectWindows
 
 If disk transfers are taking consistently longer than 50 milliseconds a disk bottleneck may be developing. The Disks - Transfer Time alarm is raised when the transfer time exceeds 50 milliseconds.
 
-## When this alarm is raised
-
-Refer to the Windows Server \| Disks Drilldown \| Physical Disk Activity page \| Transfer Time chart.
+When this alarm is raised, refer to the Windows Server \| Disks Drilldown \| Physical Disk Activity page \| Transfer Time chart.

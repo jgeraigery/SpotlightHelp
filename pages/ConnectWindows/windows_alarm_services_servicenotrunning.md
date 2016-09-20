@@ -8,13 +8,18 @@ id: ServiceNotRunning.alarm
 folder: ConnectWindows
 ---
 
-You can start services from the Processes drilldown. Note, you must be a member of the Spotlight Diagnostic Administrators group to use the Start Service option.
 
-## To start the service:
+## To start the service from the Spotlight Client
 
 1. Select the connection in the Spotlight Browser.
 2. Click **Monitor \| Processes**.
 3. Select **Services**.
 4. Right-click the service that is not running and select **Start Service**.
 
-{% include note.html content="You can configure this alarm to ignore certain values. See *Configure an Alarm to Ignore Certain Values* in the online help. You can configure different severity alarms for different services using keys. See **Configure Keyed Alarms** in the online help for more information." %}
+{% include note.html content="You must be a member of the Spotlight Diagnostic Administrators group to use the **Start Service** option." %}
+
+## Configure this alarm in Spotlight
+
+You can configure this alarm to ignore certain values. See *Configure an Alarm to Ignore Certain Values* in the online help.
+
+You can configure different severity alarms for different services using keys. See **Configure Keyed Alarms** in the online help for more information."

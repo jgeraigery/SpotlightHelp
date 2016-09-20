@@ -9,7 +9,7 @@ folder: ConnectWindows
 ---
 
 
-## To rectify the problem of the logical disk space filling up:
+To rectify the problem:
 
 * Inform users of the disk volume to clean up space by deleting or moving files no longer required.
 * Delete files that are no longer required from the volume.

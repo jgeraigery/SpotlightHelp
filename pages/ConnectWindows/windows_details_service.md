@@ -26,7 +26,7 @@ This shows how the service acts on Windows start
 
 ### Automatic
 
-Starts every time the system starts, after the <uicontrol>Boot</uicontrol> and <uicontrol>System</uicontrol> devices start.
+Starts every time the system starts, after the **Boot** and **System** devices start.
 
 ### Manual
 

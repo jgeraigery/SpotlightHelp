@@ -1,14 +1,14 @@
 ---
 title: Total CPU Utilization chart
 last_updated: July 29, 2016
-summary: "This shows the total CPU utilization across all processors on the system."
+summary: "This shows the total CPU utilization across all processors on the system. This is broken down on the chart between User Time and Privileged Time."
 sidebar: c_windows_sidebar
 permalink: windows_chart_totalcpuutilization.html
 id: CPUProcessing.CPUUtilizationChart
 folder: ConnectWindows
 ---
 
-This is broken down on the chart between **User Time** and **Privileged Time**.
+
 
 ## User Time
 

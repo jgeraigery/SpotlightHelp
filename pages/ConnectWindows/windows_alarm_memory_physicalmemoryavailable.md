@@ -1,7 +1,7 @@
 ---
 title: Memory - Physical Memory Available Alarm
 last_updated: July 29, 2016
-summary: "The Memory - Physical Memory Available alarm is activated when the available memory drops below a threshold."
+summary: "The Memory - Physical Memory Available alarm is raised when the available memory drops below a threshold."
 sidebar: c_windows_sidebar
 permalink: windows_alarm_memory_physicalmemoryavailable.html
 id: sowhomepage.gauphysram.free physical memory.alarm
@@ -17,7 +17,7 @@ folder: ConnectWindows
 
 ## When this alarm is current you should:
 
-* Look at the Processes page in the Processes drilldown.
+* Look at the Windows Server \| Processes drilldown \| Processes page.
   Check the Phys MB column for processes using excessive amounts of memory. You can:
 	* Close those applications using excessive memory.
 	* Change the maximum memory usage setting for those applications using excessive memory. Refer to the relevant documentation to find out if this setting is supported by the application.

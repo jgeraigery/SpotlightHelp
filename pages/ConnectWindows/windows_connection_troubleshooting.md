@@ -38,12 +38,4 @@ Verify TCP port 135 is open on the Windows server.
 Check the System Requirements and Known Issues sections of the Spotlight Enterprise Release Notes.
 
 
-
-
-
-
-
-
-{% include note.html content="Spotlight Playback is fully documented in the Spotlight Enterprise help." %}
-
 {% include links.html %}

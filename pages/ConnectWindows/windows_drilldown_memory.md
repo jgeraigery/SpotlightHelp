@@ -104,7 +104,7 @@ Shows the amount of memory reclaimed by ESX.
 
 * **Balloon** - Amount of memory reclaimed by ESX via ballooning to give to other virtual machines.
 
-    Note: For memory to be reclaimed via ballooning, VMware Tools must be installed on the virtual machine.
+    For memory to be reclaimed via ballooning, VMware Tools must be installed on the virtual machine.
 
 * **ESX Swapped** - Amount of memory reclaimed by ESX via swapping to give to other virtual machines.
     Memory reclaimed via swapping can affect the performance of the virtual machine significantly more than if the memory is reclaimed via ballooning.
@@ -114,7 +114,7 @@ Shows the amount of memory reclaimed by ESX.
 
 Investigate Memory usage for the virtual machine.
 
-### Average Memory Pressure 
+### Average Memory Pressure
 Show the proportion of memory on the Hyper-V server consumed by all the virtual machines on the server over time.
 
 Ideally the proportion should be consistently reported around 80, definitely below 100 and no spikes above 100. Some highly tuned systems that are very dense may run higher than 80.

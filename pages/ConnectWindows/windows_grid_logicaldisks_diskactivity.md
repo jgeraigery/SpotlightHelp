@@ -1,14 +1,16 @@
 ---
 title: Logical Disks grid
 last_updated: July 29, 2016
-summary: "This view shows all collected logical disk statistics in grid rather than chart view. This allows sorting on statistics across all disks for the current values. (Click a column heading to order by that column.)"
+summary: "This view shows all collected logical disk statistics in grid rather than chart view. This allows sorting on statistics across all disks for the current values."
 sidebar: c_windows_sidebar
 permalink: windows_grid_logicaldisks_diskactivity.html
 id: LogicalDiskActivity.LogicalDiskGrid
 folder: ConnectWindows
 ---
 
-The columns shown are:
+
+{% include tip.html content="Click a column heading to order by that column." %}
+
 
 ## Disk
 

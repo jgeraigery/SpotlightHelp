@@ -8,7 +8,7 @@ id: Open Shares.OpenSharesGrid
 folder: ConnectWindows
 ---
 
-<note type="note">Remote Desktop sessions are not shown.</note>
+{% include note.html content="Remote Desktop sessions are not shown." %}
 
 ## Share
 

@@ -16,8 +16,7 @@ To check the planned outage schedule, click **Configure \| Planned Outage**.
 
 To resume monitoring early, right click on the connection and select **Resume Monitoring**.
 
-
-<strong>Note:</strong> No new alarms are raised during a planned outage. Pre-existing alarms requiring acknowledgement remain visible and can be acknowledged.</p>
+{% include note.html content="No new alarms are raised during a planned outage. Pre-existing alarms requiring acknowledgement remain visible and can be acknowledged." %}
 
 
 {% include links.html %}

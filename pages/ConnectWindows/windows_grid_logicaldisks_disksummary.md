@@ -9,8 +9,6 @@ folder: ConnectWindows
 ---
 
 
-Following are the column details:
-
 ## Drive
 
 The disk's drive letter.

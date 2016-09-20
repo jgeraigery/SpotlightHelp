@@ -8,142 +8,136 @@ id: processes.processesgrid
 folder: ConnectWindows
 ---
 
-
-<note type="note">Not all columns are visible by default. To view hidden columns, click the <uicontrol>Organize Columns</uicontrol> icon in the right corner above the grid .</note>
-
-
-The column names in the following list are ordered alphabetically due to the number of available columns in this grid. This is not the order that columns are displayed in in the drilldown.
-
-The grid contains the following columns :
-
-
-## % CPU
-
-The percentage of CPU time that the program is currently consuming. This is an instantaneous result.
-
-## % Kernel
-
-The percentage of CPU time that the program is currently consuming in privileged mode. (Privileged mode is designed for operating system components and allows direct access to hardware and all memory).
-
-## % User
-
-The percentage of CPU time that the program is currently consuming in user mode. (User mode is a restricted processing mode designed for applications, environment subsystems, and integral subsystems).
-
-## Address Space (MB)
-
-The current size of the total address space of the process.
-
-
-{% include note.html content="A process is limited to 2GB of address space no matter how much free RAM may be available." %}
-
-## Elapsed Time
-
-How long it has been since the program was started.
-
-## Handles
-
-The overall number of resources that the program currently has open. A handle is a value used to uniquely identify a resource so that a program can access it.
-
-## IO/sec
-
-The number of I/O accesses (such as hard disk reads and writes and memory reads and writes) being performed by the process.
-
-## IO Data MB/sec
-
-The rate at which the process is reading and writing megabytes in all its I/O operations.
-
-## IO Other/sec
-
-The rate at which the process is issuing I/O operations that do not involve data (control operations, for example).
-
-## IO Other MB/Sec
-
-The rate at which the process is issuing megabytes to I/O operations that do not involve data (control operations, for example).
-
-## IO Read MB/Sec
-
-The rate at which the process is reading megabytes from I/O operations.
-
-## IO Reads/Sec
-
-The number of I/O reads (such as hard disk reads and memory reads) being performed by the process.
-
-## IO Write MB/Sec
-
-The rate at which the process is writing megabytes to I/O operations.
-
-## IO Writes/Sec
-
-The number of I/O writes (such as hard disk writes and memory writes) being performed by the process.
-
-## Mem Usage (MB)
-
-The current size of the working set of the process.
-
-## Page Faults/Sec
-
-An instantaneous view of how many page faults are occurring for the program.
-
-## Page File MB
-
-The current number of megabytes that this process has used in the paging file(s).
-
-## Page File MB Peak
-
-The maximum number of megabytes that this process has used in the paging file(s).
-
-## Peak Address Space (MB)
-
-The peak size of the total address space of the process since it was started.
-
-## Peak Mem Usage (MB)
-
-The peak size of the working set of the process since it was started.
-
-## PID
-
-The Process ID. This is individual for all currently running processes across the system. This can be used as a parameter in system programs, such as the TASKKILL.EXE command on Windows systems.
-
-## Pool Nonpaged MB
-
-The number of megabytes of memory currently used by the server that cannot be paged out.
-
-## Pool Paged MB
-
-The number of megabytes of memory currently used by the server that can be paged out.
-
-## Priority
-
-The priority of the program. Program priorities range from 1 to 31, and depend on what the program is currently executing. Programs started in "Real Time" mode run with a priority of 16 to 31, whereas programs with "High", "Normal" or "Low" settings run in a priority range of 1 to 15.
-
-## Process
-
-The image name of the application itself. This can be used as a parameter in system programs, such as the TASKKILL.EXE command on Windows systems.
+## How to end a process
 
 Members of the Spotlight Diagnostic Administrators group can use the Processes page to end any processes currently running on a local machine or remote machines. To do this:
 
 1. Right-click a process in the grid to display its shortcut menu.
 2. Choose the **End Process** option (if enabled) from the menu.
 
-{% include note.html content="You must be a member of the Spotlight Diagnostic Administrators group to use the End Process option." %}
+## The columns of the grid are:
 
-## Services
+{% include note.html content="The column names in the following list are ordered alphabetically due to the number of available columns in this grid. This is not the order that columns are displayed in in the drilldown. Not all columns are visible by default. To view hidden columns, click the **Organize Columns** icon in the right corner above the grid." %}
+
+### % CPU
+
+The percentage of CPU time that the program is currently consuming. This is an instantaneous result.
+
+### % Kernel
+
+The percentage of CPU time that the program is currently consuming in privileged mode. (Privileged mode is designed for operating system components and allows direct access to hardware and all memory).
+
+### % User
+
+The percentage of CPU time that the program is currently consuming in user mode. (User mode is a restricted processing mode designed for applications, environment subsystems, and integral subsystems).
+
+### Address Space (MB)
+
+The current size of the total address space of the process.
+
+{% include note.html content="A process is limited to 2GB of address space no matter how much free RAM may be available." %}
+
+### Elapsed Time
+
+How long it has been since the program was started.
+
+### Handles
+
+The overall number of resources that the program currently has open. A handle is a value used to uniquely identify a resource so that a program can access it.
+
+### IO/sec
+
+The number of I/O accesses (such as hard disk reads and writes and memory reads and writes) being performed by the process.
+
+### IO Data MB/sec
+
+The rate at which the process is reading and writing megabytes in all its I/O operations.
+
+### IO Other/sec
+
+The rate at which the process is issuing I/O operations that do not involve data (control operations, for example).
+
+### IO Other MB/Sec
+
+The rate at which the process is issuing megabytes to I/O operations that do not involve data (control operations, for example).
+
+### IO Read MB/Sec
+
+The rate at which the process is reading megabytes from I/O operations.
+
+### IO Reads/Sec
+
+The number of I/O reads (such as hard disk reads and memory reads) being performed by the process.
+
+### IO Write MB/Sec
+
+The rate at which the process is writing megabytes to I/O operations.
+
+### IO Writes/Sec
+
+The number of I/O writes (such as hard disk writes and memory writes) being performed by the process.
+
+### Mem Usage (MB)
+
+The current size of the working set of the process.
+
+### Page Faults/Sec
+
+An instantaneous view of how many page faults are occurring for the program.
+
+### Page File MB
+
+The current number of megabytes that this process has used in the paging file(s).
+
+### Page File MB Peak
+
+The maximum number of megabytes that this process has used in the paging file(s).
+
+### Peak Address Space (MB)
+
+The peak size of the total address space of the process since it was started.
+
+### Peak Mem Usage (MB)
+
+The peak size of the working set of the process since it was started.
+
+### PID
+
+The Process ID. This is individual for all currently running processes across the system. This can be used as a parameter in system programs, such as the TASKKILL.EXE command on Windows systems.
+
+### Pool Nonpaged MB
+
+The number of megabytes of memory currently used by the server that cannot be paged out.
+
+### Pool Paged MB
+
+The number of megabytes of memory currently used by the server that can be paged out.
+
+### Priority
+
+The priority of the program. Program priorities range from 1 to 31, and depend on what the program is currently executing. Programs started in "Real Time" mode run with a priority of 16 to 31, whereas programs with "High", "Normal" or "Low" settings run in a priority range of 1 to 15.
+
+### Process
+
+The image name of the application itself. This can be used as a parameter in system programs, such as the TASKKILL.EXE command on Windows systems.
+
+### Services
 
 The services (if any) associated with the current process permitted to run the current process.
 
-## Session ID
+### Session ID
 
 The session ID for the process, generated by the operating system.
 
-## Threads
+### Threads
 
 The number of active threads in the program. A thread is a program execution unit.
 
-## User
+### User
 
 Shows the owner of the process on a Windows Server machine (for example, Windows Server).
 
-## VM Size (MB)
+### VM Size (MB)
 
 The current memory allocated to this process that cannot be shared with other processes.
 

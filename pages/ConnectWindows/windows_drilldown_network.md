@@ -25,7 +25,7 @@ Shows the number of errors and retries on the network subsystem. A consistent nu
 * A network segment attached to the Windows server is over-utilized.
 * There are problems with a network card, cabling or other networking device on a network segment.
 
-### TCPIP page
+## TCPIP page
 Investigate recent TCP/IP activity to and from the Windows server.
 
 ### TCP Segments chart
@@ -88,7 +88,7 @@ Shows the connections currently established to the shared resource selected in t
 ## Virtualized Network page
 Investigate the load this virtual machine is placing on the Hyper-V server network bandwidth. This is applicable only to virtual machines hosted on a Hyper-V server.
 
-### Total Kilobytes In/Out chart 
+### Total Kilobytes In/Out chart
 For this chart network traffic is defined as that passing through locations external to the Hyper-V server and the virtual machine. Network traffic passing between virtual machines on the same Hyper-V server does not count.
 
 

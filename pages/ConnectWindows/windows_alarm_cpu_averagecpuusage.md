@@ -1,16 +1,16 @@
 ---
 title: CPU - Average CPU Usage Alarm
 last_updated: July 29, 2016
-summary: "The CPU - Average CPU Usage alarm becomes active when the average CPU utilization of the server exceeds a threshold."
+summary: "The CPU - Average CPU Usage alarm is active when the average CPU utilization of the server exceeds a threshold. This value is taken over a specific number of background collections. Sustained high CPU utilization can adversely effect the performance of SQL Server and anything else using this server."
 sidebar: c_windows_sidebar
 permalink: windows_alarm_cpu_averagecpuusage.html
 id: average_percentage_cpu_used.alarm
 folder: ConnectWindows
 ---
 
-This value is taken over a specific number of background collections. Sustained high CPU utilization can adversely effect the performance of SQL Server and anything else using this server.
 
-Note that since this is a Windows-based alarm, it can include CPU that was consumed by non-SQL Server processes.
+
+{% include note.html content="Since this is a Windows-based alarm, it can include CPU that was consumed by non-SQL Server processes." %}
 
 When this alarm is current, you should:
 

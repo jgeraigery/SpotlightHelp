@@ -14,8 +14,7 @@ Ideally the proportion should be consistently reported around 80, definitely bel
 
 So long as the proportion stays under 100 there is enough available memory to service all virtual machines on the Hyper-V server. If the proportion exceeds 100 then virtual machine(s) are doing paging operations with the virtual machine itself and there will be performance degradation.
 
-<note type="note">This chart is applicable to Hyper-V servers configured for dynamic memory allocation. If the Hyper-V server is configured for static memory assignment then no data is available. Dynamic memory allows Hyper-V administrators to assign a dynamic allocation of memory to a virtual machine that draws from a pool of memory on the Hyper-V server.</note>
-
+{% include note.html content="This chart is applicable to Hyper-V servers configured for dynamic memory allocation. If the Hyper-V server is configured for static memory assignment then no data is available. Dynamic memory allows Hyper-V administrators to assign a dynamic allocation of memory to a virtual machine that draws from a pool of memory on the Hyper-V server." %}
 
 
 {% include links.html %}

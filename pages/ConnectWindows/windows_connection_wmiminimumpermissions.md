@@ -50,17 +50,23 @@ From the Windows command prompt, type powershell and click Enter to open the Pow
 
 Run the following command to retrieve the user SID of the Spotlight User. Replace domainName and userName with the domain name and user name for the Spotlight User account.
 
+```
 [wmi]"win32_useraccount.domain='domainName',name='userName'"
+```
 
 ### Retrieve the current SDDL for the Services Control Manager
 
 From the Windows command prompt, run the following command to retrieve the current SDDL for the Services Control Manager. The SDDL is saved in the file called file.txt.
 
+```
 sc sdshow scmanager > file.txt
+```
 
 The SDDL looks something like this. For more information see Microsoft KB914392.
 
+```
 D:(A;;CC;;;AU)(A;;CCLCRPRC;;;IU)(A;;CCLCRPRC;;;SU)(A;;CCLCRPWPRC;;;SY)(A;;KA;;;BA)S:(AU;FA;KA;;;WD)(AU;OIIOFA;GA;;;WD)
+```
 
 ### Modify the SDDL
 
@@ -70,14 +76,17 @@ In the new text, replace IU with the user SID of the Spotlight User.
 
 The new SDDL looks something like the following:
 
+```
 D:(A;;CC;;;AU)(A;;CCLCRPRC;;;IU) (A;;CCLCRPRC;;;S-1-5-21-214A909598-1293495619-13Z157935-75714)(A;;CCLCRPRC;;;SU)(A;;CCLCRPWPRC;;;SY)(A;;KA;;;BA) S:(AU;FA;KA;;;WD)(AU;OIIOFA;GA;;;WD)
+```
 
 ### Set the security credentials for accessing the Service Control Manager
 
 The sdset command on sc sets the security credentials for accessing the Service Control Manager (scmanager). Note the permissions on scmanager are being replaced. Setting security credentials is not additive. That’s why we needed to copy the existing permissions.
 
+```
 sc sdset scmanager "D:(A;;CC;;;AU)(A;;CCLCRPRC;;;IU)(A;;CCLCRPRC;;;SU)(A;;CCLCRPWPRC;;;SY)(A;;KA;;;BA)(A;;CCLCRPRC;;;S-1-5-21-214A909598-1293495619-13Z157935-75714)S:(AU;FA;KA;;;WD)(AU;OIIOFA;GA;;;WD)"
-
+```
 
 ## 3. Provide access to the Registry keys used by Spotlight
 

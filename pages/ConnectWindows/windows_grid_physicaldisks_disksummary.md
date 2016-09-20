@@ -8,10 +8,9 @@ id: DiskSummary.PhysicalDiskGrid
 folder: ConnectWindows
 ---
 
+{% include tip.html content="Clicking an entry displays information about the logical disks located on the selected physical disk." %}
 
-Clicking an entry displays information about the logical disks located on the selected physical disk.
-
-## The column details are:
+## The columns of the grid are:
 
 ### Disk
 

@@ -1,15 +1,14 @@
 ---
 title: Physical Disks grid
 last_updated: July 29, 2016
-summary: "This view shows all collected physical disk statistics in grid rather than chart view. This allows sorting on statistics across all disks for the current values. (Click a column heading to order by that column.)"
+summary: "This view shows all collected physical disk statistics in grid rather than chart view. This allows sorting on statistics across all disks for the current values."
 sidebar: c_windows_sidebar
 permalink: windows_grid_physicaldisks_diskactivity.html
 id: PhysicalDiskActivity.PhysicalDiskGrid
 folder: ConnectWindows
 ---
 
-
-Following are the columns shown:
+{% include tip.html content="Click a column heading to order by that column." %}
 
 ## Disk
 

@@ -10,10 +10,7 @@ folder: ConnectWindows
 
 It compares the two types of page fault (**soft** and **hard**) and makes it easy to see the ratio between them.
 
-A **Page Fault** occurs when a process references a page that is
-not in that processes **working set** (the set of pages visible to
-that process in physical memory). When this happens, the process has to
-wait while the Windows Virtual Memory Manager retrieves the page from virtual memory.
+A **Page Fault** occurs when a process references a page that is not in that processes **working set** (the set of pages visible to that process in physical memory). When this happens, the process has to wait while the Windows Virtual Memory Manager retrieves the page from virtual memory.
 
 A **soft** page fault occurs when Windows finds the required page somewhere in physical memory.
 
