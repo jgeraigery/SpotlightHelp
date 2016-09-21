@@ -18,6 +18,7 @@ This script does not grant sufficient privileges to view the data on this page.
 
 ## Script to grant permissions to TrustedUser
 
+```
 use master
 
 grant ALTER TRACE to TrustedUser
@@ -149,5 +150,6 @@ end
 -----un-comment the following line for SQL Server 2012 and above.
 
 --Grant ALTER ANY EVENT SESSION to TrustedUser
+```
 
 {% include links.html %}

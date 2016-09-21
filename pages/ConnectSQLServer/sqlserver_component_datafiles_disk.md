@@ -9,24 +9,16 @@ folder: ConnectSQLServer
 ---
 
 
-<p>The disk icon will "fill up" as the total percentage of all
- <uicontrol>data files</uicontrol> in all databases increases. This is the current
- <uicontrol>reserved</uicontrol> space in all data files as a percentage of the
- <uicontrol>current size</uicontrol> of all data files.</p>
+The disk icon will "fill up" as the total percentage of all **data files** in all databases increases. This is the current **reserved** space in all data files as a percentage of the **current size** of all data files.
 
-<p>Note that all figures in the disk icons are accumulated over all databases
- so that a <uicontrol>Percentage Used</uicontrol> figure of around 0% does not
- necessarily mean that all databases have plenty of space left. Also, some
- files may be configured to <uicontrol>AutoGrow</uicontrol>, so if this figure
- is approaching 100% it does not necessarily mean you are almost out of
- space. The <uicontrol>Fixed File Used</uicontrol> or the <uicontrol>Dynamic File Growths Remaining</uicontrol> alarm is raised when any database is running out of space.</p>
+Note that all figures in the disk icons are accumulated over all databases so that a **Percentage Used** figure of around 0% does not necessarily mean that all databases have plenty of space left. Also, some files may be configured to **AutoGrow**, so if this figure is approaching 100% it does not necessarily mean you are almost out of space. The **Fixed File Used** or the **Dynamic File Growths Remaining** alarm is raised when any database is running out of space.
 
-<p>This disk also contains text that shows:</p>
-<ul>
-	<li><p>The total number of <uicontrol>file groups</uicontrol> in all databases in the SQL Server.</p></li>
-	<li><p>The total number of <uicontrol>data files</uicontrol> in all databases in the SQL Server.</p></li>
-	<li><p>The total size of all <uicontrol>data files</uicontrol> in all databases in the SQL Server.</p></li>
-	<li><p>The percentage used of all <uicontrol>data files</uicontrol> in all databases in the SQL Server.</p></li>
-</ul>
+This disk also contains text that shows:
+
+* The total number of **file groups** in all databases in the SQL Server.
+* The total number of **data files** in all databases in the SQL Server.
+* The total size of all **data files** in all databases in the SQL Server.
+* The percentage used of all **data files** in all databases in the SQL Server.
+
 
 {% include links.html %}
