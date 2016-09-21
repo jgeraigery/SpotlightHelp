@@ -8,6 +8,8 @@ id: Custom Counters.chtCounters
 folder: ConnectSQLServer
 ---
 
-<note type="note">The chart shows only those counters that return numeric values.</note>
+
+
+{% include note.html content="The chart shows only those counters that return numeric values." %}
 
 {% include links.html %}

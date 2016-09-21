@@ -12,7 +12,7 @@ folder: ConnectSQLServer
 
 You can see exactly when each support service was and was not running, and whether a service has been installed.
 
-<note type="note">SQL Mail and SQL Agent Mail are not services and cannot be started or stopped. The Service Status History chart displays their current configuration status only.</note>
+{% include tip.html content="SQL Mail and SQL Agent Mail are not services and cannot be started or stopped. The Service Status History chart displays their current configuration status only." %}
 
 
 {% include links.html %}

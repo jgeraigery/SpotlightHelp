@@ -1,7 +1,7 @@
 ---
 title: Latches Chart
 last_updated: July 29, 2016
-summary: "The Latches chart shows statistics on Latch requests."
+summary: "The Latches chart shows statistics on Latch requests. A Latch is like a mini-lock that is used internally by SQL Server to serialize access to certain resources. Latches do not participate in transactions and are typically held for very short durations."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_chart_latches.html
 id: SQLActivity_Locks.LatchesChart
@@ -9,8 +9,6 @@ folder: ConnectSQLServer
 ---
 
 
-
-A Latch is like a mini-lock that is used internally by SQL Server to serialize access to certain resources. Latches do not participate in transactions and are typically held for very short durations.
 
 The Latches chart shows the following:
 

@@ -1,16 +1,12 @@
 ---
 title: Index Distribution Chart
 last_updated: July 29, 2016
-summary: ""
+summary: "When a single index is selected in the Indexes grid above, the Index Distribution chart shows the index distribution histogram for the selected index."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_chart_indexdistribution.html
 id: Databases2_Indexes_Stats.IndexStatsChart
 folder: ConnectSQLServer
 ---
-
-<note type="note">The Index Distribution chart does not apply to SQL Server 2000.</note>
-
-When a single index is selected in the Indexes grid above, the **Index Distribution chart** shows the index distribution histogram for the selected index.
 
 When SQL Server collects statistics on an index for use in determining the indexes usefulness for resolving queries, it samples the data in the index and produces a histogram of the key values found.
 
@@ -27,6 +23,7 @@ Note that SQL Server uses sampling only and does not inspect every key value. Th
 
 if the selected index is on a **Name** column, the chart may show the values:
 
+```
 <table>
 <tgroup cols="2">
 <colspec colname="COLSPEC0" colwidth="121*"/>
@@ -55,12 +52,14 @@ if the selected index is on a **Name** column, the chart may show the values:
 </tbody>
 </tgroup>
 </table>
-
+```
 
 This means 5 of the people have a name that is alphabetically before or equal to ABRAHAM, 20 are between ABRAHAM and GEORGE, 25 between GEORGE and PETER, and so on.
 
-
 This chart can be used to identify **skewed** indexes. These are indexes that have a very uneven distribution of data. For example, if 95% of the table has the same value for a key, it is difficult for SQL Server to determine if it is a useful index or not. Searches on values that fall in the 5% might find the index very useful, but searching on the value that occurs 95% of the time are not so useful.
+
+{% include note.html content="The Index Distribution chart does not apply to SQL Server 2000." %}
+
 
 
 {% include links.html %}

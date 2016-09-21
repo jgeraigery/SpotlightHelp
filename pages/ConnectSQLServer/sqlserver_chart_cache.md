@@ -12,8 +12,7 @@ folder: ConnectSQLServer
 
 The buffer cache will normally be the largest memory cache used by SQL Server.
 
-<note type="note"> (SQL Server 2012) Shows also the amount of memory allocated to Free Pages and Stolen Pages over time.</note>
-
+{% include note.html content="(SQL Server 2012) Shows also the amount of memory allocated to Free Pages and Stolen Pages over time." %}
 
 
 {% include links.html %}

@@ -9,7 +9,7 @@ folder: ConnectSQLServer
 ---
 
 
-The Connected Sessions chart contains an area graph showing the number of SQL Server sessions over time. If you have a non-zero "User Connections" parameter set on the server being monitored, the Y-axis is scaled to the value you specified, which allows you to see how close you are to this limit. Sessions are categorized as:
+The Connected Sessions chart contains an area graph showing the number of SQL Server sessions over time. If you have a non-zero **User Connections** parameter set on the server being monitored, the Y-axis is scaled to the value you specified, which allows you to see how close you are to this limit. Sessions are categorized as:
 
 * Internal SQL Server **System** sessions
 * **Active** user sessions

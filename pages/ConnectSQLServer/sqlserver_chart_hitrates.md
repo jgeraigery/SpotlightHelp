@@ -14,8 +14,8 @@ A Hit Rate indicates the amount of work (**I/O** or **compilations**) that is be
 
 Hit rates are shown for the following caches:
 
-Buffer Cache |
-Procedure Cache | The hit rate for this cache will vary widely depending on how the application is written. This figure is averaged for all procedure cache object types except ad hoc SQL.
+* Buffer Cache
+* Procedure Cache - The hit rate for this cache will vary widely depending on how the application is written. This figure is averaged for all procedure cache object types except ad hoc SQL.
 
 Spotlight calculates its hit rates using a differential sampling method. Unlike most SQL Server monitors, it is not reporting the average hit rate since SQL Server started.
 

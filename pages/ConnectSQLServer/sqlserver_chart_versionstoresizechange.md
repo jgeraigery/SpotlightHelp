@@ -13,9 +13,9 @@ folder: ConnectSQLServer
 
 There are two version stores in Tempdb. The online index build version store is used for online index builds in all databases. The common version store is used for all other data modification operations in all databases.
 
-The Version Store Size Change chart is populated using SQLTempDBPerfCounters.
+This chart occupies the same space as the Tempdb Version Store Size chart. Alternate between the charts via the drop down menu in the chart title.
 
-<note type="tip">This chart occupies the same space as the Tempdb Version Store Size chart. Alternate between the charts via the drop down menu in the chart title.</note>
+The Version Store Size Change chart is populated using SQLTempDBPerfCounters.
 
 
 

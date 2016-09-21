@@ -10,6 +10,8 @@ folder: ConnectSQLServer
 
 
 
+{% include tip.html content="You can restrict the files(s) that are included in this chart by clicking on the file(s) you are interested in the grid at the top." %}
+
 The following counters can be displayed by clicking the arrow next to the chart name:
 
 ## Wait per I/O
@@ -40,8 +42,6 @@ The total number of milliseconds that SQL Server has spent waiting for I/O opera
 
 The number of milliseconds that SQL Server has spent waiting for I/O operations on this file since the last time data for this page was collected.
 
-
-You can restrict the files(s) that are included in this chart by clicking on the file(s) you are interested in the grid at the top.
 
 
 {% include links.html %}
