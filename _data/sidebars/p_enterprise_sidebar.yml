@@ -122,11 +122,11 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: Monitoring a view of connections
+      - title: Custom Views
         output: web
         subfolderitems:
 
-        - title: Custom views
+        - title: Custom Views
           url: /enterprise_connect_customviews.html
           output: web, pdf
 
@@ -146,7 +146,7 @@ entries:
           url: /enterprise_connect_type.html
           output: web, pdf
 
-    - title: Monitoring a single connection
+    - title: Drilldown on a single connection
       url: /enterprise_connect_connection.html
       output: web, pdf
 
