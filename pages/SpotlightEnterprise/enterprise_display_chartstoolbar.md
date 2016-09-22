@@ -4,7 +4,7 @@ tags: [spotlight_charts]
 keywords: charts, drilldowns
 summary: "Configure the way the chart presents information."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_chartstoolbar.html
+permalink: enterprise_display_chartstoolbar.html
 folder: SpotlightEnterprise
 ---
 

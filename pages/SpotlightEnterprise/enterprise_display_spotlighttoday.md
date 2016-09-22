@@ -3,7 +3,7 @@ title: Spotlight Today
 keywords: spotlight today
 summary: "Spotlight Today is a display of recent alarms and alarms requiring acknowledgment."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_spotlighttoday.html
+permalink: enterprise_display_spotlighttoday.html
 id: 40004
 folder: SpotlightEnterprise
 ---

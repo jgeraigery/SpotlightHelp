@@ -4,7 +4,7 @@ tags: [spotlight_charts]
 keywords: charts, drilldowns
 summary: "A Spotlight chart may contain multiple graphs representing separate data series from multiple data sources. You can filter the chart so that it shows only the data series that you want to see."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_chartsproperties_filter.html
+permalink: enterprise_display_chartsproperties_filter.html
 id: 40114
 folder: SpotlightEnterprise
 ---

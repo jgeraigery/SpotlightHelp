@@ -4,7 +4,7 @@ tags: [spotlight_grids]
 keywords: grids, drilldowns
 summary: "Right-click the table header row for options."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_gridsheader.html
+permalink: enterprise_display_gridsheader.html
 folder: SpotlightEnterprise
 ---
 

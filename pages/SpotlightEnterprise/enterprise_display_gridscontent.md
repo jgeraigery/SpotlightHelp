@@ -4,7 +4,7 @@ tags: [spotlight_grids]
 keywords: grids, drilldowns
 summary: "Right-click the table body for options."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_gridscontent.html
+permalink: enterprise_display_gridscontent.html
 folder: SpotlightEnterprise
 ---
 

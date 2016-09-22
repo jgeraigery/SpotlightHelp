@@ -4,7 +4,7 @@ tags: [spotlight_grids]
 keywords: grids, drilldowns
 summary: "Spotlight uses grids to show tabular data in drilldowns and views of raised alarms."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_grids.html
+permalink: enterprise_display_grids.html
 folder: SpotlightEnterprise
 ---
 

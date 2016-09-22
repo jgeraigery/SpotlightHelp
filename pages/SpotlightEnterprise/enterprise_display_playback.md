@@ -4,7 +4,7 @@ tags: [playback]
 keywords: playback
 summary: "The Playback facility allows you to view events and data collected in the recent past on a Connection drilldown or Spotlight Today. Playback time to capture the event or moment in Spotlight as though it was happening in real time."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_playback.html
+permalink: enterprise_display_playback.html
 folder: SpotlightEnterprise
 ---
 

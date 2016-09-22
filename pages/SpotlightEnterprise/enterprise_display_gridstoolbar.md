@@ -4,7 +4,7 @@ tags: [spotlight_grids]
 keywords: grids, drilldowns
 summary: "Use the toolbar in the top right corner of the grid to configure the way the grid presents information."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_gridstoolbar.html
+permalink: enterprise_display_gridstoolbar.html
 folder: SpotlightEnterprise
 ---
 

@@ -4,7 +4,7 @@ tags: [spotlight_grids]
 keywords: grids, drilldowns
 summary: ""
 sidebar: p_enterprise_sidebar
-permalink: enterprise_gridsproperties.html
+permalink: enterprise_display_gridsproperties.html
 id: 40111
 folder: SpotlightEnterprise
 ---

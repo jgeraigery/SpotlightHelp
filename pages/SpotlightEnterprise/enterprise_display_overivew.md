@@ -4,7 +4,7 @@ tags: [overview_page]
 keywords: overview page, drilldowns
 summary: "A Spotlight overview page captures the performance of a single monitored connection. Flows and components are updated in real time to highlight obvious bottlenecks and problem areas and color coded to indicate when an alarm is raised."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_overview.html
+permalink: enterprise_display_overview.html
 folder: SpotlightEnterprise
 ---
 
@@ -30,17 +30,15 @@ Left click on the component
 
 ### Alarms and component color
 
-If a Spotlight Overview page component's color is other than green then the component is in an alarm state. Click on the component for help to resolve the alarm. For more information, see What's this?.
-
-Connection drilldowns are tailored to the connection type.
+If a Spotlight Overview page component's color is other than green then the component is in an alarm state. Click on the component for help to resolve the alarm. For more information, see **What's this?**.
 
 ### Actions
 
-Right click on the component | Select from the various options.
+Right click on the component. Select from the various options.
 
 ### Unable to collect data
 
-{% include inline_imageClient.html file="icon_refresherror.png" alt="Refresh Error" %} | If Spotlight is unable to collect the data required, Spotlight displays a small icon  on the affected component. Click the icon to see more information about the problem.
+If Spotlight is unable to collect the data required, Spotlight displays a small icon {% include inline_imageClient.html file="icon_refresherror.png" alt="Refresh Error" %} on the affected component. Click the icon to see more information about the problem.
 
 {% include note.html content="During a planned outage, all Spotlight Overview page controls are disabled except Status. A Monitored Server - Planned Outage alarm is raised against the Status control. For more information, see Configure \| Planned Outage." %}
 

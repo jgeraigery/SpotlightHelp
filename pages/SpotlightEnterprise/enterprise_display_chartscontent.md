@@ -4,7 +4,7 @@ tags: [spotlight_charts]
 keywords: charts, drilldowns
 summary: "The charted information is displayed in the body of the chart."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_chartscontent.html
+permalink: enterprise_display_chartscontent.html
 folder: SpotlightEnterprise
 ---
 

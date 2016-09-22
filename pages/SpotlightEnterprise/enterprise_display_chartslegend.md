@@ -4,7 +4,7 @@ tags: [spotlight_charts]
 keywords: charts, drilldowns
 summary: "The legend lists all the data series associated with the chart."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_chartslegend.html
+permalink: enterprise_display_chartslegend.html
 folder: SpotlightEnterprise
 ---
 

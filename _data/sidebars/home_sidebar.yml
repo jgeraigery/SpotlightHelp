@@ -9,7 +9,7 @@ entries:
     output: web
     folderitems:
     - title: Spotlight Enterprise
-      url: /enterprise_welcome.html
+      url: /enterprise_gs_welcome.html
       output: web
     - title: Spotlight Developer
       url: /dev_landing_page.html

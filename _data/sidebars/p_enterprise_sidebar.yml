@@ -24,24 +24,86 @@ entries:
     folderitems:
 
     - title: Welcome
-      url: /enterprise_welcome.html
+      url: /enterprise_gs_welcome.html
       output: web, pdf
+
+      subfolders:
+      - title: Release Notes
+        output: web
+        subfolderitems:
+
+        - title: Release Notes
+          url: /enterprise_releasenotes.html
+          output: web, pdf
+
+        - title: New Features
+          url: /enterprise_releasenotes_new.html
+          output: web, pdf
+
+        - title: Enhancements
+          url: /enterprise_releasenotes_enhancements.html
+          output: web, pdf
+
+        - title: Resolved Issues
+          url: /enterprise_releasenotes_resolvedissues.html
+          output: web, pdf
+
+        - title: Known Issues
+          url: /enterprise_releasenotes_knownissues.html
+          output: web, pdf
+
+        - title: System Requirements
+          url: /enterprise_releasenotes_systemrequirements.html
+          output: web, pdf
+
+        - title: Product Licensing
+          url: /enterprise_releasenotes_licensing.html
+          output: web, pdf
+
+        - title: Getting Started
+          url: /enterprise_releasenotes_gettingstarted.html
+          output: web, pdf
+
+        - title: Globalization
+          url: /enterprise_releasenotes_globalization.html
+          output: web, pdf
+
+      - title: Install, Upgrade, Uninstall
+        output: web
+        subfolderitems:
+
+        - title: Install Spotlight
+          url: /enterprise_install.html
+          output: web, pdf
+
+        - title: Upgrade Spotlight
+          url: /enterprise_upgrade.html
+          output: web, pdf
+
+        - title: Uninstall Spotlight
+          url: /enterprise_uninstall.html
+          output: web, pdf
 
     - title: Product licensing
-      url: /enterprise_license.html
+      url: /enterprise_gs_license.html
       output: web, pdf
 
-    - title: Install Spotlight
-      url: /enterprise_install.html
-      output: web, pdf
+      subfolders:
+      - title: Support
+        output: web
+        subfolderitems:
 
-    - title: Release Notes
-      url: /enterprise_releasenotes.html
-      output: web, pdf
+        - title: Build the support bundle
+          url: /enterprise_gs_buildthesupportbundle.html
+          output: web, pdf
 
-    - title: Legal
-      url: /enterprise_legal.html
-      output: web, pdf
+      - title: Legal
+        output: web
+        subfolderitems:
+
+        - title: Third Party Components
+          url: /enterprise_legal_thirdpartycomponents.html
+          output: web, pdf
 
   - title: Connections
     output: web, pdf
@@ -187,7 +249,7 @@ entries:
           output: web, pdf
 
         - title: Properties (Chart)
-          url: /enterprise_chartsproperties.html
+          url: /enterprise_display_chartsproperties.html
           output: web, pdf
 
         - title: Properties (Chart filters)
@@ -195,11 +257,11 @@ entries:
           output: web, pdf
 
     - title: Playback
-      url: /enterprise_playback.html
+      url: /enterprise_display_playback.html
       output: web, pdf
 
     - title: Reports
-      url: /enterprise_reports.html
+      url: /enterprise_display_reports.html
       output: web, pdf
 
   - title: Alarms
@@ -231,7 +293,7 @@ entries:
     folderitems:
 
     - title: Configure Monitoring
-      url: /enterprise_cfg_monitoring.html
+      url: /enterprise_cfgmonitor_monitoring.html
       output: web, pdf
 
       subfolders:
@@ -240,31 +302,31 @@ entries:
         subfolderitems:
 
         - title: Configure Connections
-          url: /enterprise_cfg_connect.html
+          url: /enterprise_cfgmonitor_connect.html
           output: web, pdf
 
         - title: Connection details
-          url: /enterprise_cfg_connect_details.html
+          url: /enterprise_cfgmonitor_connect_details.html
           output: web, pdf
 
         - title: Connection tags
-          url: /enterprise_cfg_connect_tags.html
+          url: /enterprise_cfgmonitor_connect_tags.html
           output: web, pdf
 
         - title: Connection monitoring
-          url: /enterprise_cfg_connect_monitor.html
+          url: /enterprise_cfgmonitor_connect_monitor.html
           output: web, pdf
 
         - title: Connection Discovery Wizard
-          url: /enterprise_cfg_connect_discoverywizard.html
+          url: /enterprise_cfgmonitor_connect_discoverywizard.html
           output: web, pdf
 
         - title: SQL Server Client Tools
-          url: /enterprise_cfg_connect_sqlserverclienttools.html
+          url: /enterprise_cfgmonitor_connect_sqlserverclienttools.html
           output: web, pdf
 
         - title: New Connection Details
-          url: /enterprise_cfg_connect_newdetails.html
+          url: /enterprise_cfgmonitor_connect_newdetails.html
           output: web, pdf
 
       - title: Configure Alarms
@@ -272,27 +334,27 @@ entries:
         subfolderitems:
 
         - title: Configure Alarms
-          url: /enterprise_cfg_alarms.html
+          url: /enterprise_cfgmonitor_alarms.html
           output: web, pdf
 
         - title: Configure an alarm
-          url: /enterprise_cfg_alarm.html
+          url: /enterprise_cfgmonitor_alarm.html
           output: web, pdf
 
         - title: Severity thresholds
-          url: /enterprise_cfg_alarm_severity.html
+          url: /enterprise_cfgmonitor_alarm_severity.html
           output: web, pdf
 
         - title: Alarms - message variables
-          url: /enterprise_cfg_alarm_messagevariables.html
+          url: /enterprise_cfgmonitor_alarm_messagevariables.html
           output: web, pdf
 
         - title: Ignore Values
-          url: /enterprise_cfg_alarm_ignorevalues.html
+          url: /enterprise_cfgmonitor_alarm_ignorevalues.html
           output: web, pdf
 
         - title: Custom Counters
-          url: /enterprise_cfg_alarm_customcounters.html
+          url: /enterprise_cfgmonitor_alarm_customcounters.html
           output: web, pdf
 
       - title: Configure Alarm actions
@@ -300,31 +362,31 @@ entries:
         subfolderitems:
 
         - title: Configure Alarm Actions
-          url: /enterprise_cfg_alarmactions.html
+          url: /enterprise_cfgmonitor_alarmactions.html
           output: web, pdf
 
         - title: Alarm Action dialog
-          url: /enterprise_cfg_alarmaction.html
+          url: /enterprise_cfgmonitor_alarmaction.html
           output: web, pdf
 
         - title: Send push notification to
-          url: /enterprise_cfg_alarmaction_pushnotification.html
+          url: /enterprise_cfgmonitor_alarmaction_pushnotification.html
           output: web, pdf
 
         - title: Send email to
-          url: /enterprise_cfg_alarmaction_sendemail.html
+          url: /enterprise_cfgmonitor_alarmaction_sendemail.html
           output: web, pdf
 
         - title: Run a program
-          url: /enterprise_cfg_alarmaction_runaprogram.html
+          url: /enterprise_cfgmonitor_alarmaction_runaprogram.html
           output: web, pdf
 
         - title: The connection is
-          url: /enterprise_cfg_alarmaction_connectionis.html
+          url: /enterprise_cfgmonitor_alarmaction_connectionis.html
           output: web, pdf
 
         - title: Example alarm action rules
-          url: /enterprise_cfg_alarmaction_example.html
+          url: /enterprise_cfgmonitor_alarmaction_example.html
           output: web, pdf
 
       - title: Configure Scheduling
@@ -332,11 +394,11 @@ entries:
         subfolderitems:
 
         - title: Configure Scheduling
-          url: /enterprise_cfg_scheduling.html
+          url: /enterprise_cfgmonitor_scheduling.html
           output: web, pdf
 
         - title: Configure a schedule
-          url: /enterprise_cfg_schedule.html
+          url: /enterprise_cfgmonitor_schedule.html
           output: web, pdf
 
       - title: Configure Planned Outage
@@ -344,11 +406,11 @@ entries:
         subfolderitems:
 
         - title: Planned outage
-          url: /enterprise_cfg_plannedoutage.html
+          url: /enterprise_cfgmonitor_plannedoutage.html
           output: web, pdf
 
         - title: Planned outage details
-          url: /enterprise_cfg_plannedoutage_details.html
+          url: /enterprise_cfgmonitor_plannedoutage_details.html
           output: web, pdf
 
       - title: Configure SQL Analysis
@@ -356,15 +418,15 @@ entries:
         subfolderitems:
 
         - title: Configure SQL Analysis
-          url: /enterprise_cfg_sqlanalysis.html
+          url: /enterprise_cfgmonitor_sqlanalysis.html
           output: web, pdf
 
         - title: Add filter
-          url: /enterprise_cfg_sqlanalysis_addfilter.html
+          url: /enterprise_cfgmonitor_sqlanalysis_addfilter.html
           output: web, pdf
 
     - title: Configure SQL Server Response Time
-      url: /enterprise_cfg_sqlserverresponsetime.html
+      url: /enterprise_cfgmonitor_sqlserverresponsetime.html
       output: web, pdf
 
       subfolders:
@@ -373,19 +435,19 @@ entries:
         subfolderitems:
 
         - title: Configure Custom Counters
-          url: /enterprise_cfg_customcounters.html
+          url: /enterprise_cfgmonitor_customcounters.html
           output: web, pdf
 
         - title: Add Custom Counters
-          url: /enterprise_cfg_customcounters_add.html
+          url: /enterprise_cfgmonitor_customcounters_add.html
           output: web, pdf
 
     - title: Configure Error Log Entries
-      url: /enterprise_cfg_errorlogentries.html
+      url: /enterprise_cfgmonitor_errorlogentries.html
       output: web, pdf
 
     - title: Configure Disks Display
-      url: /enterprise_cfg_disksdisplay.html
+      url: /enterprise_cfgmonitor_disksdisplay.html
       output: web, pdf
 
       subfolders:
@@ -394,11 +456,11 @@ entries:
         subfolderitems:
 
         - title: Configure Monitored Files
-          url: /enterprise_cfg_monitoredfiles.html
+          url: /enterprise_cfgmonitor_monitoredfiles.html
           output: web, pdf
 
         - title: Add File
-          url: /enterprise_cfg_monitoredfiles_addfile.html
+          url: /enterprise_cfgmonitor_monitoredfiles_addfile.html
           output: web, pdf
 
       - title: Apply configuration to...
@@ -406,15 +468,15 @@ entries:
         subfolderitems:
 
         - title: Apply configuration to...
-          url: /enterprise_cfg_applyconfig.html
+          url: /enterprise_cfgmonitor_applyconfig.html
           output: web, pdf
 
         - title: Select connections
-          url: /enterprise_cfg_selectconnections.html
+          url: /enterprise_cfgmonitor_selectconnections.html
           output: web, pdf
 
         - title: Preview changes
-          url: /enterprise_cfg_applyconfig_preview.html
+          url: /enterprise_cfgmonitor_applyconfig_preview.html
           output: web, pdf
 
       - title: Configuration templates
@@ -422,11 +484,11 @@ entries:
         subfolderitems:
 
         - title: Configuration templates
-          url: /enterprise_cfg_templates.html
+          url: /enterprise_cfgmonitor_templates.html
           output: web, pdf
 
         - title: Save to template
-          url: /enterprise_cfg_templates_save.html
+          url: /enterprise_cfgmonitor_templates_save.html
           output: web, pdf
 
   - title: Configure Diagnostic Server
@@ -434,19 +496,19 @@ entries:
     folderitems:
 
     - title: Select a Diagnostic Server
-      url: /enterprise_cfg_ds_select.html
+      url: /enterprise_cfgds_select.html
       output: web, pdf
 
     - title: Configure the database maintenance schedule
-      url: /enterprise_cfg_ds_databasemaintenanceschedule.html
+      url: /enterprise_cfgds_databasemaintenanceschedule.html
       output: web, pdf
 
     - title: Configure Pager Duty
-      url: /enterprise_cfg_ds_pagerduty.html
+      url: /enterprise_cfgds_pagerduty.html
       output: web, pdf
 
     - title: Configure the auto-update facility
-      url: /enterprise_cfg_ds_autoupdate.html
+      url: /enterprise_cfgds_autoupdate.html
       output: web, pdf
 
       subfolders:
@@ -455,11 +517,11 @@ entries:
         subfolderitems:
 
         - title: Configure the Diagnostic Server's mail server
-          url: /enterprise_cfg_ds_mailserver.html
+          url: /enterprise_cfgds_mailserver.html
           output: web, pdf
 
         - title: SMTP Mail Options dialog
-          url: /enterprise_cfg_ds_mailserver_smtpoptions.html
+          url: /enterprise_cfgds_mailserver_smtpoptions.html
           output: web, pdf
 
       - title: Configure the Playback Database
@@ -467,15 +529,15 @@ entries:
         subfolderitems:
 
         - title: Configure the Playback Database
-          url: /enterprise_cfg_ds_playbackdatabase.html
+          url: /enterprise_cfgds_playbackdatabase.html
           output: web, pdf
 
         - title: Create Playback Database dialog
-          url: /enterprise_cfg_ds_playbackdatabase_create.html
+          url: /enterprise_cfgds_playbackdatabase_create.html
           output: web, pdf
 
     - title: Configure SNMP trap
-      url: /enterprise_cfg_ds_snmptrap.html
+      url: /enterprise_cfgds_snmptrap.html
       output: web, pdf
 
       subfolders:
@@ -484,23 +546,23 @@ entries:
         subfolderitems:
 
         - title: Configure the Spotlight Statistics Repository
-          url: /enterprise_cfg_ds_ssr.html
+          url: /enterprise_cfgds_ssr.html
           output: web, pdf
 
         - title: Create Spotlight Statistics Repository dialog
-          url: /enterprise_cfg_ds_ssr_create.html
+          url: /enterprise_cfgds_ssr_create.html
           output: web, pdf
 
     - title: Configure the use of Extended Events
-      url: /enterprise_cfg_ds_extendedevents.html
+      url: /enterprise_cfgds_extendedevents.html
       output: web, pdf
 
     - title: Configure uploading to the Spotlight Cloud
-      url: /enterprise_cfg_ds_spotlightcloud.html
+      url: /enterprise_cfgds_spotlightcloud.html
       output: web, pdf
 
     - title: Federate Diagnostic Servers
-      url: /enterprise_cfg_ds_federate.html
+      url: /enterprise_cfgds_federate.html
       output: web, pdf
 
 
@@ -509,51 +571,43 @@ entries:
     folderitems:
 
     - title: Appearance of charts
-      url: /enterprise_cfg_client_appearanceofcharts.html
+      url: /enterprise_cfgclient_appearanceofcharts.html
       output: web, pdf
 
     - title: Overview page click action
-      url: /enterprise_cfg_client_overviewpageclickaction.html
+      url: /enterprise_cfgclient_overviewpageclickaction.html
       output: web, pdf
 
     - title: Severity colors for accessibility
-      url: /enterprise_cfg_client_colorsforaccessibility.html
+      url: /enterprise_cfgclient_severitycolorsforaccessibility.html
       output: web, pdf
 
     - title: Spotlight startup location
-      url: /enterprise_cfg_client_startup.html
+      url: /enterprise_cfgclient_startup.html
       output: web, pdf
 
     - title: Adjust display performance and quality
-      url: /enterprise_cfg_client_displayperformance.html
+      url: /enterprise_cfgclient_displayperformance.html
       output: web, pdf
 
     - title: Configure support bundle emails
-      url: /enterprise_cfg_client_supportbundle.html
+      url: /enterprise_cfgclient_supportbundle.html
       output: web, pdf
 
     - title: Enable debug logging
-      url: /enterprise_cfg_client_debuglogging.html
+      url: /enterprise_cfgclient_debuglogging.html
       output: web, pdf
 
     - title: Configure user experience
-      url: /enterprise_cfg_client_userexperience.html
+      url: /enterprise_cfgclient_userexperience.html
       output: web, pdf
 
-  - title: Install Spotlight
+  - title: Display Devices
     output: web, pdf
     folderitems:
 
-    - title: Install Spotlight
-      url: /enterprise_install.html
-      output: web, pdf
-
-  - title: Data on all your devices
-    output: web, pdf
-    folderitems:
-
-    - title: Data on all your devices
-      url: /enterprise_devices.html
+    - title: Display Devices
+      url: /enterprise_displaydevices.html
       output: web, pdf
 
       subfolders:
@@ -562,38 +616,38 @@ entries:
         subfolderitems:
 
         - title: Spotlight Client
-          url: /enterprise_devices_client.html
+          url: /enterprise_displaydevice_client.html
           output: web, pdf
 
         - title: Internet Options
-          url: /enterprise_devices_client_internetoptions.html
+          url: /enterprise_displaydevice_client_internetoptions.html
           output: web, pdf
 
         - title: Permissions
-          url: /enterprise_devices_client_permissions.html
+          url: /enterprise_displaydevice_client_permissions.html
           output: web, pdf
 
     - title: Spotlight Web Site
-      url: /enterprise_devices_website.html
+      url: /enterprise_displaydevice_website.html
       output: web, pdf
 
     - title: Spotlight Mobile
-      url: /enterprise_devices_mobile.html
+      url: /enterprise_displaydevice_mobile.html
       output: web, pdf
 
     - title: Pager Duty
-      url: /enterprise_devices_pagerduty.html
+      url: /enterprise_displaydevice_pagerduty.html
       output: web, pdf
 
     - title: Spotlight Management Pack for SCOM
-      url: /enterprise_devices_scom.html
+      url: /enterprise_displaydevice_scom.html
       output: web, pdf
 
-  - title: Backend deployment
+  - title: Backend Deployment
     output: web, pdf
     folderitems:
 
-    - title: Backend deployment
+    - title: Backend Deployment
       url: /enterprise_backend.html
       output: web, pdf
 
@@ -665,7 +719,7 @@ entries:
         subfolderitems:
 
         - title: Network Ports
-          url: /enterprise_backend_winnetworkports.html
+          url: /enterprise_backend_networkports.html
           output: web, pdf
 
         - title: Spotlight Diagnostic User Groups
@@ -673,11 +727,11 @@ entries:
           output: web, pdf
 
         - title: Troubleshooting WMI
-          url: /enterprise_backend_wmi_troubleshooting.html
+          url: /enterprise_backend_wmitroubleshooting.html
           output: web, pdf
 
         - title: How to limit the number of ports used by WMI
-          url: /enterprise_backend_wmi_limitports.html
+          url: /enterprise_backend_wmilimitports.html
           output: web, pdf
 
     - title: Federation
