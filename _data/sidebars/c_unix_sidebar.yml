@@ -42,6 +42,10 @@ entries:
       url: /unix_alarm_blockedprocesses.html
       output: web, pdf
 
+    - title: File System Space
+      url: /unix_alarm_filesystemspace.html
+      output: web, pdf
+
     - title: Monitored Server - Unix Alarm Action Failure
       url: /unix_alarm_monitoredserver_alarmactionfailure.html
       output: web, pdf
@@ -60,6 +64,42 @@ entries:
 
     - title: Monitored Server - Unix Planned Outage
       url: /unix_alarm_monitoredserver_plannedoutage.html
+      output: web, pdf
+
+    - title: Most Active Disk
+      url: /unix_alarm_mostactivedisk.html
+      output: web, pdf
+
+    - title: Network Errors Received
+      url: /unix_alarm_networkerrorsreceived.html
+      output: web, pdf
+
+    - title: Network Errors Transmitted
+      url: /unix_alarm_networkerrorstransmitted.html
+      output: web, pdf
+
+    - title: Paging in
+      url: /unix_alarm_pagingin.html
+      output: web, pdf
+
+    - title: Paging out
+      url: /unix_alarm_pagingout.html
+      output: web, pdf
+
+    - title: Status
+      url: /unix_alarm_status.html
+      output: web, pdf
+
+    - title: Swapping in flow
+      url: /unix_alarm_swappinginflow.html
+      output: web, pdf
+
+    - title: Swapping out flow
+      url: /unix_alarm_swappingoutflow.html
+      output: web, pdf
+
+    - title: Swap Space
+      url: /unix_alarm_swapspace.html
       output: web, pdf
 
     - title: Zombie Processes

@@ -16,9 +16,5 @@ Processes can also become blocked when they are waiting for:
 
 A high level of blocked processes may indicate an under-configured machine.
 
-The type of alarm that is activated is determined by the number of blocked processes waiting on information.
-
-
-
 
 {% include links.html %}
