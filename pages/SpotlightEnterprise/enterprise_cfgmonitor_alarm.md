@@ -17,6 +17,8 @@ Return the settings for this alarm to the Factory Settings. These are the settin
 
 You can now modify the settings for this alarm.
 
+{% include note.html content="You cannot modify the Factory Settings Template. If you cannot see an option to clear Factory Settings then you are browsing the Factory Settings Template. To modify the settings for this alarm, close this dialog and select either a Spotlight Connection or a different template from the Configure | Alarms dialog." %}
+
 ## Disable this alarm
 
 When selected this alarm will not be raised again for the connection / template selected on the Configure \| Alarms dialog.

@@ -20,6 +20,8 @@ folder: SpotlightEnterprise
 ON | Return the settings for this collection to their default schedule.
 OFF | Modify the background and / or reporting schedules for this collection.
 
+{% include note.html content="You cannot modify the Factory Settings Template. If you cannot see an option to clear Factory Settings then you are browsing the Factory Settings Template. To modify the settings for this schedule, close this dialog and select either a Spotlight Connection or a different template from the Background Schedules dialog." %}
+
 ## To modify the background schedule (Playback Database)
 
 ### Collect data when Spotlight is not connected
