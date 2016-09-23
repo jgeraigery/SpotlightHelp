@@ -66,6 +66,10 @@ entries:
       url: /unix_alarm_monitoredserver_plannedoutage.html
       output: web, pdf
 
+    - title: Monitored Server - Unix Unsupported Version
+      url: /unix_alarm_monitoredserver_unsupportedversion.html
+      output: web, pdf
+
     - title: Most Active Disk
       url: /unix_alarm_mostactivedisk.html
       output: web, pdf
