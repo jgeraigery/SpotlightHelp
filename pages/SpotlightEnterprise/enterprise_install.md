@@ -39,8 +39,8 @@ Scenarios that may be involved with a typical install include:
 
 The Spotlight Client will be installed as follows, unless you indicate otherwise
 
-Default installation folder (32 bit system) | C:\Program Files\Dell\Spotlight on SQL Server
-Default installation folder (64 bit system) | C:\Program Files (x86)\Dell\Spotlight on SQL Server
+(32 bit system) | C:\Program Files\Dell\Spotlight on SQL Server
+(64 bit system) | C:\Program Files (x86)\Dell\Spotlight on SQL Server
 
 Do not install the Spotlight Client in the same location as an existing (but different entity of) Spotlight. If you install a different Spotlight after you have installed Spotlight Enterprise, do not install the new Spotlight in the Spotlight Enterprise directory.
 
@@ -50,7 +50,7 @@ Do not install the Spotlight Client in the same location as an existing (but dif
 
 Default installation folder for the Diagnostic Server (32bit and 64bit systems): C:\Program Files\Dell\Diagnostic Server
 
-During a Typical install the diagnostic server can be installed remotely. Consider installing the Spotlight Diagnostic Server on a computer that is always switched on. Some services require Internet access; see Spotlight services requiring Internet access.
+During a Typical install the diagnostic server can be installed remotely. Consider installing the Spotlight Diagnostic Server on a computer that is always switched on. Some Spotlight Diagnostic Server functionality requires Internet access.
 
 #### Diagnostic Server Account
 
@@ -68,9 +68,11 @@ When **Selected** the Spotlight Diagnostic Server will receive minor updates (sc
 
 When **Not Selected** all updates to the Spotlight Diagnostic Server will require a new version and installation of Spotlight Enterprise.
 
-### The Spotlight installer will ask you to provide the following information when it installs the Playback Database
+### Your say in the Playback Database
 
-The Spotlight installer installs the Playback Database with the Spotlight Diagnostic Server. Every Spotlight Diagnostic Server connects to its own Playback Database. The questions the Spotlight installer asks are:
+
+
+The Spotlight installer installs the Playback Database with the Spotlight Diagnostic Server. Every Spotlight Diagnostic Server connects to its own Playback Database. The Spotlight installer will ask you to provide the following information when it installs the Playback Database.
 
 #### Instance
 

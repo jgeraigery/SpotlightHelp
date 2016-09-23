@@ -15,7 +15,7 @@ To upgrade from an earlier version of Spotlight on SQL Server than 10.0, upgrade
 To upgrade from Spotlight on SQL Server 10.5.0, first upgrade to 10.5.2 and then upgrade to 11.6.
 
 ## Backup first
-Backup all Spotlight configuration and saved collection data. For more information, see Backup Spotlight data on page 23.
+Backup all Spotlight configuration and saved collection data before you run the Spotlight on SQL Server executable.
 
 ## Run the Spotlight on SQL Server executable on each Spotlight Client
 If your enterprise has multiple Spotlight Clients then ensure all Spotlight Clients are included in the upgrade process. If the Spotlight Client and Spotlight Diagnostic Server are running different versions of Spotlight on SQL Server, the client will be unable to connect to the Spotlight Diagnostic Server.
