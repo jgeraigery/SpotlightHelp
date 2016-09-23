@@ -1,9 +1,8 @@
 ---
 title: Welcome
 keywords: welcome
-summary:
 sidebar: p_enterprise_sidebar
-permalink: enterprise_gs_welcome.html
+permalink: enterprise_welcome.html
 folder: SpotlightEnterprise
 ---
 

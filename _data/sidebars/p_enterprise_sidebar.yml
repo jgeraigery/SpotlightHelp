@@ -24,7 +24,7 @@ entries:
     folderitems:
 
     - title: Welcome
-      url: /enterprise_gs_welcome.html
+      url: /enterprise_welcome.html
       output: web, pdf
 
       subfolders:
@@ -72,20 +72,20 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Install Spotlight
+        - title: Install
           url: /enterprise_install.html
           output: web, pdf
 
-        - title: Upgrade Spotlight
+        - title: Upgrade
           url: /enterprise_upgrade.html
           output: web, pdf
 
-        - title: Uninstall Spotlight
+        - title: Uninstall
           url: /enterprise_uninstall.html
           output: web, pdf
 
-    - title: Product licensing
-      url: /enterprise_gs_license.html
+    - title: Product License
+      url: /enterprise_license.html
       output: web, pdf
 
       subfolders:
@@ -94,7 +94,7 @@ entries:
         subfolderitems:
 
         - title: Build the support bundle
-          url: /enterprise_gs_buildthesupportbundle.html
+          url: /enterprise_support_buildthesupportbundle.html
           output: web, pdf
 
       - title: Legal
@@ -109,16 +109,12 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Connections display
+    - title: Connections Display
       url: /enterprise_connect_display.html
       output: web, pdf
 
-    - title: Search
-      url: /enterprise_connect_search.html
-      output: web, pdf
-
-    - title: Tags
-      url: /enterprise_connect_tags.html
+    - title: Connection Type
+      url: /enterprise_connect_type.html
       output: web, pdf
 
       subfolders:
@@ -142,12 +138,16 @@ entries:
           url: /enterprise_connect_selectconnections.html
           output: web, pdf
 
-        - title: Connection Type
-          url: /enterprise_connect_type.html
-          output: web, pdf
-
     - title: Drilldown on a single connection
       url: /enterprise_connect_connection.html
+      output: web, pdf
+
+    - title: Search
+      url: /enterprise_connect_search.html
+      output: web, pdf
+
+    - title: Tags
+      url: /enterprise_connect_tags.html
       output: web, pdf
 
     - title: Planned outages
