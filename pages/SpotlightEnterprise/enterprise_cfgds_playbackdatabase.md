@@ -17,7 +17,7 @@ In the Spotlight deployment the Spotlight Client communicates with the Spotlight
 
 ## Select the Diagnostic Server
 
-For federated Spotlight Diagnostic Server (Federate Diagnostic Servers) you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server has its own Playback Database.
+For federated Spotlight Diagnostic Server you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server has its own Playback Database.
 
 ## Configure the Playback Database
 

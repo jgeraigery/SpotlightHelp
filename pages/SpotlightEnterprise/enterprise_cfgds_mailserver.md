@@ -13,7 +13,7 @@ folder: SpotlightEnterprise
 
 ## Select the Diagnostic Server
 
-For federated Spotlight Diagnostic Server (Federate Diagnostic Servers) you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server has an independently configured mail server.
+For federated Spotlight Diagnostic Server you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server has an independently configured mail server.
 
 ## Click Configure Mail Server...
 

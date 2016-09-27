@@ -30,11 +30,7 @@ Left click on the component
 
 ### Alarms and component color
 
-If a Spotlight Overview page component's color is other than green then the component is in an alarm state. Click on the component for help to resolve the alarm. For more information, see **What's this?**.
-
-### Actions
-
-Right click on the component. Select from the various options.
+If a Spotlight Overview page component's color is other than green then the component is in an alarm state. Click on the component for help to resolve the alarm. 
 
 ### Unable to collect data
 

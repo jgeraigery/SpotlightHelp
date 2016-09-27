@@ -13,7 +13,7 @@ folder: SpotlightEnterprise
 
 Click **Monitor \| Spotlight Today** from the Spotlight ribbon to open Spotlight Today for all monitored connections.
 
-{% include tip.html content="To open Spotlight Today with a subset of all monitored connections, from the left Connections pane click on a custom view or connection type then click **Spotlight Today** from the display pane. To open Spotlight Today for just one connection, right click on the connection in the Connections pane then click **Spotlight Today** from the display pane." %}
+{% include tip.html content="You can open Spotlight Today with a subset of all monitored connections. From the left Connections pane click on a custom view or connection type then click **Spotlight Today** from the display pane. To open Spotlight Today for just one connection, right click on the connection in the Connections pane then click **Spotlight Today** from the display pane." %}
 
 
 ## About the Spotlight Today grid

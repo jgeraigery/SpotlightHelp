@@ -22,7 +22,7 @@ The Spotlight Diagnostic Server requires Internet access in order to fulfill on 
 
 ## Select the Diagnostic Server
 
-For federated Spotlight Diagnostic Server (Federate Diagnostic Servers) you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server is independently configured for pager duty.
+For federated Spotlight Diagnostic Server you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server is independently configured for pager duty.
 
 ## Specify your PagerDuty account details.
 

@@ -21,7 +21,7 @@ When auto-update is enabled the Spotlight Diagnostic Server must have Internet a
 
 ## Select the Diagnostic Server
 
-For federated Spotlight Diagnostic Server (Federate Diagnostic Servers) you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server is independently configured to auto update.
+For federated Spotlight Diagnostic Server you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server is independently configured to auto update.
 
 ## Enable auto-update facility as appropriate.
 

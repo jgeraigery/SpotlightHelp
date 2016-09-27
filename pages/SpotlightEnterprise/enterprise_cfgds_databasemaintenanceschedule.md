@@ -16,7 +16,7 @@ It is highly recommended that regular maintenance is performed to maintain effic
 
 ## Select the Diagnostic Server
 
-For federated Spotlight Diagnostic Server (Federate Diagnostic Servers) you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server has an independently configured database maintenance schedule.
+For federated Spotlight Diagnostic Server you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server has an independently configured database maintenance schedule.
 
 ## Set the maintenance schedule
 

@@ -15,7 +15,7 @@ Click **Configure | Spotlight Cloud**.
 
 ## Select the Diagnostic Server
 
-For federated Spotlight Diagnostic Server (Federate Diagnostic Servers) you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server is independently configured for Spotlight Cloud.
+For federated Spotlight Diagnostic Server you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server is independently configured for Spotlight Cloud.
 
 ## Upload data to Spotlight Cloud
 

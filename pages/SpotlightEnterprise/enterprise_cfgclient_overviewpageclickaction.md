@@ -8,7 +8,7 @@ folder: SpotlightEnterprise
 
 
 
-## Configure the Overview page click action for this Spotlight Client
+## Configure the Spotlight Overview page left click action for this Spotlight Client
 
 1. Click **Configure \| Spotlight**.
 2. Select **Change Display \| Home page click action**.

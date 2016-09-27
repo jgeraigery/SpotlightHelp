@@ -17,7 +17,7 @@ In the Spotlight deployment the Spotlight Client communicates with the Spotlight
 
 ## Select the Diagnostic Server
 
-For federated Spotlight Diagnostic Server (Federate Diagnostic Servers) you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server is independently configured for the Spotlight Statistics Repository.
+For federated Spotlight Diagnostic Server you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server is independently configured for the Spotlight Statistics Repository.
 
 ## Configure the Spotlight Statistics repository
 
@@ -39,7 +39,7 @@ Specify the authentication for Spotlight to use to connect to the Spotlight Stat
 
 Select **Windows Authentication (using Diagnostic Server credentials)** to use the account that runs the Spotlight Diagnostic Server. Ensure this account is trusted by the SQL Server.
 
-Alternatively, select **SQL Server authentication** and fill in the User and Password fields. The SQL Server user must have sufficient privileges to connect to the SQL Server instance hosting the Spotlight Statistics Repository.
+Alternatively, select **SQL Server authentication** and fill in the **User** and **Password** fields. The SQL Server user must have sufficient privileges to connect to the SQL Server instance hosting the Spotlight Statistics Repository.
 
 ### Database
 

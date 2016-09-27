@@ -21,7 +21,7 @@ folder: SpotlightEnterprise
 
 Drag the Display Performance slider to a position that marks an acceptable balance between display quality and display speed.
 
-{% include tip.html content="Drag the slider all the way to Higher performance Lower quality to stop the Spotlight Overview page circular flows and flow animations from moving." %}
+{% include tip.html content="Drag the slider all the way to **Higher performance Lower quality** to stop the Spotlight Overview page circular flows and flow animations from moving." %}
 
 
 
