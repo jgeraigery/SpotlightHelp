@@ -27,29 +27,16 @@ Shows the contents of the SQL Server Agent Error Log.
 Note:
 
 * To display the current contents of the SQL Server error log, click **Refresh**.
-
-
-
 * To view an archived error log, select the log from the list and click **Refresh**.
-
-
-
 * For performance reasons, Spotlight limits the number of records that can be viewed in this drilldown. By default, it will show the last 500 records that have been logged. To change the number of records:
 
     1. Click **Filter**.
-
-
-
     2. Enter a value in the Max Records field.
     3. Click **Refresh**.
 
 
-
 * The SQL Server Error Logs grid displays the contents of the error log selected in the list above the grid. As this is a snapshot of the selected error log it is not updated automatically.
 * Click Cycle to archive the current error log file and open a new log file. The oldest log file may be deleted. Only members of the Spotlight Diagnostic Administrators group can use the Cycle Error Log option.
-
-
-
 * To define and edit the alert rules that Spotlight scans the SQL Server Error Log for, **click Error Log Entries**.
 
 

@@ -11,9 +11,6 @@ folder: ConnectSQLServer
 
 
 
-
-## When the alarm is raised
-
-Consider configuring all Tempdb files to have the same growth settings. When all Tempdb files have the same initial size and growth settings SQL Server will manage an even distribution of data across the files.
+When the alarm is raised, consider configuring all Tempdb files to have the same growth settings. When all Tempdb files have the same initial size and growth settings SQL Server will manage an even distribution of data across the files.
 
 {% include links.html %}

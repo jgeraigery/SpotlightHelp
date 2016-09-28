@@ -12,13 +12,10 @@ folder: ConnectSQLServer
 
 
 
-## When the alarm is raised
-
-Consider moving Tempdb to a volume that has no other databases on it so that potential problems are easier to isolate.
+When the alarm is raised, consider moving Tempdb to a volume that has no other databases on it so that potential problems are easier to isolate.
 
 For example, consider isolating Tempdb data files to their own logical drive. Move the Tempdb log files with the user database log files where there should be enough free disk space for unexpected auto grow events.
 
+{% include note.html content="This alarm is applicable to SQL Server 2005 and above." %}
 
- Note: This alarm is applicable to SQL Server 2005 and above.
-
- {% include links.html %}
+{% include links.html %}

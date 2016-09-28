@@ -14,9 +14,7 @@ folder: ConnectSQLServer
 
 This alarm alerts you to jobs that are inadvertently or otherwise disabled.
 
-
- TIP: The Primary ID column may be hidden by default. See Show, hide and order columns for more information on how to display hidden columns.
-
+{% include tip.html content="The Primary ID column may be hidden by default. See Show, hide and order columns for more information on how to display hidden columns." %}
 
 ## Configuration
 

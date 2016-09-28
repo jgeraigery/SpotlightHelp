@@ -13,7 +13,7 @@ folder: ConnectSQLServer
 This alarm is raised when there is a problem with:
 
 * SQL Server Mail
-* SQL Server Agent Mail 
+* SQL Server Agent Mail
 
 When the alarm is raised
 
@@ -21,6 +21,7 @@ When the alarm is raised
 * Review messages in the **SQL Server \| Error Log** drilldown to determine the cause of the problem.
 
 
-Note: The SQL Mail Status Alarm is available only on SQL Server 2000.
+{% include note.html content="The SQL Mail Status Alarm is available only on SQL Server 2000." %}
+
 
 {% include links.html %}

@@ -15,7 +15,7 @@ In a Windows cluster, each SQL Server instance belongs to a single cluster group
 
 Spotlight raises this alarm when any SQL Server instance in this cluster is not running on its preferred server. This could be the SQL Server instance you are currently connected to, or it could be another SQL Server instance in the same cluster. Spotlight includes other instances in the cluster because in an active-active cluster you do not want both SQL Server instances running on the one node while the other cluster computer system is sitting idle.
 
-## When the alarm is raised
+When the alarm is raised
 
 * View the SQL Server \| Support Services Drilldown \| Cluster Services page to see which SQL Server cluster group is not running on its preferred cluster node.
 * Consider moving that cluster group to its preferred node.

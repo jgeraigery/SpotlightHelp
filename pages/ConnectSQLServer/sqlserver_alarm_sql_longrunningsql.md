@@ -11,8 +11,7 @@ folder: ConnectSQLServer
 
 
 
-Note: This feature is not available for SQL Server 2000.
-
+{% include note.html content="This feature is not available for SQL Server 2000." %}
 
 
 

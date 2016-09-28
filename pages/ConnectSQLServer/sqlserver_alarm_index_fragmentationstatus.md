@@ -11,9 +11,8 @@ folder: ConnectSQLServer
 
 Another process has locked the database or table. For more information, see SQL Server \| Databases drilldown.
 
-## When the alarm is raised
+When the alarm is raised, consider rescheduling the collection to a quieter time of day.
 
-Consider rescheduling the collection to a quieter time of day.
 The data is collected again at the next scheduled time (by default every 24 hours).
 
 {% include links.html %}

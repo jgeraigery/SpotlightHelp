@@ -8,11 +8,13 @@ folder: ConnectSQLServer
 ---
 
 ## Databases page
+
 Select one or more databases in the Databases grid to show just those databases in Database Details.
 
 The tempdb database has its own drilldown. Click on tempdb to open the tempdb drilldown. Click on another cell in the tempdb row to select tempdb for Database Details.
 
 ### Databases grid
+
 Shows details of all databases in SQL Server.
 
 Select the Database View as: **Overview, Transactions, Backup Status or Properties** to adjust the category of information displayed in the Databases grid.
@@ -71,8 +73,6 @@ The following statistics are displayed:
 
 **Log Truncations Rate** - The frequency of log truncations for each database. This can be caused by manual truncations (backup log <dbname> with truncate_only), or automatically if the database has the trunc. log on chkpt. option turned on.
 
-
-TIP:
 
 * To switch between statistics, click the arrow next to the chart name.
 * You can restrict the database(s) that are displayed in the Summary page by selecting the database(s) in the Databases grid that you are interested in.  
@@ -183,8 +183,6 @@ You should update index statistics whenever:
 * There have been significant changes in the key values in the index. This can be seen in the RowModCtr column.
 * A large amount of data in an indexed column has been added, changed, or removed (that is, if the distribution of key values has changed), or the table has been truncated using the TRUNCATE TABLE statement and then re-populated.
 
- TIP:
-
 * Selecting a single row in this grid shows detailed index statistics for that index in the lower section of the drilldown.
 * Only members of the Spotlight Diagnostic Administrators group can use the Update Statistics option.
 
@@ -220,6 +218,7 @@ Note that SQL Server uses sampling only and does not inspect every key value. Th
 **Example**
 If the selected index was on a Name column, the graph might show values:
 
+```
 ABRAHAM: 5
 
 GEORGE: 20
@@ -229,6 +228,7 @@ PETER: 25
 STEVEN: 30
 
 ZACH: 20
+```
 
 This means 5 of the people have a name alphabetically less than or equal to ABRAHAM, 20 are between ABRAHAM and GEORGE, 25 between GEORGE & PETER etc.
 

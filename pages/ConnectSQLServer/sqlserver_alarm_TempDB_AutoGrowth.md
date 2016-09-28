@@ -10,11 +10,8 @@ folder: ConnectSQLServer
 
 
 
-## When the alarm is raised
+When the alarm is raised, consider configuring Tempdb to pre allocated file sizes as per best practice.
 
-Consider configuring Tempdb to pre allocated file sizes as per best practice.
-
-
- Note: Spotlight uses XEvents to determine the extent to which Tempdb is auto growing.
+{% include note.html content="Spotlight uses XEvents to determine the extent to which Tempdb is auto growing." %}
 
  {% include links.html %}

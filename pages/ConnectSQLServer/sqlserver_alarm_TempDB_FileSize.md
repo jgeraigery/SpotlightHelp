@@ -12,8 +12,6 @@ folder: ConnectSQLServer
 
 
 
-## When the alarm is raised
-
-Consider pre allocating Tempdb files to be of equal size. It is recommended that all files in Tempdb are of identical physical size.
+When the alarm is raised, consider pre allocating Tempdb files to be of equal size. It is recommended that all files in Tempdb are of identical physical size.
 
 {% include links.html %}

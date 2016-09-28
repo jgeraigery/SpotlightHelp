@@ -13,7 +13,7 @@ This alarm can only be raised when you are connected to a SQL Server that is run
 
 When a cluster node (i.e. a computer system that participates in a cluster) is unavailable, the workload that it normally processes will fail over to other computer systems in the cluster, resulting in lower performance.
 
-## When the alarm is raised
+When the alarm is raised
 
 *  Check the SQL Server \| Support Services Drilldown \| Cluster Services page to determine which cluster node is unavailable.
 *  Verify the computer system is running and that Windows is operating normally.

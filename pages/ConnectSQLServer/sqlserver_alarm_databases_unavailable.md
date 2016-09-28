@@ -73,16 +73,20 @@ Using Emergency Mode: Emergency mode is a special status that can be set on an i
 
 #### Allow direct updates to your system tables by running the following SQL:
 
+```
 sp_configure 'allow updates', 1
 go
 reconfigure with override
 go
+```
 
 #### Put your Suspect in Emergency mode:
 
+```
 update master..sysdatabases
 set status = 32768
 where name = 'YourDBName'
+```
 
 This causes SQL Server to skip the recovery of this database, and will prevent the database being made suspect. However, the database may contain partially-complete transactions, and there may be inconsistencies between data and indexes (logical and physical corruptions). You should not perform any database changes or updates when SQL Server is started this way.
 
@@ -101,9 +105,11 @@ Emergency Mode is a special status that can be manually set for an individual da
 
 Databases can be set out of Emergency Mode only by manually updating the master..sysdatabases table directly. This can be done using SQL similar to the following:
 
+```
 update master..sysdatabases
 set status = status ^ 32768
 where name = 'YourDBName'
+```
 
 
  Note: The database may still contain corrupt data, and a full database restore is recommended.

@@ -17,7 +17,7 @@ folder: ConnectSQLServer
 It may indicate a problem in getting data from the primary database to the secondary database. Looking at the history of the copy or restore job may help identify the problem. To do this, go to the Secondaries page of the SQL Server \| High Availability Drilldown and select an item in the grid to view the history.
 
 
- TIP: The Primary ID column may be hidden by default. See Show, hide and order columns for more information on how to display hidden columns.
+{% include tip.html content="The Primary ID column may be hidden by default. See Show, hide and order columns for more information on how to display hidden columns." %}
 
 
 ## Configuration

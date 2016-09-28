@@ -17,7 +17,6 @@ To ease contention consider increasing the number of Tempdb files to one Tempdb 
 
 It is important to configure the files at the same initial size and with the same growth settings. That way, SQL Server will manage an even distribution of data across the files.
 
-
- Note: This alarm is applicable to SQL Server 2005 and above.
+{% include note.html content="This alarm is applicable to SQL Server 2005 and above." %}
 
  {% include links.html %}

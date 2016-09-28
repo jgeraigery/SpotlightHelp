@@ -9,8 +9,7 @@ folder: ConnectSQLServer
 ---
 
 
-
-Note: Spotlight only checks large index files, that is Index files that have over 1000 pages.
+{% include note.html content="Spotlight only checks large index files, that is Index files that have over 1000 pages." %}
 
 
 ## When the alarm is raised
@@ -20,6 +19,6 @@ Note: Spotlight only checks large index files, that is Index files that have ove
 3. Use SQL Server Management Studio to schedule a job to run this script during a quiet period.
 
 
-TIP: Choose a quiet time to run this script. Execution of this script could put significant load on the SQL Server.
+{% include tip.html content="Choose a quiet time to run this script. Execution of this script could put significant load on the SQL Server." %}
 
 {% include links.html %}

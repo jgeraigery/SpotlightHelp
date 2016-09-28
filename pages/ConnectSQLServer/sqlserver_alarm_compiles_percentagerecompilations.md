@@ -33,7 +33,7 @@ There are many conditions that can cause SQL Server to recompile a stored proced
 * High server activity causing the plan to be aged out of cache.
 
 
-## When the alarm is raised
+When the alarm is raised
 
 Use the SQL Server \| SQL Activity Drilldown \| Summary page \| Call Rates chart to determine if this is a persistent problem. If the Re-Compiles rate has been a large percentage of the total Compiles rate for some time, then you should investigate further.
 
