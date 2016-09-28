@@ -5,7 +5,7 @@ summary: ""
 sidebar: c_unix_sidebar
 permalink: unix_alarm_monitoredserver_unsupportedversion.html
 id:
-folder: ConnectSQLServer
+folder: ConnectUnix
 ---
 
 

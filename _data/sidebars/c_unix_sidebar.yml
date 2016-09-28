@@ -42,6 +42,10 @@ entries:
       url: /unix_alarm_blockedprocesses.html
       output: web, pdf
 
+    - title: CPU Busy
+      url: /unix_alarm_cpubusy.html
+      output: web, pdf
+
     - title: File System Space
       url: /unix_alarm_filesystemspace.html
       output: web, pdf
