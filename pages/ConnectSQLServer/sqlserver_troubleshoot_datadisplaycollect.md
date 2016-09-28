@@ -28,7 +28,9 @@ Spotlight Enterprise raises the Missing SQL Performance Counters Alarm shortly a
 
 Run the following SQL in the appropriate version of SQL Server Management Studio for SQL Server. If this query returns no records, then your SQL Server performance counters are missing. Spotlight Enterprise will not be able to operate correctly.
 
+```
 select * from sys.dm_os_performance_counters
+```
 
 For SQL Server 2000 run the following SQL in Query Analyzer (select * from master..sysperfinfo)
 

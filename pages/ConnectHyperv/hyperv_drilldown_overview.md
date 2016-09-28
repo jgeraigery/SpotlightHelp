@@ -2,6 +2,7 @@
 title: Spotlight Overview page for Hyper-V connections
 last_updated: July 29, 2016
 summary: "Show the components and virtual machines grid for the Hyper-V connection."
+tags: [overview_page,overview_page_for_each_connection_type]
 sidebar: c_hyperv_sidebar
 permalink: hyperv_drilldown_overview.html
 folder: ConnectHyperv
