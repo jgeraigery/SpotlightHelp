@@ -1,7 +1,7 @@
 ---
 title: Analysis Services collections
 last_updated: July 29, 2016
-tags: [collections]
+tags: [collections,collections_for_each_connection_type]
 summary: "The following collections are used for displays (Spotlight Overview page components and drilldowns)."
 sidebar: c_analysisservices_sidebar
 permalink: analysisservices_collections.html

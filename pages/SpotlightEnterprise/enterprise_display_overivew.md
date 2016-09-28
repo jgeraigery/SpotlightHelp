@@ -15,10 +15,21 @@ From the left Connections pane, click on the connection. Click on the connection
 
 {% include tip.html content="There are many ways to open the Spotlight Overview page. From the Heatmap, left click on a connection to open the Spotlight Overview page for that connection." %}
 
+The flows and components are tailored to the connection type.
+
+<ul>
+{% assign sorted_pages = (site.pages | sort: 'title') %}
+{% for page in sorted_pages %}
+{% for tag in page.tags %}
+{% if tag == "overview_page_for_each_connection_type" %}
+<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</ul>
+
 
 ## About the flows and components of a Spotlight Overview page
-
-The flows and components are tailored to the connection type.
 
 ### Show a basic description of the component.
 
@@ -30,7 +41,7 @@ Left click on the component
 
 ### Alarms and component color
 
-If a Spotlight Overview page component's color is other than green then the component is in an alarm state. Click on the component for help to resolve the alarm. 
+If a Spotlight Overview page component's color is other than green then the component is in an alarm state. Click on the component for help to resolve the alarm.
 
 ### Unable to collect data
 

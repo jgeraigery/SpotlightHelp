@@ -13,7 +13,7 @@ folder: SpotlightEnterprise
 
 From the Spotlight Client
 
-1. Click Configure \| Connections.
+1. Click **Configure \| Connections**.
 2. Double click **Add new connection**. You may be prompted to enter New Connection Details.
 3. You will be prompted to fill in the connection properties. The details are dependent on the connection type.
 
@@ -21,7 +21,7 @@ From the Spotlight Client
 {% assign sorted_pages = (site.pages | sort: 'title') %}
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
-{% if tag == "connection_details" %}
+{% if tag == "connection_details_for_each_connection_type" %}
 <li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}

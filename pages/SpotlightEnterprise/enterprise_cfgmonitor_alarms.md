@@ -55,7 +55,7 @@ Information about each alarm is documented under the connection type.
 {% assign sorted_pages = (site.pages | sort: 'title') %}
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
-{% if tag == "alarms" %}
+{% if tag == "alarms_by_connection_type" %}
 <li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}

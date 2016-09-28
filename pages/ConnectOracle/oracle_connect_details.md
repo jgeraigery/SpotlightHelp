@@ -1,6 +1,6 @@
 ---
 title: Oracle connection details
-tags: [connection_details]
+tags: [connection_details,connection_details_for_each_connection_type]
 summary: ""
 sidebar: c_oracle_sidebar
 permalink: oracle_connect_details.html

@@ -1,6 +1,7 @@
 ---
-title: VMware connection display
+title: Spotlight Overview page for VMware connections
 summary: "Show the components and virtual machines grid for the VMware connection."
+tags: [overview_page,overview_page_for_each_connection_type]
 sidebar: c_vmware_sidebar
 permalink: vmware_drilldown_overview.html
 folder: ConnectVMware

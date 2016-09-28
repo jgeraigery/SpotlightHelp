@@ -50,7 +50,7 @@ Information about each collection is documented under the connection type.
 {% assign sorted_pages = (site.pages | sort: 'title') %}
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
-{% if tag == "collections" %}
+{% if tag == "collections_for_each_connection_type" %}
 <li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}

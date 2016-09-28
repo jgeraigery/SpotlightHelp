@@ -1,7 +1,7 @@
 ---
 title: SQL Server connection details
 last_updated: July 29, 2016
-tags: [connection_details]
+tags: [connection_details,connection_details_for_each_connection_type]
 summary: "Specify the connection details for a SQL Server database."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_connect_details.html

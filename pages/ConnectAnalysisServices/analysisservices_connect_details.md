@@ -1,7 +1,7 @@
 ---
 title: Analysis Services connection details
 last_updated: July 29, 2016
-tags: [connection_details]
+tags: [connection_details,connection_details_for_each_connection_type]
 summary: "Specify the connection details for SQL Server Analysis Services."
 sidebar: c_analysisservices_sidebar
 permalink: analysisservices_connect_details.html

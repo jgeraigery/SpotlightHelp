@@ -1,7 +1,7 @@
 ---
 title: Replication collections
 last_updated: July 29, 2016
-tags: [collections]
+tags: [collections,collections_for_each_connection_type]
 summary: "The following collections are used for displays (Spotlight Overview page components and drilldowns)."
 sidebar: c_replication_sidebar
 permalink: replication_collections.html
@@ -66,7 +66,7 @@ Publications page | Replication Publications |
 Subscriptions page | Replication Subscriptions |
 Agents \| Performance chart | Replication Agents |
 Agents \| Sessions grid | Replication Agent Sessions | Non configurable
-Agents \| Top 200 Actions grid | Replication Agent Session Actions | Non configurable 
+Agents \| Top 200 Actions grid | Replication Agent Session Actions | Non configurable
 
 
 

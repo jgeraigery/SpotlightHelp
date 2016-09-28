@@ -1,6 +1,6 @@
 ---
 title: Unix connection details
-tags: [connection_details]
+tags: [connection_details,connection_details_for_each_connection_type]
 summary: ""
 sidebar: c_unix_sidebar
 permalink: unix_connect_details.html

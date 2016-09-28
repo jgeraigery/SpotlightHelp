@@ -1,7 +1,8 @@
 ---
-title: Availability Group Overview page
+title:  Spotlight Overview page for Availability Group connections
 last_updated: July 29, 2016
 summary: "Show the components and virtual machines grid for the Availability Group connection."
+tags: [overview_page,overview_page_for_each_connection_type]
 sidebar: c_availabilitygroup_sidebar
 permalink: availabilitygroup_drilldown_overview.html
 folder: ConnectAvailabilityGroup
