@@ -6,6 +6,10 @@ permalink: enterprise_connect_connection.html
 folder: SpotlightEnterprise
 ---
 
+
+From the left hand side of the Spotlight Client window, expand the connection type or custom view to list connections by name.
+
+
 ## Open the Spotlight Overview page for the connection
 
 Click on the connection name in the Connections pane to show the Spotlight Overview page for the connection.

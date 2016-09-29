@@ -12,7 +12,7 @@ folder: SpotlightEnterprise
 
 ## Open the Heatmap
 
-Click **Monitor \| Heat Map** from the Spotlight ribbon to open the Heat Map showing all monitored connections.
+From the Spotlight Client, click **Monitor \| Heat Map** to open the Heat Map showing all monitored connections.
 
 {% include tip.html content="You can open the Heatmap with a subset of all monitored connections. From the left Connections pane click on a custom view or connection type. The **Heat Map** is the default view on the display pane." %}
 

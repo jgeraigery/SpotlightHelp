@@ -30,31 +30,31 @@ Note: To locate SQL Server instances, Spotlight requires SQL Server Client tools
 When selected, Spotlight uses a file to locate SQL Server or Windows Server on your network. Setup the file beforehand as per the following instructions. Click Browse to locate the file.
 
 
-#### File to locate SQL Server instances on your network
+## Setup your import file to locate SQL Server instances on your network
 
 On each line of the file, detail an existing SQL Server instance on your network. The format of the line is dependent on the authentication used to connect to the SQL Server instance and your use of connection tags.
 
 
-###### ConnectionString
+### ConnectionString
 
 Connect to this SQL Server instance with Windows authentication. The credentials of the Windows user configured to run the Spotlight Diagnostic Server are used.
 
-###### ConnectionString,User,Password
+### ConnectionString,User,Password
 
 Connect to this SQL Server instance with database user and password. Specify the database user and password.
 
-###### ConnectionString,,,#Tag
+### ConnectionString,,,#Tag
 
 Connect to this SQL Server instance with Windows authentication. The credentials of the Windows user configured to run the Spotlight Diagnostic Server are used. Assign one or more connection tags to the instance. Add multiple tags to the line by separating each tag with a comma.
 
-###### ConnectionString,User,Password,#Tag
+### ConnectionString,User,Password,#Tag
 
 Connect to this SQL Server instance with the database user and password. Assign one or more connection tags to the instance. Add multiple tags to the line by separating each tag with a comma.
 
 
-#### More information on the connection string and connection tags follows.
+### More information on the connection string and connection tags follows.
 
-##### ConnectionString
+#### ConnectionString
 
 The connection string (Server name, Instance name or IP address).
 
@@ -64,7 +64,7 @@ Double quotes are required if including the port number, as in "ServerName,PortN
 
 Optionally include the instance name in the address, as in "ServerName\InstanceName" or "ServerName\InstanceName,PortNumber".
 
-##### #Tag
+#### #Tag
 
 
 Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.
@@ -84,31 +84,31 @@ TIP: If you re-import the same file with updated tags, Spotlight will skip the c
 
 
 
-#### File to locate Windows Server on your network
+## Setup your import file  to locate Windows Server on your network
 
 On each line of the file, detail an existing Windows Server on your network. The format of the line is dependent on the authentication used to connect to the Windows Server instance and your use of connection tags.
 
 
-###### ConnectionString
+### ConnectionString
 
 Log in to this Windows Server using the credentials of the Windows user configured to run the Spotlight Diagnostic Server.
 
-###### ConnectionString,User,Password
+### ConnectionString,User,Password
 
 Log in to this Windows Server using the given user and password.
 
-###### ConnectionString,,,#Tag
+### ConnectionString,,,#Tag
 
 Log in to this Windows Server using the credentials of the Windows user configured to run the Spotlight Diagnostic Server. Assign one or more connection tags. Add multiple tags to the line by separating each tag with a comma.
 
-###### ConnectionString,User,Password,#Tag
+### ConnectionString,User,Password,#Tag
 
 Log in to this Windows Server using the given user and password. Assign one or more connection tags. Add multiple tags to the line by separating each tag with a comma.
 
 
-#### More information on the connection string, user details and connection tags follows.
+### More information on the connection string, user details and connection tags follows.
 
-###### ConnectionString
+#### ConnectionString
 
 The IP address, hostname, or URL of the Windows Server.
 
@@ -116,11 +116,11 @@ If the Windows Server is in a different domain to the Spotlight Diagnostic Serve
 
 Optionally, enclose the address in double quotes, as in "Address".
 
-##### User / Password
+#### User / Password
 
 When specifying the user details, include the Windows Domain in the user name. For example, “domain\johnsmith”, instead of “johnsmith”.
 
-##### #Tag
+#### #Tag
 
 Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.
 
@@ -137,7 +137,7 @@ NOTE: If a field in the file contains a comma, use "" to quote the value (as per
 
 
 
-### Limitations
+## Limitations
 
 Consider a deployment of more than one Spotlight Diagnostic Server. A single Spotlight Diagnostic Server is designed to monitor a maximum of 100 SQL Servers, Analysis Services or Replication instances and 100 Windows servers. Exceeding this recommended limit on 32 bit environments may result in poor performance or product instability, due to the 1 Gb memory limit. On 64 bit environments theoretically more connections can be monitored as the 1 Gb limit no longer applies, however testing of this has been limited.
 

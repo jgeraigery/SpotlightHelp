@@ -1,7 +1,7 @@
 ---
 title: Configure Connections
 tags: [connection_details,configure_monitoring]
-summary: "Add SQL Server, Windows Server and other connection types to Spotlight Enterprise. Remove connections and configure connection properties."
+summary: "Request Spotlight Enterprise monitor your SQL Server, Windows Server and other connection types. Remove connections and configure connection properties."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_connect.html
 folder: SpotlightEnterprise
@@ -9,7 +9,7 @@ folder: SpotlightEnterprise
 
 
 
-## Add
+## Add Connections
 
 From the Spotlight Client
 
@@ -17,9 +17,7 @@ From the Spotlight Client
 2. Double click **Add new connection**. You may be prompted to enter **New Connection Details**.
 3. You will be prompted to fill in the connection properties.
 
-### Details
-
-The connection details are required. The details are dependent on the connection type.
+The connection properties for a new connection are entered on two tabs: **Details** and **Tags**. The connection details are required. The details are dependent on the connection type.
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}
@@ -32,13 +30,11 @@ The connection details are required. The details are dependent on the connection
 {% endfor %}
 </ul>
 
-### Tags
+Connection **Tags** are optional. Connection Tags are a free form organizational tool that may be applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.
 
-Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.
+## Discover Connections
 
-## Discover
-
-The Connection Discovery Wizard is used to locate resources on the network and add those reseources as Spotlight connections. The Connection Discovery Wizard can be used to locate SQL Server instances or Windows Servers.
+The Connection Discovery Wizard is used to locate resources on the network and add those resources as Spotlight connections. The Connection Discovery Wizard can be used to locate SQL Server instances or Windows Servers.
 
 From the Spotlight Client
 
@@ -47,25 +43,24 @@ From the Spotlight Client
 
 
 
-## Diagnose
+## Diagnose Connections
 
 From the Spotlight Client
 
 1. Click **Configure \| Connections**.
-2. Double click on the connection or click **Diagnose** to open the Spotlight Overview Page for the connection.
+2. Double click on the connection or click **Diagnose** to open the Spotlight Overview page for the connection.
 
 
-## Edit Properties
+## Edit Connection Properties
 
 From the Spotlight Client
 
 1. Click **Configure \| Connections**.
-2. Right click the connection and select **Properties**.
+2. Right click on the connection and select **Properties**.
 
-### Details
+The connection properties for an existing connection are shown on three tabs: **Details**, **Tags** and **Monitoring**.
 
-The details are dependent on the connection type.
-
+The connection **Details** are  dependent on the connection type.
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}
@@ -78,12 +73,10 @@ The details are dependent on the connection type.
 {% endfor %}
 </ul>
 
-### Tags
-
-Replace / add / delete tags for the connection. Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.
+Replace / add / delete **Tags** for the connection. Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.
 Monitoring | Edit connection monitoring settings
 
-## Delete
+## Delete the connection
 
 From the Spotlight Client
 

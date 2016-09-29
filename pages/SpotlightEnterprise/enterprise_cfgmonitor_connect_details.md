@@ -1,7 +1,7 @@
 ---
-title: Configure Connections
+title: Enter / Edit Connection Details
 tags: [connection_details]
-summary: "Connect Spotlight to the SQL Server, Windows Server and other supported connection types in your enterprise. Add and remove connections and configure connection properties."
+summary: "Request Spotlight Enterprise monitor your SQL Server, Windows Server and other connection types. Add and remove connections and configure connection properties."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_connect_details.html
 folder: SpotlightEnterprise
@@ -9,13 +9,14 @@ folder: SpotlightEnterprise
 
 
 
-## Add new connection
+## Enter / Edit Connection Details from the Spotlight Client
 
-From the Spotlight Client
+From the Spotlight Client, click **Configure \| Connections**.
 
-1. Click **Configure \| Connections**.
-2. Double click **Add new connection**. You may be prompted to enter New Connection Details.
-3. You will be prompted to fill in the connection properties. The details are dependent on the connection type.
+To add a connection, double click **Add new connection**. You may be prompted to fill in the **New Connection Details** dialog.
+To edit the details of an existing connection, right click on the connection and select **Properties**.
+
+## The connection details are dependent on the connection type
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}
@@ -27,15 +28,6 @@ From the Spotlight Client
 {% endfor %}
 {% endfor %}
 </ul>
-
-## Properties
-
-From the Spotlight Client
-
-1. Click Configure \| Connections.
-2. Right click the connection and select **Properties**.
-3. The details are dependent on the connection type.
-
 
 
 {% include links.html %}

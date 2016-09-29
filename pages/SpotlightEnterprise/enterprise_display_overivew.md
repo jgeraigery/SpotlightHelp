@@ -11,11 +11,19 @@ folder: SpotlightEnterprise
 
 ## Open the Spotlight Overview page
 
-From the left Connections pane, click on the connection. Click on the connection.
+From the Spotlight Client, click on a connection from the left Connections pane.
 
 {% include tip.html content="There are many ways to open the Spotlight Overview page. From the Heatmap, left click on a connection to open the Spotlight Overview page for that connection." %}
 
-The flows and components are tailored to the connection type.
+## About the Spotlight Overview page
+
+### Flows and components
+
+The Spotlight Overview page is made up of flows and components.
+
+### Tailored to the connection type
+
+The Spotlight Overview page flows and components are tailored to the connection type.
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}
@@ -27,9 +35,6 @@ The flows and components are tailored to the connection type.
 {% endfor %}
 {% endfor %}
 </ul>
-
-
-## About the flows and components of a Spotlight Overview page
 
 ### Show a basic description of the component.
 

@@ -113,10 +113,6 @@ entries:
       url: /enterprise_connect_display.html
       output: web, pdf
 
-    - title: Connection Type
-      url: /enterprise_connect_type.html
-      output: web, pdf
-
       subfolders:
       - title: Custom Views
         output: web
@@ -138,10 +134,6 @@ entries:
           url: /enterprise_connect_selectconnections.html
           output: web, pdf
 
-    - title: Drilldown on a single connection
-      url: /enterprise_connect_connection.html
-      output: web, pdf
-
     - title: Search
       url: /enterprise_connect_search.html
       output: web, pdf
@@ -153,27 +145,6 @@ entries:
     - title: Planned outages
       url: /enterprise_connect_plannedoutage.html
       output: web, pdf
-
-      subfolders:
-      - title: Add and remove connections and edit connection details
-        output: web
-        subfolderitems:
-
-        - title: Add connections one by one
-          url: /enterprise_connect_add.html
-          output: web, pdf
-
-        - title: Add connections by discovery
-          url: /enterprise_connect_adddiscovery.html
-          output: web, pdf
-
-        - title: Remove connections
-          url: /enterprise_connect_remove.html
-          output: web, pdf
-
-        - title: Command line access
-          url: /enterprise_connect_commandline.html
-          output: web, pdf
 
   - title: Displays
     output: web, pdf
@@ -305,7 +276,7 @@ entries:
           url: /enterprise_cfgmonitor_connect.html
           output: web, pdf
 
-        - title: Connection details
+        - title: Enter / Edit Connection details
           url: /enterprise_cfgmonitor_connect_details.html
           output: web, pdf
 
@@ -327,6 +298,10 @@ entries:
 
         - title: New Connection Details
           url: /enterprise_cfgmonitor_connect_newdetails.html
+          output: web, pdf
+
+        - title: Command line access
+          url: /enterprise_connect_commandline.html
           output: web, pdf
 
       - title: Configure Alarms

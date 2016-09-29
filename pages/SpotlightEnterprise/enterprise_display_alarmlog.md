@@ -12,7 +12,7 @@ folder: SpotlightEnterprise
 
 ## Open the Alarm log
 
-Click **Monitor \| Alarm log** from the Spotlight ribbon to open the Alarm log for all monitored connections.
+From the Spotlight Client, click **Monitor \| Alarm log** to open the Alarm log for all monitored connections.
 
 {% include tip.html content="The Alarm log can be opened to show a custom view of monitored connections or a view of all connections of a specific type. From the left Connections pane, click on a custom view or connection type then click **Alarm log** from the display pane. To open the Alarm log for just one connection, right click on the connection in the Connections pane then click **Alarm log** from the display pane." %}
 
