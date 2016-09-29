@@ -4,14 +4,17 @@ last_updated: July 29, 2016
 summary: "Spotlight raises an Archive Destination Failure alarm when at least one of the archive destinations specified for redo log files is about to become full."
 sidebar: c_oracle_sidebar
 permalink: oracle_alarm_archivedestinationfailure.html
-id:
+id: Home.ArchiveLog.Destination Failure alarm
 folder: ConnectOracle
 ---
 
 
+This information is updated every 5 minutes. The calculated time to failure is based on the last three days of archived logs. Spotlight calculates the time to failure via the **V$ARCHIVED_LOG** table, and returns no estimate until the table contains at least 7 logs.
+
 When you see this alarm, you should make space in the archive log destination by purging it, or by backing it up to an offline medium.
 
 {% include note.html content="A destination failure may also cause a Archive Critical Failure Alarm (a critical failure of the archiving process) if a MANDATORY archive destination becomes full, OR there are now fewer working destinations than the number required for successful archiving (specified by the Oracle LOG_ARCHIVE_MIN_SUCCEED_DEST parameter)." %}
+
 
 
 ## Suggestions for improving the archiving process

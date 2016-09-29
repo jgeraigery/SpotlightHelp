@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "The Total Parse Wait Time Ratio alarm is raised according to the proportion of time spent parsing SQL statements over the total active database time (not elapsed time). "
 sidebar: c_oracle_sidebar
 permalink: oracle_alarm_totalparsewaittimeratio.html
-id:
+id: Home.ParseCallPs.Total Parse Wait Time Ratio.alarm
 folder: ConnectOracle
 ---
 

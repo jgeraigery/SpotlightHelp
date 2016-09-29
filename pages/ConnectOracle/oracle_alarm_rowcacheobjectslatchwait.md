@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "The row cache objects latch protects the contents of the row cache; the section of the shared pool to cache dictionary information."
 sidebar: c_oracle_sidebar
 permalink: oracle_alarm_rowcacheobjectslatchwait.html
-id:
+id: Home.SharedPool.Row cache objects latch wait.alarm
 folder: ConnectOracle
 ---
 

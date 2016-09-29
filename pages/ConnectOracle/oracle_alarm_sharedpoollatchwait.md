@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "Shared pool latches control access to the shared pool memory map."
 sidebar: c_oracle_sidebar
 permalink: oracle_alarm_sharedpoollatchwait.html
-id:
+id: Home.SharedPool.Shared pool latch wait.alarm
 folder: ConnectOracle
 ---
 

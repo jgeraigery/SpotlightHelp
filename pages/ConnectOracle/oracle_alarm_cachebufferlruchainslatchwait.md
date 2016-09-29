@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "The Cache Buffer LRU Chains Latch Wait alarm occurs when contention for the cache buffer chains latch exceeds a threshold."
 sidebar: c_oracle_sidebar
 permalink: oracle_alarm_cachebufferlruchainslatchwait.html
-id:
+id: Home.BufferCache.Cache buffer LRU chain latch wait.alarm
 folder: ConnectOracle
 ---
 

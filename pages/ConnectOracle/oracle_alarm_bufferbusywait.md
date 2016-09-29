@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "The Buffer Busy Wait alarm occurs when a session cannot access a block because it is in use by another session. The two most common causes are insufficient free lists for a table or insufficient rollback segments."
 sidebar: c_oracle_sidebar
 permalink: oracle_alarm_bufferbusywait.html
-id:
+id: Home.BufferCache.Buffer busy waits as pct of total.alarm
 folder: ConnectOracle
 ---
 

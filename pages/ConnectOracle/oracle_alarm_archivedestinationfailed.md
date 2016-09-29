@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "Spotlight raises an Archive Destination Failed alarm when at least one of the archive destinations specified for redo log files has become full."
 sidebar: c_oracle_sidebar
 permalink: oracle_alarm_archivedestinationfailed.html
-id:
+id: Home.ArchiveLog.Destination Failed alarm
 folder: ConnectOracle
 ---
 

@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "The Flashback Space Usage alarm is raised when the amount of used space in the Flashback Recovery Area exceeds a threshold."
 sidebar: c_oracle_sidebar
 permalink: oracle_alarm_flashbackspaceusage.html
-id:
+id: Home.FlashbackLogs.Flashback Pct Used.alarm
 folder: ConnectOracle
 ---
 

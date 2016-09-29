@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "Spotlight raises an Archive Critical Failure alarm when the number of working archive destinations for the database instance is about to fall below the minimum number needed to archive Oracle redo logs successfully."
 sidebar: c_oracle_sidebar
 permalink: oracle_alarm_archivecriticalfailure.html
-id:
+id: Home.ArchiveLog.Critical Failure alarm
 folder: ConnectOracle
 ---
 
@@ -15,6 +15,8 @@ folder: ConnectOracle
 * There are fewer working destinations than the number required for successful archiving (specified by the Oracle LOG_ARCHIVE_MIN_SUCCEED_DEST parameter).
 
 When you see this alarm, you should make space in the archive log destination by purging – or by backing up to an offline medium – any archived files that are not immediately needed.
+
+The calculated time to failure is based on the last three days of archived logs. Spotlight calculates the time to failure via the **V$ARCHIVED_LOG** table, and returns no estimate until the table contains at least 7 logs. This information is updated every 5 minutes.
 
 ## Suggestions for improving the archiving process
 

@@ -1,10 +1,10 @@
 ---
 title: ﻿CPU Busy Alarm
 last_updated: July 29, 2016
-summary: "The CPU Busy alarm occurs when the total CPU utilization of the system exceeds a threshold. The CPU may encounter a large number of requests, or you may have un-tuned SQL, which uses excessive amounts of CPU."
+summary: "The CPU Busy alarm occurs when the total CPU utilization of the system exceeds a threshold. The CPU may encounter a large number of requests, or you may have un-tuned SQL, which uses excessive amounts of CPU unnecessarily."
 sidebar: c_oracle_sidebar
 permalink: oracle_alarm_cpubusy.html
-id:
+id: Home.CPU.No Description.alarm
 folder: ConnectOracle
 ---
 

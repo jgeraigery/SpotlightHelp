@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "The Non-reclaimable Flashback Space alarm is raised when the amount of non-reclaimable used space in the Recovery Area (flashback area) exceeds a threshold."
 sidebar: c_oracle_sidebar
 permalink: oracle_alarm_nonreclaimableflashbackspace.html
-id:
+id: home.flashbacklogs.flashback pct non reclaim.alarm
 folder: ConnectOracle
 ---
 

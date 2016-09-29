@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "The Insufficient Flashback Logs alarm is raised when the flashback logs in the flashback area do not cover the amount of time specified in the DB_FLASHBACK_RETENTION_TARGET parameter."
 sidebar: c_oracle_sidebar
 permalink: oracle_alarm_insufficientflashbacklogs.html
-id:
+id: home.flashbacklogs.insufficient storage.alarm
 folder: ConnectOracle
 ---
 

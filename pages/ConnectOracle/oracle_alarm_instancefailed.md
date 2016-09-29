@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 summary: "Spotlight raises an Instance Failed alarm when the specified instance has failed because of an Archiver error."
 sidebar: c_oracle_sidebar
 permalink: oracle_alarm_instancefailed.html
-id:
+id: Home.ArchiveLog.Instance.Failed.alarm
 folder: ConnectOracle
 ---
 
