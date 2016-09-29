@@ -16,7 +16,7 @@ folder: ConnectOracle
 An instance failure occurs during archiving when:
 
 * A MANDATORY archive destination fails, OR
-* There are now fewer working destinations than the number required for successful archiving (specified by the Oracle **LOG_ARCHIVE_MIN_SUCCEED_DEST** parameter).
+* There are now fewer working destinations than the number required for successful archiving (specified by the Oracle LOG_ARCHIVE_MIN_SUCCEED_DEST parameter).
 
 
 

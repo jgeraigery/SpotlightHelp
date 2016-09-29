@@ -9,7 +9,7 @@ folder: ConnectOracle
 ---
 
 
-You may need to increase the value of **DB_RECOVERY_FILE_DEST_SIZE** to maintain a greater number of flashback logs. See the Disk Storage \| Recovery Area Page for more information.
+You may need to increase the value of DB_RECOVERY_FILE_DEST_SIZE to maintain a greater number of flashback logs. See the Disk Storage \| Recovery Area Page for more information.
 
 
 
