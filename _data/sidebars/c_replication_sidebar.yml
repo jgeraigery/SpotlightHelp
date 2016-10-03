@@ -248,6 +248,14 @@ entries:
           url: /replication_grid_publications.html
           output: web, pdf
 
+        - title: Subscriptions for publication grid
+          url: /replication_grid_subscriptionsforpublication.html
+          output: web, pdf
+
+        - title: Agents for pubication grid
+          url: /replication_grid_agentsforpublication.html
+          output: web, pdf
+
       - title: Subscriptions page
         output: web
         subfolderitems:
@@ -288,16 +296,16 @@ entries:
           url: /replication_grid_agents.html
           output: web, pdf
 
-        - title: Performance chart
-          url: /replication_chart_agentperformance.html
+        - title: Performance of agent chart
+          url: /replication_chart_performanceofagent.html
           output: web, pdf
 
-        - title: Sessions grid
-          url: /replication_grid_agentsessions.html
+        - title: Sessions for agent grid
+          url: /replication_grid_sessionsforagent.html
           output: web, pdf
 
-        - title: Top 200 actions grid
-          url: /replication_grid_agenttop200actions.html
+        - title: Top 200 actions in the selected session grid
+          url: /replication_grid_top200actions.html
           output: web, pdf
 
   - title: Collections
