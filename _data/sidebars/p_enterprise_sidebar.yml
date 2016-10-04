@@ -446,6 +446,10 @@ entries:
           url: /enterprise_cfgmonitor_applyconfig.html
           output: web, pdf
 
+        - title: Choose configurations
+          url: /enterprise_cfgmonitor_applyconfig_chooseconfigurations.html
+          output: web, pdf
+
         - title: Select connections
           url: /enterprise_cfgmonitor_selectconnections.html
           output: web, pdf

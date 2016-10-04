@@ -44,8 +44,9 @@ To apply the template configuration to Spotlight connections, see **Apply config
 2. Select the template.
 3. Click **Apply configuration to….**
 4. If you have made changes to the configuration then you will be prompted to save those changes to the template.
-5. Select the Spotlight connections to apply the configuration to. For more information, see Select connections.
-6. Preview changes to the configuration of the Spotlight connections. For more information, see Preview changes.
+5. For an alarm or scheduling configuration, Choose configurations to apply.
+6. Select the Spotlight connections to apply the configuration to. For more information, see Select connections.
+7. Preview changes to the configuration of the Spotlight connections. For more information, see Preview changes.
 
 ### To modify a template configuration
 

@@ -26,8 +26,9 @@ folder: SpotlightEnterprise
 
 1. From the configuration dialog, select a template or connection.
 2. Click the **Apply configuration to…** button to apply the configuration of the selected template or connection.
-3. **Select connections** - The configuration will be applied to the selected connections.
-4. **Preview changes** - Preview the changes to the configuration for the selected connections.
+3. **Choose configurations** - for an alarm or scheduling configuration.
+4. **Select connections** - The configuration will be applied to the selected connections.
+5. **Preview changes** - Preview the changes to the configuration for the selected connections.
 
 {% include imageClient.html file="pane_configure_applyconfigurationto.png" alt="Apply the selected template or connection configuration to the selected connections" %}
 
