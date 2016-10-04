@@ -1,6 +1,6 @@
 ---
 title: Configure Monitored Files
-tags: [configure_monitoring]
+tags: [configure_monitoring,apply_configuration_to]
 summary: "Configure Spotlight to track the growth of files (usually log files) on monitored Windows Server."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_monitoredfiles.html

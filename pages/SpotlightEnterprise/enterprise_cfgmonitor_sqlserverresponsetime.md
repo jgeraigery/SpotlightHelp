@@ -1,6 +1,6 @@
 ---
 title: Configure SQL Server Response Time
-tags: [configure_monitoring]
+tags: [configure_monitoring,apply_configuration_to]
 summary: "Define the SQL statement used to measure SQL Server response time."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_sqlserverresponsetime.html

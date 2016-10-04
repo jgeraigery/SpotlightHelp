@@ -1,6 +1,6 @@
 ---
 title: Configure Disks Display
-tags: [configure_monitoring]
+tags: [configure_monitoring,apply_configuration_to]
 summary: "Configure how disks are displayed on the Windows Server | Overview Page | Disks panel."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_disksdisplay.html

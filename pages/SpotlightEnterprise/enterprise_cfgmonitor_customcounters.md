@@ -1,6 +1,6 @@
 ---
 title: Configure Custom Counters
-tags: [configure_monitoring]
+tags: [configure_monitoring,apply_configuration_to]
 summary: "Configure Spotlight to track counters not included in Spotlight."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_customcounters.html

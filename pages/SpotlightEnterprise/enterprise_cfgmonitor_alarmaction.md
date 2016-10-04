@@ -36,11 +36,11 @@ Optionally, define one or more conditions for this alarm action rule. All action
 
 ### The alarm has been cleared
 
-Take action when the alarm severity returns to Normal. For more information, see Example Alarm Action Rules.
+Take action when the alarm severity returns to {% include inline_imageClient.html file="icon_alarm_green.png" alt="Normal" %} Normal. For more information, see Example Alarm Action Rules.
 
 ### The alarm has existed for more than…
 
-Take action when the alarm severity has been other than Normal for a specified period of time.
+Take action when the alarm severity has been other than {% include inline_imageClient.html file="icon_alarm_green.png" alt="Normal" %} Normal for a specified period of time.
 
 You define the period of time in hours, minutes or days. For example, take action when the alarm severity has been other than normal for 5 days.
 
@@ -62,7 +62,7 @@ For more information on each alarm see About each alarm.
 
 ### The alarm severity is…
 
-Take action when the alarm severity changes to one of the following: Information, Low, Medium or High.
+Take action when the alarm severity changes to one of the following: {% include inline_imageClient.html file="icon_alarm_blue.png" alt="Information" %} Information, {% include inline_imageClient.html file="icon_alarm_yellow.png" alt="Low" %} Low, {% include inline_imageClient.html file="icon_alarm_orange.png" alt="Medium" %} Medium or {% include inline_imageClient.html file="icon_alarm_red.png" alt="High" %} High.
 
 ### The connection is…
 
@@ -126,7 +126,7 @@ Select the action(s) to take when all the above specified condition(s) are met
 
 ### Decrease the severity
 
-Decrease the severity to one of: Normal, Information, Low or Medium.
+Decrease the severity to one of: {% include inline_imageClient.html file="icon_alarm_green.png" alt="Normal" %} Normal, {% include inline_imageClient.html file="icon_alarm_blue.png" alt="Information" %} Information, {% include inline_imageClient.html file="icon_alarm_yellow.png" alt="Low" %} Low or {% include inline_imageClient.html file="icon_alarm_orange.png" alt="Medium" %} Medium.
 
 If the action is to decrease the severity to Low then the alarm raised must have a severity of High or Medium for any action to take place. If the alarm raised has a severity lower than the severity selected for this action then no action will be taken.
 
@@ -223,7 +223,7 @@ No further rules will be executed. Execute this rule to completion first. For mo
 
 ### Suppress the alarm
 
-Return the alarm severity to Normal.
+Return the alarm severity to {% include inline_imageClient.html file="icon_alarm_green.png" alt="Normal" %} Normal.
 
 If the alarm requires acknowledgment and has not been acknowledged, then following this action the alarm severity will be returned to normal without acknowledgment.
 

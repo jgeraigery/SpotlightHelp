@@ -10,7 +10,7 @@ folder: SpotlightEnterprise
 
 ## How to acknowledge an alarm
 
-An alarm can be acknowledged from Spotlight Today or a Spotlight Overview Page.
+An alarm can be acknowledged from Spotlight Today or a Spotlight Overview Page. Click {% include inline_imageClient.html file="tb_alarms_acknowledge.png" alt="Acknowledge" %} Acknowledge.
 
 ## Look up an alarm once it has been acknowledged
 

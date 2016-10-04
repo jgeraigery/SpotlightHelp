@@ -1,6 +1,6 @@
 ---
 title: Planned Outage
-keywords: sample
+tags: [configure_monitoring]
 summary: "Let Spotlight know the scheduled maintenance times for monitored connections. During the outage period, Spotlight will treat these connections as unavailable, so will not raise alarms or collect data."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_plannedoutage.html

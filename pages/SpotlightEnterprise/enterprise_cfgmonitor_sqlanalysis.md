@@ -1,6 +1,6 @@
 ---
 title: Configure SQL Analysis
-tags: [configure_monitoring]
+tags: [configure_monitoring,apply_configuration_to]
 summary: "Enable or disable SQL Analysis. Define the data to be collected and displayed in the SQL Analysis - Workload View and the SQL Server | SQL Activity Drilldown | SQL Analysis page."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_sqlanalysis.html
