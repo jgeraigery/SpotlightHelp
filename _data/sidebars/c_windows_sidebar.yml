@@ -372,7 +372,7 @@ entries:
           url: /windows_chart_processorutilization.html
           output: web, pdf
 
-        - title: Read / writes chart
+        - title: Reads / Writes chart
           url: /windows_chart_readwrites.html
           output: web, pdf
 
