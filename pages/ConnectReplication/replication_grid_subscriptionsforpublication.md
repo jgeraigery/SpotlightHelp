@@ -1,5 +1,5 @@
 ---
-title: Subscriptions for Publication grid
+title: Subscriptions for Publication
 last_updated: July 29, 2016
 summary: "Shows information about the subscriptions for the selected publication."
 sidebar: c_replication_sidebar

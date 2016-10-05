@@ -1,9 +1,9 @@
 ---
-title: Top 200 Actions in the Selected Session
+title: Actions in the Selected Session
 last_updated: July 29, 2016
-summary: "The Actions grid shows the informational and error messages logged for the selected session."
+summary: "The Top 200 Actions grid shows the informational and error messages logged for the selected session."
 sidebar: c_replication_sidebar
-permalink: replication_grid_top200actions.html
+permalink: replication_grid_top200actions_agents.html
 id: Actions.grdActions
 folder: ConnectReplication
 ---

@@ -1,5 +1,5 @@
 ---
-title: Agent performance chart
+title: Performance of Agent
 last_updated: July 29, 2016
 summary: "The performance chart shows various statistics relating to the selected agent. This chart is applicable for agents related to a publication."
 sidebar: c_replication_sidebar

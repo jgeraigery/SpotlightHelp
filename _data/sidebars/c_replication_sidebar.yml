@@ -244,15 +244,15 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Publications grid
+        - title: Publications
           url: /replication_grid_publications.html
           output: web, pdf
 
-        - title: Subscriptions for publication grid
+        - title: Subscriptions for Publication
           url: /replication_grid_subscriptionsforpublication.html
           output: web, pdf
 
-        - title: Agents for pubication grid
+        - title: Agents for Pubication
           url: /replication_grid_agentsforpublication.html
           output: web, pdf
 
@@ -260,52 +260,52 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Subscriptions grid
+        - title: Subscriptions
           url: /replication_grid_subscriptions.html
           output: web, pdf
 
         - title: Sessions for Subscription
-          url: /replication_chart_sessionsforsubscription.html
+          url: /replication_components_sessionsforsubscription.html
           output: web, pdf
 
-        - title: Sessions of the Log Reader Agent grid
+        - title: Sessions of the Log Reader Agent
           url: /replication_grid_sessionsofthelogreaderagent.html
-          output: web, pdf
-
-        - title: Sessions grid
-          url: /replication_grid_sessions.html
-          output: web, pdf
-
-        - title: Session Acticles grid
-          url: /replication_grid_sessionarticles.html
           output: web, pdf
 
         - title: Sessions of the Distribution Agent
           url: /replication_grid_sessionsofthedistributionagent.html
           output: web, pdf
 
-        - title: Top 200 Actions grid
-          url: /replication_grid_top200actions.html
+        - title: Actions in the Selected Session
+          url: /replication_grid_top200actions_subscriptions.html
+          output: web, pdf
+
+        - title: Sessions of the Merge Agent
+          url: /replication_grid_sessionsofthemergeagent.html
+          output: web, pdf
+
+        - title: Acticles Processed in the Selected Session
+          url: /replication_grid_sessionarticles.html
           output: web, pdf
 
       - title: Agents page
         output: web
         subfolderitems:
 
-        - title: Agents grid
+        - title: Agents
           url: /replication_grid_agents.html
           output: web, pdf
 
-        - title: Performance of agent chart
+        - title: Performance of Agent
           url: /replication_chart_performanceofagent.html
           output: web, pdf
 
-        - title: Sessions for agent grid
+        - title: Sessions for Agent 
           url: /replication_grid_sessionsforagent.html
           output: web, pdf
 
-        - title: Top 200 actions in the selected session grid
-          url: /replication_grid_top200actions.html
+        - title: Actions in the Selected Session
+          url: /replication_grid_top200actions_agents.html
           output: web, pdf
 
   - title: Collections

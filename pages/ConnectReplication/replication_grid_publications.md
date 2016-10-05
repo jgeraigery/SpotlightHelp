@@ -1,5 +1,5 @@
 ---
-title: Publications grid
+title: Publications
 last_updated: July 29, 2016
 summary: "The Publications grid shows information about the publications at the publisher."
 sidebar: c_replication_sidebar
