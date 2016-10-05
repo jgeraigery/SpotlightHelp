@@ -438,12 +438,16 @@ entries:
           url: /enterprise_cfgmonitor_monitoredfiles_addfile.html
           output: web, pdf
 
-      - title: Apply configuration to... (thisworked)
+      - title: Apply configuration to...
         output: web
         subfolderitems:
 
         - title: Apply configuration to...
           url: /enterprise_cfgmonitor_applyconfig.html
+          output: web, pdf
+
+        - title: Choose configurations
+          url: /enterprise_cfgmonitor_applyconfig_chooseconfigurations.html
           output: web, pdf
 
         - title: Select connections
