@@ -16,7 +16,7 @@ All informational messages and error messages that the Log Reader Agent has logg
 
 ## Action Time
 
-Time at which the action described in the Action Message column was performed.
+The time at which the action described in the **Action Message** column was performed.
 
 
 {% include links.html %}

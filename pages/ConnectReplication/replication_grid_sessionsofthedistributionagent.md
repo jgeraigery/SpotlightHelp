@@ -1,7 +1,7 @@
 ---
 title: Sessions of the Distribution Agent
 last_updated: July 29, 2016
-summary: "Shows information about the Distribution Agent session for the subscription selected in the Subscriptions grid above. This grid is applicable for subscriptions of type Transactional."
+summary: "Shows information about the Distribution Agent session for the selected subscription. This view is shown when the Publication Type of the selected subscription is Transactional."
 sidebar: c_replication_sidebar
 permalink: replication_grid_sessionsofthedistributionagent.html
 id: DistSubHistory.grdDistSubHistory

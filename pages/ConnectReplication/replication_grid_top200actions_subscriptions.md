@@ -1,7 +1,7 @@
 ---
 title: Actions in the Selected Session
 last_updated: July 29, 2016
-summary: "The Top 200 Actions grid shows the informational and error messages logged for the selected session."
+summary: "The Top 200 Actions grid shows the informational and error messages logged for the selected session. This view is shown when the Publication Type of the selected subscription is Transactional."
 sidebar: c_replication_sidebar
 permalink: replication_grid_top200actions_subscriptions.html
 id: Actions.grdActions
@@ -16,7 +16,7 @@ All informational messages and error messages that the Log Reader Agent has logg
 
 ## Action Time
 
-Time at which the action described in the Action Message column was performed.
+The time at which the action described in the **Action Message** column was performed.
 
 
 {% include links.html %}

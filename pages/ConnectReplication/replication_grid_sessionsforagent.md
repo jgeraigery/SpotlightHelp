@@ -1,7 +1,7 @@
 ---
 title: Sessions for Agent
 last_updated: July 29, 2016
-summary: "Shows information about sessions for the selected agent. This grid is applicable for agents related to a publication."
+summary: "Shows information about sessions for the selected agent."
 sidebar: c_replication_sidebar
 permalink: replication_grid_sessionsforagent.html
 id: PubDistHistory.grdPubDistHistory

@@ -1,7 +1,7 @@
 ---
 title: Sessions of the Merge Agent
 last_updated: July 29, 2016
-summary: "Shows detailed information about the sessions on the Merge Agent."
+summary: "Shows detailed information about the sessions on the Merge Agent. This view is shown when the Publication Type of the selected subscription is Merge."
 sidebar: c_replication_sidebar
 permalink: replication_grid_sessionsofthemergeagent.html
 id: MergeSessions.grdMergeSessions

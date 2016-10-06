@@ -1,7 +1,7 @@
 ---
 title: Articles Processed in the Selected Session
 last_updated: July 29, 2016
-summary: "Shows article statistics for the selected session on the Merge Agent."
+summary: "Shows article statistics for the selected session on the Merge Agent. This view is shown when the Publication Type of the selected subscription is Merge."
 sidebar: c_replication_sidebar
 permalink: replication_grid_sessionarticles.html
 id: SessionArticles.grdSessionArticles

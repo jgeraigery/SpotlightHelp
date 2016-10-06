@@ -1,7 +1,7 @@
 ---
 title: Agents grid
 last_updated: July 29, 2016
-summary: "The Agents grid shows information about agent sessions."
+summary: "Shows information about agent sessions."
 sidebar: c_replication_sidebar
 permalink: replication_grid_agents.html
 id: Agents.grdAgents

@@ -1,7 +1,7 @@
 ---
 title: Subscriptions
 last_updated: July 29, 2016
-summary: "The Subscriptions grid shows information about the subscriptions that belong to a publication on the publisher."
+summary: "Shows information about the subscriptions that belong to a publication on the publisher."
 sidebar: c_replication_sidebar
 permalink: replication_grid_subscriptions.html
 id: Subscriptions.grdSubscriptions
