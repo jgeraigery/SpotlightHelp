@@ -43,6 +43,38 @@ The connection will fail if the account permissions are insufficient to allow Sp
 
  Select this option if the SQL Server instance hosts a secondary replica of an Availability Group and for this secondary replica ApplicationIntent=ReadOnly. Failure to select this option when required will result in some data not being collected for the secondary replica; this will be most noticeable on the SQL Server \| Databases drilldown.
 
+## Use Extended Events
+
+### Selected
+
+The Spotlight Diagnostic Server will use Extended Events to collect data from the SQL Server instance. The data is used by:
+
+* SQL Server \| Workload Analysis Drilldown
+* SQL Server \| Wait Events Drilldown
+* Deadlock checks: SQL Server \| SQL Activity Drilldown, Locks - Deadlocks Alarm.
+
+If you select to use Extended Events (following a period of time when the use of Extended Events was deselected) the SQL Server \| Workload Analysis Drilldown and SQL Server \| Wait Events Drilldown may take a few minutes to repopulate with data.
+
+### Not Selected
+
+The Spotlight Diagnostic Server will use SQL Server Trace to collect data for deadlock checks. The Spotlight Diagnostic Server will NOT collect data for the SQL Server \| Workload Analysis Drilldown and SQL Server \| Wait Events Drilldown.
+
+If you set this value after the connection to the SQL Server is established then the change will not show up immediately on the user interface as the Workload Analysis Drilldown and Wait Events Drilldown will continue to show historical data till no data is available.
+
+{% include note.html content="The setting for Use Extended Events can be set collectively for all SQL Server on the Spotlight Diagnostic Server from Configure the use of Extended Events." %}
+
+
+## Obscure string literals in SQL text and parameters in query plans
+
+### Selected
+
+Dummy text replaces string literals in the display of the SQL Statement and Query Plan on the SQL Activity \| Sessions page and the SQL Activity \| Top SQL Statements page. This protects privacy information that may be contained in those literals.
+
+### Not Selected
+
+The string literals in the SQL Statement and Query Plan on the SQL Activity \| Sessions page and the SQL Activity \| Top SQL Statements page are displayed as is.
+
+
 ## Connection
  Select the Windows server hosting the SQL Server.
 
