@@ -38,6 +38,11 @@ Spotlight Diagnostic Server in the federation authenticate with the Configuratio
 
 The Configuration server should have a reliable and fast Internet connection to each of the other Spotlight Diagnostic Server in the federation.
 
+###
+
+The number of Spotlight connections monitored by this Spotlight Diagnostic Server.  Add the number of Spotlight connections monitored by each Spotlight Diagnostic Server to determine the number of Spotlight connections monitored by the Federation.
+
+
 
 ## Add Spotlight Diagnostic Server
 
