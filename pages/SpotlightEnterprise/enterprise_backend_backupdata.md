@@ -11,24 +11,24 @@ folder: SpotlightEnterprise
 
 ## Spotlight Diagnostic Server
 
+To backup the Spotlight Diagnostic Server, back up the Diagnostic Server\Agent folder.
 
-Back up the Diagnostic Server\Agent folder.
-
+```
 C:\Program Files\Dell\Diagnostic Server\Agent
+```
 
- 
-
-TIP: To backup just the Spotlight configuration (configuration of connections, alarms and scheduling), backup the Diagnostic Server\Agent\Conf folder.
+{% include tip.html content="To backup just the Spotlight configuration (configuration of connections, alarms and scheduling), backup the **Diagnostic Server\Agent\Conf** folder." %}
 
 
 ## Playback Database
 
-Backup the Playback Database. The Playback Database is deployed on SQL Server. The backup procedure is the same as for any other SQL Server database.
+The Playback Database is deployed on SQL Server. The backup procedure for the Playback Database is the same as for any other SQL Server database.
 
 
 ## Spotlight Statistics Repository
 
-If a Spotlight Statistics Repository is deployed in your environment then back it up. The Spotlight Statistics Repository is deployed on SQL Server. The backup procedure is the same as for any other SQL Server database.
+The Spotlight Statistics Repository is deployed on SQL Server. The backup procedure for the Spotlight Statistics Repository is the same as for any other SQL Server database.
 
+{% include note.html content="Creation and use of the Spotlight Statistics Repository is optional in a Spotlight Enterprise deployment." %}
 
 {% include links.html %}

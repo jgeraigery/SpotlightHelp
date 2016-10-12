@@ -2,7 +2,7 @@
 title: Spotlight grid properties
 tags: [spotlight_grids]
 keywords: grids, drilldowns
-summary: ""
+summary: "To open this dialog, right click the grid body and select Properties."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_gridsproperties.html
 id: 40111
@@ -10,18 +10,15 @@ folder: SpotlightEnterprise
 ---
 
 
-## To freeze the first column
+## Freeze First Column
 
-When selected the first column will remain visible while you scroll through the columns of the table:
+Select when you want the first column of the grid to remain visible while you scroll through the columns of the table.
 
-Right-click the grid header and select **Freeze First column**.
+## Allow text to word-wrap onto multiple lines if it is wider than the column
 
-## To word-wrap text
+By default, Spotlight truncates text that is too long to fit in the space allocated to the column.
 
-By default, Spotlight truncates text that is too long to fit in the space allocated to the column. To allow text to wrap onto multiple lines:
-
-1. Right-click the data content of the grid and select **Properties \| Options**.
-2. Select **Allow text to word-wrap onto multiple lines if it is wider than the column**
+Select **Allow text to word-wrap onto multiple lines if it is wider than the column** to allow text to wrap onto multiple lines.
 
 
 {% include links.html %}

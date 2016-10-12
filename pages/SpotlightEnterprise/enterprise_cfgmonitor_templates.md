@@ -7,7 +7,10 @@ permalink: enterprise_cfgmonitor_templates.html
 folder: SpotlightEnterprise
 ---
 
-Any of the following Spotlight configurations can be saved to a template.
+
+## How to create a template
+
+1. Open the Spotlight Configure page specific to the template you want to create (for example **Configure \| Alarms**). Any of the following Spotlight configurations can be saved to a template.
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}
@@ -20,11 +23,6 @@ Any of the following Spotlight configurations can be saved to a template.
 {% endfor %}
 </ul>
 
-To apply the template configuration to Spotlight connections, see **Apply configuration to…**
-
-## How to create a template
-
-1. Open the Spotlight Configure page specific to the template you want to create (for example **Configure \| Alarms**).
 2. Select a template or connection that will be the basis of the new template.
 3. Click **Save as Template** to open the **Save to Template dialog**. You have now created a new template based on the configuration of the selected connection or template.
 
@@ -36,9 +34,8 @@ To apply the template configuration to Spotlight connections, see **Apply config
 
    {% include imageClient.html file="pane_configure_saveastemplate_change.png" alt="Select the new template" %}
 
-## Ways to apply a template
 
-### To apply a template configuration to Spotlight connections
+## How to apply a template configuration to Spotlight connections
 
 1. Open the Spotlight Configure page specific to the template (for example **Configure \| Alarms**).
 2. Select the template.
@@ -48,20 +45,20 @@ To apply the template configuration to Spotlight connections, see **Apply config
 6. Select the Spotlight connections to apply the configuration to. For more information, see Select connections.
 7. Preview changes to the configuration of the Spotlight connections. For more information, see Preview changes.
 
-### To modify a template configuration
+## How modify a template
 
 1. Open the Spotlight Configure page specific to the template (for example **Configure \| Alarms**).
 2. Select the template.
 3. Modify the configuration.
 4. Click **OK**.
 
-### To delete a template
+## How to delete a template
 
 1. Open the Spotlight Configure page specific to the template (for example **Configure \| Alarms**).
 2. Select the template.
 3. Click **Delete Template**.
 
-### To rename a template
+## How to rename a template
 
 1. Open the Spotlight Configure page specific to the template (for example **Configure \| Alarms**).
 2. Select the template.

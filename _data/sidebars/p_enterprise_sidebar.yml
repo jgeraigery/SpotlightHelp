@@ -158,7 +158,7 @@ entries:
       url: /enterprise_display_spotlighttoday.html
       output: web, pdf
 
-    - title: Alarms by time
+    - title: Alarms by Time
       url: /enterprise_display_alarmsbytime.html
       output: web, pdf
 

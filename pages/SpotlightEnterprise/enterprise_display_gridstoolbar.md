@@ -22,6 +22,8 @@ Icon | Description
 
 ## Find text
 
+{% include inline_imageClient.html file="tb_grid_find.png" alt="Find text" %} Find text in the Spotlight grid.
+
 Control | Description
 --------|------------
 Text to find | Enter or paste in the text you want to find.
@@ -38,7 +40,7 @@ Find next | Find the next occurrence of the text in the grid.
 
 ## Save to file
 
-Save the Spotlight grid to a file.
+{% include inline_imageClient.html file="tb_grid_save.png" alt="Save to file" %} Save the Spotlight grid to a file.
 
 ### Save as type
 
@@ -57,12 +59,14 @@ UNICODE (UTF-8) | The 8-bit version of the Universal Character Set Transformatio
 
 ## Copy to clipboard
 
-Copy the Spotlight grid to the clipboard then paste from the clipboard to the desired destination – as text within a text editor.
+{% include inline_imageClient.html file="tb_grid_clipboard.png" alt="Copy to clipboard" %} Copy the Spotlight grid to the clipboard then paste from the clipboard to the desired destination – as text within a text editor.
 
 {% include tip.html content="You can select to copy the whole table, the selected row, column or cell." %}
 
 
 ## Show, hide and order columns
+
+{% include inline_imageClient.html file="tb_grid_organizecolumns.png" alt="Show, hide and order columns" %} Show or hide columns and choose the order in which to display columns.
 
 Control | Description
 --------|------------
