@@ -24,11 +24,15 @@ List the Spotlight Diagnostic Server in the federated system. The Spotlight Clie
 
 The Windows host of the Spotlight Diagnostic Server.
 
-### Connection status
+### Connection Status
 
 The current real-time status of the Spotlight Diagnostic Server.
 
-### Configuration server
+### Connections
+
+The number of Spotlight connections monitored by this Spotlight Diagnostic Server.  Add the number of Spotlight connections monitored by each Spotlight Diagnostic Server to determine the number of Spotlight connections monitored by the Federation.
+
+### Configuration Server
 
 One Spotlight Diagnostic Server in the federation selected as the Configuration server.
 
@@ -37,10 +41,6 @@ Configuration shared between the Spotlight Diagnostic Server in the federation i
 Spotlight Diagnostic Server in the federation authenticate with the Configuration server using Windows authentication over TCP Port 40303. For each Spotlight Diagnostic Server in the federation, the Windows account that the Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server.
 
 The Configuration server should have a reliable and fast Internet connection to each of the other Spotlight Diagnostic Server in the federation.
-
-###
-
-The number of Spotlight connections monitored by this Spotlight Diagnostic Server.  Add the number of Spotlight connections monitored by each Spotlight Diagnostic Server to determine the number of Spotlight connections monitored by the Federation.
 
 
 
