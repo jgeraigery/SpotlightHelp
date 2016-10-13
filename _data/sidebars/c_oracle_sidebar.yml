@@ -46,7 +46,7 @@ entries:
       url: /oracle_alarm_archivedestinationfailed.html
       output: web, pdf
 
-    - title: Archive Detsination Failure
+    - title: Archive Destination Failure
       url: /oracle_alarm_archivedestinationfailure.html
       output: web, pdf
 
@@ -54,7 +54,7 @@ entries:
       url: /oracle_alarm_bufferbusywait.html
       output: web, pdf
 
-    - title: Cahe Buffer LRU Chains Latch Wait
+    - title: Cache Buffer LRU Chains Latch Wait
       url: /oracle_alarm_cachebufferlruchainslatchwait.html
       output: web, pdf
 

@@ -938,7 +938,7 @@ entries:
           url: /sqlserver_grid_indexes.html
           output: web, pdf
 
-        - title: Index Statsitics Summary
+        - title: Index Statistics Summary
           url: /sqlserver_grid_indexstatistics.html
           output: web, pdf
 

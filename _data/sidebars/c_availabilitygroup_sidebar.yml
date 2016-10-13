@@ -90,7 +90,7 @@ entries:
       url: /availabilitygroup_component_status.html
       output: web, pdf
 
-    - title: Synchroinization Health
+    - title: Synchronization Health
       url: /availabilitygroup_component_synchhealth.html
       output: web, pdf
 
