@@ -22,7 +22,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Connection details
+    - title: Connection Details
       url: /replication_connect_details.html
       output: web, pdf
 
@@ -110,7 +110,7 @@ entries:
       url: /replication_alarm_subscriptionfailure.html
       output: web, pdf
 
-    - title: Replication - Undistributed commands
+    - title: Replication - Undistributed Commands
       url: /replication_alarm_undistributedcommands.html
       output: web, pdf
 
@@ -123,7 +123,7 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: Publishers Panel
+      - title: Publishers panel
         output: web
         subfolderitems:
 
@@ -147,7 +147,7 @@ entries:
           url: /replication_component_mergeuploads.html
           output: web, pdf
 
-      - title: Distributor Panel
+      - title: Distributor panel
         output: web
         subfolderitems:
 
@@ -207,7 +207,7 @@ entries:
           url: /replication_component_subscriber.html
           output: web, pdf
 
-        - title: Undistributed commands
+        - title: Undistributed Commands
           url: /replication_component_undistributedcommands.html
           output: web, pdf
 
@@ -215,7 +215,7 @@ entries:
           url: /replication_component_estimatedtimetoapply.html
           output: web, pdf
 
-      - title: System Panel
+      - title: System panel
         output: web
         subfolderitems:
 
@@ -252,7 +252,7 @@ entries:
           url: /replication_grid_subscriptionsforpublication.html
           output: web, pdf
 
-        - title: Agents for Pubication
+        - title: Agents for Publication
           url: /replication_grid_agentsforpublication.html
           output: web, pdf
 
@@ -284,7 +284,7 @@ entries:
           url: /replication_grid_sessionsofthemergeagent.html
           output: web, pdf
 
-        - title: Acticles Processed in the Selected Session
+        - title: Articles Processed in the Selected Session
           url: /replication_grid_sessionarticles.html
           output: web, pdf
 

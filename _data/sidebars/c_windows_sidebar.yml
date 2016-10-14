@@ -22,7 +22,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Connection details
+    - title: Connection Details
       url: /windows_connection_details.html
       output: web, pdf
 
@@ -138,12 +138,12 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Overview
+    - title: Spotlight Overview page
       url: /windows_drilldown_overview.html
       output: web, pdf
 
       subfolders:
-      - title: Network Panel
+      - title: Network panel
         output: web
         subfolderitems:
 
@@ -171,7 +171,7 @@ entries:
           url: /windows_component_totalnetworkkbsent.html
           output: web, pdf
 
-      - title: CPU Panel
+      - title: CPU panel
         output: web
         subfolderitems:
 
@@ -295,7 +295,7 @@ entries:
           url: /windows_component_diskreads.html
           output: web, pdf
 
-      - title: Paging Files Panel
+      - title: Paging Files panel
         output: web
         subfolderitems:
 
@@ -303,7 +303,7 @@ entries:
           url: /windows_component_pagingfiles.html
           output: web, pdf
 
-      - title: Disks Panel
+      - title: Disks panel
         output: web
         subfolderitems:
 
@@ -311,7 +311,7 @@ entries:
           url: /windows_component_disks.html
           output: web, pdf
 
-      - title: System Panel
+      - title: System panel
         output: web
         subfolderitems:
 
@@ -339,7 +339,7 @@ entries:
           url: /windows_component_status.html
           output: web, pdf
 
-      - title: Files Panel
+      - title: Files panel
         output: web
         subfolderitems:
 
@@ -368,23 +368,23 @@ entries:
           url: /windows_details_process.html
           output: web, pdf
 
-        - title: Processor utilization chart
+        - title: Processor Utilization
           url: /windows_chart_processorutilization.html
           output: web, pdf
 
-        - title: Reads / Writes chart
+        - title: Reads / Writes
           url: /windows_chart_readwrites.html
           output: web, pdf
 
-        - title: Memory usage chart
+        - title: Memory Usage
           url: /windows_chart_memoryusage.html
           output: web, pdf
 
-        - title: Page faults chart
+        - title: Page Faults
           url: /windows_chart_pagefaults_processes.html
           output: web, pdf
 
-        - title: Process threads grid
+        - title: Process Threads
           url: /windows_grid_processthreads.html
           output: web, pdf
 
@@ -400,19 +400,19 @@ entries:
           url: /windows_details_service.html
           output: web, pdf
 
-        - title: Services and drivers required by this service grid
+        - title: Services and drivers required by this service 
           url: /windows_grid_servicesanddriversrequiredbythisservice.html
           output: web, pdf
 
-        - title: Services dependent on this service grid
+        - title: Services dependent on this service
           url: /windows_grid_servicesdependentonthisservice.html
           output: web, pdf
 
-      - title: System drivers page
+      - title: System Drivers page
         output: web
         subfolderitems:
 
-        - title: System drivers grid
+        - title: System Drivers grid
           url: /windows_grid_systemdrivers.html
           output: web, pdf
   
@@ -429,19 +429,19 @@ entries:
         output: web
         subfolderitems:
 
-        - title: CPU Utilization chart
+        - title: CPU Utilization
           url: /windows_chart_cpuutilization.html
           output: web, pdf
 
-        - title: Interrupts chart
+        - title: Interrupts 
           url: /windows_chart_interrupts.html
           output: web, pdf
 
-        - title: Server Work Queues chart
+        - title: Server Work Queues
           url: /windows_chart_serverworkqueues.html
           output: web, pdf
 
-        - title: Kilobytes Transferred chart
+        - title: Kilobytes Transferred
           url: /windows_chart_kilobytestransferred.html
           output: web, pdf
 
@@ -449,19 +449,19 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Total CPU Utilization chart
+        - title: Total CPU Utilization
           url: /windows_chart_totalcpuutilization.html
           output: web, pdf
 
-        - title: Total Process and Thread Count chart
+        - title: Total Process and Thread Count
           url: /windows_chart_totalprocessandthreadscount.html
           output: web, pdf
 
-        - title: Processor Queue Length chart
+        - title: Processor Queue Length
           url: /windows_chart_processorqueuelength.html
           output: web, pdf
 
-        - title: Context Switching chart
+        - title: Context Switching
           url: /windows_chart_contextswitching.html
           output: web, pdf
 
@@ -485,7 +485,7 @@ entries:
           url: /windows_chart_hyperv_cpuusage.html
           output: web, pdf
 
-        - title: CPU wait time per dispatch
+        - title: CPU Wait Time per Dispatch
           url: /windows_chart_hyperv_cpuwaittimeperdispatch.html
           output: web, pdf
 
@@ -506,19 +506,19 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Physical Memory chart
+        - title: Physical Memory
           url: /windows_chart_physicalmemory.html
           output: web, pdf
 
-        - title: Paging chart
+        - title: Paging
           url: /windows_chart_paging.html
           output: web, pdf
 
-        - title: Virtual Memory chart
+        - title: Virtual Memory
           url: /windows_chart_virtualmemory.html
           output: web, pdf
 
-        - title: Physical Memory Usage chart
+        - title: Physical Memory Usage
           url: /windows_chart_physicalmemoryusage.html
           output: web, pdf
 
@@ -526,15 +526,15 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Page Files grid
+        - title: Page Files
           url: /windows_grid_pagefiles.html
           output: web, pdf
 
-        - title: Page File Transfers chart
+        - title: Page File Transfers
           url: /windows_chart_pagefiletransfers.html
           output: web, pdf
 
-        - title: Page Faults chart
+        - title: Page Faults
           url: /windows_chart_pagefaults_memory.html
           output: web, pdf
 
@@ -542,19 +542,19 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Cache Hit Rate chart
+        - title: Cache Hit Rate
           url: /windows_chart_cachehitrate.html
           output: web, pdf
 
-        - title: Physical Cache I/O chart
+        - title: Physical Cache I/O
           url: /windows_chart_physicalcacheio.html
           output: web, pdf
 
-        - title: Cache Size chart
+        - title: Cache Size
           url: /windows_chart_cachesize.html
           output: web, pdf
 
-        - title: Cache Faults chart
+        - title: Cache Faults
           url: /windows_chart_cachefaults.html
           output: web, pdf
 
@@ -591,31 +591,31 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Disk Reads chart
+        - title: Disk Reads
           url: /windows_chart_logical_diskreads.html
           output: web, pdf
 
-        - title: Disk Writes chart
+        - title: Disk Writes
           url: /windows_chart_logical_diskwrites.html
           output: web, pdf
 
-        - title: Disk I/O chart
+        - title: Disk I/O
           url: /windows_chart_logical_diskio.html
           output: web, pdf
 
-        - title: Disk Queue Length chart
+        - title: Disk Queue Length
           url: /windows_chart_logical_diskqueuelength.html
           output: web, pdf
 
-        - title: Transfer Time chart
+        - title: Transfer Time
           url: /windows_chart_logical_transfertime.html
           output: web, pdf
 
-        - title: Disk Load chart
+        - title: Disk Load
           url: /windows_chart_logical_diskload.html
           output: web, pdf
 
-        - title: Logical Disks grid
+        - title: Logical Disks
           url: /windows_grid_logicaldisks_diskactivity.html
           output: web, pdf
 
@@ -623,31 +623,31 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Disk Reads chart
+        - title: Disk Reads
           url: /windows_chart_physical_diskreads.html
           output: web, pdf
 
-        - title: Disk Writes chart
+        - title: Disk Writes
           url: /windows_chart_physical_diskwrites.html
           output: web, pdf
 
-        - title: Disk I/O chart
+        - title: Disk I/O
           url: /windows_chart_physical_diskio.html
           output: web, pdf
 
-        - title: Disk Queue Length chart
+        - title: Disk Queue Length
           url: /windows_chart_physical_diskqueuelength.html
           output: web, pdf
 
-        - title: Transfer Time chart
+        - title: Transfer Time
           url: /windows_chart_physical_transfertime.html
           output: web, pdf
 
-        - title: Disk Load chart
+        - title: Disk Load
           url: /windows_chart_physical_diskload.html
           output: web, pdf
 
-        - title: Physical Disks grid
+        - title: Physical Disks
           url: /windows_grid_physicaldisks_diskactivity.html
           output: web, pdf
 
@@ -663,11 +663,11 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Physical Disks grid
+        - title: Physical Disks
           url: /windows_grid_physicaldisks_disksummary.html
           output: web, pdf
 
-        - title: Logical Disks grid
+        - title: Logical Disks
           url: /windows_grid_logicaldisks_disksummary.html
           output: web, pdf
 
@@ -675,7 +675,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: File Sizes
+        - title: File Sizes grid
           url: /windows_grid_filesizes.html
           output: web, pdf
 
@@ -692,19 +692,19 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Total Packets In/Out chart
+        - title: Total Packets In/Out
           url: /windows_chart_totalpacketsinout.html
           output: web, pdf
 
-        - title: Packets by Network Card chart
+        - title: Packets by Network Card
           url: /windows_chart_packetsbynetworkcard.html
           output: web, pdf
 
-        - title: Total Kilobytes In/Out chart
+        - title: Total Kilobytes In/Out
           url: /windows_chart_totalkilobytesinout.html
           output: web, pdf
 
-        - title: Errors and Retries chart
+        - title: Errors and Retries
           url: /windows_chart_errorsandretries.html
           output: web, pdf
 
@@ -712,19 +712,19 @@ entries:
         output: web
         subfolderitems:
 
-        - title: TCP Segments chart
+        - title: TCP Segments
           url: /windows_chart_tcpsegments.html
           output: web, pdf
 
-        - title: IP Fragments chart
+        - title: IP Fragments
           url: /windows_chart_ipfragments.html
           output: web, pdf
 
-        - title: UDP Datagrams chart
+        - title: UDP Datagrams
           url: /windows_chart_udpdatagrams.html
           output: web, pdf
 
-        - title: IP Datagrams chart
+        - title: IP Datagrams
           url: /windows_chart_ipdatagrams.html
           output: web, pdf
 
@@ -740,7 +740,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Open Sessions grid
+        - title: Open Sessions
           url: /windows_grid_opensessions.html
           output: web, pdf
 
@@ -748,11 +748,11 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Shares grid
+        - title: Shares
           url: /windows_grid_shares.html
           output: web, pdf
 
-        - title: Open Connections grid
+        - title: Open Connections
           url: /windows_grid_openconnections.html
           output: web, pdf
 
@@ -760,7 +760,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Total Kilobytes In/Out chart
+        - title: Total Kilobytes In/Out
           url: /windows_chart_totalkilobytesinout_virtualizednetwork.html
           output: web, pdf
 
@@ -777,7 +777,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Event Logs grid
+        - title: Event Logs
           url: /windows_grid_eventlogs.html
           output: web, pdf
 
@@ -785,7 +785,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Activity
+    - title: Activity drilldown
       url: /windows_drilldown_activity.html
       output: web, pdf
 
@@ -794,27 +794,27 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Total CPU Utilization chart
+        - title: Total CPU Utilization
           url: /windows_chart_totalcpuutilization.html
           output: web, pdf
 
-        - title: Paging chart
+        - title: Paging
           url: /windows_chart_paging.html
           output: web, pdf
 
-        - title: Memory chart
+        - title: Memory
           url: /windows_chart_memory.html
           output: web, pdf
 
-        - title: Processor Queue Length chart
+        - title: Processor Queue Length
           url: /windows_chart_processorqueuelength.html
           output: web, pdf
 
-        - title: Disk Queue Length chart
+        - title: Disk Queue Length
           url: /windows_chart_logical_diskqueuelength.html
           output: web, pdf
 
-        - title: Network Packets chart
+        - title: Network Packets
           url: /windows_chart_totalpacketsinout.html
           output: web, pdf
 

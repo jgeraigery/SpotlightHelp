@@ -22,11 +22,11 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Connection details
+    - title: Connection Details
       url: /vmware_connect_details.html
       output: web, pdf
 
-    - title: Connection requirements
+    - title: Connection Requirements
       url: /vmware_connect_requirements.html
       output: web, pdf
 

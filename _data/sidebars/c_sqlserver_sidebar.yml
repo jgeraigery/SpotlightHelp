@@ -22,11 +22,11 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Connection details
+    - title: Connection Details
       url: /sqlserver_connect_details.html
       output: web, pdf
 
-    - title: Connection requirements
+    - title: Connection Requirements
       url: /sqlserver_connect_requirements.html
       output: web, pdf
 
@@ -343,7 +343,7 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: Sessions Panel
+      - title: Sessions panel
         output: web
         subfolderitems:
 
@@ -423,7 +423,7 @@ entries:
           url: /sqlserver_component_compiles.html
           output: web, pdf
 
-      - title: Memory Panel
+      - title: Memory panel
         output: web
         subfolderitems:
 
@@ -471,7 +471,7 @@ entries:
           url: /sqlserver_component_logflushes.html
           output: web, pdf
 
-      - title: Disk Storage Panel
+      - title: Disk Storage panel
         output: web
         subfolderitems:
 
@@ -531,7 +531,7 @@ entries:
           url: /sqlserver_component_maxiostallfile.html
           output: web, pdf
 
-      - title: Performance Health Panel
+      - title: Performance Health panel
         output: web
         subfolderitems:
 
@@ -539,7 +539,7 @@ entries:
           url: /sqlserver_component_performancehealth.html
           output: web, pdf
 
-      - title: System Panel
+      - title: System panel
         output: web
         subfolderitems:
 
@@ -555,7 +555,7 @@ entries:
           url: /sqlserver_component_status.html
           output: web, pdf
 
-      - title: Background Processes Panel
+      - title: Background Processes panel
         output: web
         subfolderitems:
 
@@ -575,23 +575,23 @@ entries:
       url: /sqlserver_drilldown_memory.html
       output: web, pdf
 
-    - title: Memory Areas chart
+    - title: Memory Areas
       url: /sqlserver_chart_memoryareas.html
       output: web, pdf
 
-    - title: Server Memory chart
+    - title: Server Memory
       url: /sqlserver_chart_servermemory.html
       output: web, pdf
 
-    - title: Hit Rates chart
+    - title: Hit Rates
       url: /sqlserver_chart_hitrates.html
       output: web, pdf
 
-    - title: Cache chart
+    - title: Cache
       url: /sqlserver_chart_cache.html
       output: web, pdf
 
-    - title: Buffer Cache Page Life Expectancy chart
+    - title: Buffer Cache Page Life Expectancy
       url: /sqlserver_chart_buffercachepagelifeexpectancy.html
       output: web, pdf
 
@@ -608,15 +608,15 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Sessions grid
+        - title: Sessions
           url: /sqlserver_grid_sessions.html
           output: web, pdf
 
-        - title: SQL
+        - title: SQL Statement
           url: /sqlserver_detail_sql.html
           output: web, pdf
 
-        - title: Plan
+        - title: Query Plan
           url: /sqlserver_detail_queryplan.html
           output: web, pdf
 
@@ -640,27 +640,27 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Access Methods chart
+        - title: Access Methods
           url: /sqlserver_chart_accessmethods.html
           output: web, pdf
 
-        - title: Cache Hit Rates chart
+        - title: Cache Hit Rates
           url: /sqlserver_chart_cachehitrates.html
           output: web, pdf
 
-        - title: Call Rates chart
+        - title: Call Rates
           url: /sqlserver_chart_callrates.html
           output: web, pdf
 
-        - title: SQL Server I/O chart
+        - title: SQL Server I/O
           url: /sqlserver_chart_sqlserverio.html
           output: web, pdf
 
-        - title: CPU Utilization chart
+        - title: CPU Utilization
           url: /sqlserver_chart_cpuutilization.html
           output: web, pdf
 
-        - title: Connected Sessions chart
+        - title: Connected Sessions
           url: /sqlserver_chart_connectedsessions.html
           output: web, pdf
 
@@ -668,15 +668,15 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Locks grid
+        - title: Locks
           url: /sqlserver_grid_locks.html
           output: web, pdf
 
-        - title: Lock Types chart
+        - title: Lock Types
           url: /sqlserver_chart_locktypes.html
           output: web, pdf
 
-        - title: Latches chart
+        - title: Latches
           url: /sqlserver_chart_latches.html
           output: web, pdf
 
@@ -684,11 +684,11 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Blocking grid
+        - title: Blocking
           url: /sqlserver_grid_blocking.html
           output: web, pdf
 
-        - title: Number of Blocked Processes chart
+        - title: Number of Blocked Processes
           url: /sqlserver_chart_numberofblockedprocesses.html
           output: web, pdf
 
@@ -704,11 +704,11 @@ entries:
         output: web
         subfolderitems:
 
-        - title: I/O by file grid
+        - title: I/O by File grid
           url: /sqlserver_grid_iobyfile.html
           output: web, pdf
 
-        - title: I/O by file chart
+        - title: I/O by File chart
           url: /sqlserver_chart_iobyfile.html
           output: web, pdf
 
@@ -716,7 +716,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: SQL Analysis grid
+        - title: SQL Analysis
           url: /sqlserver_grid_sqlanalysis.html
           output: web, pdf
 
@@ -764,11 +764,11 @@ entries:
       url: /sqlserver_drilldown_waitstatistics.html
       output: web, pdf
 
-    - title: Wait Time Trend chart
+    - title: Wait Time Trend
       url: /sqlserver_chart_waittimetrend.html
       output: web, pdf
 
-    - title: Waits Detail grid
+    - title: Waits Detail
       url: /sqlserver_grid_waitsdetail.html
       output: web, pdf
 
@@ -793,19 +793,19 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Transaction Log Shipping Primaries grid
+        - title: Transaction Log Shipping Primaries
           url: /sqlserver_grid_transactionlogshipping_primaries.html
           output: web, pdf
 
-        - title: Transaction Log Shipping Secondaries grid
+        - title: Transaction Log Shipping Secondaries
           url: /sqlserver_grid_transactionlogshipping_secondaries.html
           output: web, pdf
 
-        - title: Transaction Log Shipping History grid
+        - title: Transaction Log Shipping History
           url: /sqlserver_grid_transactionlogshipping_history.html
           output: web, pdf
 
-        - title: Transaction Log Shipping Secondary Database details
+        - title: Transaction Log Shipping Secondary Database
           url: /sqlserver_grid_transactionlogshipping_secondarydbdetails.html
           output: web, pdf
 
@@ -842,11 +842,11 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Database Space chart 
+        - title: Database Space
           url: /sqlserver_chart_databasespace.html
           output: web, pdf
 
-        - title: Database History chart
+        - title: Database History
           url: /sqlserver_chart_databasehistory.html
           output: web, pdf
 
@@ -854,15 +854,15 @@ entries:
         output: web
         subfolderitems:
 
-        - title: File Groups grid
+        - title: File Groups
           url: /sqlserver_grid_filegroups.html
           output: web, pdf
 
-        - title: File Groups Space chart
+        - title: File Groups Space
           url: /sqlserver_chart_filegroupsspace.html
           output: web, pdf
 
-        - title: File Groups Growth chart
+        - title: File Groups Growth
           url: /sqlserver_chart_filegroupsgrowth.html
           output: web, pdf
 
@@ -870,15 +870,15 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Data Files grid
+        - title: Data Files
           url: /sqlserver_grid_datafiles.html
           output: web, pdf
 
-        - title: Data Files Space chart
+        - title: Data Files Space
           url: /sqlserver_chart_datafilesspace.html
           output: web, pdf
 
-        - title: Data Files Growth chart
+        - title: Data Files Growth
           url: /sqlserver_chart_datafilesgrowth.html
           output: web, pdf
 
@@ -886,15 +886,15 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Transaction Logs grid
+        - title: Transaction Logs
           url: /sqlserver_grid_transactionlogs.html
           output: web, pdf
 
-        - title: Transaction Logs Space chart
+        - title: Transaction Logs Space
           url: /sqlserver_chart_transactionlogsspace.html
           output: web, pdf
 
-        - title: Transaction Logs Growth chart
+        - title: Transaction Logs Growth
           url: /sqlserver_chart_transactionlogsgrowth.html
           output: web, pdf
 
@@ -902,15 +902,15 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Log Files grid
+        - title: Log Files
           url: /sqlserver_grid_logfiles.html
           output: web, pdf
 
-        - title: Log Files Space chart
+        - title: Log Files Space
           url: /sqlserver_chart_logfilesspace.html
           output: web, pdf
 
-        - title: Log Files Growth chart
+        - title: Log Files Growth
           url: /sqlserver_chart_logfilesgrowth.html
           output: web, pdf
 
@@ -922,11 +922,11 @@ entries:
           url: /sqlserver_grid_tables.html
           output: web, pdf
 
-        - title: Tables Space chart
+        - title: Tables Space
           url: /sqlserver_chart_tablesspace.html
           output: web, pdf
 
-        - title: Tables Growth chart
+        - title: Tables Growth
           url: /sqlserver_chart_tablesgrowth.html
           output: web, pdf
 
@@ -942,15 +942,15 @@ entries:
           url: /sqlserver_grid_indexstatistics.html
           output: web, pdf
 
-        - title: Index Density grid
+        - title: Index Density
           url: /sqlserver_grid_indexdensity.html
           output: web, pdf
 
-        - title: Index Distribution chart
+        - title: Index Distribution
           url: /sqlserver_chart_indexdistribution.html
           output: web, pdf
 
-        - title: Fragmentation grid
+        - title: Fragmentation
           url: /sqlserver_grid_fragmentation.html
           output: web, pdf
 
@@ -966,7 +966,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: LiteSpeed Backup History grid
+        - title: LiteSpeed Backup History
           url: /sqlserver_grid_litespeedbackuphistory.html
           output: web, pdf
 
@@ -995,11 +995,11 @@ entries:
           url: /sqlserver_grid_sqlagentjobs.html
           output: web, pdf
 
-        - title: Job History grid
+        - title: Job History
           url: /sqlserver_grid_jobhistory.html
           output: web, pdf
 
-        - title: SQL Agent Jobs Status chart
+        - title: SQL Agent Jobs Status
           url: /sqlserver_chart_sqlagentjobsstatus.html
           output: web, pdf
 
@@ -1011,7 +1011,7 @@ entries:
           url: /sqlserver_grid_servicestatus.html
           output: web, pdf
 
-        - title: Service Status History chart
+        - title: Service Status History
           url: /sqlserver_chart_servicestatushistory.html
           output: web, pdf
 
@@ -1023,7 +1023,7 @@ entries:
           url: /sqlserver_grid_sqlagentalerts.html
           output: web, pdf
 
-        - title: Alert Occurrences chart
+        - title: Alert Occurrences
           url: /sqlserver_chart_alertoccurrences.html
           output: web, pdf
 
@@ -1039,7 +1039,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: DTC Details chart
+        - title: DTC Details
           url: /sqlserver_chart_dtcdetails.html
           output: web, pdf
 
@@ -1047,7 +1047,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Full Text Search Service grid
+        - title: Full Text Search Service
           url: /sqlserver_grid_fulltextsearchservice.html
           output: web, pdf
 
@@ -1084,11 +1084,11 @@ entries:
       url: /sqlserver_drilldown_errorlog.html
       output: web, pdf
 
-    - title: SQL Server Error Logs grid
+    - title: SQL Server Error Logs
       url: /sqlserver_grid_sqlservererrorlogs.html
       output: web, pdf
 
-    - title: SQL Agent Error Logs grid
+    - title: SQL Agent Error Logs
       url: /sqlserver_grid_sqlagenterrorlogs.html
       output: web, pdf
 
@@ -1113,19 +1113,19 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Tempdb Space Used chart
+        - title: Tempdb Space Used
           url: /sqlserver_chart_tempdbspaceused.html
           output: web, pdf
 
-        - title: Version Store Size chart
+        - title: Version Store Size
           url: /sqlserver_chart_versionstoresize.html
           output: web, pdf
 
-        - title: Version Store Size Change chart
+        - title: Version Store Size Change
           url: /sqlserver_chart_versionstoresizechange.html
           output: web, pdf
 
-        - title: Top 25 Tempdb sessions grid
+        - title: Top 25 Tempdb sessions
           url: /sqlserver_grid_top25tempdbsessions.html
           output: web, pdf
 
@@ -1133,11 +1133,11 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Wait Time chart
+        - title: Wait Time
           url: /sqlserver_chart_waittime.html
           output: web, pdf
 
-        - title: Sessions involved in this contention grid
+        - title: Sessions involved in this contention
           url: /sqlserver_grid_sessionsinvolvedinthiscontention.html
           output: web, pdf
 

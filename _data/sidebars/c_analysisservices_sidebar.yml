@@ -22,7 +22,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Connection details
+    - title: Connection Details
       url: /analysisservices_connect_details.html
       output: web, pdf
 
@@ -79,7 +79,7 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: Connections Panel
+      - title: Connections panel
         output: web
         subfolderitems:
 
@@ -107,19 +107,19 @@ entries:
           url: /analysisservices_component_queriesrequested.html
           output: web, pdf
 
-        - title: Queries from cache direct
+        - title: Queries from Cache Direct
           url: /analysisservices_component_queriesfromcachedirect.html
           output: web, pdf
 
-        - title: Queries from cache filtered
+        - title: Queries from Cache Filtered
           url: /analysisservices_component_queriesfromcachefiltered.html
           output: web, pdf
 
-        - title: Queries from file
+        - title: Queries from File
           url: /analysisservices_component_queriesfromfile.html
           output: web, pdf
 
-      - title: Memory Panel
+      - title: Memory panel
         output: web
         subfolderitems:
 
@@ -179,7 +179,7 @@ entries:
           url: /analysisservices_component_rowswritten.html
           output: web, pdf
 
-      - title: Storage Panel
+      - title: Storage panel
         output: web
         subfolderitems:
 
@@ -191,7 +191,7 @@ entries:
           url: /analysisservices_component_cubes.html
           output: web, pdf
 
-      - title: Server Panel
+      - title: Server panel
         output: web
         subfolderitems:
 
@@ -211,7 +211,7 @@ entries:
           url: /analysisservices_component_status.html
           output: web, pdf
 
-      - title: CPU Panel
+      - title: CPU panel
         output: web
         subfolderitems:
 
@@ -251,19 +251,19 @@ entries:
       url: /analysisservices_drilldown_memory.html
       output: web, pdf
 
-    - title: Cache chart
+    - title: Cache
       url: /analysisservices_chart_cache.html
       output: web, pdf
 
-    - title: Proactive Caching chart
+    - title: Proactive Caching
       url: /analysisservices_chart_proactivecaching.html
       output: web, pdf
 
-    - title: Memory chart
+    - title: Memory
       url: /analysisservices_chart_memory.html
       output: web, pdf
 
-    - title: Threads chart
+    - title: Threads
       url: /analysisservices_chart_threads.html
       output: web, pdf
 

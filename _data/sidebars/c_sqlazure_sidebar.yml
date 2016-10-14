@@ -22,7 +22,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Connection details
+    - title: Connection Details
       url: /sqlazure_connect_details.html
       output: web, pdf
 
@@ -63,7 +63,7 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: Sessions Panel
+      - title: Sessions panel
         output: web
         subfolderitems:
 
@@ -95,7 +95,7 @@ entries:
           url: /sqlazure_component_packetsread.html
           output: web, pdf
 
-      - title: SQL Processes Panel
+      - title: SQL Processes panel
         output: web
         subfolderitems:
 
@@ -127,7 +127,7 @@ entries:
           url: /sqlazure_component_physicalwrites.html
           output: web, pdf
 
-      - title: Data Storage Panel
+      - title: Data Storage panel
         output: web
         subfolderitems:
 
@@ -147,7 +147,7 @@ entries:
           url: /sqlazure_component_datapercent.html
           output: web, pdf
 
-      - title: System Panel
+      - title: System panel
         output: web
         subfolderitems:
 
@@ -172,15 +172,15 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Sessions grid
+        - title: Sessions
           url: /sqlazure_grid_sessions.html
           output: web, pdf
 
-        - title: SQL
+        - title: SQL Statement
           url: /sqlazure_detail_sql.html
           output: web, pdf
 
-        - title: Plan
+        - title: Query Plan
           url: /sqlazure_detail_plan.html
           output: web, pdf
 
@@ -201,7 +201,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Database Space chart
+        - title: Database Space
           url: /sqlazure_chart_databasespace.html
           output: web, pdf
 
@@ -209,15 +209,15 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Tables grid
+        - title: Tables
           url: /sqlazure_grid_tables.html
           output: web, pdf
 
-        - title: Table Space chart
+        - title: Table Space
           url: /sqlazure_chart_tablespace.html
           output: web, pdf
 
-        - title: Table Growth chart
+        - title: Table Growth
           url: /sqlazure_chart_tablegrowth.html
           output: web, pdf
 
@@ -225,7 +225,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Indexes grid
+        - title: Indexes
           url: /sqlazure_grid_indexes.html
           output: web, pdf
 
