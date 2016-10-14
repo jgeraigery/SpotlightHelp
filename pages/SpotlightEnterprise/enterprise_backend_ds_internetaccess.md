@@ -17,52 +17,30 @@ Enable Auto Update so the Spotlight Diagnostic Server will receive minor updates
 Monitor Spotlight connections in a web browser or Spotlight Mobile. Upload performance data for health check analysis.
 
 
-## Windows Control Panel \| Internet Options \| Connections
+## How to ensure the Spotlight Diagnostic Server is appropriately configured to access the Internet
+
+### Windows Control Panel \| Internet Options \| Connections
 
 On the computer hosting the Spotlight Diagnostic Server:
 
-1. Open the Control Panel \| Internet Options.
-2. Select the Connections tab.
-3. Click LAN Settings.
+1. Open the **Control Panel \| Internet Options**.
+2. Select the **Connections** tab.
+3. Click **LAN Settings**.
 4. Ensure the settings on this screen are appropriate to the settings of your local environment.
 
+{% include note.html content="After the Spotlight Diagnostic Server is installed, restart the Spotlight Diagnostic Server after changes are made." %}
 
-
-
-
-
-
-
-
-
-Note: After the Spotlight Diagnostic Server is installed, restart the Spotlight Diagnostic Server after changes are made. For instructions see Start and stop the Spotlight Diagnostic Server.
-
-
-
-
-## Windows Control Panel \| Internet Options \| Advanced
-
+### Windows Control Panel \| Internet Options \| Advanced
 
 On the computer hosting the Spotlight Diagnostic Server:
 
-1. Open the Control Panel \| Internet Options.
-2. Select the Advanced tab.
+1. Open the **Control Panel \| Internet Options**.
+2. Select the **Advanced** tab.
 3. Ensure Use HTTP 1.1 and Use HTTP 1.1 through proxy connections are selected.
 
+{% include imageClient.html file="pane_windows_internetproperties.png" alt="Internet Properties" %}
 
-
-
-
-
-
-
-
-
-
-
-Note: After the Spotlight Diagnostic Server is installed, restart the Spotlight Diagnostic Server after changes are made. For instructions see Start and stop the Spotlight Diagnostic Server.
-
-
+{% include note.html content="After the Spotlight Diagnostic Server is installed, restart the Spotlight Diagnostic Server after changes are made." %}
 
 
 ## Internet URLs - Auto Update

@@ -42,7 +42,7 @@ Spotlight diagnostic user groups are Windows groups created on install of Spotli
 
 ### WMI
 
-The Spotlight Diagnostic Server collects data from monitored SQL Server instances, Windows servers and hosts of database connections via WMI queries and remote registry connection. Most of the collections use WMI connection. Verify WMI is working and returns data properly.
+The Spotlight Diagnostic Server collects data from monitored SQL Server instances, Windows servers and hosts of database connections via WMI queries and remote registry connection. Most of the collections use WMI connection.
 
 
 {% include links.html %}
