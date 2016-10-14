@@ -10,20 +10,10 @@ folder: ConnectWindows
 
 
 
-To clear this alarm, go to the Alarms dialog for this connection and turn off the custom action for the specified alarm. Alternatively, you can add a disabled severity to the *Monitored Server - Alarm Action Failure* key for the particular alarm that is failing.
+Refer to the message details for this alarm.
 
-To do either of these:
+* If the message details alert you to a problem in your environment then take the action required to resolve that problem.
+* If the message details alert you to a problem within Spotlight then contact Dell Support.
 
-
-1. Click **Configure \| Alarms**.
-2. Select the connection where the alarm failed.
-3. Do one of the following:
-        * To turn off the custom action, select the alarm that has the custom action applied and then clear the custom action.
-        * To add a disabled severity:
-            1. Select the alarm **Monitored Server - Alarm Action Failure** for the connection type.
-            2. Select **Override default setting for alarm 'Monitored Server - Alarm Action Failure**.
-            3. Click **Add**.
-            4. From the Key value list, select the key that the alarm was raised for.
-            5. With the key selected, click the Severity list and select <strong>Disabled</strong>.
 
 {% include links.html %}

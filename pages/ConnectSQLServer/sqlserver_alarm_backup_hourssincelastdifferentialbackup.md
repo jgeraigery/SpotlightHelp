@@ -19,7 +19,7 @@ Differential backups are important for mission-critical databases.
 
 When this alarm is current, you should:
 
-*  Check the date and time of the last backup.<br>You will find this information on the **Databases** drilldown in the **Databases** grid. Set the **Database View**to **Backup Status**.
+*  Check the date and time of the last backup. You will find this information on the **Databases** drilldown in the **Databases** grid. Set the **Database View**to **Backup Status**.
 *  Ensure you have appropriate backups of all necessary databases.
 
 To exclude certain databases from the Backup - Hours Since Last Differential Backup Alarm:

@@ -9,19 +9,11 @@ folder: ConnectSQLServer
 ---
 
 
-The specified collection failed to execute against this server.
+Refer to the message details for this alarm.
 
-To disable this alarm, go to the Alarms dialog for this connection and add a disabled severity to the 'Monitored Server - Collection Execution Failure' alarm for this collection.
+* If the message details alert you to a problem in your environment then take the action required to resolve that problem.
+* If the message details alert you to a problem within Spotlight then contact Dell Support.
 
-To do this:
-
-1. Select **Configure \| Alarms**.
-2. Select the connection where the collection failed.
-3. Select the alarm **Monitored Server - Collection Execution Failure** for the connection type.
-4. Select **Override default setting for alarm 'Monitored Server - Collection Execution Failure'**.
-5. Click **Add**.
-6. From the Key value list, select the collection that the alarm was raised for.
-7. With the key selected, click the Severity list and select **Disabled**.
 
 
 {% include links.html %}
