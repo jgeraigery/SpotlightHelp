@@ -167,15 +167,15 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Temp file rows written
+        - title: Temp File Rows Written
           url: /analysisservices_component_tempfilerowswritten.html
           output: web, pdf
 
-        - title: Rows read
+        - title: Rows Read
           url: /analysisservices_component_rowsread.html
           output: web, pdf
 
-        - title: Rows written
+        - title: Rows Written
           url: /analysisservices_component_rowswritten.html
           output: web, pdf
 
