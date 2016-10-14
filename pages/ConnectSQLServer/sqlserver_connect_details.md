@@ -1,5 +1,5 @@
 ---
-title: SQL Server connection details
+title: Connection Details for SQL Server
 last_updated: July 29, 2016
 tags: [connection_details,connection_details_for_each_connection_type]
 summary: "Specify the connection details for a SQL Server database."
@@ -9,7 +9,7 @@ folder: ConnectSQLServer
 ---
 
 
-{% include note.html content="Spotlight can add multiple SQL Server instances via discovery or by importing details from a file. See the Connection Discovery Wizard." %}
+{% include tip.html content="Spotlight can add multiple SQL Server instances via discovery or by importing details from a file. See the Connection Discovery Wizard." %}
 
 ## How to enter / edit connection details
 

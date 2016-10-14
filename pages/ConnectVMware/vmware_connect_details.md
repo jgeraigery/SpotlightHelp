@@ -1,5 +1,5 @@
 ---
-title: VMware connection details
+title: Connection Details for VMware 
 tags: [connection_details,connection_details_for_each_connection_type]
 summary: "Specify the connection details for a VMware® connection to an ESX Server™ or VirtualCenter server hosting a Windows server®."
 sidebar: c_vmware_sidebar

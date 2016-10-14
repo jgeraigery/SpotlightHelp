@@ -1,5 +1,5 @@
 ---
-title: SQL Azure connection details
+title: Connection Details for SQL Azure
 last_updated: July 29, 2016
 tags: [connection_details,connection_details_for_each_connection_type]
 summary: "Specify the connection details for a SQL Azure database."

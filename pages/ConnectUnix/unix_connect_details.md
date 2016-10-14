@@ -1,7 +1,7 @@
 ---
-title: Unix connection details
+title: Connection Details for Unix
 tags: [connection_details,connection_details_for_each_connection_type]
-summary: ""
+summary: "Specify the connection details for a Unix server or Unix host of a database connection."
 sidebar: c_unix_sidebar
 permalink: unix_connect_details.html
 folder: ConnectUnix

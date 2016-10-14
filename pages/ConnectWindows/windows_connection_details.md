@@ -1,8 +1,8 @@
 ---
-title: Windows Server connection details
+title: Connection Details for Windows server
 last_updated: July 29, 2016
 tags: [connection_details,connection_details_for_each_connection_type]
-summary: "Specify the connection details for the Windows Server and Windows host of database connections."
+summary: "Specify the connection details for the Windows server and Windows host of your database connections."
 sidebar: c_windows_sidebar
 permalink: windows_connection_details.html
 folder: ConnectWindows
@@ -10,7 +10,7 @@ folder: ConnectWindows
 
 
 
-{% include note.html content="Spotlight can add Windows Server via discovery or by importing details from a file. See the Connection Discovery Wizard." %}
+{% include tip.html content="Spotlight can add Windows Server via discovery or by importing details from a file. See the Connection Discovery Wizard." %}
 
 
 ## How to enter / edit connection details
