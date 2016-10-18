@@ -1,633 +1,107 @@
 ---
-title: Permissions for the Spotlight Client
-summary: "The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to access the Spotlight Diagnostic Server, to configure the Spotlight Diagnostic Server, to acknowledge and snooze alarms, and execute actions on monitored systems like kill and pause."
+title: Permission to use Spotlight
+summary: "The Spotlight Client is granted permission to run Spotlight, access data and make changes according to the membership of the Windows credentials used to run the Spotlight Client. The Windows credentials used to run the Spotlight Client must be a member of at least one of the following groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. These groups are created when the Spotlight Diagnostic Server is installed."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_displaydevice_client_permissions.html
 folder: SpotlightEnterprise
 ---
 
-The Windows credentials used to run the Spotlight Client must be a member of at least one of the following groups to access the Spotlight Diagnostic Server. The Spotlight Diagnostics User groups are created on install of the Spotlight Diagnostic Server. The Spotlight diagnostic user groups are as follows.
-•Administrator - Spotlight Diagnostic Administrators
-• User - Spotlight Diagnostic Users
-•Read-only - Spotlight Diagnostic Read-Only
+
 
  The following tables document the permissions granted to each level of membership. For membership information and to increase your level of membership, see Spotlight diagnostic user groups.
 
-Table 71: Permission to configure Spotlight
 
 
+## Acknowledge, snooze and ignore alarms
 
+The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to acknowledge, snooze and ignore alarms. The Windows credentials used to run the Spotlight Client must be a member of at least one of the following groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only.
 
+Action | Administrator | User | Read-only
+-------|---------------|------|----------
+Acknowledge | Yes | Yes | No
+Snooze Alarm | Yes | Yes | No
+Ignore Alarm | Yes | Yes | No
 
 
+## Configure Monitoring
 
+The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to access the Spotlight Diagnostic Server, to configure the Spotlight Diagnostic Server, to acknowledge and snooze alarms, and execute actions on monitored systems like kill and pause.
 
+Action | Administrator | User | Read-only
+-------|---------------|------|----------
+Connections: Add/Delete connection profiles | Yes | Yes | No
+Connections: Add/Replace/Delete tags | Yes | Yes | No
+Connections: Enable/Disable monitoring | Yes | Yes | No
+Configure Alarms | Yes | Yes | No
+Alarm Action Editor | Yes | Yes | No
+Alarm Actions \| Run a program | Yes | No | No
+Scheduling | Yes | Yes | No
+Planned Outage (Add, Edit, Remove) | Yes | No | No
+SQL Analysis | Yes | Yes | No
+SQL Server Response Time | Yes | No | No
+Custom Counters | Yes | Yes | No
+Error Log Entries | Yes | Yes | No
+Monitored Files | Yes | Yes | No
+Apply Configuration To… | Yes | Yes | No
+Configureation templates (Save, Delete, Rename) | Yes | Yes | No
 
-Configure Ribbon Tab
 
-Administrator
+## Configure the Diagnostic Server
 
-User
+The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to configure the Spotlight Diagnostic Server. The Windows credentials used to run the Spotlight Client must be a member of at least one of the following groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only.
 
-Read-only
+Action | Administrator | User | Read-only
+-------|---------------|------|----------
+Select a Diagnostic Server | Yes | Yes | Yes
+Configure the database maintenance schedule | Yes | Yes | No
+Configure PagerDuty | Yes | Yes | No
+Configure the auto-update facility | Yes | Yes | No
+Configure the Diagnostic Server's mail server | Yes | Yes | No
+Configure the Playback Database | Yes | Yes | No
+Configure the SNMP Trap | Yes | Yes | No
+Configure the Spotlight Statistics Repository | Yes | Yes | No
+Configure the use of Extended Events | Yes | Yes | No
+Configure uploading to Spotlight Cloud | Yes | Yes | No
+Federate Diagnostic Servers | Yes | Yes | No
 
 
+## Configure the Spotlight Client
 
+Action | Administrator | User | Read-only
+-------|---------------|------|----------
+Change Display  | Yes | Yes | Yes
+Troubleshoot Spotlight  | Yes | Yes | Yes
+User Experience | Yes | Yes | No
 
 
- Connections
+## Execute tasks on monitored SQL Server
 
-Add/Delete connection profiles
+The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to execute actions on monitored SQL Server. The Windows credentials used to run the Spotlight Client must be a member of at least one of the following groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only.
 
-Yes
+SQL Server drilldowns | Administrator | User | Read-only
+---------------------------------|---------------|------|----------
+SQL Activity \| Sessions \| Kill Session | Yes | No | No
+Databases \| Indexes \| Update Statistics | Yes | No | No
+Support Services \| SQL Agent Jobs \|  Start Job | Yes | No | No
+Service Status \| Start / Stop Service | Yes | No | No
+Cluster Services \| Take Offline | Yes | No | No
+Cluster Services \| Bring Online | Yes | No | No
+Cluster Services \| Move Group | Yes | No | No
+Configuration \| Change parameter | Yes | No | No
+Error Log \| Cycle Error log | Yes | No | No
 
-Yes
 
-No
+## Execute tasks on monitored Windows Server
 
+The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to execute actions on monitored Windows server. The Windows credentials used to run the Spotlight Client must be a member of at least one of the following groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only.
 
-
-Add/Replace/Delete tags
-
-Yes
-
-Yes
-
-No
-
-
-
-Enable/Disable monitoring connections
-
-Yes
-
-Yes
-
-No
-
-
-
-
- Alarms
-
-
-
-Yes
-
-Yes
-
-No
-
-
-
-
- Alarm Actions
-
-Alarm Action Editor
-
-Yes
-
-Yes
-
-No
-
-
-
-Run a program when a threshold is reached
-
-Yes
-
-No
-
-No
-
-
-
-
- Scheduling
-
-
-
-Yes
-
-Yes
-
-No
-
-
-
-
- Planned Outage
-
-Add, edit and remove planned outagaes
-
-Yes
-
-No
-
-No
-
-
-
-
- SQL Analysis
-
-
-
-Yes
-
-Yes
-
-No
-
-
-
-
- SQL Server Response Time
-
-
-
-Yes
-
-No
-
-No
-
-
-
-
- Custom Counters
-
-
-
-Yes
-
-Yes
-
-No
-
-
-
-
- Error Log Entries
-
-
-
-Yes
-
-Yes
-
-No
-
-
-
-
- Monitored Files
-
-
-
-Yes
-
-Yes
-
-No
-
-
-
-
- Spotlight
-
-Change Display
-
-Yes
-
-Yes
-
-Yes
-
-
-
-Troubleshoot Spotlight
-
-Yes
-
-Yes
-
-Yes
-
-
-
-
- Diagnostic Server
-
-Select a Diagnostic Server
-
-Yes
-
-Yes
-
-Yes
-
-
-
-Configure the database maintenance schedule
-
-Yes
-
-Yes
-
-No
-
-
-
-Configure PagerDuty
-
-Yes
-
-Yes
-
-No
-
-
-
-Configure the auto-update facility
-
-Yes
-
-Yes
-
-No
-
-
-
-Configure the Diagnostic Server's mail server
-
-Yes
-
-Yes
-
-No
-
-
-
-Configure the Playback Database
-
-Yes
-
-Yes
-
-No
-
-
-
-Configure the SNMP Trap
-
-Yes
-
-Yes
-
-No
-
-
-
-Configure the Spotlight Statistics Repository
-
-Yes
-
-Yes
-
-No
-
-
-
-Configure the use of Extended Events
-
-Yes
-
-Yes
-
-No
-
-
-
-Federate Diagnostic Servers
-
-Yes
-
-Yes
-
-No
-
-
-
-
- Spotlight Cloud
-
-Configure uploading to Spotlight Cloud
-
-Yes
-
-Yes
-
-No
-
-
-
-
- User Experience
-
-
-
-Yes
-
-Yes
-
-No
-
-
-
-Configuration Templates
-
-Apply Configuration To…
-
-Yes
-
-Yes
-
-No
-
-
-
-Save as Template
-
-Yes
-
-Yes
-
-No
-
-
-
-Delete Template
-
-Yes
-
-Yes
-
-No
-
-
-
-Rename Template
-
-Yes
-
-Yes
-
-No
-
-
-Table 72: Permission to acknowledge, snooze and ignore alarms from the Spotlight Client
-
-
-
-
-
-
-
-
-
-Monitor | Alarms | Action
-
-Administrator
-
-User
-
-Read-only
-
-
-
-
-
- Acknowledge
-
-
-
-Yes
-
-Yes
-
-No
-
-
-
-
- Snooze Alarm
-
-
-
-Yes
-
-Yes
-
-No
-
-
-
-
- Ignore Alarm
-
-
-
-Yes
-
-Yes
-
-No
-
-
-Table 73: Permission to execute tasks on a monitored SQL Server from the Spotlight Client
-
-
-
-
-
-
-
-
-
-Monitor | SQL Server Drilldowns
-
-Administrator
-
-User
-
-Read-only
-
-
-
-
-
- SQL Activity
-
-Sessions | Kill Session
-
-Yes
-
-No
-
-No
-
-
-
-
- Databases
-
-Indexes | Update Statistics
-
-Yes
-
-No
-
-No
-
-
-
-
- Support Services
-
-SQL Agent Jobs |  Start Job
-
-Yes
-
-No
-
-No
-
-
-
-Service Status | Start / Stop Service
-
-Yes
-
-No
-
-No
-
-
-
-
-Cluster Services | Take Offline
-
-Cluster Services | Bring Online
-
-Cluster Services | Move Group
-
-Yes
-
-No
-
-No
-
-
-
-
- Configuration
-
-Change parameter
-
-Yes
-
-No
-
-No
-
-
-
-
- Error Log
-
-
-Cycle Error log
-
-Yes
-
-No
-
-No
-
-
-Table 74: Permission to execute tasks on a monitored Windows Server from the Spotlight Client
-
-
-
-
-
-
-
-
-
-Monitor | Windows Drilldowns
-
-Administrator
-
-User
-
-Read-only
-
-
-
-
-
- Processes
-
-Processes | Terminate
-
-Yes
-
-No
-
-No
-
-
-
-Services | Start
-
-Yes
-
-No
-
-No
-
-
-
-Services | Stop
-
-Yes
-
-No
-
-No
-
-
-
-Services | Pause
-
-Yes
-
-No
-
-No
-
-
-
-Services | Resume
-
-Yes
-
-No
-
-No
+Windows Server drilldowns | Administrator | User | Read-only
+------------------------------|---------------|------|----------
+Processes \| Terminate | Yes | No | No
+Services \| Start | Yes | No | No
+Services \| Stop | Yes | No | No
+Services \| Pause | Yes | No | No
+Services \| Resume | Yes | No | No
 
 
 {% include links.html %}

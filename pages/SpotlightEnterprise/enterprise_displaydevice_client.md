@@ -1,6 +1,6 @@
 ---
 title: Spotlight Client
-summary: "The Spotlight Client is a comprehensive viewer to Spotlight data. The Spotlight Client is required to configure Spotlight and access Reporting and Trending data."
+summary: "Use the Spotight Client to comprehensively view Spotlight data and configure Spotlight.  Spotlight Client is a comprehensive viewer to Spotlight data. The Spotlight Client is required to configure Spotlight and access Reporting and Trending data."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_displaydevice_client.html
 folder: SpotlightEnterprise

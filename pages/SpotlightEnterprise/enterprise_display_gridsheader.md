@@ -2,7 +2,7 @@
 title: Spotlight grids header row
 tags: [spotlight_grids]
 keywords: grids, drilldowns
-summary: "Right-click the table header row for options."
+summary: "Right-click over the header row of a Spotlight grid for options."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_gridsheader.html
 folder: SpotlightEnterprise
@@ -52,7 +52,7 @@ Note that this is a toggle switch. You force the first column to remain visible 
 
 ## Restore default settings
 
-To restore the default order to the column headings and word-wrapping settings:
+Restore the default order to the column headings and word-wrapping settings.
 
 1. Right-click on the data in the chart or grid.
 2. Select **Restore Default Settings**.

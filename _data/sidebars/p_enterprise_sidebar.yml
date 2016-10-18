@@ -105,18 +105,91 @@ entries:
           url: /enterprise_legal_thirdpartycomponents.html
           output: web, pdf
 
-  - title: Connections
+  - title: Using the Spotlight Client
     output: web, pdf
     folderitems:
 
-    - title: Connections Display
-      url: /enterprise_connect_display.html
+    - title: Using the Spotlight Client
+      url: /enterprise_displaydevice_client.html
+      output: web, pdf
+
+    - title: Permission to use Spotlight
+      url: /enterprise_displaydevice_client_permissions.html
       output: web, pdf
 
       subfolders:
-      - title: Custom Views
+      - title: Configure the Spotlight Client
         output: web
         subfolderitems:
+
+        - title: Appearance of charts
+          url: /enterprise_cfgclient_appearanceofcharts.html
+          output: web, pdf
+
+        - title: Overview page click action
+          url: /enterprise_cfgclient_overviewpageclickaction.html
+          output: web, pdf
+
+        - title: Severity colors for accessibility
+          url: /enterprise_cfgclient_severitycolorsforaccessibility.html
+          output: web, pdf
+
+        - title: Spotlight startup location
+          url: /enterprise_cfgclient_startup.html
+          output: web, pdf
+
+        - title: Adjust display performance and quality
+          url: /enterprise_cfgclient_displayperformance.html
+          output: web, pdf
+
+        - title: Configure support bundle emails
+          url: /enterprise_cfgclient_supportbundle.html
+          output: web, pdf
+
+        - title: Enable debug logging
+          url: /enterprise_cfgclient_debuglogging.html
+          output: web, pdf
+
+        - title: Configure user experience
+          url: /enterprise_cfgclient_userexperience.html
+          output: web, pdf
+
+      - title: Troubleshooting
+        output: web
+        subfolderitems:
+
+        - title: Internet Options
+          url: /enterprise_displaydevice_client_internetoptions.html
+          output: web, pdf
+
+  - title: Displays
+    output: web, pdf
+    folderitems:
+
+    - title: Heat Map
+      url: /enterprise_display_heatmap.html
+      output: web, pdf
+
+    - title: Spotlight Today
+      url: /enterprise_display_spotlighttoday.html
+      output: web, pdf
+
+    - title: Alarms by Time
+      url: /enterprise_display_alarmsbytime.html
+      output: web, pdf
+
+    - title: Alarm log
+      url: /enterprise_display_alarmlog.html
+      output: web, pdf
+
+      subfolders:
+      - title: Organize your Connections
+        output: web
+        subfolderitems:
+
+        - title: Connections Display
+          url: /enterprise_connect_display.html
+          output: web, pdf
 
         - title: Custom Views
           url: /enterprise_connect_customviews.html
@@ -134,38 +207,14 @@ entries:
           url: /enterprise_connect_selectconnections.html
           output: web, pdf
 
-    - title: Search
-      url: /enterprise_connect_search.html
-      output: web, pdf
+        - title: Tags
+          url: /enterprise_connect_tags.html
+          output: web, pdf
 
-    - title: Tags
-      url: /enterprise_connect_tags.html
-      output: web, pdf
-
-    - title: Planned outages
-      url: /enterprise_connect_plannedoutage.html
-      output: web, pdf
-
-  - title: Displays
-    output: web, pdf
-    folderitems:
-
-    - title: Heatmap
-      url: /enterprise_display_heatmap.html
-      output: web, pdf
-
-    - title: Spotlight Today
-      url: /enterprise_display_spotlighttoday.html
-      output: web, pdf
-
-    - title: Alarms by Time
-      url: /enterprise_display_alarmsbytime.html
-      output: web, pdf
-
-    - title: Alarm log
-      url: /enterprise_display_alarmlog.html
-      output: web, pdf
-
+        - title: Planned outages
+          url: /enterprise_connect_plannedoutage.html
+          output: web, pdf
+  
     - title: Spotlight Overview pages
       url: /enterprise_display_overview.html
       output: web, pdf
@@ -545,66 +594,9 @@ entries:
       output: web, pdf
 
 
-  - title: Configure Spotlight Client
+  - title: Beyond the Spotlight Client
     output: web, pdf
     folderitems:
-
-    - title: Appearance of charts
-      url: /enterprise_cfgclient_appearanceofcharts.html
-      output: web, pdf
-
-    - title: Overview page click action
-      url: /enterprise_cfgclient_overviewpageclickaction.html
-      output: web, pdf
-
-    - title: Severity colors for accessibility
-      url: /enterprise_cfgclient_severitycolorsforaccessibility.html
-      output: web, pdf
-
-    - title: Spotlight startup location
-      url: /enterprise_cfgclient_startup.html
-      output: web, pdf
-
-    - title: Adjust display performance and quality
-      url: /enterprise_cfgclient_displayperformance.html
-      output: web, pdf
-
-    - title: Configure support bundle emails
-      url: /enterprise_cfgclient_supportbundle.html
-      output: web, pdf
-
-    - title: Enable debug logging
-      url: /enterprise_cfgclient_debuglogging.html
-      output: web, pdf
-
-    - title: Configure user experience
-      url: /enterprise_cfgclient_userexperience.html
-      output: web, pdf
-
-  - title: Display Devices
-    output: web, pdf
-    folderitems:
-
-    - title: Display Devices
-      url: /enterprise_displaydevices.html
-      output: web, pdf
-
-      subfolders:
-      - title: Spotlight Client
-        output: web
-        subfolderitems:
-
-        - title: Spotlight Client
-          url: /enterprise_displaydevice_client.html
-          output: web, pdf
-
-        - title: Internet Options
-          url: /enterprise_displaydevice_client_internetoptions.html
-          output: web, pdf
-
-        - title: Permissions
-          url: /enterprise_displaydevice_client_permissions.html
-          output: web, pdf
 
     - title: Spotlight Web Site
       url: /enterprise_displaydevice_website.html

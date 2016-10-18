@@ -65,7 +65,4 @@ Icon | Ribbon Select | Description
 {% include inline_imageClient.html file="tb_action_groupby.png" alt="Group by" %} | Group By | Group the alarms according to: <br> *Alarm* The name of the alarm. <br> *Connection* The name of the connection. <br> *Ungrouped (top 50 only)* Show the alarms in order of severity. Limit the display to 50 alarms.
 
 
-## Configure Spotlight Today
-Spotlight today can be configured to be the first page you see when you open Spotlight. For more information, see Spotlight startup location.
-
 {% include links.html %}
