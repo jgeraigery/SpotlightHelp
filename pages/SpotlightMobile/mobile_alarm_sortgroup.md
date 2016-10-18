@@ -2,11 +2,18 @@
 title: Sort / Group alarms
 tags: [alarms_sort]
 keywords: alarms, sort alarms, group alarms, mobile
-summary: "Tap the icon to sort or group the alarms on the Alarm list. Sort by date or severity. Group by server, severity or alarm."
+summary: "Sort or group the alarms on the Alarm list."
 sidebar: p_mobile_sidebar
 permalink: mobile_alarm_sortgroup.html
 folder: SpotlightMobile
 ---
+
+
+
+
+
+1. Open the [Alarm list][mobile_alarmlist].
+2. Tap the icon. Sort by date or severity. Group by server, severity or alarm.
 
 Android | iPhone
 --------|-------

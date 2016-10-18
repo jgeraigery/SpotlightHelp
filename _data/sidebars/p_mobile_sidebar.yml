@@ -31,24 +31,24 @@ entries:
       url: /mobile_deploy.html
       output: web, pdf
 
-  - title: Connections
-    output: web, pdf
-    folderitems:
-
-    - title: Connections and connection views
-      url: /mobile_connections.html
+    - title: Summary
+      url: /mobile_summary.html
       output: web, pdf
   
   - title: Displays
     output: web, pdf
     folderitems:
 
-    - title: Heatmap
+    - title: Heat Map
       url: /mobile_heatmap.html
       output: web, pdf
 
-    - title: Alarm list
+    - title: Alarm List
       url: /mobile_alarmlist.html
+      output: web, pdf
+
+    - title: Connections and Connection Views
+      url: /mobile_connections.html
       output: web, pdf
 
     - title: Spotlight Overview pages
@@ -97,4 +97,12 @@ entries:
 
     - title: Refresh
       url: /mobile_refresh.html
+      output: web, pdf
+
+  - title: Backend Deployment
+    output: web, pdf
+    folderitems:
+
+    - title: Backend Deployment
+      url: /mobile_backend.html
       output: web, pdf

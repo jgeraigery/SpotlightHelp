@@ -1,13 +1,14 @@
 ---
 title: Settings
 keywords: settings, configure, mobile
-summary: "Tap the icon to configure Spotlight Mobile."
+summary: "Configure Spotlight Mobile."
 sidebar: p_mobile_sidebar
 permalink: mobile_settings.html
 folder: SpotlightMobile
 ---
 
 
+Tap the icon to configure Spotlight Mobile.
 
 Android | iPhone
 --------|-------
@@ -15,12 +16,22 @@ Android | iPhone
 
 
 
+## Settings
 
-Settings | Description
----------|------------
-Accounts | List the Spotlight Essentials accounts linked to this mobile device. The Spotlight Essentials account name is usually in the form of an email address. You can add and delete accounts and update the account key.
-Alarm List | Set the default sort order and groupings for alarms on the alarm list. See Sort / Group Alarms.
-Startup Defaults | Select the startup screen. Select from the Heatmap or Alarm list.
-About Spotlight | Display legal information for Spotlight Mobile.
+### Accounts
+
+List the Spotlight Cloud (Spotligh Essentials) accounts linked to this mobile device. The Spotlight Essentials account name is usually in the form of an email address. You can add and delete accounts and update the account key.
+
+### Alarm List
+
+Set the default sort order and groupings for alarms on the [Alarm List][mobile_alarmlist].
+
+### Startup Defaults
+
+Select the startup screen. Select from the [Heat Map][mobile_heatmap] or [Alarm List][mobile_alarmlist].
+
+### About Spotlight
+
+Display legal information for Spotlight Mobile.
 
 {% include links.html %}

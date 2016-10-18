@@ -1,11 +1,13 @@
 ---
-title: Connections and connection views in Spotlight Mobile
-keywords: sample
-summary: "Tap the icon to access the views of your enterprise: heatmaps, alarm lists and connection views. Create new Heatmap or Alarm list views."
+title: Connections and Connection Views in Spotlight Mobile
+summary: "Use Connection Views to organize your connections for a Heat Map or Alarm List. Show the monitored databases, instances and servers in your enterprise."
 sidebar: p_mobile_sidebar
 permalink: mobile_connections.html
 folder: SpotlightMobile
 ---
+
+
+## Open the display of connections and connection views
 
 
 Android | iPhone
@@ -17,9 +19,20 @@ Android | iPhone
 
 ## Navigate Spotlight Mobile from the Alarm list
 
-To open a view of the heatmap | Tap on the heatmap.
-To open a view of the Alarm list | Tap on the alarm list.
-to create a customized view of the Heatmap or Alarm list | Tap Add... or {% include inline_imageMobile.html file="tap_edit-button.png" alt="Add button" %}
-To open the Spotlight Overview page | Tap on a connection.
+### Open a view of the Heat Map
+
+Tap on the Heat Map.
+
+### Open a view of the Alarm list
+
+Tap on the alarm list.
+
+### Open the Spotlight Overview page
+
+Tap on a connection.
+
+## Create a customized view of the Heat Map or Alarm List
+
+Tap Add... or {% include inline_imageMobile.html file="tap_edit-button.png" alt="Add button" %}
 
 {% include links.html %}

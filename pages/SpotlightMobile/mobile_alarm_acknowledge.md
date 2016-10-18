@@ -10,9 +10,9 @@ folder: SpotlightMobile
 
 ## How to acknowledge an alarm
 
-1. Locate the alarm on the Alarm list.
+1. Locate the alarm on the [Alarm list][mobile_alarmlist].
 1. Tap the alarm severity icon for more detail on the alarm.
-1. Tap to acknowledge the alarm.
+1. Tap the icon to acknowledge the alarm.
 
    Android | iPhone
    --------|-------
@@ -24,11 +24,11 @@ folder: SpotlightMobile
 
 1. Tap **Save**.
 
-{% include imageMobile.html file="screen_iOS-ack-screen.PNG" alt="Save button" %}
+   {% include imageMobile.html file="screen_iOS-ack-screen.PNG" alt="Save button" %}
 
 
 ## How to configure an alarm to require acknowledgment
 
-{% include note.html content="Spotlight Mobile is not used to configure Spotlight. Use a Spotlight Client to configure alarms to require acknowledgment." %}
+{% include note.html content="Spotlight Mobile is not used to configure Spotlight. Use a Spotlight Client to configure an alarm to require acknowledgment." %}
 
 {% include links.html %}

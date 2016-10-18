@@ -1,5 +1,5 @@
 ---
-title: Alarm list
+title: Alarm List
 tags: [alarms_display]
 keywords: alarms, display, mobile
 summary: "List all alarms raised against the connection or connection view."
@@ -10,14 +10,14 @@ folder: SpotlightMobile
 
 ## How to open the Alarm list
 
-There are a number of ways to open the Alarm List.
+These are just some of the ways to open the Alarm List.
 
-*  Tap a connection on the [Heatmap](/documentation-theme-jekyll/mobile_heatmap).
-*  Tap an Alarm list view from [Connections and connection views](/documentation-theme-jekyll/connections).
+*  Tap a connection on the [Heat Map][mobile_heatmap].
+*  Tap an Connection View from [Connections and Connection Views][mobile_connections].
 
 ## How to use the Alarm list
 
-Each alarm is colored according to the severity of the alarm. Tap the row for alarm details, to [Snooze Alarm](/documentation-theme-jekyll/mobile_snooze) or [Acknowledge Alarm](/documentation-theme-jekyll/mobile_acknowledge).
+Each alarm is colored according to the severity of the alarm. Tap the row for alarm details, to [Snooze Alarm][mobile_alarm_snooze] or [Acknowledge Alarm][mobile_alarm_acknowledge].
 
 {% include tip.html content="On an iPad, tap the colored icon." %}
 

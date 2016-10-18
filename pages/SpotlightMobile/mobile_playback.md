@@ -8,14 +8,14 @@ permalink: mobile_playback.html
 folder: SpotlightMobile
 ---
 
-## How to apply playback
+## To apply playback
 
-1. Open the Spotlight overview page for the monitored connection.
+1. Open the [Spotlight Overview page][mobile_overview] for the monitored connection.
 2. Tap to playback.
 
-Android | iPhone
---------|-------
-{% include inline_imageMobile.html file="tap_playback-icon_iphone.png" alt="Playback" %} | {% include inline_imageMobile.html file="tap_playback-icon_iphone.png" alt="Playback" %}
+   Android | iPhone
+   --------|-------
+   {% include inline_imageMobile.html file="tap_playback-icon_iphone.png" alt="Playback" %} | {% include inline_imageMobile.html file="tap_playback-icon_iphone.png" alt="Playback" %}
 
 3. Select the day and time to playback to. Alternatively, tap **Switch to real time** to leave playback mode.
 4. Tap **Save**.

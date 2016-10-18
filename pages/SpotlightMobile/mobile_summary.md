@@ -1,9 +1,8 @@
 ---
-title: Monitor
-keywords: mobile
+title: Spotlight Mobile Summary
 summary: "Spotlight Mobile monitoring features include a Heatmap, alarm list, alarm details and the ability to snooze and acknowledge alarms."
 sidebar: p_mobile_sidebar
-permalink: mobile_monitor.html
+permalink: mobile_summary.html
 folder: SpotlightMobile
 ---
 
