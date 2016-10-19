@@ -68,11 +68,13 @@ If you set this value after the connection to the SQL Server is established then
 
 ### Selected
 
-Dummy text replaces string literals in the display of the SQL Statement and Query Plan on the SQL Activity \| Sessions page and the SQL Activity \| Top SQL Statements page. This protects privacy information that may be contained in those literals.
+Dummy text replaces string literals in all displays of the SQL Statement and Query Plan. This protects privacy information that may be contained in those literals.
+
+Large numbers  (greater than 99,999,999) are replaced with 987654321.
 
 ### Not Selected
 
-The string literals in the SQL Statement and Query Plan on the SQL Activity \| Sessions page and the SQL Activity \| Top SQL Statements page are displayed as is.
+Large numbers and string literals in SQL Statements and Query Plans are displayed as is.
 
 
 ## Connection
