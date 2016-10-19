@@ -11,7 +11,7 @@ folder: SpotlightEnterprise
 {% include imageClient.html file="pane_chart_baselining.png" alt="Sample Chart" %}
 
 
-{% include note.html content="Baselining is available for real time data and for viewing data in playback mode (Playback). Baselining is not available for Reporting and Trending | Views (Views). Baselining is available for line charts. If the chart view is set to any other option (for example, pie, bar or area) then the baselining option will become unavailable. For more information, see Set the chart view." %}
+{% include note.html content="Baselining is available for real time data and for viewing data in playback mode (Playback). Baselining is available for line charts. If the chart view is set to any other option (for example, pie, bar or area) then the baselining option will become unavailable. For more information, see Set the chart view." %}
 
 ## To view the baseline chart
 
