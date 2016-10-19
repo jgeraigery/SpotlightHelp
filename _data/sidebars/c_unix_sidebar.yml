@@ -50,6 +50,10 @@ entries:
       url: /unix_alarm_filesystemspace.html
       output: web, pdf
 
+    - title: Memory - Physical Memory Available
+      url: /unix_alarm_memory_physicalmemoryavailable.html
+      output: web, pdf
+
     - title: Monitored Server - Unix Alarm Action Failure
       url: /unix_alarm_monitoredserver_alarmactionfailure.html
       output: web, pdf
