@@ -14,7 +14,7 @@ folder: SpotlightEnterprise
 
 From the Spotlight Client, click **Monitor \| Heat Map** to open the Heat Map showing all monitored connections.
 
-{% include tip.html content="You can open the Heatmap with a subset of all monitored connections. From the left Connections pane click on a custom view or connection type. The **Heat Map** is the default view on the display pane." %}
+{% include tip.html content="You can open the Heatmap with a subset of all monitored connections. From the left [Connections pane][enterprise_connect_display] click on a custom view or connection type. The Heat Map is the default view on the display pane." %}
 
 
 ## Connection color and surface area
@@ -41,7 +41,7 @@ Default Color | Severity | Description
 
 ### Click on a connection
 
-Open the Spotlight Overview page for the connection
+Open the [Spotlight Overview page][enterprise_display_overview] for the connection
 
 
 {% include links.html %}

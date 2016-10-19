@@ -1,5 +1,5 @@
 ---
-title: Alarm log
+title: Alarm Log
 keywords: alarm log
 summary: "The alarm log is a display of logged alarms."
 sidebar: p_enterprise_sidebar
@@ -12,9 +12,9 @@ folder: SpotlightEnterprise
 
 ## Open the Alarm log
 
-From the Spotlight Client, click **Monitor \| Alarm log** to open the Alarm log for all monitored connections.
+From the Spotlight Client, click **Monitor \| Alarm Log** to open the Alarm Log for all monitored connections.
 
-{% include tip.html content="The Alarm log can be opened to show a custom view of monitored connections or a view of all connections of a specific type. From the left Connections pane, click on a custom view or connection type then click **Alarm log** from the display pane. To open the Alarm log for just one connection, right click on the connection in the Connections pane then click **Alarm log** from the display pane." %}
+{% include tip.html content="The Alarm Log can be opened to show a custom view of monitored connections or a view of all connections of a specific type. From the left [Connections pane][enterprise_connect_display], click on a custom view or connection type then click **Alarm log** from the display pane. To open the Alarm log for just one connection, right click on the connection in the Connections pane then click **Alarm log** from the display pane." %}
 
 
 ## About the alarm log grid
@@ -34,7 +34,7 @@ Snoozed Until | The alarm is snoozed until this time.
 Acknowledged by | The user who acknowledged the alarm.
 Acknowledgment Comment | The comment entered by the user when they acknowledged the alarm.
 
-{% include tip.html content="The alarm log is a Spotlight grid which may be saved to a file or the clipboard. To show / hide columns on the grid, right-click the grid headings and select Organize Columns. Refer to the help for more information on Spotlight grids." %}
+{% include tip.html content="The alarm log is a Spotlight grid which may be saved to a file or the clipboard. To show / hide columns on the grid, right-click the grid headings and select Organize Columns. See also [Spotlight grids][enterprise_display_grids]." %}
 
 
 ## Filter the alarm log
@@ -55,8 +55,8 @@ Icon | Ribbon Select | Description
 -----|---------------|-------------
 {% include inline_imageClient.html file="tb_action_diagnose.png" alt="Diagnose" %} | Diagnose | Drilldown on data from the connection relevant to the selected alarm.
 {% include inline_imageClient.html file="tb_action_settings.png" alt="Alarm Settings" %} | Alarm Settings | Configure the selected alarm.
-{% include inline_imageClient.html file="tb_action_ignorealarm.png" alt="Ignore this Alarm" %} | Ignore this Alarm | Request Spotlight ignore this alarm and future cases of this alarm. For future cases, request Spotlight ignore this alarm for the current value or for the current connection. The choices are dependent on the type of alarm. This is a simplified interface for Configure \| Alarms \| Do not alarm for certain values.
-{% include inline_imageClient.html file="tb_alarms_time.png" alt="Show in Alarms by Time" %} | Show in Alarms by Time | Show the selected alarm in alarms by time.
+{% include inline_imageClient.html file="tb_action_ignorealarm.png" alt="Ignore this Alarm" %} | Ignore this Alarm | Request Spotlight ignore this alarm and future cases of this alarm. For future cases, request Spotlight ignore this alarm for the current value or for the current connection. The choices are dependent on the type of alarm. This is a simplified interface for **Configure \| Alarms \| Do not alarm for certain values**.
+{% include inline_imageClient.html file="tb_alarms_time.png" alt="Show in Alarms by Time" %} | Show in Alarms by Time | Show the selected alarm in [alarms by time][enterprise_display_alarmsbytime].
 {% include inline_imageClient.html file="tb_grid_find.png" alt="Find" %} | Find | Find text in the display.
 
 {% include links.html %}

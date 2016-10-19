@@ -13,7 +13,7 @@ folder: SpotlightEnterprise
 
 From the Spotlight Client, click **Monitor \| Spotlight Today** to open Spotlight Today for all monitored connections.
 
-{% include tip.html content="You can open Spotlight Today with a subset of all monitored connections. From the left Connections pane click on a custom view or connection type then click **Spotlight Today** from the display pane. To open Spotlight Today for just one connection, right click on the connection in the Connections pane then click **Spotlight Today** from the display pane." %}
+{% include tip.html content="You can open Spotlight Today with a subset of all monitored connections. From the left [Connections pane][enterprise_connect_display] click on a custom view or connection type then click **Spotlight Today** from the display pane. To open Spotlight Today for just one connection, right click on the connection in the Connections pane then click **Spotlight Today** from the display pane." %}
 
 
 ## About the Spotlight Today grid
@@ -31,7 +31,7 @@ Snoozed Until | The time the alarm is snoozed until.
 Condition Cleared | The time the alarm severity returned to normal. This is relevant to alarms that require acknowledgment.
 Connection type | The type of connection the alarm was raised on (for example, SQL Server). The connection type is available only when the Group By action is set to Connection.
 
-{% include tip.html content="The Spotlight Today grid is a Spotlight grid which may be saved to a file or the clipboard. To show / hide columns on the grid, right-click the grid headings and select Organize Columns. Refer to the help for more information on Spotlight grids." %}
+{% include tip.html content="The Spotlight Today grid is a Spotlight grid which may be saved to a file or the clipboard. To show / hide columns on the grid, right-click the grid headings and select Organize Columns. See also [Spotlight Grids][enterprise_display_grids]." %}
 
 ## Filter the Spotlight Today grid
 
@@ -58,7 +58,7 @@ Icon | Ribbon Select | Description
 {% include inline_imageClient.html file="tb_alarms_acknowledge.png" alt="Acknowledge" %} | Acknowledge | Acknowledge the selected alarm(s). This is appropriate for alarms that are configured to require acknowledgment.
 {% include inline_imageClient.html file="tb_alarms_time.png" alt="Show in Alarms by Time" %} |  Alarm History | Show the selected alarm in alarms by time.
 {% include inline_imageClient.html file="tb_action_snooze.png" alt="Snooze" %} | Snooze Alarm | Temporarily remove the visual alert associated with the alarm.
-{% include inline_imageClient.html file="tb_action_ignorealarm.png" alt="Ignore this Alarm" %} | Ignore this Alarm | Request Spotlight ignore this alarm and future cases of this alarm. For future cases, request Spotlight ignore this alarm for the current value or for the current connection. The choices are dependent on the type of alarm. This is a simplified interface for Configure \| Alarms \| Do not alarm for certain values.
+{% include inline_imageClient.html file="tb_action_ignorealarm.png" alt="Ignore this Alarm" %} | Ignore this Alarm | Request Spotlight ignore this alarm and future cases of this alarm. For future cases, request Spotlight ignore this alarm for the current value or for the current connection. The choices are dependent on the type of alarm. This is a simplified interface for **Configure \| Alarms \| Do not alarm for certain values**.
 {% include inline_imageClient.html file="tb_action_settings.png" alt="Alarm Settings" %} | Alarm Settings | Configure the selected alarm.
 {% include inline_imageClient.html file="tb_grid_find.png" alt="Find" %} | Find | Find text in the list of alarms.
 {% include inline_imageClient.html file="tb_action_collapseall.png" alt="Collapse all" %} | Collapse All | Collapse the tree view of the list of alarms.

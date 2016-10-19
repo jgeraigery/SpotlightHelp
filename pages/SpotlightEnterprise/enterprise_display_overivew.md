@@ -52,7 +52,7 @@ If a Spotlight Overview page component's color is other than green then the comp
 
 If Spotlight is unable to collect the data required, Spotlight displays a small icon {% include inline_imageClient.html file="icon_refresherror.png" alt="Refresh Error" %} on the affected component. Click the icon to see more information about the problem.
 
-{% include note.html content="During a planned outage, all Spotlight Overview page controls are disabled except Status. A Monitored Server - Planned Outage alarm is raised against the Status control. For more information, see Configure \| Planned Outage." %}
+{% include note.html content="During a planned outage, all Spotlight Overview page controls are disabled except Status. A Monitored Server - Planned Outage alarm is raised against the Status control. See [Planned Outages][enterprise_connect_plannedoutage]." %}
 
 
 
