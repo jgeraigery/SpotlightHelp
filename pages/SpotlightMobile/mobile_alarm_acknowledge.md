@@ -2,7 +2,7 @@
 title: Acknowledge alarms in Spotlight Mobile
 tags: [acknowledge]
 keywords: alarm, acknowledge, mobile
-summary: "When an alarm is configured to require acknowledgment each raised instance of the alarm remains present in Spotlight until the instance is acknowledged."
+summary: "For alarms that require acknowledgment, each raised instance of the alarm remains present in Spotlight until the instance is acknowledged."
 sidebar: p_mobile_sidebar
 permalink: mobile_alarm_acknowledge.html
 folder: SpotlightMobile
@@ -10,7 +10,7 @@ folder: SpotlightMobile
 
 ## How to acknowledge an alarm
 
-1. Locate the alarm on the [Alarm list][mobile_alarmlist].
+1. Locate the alarm on the [Alarm List][mobile_alarmlist].
 1. Tap the alarm severity icon for more detail on the alarm.
 1. Tap the icon to acknowledge the alarm.
 

@@ -47,7 +47,7 @@ entries:
       url: /mobile_alarmlist.html
       output: web, pdf
 
-    - title: Connections and Connection Views
+    - title: Connections
       url: /mobile_connections.html
       output: web, pdf
 

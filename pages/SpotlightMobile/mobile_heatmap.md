@@ -10,7 +10,7 @@ folder: SpotlightMobile
 
 The Heat Map is the first screen you see when you open Spotlight Mobile.
 
-Tap on a connection to open the [Alarm list][mobile_alarmlist] for the connection.
+Tap on a connection to open the [Alarm List][mobile_alarmlist] for the connection.
 
 {% include imageMobile.html file="screen_iOS-Heatmap.PNG" alt="Heatmap" %}
 

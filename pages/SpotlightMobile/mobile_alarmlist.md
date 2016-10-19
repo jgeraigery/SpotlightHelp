@@ -13,7 +13,7 @@ folder: SpotlightMobile
 These are just some of the ways to open the Alarm List.
 
 *  Tap a connection on the [Heat Map][mobile_heatmap].
-*  Tap an Connection View from [Connections and Connection Views][mobile_connections].
+*  Tap a connection or connection View from [Connections][mobile_connections].
 
 ## How to use the Alarm list
 

@@ -10,7 +10,7 @@ folder: SpotlightMobile
 
 ## How to snooze an alarm
 
-1. Locate the alarm on the [Alarm list][mobile_alarmlist].
+1. Locate the alarm on the [Alarm List][mobile_alarmlist].
 2. Tap the alarm severity icon for more detail on the alarm.
 3. Tap the icon to snooze the alarm.
 

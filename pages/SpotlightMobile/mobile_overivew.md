@@ -10,7 +10,7 @@ folder: SpotlightMobile
 
 ## Open the Spotlight Overview page
 
-Tap on a Spotlight connection to show the Spotlight Overview page panels for that connection.
+Start with the [Connections Display][mobile_connections]. Tap on a Spotlight connection to show the Spotlight Overview page panels for that connection.
 
 Android | iPhone
 --------|-------
@@ -20,7 +20,7 @@ Android | iPhone
 
 ### Panels
 
-If a panel's color is other than green then at least one of the panel's components is in an alarm state. The panel is colored according to the severity of the highest alarm raised against a panel component. Tap panel to show the panel's components.
+If a panel's color is other than green then at least one of the panel's components is in an alarm state. The panel is colored according to the severity of the highest alarm raised against a panel component. Tap the panel to show the panel's components.
 
 {% include imageMobile.html file="screen_iOS-homepage.jpeg" %}
 

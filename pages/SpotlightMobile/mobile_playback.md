@@ -2,7 +2,7 @@
 title: Playback in Spotlight Mobile
 tags: [playback]
 keywords: playback, mobile
-summary: "Reproduce the Spotlight overview page for a date and time from the recent past."
+summary: "Reproduce the Spotlight Overview page for a date and time from the recent past."
 sidebar: p_mobile_sidebar
 permalink: mobile_playback.html
 folder: SpotlightMobile
@@ -11,7 +11,7 @@ folder: SpotlightMobile
 ## To apply playback
 
 1. Open the [Spotlight Overview page][mobile_overview] for the monitored connection.
-2. Tap to playback.
+2. Tap the icon to playback.
 
    Android | iPhone
    --------|-------
@@ -19,7 +19,5 @@ folder: SpotlightMobile
 
 3. Select the day and time to playback to. Alternatively, tap **Switch to real time** to leave playback mode.
 4. Tap **Save**.
-
-{% include note.html content="Spotlight Playback is fully documented in the Spotlight Enterprise help." %}
 
 {% include links.html %}

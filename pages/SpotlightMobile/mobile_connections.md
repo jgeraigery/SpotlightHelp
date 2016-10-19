@@ -1,38 +1,44 @@
 ---
-title: Connections and Connection Views in Spotlight Mobile
-summary: "Use Connection Views to organize your connections for a Heat Map or Alarm List. Show the monitored databases, instances and servers in your enterprise."
+title: Connections
+summary: "Select a connection or connection view to monitor. Create a new connection view."
 sidebar: p_mobile_sidebar
 permalink: mobile_connections.html
 folder: SpotlightMobile
 ---
 
 
-## Open the display of connections and connection views
+## Open the Connections display
 
+Tap on the icon.
 
 Android | iPhone
 --------|-------
 {% include inline_imageMobile.html file="tap_android-connection-nav-icon.png" alt="Connections Android" %} | {% include inline_imageMobile.html file="tap_iOS-connection-nav-icon.png" alt="Connections iPhone" %}
 
-
 {% include imageMobile.html file="screen_iOS-nav-with-filters.PNG" alt="Alarm list screen" %}
 
-## Navigate Spotlight Mobile from the Alarm list
+## Open a Heat Map
 
-### Open a view of the Heat Map
+Tap on a connection vew to show those connections on a [Heat Map][mobile_heatmap].
 
-Tap on the Heat Map.
+## Open an Alarm List for a connection view
 
-### Open a view of the Alarm list
+Tap on a connection vew to show those connections on a Heat Map. From the Heat Map, tap to see the [Alarm List][mobile_alarmlist].
 
-Tap on the alarm list.
-
-### Open the Spotlight Overview page
+## Open the Spotlight Overview page
 
 Tap on a connection.
 
-## Create a customized view of the Heat Map or Alarm List
+## Open an Alarm List for a connection
+
+Tap on a connection to show the Spotlight Overview page for that connection. From the Spotlight Overview page, tap to see the [Alarm List][mobile_alarmlist].
+
+## Create a customized view of a Heat Map or Alarm List
 
 Tap Add... or {% include inline_imageMobile.html file="tap_edit-button.png" alt="Add button" %}
+
+## Add / Remove / Manage connections
+
+{% include note.html content="Use a Spotlight Client to add and remove connections and edit connection properties. Spotlight Mobile does not have the facility to manage (add, remove, edit properties) Spotlight connections." %}
 
 {% include links.html %}
