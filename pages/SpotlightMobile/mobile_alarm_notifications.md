@@ -1,6 +1,5 @@
 ---
-title: Notifications
-keywords: alarm
+title: Receive Spotlight Notifications on your mobile device
 summary: "Spotlight can be configured to send notifications to your mobile device."
 sidebar: p_mobile_sidebar
 permalink: mobile_alarm_notifications.html
@@ -19,9 +18,15 @@ A standard scenario may be:
 
 ## Requirements and setup
 
-*  Ensure Spotlight Mobile is installed and operational.
-*  Ensure Spotlight Mobile is enabled to receive push notifications from Spotlight. During install of Spotlight Mobile you may be given the opportunity to disable push notifications. Following install, refer to the instructions for your mobile device. On an iPhone navigate to Settings \| Spotlight. On an android device navigate to Settings \| Application manager \| Spotlight.
-*  Ensure Spotlight is configured to send push notifications to Spotlight Mobile. For more information, see Send push notification to my mobile device and Send a Push Notification Dialog.
+### Receive push notifications
+
+Ensure Spotlight Mobile is enabled to receive push notifications from Spotlight. During install of Spotlight Mobile you may be given the opportunity to disable push notifications. Following install, refer to the instructions for your mobile device.
+
+{% include tip.html content="On an iPhone navigate to Settings \| Spotlight. On an android device navigate to Settings \| Application manager \| Spotlight." %}
+
+### Send push notifications
+
+Ensure Spotlight is configured to send push notifications to Spotlight Mobile. Do this from the Spotlight Client. For more information, see [Send a Push Notification Dialog][enterprise_cfgmonitor_alarmaction_pushnotification].
 
 
 ## Push notifications history

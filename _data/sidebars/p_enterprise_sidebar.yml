@@ -183,7 +183,7 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: Organize your Connections
+      - title: Connections
         output: web
         subfolderitems:
 
@@ -302,10 +302,6 @@ entries:
 
     - title: Ignore
       url: /enterprise_alarm_ignore.html
-      output: web, pdf
-
-    - title: Notifications
-      url: /enterprise_alarm_notifications.html
       output: web, pdf
 
   - title: Configure Monitoring

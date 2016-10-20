@@ -2,24 +2,22 @@
 title: Playback in Spotlight Enterprise
 tags: [playback]
 keywords: playback
-summary: "The Playback facility allows you to view events and data collected in the recent past on a Connection drilldown or Spotlight Today. Playback time to capture the event or moment in Spotlight as though it was happening in real time."
+summary: "The Playback facility allows you to view events and data collected in the recent past on Spotlight Overview pages, connection drilldowns and Spotlight Today. Once a time is selected, the display of the Connection drilldown and Spotlight Today turns to that time. Playback time to capture the event or moment in Spotlight as though it was happening in real time."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_playback.html
 folder: SpotlightEnterprise
 ---
 
 
-View events and data collected in the recent past on Connection drilldowns or Spotlight today. Once a time is selected, the display of the Connection drilldown and Spotlight Today turns to that time.
+## Using the Playback facility
 
-## Steps
-
-1. Select a connection from Monitored connections.
-2. Select from the available options on the Monitor \| Playback ribbon tab.
+1. Select a [connection][enterprise_connect_display].
+2. Select from the available options on the **Monitor \| Playback** ribbon tab.
 
 
 Icon | Name | Description
 -----|------|------------
-{% include inline_imageClient.html file="tb_playback_playback.png" alt="Playback button" %} | Playback | Select an alarm or moment in time in the past to return to. Click Real Time to return to the present time.
+{% include inline_imageClient.html file="tb_playback_playback.png" alt="Playback button" %} | Playback | Select an alarm or moment in time in the past to return to. Click **Real Time** to return to the present time.
 
 Control | Description
 --------|-------------

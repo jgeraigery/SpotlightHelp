@@ -1,6 +1,6 @@
 ---
 title: Spotlight Client
-summary: "Use the Spotight Client to comprehensively view Spotlight data and configure Spotlight.  Spotlight Client is a comprehensive viewer to Spotlight data. The Spotlight Client is required to configure Spotlight and access Reporting and Trending data."
+summary: "Use the Spotight Client to comprehensively view Spotlight data and configure Spotlight."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_displaydevice_client.html
 folder: SpotlightEnterprise
@@ -8,23 +8,15 @@ folder: SpotlightEnterprise
 
 ## Installation
 
-The Spotlight Client is installed on a Windows server. For specifications see the Spotlight Enterprise Release Notes.
-
-The Spotlight Client is installed by the Spotlight installer. The Spotlight Client can be installed on the same Windows server as the Spotlight Diagnostic Server but does not have to be.
+The Spotlight Client is installed by the Spotlight installer. The Spotlight Client is installed on a Windows server. The Spotlight Client can be installed on the same Windows server as the Spotlight Diagnostic Server but does not have to be.
 
 ## Deployment
 
-The Spotlight Client connects to a single Spotlight Diagnostic Server or a federation of Spotlight Diagnostic Server.
-
 ### Spotlight Diagnostic Server
 
-
-Address the Spotlight Client to a Spotlight Diagnostic Server.
-
-In a federation of Spotlight Diagnostic Server, select any Spotlight Diagnostic Server in the federation.
+The Spotlight Client connects to a single Spotlight Diagnostic Server or a federation of Spotlight Diagnostic Server.
 
 ### Spotlight Cloud
-
 
 Use the Spotlight Client to Configure uploading to Spotlight Cloud.
 
@@ -41,6 +33,8 @@ In a federation of Spotlight Diagnostic Server each Spotlight Diagnostic Server 
 Use the Spotlight Client to enable and configure the Spotlight Statistics Repository and generate reports.
 
 In a federation of Spotlight Diagnostic Server each Spotlight Statistics Repository is independently configured in relation to the Spotlight Diagnostic Server.
+
+Spotlight Client is a comprehensive viewer to Spotlight data. The Spotlight Client is required to configure Spotlight and access Reporting and Trending data.
 
 ### Monitored connections in the deployment
 
