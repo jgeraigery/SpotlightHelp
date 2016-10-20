@@ -114,8 +114,16 @@ entries:
       url: /oracle_alarm_nonreclaimableflashbackspace.html
       output: web, pdf
 
-    - title: Parallel Query Server
-      url: /oracle_alarm_parallelqueryserver.html
+    - title: Parallel Queries Downgraded
+      url: /oracle_alarm_parallelqueriesdowngraded.html
+      output: web, pdf
+
+    - title: Parallel Queries Serialized
+      url: /oracle_alarm_parallelqueriesserialized.html
+      output: web, pdf
+
+    - title: Parallel Query Servers Busy
+      url: /oracle_alarm_parallelqueryserversbusy.html
       output: web, pdf
 
     - title: Row Cache Objects Latch Wait
