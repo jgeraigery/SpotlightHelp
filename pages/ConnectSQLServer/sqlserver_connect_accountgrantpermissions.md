@@ -16,6 +16,11 @@ In some environments the above may not be feasible. The following instructions a
 
 This script does not grant sufficient privileges to view the data on this page.
 
+### Error: The SQL Server Agent service status cannot be determined because a registry key cannot be read due to lack of permission.
+
+The script QS_Services.sql can be executed successfully only under login with SQL Server sysadmin rights. If the script QS_Services.sql is executed without a sysadmin account the above error will be raised.
+
+
 ## Script to grant permissions to TrustedUser
 
 ```
