@@ -154,12 +154,16 @@ entries:
           url: /enterprise_cfgclient_userexperience.html
           output: web, pdf
 
-      - title: Troubleshooting
+      - title: Configure the Spotlight Client Environment
         output: web
         subfolderitems:
 
         - title: Internet Options
           url: /enterprise_displaydevice_client_internetoptions.html
+          output: web, pdf
+
+        - title: Microsoft App-V
+          url: /enterprise_displaydevice_client_microsoftappv.html
           output: web, pdf
 
   - title: Displays
@@ -178,7 +182,7 @@ entries:
       url: /enterprise_display_alarmsbytime.html
       output: web, pdf
 
-    - title: Alarm log
+    - title: Alarm Log
       url: /enterprise_display_alarmlog.html
       output: web, pdf
 
