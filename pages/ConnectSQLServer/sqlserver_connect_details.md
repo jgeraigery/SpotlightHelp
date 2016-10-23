@@ -77,18 +77,25 @@ Large numbers  (greater than 99,999,999) are replaced with 987654321.
 Large numbers and string literals in SQL Statements and Query Plans are displayed as is.
 
 
+## Exclude Spotlight sessions from Wait Events and Workload Analysis
+
+Select to exclude Spotlight sessions from the Workload Events and Workload Analysis drilldowns.
+
+{% include note.html content="All Spotlight Sessions are excluded or monitored SQL Server 2012 and above. For monitored SQL Server versions earlier than SQL Server 2012 some long term Spotlight sessions may remain." %}
+
+
 ## Connection
- Select the Windows server hosting the SQL Server.
+Select the Windows server hosting the SQL Server.
 
 ### Do not monitor
- Select Do not monitor if you do not want to monitor the Windows server.
+Select **Do not monitor** if you do not want to monitor the Windows server.
 
 ### Cluster (monitor active node)
- Select Cluster (monitor active node) for a Microsoft Cluster Server (MSCS).
+Select **Cluster (monitor active node)** for a Microsoft Cluster Server (MSCS).
 
 Spotlight uses the current host node name to select the operating system connection. Therefore each Windows node in the cluster must be monitored by Spotlight. Verify each Windows node is in the list of Windows server connections.
 
 
-Click Create to add a Windows server to the list. This opens Windows Server \| Connection Details.
+Click **Create** to add a Windows server to the list. This opens [Windows Server \| Connection Details][windows_connect_details].
 
 {% include links.html %}
