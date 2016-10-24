@@ -8,6 +8,7 @@ folder: SpotlightEnterprise
 
 
 To create the support bundle from the Spotlight Client
+
 1. Click **Help \| Support Bundle**.
 2. Select the Spotlight application(s) whose information you want to collect.
 3. Click **Collect**.

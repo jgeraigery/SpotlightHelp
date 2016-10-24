@@ -16,6 +16,4 @@ When this alarm is raised
 * Open the **Activity drilldown \| Commands page** to view the long running command.
 * Use the **Elapsed Time** column to locate the long running command.
 
-For information on how to configure the Long Running Command alarm, see the online help.
-
 {% include links.html %}

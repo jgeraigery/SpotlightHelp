@@ -11,5 +11,6 @@ folder: ConnectOracle
 
 The presence of latch free waits may indicate a bottleneck within the SGA. (The specific action depends on the latch.)
 
+For more information, see the help topic **Relieve latch contention**.
 
 {% include links.html %}
