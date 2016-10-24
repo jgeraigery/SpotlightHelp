@@ -79,9 +79,9 @@ Large numbers and string literals in SQL Statements and Query Plans are displaye
 
 ## Exclude Spotlight sessions from Wait Events and Workload Analysis
 
-Select to exclude Spotlight sessions from the Workload Events and Workload Analysis drilldowns.
+When selected Spotlight sessions are excluded from the Wait Events and Workload Analysis drilldowns.
 
-{% include note.html content="All Spotlight Sessions are excluded or monitored SQL Server 2012 and above. For monitored SQL Server versions earlier than SQL Server 2012 some long term Spotlight sessions may remain." %}
+{% include note.html content="For monitored SQL Server versions earlier than SQL Server 2012 some long term Spotlight sessions may remain. For monitored SQL Server 2012 and above all Spotlight Sessions are excluded." %}
 
 
 ## Connection
