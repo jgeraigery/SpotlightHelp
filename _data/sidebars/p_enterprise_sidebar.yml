@@ -284,9 +284,54 @@ entries:
       url: /enterprise_display_playback.html
       output: web, pdf
 
-    - title: Reports
-      url: /enterprise_display_reports.html
-      output: web, pdf
+      subfolders:
+      - title: Reports
+        output: web
+        subfolderitems:
+
+        - title: The Spotlight Report Viewer
+          url: /enterprise_display_reportviewer.html
+          output: web, pdf
+
+        - title: Reports shipped with Spotlight
+          url: /enterprise_display_reportsshipped.html
+          output: web, pdf
+
+        - title: Create your own Spotlight reports
+          url: /enterprise_display_reportscreate.html
+          output: web, pdf
+
+      - title: Query the Spotlight Statistics Repository
+        output: web
+        subfolderitems:
+
+        - title: About the Spotlight Statistics Repository
+          url: /enterprise_ssrquery.html
+          output: web, pdf
+
+        - title: The Schema
+          url: /enterprise_ssrquery_schema.html
+          output: web, pdf
+
+        - title: Collected data
+          url: /enterprise_ssrquery_data_in.html
+          output: web, pdf
+
+        - title: Query tables to return results
+          url: /enterprise_ssrquery_data_query.html
+          output: web, pdf
+
+        - title: Table Definitions
+          url: /enterprise_ssrquery_tables.html
+          output: web, pdf
+
+        - title: Spotlight API Stored Procedures
+          url: /enterprise_ssrquery_storedprocedures_api.html
+          output: web, pdf
+
+        - title: Additional Stored Procedures
+          url: /enterprise_ssrquery_storedprocedures_custom.html
+          output: web, pdf
 
   - title: Alarms
     output: web, pdf
