@@ -1,6 +1,6 @@
 ---
 title: Spotlight diagnostic user groups
-summary: "The Spotlight diagnostic user groups are Windows groups created on install of Spotlight. Spotlight uses membership of these groups to authenticate Spotlight Client access to the Spotlight Diagnostic Server. There are three groups. The level of membership affects the user's right to configure Spotlight and execute actions on monitored Windows Server and SQL Server instances"
+summary: "The Spotlight diagnostic user groups are Windows groups created on install of Spotlight. Spotlight uses membership of these groups to authenticate Spotlight Client access to the Spotlight Diagnostic Server."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_backend_spotlightdiagnosticusergroups.html
 folder: SpotlightEnterprise
@@ -8,8 +8,9 @@ folder: SpotlightEnterprise
 
 
 
-## Group
+## Windows groups
 
+There are three groups. The level of membership affects the user's right to configure Spotlight and execute actions on monitored Windows Server and SQL Server instances.
 
 ### Spotlight Diagnostic Users
 
@@ -17,18 +18,15 @@ Members of this group are granted user privileges to Spotlight. They can do the 
 
 ### Spotlight Diagnostic Administrators
 
-
 Members of this group are granted administrator privileges in addition to user privileges. They can kill database sessions and change sensitive configuration items.
 
-Note: Administrative changes are logged. The logged entry includes the date, time, connection name, user and client IP address, a brief description of the action, and whether it succeeded or not. The log file is: ..\Agent\log\admin-audit.log in the Spotlight Diagnostic Server installation folder.
+{% include note.html content="Administrative changes are logged. The logged entry includes the date, time, connection name, user and client IP address, a brief description of the action, and whether it succeeded or not. See [Log of User Actions][enterprise_backend_logofuseractions]." %}
 
 ### Spotlight Diagnostic Read-Only
 
-
 Members of this group can view the Spotlight Overview pages, the drilldown pages, the playback data and alarm cases. They cannot make changes to Spotlight's operation. For example, they cannot alter the state of Spotlight Enterprise and Monitored Servers.
 
-
-Add members, increase / decrease your level of membership
+## Add members, increase / decrease your level of membership
 
 Your Network Administrator can add members, increase and decrease your membership as required.
 

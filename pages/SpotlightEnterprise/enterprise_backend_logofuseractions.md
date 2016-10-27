@@ -47,7 +47,7 @@ Changes to Planned Outage are recorded in the log of user actions.
 
 ### SQL Analysis
 
-The SQL Analysis dialog is used to determine what data is collected and displayed in the SQL Analysis - Workload View and the SQL Server \| SQL Activity Drilldown \| SQL Analysis page. The log records all changes to the SQL Analysis dialog as applied to a monitored connection or template.
+The SQL Analysis dialog is used to determine what data is collected and displayed in the SQL Analysis - Workload Report and the SQL Server \| SQL Activity Drilldown \| SQL Analysis page. The log records all changes to the SQL Analysis dialog as applied to a monitored connection or template.
 
 ### SQL Server Response Time
 
@@ -139,7 +139,7 @@ The log records when a user runs the Update Statistics command on selected index
 
 ### Support Services drilldown
 
-The log records when a user starts a SQL agent job from the Spotlight Client. That is command SQL Agent Jobs | Start Job.
+The log records when a user starts a SQL agent job from the Spotlight Client. That is command SQL Agent Jobs \| Start Job.
 
 The log records when a user changes the running state (Start / Stop) of a service from the Spotlight Client. This change is actioned from the Service Status page of the Support services drilldown.
 

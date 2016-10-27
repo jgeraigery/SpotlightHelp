@@ -1,6 +1,6 @@
 ---
 title: Network ports
-summary: "A Spotlight Enterprise deployment consists of many components that may be spread over a wide network. Spotlight's ability to function, to collect and display data, may depend on account permissions granted over the network and specific open network ports."
+summary: "Spotlight's ability to function, to collect and display data, may depend on account permissions granted over the network and specific open network ports."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_backend_networkports.html
 folder: SpotlightEnterprise
@@ -10,7 +10,7 @@ folder: SpotlightEnterprise
 
 ### TCP 3843
 
-This port is used by the Spotlight client to communicate with the Spotlight Diagnostic Server. This port must be open for incoming connections on the Spotlight Diagnostic Server host.
+This port is used by the Spotlight Client to communicate with the Spotlight Diagnostic Server. This port must be open for incoming connections on the Spotlight Diagnostic Server host.
 
 
 ### TCP 3166
@@ -20,19 +20,20 @@ This port is used by the Spotlight Diagnostic Server to communicate with the Spo
 
 ### TCP 443
 
-This port is used by the Spotlight Diagnostic Server to communicate with Spotlight Cloud. This port must be open for outgoing connections on the Spotlight Diagnostic Server host when Configure uploading to Spotlight Cloud is enabled.
+This port is used by the Spotlight Diagnostic Server to communicate with Spotlight Cloud. This port must be open for outgoing connections on the Spotlight Diagnostic Server host when uploading to Spotlight Cloud is enabled on the Spotlight Diagnostic Server.
 
 
 ### TCP 40403
 
-This port is used by the Spotlight client to communicate with the Spotlight Diagnostic Server. This port must be open for incoming connections on the Spotlight Diagnostic Server host.
+This port is used by the Spotlight Client to communicate with the Spotlight Diagnostic Server. This port must be open for incoming connections on the Spotlight Diagnostic Server host.
 
 
+## Network ports on monitored Windows servers and hosts of database connections
 
+### TCP 135
+The Spotlight Diagnostic Server uses WMI queries to retrieve performance counter information from monitored Windows Server and hosts of database connections. Verify TCP port 135 is open on monitored Windows server and hosts of database connections.
 
-
-TIP: The Spotlight Diagnostic Server uses WMI queries to retrieve performance counter information from monitored Windows Server and hosts of database connections. Verify TCP port 135 is open on monitored Windows server and hosts of database connections.
-
+### UDP 1434
 SQL Server uses UDP 1434 to locate the SQL Server instance port number. If UDP 1434 is closed then the SQL Server instance port number must be included in the connection string used to connect Spotlight to the SQL Server instance.
 
 

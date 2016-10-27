@@ -729,18 +729,18 @@ entries:
       url: /enterprise_backend_logofuseractions.html
       output: web, pdf
 
+    - title: Network Ports
+      url: /enterprise_backend_networkports.html
+      output: web, pdf
+
+    - title: Spotlight Diagnostic User Groups
+      url: /enterprise_backend_spotlightdiagnosticusergroups.html
+      output: web, pdf
+
       subfolders:
-      - title: Deployment over the Windows Network
+      - title: WMI
         output: web
         subfolderitems:
-
-        - title: Network Ports
-          url: /enterprise_backend_networkports.html
-          output: web, pdf
-
-        - title: Spotlight Diagnostic User Groups
-          url: /enterprise_backend_spotlightdiagnosticusergroups.html
-          output: web, pdf
 
         - title: Troubleshooting WMI
           url: /enterprise_backend_wmitroubleshooting.html
