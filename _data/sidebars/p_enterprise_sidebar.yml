@@ -154,7 +154,7 @@ entries:
           url: /enterprise_cfgclient_userexperience.html
           output: web, pdf
 
-      - title: Configure the Spotlight Client Environment
+      - title: Configure the Spotlight Client host
         output: web
         subfolderitems:
 

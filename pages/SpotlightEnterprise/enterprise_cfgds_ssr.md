@@ -13,11 +13,9 @@ folder: SpotlightEnterprise
 1. Click **Configure \| Diagnostic server**.
 2. Select **Configure the Spotlight Statistics Repository**.
 
-In the Spotlight deployment the Spotlight Client communicates with the Spotlight Diagnostic Server which communicates with the Spotlight Statistics Repository.
-
 ## Select the Diagnostic Server
 
-For federated Spotlight Diagnostic Server you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server is independently configured for the Spotlight Statistics Repository.
+If the Spotlight Diagnostic Server is federated you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server is independently configured for the Spotlight Statistics Repository.
 
 ## Configure the Spotlight Statistics repository
 
@@ -47,7 +45,7 @@ Specify the name of the Spotlight Statistics Repository.
 
 ### Create
 
-Click **Create** to create a new Spotlight Statistics Repository. For more information, see Create Spotlight Statistics Repository dialog.
+Click **Create** to create a new Spotlight Statistics Repository.
 
 ### Store alarms in the repository for … days
 

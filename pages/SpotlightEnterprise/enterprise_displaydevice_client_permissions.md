@@ -1,20 +1,19 @@
 ---
 title: Permission to use Spotlight
-summary: "The Spotlight Client is granted permission to run Spotlight, access data and make changes according to the membership of the Windows credentials used to run the Spotlight Client. The Windows credentials used to run the Spotlight Client must be a member of at least one of the following groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. These groups are created when the Spotlight Diagnostic Server is installed."
+summary: "The Spotlight Client is granted permission to run Spotlight, acknowledge, snooze and ignore alarms, configure Spotlight and execute tasks on monitored Windows Server and SQL Server according to the membership of the Windows credentials used to run the Spotlight Client. Spotlight uses membership of the Spotlight diagnostic user groups, Windows groups created on install of Spotlight, to authenticate Spotlight Client access to the Spotlight Diagnostic Server. The Windows credentials used to run the Spotlight Client must be a member of at least one of the three groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. Your Network Administrator can add members, increase and decrease your membership as required."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_displaydevice_client_permissions.html
 folder: SpotlightEnterprise
 ---
 
 
+## Permission to use Spotlight
 
- The following tables document the permissions granted to each level of membership. For membership information and to increase your level of membership, see Spotlight diagnostic user groups.
-
-
+The Windows credentials used to run the Spotlight Client must be a member of at least one of the three groups for the given Spotlight Diagnostic Server: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. Your Network Administrator can add members, increase and decrease your membership as required.
 
 ## Acknowledge, snooze and ignore alarms
 
-The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to acknowledge, snooze and ignore alarms. The Windows credentials used to run the Spotlight Client must be a member of at least one of the following groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only.
+The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to acknowledge, snooze and ignore alarms. There are three Windows groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. Your Network Administrator can add members, increase and decrease your membership as required.
 
 Action | Administrator | User | Read-only
 -------|---------------|------|----------
@@ -25,7 +24,7 @@ Ignore Alarm | Yes | Yes | No
 
 ## Configure Monitoring
 
-The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to access the Spotlight Diagnostic Server, to configure the Spotlight Diagnostic Server, to acknowledge and snooze alarms, and execute actions on monitored systems like kill and pause.
+The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to configure the Spotlight Diagnostic Server. There are three Windows groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. Your Network Administrator can add members, increase and decrease your membership as required.
 
 Action | Administrator | User | Read-only
 -------|---------------|------|----------
@@ -48,7 +47,7 @@ Configureation templates (Save, Delete, Rename) | Yes | Yes | No
 
 ## Configure the Diagnostic Server
 
-The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to configure the Spotlight Diagnostic Server. The Windows credentials used to run the Spotlight Client must be a member of at least one of the following groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only.
+The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to configure the Spotlight Diagnostic Server. There are three Windows groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. Your Network Administrator can add members, increase and decrease your membership as required.
 
 Action | Administrator | User | Read-only
 -------|---------------|------|----------
@@ -76,7 +75,7 @@ User Experience | Yes | Yes | No
 
 ## Execute tasks on monitored SQL Server
 
-The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to execute actions on monitored SQL Server. The Windows credentials used to run the Spotlight Client must be a member of at least one of the following groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only.
+The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to execute actions on monitored SQL Server. There are three Windows groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. Your Network Administrator can add members, increase and decrease your membership as required.
 
 SQL Server drilldowns | Administrator | User | Read-only
 ---------------------------------|---------------|------|----------
@@ -93,7 +92,7 @@ Error Log \| Cycle Error log | Yes | No | No
 
 ## Execute tasks on monitored Windows Server
 
-The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to execute actions on monitored Windows server. The Windows credentials used to run the Spotlight Client must be a member of at least one of the following groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only.
+The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to execute actions on monitored Windows server. There are three Windows groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. Your Network Administrator can add members, increase and decrease your membership as required.
 
 Windows Server drilldowns | Administrator | User | Read-only
 ------------------------------|---------------|------|----------

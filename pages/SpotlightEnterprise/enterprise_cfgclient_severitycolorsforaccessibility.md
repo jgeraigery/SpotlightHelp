@@ -10,8 +10,9 @@ folder: SpotlightEnterprise
 
 ## Open this screen from the Spotlight Client
 
-1. Click **Configure \| Spotlight**.
-2. Select **Appearance \| Severity colors for accessibility**.
+1. Open the Spotlight Client.
+2. Click **Configure \| Spotlight**.
+3. Select **Appearance \| Severity colors for accessibility**.
 
 ## Select a color scheme to indicate alarm severity
 

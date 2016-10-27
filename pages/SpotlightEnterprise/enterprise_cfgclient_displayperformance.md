@@ -13,8 +13,9 @@ folder: SpotlightEnterprise
 
 ## Adjust display performance and quality for this Spotlight Client
 
-1. Click **Configure \| Spotlight**.
-2. Select **Troubleshooting \| Adjust display performance and quality**.
+1. Open the Spotlight Client.
+2. Click **Configure \| Spotlight**.
+3. Select **Troubleshooting \| Adjust display performance and quality**.
 
 
 ## Make adjustments

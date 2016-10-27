@@ -1,5 +1,5 @@
 ---
-title: Configure the appearance of Spotlight charts
+title: Configure the appearance of Spotlight Charts
 summary: "Configure the appearance of Spotlight charts for this Spotlight Client."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgclient_appearanceofcharts.html
@@ -8,10 +8,11 @@ folder: SpotlightEnterprise
 
 
 
-## Configure the appearance of Spotlight charts for this Spotlight Client
+## Configure the appearance of Spotlight Charts for the Spotlight Client
 
-1. Click **Configure \| Spotlight**.
-2. Select **Appearance \| Appearance of charts**.
+1. Open the Spotlight Client.
+2. Click **Configure \| Spotlight**.
+3. Select **Appearance \| Appearance of charts**.
 
 ## Set display options for Spotlight Charts
 
@@ -21,14 +22,14 @@ The sample chart above the control demonstrates how the chart will appear with t
 
 ### Show data tool tips when hovering over charts
 
-Select to display tool tips when you hover the mouse pointer over an item in the Spotlight chart.
+Select to display tool tips when you hover the mouse pointer over an item in the Spotlight Chart.
 
 ### Show data from previous sessions
 
 
 ### Amount of history to display in charts
 
-This affects the time scale in all Spotlight charts, including those displayed when you choose Show History from the shortcut menu invoked when you right-click a component on Spotlight Overview page.
+This affects the time scale in all Spotlight Charts, including those opened on the [Spotlight Overview page][enterprise_display_overview].
 
 
 
