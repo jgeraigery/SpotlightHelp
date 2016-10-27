@@ -127,11 +127,11 @@ The log records when an alarm is snoozed.
 The log records when an alarm is ignored.
 
 
-## Actions on monitored SQL Server
+## Changes to monitored SQL Server
 
 ### SQL Activity drilldown
 
-The log records when a user kills a session from the Spotlight Client. That is command Sessions \| Kill Session.
+The log records when a user kills a session from the Spotlight Client. That is command **Sessions \| Kill Session**.
 
 ### Databases drilldown
 
@@ -158,7 +158,7 @@ The log records when a user changes a configuration parameter from the Spotlight
 The log records when a user archives the current error log file and opens a new log file from the Spotlight Client. That is command Cycle Error log.
 
 
-## Actions on monitored Windows Server
+## Changes to monitored Windows Server
 
 ### Windows Server | Processes drilldown
 

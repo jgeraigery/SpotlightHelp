@@ -27,7 +27,7 @@ The Spotlight Statistics Repository implements a star schema because of the data
 
 Although the Playback Database uses a simpler schema, its data will also become fragmented over time as new data is inserted and old data purged.
 
-To best address performance concerns, fragmentation should be minimized and index statistics should be kept up-to-date. Spotlight's scheduled maintenance feature does this automatically. By default, the Spotlight Diagnostic Server runs maintenance procedures daily at 3am for the Playback Database and Spotlight Statistics Repository. The maintenance schedule can be changed in Spotlight Options. See Configure the database maintenance schedule for more information.
+To best address performance concerns, fragmentation should be minimized and index statistics should be kept up-to-date. Spotlight's scheduled maintenance feature does this automatically. By default, the Spotlight Diagnostic Server runs maintenance procedures daily at 3am for the Playback Database and Spotlight Statistics Repository. The maintenance schedule can be changed in Spotlight Options. See [Configure the database maintenance schedule][enterprise_cfgds_databasemaintenanceschedule].
 
 ## Database backup
 

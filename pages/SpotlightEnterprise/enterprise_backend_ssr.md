@@ -8,7 +8,7 @@ folder: SpotlightEnterprise
 
 ## Deployment
 
-The Spotlight Statistics Repository is deployed on SQL Server. For specifications see the Spotlight Enterprise Release Notes.
+The Spotlight Statistics Repository is deployed on SQL Server.
 
 The Spotlight Statistics Repository is not created during the installation of Spotlight Enterprise. The Spotlight Statistics Repository is (optionally) enabled in the Spotlight Client for the Spotlight Diagnostic Server following installation of Spotlight.
 
@@ -16,14 +16,16 @@ The Spotlight Statistics Repository is not created during the installation of Sp
 
 ## Configuration
 
-Use a Spotlight Client to enable, create and Configure the Spotlight Statistics Repository.
+Use a Spotlight Client to enable, create and [Configure the Spotlight Statistics Repository][enterprise_cfgds_ssr].
+
+Configure the reporting schedules that determine how often data is collected for the Spotlight Statistics Repository. You can reduce the size of the repository by
+limiting the number of collections archived, reducing how often data is collected and reducing the data retention period. [Configure Scheduling][enterprise_cfgmonitor_scheduling]
+
+## Use
+
+The [reports][enterprise_display_reports] use the data collected in the Spotlight Statistics Repository. Reports are used for long term statistical analysis and planning. Use the reports shipped with Spotlight Enterprise or create your own reports by querying the data from the Spotlight Statistics Repository yourself.
 
 ## Maintenance
-
-
-### Reporting and Trending
-
-See how to use the data collected in the Spotlight Statistics Repository.
 
 ### Backup Spotlight data
 
@@ -31,36 +33,17 @@ The Spotlight Statistics Repository is deployed on SQL Server. The backup proced
 
 ### Maintenance plan for Spotlight Statistics Repository and Playback Database
 
-Configure the database maintenance schedule
-
-It is highly recommended that regular maintenance is performed to maintain efficient data retrieval.
-
-
-### Configure \| Scheduling
-
-Configure the reporting schedules that determine how often data is collected for the Spotlight Statistics Repository.
-
-You can reduce the size of the repository by:
-* Limiting the number of collections archived
-* Reducing how often data is collected
-* Reducing the data retention period.
-
-
-### Schema of the Spotlight Statistics Repository
-
-Build on the example reports or create your own reports by querying the data from the Spotlight Statistics Repository yourself.
+It is highly recommended that regular maintenance is performed to maintain efficient data retrieval. [Configure the database maintenance schedule.][enterprise_cfgds_databasemaintenanceschedule]
 
 ### Database Objects and Privileges
 
-
-Click for information on the Spotlight Statistics Repository User Privileges and Roles and Spotlight Statistics Repository Objects Created.
+Browse information on the Spotlight Statistics Repository User Privileges and Roles and Spotlight Statistics Repository Objects Created. [Database Objects and Privileges][enterprise_backend_dobjectsandprivileges]
 
 ### Upgrade
 
 Following upgrade of the Spotlight Diagnostic Server, the Spotlight Statistics Repository is automatically upgraded the next time it is accessed by the Spotlight Diagnostic Server. This may be some time following the upgrade of the Spotlight Diagnostic Server, depending on how often the Spotlight Statistics Repository is accessed.
 
-If in your environment the Spotlight Statistics Repository is replicated as per a Microsoft Replication database the upgrade can fail if schema changes are required that can only be made when replication is turned off. To successfully upgrade the Spotlight Statistics Repository, the steps are to: turn replication off, upgrade the Spotlight Diagnostic Server, then re-enable replication.
-
+{% include note.html content="If in your environment the Spotlight Statistics Repository is replicated as per a Microsoft Replication database the upgrade can fail if schema changes are required that can only be made when replication is turned off. To successfully upgrade the Spotlight Statistics Repository, the steps are to: turn replication off, upgrade the Spotlight Diagnostic Server, then re-enable replication." %}
 
 
 {% include links.html %}
