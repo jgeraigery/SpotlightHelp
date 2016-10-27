@@ -289,16 +289,16 @@ entries:
         output: web
         subfolderitems:
 
+        - title: Spotlight Reports
+          url: /enterprise_display_reports.html
+          output: web, pdf
+
         - title: The Spotlight Report Viewer
           url: /enterprise_display_reportviewer.html
           output: web, pdf
 
-        - title: Reports shipped with Spotlight
+        - title: List of Spotlight Reports
           url: /enterprise_display_reportsshipped.html
-          output: web, pdf
-
-        - title: Create your own Spotlight reports
-          url: /enterprise_display_reportscreate.html
           output: web, pdf
 
       - title: Query the Spotlight Statistics Repository

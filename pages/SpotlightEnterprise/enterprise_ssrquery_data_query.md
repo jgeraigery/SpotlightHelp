@@ -32,7 +32,7 @@ To return the results:
 We can see here that we have data from Windows, SQL Server, the Diagnostic Server and alarms (availability).
 
 
-### Return the name of the Diagnostic Server(s) storing data in the repository
+### Return the name(s) of the Diagnostic Server(s) storing data in the repository
 
 Run the query:
 
@@ -92,23 +92,26 @@ To return the results:
 ### What statistics are available to us?
 Now that we have some information about the Diagnostic Server, monitored servers and categories of collections in the Spotlight Statistics Repository, we want to know what statistics are available to us.
 
-The spotlight_get_tables stored procedure returns a list of tables in the repository for a given data source. Since we are looking for SQL Server data, from our first query above, we know that the datasource is **sqlserver_spotlight**, so we will use that as the parameter in the following query:
+The spotlight_get_tables stored procedure returns a list of tables in the repository for a given data source. Since we are looking for SQL Server data, from our first query above, we know that the datasource is **sqlserver_spotlight**. Use that as the parameter to run the query:
+
 ```
 exec spotlight_get_tables 'sqlserver_spotlight'
 ```
-The following results are returned.
+
+To return the results:
 
 {% include imageClient.html file="pane_ssr_gettables.png" alt="What statistics are available to us?" %}
 
 ### Virtual file stats as an access to file IO statistics
 
-To find out what columns are available to us in the virtual file stats table use the following query. With this query we need to specify the datasource and table name.
+Run this query to find out what columns are available in the virtual file stats table. Specify the datasource and table name.
+
 ```
 exec spotlight_get_table_columns 'sqlserver_spotlight','virtualfilestats'
 ```
-We need to produce the report over a time range, but for curiosity’s sake, we would like to find out the time range of all stored data for a particular domain name, monitored object, and table combination.
 
-To do this, use the spotlight_get_table_span stored procedure and specify the domain name, monitored object, and table name.
+We need to produce the report over a time range, but for curiosity’s sake, we would like to find out the time range of all stored data for a particular domain name, monitored object, and table combination. Run the spotlight_get_table_span stored procedure and specify the domain name, monitored object, and table name.
+
 ```
 exec spotlight_get_table_span 'DS123:3843','Windows01_SQLServer789_sqlserver','virtualfilestats'
 ```
@@ -128,21 +131,19 @@ We’ll use the spotlight_get_table_range stored procedure and specify the follo
 Spotlight_get_table_range returns data for the requested time range for a table, for a particular monitored object and domain.
 
 ### Query
-This gives us the following query:
+Run the query:
 
 ```
 exec spotlight_get_table_range '2009-03-26 11:15:16.153','2009-07-26 17:15:17.113', 'DS123:3843','Windows01_SQLServer789_sqlserver', 'virtualfilestats'
 ```
 
 ### Results
-Which returns all columns for the table ‘virtualfilestats’:
+The query returns all columns for the table **virtualfilestats**. Although there is a lot of useful data in this query result, it is not ideal.
 
 {% include imageClient.html file="pane_ssr_gettablerange.png" alt="Which returns all columns for the table virtualfilestats" %}
 
 ### Sample T-SQL query
-Although there is a lot of useful data in the query results, it’s not exactly what we are looking for. We need to refine the data returned from the Spotlight Statistics Repository. Following on from the example above, if we want to retrieve only certain columns from the ‘virtualfilestats’ table, we can use custom T-SQL to return specific data.
-
-To return only the ‘iorate’, ‘disk’, ‘readsrate’, and ‘writesrate’ columns from the ‘virtualfilestats’ table, we can use the following custom T-SQL:
+This is a sample T-SQL query to refine the data returned from the Spotlight Statistics Repository. Following on from the example above, if we want to retrieve only certain columns from the **virtualfilestats** table, we can use custom T-SQL to return specific data. To return only the ‘iorate’, ‘disk’, ‘readsrate’, and ‘writesrate’ columns from the ‘virtualfilestats’ table, we can use the following custom T-SQL:
 
 ```
 select
@@ -189,14 +190,14 @@ sp.timecollected
 ```
 
 ### results
-This gives us the following results:
+The T-SQL gives us the following results:
 
 {% include imageClient.html file="pane_ssr_customsqlresults.png" alt="This gives us the results" %}
 
 ## Query Custom Counters
-Querying custom counters is exactly the same as querying other data in the Spotlight Statistics Repository. SQL Server custom counters are stored in the statistic class **sqlcustomcounters** and Windows custom counters are stored in the class **windowscustomcounters**. You can use the API stored procedures to retrieve date ranges and column names with these like any other data collection.
+SQL Server custom counters are stored in the statistic class **sqlcustomcounters** and Windows custom counters are stored in the class **windowscustomcounters**. Use [Spotlight API Stored Procedures][enterprise_ssrquery_storedprocedures_api] to retrieve date ranges and column names with these like any other data collection.
 
-{% include note.html content="This presumes you have created a custom counter in Spotlight  and now want to create a report that contains data from that counter." %}
+{% include note.html content="Pre-requisite: You have created a custom counter in Spotlight  and now want to create a report that contains data from that counter." %}
 
 ### Sample T-SQL Query
 This is a sample T-SQL statement that retrieves SQL Server custom counter values.

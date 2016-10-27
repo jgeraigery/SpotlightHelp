@@ -13,7 +13,7 @@ Following is an example of data from the **sqlblockinglist** collection written 
 
 {% include imageClient.html file="figure_ssr_chart.png" alt="How data flows into the Spotlight Statistics Repository" %}
 
-{% include imageClient.html file="figure_ssr_chart2.png.png" alt="How data flows into the Spotlight Statistics Repository" %}
+{% include imageClient.html file="figure_ssr_chart2.png" alt="How data flows into the Spotlight Statistics Repository" %}
 
 
 {% include links.html %}

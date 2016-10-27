@@ -4,33 +4,27 @@ keywords: reports
 summary: "Reports assist with long-term trend analysis and associated reporting."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_reports.html
-id: 320
 folder: SpotlightEnterprise
 ---
 
 
-Spotlight reports are displayed in an external viewer.
+## Spotlight Statistics Repository
 
-To view a Spotlight report from the Spotlight Client
-
-Select Reports | Reports.
+Data for long term history for reporting and trending is stored in the Spotlight Statistics Repository. By default, use of the Spotlight Statistics Repository is disabled. Data for long term history for reporting and trending is only stored when the use of the Spotlight Statistics Repository is enabled and the Spotlight Statistics Repository is appropriately configured. See [Configure the Spotlight Statistics Repository][enterprise_cfgds_ssr].
 
 
+## Select a report. Generate reports.
 
-Select a report. For more information on the sample reports, see Sample reports.
-If SQL Server authentication is required, enter the user and password details.
-Fill in the input parameters. These vary but many require the start date, end date and connection name.
-Click View Report.
+Use a Spotlight Client to generate reports.
 
- TIP:
-
-Change reports by selecting a different report from the Report list at the top of the Spotlight Report Viewer. Check the input fields are still correct and click View Report.
-If you change the report criteria (time frame, Spotlight on SQL Server or Connection Name), click View Report to see an updated version of the report.
-Save reports in PDF, or as an .xls (Microsoft Excel) file using the Save icon on the Report toolbar.
-Print, search, and refresh reports using the Report toolbar.
-Create your own reports or customize existing reports. For more information, see Create reports.
+1. Open the Spotlight Client.
+2. Click **Reports**.
+3. Select a report from the [List of Reports][enterprise_display_reportsshipped].
+4. Spotlight reports are displayed in the [Spotlight Report Viewer][enterprise_display_reportviewer].
 
 
+## Customise the shipped reports or create your own reports
 
+Create your own reports or customize existing reports. [Query the Spotlight Statistics Repository][enterprise_ssrquery]
 
 {% include links.html %}
