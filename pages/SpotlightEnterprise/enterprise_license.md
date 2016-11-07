@@ -33,7 +33,7 @@ If you see this message then the trial authorization for Spotlight Enterprise ha
 
 If you see this message then the authorization string or the site message has been entered incorrectly.
 
-Make sure that you have entered the authorization string and site message exactly as stated on your Product Authorization sheet or provided by your Dell distributor.
+Make sure that you have entered the authorization string and site message exactly as stated on your Product Authorization sheet or provided by your Quest distributor.
 
 The site message is case sensitive.
 

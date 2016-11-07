@@ -67,7 +67,7 @@ In most cases, the correct action to take for a suspect database is to restore f
 
 If restoring is not an option for you and you cannot fix the problem using the tips above, there are a few more options you can attempt. These will not work in all cases, but sometimes they may give you enough to extract data from the corrupt database that cannot be retrieved any other way.
 
-Note: These procedures should only be considered as a last resort. They are not supported by Microsoft or Dell, and could irretrievably corrupt your databases and data.
+Note: These procedures should only be considered as a last resort. They are not supported by Microsoft or Quest, and could irretrievably corrupt your databases and data.
 
 Using Emergency Mode: Emergency mode is a special status that can be set on an individual database that causes SQL Server to skip recovery for that one database.  In some cases, this can make the corrupt database available in order to extract data that cannot be retrieved any other way.
 

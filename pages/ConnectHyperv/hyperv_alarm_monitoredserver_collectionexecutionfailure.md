@@ -13,7 +13,7 @@ folder: ConnectHyperv
 Refer to the message details for this alarm.
 
 * If the message details alert you to a problem in your environment then take the action required to resolve that problem.
-* If the message details alert you to a problem within Spotlight then contact Dell Support.
+* If the message details alert you to a problem within Spotlight then contact Quest Support.
 
 
 {% include links.html %}

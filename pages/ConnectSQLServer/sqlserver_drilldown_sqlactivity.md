@@ -41,7 +41,7 @@ TIP:
 Shows the batch of SQL statements last executed or currently executing by the selected session.)
 
 TIP:
-* Use Dell SQL Optimizer (if installed) to tune the displayed SQL by clicking **Optimize SQL**.
+* Use SQL Optimizer (if installed) to tune the displayed SQL by clicking **Optimize SQL**.
 * You can copy SQL text from the SQL Statement page by right-clicking and selecting the appropriate option from the shortcut menu.
 
 
@@ -58,7 +58,7 @@ For performance reasons, Spotlight limits the number of records that can be view
 
  TIP:
 * Opening the **Session Trace** page initiates a new session that does a trace on the selected session. The grid displays **No Data** until such time that the session executes some SQL. The grid is populated with the SQL that occurs from the time the **Session Trace** page is opened.
-* You can use Dell SQL Optimizer (if installed) to tune the SQL of the selected session. To do this, select a row in the grid and click **Optimize SQL**.
+* You can use SQL Optimizer (if installed) to tune the SQL of the selected session. To do this, select a row in the grid and click **Optimize SQL**.
 * To use the Session Trace functionality the version of SQL Server Management Tools installed on the Diagnostic Server is required to match the latest version of SQL Server monitored. When monitoring SQL Server 2012, SQL Server 2012 Management Tools are required.
 
 ### Session Locks
@@ -189,7 +189,7 @@ The Blocking grid is not refreshed automatically. To refresh the Blocking grid, 
 
 
 
-You can use Dell SQL Optimizer (if installed) to tune the SQL for the selected session. To do this, select a row in the grid and click **Optimize SQL**.
+You can use SQL Optimizer (if installed) to tune the SQL for the selected session. To do this, select a row in the grid and click **Optimize SQL**.
 
 
 
@@ -273,7 +273,7 @@ TIP:
 * Not all columns are available for all event classes. Some columns will be blank for certain event classes.
 * Some columns are hidden by default. To view hidden columns, right-click **Organize Columns**.
 * To wrap a column onto multiple lines, right-click the data content of the grid and select **Properties \| Options**. Turning on the word wrap option may degrade the performance of Spotlight.
-* If Dell SQL Optimizer is installed, you can use it to tune non-conforming SQL that has been identified. To do this, select a row in the grid and click **Optimize SQL**.
+* If SQL Optimizer is installed, you can use it to tune non-conforming SQL that has been identified. To do this, select a row in the grid and click **Optimize SQL**.
 * Results are cleared when you leave the SQL Analysis page. Click **Clear Grid** to clear the grid manually.
 
 
@@ -337,7 +337,7 @@ Shows the SQL statement of the currently selected row.
 
 
 TIP:
-* Use Dell SQL Optimizer (if installed) to tune the displayed SQL by clicking **Optimize SQL**.
+* Use SQL Optimizer (if installed) to tune the displayed SQL by clicking **Optimize SQL**.
 * You can copy SQL text from the SQL Statement page by right-clicking and selecting the appropriate option from the shortcut menu.
 
 

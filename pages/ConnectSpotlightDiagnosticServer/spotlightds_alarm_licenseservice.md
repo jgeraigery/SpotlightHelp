@@ -8,9 +8,9 @@ id: alarm_ds_licenseservice
 folder: ConnectSpotlightDS
 ---
 
-If the license has expired contact Dell for a new license.
+If the license has expired contact Quest for a new license.
 
-For all other license errors contact Dell support.
+For all other license errors contact Quest support.
 
 
 {% include links.html %}

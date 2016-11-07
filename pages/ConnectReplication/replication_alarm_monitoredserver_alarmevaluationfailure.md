@@ -9,6 +9,6 @@ folder: ConnectReplication
 ---
 
 
-To resolve this alarm, contact Dell Support.
+To resolve this alarm, contact Quest Support.
 
 {% include links.html %}
