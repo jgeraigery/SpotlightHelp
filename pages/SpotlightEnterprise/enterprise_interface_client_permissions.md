@@ -2,7 +2,7 @@
 title: Permission to use Spotlight
 summary: "The Spotlight Client is granted permission to run Spotlight, acknowledge, snooze and ignore alarms, configure Spotlight and execute tasks on monitored Windows Server and SQL Server according to the membership of the Windows credentials used to run the Spotlight Client. Spotlight uses membership of the Spotlight diagnostic user groups, Windows groups created on install of Spotlight, to authenticate Spotlight Client access to the Spotlight Diagnostic Server. The Windows credentials used to run the Spotlight Client must be a member of at least one of the three groups: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. Your Network Administrator can add members, increase and decrease your membership as required."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_displaydevice_client_permissions.html
+permalink: enterprise_interface_client_permissions.html
 folder: SpotlightEnterprise
 ---
 

@@ -2,7 +2,7 @@
 title: Spotlight Management Pack for SCOM
 summary: "The Spotlight Management Pack for SCOM is appropriate for organizations that use SCOM (System Center Operations Manager) as their centralized monitoring system and wish to use Spotlight as their tool of choice for SQL Server monitoring."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_displaydevice_scom.html
+permalink: enterprise_interface_scom.html
 folder: SpotlightEnterprise
 ---
 

@@ -2,7 +2,7 @@
 title: PagerDuty
 summary: "PagerDuty® is a third party product (www.pagerduty.com). Spotlight can be configured to send an incident report to a PagerDuty service when a Spotlight alarm is raised."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_displaydevice_pagerduty.html
+permalink: enterprise_interface_pagerduty.html
 folder: SpotlightEnterprise
 ---
 

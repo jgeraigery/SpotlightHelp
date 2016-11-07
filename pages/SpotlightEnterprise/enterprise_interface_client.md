@@ -2,7 +2,7 @@
 title: Spotlight Client
 summary: "Use the Spotight Client to comprehensively view Spotlight data and configure Spotlight."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_displaydevice_client.html
+permalink: enterprise_interface_client.html
 folder: SpotlightEnterprise
 ---
 

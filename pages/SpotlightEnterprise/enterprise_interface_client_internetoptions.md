@@ -2,7 +2,7 @@
 title: Internet Options on the Spotlight Client
 summary: "The Spotlight Client connects to the Spotlight Diagnostic Server via Internet port 40403. If you have customized Internet Options on the Spotlight Client, verify that your customized configurations do not conflict with Spotlight."
 sidebar: p_enterprise_sidebar
-permalink: enterprise_displaydevice_client_internetoptions.html
+permalink: enterprise_interface_client_internetoptions.html
 folder: SpotlightEnterprise
 ---
 

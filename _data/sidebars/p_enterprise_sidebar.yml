@@ -110,11 +110,11 @@ entries:
     folderitems:
 
     - title: Using the Spotlight Client
-      url: /enterprise_displaydevice_client.html
+      url: /enterprise_interface_client.html
       output: web, pdf
 
     - title: Permission to use Spotlight
-      url: /enterprise_displaydevice_client_permissions.html
+      url: /enterprise_interface_client_permissions.html
       output: web, pdf
 
       subfolders:
@@ -159,11 +159,11 @@ entries:
         subfolderitems:
 
         - title: Internet Options
-          url: /enterprise_displaydevice_client_internetoptions.html
+          url: /enterprise_interface_client_internetoptions.html
           output: web, pdf
 
         - title: Microsoft App-V
-          url: /enterprise_displaydevice_client_microsoftappv.html
+          url: /enterprise_interface_client_microsoftappv.html
           output: web, pdf
 
   - title: Displays
