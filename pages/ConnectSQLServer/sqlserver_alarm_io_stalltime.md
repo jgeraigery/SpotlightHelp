@@ -13,10 +13,10 @@ Sustained high I/O wait times are a good indicator that you have a disk subsyste
 
 ## When the alarm is raised
 
-Look at the I/O page on the SQL Server \| Diagnostics Drilldown to see what is contributing to I/O consumption. If SQL Server is contributing to I/O consumption look at the following:
+Look at the SQL Server \| Wait Events drilldown \| IO Category to see what is contributing to I/O consumption. If SQL Server is contributing to I/O consumption look at the following:
 
-* The I/O by File page on the SQL Server \| SQL Activity Drilldown to see which files are waiting on I/O operations. High rates of wait on log files may indicate that the device on which the log file resides is not able to keep up.
-* The Sessions page on the SQL Server \| SQL Activity Drilldown to see which SQL Server sessions are generating high amounts of disk activity. The SQL and the query plan are available for further analysis by clicking a row in the grid.
+* The I/O by File page on the SQL Server \| SQL Activity drilldown to see which files are waiting on I/O operations. High rates of wait on log files may indicate that the device on which the log file resides is not able to keep up.
+* The Sessions page on the SQL Server \| SQL Activity drilldown to see which SQL Server sessions are generating high amounts of disk activity. The SQL and the query plan are available for further analysis by clicking a row in the grid.
 * The SQL Server \| Wait Statistics Drilldown. Looking at the top statements by Avg Logical Reads/Writes shows SQL that may be doing large amounts of logical I/O. This logical I/O may result in unnecessary physical I/O.
 
 ## Configuration
