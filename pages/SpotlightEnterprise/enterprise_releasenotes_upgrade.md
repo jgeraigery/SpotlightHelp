@@ -1,10 +1,13 @@
 ---
-title: Getting Started with this Release
+title: Upgrade and installation instructions
 keywords: release notes
-summary:
+summary: ""
 sidebar: p_enterprise_sidebar
-permalink: enterprise_releasenotes_gettingstarted.html
+permalink: enterprise_releasenotes_upgrade.html
 folder: SpotlightEnterprise
 ---
+
+
+
 
 {% include links.html %}
