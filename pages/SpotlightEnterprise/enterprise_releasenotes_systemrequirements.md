@@ -23,14 +23,14 @@ This space should exist on a local disk drive rather than a network drive.
 
 ### Operating system
 
-* Microsoft® Windows® 10 (32-bit and 64-bit)
-* Microsoft Windows 8.1 (32-bit and 64-bit)
-* Microsoft Windows 8 (32-bit and 64-bit)
-* Microsoft Windows 7 (32-bit and 64-bit)
+* Microsoft® Windows® 10 (64-bit)
+* Microsoft Windows 8.1 (64-bit)
+* Microsoft Windows 8 (64-bit)
+* Microsoft Windows 7 (64-bit)
 * Microsoft Windows Server® 2012 R2 (64-bit)
 * Microsoft Windows Server 2012 (64-bit)
 * Microsoft Windows Server 2008 R2 (64-bit)
-* Microsoft Windows Server 2008 (32-bit and 64-bit)
+* Microsoft Windows Server 2008 (64-bit)
 
 ### Screen resolution
 Minimum Resolution: 1280x1024
@@ -77,14 +77,14 @@ If the Diagnostic Server’s connection to the Spotlight Statistics Repository o
 
 ### Operating system
 
-* Microsoft Windows 10 (32-bit and 64-bit)
-* Microsoft Windows 8.1 (32-bit and 64-bit)
-* Microsoft Windows 8 (32-bit and 64-bit)
-* Microsoft Windows 7 (32-bit and 64-bit)
+* Microsoft Windows 10 (64-bit)
+* Microsoft Windows 8.1 (64-bit)
+* Microsoft Windows 8 (64-bit)
+* Microsoft Windows 7 (64-bit)
 * Microsoft Windows Server 2012 R2 (64-bit)
 * Microsoft Windows Server 2012 (64-bit)
 * Microsoft Windows Server 2008 R2 (64-bit)
-* Microsoft Windows Server 2008 (32-bit and 64-bit)
+* Microsoft Windows Server 2008 (64-bit)
 
 Note: The Diagnostic Server is not supported on a cluster or High Availability Always On.
 

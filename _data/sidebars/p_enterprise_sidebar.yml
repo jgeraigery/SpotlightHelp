@@ -44,6 +44,10 @@ entries:
           url: /enterprise_releasenotes_enhancements.html
           output: web, pdf
 
+        - title: Deprecated features
+          url: /enterprise_releasenotes_deprecated.html
+          output: web, pdf
+
         - title: Resolved Issues
           url: /enterprise_releasenotes_resolvedissues.html
           output: web, pdf
@@ -60,8 +64,12 @@ entries:
           url: /enterprise_releasenotes_licensing.html
           output: web, pdf
 
-        - title: Getting Started
-          url: /enterprise_releasenotes_gettingstarted.html
+        - title: Upgrade and installation instructions
+          url: /enterprise_releasenotes_upgrade.html
+          output: web, pdf
+
+        - title: More resources
+          url: /enterprise_releasenotes_moreresources.html
           output: web, pdf
 
         - title: Globalization

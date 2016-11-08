@@ -84,7 +84,7 @@ GMT Time Zone: The Diagnostic Server shows the wrong time. The Activity drilldow
 Known Issue | Issue ID
 ------------|---------
 **Home Page** - An unexpected error occurs the first time the SQL Server home page is opened in the Spotlight client session. <br><br> \+ Performance Health / Wait Events / Workload Analysis - These drilldowns show no data. <br><br> *Workaround:* Apply patch to .NET 4 - Software Update KB2468871v2 <br><br> See also own Known issues configuring Spotlight 3606. | 3606
-**SQL Server 2012 and above** - Spotlight does not support Analysis Services in Tabular and Sharepoint modes. |
+**SQL Server 2012 and above** - Spotlight does not support Analysis Services in Tabular and Sharepoint modes. | 
 **Workload Analysis drilldown** - SQL Server 2012 and above - When monitoring a failover cluster the Physical Reads value is 0 / No Data. | 3688
 **SQL Server 2012 and SQL Server 2008 R2** - "Using dbghelp.dll version 4.0.5" entries in the SQL Server Error Log. The source of these entries can be traced back to a known issue (Microsoft) when a statement or job executes the sys.fn_xe_file_target_read_file stored procedure. Refer to http://support.microsoft.com/kb/2878139 <br><br> The Spotlight SQL Server \| Performance Health feature uses XEvents sessions which may execute the sys.fn_xe_file_target_read_file stored procedure. | 2927
 In the SQL Server Error Log, entries "SQL Trace was started" and "SQL Trace was stopped." repeat every 10 minutes while Spotlight is monitoring the connection. These entries are added by Microsoft; Spotlight on SQL Server uses SQL Trace to monitor for deadlocks. | 3582

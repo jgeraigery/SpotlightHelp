@@ -41,14 +41,6 @@ Scenarios that may be involved with a typical install include:
 
 The Spotlight Client will be installed as follows, unless you indicate otherwise
 
-#### Install location 32 bit system
-
-```
-C:\Program Files\Dell\Spotlight on SQL Server
-```
-
-#### Install location 64 bit system
-
 ```
 C:\Program Files (x86)\Dell\Spotlight on SQL Server
 ```
@@ -59,7 +51,7 @@ Do not install the Spotlight Client in the same location as an existing (but dif
 
 #### Install location
 
-Default installation folder for the Diagnostic Server (32bit and 64bit systems):
+Default installation folder for the Diagnostic Server:
 
 ```
 C:\Program Files\Dell\Diagnostic Server
