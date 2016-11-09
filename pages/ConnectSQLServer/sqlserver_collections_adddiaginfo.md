@@ -28,19 +28,6 @@ SQL Server \| SQL Activity Drilldown \| Sessions page
 
 
 
-## I/O Stall Time Alarm
-
-### Severity to trigger data collection
-High
-
-### Data Collection Default
-Off
-
-### To show this drilldown: select the alarm in the alarm log and click Diagnose.
-SQL Server \| Diagnostics Drilldown \| IO page
-
-
-
 ## Locks - Blocked Processes Alarm
 
 ### Severity to trigger data collection
