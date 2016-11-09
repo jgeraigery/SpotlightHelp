@@ -23,14 +23,6 @@ Off
 #### To show this drilldown: select the alarm in the alarm log and click Diagnose.
 Windows Server \| Processes Drilldown \| Processes page
 
-### Severity to trigger data collection
-High
-
-#### Data Collection Default
-Off
-
-#### For additional information: select the alarm in the playback database and navigate to this drilldown.
-SQL Server \| Diagnostics Drilldown \| Diagnose CPU Pressure
 
 ## CPU - Individual CPU Usage Alarm
 
