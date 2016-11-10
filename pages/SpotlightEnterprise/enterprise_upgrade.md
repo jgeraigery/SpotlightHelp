@@ -31,7 +31,7 @@ The following information on the Spotlight Diagnostic Server is preserved when y
 *  Alarm Actions (These include running a program and sending an email.)
 *  Planned Outages
 *  Global options such as user-created Error Log rules
-*  Configuration information for the Spotlight Statistics Repository (this applies only if you installed the Spotlight Statistics Repository from an earlier version of Spotlight on SQL Server) and the Playback Database.
+*  Configuration information for the Spotlight Statistics Repository (this applies only if you installed the Spotlight Statistics Repository from Spotlight on SQL Server) and the Playback Database.
 
 ### Which versions of Spotlight can I upgrade from?
 
@@ -56,7 +56,7 @@ The alarms that were factory set to require acknowledgment in Spotlight 11.2 and
 *  SQL Agent - Jobs Failed
 
 ### Spotlight on SQL Server Enterprise 11.1.x or earlier and Spotlight Mobile
-If you used Spotlight 11.1.x or earlier to monitor your Spotlight on SQL Server connections on a mobile device and intend to continue monitoring your connections on a mobile device then the following additional upgrade instructions are required.
+If you used Spotlight on SQL Server 11.1.x or earlier to monitor your Spotlight connections on a mobile device and intend to continue monitoring your connections on a mobile device then the following additional upgrade instructions are required.
 
 1. Uninstall the **Spotlight Web Publisher** via **Windows \| Control Panel \| Programs and Features**. The Spotlight Web Publisher was required in the past to monitor SQL Server connections on a mobile device. It is now important that you uninstall it. By default the Spotlight Web Publisher was installed on the same computer as the Spotlight Diagnostic Server.
 

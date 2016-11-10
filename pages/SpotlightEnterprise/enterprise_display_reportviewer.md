@@ -20,7 +20,7 @@ From the Spotlight Client
 ### Modify the report criteria
 Change reports by selecting a different report from the Report list at the top of the Spotlight Report Viewer. Check the input fields are still correct and click **View Report**.
 
-If you change the report criteria (time frame, Spotlight on SQL Server or Connection Name), click **View Report** to see an updated version of the report.
+If you change the report criteria (time frame or Connection Name), click **View Report** to see an updated version of the report.
 
 ### Save / Export
 Save reports in PDF, or as an .xls (Microsoft Excel) file using the **Save** icon on the Report toolbar.
@@ -38,7 +38,7 @@ Data is collected from the SQL Server instance then written to the Spotlight Sta
 You can customize the collection schedules in the Spotlight Client. [Configure Scheduling][enterprise_cfgmonitor_scheduling]
 
 ## Where are the report definition files?
-The default location for the definition (rdl) files is in the Spotlight on SQL Server Client installation folder in the Plug-ins\Trending\Reports folder.
+The default location for the definition (rdl) files is in the Spotlight Client installation folder in the Plug-ins\Trending\Reports folder.
 
 If you do not have write access to the Program Files folders listed above, you can create the following folder and use it as an alternative: <user>\Documents\Spotlight Reports
 

@@ -114,57 +114,24 @@ A single Spotlight Diagnostic Server is designed to monitor a maximum of 100 SQL
 
 Spotlight Enterprise is able to monitor the following connections
 
-### SQL Server
+### Databases
 
-Spotlight can monitor SQL Server instances of the following versions:
-
-* SQL Server 2016 (32-bit and 64-bit)
-* SQL Server 2014 (32-bit and 64-bit)
-* SQL Server 2012 (32-bit and 64-bit)
-* SQL Server 2008 R2 (32-bit and 64-bit)
-* SQL Server 2008 (32-bit and 64-bit)
-* SQL Server 2005 (32-bit and 64-bit)
-
-Spotlight Enterprise also supports MSDE (2000), SQL Express (2005) and SQL Server 2008 Express Edition. Note that use of these versions to host playback or Spotlight Statistics Repository databases is not supported.
-
-Spotlight continues to monitor SQL Server 2000 instances Service Pack 3 or later, however no further support (fixes) will be provided.
-
-Spotlight cannot monitor earlier versions of SQL Server (version 7.x and earlier).
-
-Spotlight supports all SQL Server sort orders, including case-sensitive and binary sort orders. Spotlight cannot monitor SQL Server instances where the instance name contains non-US ASCII characters.
-
-On each monitored instance Spotlight requires the network setting "File and Print Sharing" to be enabled.
-
-UDP port 1434 should be open. If UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance.
+* [SQL Server][sqlserver_connect_requirements]
+* Oracle
 
 ### Database Cloud Service
 Spotlight can be used to monitor SQL Azure.
 
-### Windows Server
-Spotlight can monitor the following operating systems:
+### Operating Systems
 
-* Microsoft Windows 10 (32-bit and 64-bit)
-* Microsoft Windows 8.1 (32-bit and 64-bit)
-* Microsoft Windows 8 (32-bit and 64-bit)
-* Microsoft Windows 7 (32-bit and 64-bit)
-* Microsoft Windows Vista (32-bit and 64-bit)
-* Microsoft Windows Server 2012 R2 (64-bit)
-* Microsoft Windows Server 2012 (64-bit)
-* Microsoft Windows Server 2008 R2 (64-bit)
-* Microsoft Windows Server 2008 (32-bit and 64-bit)
-* Microsoft Windows Server 2003 (32-bit and 64-bit), however as this operating system is deprecated, WMI issues will no longer be investigated by support.
-
-Spotlight requires the network setting "File and Print Sharing" to be enabled and any firewall configured to open TCP port 135.
+* [Microsoft Windows][windows_connect_requirements]
+* Uni
 
 ## Virtualization
 Spotlight can monitor virtual environments and virtual guest machines in a virtual environment. The following is supported:
 
-* VMware® ESX infrastructure. VMware vCenter 2.5 (or later). VMware ESX Server™ 4.0 (or later)
-* Hyper-V® 6.2 and above.
-
-The username used to connect to the virtual guest machine must have at least a read-only role.
-
-Ensure any firewall is configured to open TCP port 135.
+* [VMware® ESX infrastructure.][vmware_connect_requirements]
+* [Hyper-V® 6.2 and above.][hyperv_connect_requirements]
 
 
 ## Playback database requirements
@@ -193,8 +160,6 @@ The Playback Database can be installed on:
 
 ### Other requirements
 The SQL Browser service must be running on the machine where the Playback Database is installed. Alternatively you can use the host and port number of the (named) SQL Server instance you want to connect to, when creating a connection and connecting to the Playback Database.
-
-For more information, see the Spotlight on SQL Server Enterprise Deployment Guide.
 
 ### Maintenance
 The Diagnostic Server runs maintenance procedures daily at 3am for the Playback Database. This is configurable.
@@ -233,7 +198,7 @@ It is highly recommended that regular maintenance is performed on the Spotlight 
 
 
 ## Upgrade and compatibility
-Use the Spotlight installer to upgrade from version 10.0 or later of Spotlight on SQL Server. To upgrade from an earlier version of Spotlight than 10.0, upgrade to at least version 10.0 before upgrading to 11.7. To upgrade from 10.5.0, first upgrade to 10.5.2 and then upgrade to 12.0.
+Use the Spotlight installer to upgrade from Spotlight on SQL Server version 10.0 or later. To upgrade from an earlier version of Spotlight than 10.0, upgrade to at least version 10.0 before upgrading to 11.7. To upgrade from 10.5.0, first upgrade to 10.5.2 and then upgrade to 12.0.
 
 ### Spotlight Diagnostic Server - upgrade
 The following is transferred during the upgrade:
@@ -244,7 +209,7 @@ The following is transferred during the upgrade:
 * Alarm Actions (These include running a program and sending an email.)
 * Planned Outages
 * Global options such as user-created Error Log rules
-* Configuration information for the Spotlight Statistics Repository (this applies only if you installed the Spotlight Statistics Repository from an earlier version of Spotlight on SQL Server.)
+* Configuration information for the Spotlight Statistics Repository (this applies only if you installed the Spotlight Statistics Repository from Spotlight on SQL Server.)
 
 ### Alarms requiring acknowledgment - upgrade
 The Spotlight factory settings for alarms requiring acknowledgment changes on upgrade from Spotlight 11.2. Only Connection Failure alarms are now factory set to require acknowledgment.
@@ -262,8 +227,8 @@ The alarms that were factory set to require acknowledgment in Spotlight 11.2 are
 * Mirroring Failedover
 * SQL Agent - Jobs Failed
 
-### Monitoring your Spotlight on SQL Server connections on a mobile device - upgrade
-If you are upgrading from 11.1.x and used that version or earlier to monitor your Spotlight on SQL Server connections on a mobile device and intend to continue monitoring your connections on a mobile device then the following additional upgrade instructions are required.
+### Monitoring your Spotlight connections on a mobile device - upgrade
+If you are upgrading from Spotlight on SQL Server 11.1.x and used that version or earlier to monitor your Spotlight on SQL Server connections on a mobile device and intend to continue monitoring your connections on a mobile device then the following additional upgrade instructions are required.
 
 1. Uninstall the Spotlight Web Publisher via Windows | Control Panel | Programs and Features. The Spotlight Web Publisher was required in the past to monitor SQL Server connections on a mobile device. It is now important that you uninstall it. By default the Spotlight Web Publisher was installed on the same computer as the Spotlight Diagnostic Server.
 2. From the Spotlight Client, click Configure | Spotlight Cloud. Select Upload data to Spotlight Cloud. Ensure your Spotlight Cloud (Spotlight Essentials) account details are correct.

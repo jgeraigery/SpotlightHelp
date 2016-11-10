@@ -33,10 +33,10 @@ Use Spotlight API stored procedures to browse dimension tables in the repository
 ## Reference to the schema of the Spotlight Statistics Repository
 
 ### Table definitions  
-Definitions to repository objects (tables) created by Spotlight on SQL Server in the Spotlight Statistics Repository.
+Definitions to repository objects (tables) created by Spotlight in the Spotlight Statistics Repository.
 
 ### Stored procedures  
-Definitions to repository objects (procedures) created by Spotlight on SQL Server in the Spotlight Statistics Repository. Stored procedures return metadata about the Spotlight Statistics Repository or data from within the Spotlight Statistics Repository.  
+Definitions to repository objects (procedures) created by Spotlight in the Spotlight Statistics Repository. Stored procedures return metadata about the Spotlight Statistics Repository or data from within the Spotlight Statistics Repository.  
 
 ### Specifications  
 Specifications to the stored procedures in the Spotlight Statistics Repository.  
