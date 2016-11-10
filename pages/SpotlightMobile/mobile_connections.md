@@ -1,6 +1,6 @@
 ---
-title: Connections
-summary: "Select a connection or connection view to monitor. Create a new connection view."
+title: Connections display
+summary: "Select a Spotlight Mobile connection or connection view to display. Create a new connection view."
 sidebar: p_mobile_sidebar
 permalink: mobile_connections.html
 folder: SpotlightMobile
@@ -21,13 +21,13 @@ Android | iPhone
 
 Tap on a connection vew to show those connections on a [Heat Map][mobile_heatmap].
 
-## Open an Alarm List for a connection view
+## Open an Alarm List
 
 Tap on a connection vew to show those connections on a Heat Map. From the Heat Map, tap to see the [Alarm List][mobile_alarmlist].
 
 ## Open the Spotlight Overview page
 
-Tap on a connection.
+Tap on a connection to see that connection on a [Spotlight Overview page][mobile_overview].
 
 ## Open an Alarm List for a connection
 

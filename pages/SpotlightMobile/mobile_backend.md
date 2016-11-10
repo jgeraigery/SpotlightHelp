@@ -8,10 +8,13 @@ folder: SpotlightMobile
 
 
 
+## Interfaces to Spotlight Enterprise
 
-## Spotlight Client
+### Spotlight Client
 
-A Spotlight Client is used to configure Spotlight. For example, a Spotlight Client is used to add and remove the connections monitored through Spotlight. A Spotlight Client is used to configure alarms, to configure the collection schedules and other configurations of the deployment. This cannot be done in Spotlight Mobile.
+Use a Spotlight Client to configure Spotlight. For example, a Spotlight Client is used to add and remove the connections monitored through Spotlight. A Spotlight Client is used to configure alarms, to configure the collection schedules and other operational configurations of the deployment. This cannot be done in Spotlight Mobile.
+
+The Spotlight Client is a core component of Spotlight Enterprise.
 
 ## Data Collection and Storage
 
@@ -21,7 +24,7 @@ The Spotlight Diagnostic Server is at the core of the Spotlight Enterprise archi
 
 ### Spotlight Playback Database
 
-Recent history is stored in the Playback Database. The Playback Database is deployed on SQL Server. There is one Playback Database per Spotlight Diagnostic Server. Spotlight Mobile cannot be used to configure the Playback Database. Use a Spotlight Client to configure the Playback Database.
+Recent history is stored in the Playback Database. There is one Playback Database per Spotlight Diagnostic Server. Spotlight Mobile views data from the Playback Database from the Playback display. Spotlight Mobile cannot be used to configure the Playback Database. Use a Spotlight Client to configure the Playback Database.
 
 ### Spotlight Statistics Repository
 

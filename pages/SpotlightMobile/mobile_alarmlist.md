@@ -23,4 +23,19 @@ Each alarm is colored according to the severity of the alarm. Tap the row for al
 
 {% include imageMobile.html file="screen_iOS-iphone-alarm-list.png" alt="Alarm List Screen" %}
 
+## Tell me about each alarm
+
+Information about each alarm is documented under the connection type.
+
+<ul>
+{% assign sorted_pages = (site.pages | sort: 'title') %}
+{% for page in sorted_pages %}
+{% for tag in page.tags %}
+{% if tag == "alarms_by_connection_type" %}
+<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</ul>
+
 {% include links.html %}

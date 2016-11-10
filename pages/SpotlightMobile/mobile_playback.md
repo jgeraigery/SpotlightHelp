@@ -11,7 +11,7 @@ folder: SpotlightMobile
 ## To apply playback
 
 1. Open the [Spotlight Overview page][mobile_overview] for the monitored connection.
-2. Tap the icon to playback.
+2. Tap the icon.
 
    Android | iPhone
    --------|-------

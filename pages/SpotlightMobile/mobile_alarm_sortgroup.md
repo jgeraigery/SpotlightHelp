@@ -1,8 +1,7 @@
 ---
 title: Sort / Group alarms
-tags: [alarms_sort]
 keywords: alarms, sort alarms, group alarms, mobile
-summary: "Sort or group the alarms on the Alarm List."
+summary: "Sort or group the alarms on the Alarm list in Spotlight Mobile."
 sidebar: p_mobile_sidebar
 permalink: mobile_alarm_sortgroup.html
 folder: SpotlightMobile
@@ -12,7 +11,7 @@ folder: SpotlightMobile
 
 
 
-1. Open the [Alarm List][mobile_alarmlist].
+1. Open the [Alarm list][mobile_alarmlist].
 2. Tap the icon. Sort by date or severity. Group by server, severity or alarm.
 
 Android | iPhone
