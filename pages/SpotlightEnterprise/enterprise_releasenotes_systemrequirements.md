@@ -1,7 +1,7 @@
 ---
 title: System Requirements
 keywords: release notes
-summary: "Before installing Spotlight on SQL Server Enterprise, ensure that your system meets the following minimum hardware and software requirements."
+summary: "Before installing Spotlight Enterprise, ensure that your system meets the following minimum hardware and software requirements."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_systemrequirements.html
 folder: SpotlightEnterprise
@@ -86,7 +86,8 @@ If the Diagnostic Server’s connection to the Spotlight Statistics Repository o
 * Microsoft Windows Server 2008 R2 (64-bit)
 * Microsoft Windows Server 2008 (64-bit)
 
-Note: The Diagnostic Server is not supported on a cluster or High Availability Always On.
+{% include tip.html content="The Diagnostic Server is not supported on a cluster or High Availability Always On." %}
+
 
 ### .NET
 .NET 4.5 or later.
@@ -100,7 +101,7 @@ Client Connectivity Tools - Required to monitor an Analysis Services server.
 #### SQL Server Management Tools
 Required to monitor an Analysis Services server, a SQL Server Replication environment, and the use of Session Trace and SQL Analysis when monitoring a SQL Server.
 
-The SQL Server Management Tools are available from any SQL Server 2005, SQL Server 2008, SQL Server 2012, SQL Server 2014 or SQL Server 2016 edition except SQL Server Express and SQL Server Compact. The version required corresponds to the latest version of SQL Server that you are monitoring. Note, if you are monitoring SQL Server 2000 servers, you need the Management Tools from SQL Server 2005.
+The SQL Server Management Tools are available from any SQL Server 2005, SQL Server 2008, SQL Server 2012, SQL Server 2014 or SQL Server 2016 edition except SQL Server Express and SQL Server Compact. The version required corresponds to the latest version of SQL Server that you are monitoring. If you are monitoring SQL Server 2000 servers, you need the Management Tools from SQL Server 2005.
 
 #### Internet Access
 Required by Auto Update and Spotlight Cloud. Required to monitor your Spotlight connections from the Spotlight web site or a mobile device.
@@ -111,7 +112,7 @@ A single Spotlight Diagnostic Server is designed to monitor a maximum of 100 SQL
 
 ## Monitoring
 
-Spotlight on SQL Server is able to monitor the following connections
+Spotlight Enterprise is able to monitor the following connections
 
 ### SQL Server
 
@@ -124,7 +125,7 @@ Spotlight can monitor SQL Server instances of the following versions:
 * SQL Server 2008 (32-bit and 64-bit)
 * SQL Server 2005 (32-bit and 64-bit)
 
-Spotlight on SQL Server also supports MSDE (2000), SQL Express (2005) and SQL Server 2008 Express Edition. Note that use of these versions to host playback or Spotlight Statistics Repository databases is not supported.
+Spotlight Enterprise also supports MSDE (2000), SQL Express (2005) and SQL Server 2008 Express Edition. Note that use of these versions to host playback or Spotlight Statistics Repository databases is not supported.
 
 Spotlight continues to monitor SQL Server 2000 instances Service Pack 3 or later, however no further support (fixes) will be provided.
 
@@ -173,8 +174,8 @@ The MS Model database is used. The database size usually starts at about 3MB (da
 
 ### Hard disk space
 Requires approximately 270 MB for each monitored SQL Server instance and the corresponding monitored Windows host on which the SQL Server instance resides. Retains 7 days of historical data for each connection in the Playback Database by default. This is configurable.
-T
-his estimate assumes default configuration in an average environment. Actual space used will depend on your environment and any data collection/storage configuration changes that are made. For more information, see the Spotlight on SQL Server Sizing Wizard. You can access the wizard from the Spotlight Installation Center.
+
+This estimate assumes default configuration in an average environment. Actual space used will depend on your environment and any data collection/storage configuration changes that are made. For more information, see the Spotlight on SQL Server Sizing Wizard. You can access the wizard from the Spotlight Installation Center.
 
 ### SQL Server
 
@@ -187,15 +188,18 @@ The Playback Database can be installed on:
 * SQL Server 2008
 * SQL Server 2005
 
-Note: Due to the size of the Playback Database, it is recommended that this database is not installed on a SQL Express instance. The Playback Database is not supported on High Availability Always On and mirrored databases. The Playback Database cannot be installed on SQL Server 2000.
+{% include tip.html content="Due to the size of the Playback Database, it is recommended that this database is not installed on a SQL Express instance. The Playback Database is not supported on High Availability Always On and mirrored databases. The Playback Database cannot be installed on SQL Server 2000." %}
+
 
 ### Other requirements
 The SQL Browser service must be running on the machine where the Playback Database is installed. Alternatively you can use the host and port number of the (named) SQL Server instance you want to connect to, when creating a connection and connecting to the Playback Database.
+
 For more information, see the Spotlight on SQL Server Enterprise Deployment Guide.
 
 ### Maintenance
 The Diagnostic Server runs maintenance procedures daily at 3am for the Playback Database. This is configurable.
-It is highly recommended that regular maintenance is performed on the Playback Database. The recommended maintenance plan is outlined in the online help and in the Spotlight on SQL Server Enterprise Deployment Guide.
+
+It is highly recommended that regular maintenance is performed on the Playback Database. See [Maintenance plan for Spotlight Statistics Repository and Playback Database][enterprise_backend_maintenanceplan].
 
 ## Spotlight Statistics Repository Requirements
 
@@ -216,17 +220,16 @@ The Spotlight Statistics Repository can be installed on:
 * SQL Server 2008
 * SQL Server 2005
 
-Note: Due to the size of the Spotlight Statistics Repository, it is recommended that this database is not installed on a SQL Express instance. The Spotlight Statistics Repository is not supported on High Availability Always On and mirrored databases. The Spotlight Statistics Repository cannot be installed on SQL Server 2000.
+{% include tip.html content="Due to the size of the Spotlight Statistics Repository, it is recommended that this database is not installed on a SQL Express instance. The Spotlight Statistics Repository is not supported on High Availability Always On and mirrored databases. The Spotlight Statistics Repository cannot be installed on SQL Server 2000." %}
+
 
 ### Other Requirements
 The SQL Browser service must be running on the machine where the Spotlight Statistics Repository is installed. Alternatively you can use the host and port number of the (named) SQL Server instance you want to connect to, when creating a connection and connecting to the Spotlight Statistics Repository.
 
 The TCP protocol must be enabled on the instance where the Spotlight Statistics Repository resides.
 
-For more information, see the Spotlight on SQL Server Enterprise Deployment Guide.
-
 ### Maintenance
-It is highly recommended that regular maintenance is performed on the Spotlight Statistics Repository. The recommended maintenance plan is outlined in the online help and in the Spotlight on SQL Server Enterprise Deployment Guide.
+It is highly recommended that regular maintenance is performed on the Spotlight Statistics Repository. See [Maintenance plan for Spotlight Statistics Repository and Playback Database][enterprise_backend_maintenanceplan].
 
 
 ## Upgrade and compatibility
@@ -242,8 +245,6 @@ The following is transferred during the upgrade:
 * Planned Outages
 * Global options such as user-created Error Log rules
 * Configuration information for the Spotlight Statistics Repository (this applies only if you installed the Spotlight Statistics Repository from an earlier version of Spotlight on SQL Server.)
-
-For more information about upgrading, see the Spotlight on SQL Server Enterprise Deployment Guide.
 
 ### Alarms requiring acknowledgment - upgrade
 The Spotlight factory settings for alarms requiring acknowledgment changes on upgrade from Spotlight 11.2. Only Connection Failure alarms are now factory set to require acknowledgment.
