@@ -1,6 +1,5 @@
 ---
-title: Alarm List
-tags: [alarms_display]
+title: Alarm list in Spotlight Mobile
 keywords: alarms, display, mobile
 summary: "List all alarms raised against the connection or connection view."
 sidebar: p_mobile_sidebar

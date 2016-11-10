@@ -1,5 +1,5 @@
 ---
-title: Connections display
+title: Connections display in Spotlight Mobile
 summary: "Select a Spotlight Mobile connection or connection view to display. Create a new connection view."
 sidebar: p_mobile_sidebar
 permalink: mobile_connections.html
@@ -21,17 +21,15 @@ Android | iPhone
 
 Tap on a connection vew to show those connections on a [Heat Map][mobile_heatmap].
 
-## Open an Alarm List
+## Open an Alarm list
 
 Tap on a connection vew to show those connections on a Heat Map. From the Heat Map, tap to see the [Alarm List][mobile_alarmlist].
+
+To open an Alarm List for a connection, tap on a connection to show the Spotlight Overview page for that connection. From the Spotlight Overview page, tap to see the [Alarm List][mobile_alarmlist].
 
 ## Open the Spotlight Overview page
 
 Tap on a connection to see that connection on a [Spotlight Overview page][mobile_overview].
-
-## Open an Alarm List for a connection
-
-Tap on a connection to show the Spotlight Overview page for that connection. From the Spotlight Overview page, tap to see the [Alarm List][mobile_alarmlist].
 
 ## Create a customized view of a Heat Map or Alarm List
 
@@ -39,6 +37,6 @@ Tap Add... or {% include inline_imageMobile.html file="tap_edit-button.png" alt=
 
 ## Add / Remove / Manage connections
 
-{% include note.html content="Use a Spotlight Client to add and remove connections and edit connection properties. Spotlight Mobile does not have the facility to manage (add, remove, edit properties) Spotlight connections." %}
+{% include note.html content="Use a Spotlight Client to add and remove the connections monitored by Spotlight Enterprise and edit connection properties. Spotlight Mobile does not have the facility to manage (add, remove, edit the properties of) Spotlight connections." %}
 
 {% include links.html %}

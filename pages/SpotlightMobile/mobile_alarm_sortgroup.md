@@ -1,5 +1,5 @@
 ---
-title: Sort / Group alarms
+title: Sort / Group alarms in Spotlight Mobile
 keywords: alarms, sort alarms, group alarms, mobile
 summary: "Sort or group the alarms on the Alarm list in Spotlight Mobile."
 sidebar: p_mobile_sidebar

@@ -1,5 +1,5 @@
 ---
-title: Heat Map for Spotlight Mobile
+title: Heat Map in Spotlight Mobile
 tags: [heatmap]
 keywords: alarms, heatmap, mobile
 summary: "The Heat Map answers the question: Which monitored connections require the most urgent attention? The Heat Map organizes monitored connections based on the comparative number and severity of their alarms. Connections with the most alarms raised against them are given the most surface area."

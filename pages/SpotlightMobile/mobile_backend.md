@@ -18,9 +18,15 @@ The Spotlight Client is a core component of Spotlight Enterprise.
 
 ## Data Collection and Storage
 
-### Spotlight Diagnostic Server
+### Spotlight Diagnostic Server and the Spotlight Cloud
 
-The Spotlight Diagnostic Server is at the core of the Spotlight Enterprise architecture. All Spotlight data passes through the Spotlight Diagnostic Server. The Spotlight Diagnostic Server is a Windows service. It runs under Windows credentials.
+The Spotlight Diagnostic Server is at the core of the Spotlight Enterprise architecture. All data from monitored connections passes through the Spotlight Diagnostic Server.
+
+The Spotlight Diagnostic Server is a Windows service. It runs under Windows credentials. To use Spotlight Mobile, the Spotlight Diagnostic Server must have access to the Internet and must be configured to upload to the Spotlight Cloud. Ensure:
+
+* The Spotlight Diagnostic Server is configured to upload data to the Spotlight Cloud.
+* The Spotlight Diagnostic Server has access to the Internet.
+* Port TCP 443 on the Spotlight Diagnostic Server is open.
 
 ### Spotlight Playback Database
 
@@ -29,14 +35,6 @@ Recent history is stored in the Playback Database. There is one Playback Databas
 ### Spotlight Statistics Repository
 
 Long term history for reporting and trending is stored in the Spotlight Statistics Repository. The Spotlight Statistics Repository is inaccessible to Spotlight Mobile. Use a Spotlight Client to access the Spotlight Statistics Repository. Note that deployment of the Spotlight Statistics Repository is optional per Spotlight Diagnostic Server.
-
-## Deployment over the Internet
-
-Deployment over the Internet is a prerequisite to using Spotlight Mobile. Deployment of the Spotlight Cloud to collect and store data is optional per Spotlight Diagnostic Server. Ensure:
-
-* The Spotlight Diagnostic Server is configured to upload data to the Spotlight Cloud.
-* The Spotlight Diagnostic Server has access to the Internet.
-* Port TCP 443 on the Spotlight Diagnostic Server is open.
 
 
 
