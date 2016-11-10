@@ -61,9 +61,6 @@ entries:
     - title: Acknowledge
       url: /tag_acknowledge.html
       output: web
-    - title: Alarms Sort
-      url: /tag_alarms_sort.html
-      output: web
     - title: Heatmap
       url: /tag_heatmap.html
       output: web
