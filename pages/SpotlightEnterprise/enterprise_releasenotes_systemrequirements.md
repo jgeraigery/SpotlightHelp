@@ -111,24 +111,25 @@ A single Spotlight Diagnostic Server is designed to monitor a maximum of 100 SQL
 
 
 ## Monitoring
-
 Spotlight Enterprise is able to monitor the following connections
 
 ### Databases
+Spotlight can be used to monitor:
 
 * [SQL Server][sqlserver_connect_requirements]
-* Oracle
+* [Oracle][oracle_connect_requirements]
 
 ### Database Cloud Service
 Spotlight can be used to monitor SQL Azure.
 
 ### Operating Systems
+Spotlight can be used to monitor:
 
 * [Microsoft Windows][windows_connect_requirements]
-* Uni
+* [Unix][unix_connect_requirements]
 
-## Virtualization
-Spotlight can monitor virtual environments and virtual guest machines in a virtual environment. The following is supported:
+### Virtualization
+Spotlight can monitor virtual environments and virtual guest machines in a virtual environment.
 
 * [VMware® ESX infrastructure.][vmware_connect_requirements]
 * [Hyper-V® 6.2 and above.][hyperv_connect_requirements]

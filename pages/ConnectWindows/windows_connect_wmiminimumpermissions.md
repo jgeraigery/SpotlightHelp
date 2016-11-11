@@ -3,7 +3,7 @@ title: How to configure WMI with minimum required user permissions
 last_updated: July 29, 2016
 summary: "Specify the connection details for the Windows Server and Windows host of database connections."
 sidebar: c_windows_sidebar
-permalink: windows_connection_wmiminimumpermissions.html
+permalink: windows_connect_wmiminimumpermissions.html
 folder: ConnectWindows
 ---
 

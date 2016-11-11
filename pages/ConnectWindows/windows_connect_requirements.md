@@ -4,7 +4,7 @@ last_updated: July 29, 2016
 tags: [connection_requirements]
 summary: "Spotlight requirements to monitor a Windows Server / Windows host of a database connection"
 sidebar: c_windows_sidebar
-permalink: windows_connection_requirements.html
+permalink: windows_connect_requirements.html
 folder: ConnectWindows
 ---
 

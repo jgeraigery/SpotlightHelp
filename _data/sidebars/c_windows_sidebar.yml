@@ -23,19 +23,19 @@ entries:
     folderitems:
 
     - title: Connection Details
-      url: /windows_connection_details.html
+      url: /windows_connect_details.html
       output: web, pdf
 
     - title: Requirements
-      url: /windows_connection_requirements.html
+      url: /windows_connect_requirements.html
       output: web, pdf
 
     - title: Configure WMI with minimum required permissions
-      url: /windows_connection_wmiminimumpermissions.html
+      url: /windows_connect_wmiminimumpermissions.html
       output: web, pdf
 
     - title: Troubleshooting
-      url: /windows_connection_troubleshooting.html
+      url: /windows_connect_troubleshooting.html
       output: web, pdf
 
   - title: Alarms

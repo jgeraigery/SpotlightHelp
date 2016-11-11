@@ -3,7 +3,7 @@ title: Troubleshooting
 last_updated: July 29, 2016
 summary: "The Spotlight Diagnostic Server uses WMI queries to retrieve performance counter information from monitored Windows Servers and Windows hosts of database connections. This data is then displayed in real time on a Spotlight Client or other Spotlight viewer."
 sidebar: c_windows_sidebar
-permalink: windows_connection_troubleshooting.html
+permalink: windows_connect_troubleshooting.html
 folder: ConnectWindows
 ---
 
