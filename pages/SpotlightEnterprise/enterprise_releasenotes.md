@@ -1,5 +1,5 @@
 ---
-title: Release Notes
+title: Spotlight™ on SQL Server® 12.0 Release Notes
 keywords: release notes
 summary: "These release notes provide information about the Spotlight Enterprise release."
 sidebar: p_enterprise_sidebar
@@ -19,7 +19,7 @@ Business benefits include:
 * Identical data and alarms provided to all users, providing a consistent view across the enterprise.
 * Diagnostic data is saved in one place (on the Diagnostic Server), avoiding unnecessary replication of data.
 * Diagnostic Server reduces load on databases and operating systems by collecting data once and sharing it between all connected Spotlight clients.
-* Long-term historical data can be stored in a repository for future analysis and planning purposes. 
+* Long-term historical data can be stored in a repository for future analysis and planning purposes.
 * Diagnostic Server configuration is centralized and applied to all connections. Individual connections can then be customized as required.
 * SQL Analysis captures SQL from a SQL Server based on a collection filter you specify and allows you to quickly get a picture of the most expensive SQL running on the server both from real-time and historical perspectives.
 * Operating System data is collected only once, even if multiple instances are being monitored on that particular host.
