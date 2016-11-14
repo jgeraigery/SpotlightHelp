@@ -118,7 +118,6 @@ Spotlight can be used to monitor:
 
 * [SQL Server][sqlserver_connect_requirements]
 * [Oracle][oracle_connect_requirements]
-* [Oracle][oracle_connect_requirements]
 
 ### Database Cloud Service
 Spotlight can be used to monitor SQL Azure.
@@ -127,7 +126,6 @@ Spotlight can be used to monitor SQL Azure.
 Spotlight can be used to monitor:
 
 * [Microsoft Windows][windows_connect_requirements]
-* [Unix][unix_connect_requirements]
 * [Unix][unix_connect_requirements]
 
 ### Virtualization
