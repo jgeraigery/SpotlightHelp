@@ -652,19 +652,19 @@ entries:
     folderitems:
 
     - title: Spotlight Web Site
-      url: /enterprise_displaydevice_website.html
+      url: /enterprise_interface_website.html
       output: web, pdf
 
     - title: Spotlight Mobile
-      url: /enterprise_displaydevice_mobile.html
+      url: /enterprise_interface_mobile.html
       output: web, pdf
 
     - title: Pager Duty
-      url: /enterprise_displaydevice_pagerduty.html
+      url: /enterprise_interface_pagerduty.html
       output: web, pdf
 
     - title: Spotlight Management Pack for SCOM
-      url: /enterprise_displaydevice_scom.html
+      url: /enterprise_interface_scom.html
       output: web, pdf
 
   - title: Backend Deployment
