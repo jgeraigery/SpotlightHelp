@@ -118,6 +118,7 @@ Spotlight can be used to monitor:
 
 * [SQL Server][sqlserver_connect_requirements]
 * [Oracle][oracle_connect_requirements]
+* [Oracle][oracle_connect_requirements]
 
 ### Database Cloud Service
 Spotlight can be used to monitor SQL Azure.
@@ -126,6 +127,7 @@ Spotlight can be used to monitor SQL Azure.
 Spotlight can be used to monitor:
 
 * [Microsoft Windows][windows_connect_requirements]
+* [Unix][unix_connect_requirements]
 * [Unix][unix_connect_requirements]
 
 ### Virtualization
@@ -231,7 +233,7 @@ The alarms that were factory set to require acknowledgment in Spotlight 11.2 are
 ### Monitoring your Spotlight connections on a mobile device - upgrade
 If you are upgrading from Spotlight on SQL Server 11.1.x and used that version or earlier to monitor your Spotlight on SQL Server connections on a mobile device and intend to continue monitoring your connections on a mobile device then the following additional upgrade instructions are required.
 
-1. Uninstall the Spotlight Web Publisher via Windows | Control Panel | Programs and Features. The Spotlight Web Publisher was required in the past to monitor SQL Server connections on a mobile device. It is now important that you uninstall it. By default the Spotlight Web Publisher was installed on the same computer as the Spotlight Diagnostic Server.
-2. From the Spotlight Client, click Configure | Spotlight Cloud. Select Upload data to Spotlight Cloud. Ensure your Spotlight Cloud (Spotlight Essentials) account details are correct.
+1. Uninstall the Spotlight Web Publisher via **Windows \| Control Panel \| Programs and Features**. The Spotlight Web Publisher was required in the past to monitor SQL Server connections on a mobile device. It is now important that you uninstall it. By default the Spotlight Web Publisher was installed on the same computer as the Spotlight Diagnostic Server.
+2. From the Spotlight Client, click **Configure \| Spotlight Cloud**. Select **Upload data to Spotlight Cloud**. Ensure your Spotlight Cloud (Spotlight Essentials) account details are correct.
 
 {% include links.html %}
