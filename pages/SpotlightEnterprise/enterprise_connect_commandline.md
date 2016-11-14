@@ -10,7 +10,7 @@ folder: SpotlightEnterprise
 
 ## 1. Access Spotlight from the command line
 
-1. Open the Spotlight Client installation directory (usually C:\Program Files (x86)\Dell\Spotlight on SQL Server)
+1. Open the Spotlight Client installation directory (usually C:\Program Files (x86)\Quest Software\Spotlight on SQL Server)
 2. Open the Console directory in the Spotlight Client installation directory.
 3. Right click the file ds-cli.cmd and select Open to open the command prompt.
 

@@ -42,7 +42,7 @@ Scenarios that may be involved with a typical install include:
 The Spotlight Client will be installed as follows, unless you indicate otherwise
 
 ```
-C:\Program Files (x86)\Dell\Spotlight on SQL Server
+C:\Program Files (x86)\Quest Software\Spotlight on SQL Server
 ```
 
 Do not install the Spotlight Client in the same location as an existing (but different entity of) Spotlight. If you install a different Spotlight after you have installed Spotlight Enterprise, do not install the new Spotlight in the Spotlight Enterprise directory.
@@ -54,7 +54,7 @@ Do not install the Spotlight Client in the same location as an existing (but dif
 Default installation folder for the Diagnostic Server:
 
 ```
-C:\Program Files\Dell\Diagnostic Server
+C:\Program Files\Quest Software\Diagnostic Server
 ```
 
 During a Typical install the diagnostic server can be installed remotely.

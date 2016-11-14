@@ -12,7 +12,7 @@ folder: SpotlightEnterprise
 Spotlight supports deploying a global configruation file
 
 ```
-%ProgramData%\Dell\Spotlight\Default\config.xml
+%ProgramData%\Quest Software\Spotlight\Default\config.xml
 ```
 
 which will be copied to the user-specific location on startup of the Spotlight Client.

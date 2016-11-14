@@ -14,7 +14,7 @@ folder: SpotlightEnterprise
 To backup the Spotlight Diagnostic Server, back up the Diagnostic Server\Agent folder.
 
 ```
-C:\Program Files\Dell\Diagnostic Server\Agent
+C:\Program Files\Quest Software\Diagnostic Server\Agent
 ```
 
 {% include tip.html content="To backup just the Spotlight configuration (configuration of connections, alarms and scheduling), backup the **Diagnostic Server\Agent\Conf** folder." %}
