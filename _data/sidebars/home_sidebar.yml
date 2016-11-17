@@ -12,10 +12,10 @@ entries:
       url: /enterprise_welcome.html
       output: web
     - title: Spotlight Developer
-      url: /dev_landing_page.html
+      url: /dev_welcome.html
       output: web
     - title: Spotlight Cloud
-      url: /cloud_landing_page.html
+      url: /cloud_welcome.html
       output: web
     - title: Spotlight Mobile
       url: /mobile_welcome.html
@@ -25,34 +25,34 @@ entries:
     output: web
     folderitems:
     - title: SQL Server
-      url: /sqlserver_landing_page.html
+      url: /sqlserver_welcome.html
       output: web
     - title: SQL Server Analysis Services
-      url: /analysisservices_landing_page.html
+      url: /analysisservices_welcome.html
       output: web
     - title: SQL Server Availability Group
-      url: /availabilitygroup_landing_page.html
+      url: /availabilitygroup_welcome.html
       output: web
     - title: SQL Server Replication
-      url: /replication_landing_page.html
+      url: /replication_welcome.html
       output: web
     - title: SQL Azure
-      url: /sqlazure_landing_page.html
+      url: /sqlazure_welcome.html
       output: web
     - title: Oracle
-      url: /oracle_landing_page.html
+      url: /oracle_welcome.html
       output: web
     - title: Unix
-      url: /unix_landing_page.html
+      url: /unix_welcome.html
       output: web
     - title: Windows Server
-      url: /windows_landing_page.html
+      url: /windows_welcome.html
       output: web
     - title: VMWare
-      url: /vmware_landing_page.html
+      url: /vmware_welcome.html
       output: web
     - title: Hyper-V
-      url: /hyperv_landing_page.html
+      url: /hyperv_welcome.html
       output: web
 
   - title: Keyword search

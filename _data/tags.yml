@@ -3,7 +3,6 @@ allowed-tags:
   - connection_details
   - connection_requirements
   - acknowledge
-  - alarms_sort
   - heatmap
   - overview_page
   - playback
