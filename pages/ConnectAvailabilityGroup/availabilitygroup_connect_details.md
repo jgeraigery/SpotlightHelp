@@ -2,7 +2,7 @@
 title: Connection Details for Availability Group
 last_updated: July 29, 2016
 tags: [connection_details,connection_details_for_each_connection_type]
-summary: "Specify the connection details for Availability Group"
+summary: "Specify the connection details for an Availability Group"
 sidebar: c_availabilitygroup_sidebar
 permalink: availabilitygroup_connect_details.html
 folder: ConnectAvailabilityGroup
@@ -27,15 +27,15 @@ An availability group is a set of user databases that fail over together. An ava
 
 ## Address
 
-The Availability Listener: IP address, hostname, or URL.
+Specify the Availability Listener: IP address, hostname, or URL.
 
 ## Authentication
 
-The authentication for Spotlight to use to connect to the Availability Listener.
+Specify the authentication for Spotlight to use to connect to the Availability Listener.
 
-Select Windows Authentication (using Diagnostic Server credentials) to use the Windows user configured to run the Spotlight Diagnostic Server.
+Select **Windows Authentication (using Diagnostic Server credentials)** to use the Windows user configured to run the Spotlight Diagnostic Server.
 
-Alternatively, fill in the User and Password fields. Ensure the account has sufficient privileges to retrieve server information, query the registry, and access WMI and performance monitor objects. An account with administrative rights to the listener allows this.
+Alternatively, fill in the **User** and **Password** fields. Ensure the account has sufficient privileges to retrieve server information, query the registry, and access WMI and performance monitor objects. An account with administrative rights to the listener allows this.
 
 
 {% include links.html %}

@@ -25,17 +25,17 @@ From the Spotlight Client
 
 ## Address
 
-The connect string for a distributor database in the replication environment.
+Specify the connect string for a distributor database in the replication environment.
 
 That is the: Server Name, Server Instance Name, or IP address.
 
 ## Authentication
 
-The authentication for Spotlight to use to connect to the SQL Server Replication environment.
+Specify the authentication for Spotlight to use to connect to the SQL Server Replication environment.
 
-Select Windows Authentication (using Diagnostic Server credentials) to use the Windows user configured to run the Spotlight Diagnostic Server.
+Select **Windows Authentication (using Diagnostic Server credentials)** to use the Windows user configured to run the Spotlight Diagnostic Server.
 
-Alternatively, fill in the User and Password fields.
+Alternatively, fill in the **User** and **Password** fields.
 
 
 
