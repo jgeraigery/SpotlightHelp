@@ -1,15 +1,13 @@
 ---
 title: How to configure WMI with minimum required user permissions
 last_updated: July 29, 2016
-summary: "Specify the connection details for the Windows Server and Windows host of database connections."
+summary: "In some environments it may not be feasible for Spotlight to connect to the Windows server with an account that is a member of the Administrators group. The following instructions are provided for these environments. Note that there are known issues with this procedure as documented below."
 sidebar: c_windows_sidebar
 permalink: windows_connect_wmiminimumpermissions.html
 folder: ConnectWindows
 ---
 
-Spotlight requires authentication to connect to the Windows server and retrieve performance data. There are two ways to do this at Windows Server \| Connection Details: use Diagnostic Server credentials or fill in the user and password fields. If you choose to fill in the user and password fields, the account must have the privileges required to retrieve server information, query the registry, and access WMI and performance monitor objects. An account with administrative rights to the Windows server allows this.
 
-In some environments it may not be feasible to connect to the Windows server with an account that is a member of the Administrators group. The following instructions are provided for these environments. Note that there are known issues with this procedure as documented below.
 
 ## Known Issues
 
@@ -31,10 +29,9 @@ The Physical Disk Drive collection populates the Windows Server \| Disks Drilldo
 Inside of this known issue a Generic Failure error will be returned.
 
 
-
-{% include note.html content="Spotlight User is the windows user that will be used in the connection to the Windows server and/or Windows host of the database connection. For more information, see Configure \| Connections." %}
-
 ## 1. Setup permission to read data
+
+{% include note.html content="For the following instructions, Spotlight User is the windows user that will be used to authenticate the Spotight connection to the Windows server as per: [Connection Details][windows_connect_details]" %}
 
 1. Click Control Panel \| Administrative Tools \| Computer Management to open the Computer Management dialog.
 2. Double click Local Users and Groups \| Groups.

@@ -30,12 +30,8 @@ entries:
       url: /windows_connect_requirements.html
       output: web, pdf
 
-    - title: Configure WMI with minimum required permissions
+    - title: Configure WMI with minimum required user permissions
       url: /windows_connect_wmiminimumpermissions.html
-      output: web, pdf
-
-    - title: Troubleshooting
-      url: /windows_connect_troubleshooting.html
       output: web, pdf
 
   - title: Alarms

@@ -2,7 +2,7 @@
 title: Windows Server connection requirements
 last_updated: July 29, 2016
 tags: [connection_requirements]
-summary: "Spotlight requirements to monitor a Windows Server / Windows host of a database connection"
+summary: "Spotlight can monitor Windows Servers / Windows hosts of database connections according to the following requirements."
 sidebar: c_windows_sidebar
 permalink: windows_connect_requirements.html
 folder: ConnectWindows

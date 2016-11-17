@@ -10,7 +10,6 @@ folder: ConnectWindows
 
 
 
-{% include tip.html content="Spotlight can add Windows Server via discovery or by importing details from a file. See the Connection Discovery Wizard." %}
 
 
 ## How to enter / edit connection details
@@ -24,22 +23,25 @@ From the Spotlight Client
 3.  Fill in the connection details as follows.
 4.  Click **Test** to test the connection.
 
+{% include tip.html content="Spotlight can add Windows Server via discovery or by importing details from a file. See the Connection Discovery Wizard." %}
+
+
 ## Address
 
-The IP address, hostname, or URL of the Windows Server.
+Specify the IP address, hostname, or URL of the Windows Server.
 
 If the Windows Server is in a different domain to the Spotlight Diagnostic Server host then specify the address as a fully qualified address (for example, machine1.domain.company.corp). The connection may work intermittently if the address is not fully qualified.
 
-Spotlight can only connect to Windows servers in a domain. Spotlight cannot connect to Windows servers in a workgroup. Spotlight cannot connect to databases hosted on Windows servers in a workgroup.
-
+{% include note.html content="Spotlight can only connect to Windows servers in a domain. Spotlight cannot connect to Windows servers in a workgroup. Spotlight cannot connect to databases hosted on Windows servers in a workgroup." %}
 
 ## Authentication
 
-The authentication for Spotlight to use to connect to the Windows server.
+Spotlight requires authentication to connect to the Windows server and retrieve performance data.
 
 Select **Use Diagnostic Server credentials** to use the Windows user configured to run the Spotlight Diagnostic Server. You are required to select this option for the Windows Server that hosts the Spotlight Diagnostic Server. If you select this option and the Windows Server is remote from the Spotlight Diagnostic Server then ensure the Windows user running the Spotlight Diagnostic Server can access the Windows Server. (By default the Spotlight Diagnostic Server runs under the "Local System" account, which will not have privileges on a remote Windows Server). If you select this option and the Windows Server is in a different domain from the Spotlight Diagnostic Server then ensure the domain the Windows Server is in trusts the domain of the user running the Spotlight Diagnostic Server.
 
-Alternatively, fill in the **User** and **Password** fields. Include the Windows domain in the user name. For example, “domain\johnsmith”, instead of “johnsmith”. The account must have the privileges required to retrieve server information, query the registry, and access WMI and performance monitor objects. An account with administrative rights to the Windows server allows this. Alternatively an account can be configured with the necessary privileges as per How to configure WMI with minimum required user permissions.
+Alternatively, fill in the **User** and **Password** fields. Include the Windows domain in the user name. For example, “domain\johnsmith”, instead of “johnsmith”. The account must have the privileges required to retrieve server information, query the registry, and access WMI and performance monitor objects. An account with administrative rights to the Windows server allows this. If this is not feasible in your environment then the following instructions are provided: [How to configure WMI with minimum required user permissions][windows_connect_wmiminimumpermissions].
+
 
 ## Virtualization details
 
@@ -57,7 +59,14 @@ Click **Create** to add a virtual server to the list. Select from:
 Select the name of the virtual machine from those hosted by the virtual server.
 
 
+## Troubleshooting
 
+* Verify that Spotlight has the correct address of the Windows server and appropriate authentication as documented above.
+* Verify the [requirements][windows_connect_requirements] to monitor a Windows server.
+* Verify TCP port 135 is open on the Windows server.
+* Verify the Windows server is in a domain. Spotlight cannot connect to Windows servers in a workgroup.
+* Verify WMI is working and returns data prroperly. The Spotlight Diagnostic Server uses WMI queries to retrieve performance counter information from the Windows Server.
+* Check the [Spotlight Enterprise Release Notes][enterprise_releasenotes] for known issues.
 
 
 {% include links.html %}
