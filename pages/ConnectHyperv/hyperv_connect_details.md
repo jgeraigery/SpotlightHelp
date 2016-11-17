@@ -23,16 +23,16 @@ From the Spotlight Client
 
 ## Address
 
-The IP address or hostname of the Hyper-V server.
+Specify the IP address or hostname of the Hyper-V server.
 
 
 ## Authentication
 
-The authentication for Spotlight to use to connect to the Hyper-V server.
+Specify the authentication for Spotlight to use to connect to the Hyper-V server.
 
-Select Use Diagnostic Server credentials to use the Windows user configured to run the Spotlight Diagnostic Server.
+Select **Use Diagnostic Server credentials** to use the Windows user configured to run the Spotlight Diagnostic Server.
 
-Alternatively, fill in the User and Password fields. The user must have at least a read-only role.
+Alternatively, fill in the **User** and **Password** fields. The user must have at least a read-only role.
 
 
 {% include links.html %}

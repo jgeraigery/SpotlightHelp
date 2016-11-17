@@ -26,7 +26,7 @@ entries:
       url: /windows_connect_details.html
       output: web, pdf
 
-    - title: Requirements
+    - title: Connection Requirements
       url: /windows_connect_requirements.html
       output: web, pdf
 
