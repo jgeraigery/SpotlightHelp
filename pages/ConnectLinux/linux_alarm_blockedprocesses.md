@@ -2,10 +2,10 @@
 title: ﻿Blocked Processes Alarm
 last_updated: July 29, 2016
 summary: "The Blocked Processes button in the CPU panel shows the number of processes waiting on information to become available in memory."
-sidebar: c_unix_sidebar
-permalink: unix_alarm_blockedprocesses.html
+sidebar: c_linux_sidebar
+permalink: linux_alarm_blockedprocesses.html
 id:
-folder: ConnectUnix
+folder: ConnectLinux
 ---
 
 Processes can also become blocked when they are waiting for:

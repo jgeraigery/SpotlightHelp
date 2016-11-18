@@ -2,7 +2,7 @@
 
 entries:
 - title: sidebar
-  product: Unix
+  product: Linux
   folders:
 
   - title:
@@ -23,11 +23,11 @@ entries:
     folderitems:
 
     - title: Connection Details
-      url: /unix_connect_details.html
+      url: /linux_connect_details.html
       output: web, pdf
 
     - title: Connection Requirements
-      url: /unix_connect_requirements.html
+      url: /linux_connect_requirements.html
       output: web, pdf
 
   - title: Alarms
@@ -35,87 +35,87 @@ entries:
     folderitems:
 
     - title: Alarms
-      url: /unix_alarms.html
+      url: /linux_alarms.html
       output: web, pdf
 
     - title: Blocked Processes
-      url: /unix_alarm_blockedprocesses.html
+      url: /linux_alarm_blockedprocesses.html
       output: web, pdf
 
     - title: CPU Busy
-      url: /unix_alarm_cpubusy.html
+      url: /linux_alarm_cpubusy.html
       output: web, pdf
 
     - title: File System Space
-      url: /unix_alarm_filesystemspace.html
+      url: /linux_alarm_filesystemspace.html
       output: web, pdf
 
     - title: Memory - Physical Memory Available
-      url: /unix_alarm_memory_physicalmemoryavailable.html
+      url: /linux_alarm_memory_physicalmemoryavailable.html
       output: web, pdf
 
     - title: Monitored Server - Unix Alarm Action Failure
-      url: /unix_alarm_monitoredserver_alarmactionfailure.html
+      url: /linux_alarm_monitoredserver_alarmactionfailure.html
       output: web, pdf
 
     - title: Monitored Server - Unix Alarm Evaluation Failure
-      url: /unix_alarm_monitoredserver_alarmevaluationfailure.html
+      url: /linux_alarm_monitoredserver_alarmevaluationfailure.html
       output: web, pdf
 
     - title: Monitored Server - Unix Collection Execution Failure
-      url: /unix_alarm_monitoredserver_collectionexecutionfailure.html
+      url: /linux_alarm_monitoredserver_collectionexecutionfailure.html
       output: web, pdf
 
     - title: Monitored Server - Unix Connection Failure
-      url: /unix_alarm_monitoredserver_connectionfailure.html
+      url: /linux_alarm_monitoredserver_connectionfailure.html
       output: web, pdf
 
     - title: Monitored Server - Unix Planned Outage
-      url: /unix_alarm_monitoredserver_plannedoutage.html
+      url: /linux_alarm_monitoredserver_plannedoutage.html
       output: web, pdf
 
     - title: Monitored Server - Unix Unsupported Version
-      url: /unix_alarm_monitoredserver_unsupportedversion.html
+      url: /linux_alarm_monitoredserver_unsupportedversion.html
       output: web, pdf
 
     - title: Most Active Disk
-      url: /unix_alarm_mostactivedisk.html
+      url: /linux_alarm_mostactivedisk.html
       output: web, pdf
 
     - title: Network Errors Received
-      url: /unix_alarm_networkerrorsreceived.html
+      url: /linux_alarm_networkerrorsreceived.html
       output: web, pdf
 
     - title: Network Errors Transmitted
-      url: /unix_alarm_networkerrorstransmitted.html
+      url: /linux_alarm_networkerrorstransmitted.html
       output: web, pdf
 
     - title: Paging in
-      url: /unix_alarm_pagingin.html
+      url: /linux_alarm_pagingin.html
       output: web, pdf
 
     - title: Paging out
-      url: /unix_alarm_pagingout.html
+      url: /linux_alarm_pagingout.html
       output: web, pdf
 
     - title: Status
-      url: /unix_alarm_status.html
+      url: /linux_alarm_status.html
       output: web, pdf
 
     - title: Swapping in flow
-      url: /unix_alarm_swappinginflow.html
+      url: /linux_alarm_swappinginflow.html
       output: web, pdf
 
     - title: Swapping out flow
-      url: /unix_alarm_swappingoutflow.html
+      url: /linux_alarm_swappingoutflow.html
       output: web, pdf
 
     - title: Swap Space
-      url: /unix_alarm_swapspace.html
+      url: /linux_alarm_swapspace.html
       output: web, pdf
 
     - title: Zombie Processes
-      url: /unix_alarm_zombieprocesses.html
+      url: /linux_alarm_zombieprocesses.html
       output: web, pdf
 
   - title: Spotlight Overview page
@@ -123,15 +123,15 @@ entries:
     folderitems:
 
     - title: Spotlight Overview page
-      url: /unix_drilldown_overview.html
+      url: /linux_drilldown_overview.html
       output: web, pdf
 
     - title: Status
-      url: /unix_component_status.html
+      url: /linux_component_status.html
       output: web, pdf
 
     - title: Version
-      url: /unix_component_version.html
+      url: /linux_component_version.html
       output: web, pdf
   
   - title: Collections
@@ -139,6 +139,6 @@ entries:
     folderitems:
 
     - title: Collections
-      url: /unix_collections.html
+      url: /linux_collections.html
       output: web, pdf
 

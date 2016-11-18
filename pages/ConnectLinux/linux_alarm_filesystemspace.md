@@ -2,10 +2,10 @@
 title: File System Space Alarm
 last_updated: July 29, 2016
 summary: "The File System Space alarm indicates that the file system is full or filling up."
-sidebar: c_unix_sidebar
-permalink: unix_alarm_filesystemspace.html
+sidebar: c_linux_sidebar
+permalink: linux_alarm_filesystemspace.html
 id:
-folder: ConnectUnix
+folder: ConnectLinux
 ---
 
 If the file system fills up completely, no more data can be written to it. For example:

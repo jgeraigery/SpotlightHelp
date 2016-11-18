@@ -2,10 +2,10 @@
 title: ﻿CPU Busy Alarm
 last_updated: July 29, 2016
 summary: "The CPU Busy alarm occurs when the total CPU utilization of the system exceeds a threshold. The CPU may encounter a large number of requests, or you may have un-tuned SQL, which uses excessive amounts of CPU."
-sidebar: c_unix_sidebar
-permalink: unix_alarm_cpubusy.html
+sidebar: c_linux_sidebar
+permalink: linux_alarm_cpubusy.html
 id:
-folder: ConnectUnix
+folder: ConnectLinux
 ---
 
 

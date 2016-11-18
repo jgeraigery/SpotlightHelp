@@ -2,9 +2,9 @@
 title: Connection Details for Unix server
 tags: [connection_details,connection_details_for_each_connection_type]
 summary: "Specify the connection details for a Unix server or Unix host of a database connection."
-sidebar: c_unix_sidebar
-permalink: unix_connect_details.html
-folder: ConnectUnix
+sidebar: c_linux_sidebar
+permalink: linux_connect_details.html
+folder: ConnectLinux
 ---
 
 

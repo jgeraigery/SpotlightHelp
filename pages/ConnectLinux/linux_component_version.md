@@ -1,10 +1,10 @@
 ---
 title: Version
 summary: "The version of the Unix Server."
-sidebar: c_unix_sidebar
-permalink: unix_component_version.html
+sidebar: c_linux_sidebar
+permalink: linux_component_version.html
 id:
-folder: ConnectUnix
+folder: ConnectLinux
 ---
 
 {% include links.html %}

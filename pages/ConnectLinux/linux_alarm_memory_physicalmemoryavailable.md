@@ -2,9 +2,9 @@
 title: Memory - Physical Memory Available Alarm
 last_updated: July 29, 2016
 summary: "The Memory - Physical Memory Available alarm is raised when the available memory drops below a threshold."
-sidebar: c_unix_sidebar
-permalink: unix_alarm_memory_physicalmemoryavailable.html
-folder: ConnectUnix
+sidebar: c_linux_sidebar
+permalink: linux_alarm_memory_physicalmemoryavailable.html
+folder: ConnectLinux
 ---
 
 

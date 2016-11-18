@@ -1,9 +1,9 @@
 ---
 title: Status
 summary: "The condition of the Unix Server. Green indicates that no alarms have been raised. Yellow and red indicate that Oracle has raised an alarm."
-sidebar: c_unix_sidebar
-permalink: unix_component_status.html
-folder: ConnectUnix
+sidebar: c_linux_sidebar
+permalink: linux_component_status.html
+folder: ConnectLinux
 ---
 
 

@@ -1,11 +1,11 @@
 ---
-title: ﻿Monitored Server - Unix Alarm Action Failure Alarm
+title: ﻿Monitored Server - Unix Collection Execution Failure Alarm
 last_updated: July 29, 2016
-summary: "Raised when a (specified action) failed to evaluate."
-sidebar: c_unix_sidebar
-permalink: unix_alarm_monitoredserver_alarmactionfailure.html
-id: ruleactionfailure.alarm
-folder: ConnectUnix
+summary: "Raised when a (specified collection) failed to execute against the server."
+sidebar: c_linux_sidebar
+permalink: linux_alarm_monitoredserver_collectionexecutionfailure.html
+id: procedureexecutionfailure.alarm
+folder: ConnectLinux
 ---
 
 

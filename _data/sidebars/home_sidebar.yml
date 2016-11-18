@@ -39,11 +39,8 @@ entries:
     - title: SQL Azure
       url: /sqlazure_welcome.html
       output: web
-    - title: Oracle
-      url: /oracle_welcome.html
-      output: web
-    - title: Unix
-      url: /unix_welcome.html
+    - title: Linux
+      url: /linux_welcome.html
       output: web
     - title: Windows Server
       url: /windows_welcome.html
