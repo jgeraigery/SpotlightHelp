@@ -2,11 +2,25 @@
 title: SQL Azure collections
 last_updated: July 29, 2016
 tags: [collections,collections_for_each_connection_type]
-summary: "The following collections are used for displays (Spotlight Overview page components and drilldowns)."
+summary: "Data is collected from the SQL Azure connection from the following Spotlight collections."
 sidebar: c_sqlazure_sidebar
 permalink: sqlazure_collections.html
 folder: ConnectSQLAzure
 ---
+
+
+
+
+
+## How to configure Spotlight collections
+
+Use a Spotlight Client to configure Spotlight collections. See [Configure Scheduling][enterprise_cfgmonitor_scheduling]
+
+From the Spotlight Client
+
+1.  Click **Configure \| Scheduliing**.
+2.  Select template or connection to configure
+3.  Select a collection to modify the collection schedule.
 
 
 ## Spotlight Overview page
