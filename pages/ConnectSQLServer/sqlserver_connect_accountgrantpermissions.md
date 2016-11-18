@@ -1,14 +1,12 @@
 ---
 title: Grant account permissions
 last_updated: July 29, 2016
-summary: "Spotlight connects to the SQL Server instance using the authentication defined by SQL Server | Connection Details. Spotlight requires necessary account permissions to connect to the SQL Server instance. Typically the account will be a member of the sysadmin server role. It could be a SQL Server login (such as 'sa'). It could be the Windows account that runs the Spotlight Diagnostic Server provided that account is trusted by the SQL Server."
+summary: "In some environments it may not be feasible for Spotlight to connect to the SQL Server instance server with an account that is a member of the sysadmin server role. The following instructions are provided for these environments. Note that there are known issues with this procedure as documented below."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_connect_accountgrantpermissions.html
 folder: ConnectSQLServer
 ---
 
-
-In some environments the above may not be feasible. The following instructions are provided for these environments. Run the following SQL script (as sysadmin) to grant the required permissions to user **TrustedUser**. Note the comment lines at the end of the script and un-comment as appropriate for your environment.
 
 ## Known issues with this script
 
@@ -22,6 +20,8 @@ The script QS_Services.sql can be executed successfully only under login with SQ
 
 
 ## Script to grant permissions to TrustedUser
+
+Run the following SQL script (as sysadmin) to grant the required permissions to user **TrustedUser**. Note the comment lines at the end of the script and un-comment as appropriate for your environment.
 
 ```
 use master

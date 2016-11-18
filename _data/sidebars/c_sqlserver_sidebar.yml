@@ -30,10 +30,6 @@ entries:
       url: /sqlserver_connect_requirements.html
       output: web, pdf
 
-    - title: Troubleshooting
-      url: /sqlserver_connect_troubleshoot.html
-      output: web, pdf
-
     - title: Grant account permissions
       url: /sqlserver_connect_accountgrantpermissions.html
       output: web, pdf
