@@ -15,8 +15,8 @@ The Spotlight Overview page can be opened from:
 * [Spotlight Client][enterprise_display_overview]
 * [Spotlight Mobile][mobile_overview]
 
-## The Spotlight Overview page for a VMware connection
-The Spotlight Overview page is made up of components and flows tailored to the Hyper-V architecture. \
+## The Spotlight Overview page for a Hyper-V connection
+The Spotlight Overview page is made up of components and flows tailored to the Hyper-V architecture.
 
 ## Components
 
@@ -24,7 +24,7 @@ The Spotlight Overview page is made up of components and flows tailored to the H
 
  Show the condition of the virtual machine. Green indicates that no alarms have been raised. Yellow and red indicate that an alarm has been raised. Possible alarms on the status control include the connection failure alarm, heartbeat alarm and planned outage alarm.
 
-During a planned outage, all controls on this page are disabled except Status. A Monitored Server - Planned Outage alarm is raised against the Status control.
+During a planned outage, all controls on this page are disabled except Status. A **Monitored Server - Planned Outage** alarm is raised against the **Status** control.
 
 ### Version
 
@@ -36,7 +36,7 @@ Show the version of the Hyper-V server.
 Use this grid to investigate the status of all virtual machines on the Hyper-V server.
 
 ### Name
- The name of the virtual machine. If a corresponding Windows connection exists for this virtual machine then click on the name to open the Windows Server | Overview page
+ The name of the virtual machine. If a corresponding Windows connection exists for this virtual machine then click on the name to open the [Windows Server \| Overview page][windows_drilldown_overview].
 
 ### State
  Power state of the virtual machine. For example, Powered On, Powered Off, or Suspended.
@@ -55,7 +55,7 @@ The Heartbeat alarm is raised when the virtual machine has stopped responding to
 To use this feature, ensure the heartbeat component of the hypervisor is enabled. Ensure the virtual machine operating system is compatible with the Hyper-V server version and has the necessary components to provide heartbeat data.
 
 ### Host
- The name of the physical machine hosting the virtual machine (the Hyper-V server). If a corresponding Windows connection exists for the host then click on the name to open the Windows Server \| Overview page.
+ The name of the physical machine hosting the virtual machine (the Hyper-V server). If a corresponding Windows connection exists for the host then click on the name to open the [Windows Server \| Overview page][windows_drilldown_overview].
 
 
 

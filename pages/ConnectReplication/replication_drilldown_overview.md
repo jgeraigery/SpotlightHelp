@@ -24,25 +24,25 @@ Microsoft uses a publishing metaphor to describe its SQL Server Replication mode
 
 This list briefly describes each of the components in a replication environment.
 
-### Publisher
+#### Publisher
  Makes data available for subscription to other servers within the replication environment.
 
-### Distributor
+#### Distributor
  Hosts the distribution database. The Distributor can be local or remote to a Publisher.
 
-### Subscriber
+#### Subscriber
  Receive the replicated data.
 
-### Publication
+#### Publication
  A collection of one or more articles from a database.
 
-### Article
+#### Article
  A table or partition of data, or a database object, specified for replication.
 
-### Subscription
+#### Subscription
  A request made by either a Publisher or Subscriber for a copy of data.
 
-### Agents
+#### Agents
  Replication processes responsible for managing, copying, and moving data between publishers and subscribers. Examples of agents include:
 
 * Distribution agent
