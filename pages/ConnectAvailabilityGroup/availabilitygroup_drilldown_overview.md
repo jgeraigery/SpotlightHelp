@@ -1,64 +1,63 @@
 ---
 title:  Spotlight Overview page for Availability Group connections
 last_updated: July 29, 2016
-summary: "Show the components and virtual machines grid for the Availability Group connection."
+summary: "Diagnose bottlenecks and problem areas for a single Availability Group connection."
 tags: [overview_page,overview_page_for_each_connection_type]
 sidebar: c_availabilitygroup_sidebar
 permalink: availabilitygroup_drilldown_overview.html
 folder: ConnectAvailabilityGroup
 ---
 
-## How to open the Availability Group connection display (Spotlight Client)
 
-From the left Connections pane, click on the connection name.
+## How to open (and Use) the Spotlight Overview page
+The Spotlight Overview page can be opened from:
+* [Spotlight Client][enterprise_display_overview]
+* [Spotlight Mobile][mobile_overview]
 
-Expand the Availability Group connection type from Monitored connections to list connections by name.
+## The Spotlight Overview page for Availability Group connections
+The Spotlight Overview page is made up of components and flows tailored to the SQL Server Availability Group architecture.
 
-Click on the connection name to show components, the replicas grid and databases grid for the Availability Group.
 
+### components
 
-## components
-
-### Status
+#### Status
 
 The status indicator is colored according to the highest raised alarm on the Availability Group.
 
-During a planned outage, all controls are disabled except Status. A Monitored Server - Planned Outage alarm is raised against the Status control. For more information, see Configure \| Planned Outage.
+During a planned outage, all controls are disabled except Status. A **Monitored Server - Planned Outage** alarm is raised against the **Status** control. For more information, see [Configure \| Planned Outage][enterprise_connect_plannedoutage].
 
-### Synchronization Health
+#### Synchronization Health
 
 The health rating of the Availability Group is excellent when all nodes are available and the preferred node is primary.
 
 {% include note.html content="See the Replicas grid for the health of each node in the group." %}
 
-### Primary Instance
+#### Primary Instance
 
 The name of the node (instance) that is currently primary.
 
-### Failover indicator
+#### Failover indicator
 
 The current failover availability:
 
-#### Automatic Failover
+##### Automatic Failover Available
+At least one of the connected secondary nodes is set for automatic failover.
 
-Available At least one of the connected secondary nodes is set for automatic failover.
-
-#### Manual Failover
-
-Required None of the connected nodes are set for automatic failover.
+##### Manual Failover Required
+None of the connected nodes are set for automatic failover.
 
 {% include note.html content="Also check the Databases grid regarding any loss of data on failover." %}
 
-### Cluster
+#### Cluster
 
 The name of the Windows Server Failover Cluster (WSFC).
 
-### Quorum Rating
+#### Quorum Rating
 
 The Quorum rating of database availability. The DBA sets the quorum configuration in the SQL Server Management Studio. The Quorum rating determines the number of node failures that the cluster can sustain.
 
 
-## Replicas grid
+### Replicas grid
 
 Show data for each node in the Availability Group.
 
@@ -73,7 +72,7 @@ Show data for each node in the Availability Group.
 * The READ_ONLY_ROUTING_URL = 'TCP://system-address:port' where the system address is a string such as a system name, a fully qualified domain name, or an IP address, that unambiguously identifies the destination computer system. The port is a port number that is used by the Database Engine of the SQL Server instance.
 
 
-## Databases grid
+### Databases grid
 
 Show data for each database in the Availability Group.
 

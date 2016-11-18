@@ -1,19 +1,22 @@
 ---
 title: Spotlight Overview page for Hyper-V connections
 last_updated: July 29, 2016
-summary: "Show the components and virtual machines grid for the Hyper-V connection."
+summary: "Diagnose bottlenecks and problem areas for a single Hyper-V connection."
 tags: [overview_page,overview_page_for_each_connection_type]
 sidebar: c_hyperv_sidebar
 permalink: hyperv_drilldown_overview.html
 folder: ConnectHyperv
 ---
 
-## How to open the Hyper-V connection display (Spotlight Client)
 
-From the left Connections pane, click on the connection name.
 
-Click on the connection name to show the components and virtual machines grid for the Hyper-V connection.
+## How to open (and Use) the Spotlight Overview page
+The Spotlight Overview page can be opened from:
+* [Spotlight Client][enterprise_display_overview]
+* [Spotlight Mobile][mobile_overview]
 
+## The Spotlight Overview page for a VMware connection
+The Spotlight Overview page is made up of components and flows tailored to the Hyper-V architecture. \
 
 ## Components
 

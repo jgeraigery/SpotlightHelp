@@ -117,7 +117,7 @@ The Spotlight Diagnostic Server uses WMI queries to retrieve performance counter
 
 Verify TCP port 135 is open on the Windows server host.
 
-## Connection to the SQL Server instance
+### Connection to the SQL Server instance
 
  If Spotlight cannot connect to the SQL Server instance then use another tool such as Microsoft's SQL Server Management Studio or sqlcmd to connect to the SQL Server instance. Is the issue with Spotlight's ability to connect to the SQL Server instance or with any any/every tool's ability to connect to the SQL Server instance?
 
@@ -125,7 +125,7 @@ Ensure ports are open as outlined in the Microsoft KBase article that describes 
 
 If Spotlight cannot connect to the SQL Server instance you may need to upgrade Microsoft Data Access Components (MDAC) on the Spotlight Client host AND the Spotlight Diagnostic Server host. More information is available from the Microsoft Download Center (search for MDAC).
 
-## Releaese Notes
+### Release Notes
 
 Check the [Spotlight Enterprise Release Notes][enterprise_releasenotes] for known issues.
 

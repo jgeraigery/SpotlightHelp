@@ -2,7 +2,7 @@
 title: Spotlight Overview page for Replication connections
 last_updated: July 29, 2016
 tags: [overview_page,overview_page_for_each_connection_type]
-summary: "The Spotlight Overview page highlights obvious bottlenecks and problem areas."
+summary: "Diagnose bottlenecks and problem areas for a single SQL Server Replication connection."
 sidebar: c_replication_sidebar
 permalink: replication_drilldown_overview.html
 folder: ConnectReplication
@@ -10,16 +10,15 @@ folder: ConnectReplication
 
 
 
-The Spotlight Overview page provides a unique view of the activity of the system. The Spotlight Overview page highlights obvious bottlenecks and problem areas. Statistics and flows are updated in real time.
+## How to open (and Use) the Spotlight Overview page
+The Spotlight Overview page can be opened from:
+* [Spotlight Client][enterprise_display_overview]
+* [Spotlight Mobile][mobile_overview]
 
-## There are many ways to open the Spotlight Overview page
+## The Spotlight Overview page for SQL Server Replication
+The Spotlight Overview page is made up of components and flows tailored to the SQL Server Replication architecture. Refer to the sidebar navigation of this help system for more information on a specific component or flow.
 
-* Click on the Replication connection on the Connections pane.
-* Click on the Replication connection on the heatmap display.
-
-
-
-## Overview of the components in a replication environment
+### Overview of the components in a replication environment
 
 Microsoft uses a publishing metaphor to describe its SQL Server Replication model. In this model, the servers and processes involved in replication can be likened to the roles within a publishing environment.
 

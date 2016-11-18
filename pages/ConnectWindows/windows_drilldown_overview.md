@@ -2,24 +2,26 @@
 title: Spotlight Overview page for Windows Server connections
 last_updated: July 29, 2016
 tags: [overview_page,overview_page_for_each_connection_type]
-summary: "The Spotlight Overview page highlights obvious bottlenecks and problem areas."
+summary: "Diagnose bottlenecks and problem areas for a single Windows server."
 sidebar: c_windows_sidebar
 permalink: windows_drilldown_overview.html
 folder: ConnectWindows
 ---
 
 
-The Spotlight Overview page provides a unique view of the activity of the system. The Spotlight Overview page highlights obvious bottlenecks and problem areas. Statistics and flows are updated in real time.
+## How to open (and Use) the Spotlight Overview page
+The Spotlight Overview page can be opened from:
+* [Spotlight Client][enterprise_display_overview]
+* [Spotlight Mobile][mobile_overview]
 
-## There are many ways to open the Spotlight Overview page
+## The Spotlight Overview page for Windows Server connections
+The Spotlight Overview page is made up of components and flows tailored to the Windows Server architecture. Refer to the sidebar navigation of this help system for more information on a specific component or flow.
 
-* Click on the Windows Server connection on the Connections pane.
-* Click on the Windows Server connection on the heatmap display.
-
-
-{% include imageClient.html file="pane_home_windows.png" alt="Spotlight Overview page for SQL Azure" %}
+{% include imageClient.html file="pane_home_windows.png" alt="Spotlight Overview page for Windows Server" %}
 
 
-For a Microsoft Cluster Server (MSCS) the Spotlight Overview page shows information for the current node in the cluster. Drilldowns for the monitored Operating System correlate with the physical machine operating as the current node in the cluster.
+{% include note.html content="For a Microsoft Cluster Server (MSCS) the Spotlight Overview page shows information for the current node in the cluster. Drilldowns for the monitored Operating System correlate with the physical machine operating as the current node in the cluster." %}
+
+
 
 {% include links.html %}

@@ -2,7 +2,7 @@
 title: Spotlight Overview page for SQL Azure
 last_updated: July 29, 2016
 tags: [overview_page,overview_page_for_each_connection_type]
-summary: "Drilldown on the SQL Azure database, tables, and indexes in Spotlight Enterprise."
+summary: "Diagnose bottlenecks and problem areas for a single SQL Azure connection."
 sidebar: c_sqlazure_sidebar
 permalink: sqlazure_drilldown_overview.html
 folder: ConnectSQLAzure
@@ -10,23 +10,15 @@ folder: ConnectSQLAzure
 
 {% include note.html content="When in Playback, history will not be displayed for SQL Azure database information." %}
 
-## How to open the Spotlight Overview page  (Spotlight Client)
+## How to open (and Use) the Spotlight Overview page
+The Spotlight Overview page can be opened from:
+* [Spotlight Client][enterprise_display_overview]
+* [Spotlight Mobile][mobile_overview]
 
-1. Select the connection from the left Connections pane.
-2. Click **Monitor \| Overview** from the ribbon.
-
+## The Spotlight Overview page for SQL Azure
+The Spotlight Overview page is made up of components and flows tailored to the SQL Azure architecture. Refer to the sidebar navigation of this help system for more information on a specific component or flow.
 
 {% include imageClient.html file="pane_home_sqlazure.png" alt="Spotlight Overview page for SQL Azure" %}
-
-
-
-Icon | Name | Description
------|------|------------
-{% include inline_imageClient.html file="tb_drilldown_home.png" alt="Overview" %} | Overview Page | The Spotlight Overview page highlights obvious bottlenecks and problem areas. Statistics and flows are updated in real time.  
-{% include inline_imageClient.html file="tb_drilldown_sqlactivity.png" alt="SQL Activity" %} | SQL Activity Drilldown | Drilldown on current and recent activity.
-{% include inline_imageClient.html file="tb_drilldown_databases.png" alt="Databases" %} | Databases Drilldown | Drilldown on the SQL Azure database, tables, and indexes.  
-
-
 
 
 {% include links.html %}
