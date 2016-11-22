@@ -1,5 +1,5 @@
 ---
-title: Spotlight™ on SQL Server® 12.0 Release Notes
+title: Spotlight™ Enterprise 12.0 Release Notes
 keywords: release notes
 summary: "These release notes provide information about the Spotlight Enterprise release."
 sidebar: p_enterprise_sidebar
