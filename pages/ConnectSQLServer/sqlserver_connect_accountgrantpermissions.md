@@ -118,7 +118,7 @@ declare @dbname sysname
 
 declare @use nvarchar(4000)
 
-declare @Dell_dblist table (
+declare @Quest_dblist table (
 
 row int identity,
 
@@ -126,7 +126,7 @@ name sysname
 
 )
 
-insert into @Dell_dblist (name)
+insert into @Quest_dblist (name)
 
 select name from master.dbo.sysdatabases;
 
@@ -136,7 +136,7 @@ while @dbnumber > 0
 
 begin
 
-select @dbname =name from @Dell_dblist where row = @dbnumber
+select @dbname =name from @Quest_dblist where row = @dbnumber
 
 set @use = N'USE ' + quotename(@dbname)
 
