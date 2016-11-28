@@ -1,7 +1,7 @@
 ---
 title: Spotlight Overview page for Hyper-V connections
 last_updated: July 29, 2016
-summary: "Diagnose bottlenecks and problem areas for a single Hyper-V connection."
+summary: "Use the Spotlight Overview page to diagnose bottlenecks and problem areas on a single Hyper-V connection."
 tags: [overview_page,overview_page_for_each_connection_type]
 sidebar: c_hyperv_sidebar
 permalink: hyperv_drilldown_overview.html
@@ -11,14 +11,14 @@ folder: ConnectHyperv
 
 
 ## How to open (and Use) the Spotlight Overview page
-The Spotlight Overview page can be opened from:
+The Spotlight Overview page can be opened from the:
+
 * [Spotlight Client][enterprise_display_overview]
 * [Spotlight Mobile][mobile_overview]
 
-## The Spotlight Overview page for a Hyper-V connection
-The Spotlight Overview page is made up of components and flows tailored to the Hyper-V architecture.
+## The Spotlight Overview page components for a Hyper-V connection
 
-## Components
+The components of the Spotlight Overview page are specific to the Hyper-V connection.
 
 ### Status
 
@@ -52,7 +52,7 @@ Use this grid to investigate the status of all virtual machines on the Hyper-V s
 
 The Heartbeat alarm is raised when the virtual machine has stopped responding to the hypervisor or is not responding at regular intervals.
 
-To use this feature, ensure the heartbeat component of the hypervisor is enabled. Ensure the virtual machine operating system is compatible with the Hyper-V server version and has the necessary components to provide heartbeat data.
+{% include note.html content="To use this feature, ensure the heartbeat component of the hypervisor is enabled. Ensure the virtual machine operating system is compatible with the Hyper-V server version and has the necessary components to provide heartbeat data." %}
 
 ### Host
  The name of the physical machine hosting the virtual machine (the Hyper-V server). If a corresponding Windows connection exists for the host then click on the name to open the [Windows Server \| Overview page][windows_drilldown_overview].

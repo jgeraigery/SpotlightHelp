@@ -18,6 +18,14 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Welcome
+    output: web, pdf
+    folderitems:
+
+    - title: Welcome
+      url: /hyperv_welcome.html
+      output: web, pdf
+
   - title: Connections
     output: web, pdf
     folderitems:

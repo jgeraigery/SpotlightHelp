@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - Hyper-V Alarm Action Failure Alarm
+title: ﻿Monitored Server - Hyper-V Alarm Action Failure alarm
+tags: [hyperv_alarms]
 last_updated: July 29, 2016
 summary: "This alarm is raised when a (specified action) failed to evaluate."
 sidebar: c_hyperv_sidebar

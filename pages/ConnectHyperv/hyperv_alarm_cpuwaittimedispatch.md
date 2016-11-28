@@ -1,7 +1,8 @@
 ---
-title: Hyper-V CPU Wait Time Per Dispatch Alarm
+title: Hyper-V CPU Wait Time Per Dispatch alarm
+tags: [hyperv_alarms]
 last_updated: July 29, 2016
-summary: "The CPU wait time per dispatch alarm is raised when the average queue time for the virtual machine waiting for CPU to become available exceeds a threshold."
+summary: "The CPU Wait Time Per Dispatch alarm is raised when the average queue time for the virtual machine waiting for CPU to become available exceeds a threshold."
 sidebar: c_hyperv_sidebar
 permalink: hyperv_alarm_cpuwaittimedispatch.html
 id: alarm_hyperv_cpuwaittimedispatch

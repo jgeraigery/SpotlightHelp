@@ -11,7 +11,7 @@ folder: ConnectHyperv
 
 ## Name
 
-The name of the virtual machine. If a corresponding Windows connection exists for this virtual machine then click on the name to open the Spotlight Overview page for the Windows Server.
+The name of the virtual machine. If a corresponding Windows connection exists for this virtual machine then click on the name to open the [Spotlight Overview page for the Windows Server][windows_drilldown_overview].
 
 ## State
 
@@ -31,11 +31,12 @@ Show the current status of communication between the virtual machine and the hyp
 
 The Heartbeat alarm is raised when the virtual machine has stopped responding to the hypervisor or is not responding at regular intervals.
 
-To use this feature, ensure the heartbeat component of the hypervisor is enabled. Ensure the virtual machine operating system is compatible with the Hyper-V server version and has the necessary components to provide heartbeat data.
+{% include note.html content="To use this feature, ensure the heartbeat component of the hypervisor is enabled. Ensure the virtual machine operating system is compatible with the Hyper-V server version and has the necessary components to provide heartbeat data." %}
+
 
 ## Host
 
-The name of the physical machine hosting the virtual machine (the Hyper-V server). If a corresponding Windows connection exists for the host then click on the name to open the Spotlight Overview page for the Windows Server.
+The name of the physical machine hosting the virtual machine (the Hyper-V server). If a corresponding Windows connection exists for the host then click on the name to open the [Spotlight Overview page for the Windows Server][windows_drilldown_overview].
 
 
 {% include links.html %}

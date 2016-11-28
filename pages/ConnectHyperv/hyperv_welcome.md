@@ -12,7 +12,7 @@ folder: ConnectHyperv
             <div class="panel panel-default text-center">
                 <div class="panel-body">
                     <h4>Connect</h4>
-                    <p>Connect Spotlight to Hyper-V servers.</p>
+                    <p>Connect to Hyper-V servers.</p>
                     <a href="hyperv_connect_details.html" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
@@ -38,5 +38,4 @@ folder: ConnectHyperv
     </div>
 
 
-{% include tip.html content="See the collections used by Spotlight Enterprise to monitor Hyper-V connections: [Collections][hyperv_collections]." %}
-
+{% include tip.html content="The collections used by Spotlight Enterprise to monitor Hyper-V connections are documented at: [Collections](hyperv_collections.html)." %}

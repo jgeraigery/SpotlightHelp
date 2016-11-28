@@ -1,5 +1,6 @@
 ---
-title: Hyper-V Virtual Overhead Alarm
+title: Hyper-V Virtual Overhead alarm
+tags: [hyperv_alarms]
 last_updated: July 29, 2016
 summary: "The Hyper-V Virtual Overhead alarm is raised on excessive CPU being used by the hypervisor on a virtual machine. This is effectively the housekeeping overhead for a Virtual Machine."
 sidebar: c_hyperv_sidebar

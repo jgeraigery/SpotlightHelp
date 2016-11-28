@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - Hyper-V Unsupported Version Alarm
+title: ﻿Monitored Server - Hyper-V Unsupported Version alarm
+tags: [hyperv_alarms]
 last_updated: July 29, 2016
 summary: ""
 sidebar: c_hyperv_sidebar

@@ -11,3 +11,7 @@ allowed-tags:
   - spotlight_grids
   - spotlight_charts
   - configure_monitoring
+  - hyperv_alarms
+  - vmware_alarms
+  - vmware_overview
+  
