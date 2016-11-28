@@ -11,7 +11,7 @@ folder: ConnectVMware
             <div class="panel panel-default text-center">
                 <div class="panel-body">
                     <h4>Connect</h4>
-                    <p>Connect Spotlight to VMware connections.</p>
+                    <p>Connect to VMware connections.</p>
                     <a href="vmware_connect_details.html" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
@@ -38,5 +38,4 @@ folder: ConnectVMware
 
 
 
-{% include tip.html content="See the collections used by Spotlight Enterprise to monitor VMware server: [Collections][vmware_collections]." %}
-
+{% include tip.html content="See the collections used by Spotlight Enterprise to monitor VMware server: [Collections](vmware_collections.html)." %}

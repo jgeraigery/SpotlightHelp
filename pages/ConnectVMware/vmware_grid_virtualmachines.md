@@ -1,5 +1,6 @@
 ---
 title: Virtual Machines grid
+tags: [vmware_overview]
 summary: "Use this grid to investigate the status of all virtual machines on the VMware server."
 sidebar: c_vmware_sidebar
 permalink: vmware_grid_virtualmachines.html

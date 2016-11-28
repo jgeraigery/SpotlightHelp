@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - VMware Planned Outage Alarm
+title: ﻿Monitored Server - VMware Planned Outage alarm
+tags: [vmware_alarms]
 last_updated: July 29, 2016
 summary: "This alarm is raised during a planned outage of the connection. Spotlight will resume monitoring the service at the end of the planned outage period."
 sidebar: c_vmware_sidebar
