@@ -1,5 +1,6 @@
 ---
-title: Disks - Percentage Used / Free Space Alarms
+title: Disks - Percentage Used / Free Space alarms
+tags: [windows_alarms]
 last_updated: July 29, 2016
 summary: "This shows the logical disk is filling up or is full."
 sidebar: c_windows_sidebar
@@ -18,6 +19,6 @@ To rectify the problem:
 
 It is recommended that you make a backup of the system before moving or deleting any files.
 
-{% include tip.html content="You can configure this alarm to ignore certain values. See *Configure an Alarm to Ignore Certain Values* in the online help for more information." %}
+{% include tip.html content="You can configure this alarm to ignore certain values." %}
 
 {% include note.html content="This problem can be raised by the Disks - Percentage Used alarm where thresholds are set on the percentage of disk space used, or the Disks - Free Space alarm where thresholds are set on available megabytes free. By default the Disks - Percentage Used alarm is enabled and the Disks - Free Space alarm is disabled." %}

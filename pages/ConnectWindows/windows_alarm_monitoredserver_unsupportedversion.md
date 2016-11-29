@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - Windows Unsupported Version Alarm
+title: ﻿Monitored Server - Windows Unsupported Version alarm
+tags: [windows_alarms]
 last_updated: July 29, 2016
 summary: ""
 sidebar: c_windows_sidebar

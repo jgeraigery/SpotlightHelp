@@ -9,6 +9,7 @@ folder: ConnectWindows
 ---
 
 
+## Statistics
 
 ### Overhead %
 
@@ -22,7 +23,7 @@ Percentage of CPU that is idle.
 
 Percentage of CPU being used by this virtual machine.
 
-## Values
+## Interpretation of the statistics
 
 A low idle percentage indicates that the virtual machine may not be getting the CPU time it requires. This can be seen in the chart when the overhead and used percentages meet.
 

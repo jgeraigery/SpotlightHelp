@@ -1,7 +1,7 @@
 ---
 title: Physical disks grid
 last_updated: July 29, 2016
-summary: "This shows details of the disk systems on the target Windows machine."
+summary: "This shows details of the disk systems on the monitored Windows Server."
 sidebar: c_windows_sidebar
 permalink: windows_grid_physicaldisks_disksummary.html
 id: DiskSummary.PhysicalDiskGrid

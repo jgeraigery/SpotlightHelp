@@ -1,5 +1,6 @@
 ---
-title: Memory - Physical Memory Available Alarm
+title: Memory - Physical Memory Available alarm
+tags: [windows_alarms]
 last_updated: July 29, 2016
 summary: "The Memory - Physical Memory Available alarm is raised when the available memory drops below a threshold."
 sidebar: c_windows_sidebar
@@ -15,7 +16,7 @@ folder: ConnectWindows
 * New programs being unable to open successfully.
 * General performance degradation due to excessive paging.
 
-## When this alarm is current you should:
+## When this alarm is current:
 
 * Look at the Windows Server \| Processes drilldown \| Processes page.
   Check the Phys MB column for processes using excessive amounts of memory. You can:

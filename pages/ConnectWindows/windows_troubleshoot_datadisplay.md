@@ -14,7 +14,7 @@ In order to execute actions on the Windows Server (like kill a session) from the
 
 ## Data display and collection problems - Windows Server connection
 
-Ensure necessary components are enabled on the Windows Server (SQL Server host) to ensure correct data display and collection.
+Ensure necessary components are enabled on the monitored Windows Server (SQL Server host) to ensure correct data display and collection.
 
 ### Windows Server \| Spotlight Overview page \| Disks Panel and Windows Server \| Disks Drilldown
 
@@ -42,7 +42,7 @@ To enable the collection of network data
 
 ## Troubleshooting
 
-Check the Known Issues section of the Spotlight Enterprise Release Notes.
+Check the Known Issues section of the [Spotlight Enterprise Release Notes][enterprise_releasenotes].
 
 
 {% include links.html %}

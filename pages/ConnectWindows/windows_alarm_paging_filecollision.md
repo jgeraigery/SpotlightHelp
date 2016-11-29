@@ -1,5 +1,6 @@
 ---
-title: Paging - File Collision Alarm
+title: Paging - File Collision alarm
+tags: [windows_alarms]
 last_updated: July 29, 2016
 summary: "This alarm becomes active when there is more than one paging file on a single physical disk. This can cause performance degradation –  especially on IDE disks. IDE disks allow only a single disk operation to be active on the bus at any time."
 sidebar: c_windows_sidebar
@@ -18,4 +19,4 @@ To rectify the problem:
 
 
 
-{% include note.html content="You can configure this alarm to ignore certain values. See *Configure an Alarm to Ignore Certain Values* in the online help." %}
+{% include note.html content="You can configure this alarm to ignore certain values." %}

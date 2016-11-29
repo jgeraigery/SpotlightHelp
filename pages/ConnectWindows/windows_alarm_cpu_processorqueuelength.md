@@ -1,5 +1,6 @@
 ---
-title: CPU - Processor Queue Length Alarm
+title: CPU - Processor Queue Length alarm
+tags: [windows_alarms]
 last_updated: July 29, 2016
 summary: "The CPU - Processor Queue Length alarm becomes active when the number of Windows threads waiting for CPU resources exceeds a threshold. Sustained high processor queue length is a good indicator that you have a CPU bottleneck."
 sidebar: c_windows_sidebar
@@ -20,7 +21,7 @@ When this alarm is current:
 * Use the Windows Server \| Processes drilldown \| Processes page to see which Windows process is consuming the CPU. SQL Server is shown as the process called **sqlservr**
 * Use the SQL Server \| SQl Activity drilldown \| Summary page to determine how much of the CPU is being consumed by SQL Server.
 
-* If you determine from the steps above that SQL Server is consuming most of the CPU, look at the SQL Server \| SQl Activity drilldown \| Sessions page to see which SQL Server users are currently consuming the most CPU.
+* If you determine from the steps above that SQL Server is consuming most of the CPU, look at the SQL Server \| SQL Activity drilldown \| Sessions page to see which SQL Server users are currently consuming the most CPU.
 
   On the Sessions page, select the sessions that have the highest CPU figure to see the exact SQL statement that the user is currently running. If necessary, use the Session Trace sub-tab to see further information about the active sessions.
 

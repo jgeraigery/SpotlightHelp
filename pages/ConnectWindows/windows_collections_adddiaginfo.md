@@ -17,10 +17,10 @@ folder: ConnectWindows
 ### Severity to trigger data collection
 High & Medium
 
-#### Data Collection Default
+### Data Collection Default
 Off
 
-#### To show this drilldown: select the alarm in the alarm log and click Diagnose.
+### To show this drilldown: select the alarm in the alarm log and click Diagnose.
 Windows Server \| Processes Drilldown \| Processes page
 
 

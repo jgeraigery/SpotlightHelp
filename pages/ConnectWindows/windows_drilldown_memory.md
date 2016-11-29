@@ -85,7 +85,7 @@ The chart displays the number of faults, NOT the number of pages faulted in each
 
 
 
-## Virtualized memory page (VMWare server host)
+## Virtualized memory page (VMware server host)
 
 Investigate Memory usage for the virtual machine.
 

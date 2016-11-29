@@ -1,5 +1,6 @@
 ---
-title: Disk Queue Length Alarm
+title: Disk Queue Length alarm
+tags: [windows_alarms]
 last_updated: July 29, 2016
 summary: "The Disk Queue Length alarm becomes active when the maximum disk queue length of any disk exceeds a threshold. Sustained high disk queue length is a good indicator that you have a disk subsystem bottleneck, and usually means that I/O times will be degraded."
 sidebar: c_windows_sidebar

@@ -1,5 +1,6 @@
 ---
-title: Network - Percentage Bandwidth Alarm
+title: Network - Percentage Bandwidth alarm
+tags: [windows_alarms]
 last_updated: July 29, 2016
 summary: "The average network bandwidth capacity of the specified network card is nearing the limit where it is saturating the network link. This value is taken over a specific number of background collections."
 sidebar: c_windows_sidebar
@@ -16,6 +17,6 @@ If this is happening regularly, look at:
 * Upgrading the network subsystem to a faster technology.
 * Adding an additional network card to the machine and configuring the system to utilize it.
 
-{% include tip.html content="If there are multiple network cards on the target system, you can right-click the gauge and select **Select network card** to choose which one you want to display." %}
+{% include tip.html content="If there are multiple network cards on the monitored Windows Server, you can right-click the gauge and select **Select network card** to choose which one you want to display." %}
 
-{% include note.html content="You can configure this alarm to ignore certain values. See *Configure an Alarm to Ignore Certain Values* in the online help for more information." %}
+{% include note.html content="You can configure this alarm to ignore certain values." %}

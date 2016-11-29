@@ -12,7 +12,7 @@ folder: ConnectWindows
             <div class="panel panel-default text-center">
                 <div class="panel-body">
                     <h4>Connect</h4>
-                    <p>Connect Spotlight to Windows servers.</p>
+                    <p>Connect to Windows servers.</p>
                     <a href="windows_connect_details.html" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
@@ -54,5 +54,4 @@ folder: ConnectWindows
 
 
 
-{% include tip.html content="See the collections used by Spotlight Enterprise to monitor Windows server: [Collections][windows_collections]." %}
-
+{% include tip.html content="The collections used by Spotlight Enterprise to monitor Windows server are documented at: [Collections](windows_collections.html)." %}

@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - Windows Planned Outage Alarm
+title: ﻿Monitored Server - Windows Planned Outage alarm
+tags: [windows_alarms]
 last_updated: July 29, 2016
 summary: "This alarm is raised during a planned outage of the connection. Spotlight will resume monitoring the service at the end of the planned outage period."
 sidebar: c_windows_sidebar

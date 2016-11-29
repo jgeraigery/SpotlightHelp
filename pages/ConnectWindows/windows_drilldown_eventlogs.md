@@ -8,17 +8,17 @@ folder: ConnectWindows
 ---
 
 
-Investigate items in the event log on the Windows server.
-
-### Event Logs grid
-Select the type of log and date range and click View Events.
 
 
+## Event Logs grid
+Investigate items in an event Log.
+
+Select the type of log and date range and click **View Events**.
 
 To display the full text from the message column, click an event in the grid.
 
-### Event Log details
-To display the full text from the message column, click an item in the Event Log grid.
+## Event Log details
+Click an event in the Event Log grid to display Event Log details.
 
 
 {% include links.html %}

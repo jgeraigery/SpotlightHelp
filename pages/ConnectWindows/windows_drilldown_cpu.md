@@ -54,7 +54,7 @@ Shows the rate at which Windows has been processing context switches.
 A Context Switch occurs when a processor switches from one thread to another. Context switches occur when a running thread voluntarily relinquishes the processor, is preempted by a higher priority ready thread, or switches between user-mode and privileged (kernel) mode to use an Executive or subsystem service.
 
 
-## Virtualized CPU page (VMWare server host)
+## Virtualized CPU page (VMware server host)
 
 Investigate CPU usage for the virtual machine.
 

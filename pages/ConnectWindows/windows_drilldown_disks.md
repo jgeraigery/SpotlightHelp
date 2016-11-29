@@ -34,7 +34,7 @@ If disk transfers are taking consistently longer than 50 ms, a disk bottleneck m
 ### Disk Load chart
 Shows how busy overall the individual logical disks are.
 
-Right-click the grid data and select View as Grid to view the data as a grid.
+Right-click the grid data and select **View as Grid** to view the data as a grid.
 
 
 ## Physical Disk activity
@@ -63,7 +63,7 @@ If disk transfers are taking consistently longer than 50 ms, a disk bottleneck m
 ### Disk Load chart (physical disk)
 Shows how busy overall the individual physical disks are.
 
-Right-click the grid data and select View as Grid to view the data as a grid.
+Right-click the grid data and select **View as Grid** to view the data as a grid.
 
 
 
@@ -80,7 +80,7 @@ To switch between Disk Space by Gigabytes and Disk Space by Percentage view, cli
 
 ## Disk summary
 
-Investigate The relationship between physical and logical disks and to view summary information for each disk
+Investigate the relationship between physical and logical disks and view summary information for each disk.
 
 ### Physical Disks grid
 Shows summary information about the physical disks on the current system.
@@ -96,11 +96,7 @@ Select a disk in the Physical Disks grid to see information about the associated
 
 
 ## Files Sizes
-
-Investigate The growth of files you specified in the Files Options
-
-### File Sizes grid
-Shows information on the size of files. For more information, see Windows Server \| Spotlight Overview page \| Files Panel.
+Shows information on the size of files. For more information, see **Windows Server \| Spotlight Overview page \| Files panel**.
 
 
 

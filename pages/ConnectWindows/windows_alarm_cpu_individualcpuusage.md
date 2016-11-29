@@ -1,5 +1,6 @@
 ---
-title: CPU - Individual CPU Usage Alarm
+title: CPU - Individual CPU Usage alarm
+tags: [windows_alarms]
 last_updated: July 29, 2016
 summary: "The Windows CPU - Individual CPU Usage alarm is activated when the average CPU utilization of a single processor exceeds a threshold. This value is taken over a specific number of background collections. Sustained high CPU utilization of a single processor on multiprocessor systems indicates that process threading may not be functioning efficiently."
 sidebar: c_windows_sidebar

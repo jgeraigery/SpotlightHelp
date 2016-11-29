@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - Windows Collection Execution Failure Alarm
+title: ﻿Monitored Server - Windows Collection Execution Failure alarm
+tags: [windows_alarms]
 last_updated: July 29, 2016
 summary: "The specified collection failed to execute against this server."
 sidebar: c_windows_sidebar

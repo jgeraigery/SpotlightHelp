@@ -31,21 +31,21 @@ Inside of this known issue a Generic Failure error will be returned.
 
 ## 1. Setup permission to read data
 
-{% include note.html content="For the following instructions, Spotlight User is the windows user that will be used to authenticate the Spotight connection to the Windows server as per: [Connection Details][windows_connect_details]" %}
+{% include note.html content="For the following instructions, *Spotlight User* is the windows user that will be used to authenticate the Spotight connection to the Windows server as per: [Windows Server \| Connection Details][windows_connect_details]" %}
 
-1. Click Control Panel \| Administrative Tools \| Computer Management to open the Computer Management dialog.
-2. Double click Local Users and Groups \| Groups.
-3. Double click Performance Log Users. Add the Spotlight User to this group. OK.
-4. Double click Performance Monitor Users. Add the Spotlight User to this group. OK.
+1. Click **Control Panel \| Administrative Tools \| Computer Management** to open the Computer Management dialog.
+2. Double click **Local Users and Groups \| Groups**.
+3. Double click **Performance Log Users**. Add the *Spotlight User* to this group. **OK**.
+4. Double click **Performance Monitor Users**. Add the *Spotlight User* to this group. **OK**.
 
 
 ## 2. Grant permissions to get information about services
 
 ### Retrieve the user SID
 
-From the Windows command prompt, type powershell and click Enter to open the Powershell.
+From the Windows command prompt, type **powershell** and click **Enter** to open the Powershell.
 
-Run the following command to retrieve the user SID of the Spotlight User. Replace domainName and userName with the domain name and user name for the Spotlight User account.
+Run the following command to retrieve the user SID of the *Spotlight User*. Replace **domainName** and **userName** with the domain name and user name for the *Spotlight User* account.
 
 ```
 [wmi]"win32_useraccount.domain='domainName',name='userName'"
@@ -69,7 +69,7 @@ D:(A;;CC;;;AU)(A;;CCLCRPRC;;;IU)(A;;CCLCRPRC;;;SU)(A;;CCLCRPWPRC;;;SY)(A;;KA;;;B
 
 Copy the section of the SDDL that ends in IU (Interactive Users). This section is one complete bracketed clause ie (A;;CCLCRPRC;;;IU). Paste this clause directly after the clause you copied from.
 
-In the new text, replace IU with the user SID of the Spotlight User.
+In the new text, replace IU with the user SID of the *Spotlight User*.
 
 The new SDDL looks something like the following:
 
@@ -96,79 +96,79 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control
 
 On each node
 
-1. .Right click and select Permissions.
-2. Add the Spotlight User. OK.
-3. Select the Spotlight User. Select Read access.
+1. Right click and select **Permissions**.
+2. Add the *Spotlight User*. **OK**.
+3. Select the *Spotlight User*. Select **Read access**.
 
 
 ## 4. Run Windows Component Services
 
-From the Windows command prompt, type dcomcnfg and click Enter to open the Component Services dialog.
+From the Windows command prompt, type **dcomcnfg** and click **Enter** to open the Component Services dialog.
 
 ### Configure COM security
 
-1. From the Component Services dialog click Computers \| My Computer.
-2. Right click My Computer and select Properties.
-3. From the Properties dialog, click COM Security.
-4. From Access Permissions, click Edit Limits.
-    1. Add the Spotlight User.
-    2. Allow Remote Access.
-    3. Click OK to close the Access Permission dialog and save changes.
-5. From Launch and Activation Permissions, click Edit Limits.
-    1. Add the Spotlight User.
-    2. Allow Remote Launch and Remote Activation.
-    3. Click OK to close the Launch and Activation Permission dialog.
-6. Click Ok to close the Properties dialog and save changes.
+1. From the Component Services dialog click **Computers \| My Computer**.
+2. Right click **My Computer** and select **Properties**.
+3. From the Properties dialog, click **COM Security**.
+4. From Access Permissions, click **Edit Limits**.
+    1. Add the *Spotlight User*.
+    2. Allow **Remote Access**.
+    3. Click **OK** to close the Access Permission dialog and save changes.
+5. From Launch and Activation Permissions, click **Edit Limits**.
+    1. Add the *Spotlight User*.
+    2. Allow **Remote Launch** and **Remote Activation**.
+    3. Click **OK** to close the Launch and Activation Permission dialog.
+6. Click **Ok** to close the Properties dialog and save changes.
 
 ### Configure DCOM security
 
-1. From the Component Services dialog double click Computers \| My Computer \| DCOM Config \| Windows Management and Instrumentation.
-2. Right click Windows Management and Instrumentation \| Properties.
-3. Click Security \|  Launch and Activation Permissions \| Edit.
-    1. Add the Spotlight User.
-    2. Allow Remote Launch and Remote Activation.
-    3. Click OK to close the Launch and Activation Permission dialog and save changes.
-4. Click OK to close the Windows Management and Instrumentation Properties dialog and save changes.
+1. From the Component Services dialog double click **Computers \| My Computer \| DCOM Config \| Windows Management and Instrumentation**.
+2. Right click **Windows Management and Instrumentation \| Properties**.
+3. Click **Security \|  Launch and Activation Permissions \| Edit**.
+    1. Add the *Spotlight User*.
+    2. Allow **Remote Launch and Remote Activation**.
+    3. Click **OK** to close the Launch and Activation Permission dialog and save changes.
+4. Click **OK** to close the Windows Management and Instrumentation Properties dialog and save changes.
 
 
 ## 5. Configure WMI permissions
 
-From the Windows command prompt, type wmimgmt.msc and click Enter to open the WmiMgmt dialog.
+From the Windows command prompt, type **wmimgmt.msc** and click **Enter** to open the WmiMgmt dialog.
 
-1. Right click WMI Control (Local) \| Properties.
-2. Click Security.
-3. Expand the Root node. Select cimv2.
-4. Click the Security button to open security settings for WMI on this computer.
-5. Click Advanced to open the advanced security settings for this WMI namespace.
+1. Right click **WMI Control (Local) \| Properties**.
+2. Click **Security**.
+3. Expand the **Root node**. Select **cimv2**.
+4. Click the **Security** button to open security settings for WMI on this computer.
+5. Click **Advanced** to open the advanced security settings for this WMI namespace.
 
-    Add the Spotlight User. Click Edit. Allow:
-
-    * Execute Methods
-    * Enable Account
-    * Remote Enable
-    * Read Security
-
-    Ensure these permissions apply to this namespace and all the namespaces under it by selecting This namespace and subnamespaces in the Apply to drop down box.
-
-    Click OK to save the new permissions.
-
-6. Click OK to close the Advanced Security Settings dialog. Click OK to close the Security for ROOT dialog.
-7. Returning to the Root node, select DEFAULT.
-8. Click the Security button to open security settings for DEFAULT.
-9. Click Advanced to open the advanced security settings.
-
-    Add the Spotlight User. Click Edit. Allow:
+    Add the *Spotlight User*. Click **Edit**. Allow:
 
     * Execute Methods
     * Enable Account
     * Remote Enable
     * Read Security
 
-    Ensure these permissions apply to this namespace and all the namespaces under it by selecting This namespace and subnamespaces in the Apply to drop down box.
+    Ensure these permissions apply to this namespace and all the namespaces under it by selecting **This namespace and subnamespaces** in the Apply to drop down box.
 
-    Click OK to save the new permissions.
+    Click **OK** to save the new permissions.
 
-10. Click OK to close all dialogs.
+6. Click **OK** to close the Advanced Security Settings dialog. Click **OK** to close the Security for ROOT dialog.
+7. Returning to the Root node, select **DEFAULT**.
+8. Click the **Security** button to open security settings for DEFAULT.
+9. Click **Advanced** to open the advanced security settings.
+
+    Add the *Spotlight User*. Click **Edit**. Allow:
+
+    * Execute Methods
+    * Enable Account
+    * Remote Enable
+    * Read Security
+
+    Ensure these permissions apply to this namespace and all the namespaces under it by selecting **This namespace and subnamespaces** in the Apply to drop down box.
+
+    Click **OK** to save the new permissions.
+
+10. Click **OK** to close all dialogs.
 
 
 {% include links.html %}
