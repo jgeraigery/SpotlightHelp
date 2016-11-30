@@ -21,7 +21,7 @@ folder: ConnectAvailabilityGroup
 
 ## Synchronization Health
 
-Synchronization Health is indicative of the health of the node. A warning is shown for a partially healthy node. An error is shown for an unhealthy node. For the health of the Availability Group as a whole see Synchronization Health at the top of the page.
+Synchronization Health is indicative of the health of the node. A warning is shown for a partially healthy node. An error is shown for an unhealthy node. For the health of the Availability Group as a whole see **Synchronization Health** at the top of the page.
 
 ## Availability mode
 

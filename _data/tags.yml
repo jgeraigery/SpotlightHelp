@@ -16,4 +16,5 @@ allowed-tags:
   - vmware_overview
   - windows_alarms
   - analysis_services_alarms
+  - availability_group_alarms
   

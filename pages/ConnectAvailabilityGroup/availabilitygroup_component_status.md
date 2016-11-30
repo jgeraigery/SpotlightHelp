@@ -12,7 +12,7 @@ folder: ConnectAvailabilityGroup
 
 
 
-During a planned outage, all controls are disabled except Status. A Monitored Server - Planned Outage alarm is raised against the Status control. For more information, see Configure \| Planned Outage.
+During a planned outage, all controls are disabled except Status. A Monitored Server - Planned Outage alarm is raised against the Status control.
 
 
 

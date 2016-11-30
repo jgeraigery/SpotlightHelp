@@ -1,5 +1,6 @@
 ---
-title: Availability Group - Failed Over Alarm
+title: Availability Group - Failed Over alarm
+tags: availability_group_alarms
 last_updated: July 29, 2016
 summary: "The Availability Group has failed over. One of the secondary nodes is now primary."
 sidebar: c_availabilitygroup_sidebar

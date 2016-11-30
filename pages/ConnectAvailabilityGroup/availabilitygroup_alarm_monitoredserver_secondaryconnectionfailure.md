@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - Availability Group Secondary Connection Failure Alarm
+title: ﻿Monitored Server - Availability Group Secondary Connection Failure alarm
+tags: availability_group_alarms
 last_updated: July 29, 2016
 summary: "The service is not responding."
 sidebar: c_availabilitygroup_sidebar

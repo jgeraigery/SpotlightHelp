@@ -1,5 +1,6 @@
 ---
-title: Availability Group - Failover Availability Alarm
+title: Availability Group - Failover Availability alarm
+tags: availability_group_alarms
 last_updated: July 29, 2016
 sidebar: c_availabilitygroup_sidebar
 permalink: availabilitygroup_alarm_failoveravailability.html

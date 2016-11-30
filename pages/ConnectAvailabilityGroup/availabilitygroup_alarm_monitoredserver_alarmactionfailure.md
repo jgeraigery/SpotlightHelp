@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - Availability Group Alarm Action Failure Alarm
+title: ﻿Monitored Server - Availability Group Alarm Action Failure alarm
+tags: availability_group_alarms
 last_updated: July 29, 2016
 summary: "This alarm is raised when a (specified action) failed to evaluate."
 sidebar: c_availabilitygroup_sidebar

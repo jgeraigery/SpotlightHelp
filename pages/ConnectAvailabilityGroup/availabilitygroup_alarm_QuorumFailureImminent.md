@@ -1,5 +1,6 @@
 ---
-title: Availability Group - Quorum Failure Imminent Alarm
+title: Availability Group - Quorum Failure Imminent alarm
+tags: availability_group_alarms
 last_updated: July 29, 2016
 sidebar: c_availabilitygroup_sidebar
 permalink: availabilitygroup_alarm_quorumfailureimminent.html
