@@ -61,7 +61,6 @@ MDAC is available from the Microsoft website: www.microsoft.com/downloads
 To find out the version of MDAC that you are currently running, you can download an application from the Microsoft website called the Component Checker Tool. Review the following Microsoft Knowledge Base article for more information: http://support.microsoft.com/kb/301202
 
 
-
 ## Spotlight Diagnostic Server requirements
 
 ### Platform
@@ -91,6 +90,11 @@ If the Diagnostic Server’s connection to the Spotlight Statistics Repository o
 
 ### .NET
 .NET 4.5 or later.
+
+
+### Virtualized Environments
+
+We support deploying Spotlight Entrprise in a virtualized environment.
 
 ### Additional requirements
 
