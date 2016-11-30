@@ -13,27 +13,15 @@ folder: ConnectAnalysisServices
 
 ## Connections page
 
-Investigate open connections on the server.
-
-### Connections grid
-
-Provides resource usage and activity information for current connections on the server.
+Investigate open connections on the server. The **Connections** grid provides resource usage and activity information.
 
 ## Sessions page
 
-Investigate open sessions on the server.
-
-### Sessions grid
-
-Provides resource usage and activity information for current sessions on the server.
+Investigate open sessions on the server. The **Sessions** grid provides resource usage and activity information.
 
 ## Commands page
 
-Investigate Commands that are currently executing or last executed.
-
-### Commands grid
-
-Provides resource usage and activity information for currently executing or last executed commands on the server.
+Investigate the commands that are currently executing or last executed. The **Commands** grid provides resource usage and activity information for currently executing or last executed commands on the server.
 
 
 {% include links.html %}

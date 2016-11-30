@@ -63,7 +63,7 @@ The state of the objects in the database.
 
 ### Processed
 
-All processable object in the database are processed. All major objects could be queried.
+All processable objects in the database are processed. All major objects could be queried.
 
 ### Partially processed
 

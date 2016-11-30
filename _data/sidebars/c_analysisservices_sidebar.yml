@@ -18,6 +18,14 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Welcome
+    output: web, pdf
+    folderitems:
+
+    - title: Welcome
+      url: /analysisservices_welcome.html
+      output: web, pdf
+
   - title: Connect
     output: web, pdf
     folderitems:

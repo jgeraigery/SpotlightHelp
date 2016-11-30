@@ -2,7 +2,7 @@
 title: Connection Details for Analysis Services
 last_updated: July 29, 2016
 tags: [connection_details,connection_details_for_each_connection_type]
-summary: "Specify the connection details for SQL Server Analysis Services."
+summary: "Monitor SQL Server Analysis Services by supplying the following connection details to Spotlight."
 sidebar: c_analysisservices_sidebar
 permalink: analysisservices_connect_details.html
 folder: ConnectAnalysisServices
@@ -24,7 +24,7 @@ From the Spotlight Client
 
 ## Address
 
-The connect string to link to the Analysis Services server (that is, the Server name, Server Instance name, or IP address).
+Specify the connect string to link to the Analysis Services server (that is, the Server name, Server Instance name, or IP address).
 
 ## Instance
 
@@ -35,7 +35,7 @@ The instance name of the Analysis Services server. This is filled in automatical
 Select the Windows server hosting the Analysis Services server. This is required. If the Windows server host is not in the list of connections then click **Create** to add it to the list.
 
 
-{% include tip.html content="Click **Create** to add a Windows server to the list. This opens **Connection Details** for the Windows server." %}
+{% include tip.html content="Click **Create** to add a Windows server to the list. This opens the [Windows server \| Connection Details][windows_connect_details]." %}
 
 
 

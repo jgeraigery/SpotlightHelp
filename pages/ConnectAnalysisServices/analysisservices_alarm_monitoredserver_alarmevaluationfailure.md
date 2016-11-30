@@ -1,5 +1,6 @@
 ---
 title: ﻿Monitored Server - Analysis Services Alarm Evaluation Failure Alarm
+tags: [analysis_services_alarms]
 last_updated: July 29, 2016
 summary: "Spotlight failed to evaluate the specified alarm from the given collection."
 sidebar: c_analysisservices_sidebar

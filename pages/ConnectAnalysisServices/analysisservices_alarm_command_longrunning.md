@@ -1,5 +1,6 @@
 ---
 title: Command - Long Running Command Alarm
+tags: [analysis_services_alarms]
 last_updated: July 29, 2016
 summary: "The Command - Long Running Command alarm is raised when a command on the Analysis Services server has been running for longer than the specified time period."
 sidebar: c_analysisservices_sidebar

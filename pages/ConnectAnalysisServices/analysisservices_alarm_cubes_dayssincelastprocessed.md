@@ -1,5 +1,6 @@
 ---
 title: Cubes - Days Since Last Processed Alarm
+tags: [analysis_services_alarms]
 last_updated: July 29, 2016
 summary: "The Cubes - Days Since Last Processed alarm alerts you to cubes that have been waiting to be processed for at least three days."
 sidebar: c_analysisservices_sidebar

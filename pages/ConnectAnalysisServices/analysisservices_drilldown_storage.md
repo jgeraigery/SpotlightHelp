@@ -10,22 +10,12 @@ folder: ConnectAnalysisServices
 
 ## Databases page
 
-Investigate Databases on the Analysis Services instance
-
-### Databases grid 
-
-Lists details of the databases in the Analysis Services instance.
-
-
+Investigate databases on the Analysis Services instance.
 
 
 ## Cubes page
 
-Investigate cubes.
-
-### Cubes grid
-
-Shows information about the cubes that are currently defined on the Analysis Services server.
+Show information about the cubes that are currently defined on the Analysis Services server.
 
 
 

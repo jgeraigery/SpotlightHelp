@@ -28,7 +28,7 @@ Applicable to Windows Servers hosted on Hyper-V.
 
 ## Not Virtualized
 
-The Windows Server is not hosted on a virtual machine or the virtual machine is unknown. For more information, see the Windows Server Connection Details.
+The Windows Server is not hosted on a virtual machine or the virtual machine is unknown.
 
 {% include links.html %}
 ﻿﻿
