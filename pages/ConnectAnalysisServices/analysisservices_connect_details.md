@@ -35,7 +35,7 @@ The instance name of the Analysis Services server. This is filled in automatical
 Select the Windows server hosting the Analysis Services server. This is required. If the Windows server host is not in the list of connections then click **Create** to add it to the list.
 
 
-{% include tip.html content="Click **Create** to add a Windows server to the list. This opens the [Windows server \| Connection Details][windows_connect_details]." %}
+{% include tip.html content="Click **Create** to add a Windows server to the list. This opens [Windows server \| Connection Details][windows_connect_details]." %}
 
 
 
