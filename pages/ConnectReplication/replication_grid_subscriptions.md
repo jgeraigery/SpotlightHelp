@@ -8,8 +8,6 @@ id: Subscriptions.grdSubscriptions
 folder: ConnectReplication
 ---
 
-Columns in this grid include:
-
 ## Status
 
 Maximum status of the agents associated with the publication. For example, Started, Succeeded, In progress, Idle, Retrying, Failed.

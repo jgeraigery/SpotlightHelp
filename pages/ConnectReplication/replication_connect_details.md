@@ -2,13 +2,13 @@
 title: Connection Details for SQL Server Replication
 last_updated: July 29, 2016
 tags: [connection_details,connection_details_for_each_connection_type]
-summary: "Specify the connection details for a SQL Server Replication environment."
+summary: "Monitor a SQL Server Replication environment by supplying the following connection details to Spotlight."
 sidebar: c_replication_sidebar
 permalink: replication_connect_details.html
 folder: ConnectReplication
 ---
 
-{% include note.html content="Connections to SQL Server Replication is available for SQL Server 2005 and later." %}
+{% include note.html content="Spotlight connects to SQL Server Replication for SQL Server 2005 and later." %}
 
 
 ## How to enter / edit connection details

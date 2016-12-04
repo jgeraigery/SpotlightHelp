@@ -1,5 +1,3 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
 entries:
 - title: sidebar
   product: SQL Server Replication
@@ -17,6 +15,14 @@ entries:
       url: /tocpage
       output: pdf
       type: frontmatter
+
+  - title: Welcome
+    output: web, pdf
+    folderitems:
+
+    - title: Welcome
+      url: /replication_welcome.html
+      output: web, pdf
 
   - title: Connect
     output: web, pdf

@@ -7,23 +7,21 @@ permalink: replication_drilldown_activity.html
 folder: ConnectReplication
 ---
 
-## To see the SQL Activity drilldown
 
-1. Select a SQL Server Replication environment from the Connections pane.
-2. Click **Monitor \| Activity**.
+
+## How to open (and Use) the SQL Activity drilldown
+The SQL Activity drilldown can be opened from:
+* [Spotlight Client][enterprise_display_overview]
+* [Spotlight Mobile][mobile_overview]
 
 
 ## Publications page
 
-### Publications grid
-
-Shows information about the publications on the publisher.
+Use the **Publications grid** to show information about the publications on the publisher.
 
 ## Subscriptions page
 
-### Subscriptions grid
-
-Shows information about the subscriptions that belong to a publication on the publisher.
+Use the **Subscriptions grid** to show  information about the subscriptions that belong to a publication on the publisher.
 
 ### Sessions for subscription
 

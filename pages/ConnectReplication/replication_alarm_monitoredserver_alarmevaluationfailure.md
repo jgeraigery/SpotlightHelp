@@ -1,5 +1,6 @@
 ---
 title: ﻿Monitored Server - Replication Evaluation Failure Alarm
+tags: [replication_alarms]
 last_updated: July 29, 2016
 summary: "Spotlight failed to evaluate the specified alarm from the given collection."
 sidebar: c_replication_sidebar

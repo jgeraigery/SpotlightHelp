@@ -8,8 +8,6 @@ id: Agents.grdAgents
 folder: ConnectReplication
 ---
 
-Columns in this grid include:
-
 ## Agent
 
 Name of the agent.

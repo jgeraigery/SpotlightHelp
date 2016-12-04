@@ -1,5 +1,6 @@
 ---
 title: Replication - Queue Reader Agent Failure Alarm
+tags: [replication_alarms]
 last_updated: July 29, 2016
 summary: "A Replication - Agent Failure alarm becomes active when a SQL Server replication agent has failed."
 sidebar: c_replication_sidebar
@@ -11,9 +12,7 @@ folder: ConnectReplication
 
 When a replication agent fails, the replication of your data can be interrupted. It is best to investigate the problem as soon as possible to minimize the amount of work required to reestablish proper replication.
 
-## When this alarm is current:
-
-Look at the Actions grid in the Activity drilldown to see the messages returned by the agent. The Actions grid shows the details of the messages logged by the agent. This may help you diagnose the exact task on which an agent failed.
+When this alarm is current, look at the Actions grid in the Activity drilldown to see the messages returned by the agent. The Actions grid shows the details of the messages logged by the agent. This may help you diagnose the exact task on which an agent failed.
 
 To display the Actions grid:
 
@@ -24,7 +23,7 @@ To display the Actions grid:
 
 Once the problem is resolved the agent can be re-started using SQL Server Enterprise Manager or SQL Server Management Studio.
 
-{% include tip.html content="You can configure this alarm to ignore certain values. See *Configure an Alarm to Ignore Certain Values* in the online help. You can configure different alarm severities for specific agents. See *Configure Keyed Alarms* in the online help." %}
+{% include tip.html content="You can configure this alarm to ignore certain values. You can configure different alarm severities for specific agents." %}
 
 
 {% include links.html %}
