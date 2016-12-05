@@ -12,7 +12,7 @@ folder: ConnectSQLServer
             <div class="panel panel-default text-center">
                 <div class="panel-body">
                     <h4>Connect</h4>
-                    <p>Connect Spotlight to SQL Server.</p>
+                    <p>Connect to SQL Server.</p>
                     <a href="sqlserver_connect_details.html" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
@@ -60,5 +60,4 @@ folder: ConnectSQLServer
 
 
 
-{% include tip.html content="See the collections used by Spotlight Enterprise to monitor SQL Server instances: [Collections][sqlserver_collections]." %}
-
+{% include tip.html content="The collections used by Spotlight Enterprise to monitor SQL Server instances are documented at: [Collections](sqlserver_collections.html)." %}
