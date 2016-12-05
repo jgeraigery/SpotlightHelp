@@ -18,4 +18,5 @@ allowed-tags:
   - analysis_services_alarms
   - availability_group_alarms
   - replication_alarms
+  - sqlazure_alarms
   

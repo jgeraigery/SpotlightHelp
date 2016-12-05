@@ -11,7 +11,7 @@ folder: ConnectSQLAzure
             <div class="panel panel-default text-center">
                 <div class="panel-body">
                     <h4>Connect</h4>
-                    <p>Connect Spotlight to SQL Azure.</p>
+                    <p>Connect to SQL Azure.</p>
                     <a href="sqlazure_connect_details.html" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
@@ -47,5 +47,4 @@ folder: ConnectSQLAzure
     </div>
 
 
-{% include tip.html content="See the collections used by Spotlight Enterprise to monitor SQL Azure: [Collections][sqlazure_collections]." %}
-
+{% include tip.html content="See the collections used by Spotlight Enterprise to monitor SQL Azure: [Collections](sqlazure_collections.html)." %}

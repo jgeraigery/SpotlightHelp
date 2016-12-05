@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - SQL Azure Connection Failure Alarm
+title: ﻿Monitored Server - SQL Azure Connection Failure alarm
+tags: [sqlazure_alarms]
 last_updated: July 29, 2016
 summary: "Spotlight has failed to connect to the SQL Azure database. Check the SQL Azure connection details and SQL Azure availability."
 sidebar: c_sqlazure_sidebar
@@ -9,11 +10,20 @@ folder: ConnectSQLAzure
 ---
 
 
-## SQL Azure connection details
+## Check the connection details
 
-The SQL Azure connection details are entered on the SQL Azure \| Connection Details screen. Click Configure \| Connections and select the SQL Azure connection type; right click on the connection and select Properties.
+The SQL Azure connection details are entered on the Spotlight Client, SQL Azure \| Connection Details screen.
 
-Spotlight uses the connection details to connect to the SQL Azure database. Verify they are correct. Verify the address is valid and in the form of a URL. Verify the name of the database as entered exists. Verify the user and password as entered are correct.
+From the Spotlight Client
+
+1.  Click **Configure \| Connections**.
+2.  Right click on the SQL Azure connection and select **Properties**.
+3.  Check the connection details.
+    * Verify the address is valid and in the form of a URL.
+    * Verify the name of the database as entered exists.
+    * Verify the user and password as entered are correct.
+4.  Click **Test** to test the connection.
+
 
 ## SQL Azure availability
 

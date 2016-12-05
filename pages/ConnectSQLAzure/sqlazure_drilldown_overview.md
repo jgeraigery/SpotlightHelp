@@ -2,7 +2,7 @@
 title: Spotlight Overview page for SQL Azure
 last_updated: July 29, 2016
 tags: [overview_page,overview_page_for_each_connection_type]
-summary: "Diagnose bottlenecks and problem areas for a single SQL Azure connection."
+summary: "Use the Spotlight Overview page to diagnose bottlenecks and problem areas on a single SQL Azure connection."
 sidebar: c_sqlazure_sidebar
 permalink: sqlazure_drilldown_overview.html
 folder: ConnectSQLAzure
@@ -12,6 +12,7 @@ folder: ConnectSQLAzure
 
 ## How to open (and Use) the Spotlight Overview page
 The Spotlight Overview page can be opened from:
+
 * [Spotlight Client][enterprise_display_overview]
 * [Spotlight Mobile][mobile_overview]
 

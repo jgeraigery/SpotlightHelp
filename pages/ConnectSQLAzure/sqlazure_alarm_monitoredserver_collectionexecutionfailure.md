@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - SQL Azure Collection Execution Failure Alarm
+title: ﻿Monitored Server - SQL Azure Collection Execution Failure alarm
+tags: [sqlazure_alarms]
 last_updated: July 29, 2016
 summary: "This alarm is raised when a (specified collection) failed to execute against the server."
 sidebar: c_sqlazure_sidebar
