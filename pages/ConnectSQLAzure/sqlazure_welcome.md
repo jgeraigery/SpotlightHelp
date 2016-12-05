@@ -47,4 +47,4 @@ folder: ConnectSQLAzure
     </div>
 
 
-{% include tip.html content="See the collections used by Spotlight Enterprise to monitor SQL Azure: [Collections](sqlazure_collections.html)." %}
+{% include tip.html content="The collections used by Spotlight Enterprise to monitor SQL Azure connections are documented at: [Collections](sqlazure_collections.html)." %}
