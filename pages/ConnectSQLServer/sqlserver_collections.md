@@ -141,7 +141,7 @@ Deadlocks | Deadlock List  |
 I/O by File | Virtual File Statistics  |
 SQL Analysis | SQL Analysis  |
 Custom Counters | Custom Counters - SQL Server |  
-Top SQL Statements | Top SQL Statements |  
+Query Execution Statistics | Top SQL Statements |  
 
 ## Wait Statistics drilldown  
 

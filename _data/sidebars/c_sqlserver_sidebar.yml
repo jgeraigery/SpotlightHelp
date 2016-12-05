@@ -16,6 +16,14 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Welcome
+    output: web, pdf
+    folderitems:
+
+    - title: Welcome
+      url: /sqlserver_welcome.html
+      output: web, pdf
+
   - title: Connect
     output: web, pdf
     folderitems:
@@ -726,12 +734,12 @@ entries:
           url: /sqlserver_grid_customcounters.html
           output: web, pdf
 
-      - title: Top SQL Statements page
+      - title: Query Execution Statistics page
         output: web
         subfolderitems:
 
-        - title: Top SQL Statements grid
-          url: /sqlserver_grid_topsqlstatements.html
+        - title: Query Execution Statistics grid
+          url: /sqlserver_grid_queryexecutionstatistics.html
           output: web, pdf
 
         - title: SQL Statement

@@ -95,8 +95,8 @@ In the SQL Server Error Log, entries "SQL Trace was started" and "SQL Trace was 
 Unexpected error **"Could not load file or assembly 'System.Cor, Version=2.0.5.0…"** on first time connecting to a SQL Server instance. <br><br> *Solution:* Install the following patch to the .NET framework (http://support.microsoft.com/kb/2468871) | 2764
 The collections Fragmentation by Index and Fragmentation Overview can adversely impact the performance of monitored SQL Servers. If this is an issue then use Configure \| Scheduling to reduce the frequency of collection | 2705
 **Deadlock List Report** - Each Deadlock List report is limited to 4000 characters of deadlock information. | 13064
-**Error collecting data.** The collection used to populate the Top SQL drilldown is unable to run when some databases on the instance are in restricted states of access (for example, Single User Mode, Offline). | 7584
-**Top SQL Statements drilldown** - Query Plan returns a duplicate attribute error - This is a Microsoft bug. <br><br> *Workaround:* Restrict the grid by getting fewer records or sorting on a different variable. | 11179
+**Error collecting data.** The collection used to populate the Query Execution Statistics drilldown is unable to run when some databases on the instance are in restricted states of access (for example, Single User Mode, Offline). | 7584
+**Query Execution Statistics drilldown** - Query Plan returns a duplicate attribute error - This is a Microsoft bug. <br><br> *Workaround:* Restrict the grid by getting fewer records or sorting on a different variable. | 11179
 For SQL Activity \| Sessions \| Plan there is a limit on the size of the \<inputbuf\> tag of 1024 bytes (or nearly that). This cannot be expanded as the SQL Server truncates the SQL when it creates the XML. | 2300
 **Negative values in Wait Statistics drilldown.** Negative values may be shown in the Waits Details grid. | 3757
 **SQL Analysis grid.** The Text Data column in the SQL Analysis grid may occasionally display blank rows. This is due to SQL Server not returning any data in the Text Data column from the trace. | 219577

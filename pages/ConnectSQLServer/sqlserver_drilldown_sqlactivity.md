@@ -294,20 +294,20 @@ Data collected for any custom counters that have been configured is shown in the
 * You can see Custom Counter data over a selected time range. See **Custom Counters View** in Spotlight Reporting and Trending for more information.  
 
 
-## Top SQL Statements page
+## Query Execution Statistics page
 Diagnose workload issues by displaying SQL statements that match particular criteria.
 This feature is not available for SQL Server 2000.
 
-### Top SQL Statements grid
-Shows the top SQL statements according to the criteria you have set.
+### Query Execution Statistics grid
+Shows the top query execution statistics according to the criteria you have set.
 
 Select a statement in the grid to see the complete SQL statement and the query plan in XML.
 
-The columns in the Top SQL Statements grid correspond to the data returned by sys.dm_exec_query_stats. For more information on sys.dm_exec_query_stats, see the Transact-SQL Reference section in Microsoft SQL Server Books Online.
+The columns in the Query Execution Statistics grid correspond to the data returned by sys.dm_exec_query_stats. For more information on sys.dm_exec_query_stats, see the Transact-SQL Reference section in Microsoft SQL Server Books Online.
 
 #### To filter the results
 
-Click **Top SQL**.
+Click **Query Execution Statistics**.
 
 Select values as appropriate.
 
