@@ -7,6 +7,16 @@ permalink: analysisservices_drilldown_configuration.html
 folder: ConnectAnalysisServices
 ---
 
+## How to open the Configuration drilldown
+
+From the Spotlight Client
+
+1. Select the connection from the left Connections pane.
+2. Click **Monitor \| Configuration** from the ribbon.
+   {% include imageClient.html file="tb_drilldown_config.png" alt="Configuration drilldown for Analysis Services" %}
+
+{% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
+
 
 
 

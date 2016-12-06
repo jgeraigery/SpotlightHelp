@@ -8,12 +8,25 @@ folder: ConnectAnalysisServices
 ---
 
 
-## Databases page
+## How to open the Storage drilldown
+
+From the Spotlight Client
+
+1. Select the connection from the left Connections pane.
+2. Click **Monitor \| Storage** from the ribbon.
+   {% include imageClient.html file="tb_drilldown_storage.png" alt="Storage drilldown for Analysis Services" %}
+
+{% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
+
+
+## About the Storage drilldown
+
+### Databases page
 
 Investigate databases on the Analysis Services instance.
 
 
-## Cubes page
+### Cubes page
 
 Show information about the cubes that are currently defined on the Analysis Services server.
 

@@ -8,20 +8,36 @@ folder: ConnectAnalysisServices
 ---
 
 
-{% include note.html content="All times shown in the grids of the Activity drilldown are displayed as Greenwich mean time (GMT). This feature requires SQL Server Analysis Services 2008 or later." %}
+## How to open the Activity drilldown
+
+From the Spotlight Client
+
+1. Select the connection from the left Connections pane.
+2. Click **Monitor \| Activity** from the ribbon.
+   {% include imageClient.html file="tb_drilldown_sqlactivity.png" alt="Activity drilldown for Analysis Services" %}
+
+{% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
 
 
-## Connections page
+## About the Activity drilldown
+
+{% include note.html content="All times shown in the grids of the Activity drilldown are displayed as Greenwich mean time (GMT)." %}
+
+
+### Connections page
 
 Investigate open connections on the server. The **Connections** grid provides resource usage and activity information.
 
-## Sessions page
+### Sessions page
 
 Investigate open sessions on the server. The **Sessions** grid provides resource usage and activity information.
 
-## Commands page
+### Commands page
 
 Investigate the commands that are currently executing or last executed. The **Commands** grid provides resource usage and activity information for currently executing or last executed commands on the server.
+
+{% include note.html content="The Commangs page requires SQL Server Analysis Services 2008 or later." %}
+
 
 
 {% include links.html %}
