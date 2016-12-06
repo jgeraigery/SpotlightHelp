@@ -8,6 +8,19 @@ folder: ConnectWindows
 ---
 
 
+## How to open the Event logs drilldown
+
+From the Spotlight Client
+
+1. Select the connection from the left Connections pane.
+2. Click **Monitor \| Event logs** from the ribbon.
+   {% include imageClient.html file="tb_drilldown_eventlog.png" alt="Event logs drilldown for Windows servers" %}
+
+{% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
+
+
+## About the Event logs drilldown
+
 
 
 ## Event Logs grid

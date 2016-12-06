@@ -7,58 +7,74 @@ permalink: windows_drilldown_cpu.html
 folder: ConnectWindows
 ---
 
-## CPU page
+
+
+
+## How to open the CPU drilldown
+
+From the Spotlight Client
+
+1. Select the connection from the left Connections pane.
+2. Click **Monitor \| CPU** from the ribbon.
+   {% include imageClient.html file="tb_drilldown_cpu.png" alt="CPU drilldown for Windows servers" %}
+
+{% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
+
+
+## About the CPU drilldown
+
+### CPU page
 
 Investigate performance details for each CPU on the Windows server.
 
-### CPU Utilization chart
+#### CPU Utilization chart
 Shows the CPU utilization for all the processors on the Windows server. Each processor is represented by a single line on the chart, and by an item in the legend at the top right of the chart.
 
 To view CPU utilization analyzed according to processing mode, see the Total CPU Utilization chart on the Processing page in the CPU drilldown.
 
-### Server Work Queues chart
+#### Server Work Queues chart
 Shows the number of threads (program execution units) that are waiting to run on each processor. A sustained queue length greater than four may indicate processor congestion.
 
-### Interrupts chart
+#### Interrupts chart
 Shows the number of interrupts per second per CPU on the Windows server. Each CPU is represented by a single graph on the chart, and by an item in the legend at the top right of the chart.
 
 The Interrupts chart is designed to show if any CPUs on the system are bearing a disproportionate level of the I/O load.
 
-### Kilobytes Transferred chart
+#### Kilobytes Transferred chart
 Shows the number of kilobytes per second transferred per CPU on the Windows server. Each CPU is represented by a single graph on the chart, and by an item in the legend at the top right of the chart.
 
 
-## Processing page
+### Processing page
 
 Investigate overall performance details across all CPUs on the Windows server.
 
-### Total CPU Utilization chart
+#### Total CPU Utilization chart
 Shows the combined CPU utilization for all processors on the Windows server. The following are displayed:
 
 * **User** - The percentage of CPU time that is being consumed in User mode. (User mode is a restricted processing mode designed for applications, environment subsystems, and integral subsystems.)
 * **Kernel** - The percentage of CPU time that is being consumed in privileged mode. (Privileged mode is designed for operating system components and allows direct access to hardware and all memory.)
 
-### Processor Queue Length chart
+#### Processor Queue Length chart
 Shows the total number of threads (program execution units) that are waiting to be run on ALL processors. A sustained processor queue length greater than ten can indicate processor congestion.
 
 To view Server Work Queues for the individual CPUs in the system, see the CPU Utilization chart on the CPU page in the CPU drilldown.
 
-### Total Process and Thread Count chart
+#### Total Process and Thread Count chart
 Shows the total number of Windows processes and threads that exist.
 
 A process is one instance of an application program or system service that is currently executing on the server. Each process will have one or more threads which are the basic entity that can be scheduled. Sophisticated application processes such as SQL Server or Exchange can have dozens of threads running concurrently.
 
-### Context Switching chart
+#### Context Switching chart
 Shows the rate at which Windows has been processing context switches.
 
 A Context Switch occurs when a processor switches from one thread to another. Context switches occur when a running thread voluntarily relinquishes the processor, is preempted by a higher priority ready thread, or switches between user-mode and privileged (kernel) mode to use an Executive or subsystem service.
 
 
-## Virtualized CPU page (VMware server host)
+### Virtualized CPU page (VMware server host)
 
 Investigate CPU usage for the virtual machine.
 
-### CPU Usage Percent
+#### CPU Usage Percent
 Shows usage statistics for the CPU of the virtual machine as percentages of the theoretical maximum CPU available to the virtual machine.
 
 * **Overhead %** - Percentage of CPU that is being consumed by other virtual machines or by VMware itself.
@@ -66,29 +82,29 @@ Shows usage statistics for the CPU of the virtual machine as percentages of the 
 * **Used %** - Percentage of CPU being used by this virtual machine.
 A low idle percentage indicates that the virtual machine may not be getting the CPU time it requires. This can be seen in the chart when the overhead and used percentages meet.
 
-### CPU Usage MHz
+#### CPU Usage MHz
 Shows how much CPU the virtual machine is using, in megahertz.
 
 
-## Virtualized CPU page (Hyper-V server host)
+### Virtualized CPU page (Hyper-V server host)
 
 Investigate CPU usage for the virtual machine.
 
-### CPU Usage
+#### CPU Usage
 Show CPU usage statistics.
 
 * Guest - CPU usage of this virtual machine.
 * Remote - CPU usage of this virtual machine on CPUs that were not allocated to this virtual machine. More technically, this refers to the CPU usage of this virtual machine on a NUMA node it is not allocated to. If this figure is consistently high then it could indicate an issue with the CPU configuration.
 * Hypervisor - CPU usage of the Hypervisor.
 
-### CPU wait time per dispatch
+#### CPU wait time per dispatch
 Show the average queue time for the virtual machine waiting for CPU to become available.
 
 The average queue time should remain under 60,000ns. If the average queue time exceeds 60,000ns then an alarm is raised. A high Hyper-V CPU wait time per dispatch alarm is raised if the average queue time exceeds 100,000ns.
 
 The current value for this metric is displayed on the Windows Server \| Spotlight Overview page \| CPU Panel \| Virtualization Overhead control.
 
-### Host Processor Usage
+#### Host Processor Usage
 Show the load on the logical processor and virtual processor.
 
 * **Logical Processor Total Runtime** - A logical processor is an actual CPU on the Hyper-V server.
