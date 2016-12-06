@@ -141,7 +141,7 @@ Deadlocks | Deadlock List  |
 I/O by File | Virtual File Statistics  |
 SQL Analysis | SQL Analysis  |
 Custom Counters | Custom Counters - SQL Server |  
-Query Execution Statistics | Top SQL Statements |  
+Query Execution Statistics | QueryExecutionStatistics |  
 
 ## Wait Statistics drilldown  
 
@@ -240,7 +240,7 @@ Contention | Tempdb contention; Tempdb Page Wait Times
 
 Application | Collection Name
 ------------|----------------
-SQL Optimizer | Top SQL Statements
+SQL Optimizer | QueryExecutionStatistics
 
 
 {% include links.html %}
