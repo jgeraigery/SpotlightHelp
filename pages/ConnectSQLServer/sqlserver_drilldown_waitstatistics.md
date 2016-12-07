@@ -15,7 +15,7 @@ From the Spotlight Client
 
 1. Select the connection from the left Connections pane.
 2. Click **Monitor \| Wait Statistics** from the ribbon.
-   {% include imageClient.html file="tb_drilldown_waitstatistics.png" alt="Wait Statistics drilldown for SQL Server" %}
+   {% include imageClient.html file="tb_drilldown_waits.png" alt="Wait Statistics drilldown for SQL Server" %}
 
 {% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
 

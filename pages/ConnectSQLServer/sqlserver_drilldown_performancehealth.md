@@ -18,8 +18,6 @@ From the Spotlight Client
 2. Click **Monitor \| Performance Health** from the ribbon.
    {% include imageClient.html file="tb_drilldown_performancehealth.png" alt="Performance Health drilldown for SQL Server" %}
 
-{% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
-
 
 ## About the Performance Health drilldown
 

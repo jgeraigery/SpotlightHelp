@@ -19,7 +19,7 @@ From the Spotlight Client
 {% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
 
 
-## About the SQL Server drilldown
+## About the Configuration drilldown
 
 
 Investigate SQL Server configuration options.
