@@ -9,53 +9,56 @@ folder: ConnectReplication
 
 
 
-## How to open (and Use) the SQL Activity drilldown
-The SQL Activity drilldown can be opened from:
-* [Spotlight Client][enterprise_display_overview]
-* [Spotlight Mobile][mobile_overview]
+## How to open the Activity drilldown
+
+From the Spotlight Client
+
+1. Select the connection from the left Connections pane.
+2. Click **Monitor \| Activity** from the ribbon.
+   {% include imageClient.html file="tb_drilldown_activity.png" alt="Activity drilldown for SQL Server Replication" %}
+
+{% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
 
 
-## Publications page
+## About the Activity drilldown
+
+### Publications page
 
 Use the **Publications grid** to show information about the publications on the publisher.
 
-## Subscriptions page
+### Subscriptions page
 
-Use the **Subscriptions grid** to show  information about the subscriptions that belong to a publication on the publisher.
+#### Subscriptions grid
 
-### Sessions for subscription
+Show information about the subscriptions that belong to a publication on the publisher.
+
+Select a subscription for more detail.
+
+#### Sessions for subscription
 
 Shows the delivery rate for the selected subscription between the publisher and distributor, and the distributor and subscriber. A high number of undistributed commands may indicate latency issues on the distributor.
 
-The buttons and flows show current alarms for the subscription selected in the Subscriptions grid on this page.
+The buttons and flows show current alarms for the selected subscription.
 
-### Sessions of the Log Reader Agent grid
+#### Sessions of the Log Reader Agent
 
-Shows information about the Log Reader Agent session for the subscription selected in the Subscriptions grid on this page.
+Shows information about the Log Reader Agent session for the selected subscription.
 
-### Sessions grid
+#### Sessions of the Distribution Agent
 
-Shows detailed information about the sessions on the Merge Agent.
+Shows information about the Distribution Agent session for the selected subscription.
 
-### Session Articles grid
-
-Shows article statistics for the selected session on the Merge Agent.
-
-### Sessions of the Distribution Agent
-
-Shows information about the Distribution Agent session for the subscription selected in the Subscriptions grid on this page.
-
-### Top 200 Actions grid
+#### Top 200 Actions
 
 Shows the informational and error messages logged for the selected session.
 
-## Agents page
+### Agents page
 
-### Agents grid
+#### Agents grid
 
 Shows information about agent sessions.
 
-### Performance chart
+#### Performance chart
 
 Shows various statistics relating to agent sessions.
 
@@ -67,11 +70,11 @@ The following counters can be displayed by clicking the arrow next to the chart 
 * Delivered Commands - Total number of commands delivered in the session.
 * Average Commands - Average number of commands per transaction delivered in the session.
 
-### Sessions grid
+#### Sessions grid
 
 Shows information about the sessions on the selected agent.
 
-### Top 200 Actions grid
+#### Top 200 Actions grid
 
 Shows the informational and error messages logged for the selected session.
 
