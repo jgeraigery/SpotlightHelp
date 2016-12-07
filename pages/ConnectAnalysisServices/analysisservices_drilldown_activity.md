@@ -36,7 +36,7 @@ Investigate open sessions on the server. The **Sessions** grid provides resource
 
 Investigate the commands that are currently executing or last executed. The **Commands** grid provides resource usage and activity information for currently executing or last executed commands on the server.
 
-{% include note.html content="The Commangs page requires SQL Server Analysis Services 2008 or later." %}
+{% include note.html content="The Commands page requires SQL Server Analysis Services 2008 or later." %}
 
 
 
