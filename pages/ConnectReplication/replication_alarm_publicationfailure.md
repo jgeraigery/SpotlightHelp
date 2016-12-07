@@ -1,5 +1,5 @@
 ---
-title: Replication - Publication Failure Alarm
+title: Replication - Publication Failure alarm
 tags: [replication_alarms]
 last_updated: July 29, 2016
 summary: "The Replication - Publication Failure alarm alerts you to any publications that have failed."
@@ -10,19 +10,17 @@ folder: ConnectReplication
 ---
 
 
-When this alarm occurs, look at the Publication grid on the Publications page of the Activity drilldown to see which publication failed.
+When this alarm occurs, turn to the **Activity drilldown \| Publications page** to see which publication has failed.
 
-Look at the history of the agent involved. To do this:
+Look at the history of the agent involved:
 
-1. Go to the Publications grid on the Publications page in the Activity drilldown.
-2. Select the affected publication.
-3. Click the Agents tab.
-4. In the Agent column of the Agents grid, click the link for the affected agent.
-5. Click the Sessions tab.
-6. Select the session in the Sessions grid. The informational and error messages logged for that session are shown in the Top 200 Actions grid.
-
+1. From the **Activity drilldown \| Publications page**, select the affected publication.
+2. Click the **Agents** tab to open the Agents page.
+3. In the Agent column of the Agents grid, click the link for the affected agent.
+4. Click the **Sessions** tab to open the Sessions page.
+5. Select the session in the Sessions grid. The informational and error messages logged for that session are shown in the Top 200 Actions grid.
 
 
-{% include tip.html content="You can configure this alarm to ignore certain values. You can also configure different thresholds for specific publications." %}
+{% include tip.html content="You can configure this alarm to ignore certain values. You can also configure different thresholds for specific publications. Use the Spotlight Client to **Configure \| Alarms**." %}
 
 {% include links.html %}

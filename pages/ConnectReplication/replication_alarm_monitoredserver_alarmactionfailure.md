@@ -1,5 +1,5 @@
 ---
-title: ﻿Monitored Server - Replication Alarm Action Failure Alarm
+title: ﻿Monitored Server - Replication Alarm Action Failure alarm
 tags: [replication_alarms]
 last_updated: July 29, 2016
 summary: "Raised when a (specified action) failed to evaluate."

@@ -1,5 +1,5 @@
 ---
-title: ﻿Monitored Server - Replication Connection Failure Alarm
+title: ﻿Monitored Server - Replication Connection Failure alarm
 tags: [replication_alarms]
 last_updated: July 29, 2016
 summary: "Spotlight has failed to connect to the SQL Server Replication environment."
@@ -13,7 +13,7 @@ folder: ConnectReplication
 
 ## Check the connection details
 
-The Analysis Services connection details are entered on the Spotlight Client, SQL Server Replication \| Connection Details screen.
+The SQL Server Replication connection details are entered on the Spotlight Client, SQL Server Replication \| Connection Details screen.
 
 From the Spotlight Client
 
