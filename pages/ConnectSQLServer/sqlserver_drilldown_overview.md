@@ -20,4 +20,5 @@ The Spotlight Overview page is made up of components and flows tailored to the S
 {% include imageClient.html file="pane_home_sqlserver.png" alt="Spotlight Overview page for SQL Server" %}
 
 
+
 {% include links.html %}

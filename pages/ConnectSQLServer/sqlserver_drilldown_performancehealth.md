@@ -8,28 +8,45 @@ folder: ConnectSQLServer
 ---
 
 
+
+
+## How to open the Performance Health drilldown
+
+From the Spotlight Client
+
+1. Select the connection from the left Connections pane.
+2. Click **Monitor \| Performance Health** from the ribbon.
+   {% include imageClient.html file="tb_drilldown_performancehealth.png" alt="Performance Health drilldown for SQL Server" %}
+
+{% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
+
+
+## About the Performance Health drilldown
+
+
+
 The Performance Health drilldown assesses data from server level wait statistics (sys.dm_os_wait_stats).
 
-## rating
+### rating
 
-### Healthy
+#### Healthy
  Database time is being spent productively on CPU and IO.
 
 A performance-health rating of 80% or more is considered healthy.
 
 If no performance-health rating is provided then the load being placed on the database is too low to assess its health. The database performance health is still considered to be healthy.
 
-### Unhealthy
+#### Unhealthy
  Too much database time is spent waiting for bottlenecks such as locks and latches.
 
 The Poor Performance Health Alarm is raised.
 
 
-## Current Wait Rate
+### Current Wait Rate
 The current wait rate and this as a percentage of total available CPU time.
 
 
-## Instance Wait Time
+### Instance Wait Time
 This bar chart provides a visual overview of where most of the wait time is being spent.
 
 Color | Description
@@ -44,7 +61,7 @@ Note:
 * Click on a bar to open the SQL Server \| Wait Events Drilldown specific to the represented category of wait.
 
 
-## I/O Latency
+### I/O Latency
 
 Use this chart to check the responsiveness of the I/O subsystem by measuring the single-block-read latency. I/O latency is low in a healthy system to indicate that the time being spent on I/O is productive.
 

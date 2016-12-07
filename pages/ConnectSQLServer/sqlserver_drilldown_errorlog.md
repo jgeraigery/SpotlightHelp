@@ -8,17 +8,30 @@ folder: ConnectSQLServer
 ---
 
 
+## How to open the Error log drilldown
+
+From the Spotlight Client
+
+1. Select the connection from the left Connections pane.
+2. Click **Monitor \| Error log** from the ribbon.
+   {% include imageClient.html file="tb_drilldown_errorlog.png" alt="Error log drilldown for SQL Server" %}
+
+{% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
+
+
+## About the Error log drilldown
+
 By default, Spotlight retrieves the first log in the list above the grid, if the log is less than 1MB in size. If the log is larger than 1MB, Spotlight will not retrieve it unless you click Refresh. Retrieving large error logs can impose significant load on the server.
 
 
-## SQL Server Error Logs page
+### SQL Server Error Logs page
 
-### SQL Server Error Logs grid
+#### SQL Server Error Logs grid
 Shows the contents of current and archived SQL Server error logs.
 
-## SQL Agent Error Logs
+### SQL Agent Error Logs
 
-### SQL Agent Error Logs grid
+#### SQL Agent Error Logs grid
 Shows the contents of the SQL Server Agent Error Log.
 
 

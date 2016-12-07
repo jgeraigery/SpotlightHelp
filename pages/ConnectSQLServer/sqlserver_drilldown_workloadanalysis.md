@@ -7,7 +7,23 @@ permalink: sqlserver_drilldown_workloadanalysis.html
 folder: ConnectSQLServer
 ---
 
-## 1. Resource
+
+
+## How to open the Workload Analysis drilldown
+
+From the Spotlight Client
+
+1. Select the connection from the left Connections pane.
+2. Click **Monitor \| Workload Analysis** from the ribbon.
+   {% include imageClient.html file="tb_drilldown_workloadanalysis.png" alt="Worload Analysis drilldown for SQL Server" %}
+
+{% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
+
+
+## About the Workload Analysis drilldown
+
+
+### 1. Resource
 Select the resource to investigate further.
 
 Resource | Description
@@ -19,7 +35,7 @@ Writes | This resource measures the number of physical disk writes performed per
 
  TIP: Select the time frame to investigate: the last 15 minutes, the last day... Select Custom to enter a start time and end time.
 
-## 2. Workload
+### 2. Workload
 
 Drilldown on the workload menu. Select the item to analyze on the grid and charts. The basic workload menu can be expanded to select a specific database, application or other workload.
 
@@ -36,26 +52,26 @@ Statement | Analyze which SQL statement is contributing most to the workload of 
  TIP: Right click on a statement and select **View Wait Details** to show that statement in the SQL Server \| Wait Events drilldown. This shows what the query is waiting on.
 
 
-## 3. Grid and charts
+### 3. Grid and charts
 
   TIP: When a Workload Statement is selected, click **View Wait Details** alongside the statement header to show that statement in the SQL Server \| Wait Events drilldown. This shows what the query is waiting on.
 
 
  The grid provides a breakdown on the selected workload.
 
-### Grid Column
+#### Grid Column
 
-#### Workload
+##### Workload
   This first column gives a breakdown of the selected workload. For example, if the **Database** workload is selected, then a breakdown of databases is given.
 
  The top consumer of the resource is (by default) top of the list. Click on the column headers to rearrange the sort order of the grid.
 
-#### CPU / Duration
+##### CPU / Duration
   Where the selected resource is CPU or Duration, the grid shows the time (ms) spent by the selected workload over the selected time frame on this resource.
 
  The % CPU column is scaled to represent the percent relative to the available CPU time. The values are small as the available CPU time in milliseconds over an hour (the period selected) would be 1000 * 3600 * the number of CPUs.
 
-#### Reads / Writes
+##### Reads / Writes
   Where the selected resource is Reads or Writes, the grid shows the time (ms) spent by the selected workload over the selected time frame on this resource.
 
  The % Total column gives the proportion of time spent on the selected workload compared to other workloads of the same type.
@@ -64,23 +80,23 @@ Statement | Analyze which SQL statement is contributing most to the workload of 
   Note: SQL Server 2012 and above differentiates physical reads from logical reads. There is an issue when monitoring a failover cluster:- the Physical Reads value is always 0.
 
 
-#### Execution Count
+##### Execution Count
   The Execution Count column shows the number of executions run against the selected workload over the selected time frame on this resource.
 
  The % Total column gives the proportion of executions on the selected workload compared to other workloads of the same type.
 
 
-### Chart  
+#### Chart  
 
 Note: SQL Server 2012 and above differentiates physical reads from logical reads. There is an issue when monitoring a failover cluster and Physical Reads is selected. The charts show No Data.
 
 
-#### Time Series Chart
+##### Time Series Chart
   This chart shows the resource usage attributed to the selected workload over the given time frame. Drilldown on the workload menu to select a workload item to compare with other workloads of the same type.
 
  For example: Expand the Workload menu to select a specific database. The chart shows the usage of the selected resource by the selected database over the selected time frame. It also shows (by comparison) the total usage of the selected resource by databases over the selected time frame.
 
-#### Pie Chart
+##### Pie Chart
   This chart shows the proportion of resource usage by the selected workload compared to other workloads of the same type.
 
  For example: Expand the Workload menu to select a specific database. The pie represents all database usage of the selected resource. The selected segment of the pie shows the proportion of that usage by the selected database.

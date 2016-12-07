@@ -7,16 +7,32 @@ permalink: sqlserver_drilldown_waitevents.html
 folder: ConnectSQLServer
 ---
 
-## Category and Workload
+
+
+## How to open the Wait Events drilldown
+
+From the Spotlight Client
+
+1. Select the connection from the left Connections pane.
+2. Click **Monitor \| Wait Events** from the ribbon.
+   {% include imageClient.html file="tb_drilldown_waitevents.png" alt="Wait Events drilldown for SQL Server" %}
+
+{% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
+
+
+## About the Wait Events drilldown
+
+
+### Category and Workload
 
 The category and workload selected qualify the information shown on the grids and charts on this page.
 
-### Category
+#### Category
  Select from the available categories of waits or select ALL for all waits.
 
 The SQL Server \| Performance Health Drilldown shows the categories currently contributing to wait time and in what proportion. Note that data from the Performance Health and Wait Events drilldowns is sourced from different places (and data from the Wait Events drilldown is sampled) so it is not mathematically valid to directly compare them.
 
-### Workload
+#### Workload
  Select a workload to investigate for the selected category of wait.
 
 The workload items are dependent on the **Category** selected.
@@ -33,11 +49,11 @@ Statement | Which SQL statement is contributing most to the wait time?
 
  TIP: Right click on a statement and select View Workload Analysis to show the statement in the SQL Server \| Workload Analysis Drilldown drilldown. Workload Analysis will provide execution details of the SQL statement like how many times the query ran.
 
-## Grids and Charts
+### Grids and Charts
 
  TIP: When a Workload Statement is selected, click **View Workload Analysis** to show the statement in the SQL Server \| Workload Analysis drilldown. Workload Analysis will provide execution details of the SQL statement like how many times the query ran.
 
-### Category : Category and Workload wait
+#### Category : Category and Workload wait
 
 Grid  | Description
 ------|------------
@@ -48,14 +64,14 @@ Wait Time | The wait time spent on this wait type aggregated over the last hour.
 
 
 
-### Category : Selected item compared to All
+#### Category : Selected item compared to All
 
 Chart | Description
 ------|------------
 Selected item compared to *All* | Show on a time series chart the wait time attributed to the selected workload item and the selected category of wait.
 Current selected item compared | Show on a pie chart the wait time currently attributed to the selected workload item as a proportion of the selected category of wait.
 
-### Category : Selected category compared to Total
+#### Category : Selected category compared to Total
 
 Chart | Description
 ------|------------

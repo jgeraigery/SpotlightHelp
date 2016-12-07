@@ -7,7 +7,23 @@ permalink: sqlserver_drilldown_waitstatistics.html
 folder: ConnectSQLServer
 ---
 
-## Wait Time Trend chart
+
+
+## How to open the Wait Statistics drilldown
+
+From the Spotlight Client
+
+1. Select the connection from the left Connections pane.
+2. Click **Monitor \| Wait Statistics** from the ribbon.
+   {% include imageClient.html file="tb_drilldown_waitstatistics.png" alt="Wait Statistics drilldown for SQL Server" %}
+
+{% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
+
+
+## About the Wait Statistics drilldown
+
+
+### Wait Time Trend chart
 Shows the total wait time in milliseconds broken down for the for the following wait types:
 
 * Wait (AlwaysOn)
@@ -27,7 +43,7 @@ Shows the total wait time in milliseconds broken down for the for the following 
 
 Use this chart to look for trends in wait types over time.
 
-## Waits Details grid
+### Waits Details grid
 Shows detailed wait statistics for the SQL Server instance currently being monitored.
 
 
