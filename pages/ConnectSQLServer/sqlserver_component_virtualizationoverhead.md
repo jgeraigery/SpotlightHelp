@@ -18,7 +18,7 @@ Applicable to Windows Servers hosted on VMWare.
 
 ## Wait Time in nanoseconds
 
-Show the average time the virtual machine spent waiting for CPU over the collection interval (average 5 minutes). The average queue time should remain under 60,000ns. If the average queue time exceeds 60,000ns then a Hyper-V CPU wait time per dispatch alarm is raised. A high alarm is raised if the average queue time exceeds 100,000ns. See also Windows Server CPU Drilldown.
+Show the average time the virtual machine spent waiting for CPU over the collection interval (average 5 minutes). The average queue time should remain under 60,000ns. If the average queue time exceeds 60,000ns then a Hyper-V CPU wait time per dispatch alarm is raised. A high alarm is raised if the average queue time exceeds 100,000ns. See also the **Windows Server connection \| CPU drilldown**.
 
 The Hyper-V - Virtual Overhead alarm is raised on excessive CPU being used by the hypervisor on this virtual machine.
 
@@ -26,6 +26,6 @@ Applicable to Windows Servers hosted on Hyper-V.
 
 ## Not Virtualized
 
-The Windows Server is not hosted on a virtual machine or the virtual machine is unknown. For more information, see the Windows Server Connection Details.
+The Windows Server is not hosted on a virtual machine or the virtual machine is unknown. Update the Windows Server connection details from the Spotlight Client, **Configure \| Connections**.
 
 {% include links.html %}

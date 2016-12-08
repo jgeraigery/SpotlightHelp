@@ -11,7 +11,7 @@ folder: ConnectSQLServer
 
 It will raise an alarm if any installed SQL Server support service is inactive, or if problems are detected with the Windows 2000 cluster.
 
-For example, if the SQL Server Agentservice is stopped, this button will change color.
+For example, if the SQL Server Agent service is stopped, this button will change color.
 
 Additionally, if the SQL Server you are connected to runs on a cluster, Spotlight will raise an alarm when there are problems with the cluster
 (for example, if a cluster node is unavailable).

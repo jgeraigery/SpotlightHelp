@@ -8,4 +8,5 @@ id: Home.btnCustomCounters
 folder: ConnectSQLServer
 ---
 
+Custom Counters are configured on the Spotlight Client, **Configure \| Custom Counters**.
 {% include links.html %}

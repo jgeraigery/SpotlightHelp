@@ -9,8 +9,9 @@ folder: ConnectSQLServer
 ---
 
 
-To change the query used to determine response time, right click a connection in the Spotlight Browser and select **Properties**. On the Monitoring page, click **SQL Server Response Time**.
+If required, you can change the query used to determine response time. Use a Spotlight Client to **Configure \| SQL Server Response Time**.
 
-Only members of the Spotlight Diagnostic Administrators group can change the SQL Statement used to measure SQL Server response time.
+{% include note.html content="Only members of the Spotlight Diagnostic Administrators group can change the SQL Statement used to measure SQL Server response time." %}
+
 
 {% include links.html %}
