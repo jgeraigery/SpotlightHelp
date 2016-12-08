@@ -12,7 +12,7 @@ folder: ConnectWindows
 ## To use the Event logs grid
 
 Select the type of log and date range and click **View Events**.
-Start {% include imageClient.html file="tb_drilldown_eventlog_view.png" alt="View Events" %}
+{% include imageClient.html file="tb_drilldown_eventlog_view.png" alt="View Events" %}
 
 ## The grid contains the following columns:
 

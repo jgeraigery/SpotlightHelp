@@ -25,6 +25,7 @@ From the Spotlight Client
 Investigate items in an event Log.
 
 Select the type of log and date range and click **View Events**.
+{% include imageClient.html file="tb_drilldown_eventlog_view.png" alt="View Events" %}
 
 To display the full text from the message column, click an event in the grid.
 
