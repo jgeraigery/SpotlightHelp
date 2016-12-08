@@ -8,7 +8,6 @@ folder: ConnectSQLServer
 ---
 
 
-
 ## How to open the Wait Statistics drilldown
 
 From the Spotlight Client

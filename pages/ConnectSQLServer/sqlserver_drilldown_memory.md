@@ -34,9 +34,8 @@ A Hit Rate indicates the amount of work (I/O or compilations) that is being save
 
 Hit rates are shown for the following caches:
 
-Buffer Cache
-
-Procedure Cache - The hit rate for this cache will vary widely depending on how the application is written. This figure is averaged for all procedure cache object types except ad hoc SQL.
+* Buffer Cache
+* Procedure Cache - The hit rate for this cache will vary widely depending on how the application is written. This figure is averaged for all procedure cache object types except ad hoc SQL.
 
 Spotlight calculates its hit rates using a differential sampling method. Unlike most SQL Server monitors, it is not reporting the average hit rate since SQL Server started.
 
@@ -48,9 +47,9 @@ Shows the amount of memory allocated to the Buffer Cache and Procedure Cache ove
 
 The buffer cache is normally the largest memory cache used by SQL Server.
 
-(SQL Server 2012 and above) Shows also the amount of memory allocated to Free Pages and Stolen Pages over time.
+SQL Server 2012 and above: Shows also the amount of memory allocated to Free Pages and Stolen Pages over time.
 
-### Buffer Cache Page Life Expectancy chart 
+### Buffer Cache Page Life Expectancy chart
 This shows the current Page Life Expectancy.
 
 SQL Server holds recently accessed database pages in a memory area called the Buffer Cache. If a SQL process needs to access a database page and that page is already in the buffer cache, then SQL Server does not need to read the page from disk. This can save a significant amount of disk I/O and can speed up queries significantly.
