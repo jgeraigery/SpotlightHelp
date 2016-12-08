@@ -85,6 +85,10 @@ Shows details about the Windows services installed on the monitored Windows Serv
 
 Click **Start  / Stop  / Pause**  to change the running state of a selected service or device. You must be a member of the Spotlight diagnostic administrators group to change the running state.
 
+Start {% include inline_imageClient.html file="tb_drilldown_process_start.png" alt="Start" %}
+Stop {% include inline_imageClient.html file="tb_drilldown_process_stop.png" alt="Stop" %}
+Pause {% include inline_imageClient.html file="tb_drilldown_process_pause.png" alt="Pause" %}
+
 Right click **Select Process** to locate the process running a selected share process.
 
 #### service details
