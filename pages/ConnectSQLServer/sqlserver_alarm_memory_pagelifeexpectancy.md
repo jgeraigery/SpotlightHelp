@@ -1,5 +1,6 @@
 ---
-title: Memory - Page Life Expectancy Alarm
+title: Memory - Page Life Expectancy alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Memory - Page Life Expectancy alarm becomes active when the page life expectancy falls below a threshold."
 sidebar: c_sqlserver_sidebar

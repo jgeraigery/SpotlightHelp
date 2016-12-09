@@ -1,5 +1,6 @@
 ---
-title: LiteSpeed Backup Warning Alarm
+title: LiteSpeed Backup Warning alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The LiteSpeed Backup Warning Alarm becomes active when a warning is associated with the LiteSpeed backup job."
 sidebar: c_sqlserver_sidebar

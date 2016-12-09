@@ -1,5 +1,6 @@
 ---
-title: Log Shipping - Primary Backup Job Alarm
+title: Log Shipping - Primary Backup Job alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Log Shipping - Primary Backup Job alarm is raised when the backup job on the primary database is not enabled."
 sidebar: c_sqlserver_sidebar

@@ -1,5 +1,6 @@
 ---
-title: ﻿Tempdb File Size Alarm
+title: ﻿Tempdb File Size alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "This alarm is raised when files in Tempdb have different physical sizes."
 sidebar: c_sqlserver_sidebar

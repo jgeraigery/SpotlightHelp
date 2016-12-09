@@ -1,5 +1,6 @@
 ---
-title: ﻿Databases - Data File Group Space Used Alarm
+title: ﻿Databases - Data File Group Space Used alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Databases - Data File Group Space Used Alarm is raised when a fixed size data file in any database is in danger of filling."
 sidebar: c_sqlserver_sidebar

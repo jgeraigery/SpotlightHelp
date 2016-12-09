@@ -1,5 +1,6 @@
 ---
-title: SQL Agent - Long Running Jobs (Time) Alarm
+title: SQL Agent - Long Running Jobs (Time) alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The SQL Agent - Long Running Jobs (Time) alarm is raised when a SQL Agent job has been running for a long time."
 sidebar: c_sqlserver_sidebar

@@ -1,5 +1,6 @@
 ---
-title: ﻿SQL Custom Counters Alarm
+title: ﻿SQL Custom Counters alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Custom Counters alarm is raised when the values of any of the custom counters you have configured exceed their thresholds or data collection fails."
 sidebar: c_sqlserver_sidebar

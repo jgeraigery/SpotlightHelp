@@ -1,5 +1,6 @@
 ---
-title: Mirroring - Unsent Log Alarm
+title: Mirroring - Unsent Log alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Mirroring - Unsent Log alarm is raised when the size of an unsent mirroring log exceeds a threshold."
 sidebar: c_sqlserver_sidebar

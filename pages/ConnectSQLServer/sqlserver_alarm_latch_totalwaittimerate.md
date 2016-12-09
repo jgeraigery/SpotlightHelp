@@ -1,5 +1,6 @@
 ---
-title: ﻿Latch - Total Wait Time Rate Alarm
+title: ﻿Latch - Total Wait Time Rate alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "Latches are monitored to help identify performance bottlenecks."
 sidebar: c_sqlserver_sidebar

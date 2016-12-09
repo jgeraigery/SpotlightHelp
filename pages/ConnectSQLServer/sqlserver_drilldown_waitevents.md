@@ -28,9 +28,10 @@ From the Spotlight Client
 The category and workload selected qualify the information shown on the grids and charts on this page.
 
 #### Category
- Select from the available categories of waits or select ALL for all waits.
+Select from the available categories of waits or select **ALL** for all waits.
 
-The SQL Server \| Performance Health Drilldown shows the categories currently contributing to wait time and in what proportion. Note that data from the Performance Health and Wait Events drilldowns is sourced from different places (and data from the Wait Events drilldown is sampled) so it is not mathematically valid to directly compare them.
+{% include tip.html content="The **SQL Server \| Performance Health drilldown** shows the categories currently contributing to wait time and in what proportion. Note that data from the Performance Health and Wait Events drilldowns is sourced from different places (and data from the Wait Events drilldown is sampled) so it is not mathematically valid to directly compare them." %}
+
 
 #### Workload
  Select a workload to investigate for the selected category of wait.
@@ -46,8 +47,8 @@ Host | Which host is contributing most to the wait time?
 Wait Type | Which wait type is contributing most to the wait time?
 Statement | Which SQL statement is contributing most to the wait time?
 
+{% include tip.html content="Right click on a statement and select **View Workload Analysis** to show the statement in the **SQL Server \| Workload Analysis drilldown**. Workload Analysis will provide execution details of the SQL statement like how many times the query ran." %}
 
- TIP: Right click on a statement and select View Workload Analysis to show the statement in the SQL Server \| Workload Analysis Drilldown drilldown. Workload Analysis will provide execution details of the SQL statement like how many times the query ran.
 
 ### Grids and Charts
 

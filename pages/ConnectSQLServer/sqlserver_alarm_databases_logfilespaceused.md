@@ -1,5 +1,6 @@
 ---
-title: Databases - Log File Space Used Alarm
+title: Databases - Log File Space Used alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Databases - Log File Space Used Alarm becomes active when a log in any database is in danger of filling."
 sidebar: c_sqlserver_sidebar

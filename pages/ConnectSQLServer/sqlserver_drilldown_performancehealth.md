@@ -37,7 +37,7 @@ If no performance-health rating is provided then the load being placed on the da
 #### Unhealthy
  Too much database time is spent waiting for bottlenecks such as locks and latches.
 
-The Poor Performance Health Alarm is raised.
+The **Poor Performance Health alarm** is raised.
 
 
 ### Current Wait Rate
@@ -53,10 +53,11 @@ Green | Bars colored green represent healthy wait time (CPU and I/O).
 Yellow | If I/O is colored yellow then I/O latency is high.
 Blue | Bars colored blue represent unhealthy wait time. Categories of unhealthy wait are: Latch, Lock, CLR, OTHER, DBM, DTC, Backup, Memory, Network, ServiceBroker, SOS and MISC.
 
-Note:
+### Tips to using the Instance Wait Time chart
+
 * The bar chart shows only the categories currently contributing to wait time. The bar chart adjusts itself dynamically in real time.
 * Hover the mouse over each bar in turn to see a statistical summary.
-* Click on a bar to open the SQL Server \| Wait Events Drilldown specific to the represented category of wait.
+* Click on a bar to open the **SQL Server \| Wait Events** drilldown specific to the represented category of wait.
 
 
 ### I/O Latency

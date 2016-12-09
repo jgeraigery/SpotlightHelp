@@ -1,5 +1,6 @@
 ---
 title: Poor Performance Health Alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The database is spending too much time waiting for bottlenecks such as locks and latches."
 sidebar: c_sqlserver_sidebar

@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - SQL Server Collection Execution Failure Alarm
+title: ﻿Monitored Server - SQL Server Collection Execution Failure alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "Raised when a (specified collection) failed to execute against the server."
 sidebar: c_sqlserver_sidebar

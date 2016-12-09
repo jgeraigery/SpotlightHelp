@@ -1,5 +1,6 @@
 ---
-title: ﻿Backup - Minutes Since Last Log Backup Alarm
+title: ﻿Backup - Minutes Since Last Log Backup alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Backup - Minutes Since Last Log Backup Alarm< becomes active when Spotlight
  detects that a log backup of the SQL Server database has never taken place or has not taken place in the last 120 minutes. Log backups are useful in keeping transaction logs in reasonable size."

@@ -1,5 +1,6 @@
 ---
-title: ﻿Clusters - Failed Over Alarm
+title: ﻿Clusters - Failed Over alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Clusters - Failed Over alarm is raised when a cluster fails over."
 sidebar: c_sqlserver_sidebar

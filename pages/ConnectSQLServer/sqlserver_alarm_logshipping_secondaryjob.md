@@ -1,5 +1,6 @@
 ---
-title: Log Shipping - Secondary Job Alarm
+title: Log Shipping - Secondary Job alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Log Shipping - Secondary Job alarm is raised when a secondary copy or restore job is not enabled."
 sidebar: c_sqlserver_sidebar

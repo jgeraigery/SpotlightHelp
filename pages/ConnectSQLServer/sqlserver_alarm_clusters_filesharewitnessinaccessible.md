@@ -1,5 +1,6 @@
 ---
-title: Clusters - File Share Witness Inaccessible Alarm
+title: Clusters - File Share Witness Inaccessible alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Clusters - File Share Witness Inaccessible alarm is raised when the cluster resource File Share Witness in a clustered service or Cluster Group application failed."
 sidebar: c_sqlserver_sidebar

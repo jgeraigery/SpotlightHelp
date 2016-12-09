@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - SQL Server Connection Failure Alarm
+title: ﻿Monitored Server - SQL Server Connection Failure alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The service is not responding."
 sidebar: c_sqlserver_sidebar

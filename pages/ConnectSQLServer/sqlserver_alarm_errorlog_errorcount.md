@@ -1,5 +1,6 @@
 ---
-title: ﻿Error Log - Error Count Alarm
+title: ﻿Error Log - Error Count alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Error Log - Error Count alarm becomes active when Spotlight Enterprise detects messages that could be potential problems in the SQL Sever error log, SQL Server Agent error log, or the Windows event logs."
 sidebar: c_sqlserver_sidebar

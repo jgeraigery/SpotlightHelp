@@ -1,5 +1,6 @@
 ---
-title: ﻿Index Fragmentation Status Alarm
+title: ﻿Index Fragmentation Status alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Index Fragmentation Status alarm is raised on the SQL Server | Overview page | Disk Storage panel when data cannot be collected."
 sidebar: c_sqlserver_sidebar

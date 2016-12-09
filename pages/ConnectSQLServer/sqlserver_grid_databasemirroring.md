@@ -35,7 +35,7 @@ Size of the unsent log in the send queue on the principal.
 
 Size of the redo queue on the mirror.
 
-## Send Rate (KB/s)
+### Send Rate (KB/s)
 
 Send rate of log from the principal to the mirror in kilobytes per second.
 

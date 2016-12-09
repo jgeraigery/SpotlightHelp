@@ -1,5 +1,6 @@
 ---
-title: LiteSpeed Backup Failed Alarm
+title: LiteSpeed Backup Failed alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The LiteSpeed Backup Failed Alarm becomes active when the LiteSpeed backup job fails."
 sidebar: c_sqlserver_sidebar

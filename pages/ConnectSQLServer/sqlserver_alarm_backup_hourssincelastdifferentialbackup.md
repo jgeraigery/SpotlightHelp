@@ -1,5 +1,6 @@
 ---
-title: ﻿Backup - Hours Since Last Differential Backup Alarm
+title: ﻿Backup - Hours Since Last Differential Backup alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Backup - Hours Since Last Differential Backup Alarm becomes active when Spotlight
  detects that a differential backup of the SQL Server database has never taken place or has not taken place in the last 24 hours."

@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - SQL Server Host Not Defined Alarm
+title: ﻿Monitored Server - SQL Server Host Not Defined alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: ""
 sidebar: c_sqlserver_sidebar

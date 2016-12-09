@@ -1,5 +1,6 @@
 ---
-title: ﻿Missing SQL Performance Counters Alarm
+title: ﻿Missing SQL Performance Counters alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "Spotlight Enterprise uses the SQL Server virtual table sysperfinfo to retrieve data for many of its displays. In some rare cases, this table may not contain information. When this is the case, Spotlight Enterprise will not be able to collect the data it requires, and will display '0' for many of its metrics. Most obvious will be the Memory icons on the Spotlight Overview page, which will show 0 MB of memory used by SQL Server. Also, many of the flows on the Spotlight Overview page will show no activity, and many drilldowns will show incomplete information."
 sidebar: c_sqlserver_sidebar

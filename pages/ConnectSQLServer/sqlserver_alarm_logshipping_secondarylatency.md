@@ -1,5 +1,6 @@
 ---
-title: Log Shipping - Secondary Latency Alarm
+title: Log Shipping - Secondary Latency alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Log Shipping - Secondary Latency alarm is raised when the amount of time that elapsed between the log backup being created on the primary database and when it was restored on the secondary database exceeds a threshold."
 sidebar: c_sqlserver_sidebar

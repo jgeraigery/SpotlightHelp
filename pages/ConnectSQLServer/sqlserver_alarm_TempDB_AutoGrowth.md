@@ -1,5 +1,6 @@
 ---
-title: Tempdb Auto Growth Alarm
+title: Tempdb Auto Growth alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "This alarm is raised when Tempdb is configured to auto grow and a significant number of growth events are detected."
 sidebar: c_sqlserver_sidebar

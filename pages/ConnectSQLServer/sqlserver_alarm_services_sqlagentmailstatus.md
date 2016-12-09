@@ -1,5 +1,6 @@
 ---
-title: Services - SQL Agent Mail Status / SQL Mail Status Alarm
+title: Services - SQL Agent Mail Status / SQL Mail Status alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "This alarm becomes active when there is a problem with SQL Server Agent Mail."
 sidebar: c_sqlserver_sidebar

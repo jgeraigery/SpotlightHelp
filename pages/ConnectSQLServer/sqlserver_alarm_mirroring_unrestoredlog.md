@@ -1,5 +1,6 @@
 ---
-title: Mirroring - Unrestored Log Alarm
+title: Mirroring - Unrestored Log alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Mirroring - Unrestored Log alarm is raised when the size of an unrestored mirroring log on the mirroring database exceeds a threshold."
 sidebar: c_sqlserver_sidebar

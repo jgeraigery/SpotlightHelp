@@ -1,5 +1,6 @@
 ---
-title: ﻿Locks - Deadlocks Alarm
+title: ﻿Locks - Deadlocks alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Locks - Deadlocks alarm is raised when the number of deadlocks that have occurred since the previous data collection exceeds a threshold."
 sidebar: c_sqlserver_sidebar

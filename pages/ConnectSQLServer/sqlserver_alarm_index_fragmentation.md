@@ -1,5 +1,6 @@
 ---
-title: Index Fragmentation Alarm
+title: Index Fragmentation alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Index Fragmentation alarm is raised when the largest Index file on the SQL Server is more than 5% fragmented. It is a good idea to defragment large index files that are more than 5% fragmented."
 sidebar: c_sqlserver_sidebar

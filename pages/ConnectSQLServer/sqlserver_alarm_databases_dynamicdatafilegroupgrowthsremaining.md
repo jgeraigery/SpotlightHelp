@@ -1,5 +1,6 @@
 ---
-title: ﻿Databases - Dynamic Data File Group Growths Remaining Alarm
+title: ﻿Databases - Dynamic Data File Group Growths Remaining alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Databases - Dynamic Data File Group Growths Remaining alarm is raised when a non fixed size data file in any database is in danger of running out of space to grow."
 sidebar: c_sqlserver_sidebar

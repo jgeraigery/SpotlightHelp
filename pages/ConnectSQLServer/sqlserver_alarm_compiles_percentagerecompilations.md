@@ -1,5 +1,6 @@
 ---
-title: ﻿Compiles - Percentage Recompilations Alarm
+title: ﻿Compiles - Percentage Recompilations alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The Compiles - Percentage Recompilations alarm becomes active when the average ratio between the number of recompiles and the total number of compiles exceeds a threshold. This value is taken over a specific number of background collections."
 sidebar: c_sqlserver_sidebar

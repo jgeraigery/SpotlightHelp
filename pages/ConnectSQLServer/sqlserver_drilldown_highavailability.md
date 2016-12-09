@@ -22,11 +22,12 @@ From the Spotlight Client
 
 ## About the High Availability drilldown
 
-Mirroring alarms are disabled by default. It is important to configure alarm thresholds that are appropriate to your environment before enabling these alarms. For more information, see Configure \| Alarms.
+{% include note.html content="Mirroring alarms are disabled by default. It is important to configure alarm thresholds that are appropriate to your environment before enabling these alarms. Use the Spotlight Client to **Configure \| Alarms**." %}
 
 
 ### Transaction Log Shipping page
-Log Shipping Monitor History Detail not available for SQL Server 2000.
+
+{% include note.html content="Log Shipping Monitor History Detail not available for SQL Server 2000." %}
 
 #### Transaction Log Shipping Primaries grid
 Shows statistics relating to the primary database in the log shipping configuration.
@@ -45,7 +46,7 @@ Shows statistics relating to the secondary database in the log shipping configur
 
 ### Database Mirroring page
 
-This feature is not available for SQL Server 2000.
+{% include note.html content="This feature is not available for SQL Server 2000." %}
 
 #### Database Mirroring grid
 Shows statistics relating to either the principal or mirror server depending on which server Spotlight is connected to.

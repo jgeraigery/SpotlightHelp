@@ -1,5 +1,6 @@
 ---
-title: User - Response Time Alarm
+title: User - Response Time alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The User - Response Time alarm is raised when the time taken for Spotlight to send a simple query to the monitored SQL Server instance, have it processed and get the answer back is more than 20 seconds (or the configured threshold). The Response Time alarm does not tell you where the time is spent; it could be the network or it could be the SQL Server instance is unresponsive."
 sidebar: c_sqlserver_sidebar

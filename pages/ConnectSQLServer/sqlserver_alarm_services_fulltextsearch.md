@@ -1,5 +1,6 @@
 ---
-title: Services - Full Text Search Alarm
+title: Services - Full Text Search alarm
+tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "This alarm becomes active when this SQL Server supporting service is installed but not active."
 sidebar: c_sqlserver_sidebar
