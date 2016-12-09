@@ -1,5 +1,5 @@
 ---
-title: Transaction Log Shipping Primaries Grid
+title: Transaction Log Shipping Primaries grid
 last_updated: July 29, 2016
 summary: "Shows statistics relating to the primary database."
 sidebar: c_sqlserver_sidebar
@@ -44,9 +44,7 @@ Whether backup jobs are enabled.
 
 ## Backup Compression
 
-Whether the log shipping configuration overrides the server-level backup compression behavior. For example, Enabled, Default, Disabled.
-
-<note type="note">This column is available only for SQL Server 2008.</note>
+Whether the log shipping configuration overrides the server-level backup compression behavior. For example, Enabled, Default, Disabled. This column is available only for SQL Server 2008.
 
 ## Backup Job ID
 

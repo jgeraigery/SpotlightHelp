@@ -1,5 +1,5 @@
 ---
-title: Access Methods Chart
+title: Access Methods chart
 last_updated: July 29, 2016
 summary: "The Access Methods chart shows various statistics relating to how SQL Server data is being accessed and updated."
 sidebar: c_sqlserver_sidebar

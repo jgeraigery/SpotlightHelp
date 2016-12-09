@@ -1,5 +1,5 @@
 ---
-title: Version Store Size Change Chart
+title: Version Store Size Change chart
 last_updated: July 29, 2016
 summary: "The Tempdb Version Store Size Change chart plots growth and cleanup rates."
 sidebar: c_sqlserver_sidebar

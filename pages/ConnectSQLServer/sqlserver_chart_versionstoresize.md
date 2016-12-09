@@ -1,5 +1,5 @@
 ---
-title: Version Store Size Chart
+title: Version Store Size chart
 last_updated: July 29, 2016
 summary: "The Tempdb Version Store Size chart plots the size of the version store over time."
 sidebar: c_sqlserver_sidebar

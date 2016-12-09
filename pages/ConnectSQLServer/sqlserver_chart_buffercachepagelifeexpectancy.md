@@ -1,5 +1,5 @@
 ---
-title: Buffer Cache Page Life Expectancy Chart
+title: Buffer Cache Page Life Expectancy chart
 last_updated: July 29, 2016
 summary: "The Page Life Expectancy chart shows the page life of buffer cache pages over time."
 sidebar: c_sqlserver_sidebar

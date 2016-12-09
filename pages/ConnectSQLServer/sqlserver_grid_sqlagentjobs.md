@@ -1,5 +1,5 @@
 ---
-title: SQL Agent Jobs Grid
+title: SQL Agent Jobs grid
 last_updated: July 29, 2016
 summary: "The SQL Agent Jobs grid lists all SQL Server Agent Jobs that are defined in this server."
 sidebar: c_sqlserver_sidebar

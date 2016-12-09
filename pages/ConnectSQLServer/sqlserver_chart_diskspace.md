@@ -1,5 +1,5 @@
 ---
-title: Disk Space Chart
+title: Disk Space chart
 last_updated: July 29, 2016
 summary: "The Disk Space chart shows each logical disk on the server, and allocates the space on each disk into either SQL Data files, SQL Log files, Non-SQL files, or Free Space. You can easily see how much of each disk is used by SQL databases and how much is free."
 sidebar: c_sqlserver_sidebar

@@ -1,5 +1,5 @@
 ---
-title: Transaction Log Shipping Secondaries Grid
+title: Transaction Log Shipping Secondaries grid
 last_updated: July 29, 2016
 summary: "Shows details about the secondary servers involved in the log shipping configuration for the primary server selected in the grid above."
 sidebar: c_sqlserver_sidebar

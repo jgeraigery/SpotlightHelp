@@ -1,5 +1,5 @@
 ---
-title: SQL Analysis Grid
+title: SQL Analysis grid
 last_updated: July 29, 2016
 summary: "The SQL Analysis grid shows the SQL being executed that conforms to the performance criteria configured on the SQL Analysis Options page."
 sidebar: c_sqlserver_sidebar
@@ -173,7 +173,7 @@ To clear the data in the SQL Analysis grid without having to leave the SQL Analy
 * Right-click the grid and select **Clear Grid**.
 
 
-##Viewing details in the grid
+## Viewing details in the grid
 
 To wrap text in a column onto multiple lines, use the word wrap option. To access the word wrap option, right-click the SQL Analysis grid and select **Properties** and then click the Options tab.
 
@@ -181,7 +181,7 @@ Turning on the word wrap option may degrade the performance of Spotlight.The wor
 
 To view the details of the highlighted row in one window, right-click the grid and select **Grid Browser**. Use the Previous and Next buttons to move through the items in the grid.
 
-<note type="note">If you have Dell SQL Optimizer installed, you can use it to tune the non-conforming SQL that has been identified.
+<note type="note">If you have SQL Optimizer installed, you can use it to tune the non-conforming SQL that has been identified.
 To do this, right-click a row in the grid and select Optimize SQL.</note>
 
 

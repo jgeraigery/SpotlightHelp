@@ -1,5 +1,5 @@
 ---
-title: Litespeed Backup History Grid
+title: Litespeed Backup History grid
 last_updated: July 29, 2016
 summary: "The LiteSpeed backups grid shows the history of your LiteSpeed backups."
 sidebar: c_sqlserver_sidebar
@@ -16,15 +16,14 @@ folder: ConnectSQLServer
 
 ## About the LiteSpeed backups grid
 
-Select database(s) that have been backed up using LiteSpeed from the **>Databases**> grid. Use the SHIFT or CTRL key to select multiple databases.
+Select database(s) that have been backed up using LiteSpeed from the **Databases** grid. Use the SHIFT or CTRL key to select multiple databases.
 
-<note type="note"></note>
 * When the selected database has not been backed up with LiteSpeed, **No Data** is shown.
 * Data is extracted from **LiteSpeedLocal**, the repository local to the selected database instance.
 * For more information on LiteSpeed, please refer to its documentation.
 
 
-The grid shows:
+##The grid shows:
 
 ### Database Name
 

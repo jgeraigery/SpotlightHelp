@@ -1,5 +1,5 @@
 ---
-title: Cache Chart
+title: Cache chart
 last_updated: July 29, 2016
 summary: "The Cache chart shows the amount of memory allocated to the Buffer Cache and Procedure Cache over time."
 sidebar: c_sqlserver_sidebar

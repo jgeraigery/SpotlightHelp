@@ -1,5 +1,5 @@
 ---
-title: Log Files Space Chart
+title: Log Files Space chart
 last_updated: July 29, 2016
 summary: ""
 sidebar: c_sqlserver_sidebar

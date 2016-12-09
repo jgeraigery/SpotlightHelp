@@ -1,5 +1,5 @@
 ---
-title: Data Files Space Chart
+title: Data Files Space chart
 last_updated: July 29, 2016
 summary: "The Data Files chart shows the amount of space allocated to the data file for each selected database."
 sidebar: c_sqlserver_sidebar

@@ -1,5 +1,5 @@
 ---
-title: Index Distribution Chart
+title: Index Distribution chart
 last_updated: July 29, 2016
 summary: "When a single index is selected in the Indexes grid above, the Index Distribution chart shows the index distribution histogram for the selected index."
 sidebar: c_sqlserver_sidebar

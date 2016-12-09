@@ -1,5 +1,5 @@
 ---
-title: Memory Areas Chart
+title: Memory Areas chart
 last_updated: July 29, 2016
 summary: "The Memory Areas chart shows the total amount of memory being used by SQL Server's caches over time."
 sidebar: c_sqlserver_sidebar

@@ -1,5 +1,5 @@
 ---
-title: Wait Time Trend Chart
+title: Wait Time Trend chart
 last_updated: July 29, 2016
 summary: "The Wait Time Trend chart shows the total wait time in milliseconds broken down for the following wait types:"
 sidebar: c_sqlserver_sidebar

@@ -1,5 +1,5 @@
 ---
-title: Data Files Growth Chart
+title: Data Files Growth chart
 last_updated: July 29, 2016
 summary: "The Data Files Growth chart shows the amount by which each file is growing over time."
 sidebar: c_sqlserver_sidebar

@@ -1,5 +1,5 @@
 ---
-title: Log Files Growth Chart
+title: Log Files Growth chart
 last_updated: July 29, 2016
 summary: "The Log File Growth chart shows the amount by which each log file is growing over time."
 sidebar: c_sqlserver_sidebar

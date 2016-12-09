@@ -8,9 +8,7 @@ id: SQLActivity_Sessions_Locks.SessionLocksGrid
 folder: ConnectSQLServer
 ---
 
-The **Status** column shows whether the locks have been **granted** to the session, or whether they are currently **blocked** and waiting on another session.
-
-Columns in this grid contain information that can also be seen in the **Locks** page of the **SQL Activity** drilldown.
+{% include tip.html content="Columns in this grid contain information that can also be seen in the **Locks** page of the **SQL Activity** drilldown." %}
 
 ## The details in this grid are:
 
@@ -25,6 +23,8 @@ The kind of lock being applied to the resource (Shared, Exclusive, Update, Inten
 ### Status
 
 The status of the lock (Blocked, Blocking, or blank (Granted)).
+
+The **Status** column shows whether the locks have been **granted** to the session, or whether they are currently **blocked** and waiting on another session.
 
 ### Database
 

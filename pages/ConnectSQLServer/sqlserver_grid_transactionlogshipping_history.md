@@ -1,5 +1,5 @@
 ---
-title: Transaction Log Shipping History Grid
+title: Transaction Log Shipping History grid
 last_updated: July 29, 2016
 summary: "If the Primaries page is selected, this grid shows the history for backup jobs on the primary database. If the Secondaries page is selected, this grid shows the history for copy and restore jobs on the secondary database."
 sidebar: c_sqlserver_sidebar

@@ -1,5 +1,5 @@
 ---
-title: Sessions Grid
+title: Sessions grid
 last_updated: July 29, 2016
 summary: "The Sessions grid shows all SQL Server sessions, each row representing a single SQL Server session."
 sidebar: c_sqlserver_sidebar
@@ -8,24 +8,19 @@ id: SQLActivity_Sessions.ConnectionsGrid
 folder: ConnectSQLServer
 ---
 
-<note type="note"></note>
+## Tips to this grid
 
 * Many applications create multiple connections to SQL Server.
 * When there are more than 2000 connections only those connections that are active are shown.
+* In SQL Server 2005 and 2008, to show only those sessions that are currently executing, click **Show active sessions only**.
+* In SQL Server 2000, clicking **Show active sessions only** shows sessions that:
+   * Do not have a status of sleeping, background or dormant.
+   * Are blocked.
+   * Have a command type of "WAITFOR".
+* To close a SQL Server session, right click and select **Kill this session**. This option is available only to members of the Spotlight Diagnostic Administrators group.
+* Click a session in the grid for more details on the session.
 
-In SQL Server 2005 and 2008, to show only those sessions that are currently executing, click **Show active sessions only**.
-
-In SQL Server 2000, clicking **Show active sessions only** shows sessions that:
-
-* Do not have a status of sleeping, background or dormant.
-* Are blocked.
-* Have a command type of "WAITFOR".
-
-SQL Server sessions can be closed by right clicking and selecting the **Kill this session** option. This option is available only to members of the Spotlight Diagnostic Administrators group.
-
-Click a session in the grid to view more details.
-
-## Columns in this grid include:
+## The columns of the grid include:
 
 ### SPID
 
@@ -103,9 +98,13 @@ Amount of time this session has been waiting. It shows 0 if the session is not c
 
 Describes the type of wait that this session last waited on (or is currently waiting on).
 
+{% include tip.html content="Data for this column is reported directly from SQL Server and, for performance reasons, is not resolved to actual resource names during normal data collection. To resolve the data to a more readable form, click the Question Mark button." %}
+
 ### Last Wait Resource
 
 Describes the resource that this session last waited for (or is currently waiting for). It shows no data if the session is not waiting.
+
+{% include tip.html content="Data for this column is reported directly from SQL Server and, for performance reasons, is not resolved to actual resource names during normal data collection. To resolve the data to a more readable form, click the Question Mark button." %}
 
 ### Last Batch Time
 
@@ -160,12 +159,12 @@ Name of the Windows domain that the specified user belongs to.
 
 Name of the Windows account under which the user is logged on.
 
+## General tips to using Spotlight grids
 
-<note type="note"></note>
-* Some of these columns may be hidden by default. To view them, right-click the grid headings and select which columns you want to view.
-* The data displayed in this grid can be filtered. Filtering is the method Spotlight uses to restrict displays to a manageable or relevant set of data. You can view or change the filter for this grid by right-clicking the grid and selecting **View/Edit Filter**.
+* Some columns may be hidden by default. Right-click the grid headings and select the columns to show.
+* To filter the data displayed in this grid to restrict displays to a manageable or relevant set of data, right-click the grid and select **View/Edit Filter**.
 * To find a particular session, right-click and choose **Find**.
-* Data in the Last Wait Type and Last Wait Resource columns is reported directly from SQL Server and, for performance reasons, is not resolved to actual resource names during normal data collection. To resolve the data to a more readable form, click the Question Mark button.
+
 
 
 {% include links.html %}

@@ -1,5 +1,5 @@
 ---
-title: SQL Server I/O Chart
+title: SQL Server I/O chart
 last_updated: July 29, 2016
 summary: "The SQL Server I/O chart shows the number of pages physically read from, and written to, disk by SQL Server."
 sidebar: c_sqlserver_sidebar

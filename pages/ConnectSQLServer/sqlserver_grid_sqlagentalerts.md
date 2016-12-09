@@ -1,5 +1,5 @@
 ---
-title: SQL Agent Alerts Grid
+title: SQL Agent Alerts grid
 last_updated: July 29, 2016
 summary: "The SQL Agent Alerts grid lists all SQL Server Agent alerts that are defined in this SQL Server."
 sidebar: c_sqlserver_sidebar

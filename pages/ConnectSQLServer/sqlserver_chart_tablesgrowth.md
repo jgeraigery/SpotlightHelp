@@ -1,5 +1,5 @@
 ---
-title: Tables Growth Chart
+title: Tables Growth chart
 last_updated: July 29, 2016
 summary: "The Table Growth chart shows the amounts by which each table is growing over time."
 sidebar: c_sqlserver_sidebar

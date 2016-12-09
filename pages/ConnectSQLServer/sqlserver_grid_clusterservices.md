@@ -1,5 +1,5 @@
 ---
-title: Cluster Services Grid
+title: Cluster Services grid
 last_updated: July 29, 2016
 summary: "The Cluster Services grid displays information about the state of your current Microsoft Cluster Server."
 sidebar: c_sqlserver_sidebar
@@ -8,28 +8,28 @@ id: SQLSupportServices_Cluster.ClusterGrid
 folder: ConnectSQLServer
 ---
 
-
+## Using the grid
 You can view the status of each cluster resource and group, as well as the status of and cluster resources owned by each server (node) in the cluster. Spotlight highlights any unusual conditions such as resources offline or cluster nodes down.
 
-The columns in the grid are:
+## Available collumns include:
 
-## Name
+### Name
 
 The hierarchical tree of cluster resources, the root of which is the name of the cluster. Lower levels in the tree represent cluster groups, resource groups and servers, and resource details.
 
-## Status
+### Status
 
 The status of the current resource (where applicable).
 
-## Server
+### Server
 
 The individual server in the cluster where the specified resource is located.
 
-## Comment
+### Comment
 
 A brief description of the specified cluster resource (if available).
 
-## ID
+### ID
 
 The unique identifier for the specified resource in the cluster.
 

@@ -1,5 +1,5 @@
 ---
-title: Call Rates Chart
+title: Call Rates chart
 last_updated: July 29, 2016
 summary: "The Call Rates chart shows the rate at which various events are occurring in SQL Server. This information will give an idea of how busy the SQL Server is at any time."
 sidebar: c_sqlserver_sidebar

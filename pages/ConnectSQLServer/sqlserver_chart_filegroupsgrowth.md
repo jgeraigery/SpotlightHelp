@@ -1,5 +1,5 @@
 ---
-title: File Groups Growth Chart
+title: File Groups Growth chart
 last_updated: July 29, 2016
 summary: "The File Groups Growth chart shows the amount by which each file group is growing over time."
 sidebar: c_sqlserver_sidebar

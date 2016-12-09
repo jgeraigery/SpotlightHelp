@@ -1,5 +1,5 @@
 ---
-title: Custom Counters Chart
+title: Custom Counters chart
 last_updated: July 29, 2016
 summary: "Shows data collected for any custom counters that have been configured."
 sidebar: c_sqlserver_sidebar

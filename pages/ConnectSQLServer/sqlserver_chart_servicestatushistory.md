@@ -1,5 +1,5 @@
 ---
-title: Service Status History Chart
+title: Service Status History chart
 last_updated: July 29, 2016
 summary: "The Service Status History chart shows the status of each SQL Server support service over time."
 sidebar: c_sqlserver_sidebar

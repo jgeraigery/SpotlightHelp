@@ -1,5 +1,5 @@
 ---
-title: Hit Rates Chart
+title: Hit Rates chart
 last_updated: July 29, 2016
 summary: "The Hit Rates chart shows the Hit Rates for the main SQL Server caches."
 sidebar: c_sqlserver_sidebar

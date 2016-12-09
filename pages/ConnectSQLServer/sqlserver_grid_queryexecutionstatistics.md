@@ -1,5 +1,5 @@
 ---
-title: Query Execution Statistics Grid
+title: Query Execution Statistics grid
 last_updated: July 29, 2016
 summary: "Use the Query Execution Statistics grid to diagnose workload issues by displaying SQL statements that match particular criteria."
 sidebar: c_sqlserver_sidebar

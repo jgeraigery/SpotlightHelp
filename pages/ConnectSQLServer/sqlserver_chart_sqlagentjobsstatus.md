@@ -1,5 +1,5 @@
 ---
-title: SQL Agent Jobs Status Chart
+title: SQL Agent Jobs Status chart
 last_updated: July 29, 2016
 summary: "The SQL Agent Jobs Status chart shows the status of jobs over time, making it easy to determine when a job ran, and when it succeeded or failed."
 sidebar: c_sqlserver_sidebar

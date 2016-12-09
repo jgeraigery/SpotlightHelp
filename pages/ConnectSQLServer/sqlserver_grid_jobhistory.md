@@ -1,5 +1,5 @@
 ---
-title: Job History Grid
+title: Job History grid
 last_updated: July 29, 2016
 summary: "Shows the execution messages for each step in a job. Messages may not be available for all jobs."
 sidebar: c_sqlserver_sidebar
@@ -9,8 +9,6 @@ folder: ConnectSQLServer
 ---
 
 
-
-The following columns are shown in this grid.
 
 ## Step ID
 

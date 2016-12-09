@@ -1,5 +1,5 @@
 ---
-title: Fragmented Indexes Grid
+title: Fragmented Indexes grid
 last_updated: July 29, 2016
 summary: "Use the Fragmented Indexes grid to assess the fragmentation of index files on the SQL Server."
 sidebar: c_sqlserver_sidebar
@@ -8,50 +8,53 @@ id: FragmentedIndexesGrid
 folder: ConnectSQLServer
 ---
 
-<note type="note">You can apply a filter to the grid. Select from the options and click <uicontrol>Apply Filter</uicontrol>.</note>
+## How to filter the results
 
+To apply a filter to the grid, select from the options and click **Apply Filter**.
 
-## Show Top
+## The columns of the grid show:
+
+### Show Top
 
 By default show the 50 most fragmented indexes.
 
-## Database
+### Database
 
 Show fragmented indexes from all databases or a selected database on the SQL Server.
 
-## Minimum Page Count
+### Minimum Page Count
 
 Show indexes with at least this number of pages.
 
-## Index Name
+### Index Name
 
 The name of the Index.
 
-## Database Name
+### Database Name
 
 The name of the database the table is in.
 
-## Owner
+### Owner
 
 The owner of the table the index is associated with.
 
-## Table Name
+### Table Name
 
 The name of the table the index is associated with.
 
-## Type
+### Type
 
 The type of index.
 
-## Partition Number
+### Partition Number
 
 The index is stored in one or more partitions. Where the index is stored in one partition the Partition Number is 1. For an index with multiple partitions the first Partition Number is 1.
 
-## Average Fragmentation
+### Average Fragmentation
 
 The percentage of this index (partition) that is fragmented.
 
-## Page Count
+### Page Count
 
 The number of pages in the index (partition).
 

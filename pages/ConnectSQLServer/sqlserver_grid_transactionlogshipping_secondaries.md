@@ -1,5 +1,5 @@
 ---
-title: Transaction Log Shipping Secondaries Grid
+title: Transaction Log Shipping Secondaries grid
 last_updated: July 29, 2016
 summary: "Shows statistics relating to the secondary database in the log shipping configuration."
 sidebar: c_sqlserver_sidebar

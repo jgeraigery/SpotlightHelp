@@ -1,5 +1,5 @@
 ---
-title: DTC Details Chart
+title: DTC Details chart
 last_updated: July 29, 2016
 summary: "Shows data related to DTC (Distributed Transaction Coordinator) performance."
 sidebar: c_sqlserver_sidebar

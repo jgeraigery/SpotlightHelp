@@ -1,5 +1,5 @@
 ---
-title: Transaction Logs Growth Chart
+title: Transaction Logs Growth chart
 last_updated: July 29, 2016
 summary: "The Transaction Log Growth chart shows the amount by which each transaction log is growing over time."
 sidebar: c_sqlserver_sidebar

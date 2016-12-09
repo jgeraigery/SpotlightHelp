@@ -1,5 +1,5 @@
 ---
-title: Connected Sessions Chart
+title: Connected Sessions chart
 last_updated: July 29, 2016
 summary: "The Connected Sessions chart shows SQL Server session information."
 sidebar: c_sqlserver_sidebar

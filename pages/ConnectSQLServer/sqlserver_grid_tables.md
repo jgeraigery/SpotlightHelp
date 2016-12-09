@@ -1,5 +1,5 @@
 ---
-title: Tables Grid
+title: Tables grid
 last_updated: July 29, 2016
 summary: "The Tables grid shows all tables in the selected databases,  including their size, number of rows, free space and the list of disks on which their file group resides."
 sidebar: c_sqlserver_sidebar
@@ -10,7 +10,7 @@ folder: ConnectSQLServer
 
 
 
-The columns in the Tables grid are:
+## The columns in the grid are:
 
 ### Table Name
 
@@ -56,12 +56,17 @@ The actual size of the table in megabytes.
 
 The amount of used space in the table.
 
+## The Tables grid and the Databases grid
 
-<note type="note">The number of tables shown in the Tables grid may not match the number displayed in the # Tables column of the Databases grid. This is most evident when viewing table details for the tempdb database and is due to its dynamic nature.</note>
+The number of tables shown in the Tables grid may not match the number displayed in the # Tables column of the Databases grid. This is most evident when viewing table details for the tempdb database and is due to its dynamic nature.
 
-You can restrict the tables included in the charts below by highlighting just the records you are interested in. Hold down the **Shift** key to select a block of multiple records, or the **CTRL** key to select individual records.</p>
+## How to highlight the records you are interested in
 
-The data displayed in this grid can be **Filtered**. Filtering is the method that Spotlight uses to restrict displays to a manageable or relevant set of data. You can filter the results displayed in the Tables grid by the following criteria:
+You can restrict the tables included in the charts below by highlighting just the records you are interested in. Hold down the **Shift** key to select a block of multiple records, or the **CTRL** key to select individual records.
+
+## How to filter the results
+
+You can filter the results displayed in the Tables grid by the following criteria:
 
 * Top N tables by size or row count
 * Data Space name

@@ -1,5 +1,5 @@
 ---
-title: I/O by File Chart
+title: I/O by File chart
 last_updated: July 29, 2016
 summary: "The I/O by File chart shows SQL Server I/O statistics for each SQL Server database file."
 sidebar: c_sqlserver_sidebar

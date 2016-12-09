@@ -1,5 +1,5 @@
 ---
-title: File Groups Space Chart
+title: File Groups Space chart
 last_updated: July 29, 2016
 summary: "The File Groups Space chart shows the amount of space allocated to each file group."
 sidebar: c_sqlserver_sidebar

@@ -107,7 +107,7 @@ ID for the index on the object affected by the event.
 <note type="note"></note>
 
 * Opening the Session Trace page initiates a new session that does a trace on the selected session. The grid displays **No Data** until such time that the session executes some SQL. The grid is populated with the SQL that occurs from the time the Session Trace page is opened.
-* You can use Dell SQL Optimizer (if installed) to tune the SQL of the selected session. To do this, right-click a row in the grid and select **Optimize SQL**.
+* You can use SQL Optimizer (if installed) to tune the SQL of the selected session. To do this, right-click a row in the grid and select **Optimize SQL**.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Database Space Chart
+title: Database Space chart
 last_updated: July 29, 2016
 summary: "The Database Space chart shows the disk space usage for databases."
 sidebar: c_sqlserver_sidebar

@@ -1,5 +1,5 @@
 ---
-title: Databases Grid
+title: Databases grid
 last_updated: July 29, 2016
 summary: "The Databases grid provides details of all databases in SQL Server."
 sidebar: c_sqlserver_sidebar
@@ -9,8 +9,9 @@ folder: ConnectSQLServer
 ---
 
 
-Use the **Database View** list to change the category of information displayed in the Databases grid. Choose from the following views:
+## How to use the grid
 
+Use the **Database View** list to change the category of information displayed. Choose from the following views:
 
 ## Overview
 
@@ -50,8 +51,7 @@ The amount of log space that is not allocated to the log, measured in megabytes.
 
 The number of tables, where table type=user, that exist on the database.
 
-<note type="note">The # Tables column may not match the number of tables shown in the Tables grid. This is most evident when viewing table details for the tempdb database and is due to its dynamic nature.</note>
-
+{% include note.html content="The # Tables column may not match the number of tables shown in the Tables grid. This is most evident when viewing table details for the tempdb database and is due to its dynamic nature." %}
 
 ### # File Groups
 
@@ -100,8 +100,7 @@ The system process ID of the session owning the oldest transaction in the databa
 
 The ID of the database.
 
-<note type="note">To view the session details of a transaction, right-click a transaction in the grid and select **Session Details**. The session details for the selected transaction are displayed in the Session Details page of the SQL Activity drilldown.</note>
-
+{% include note.html content="To view the session details of a transaction, right-click a transaction in the grid and select **Session Details**. The session details for the selected transaction are displayed in the Session Details page of the SQL Activity drilldown." %}
 
 ## Backup Status
 
@@ -144,8 +143,15 @@ The **Properties** view displays the properties of the SQL Server databases on t
 
 The columns in the Properties grid correspond to the data returned by the SQL Server **DatabasePropertyEx** function. For more information on these properties, see the **Transact-SQL Reference** section in Microsoft? SQL Server Books Online.
 
+
+## How to use with Database Details
+
 Select one or more databases in the Databases grid to show just those databases in Database Details. Press the **Shift** key to select a block of multiple databases or the **CTRL** key to select individual databases.
 
+## About the tempdb database
+
 The tempdb database has its own drilldown. Click on tempdb to open the tempdb drilldown. Click on another cell in the tempdb row to show tempdb in Database Details.
+
+
 
 {% include links.html %}
