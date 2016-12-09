@@ -13,8 +13,6 @@ folder: ConnectSQLServer
 {% include tip.html content="The DTC Details page provides additional data on SQL Server transactions. If the server that Spotlight Enterprise is currently connected to has more than one instance running then details reported in this page are for all instances of SQL Server on the current machine, not only the instance currently under analysis." %}
 
 
-The DTC Details chart displays data of the following aspects of DTC performance:
-
 ## Aborted Transactions
 
 The number of distributed transactions that were rolled back.

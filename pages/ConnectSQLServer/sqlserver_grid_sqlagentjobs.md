@@ -9,63 +9,65 @@ folder: ConnectSQLServer
 ---
 
 
-It highlights the **current status** of each job (running, succeeded, or failed).
+## Using the grid
+
+The grid highlights the **current status** of each job (running, succeeded, or failed).
 
 **Failed** jobs are highlighted with a red "X" icon, successfully completed jobs are shown with a green "check" icon, and jobs that are currently running are shown with a blue "!" icon.
 
 To start a job from the grid, right-click the job and select **Start Job**. You must be a member of the Spotlight Diagnostic Administrators group to perform this operation.
 
-The following columns are shown in the SQL Agent Jobs grid:
+## Columns in the grid:
 
-## Job Name
+### Job Name
 
 The name of the job.
 
-## Job Category
+### Job Category
 
 The SQLAgent job category assigned to this job.
 
-## Enabled
+### Enabled
 
 If the job can be run or not.
 
-## Last Run Outcome
+### Last Run Outcome
 
 The outcome of the last run (**Success** or **Fail**).
 
-## Current Status
+### Current Status
 
 The current status of the job (**Running** or **Inactive**).
 
-## Last Run Time
+### Last Run Time
 
 The date/time on which the job last ran.
 
-## Last Run Finish
+### Last Run Finish
 
 The time the job finished.
 
-## Current Run Duration
+### Current Run Duration
 
-How long the current job has been running for. Note, this column displays information only whilst the job is running.
+How long the current job has been running for. This column displays information only whilst the job is running.
 
-## Last Run Duration
+### Last Run Duration
 
 How long the last run took (shown as d hh:mm:ss).
 
-## Next Run Time
+### Next Run Time
 
 The date/time of the next scheduled run.
 
-## Description
+### Description
 
 A brief description of the job.
 
-## Average Run Duration
+### Average Run Duration
 
 Average duration of all successful runs for this job. This column is hidden by default.
 
-## Current Step \#
+### Current Step \#
 
 If the job is currently running, this shows the current step number. This column is hidden by default.
 

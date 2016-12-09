@@ -8,8 +8,10 @@ id: supportservices2_fts.ftsgrid
 folder: ConnectSQLServer
 ---
 
+{% include tip.html content="If some of the details are incomplete for all of the rows, the Full Text Search Service may not be running. Check the **Service Statust page \| Services Status grid** to confirm this." %}
 
-## The Full Text Search Service grid contains the following columns:
+
+## The columns of the grid are:
 
 ### Database Name
 
@@ -47,9 +49,7 @@ When the full-text catalog was last populated.
 
 The number of tables in the full text catalog.
 
-## Troubleshooting
 
-If some of the details are incomplete for all of the rows, the Full Text Search Service may not be running. Check the Services Status grid on the Service Status page to confirm this.
 
 
 {% include links.html %}

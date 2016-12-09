@@ -25,7 +25,7 @@ The time and date that the state of the service last changed.
 
 ## How to start and stop services
 
-You can **start** and **stop** services by right-clicking a service and selecting the appropriate option from the shortcut menu.
+To **start** and **stop** services, right-click a service and select the appropriate option from the shortcut menu.
 
 The start/stop service feature is fully **cluster aware**. If your server is running on a cluster, the start/stop service function requests that the cluster software take the cluster resource offline, rather than just stopping the service manually. This prevents the cluster service from failing the resource over to another node.
 

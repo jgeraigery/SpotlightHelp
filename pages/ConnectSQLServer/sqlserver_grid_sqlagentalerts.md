@@ -1,18 +1,13 @@
 ---
 title: SQL Agent Alerts grid
 last_updated: July 29, 2016
-summary: "The SQL Agent Alerts grid lists all SQL Server Agent alerts that are defined in this SQL Server."
+summary: "The SQL Agent Alerts grid lists all SQL Server Agent alerts that are defined in this SQL Server. The grid highlights the type of alert (Event or Performance) as well as how often the event has occurred and the date and time of the alert's last occurrence."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_sqlagentalerts.html
 id: SQLSupportServices_AgentAlerts.SQLAgentAlertsGrid
 folder: ConnectSQLServer
 ---
 
-
-
-It highlights the type of alert (**Event Alert** or **Performance Alert**), as well as how often the event has occurred and the date and time of its last occurrence.
-
-The columns in the SQL Agent Alerts grid are:
 
 ## Alert Name
 

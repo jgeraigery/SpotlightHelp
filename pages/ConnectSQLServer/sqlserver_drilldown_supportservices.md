@@ -25,7 +25,7 @@ From the Spotlight Client
 
 
 ### SQL Agent Jobs page
-Investigate Jobs that are defined, their current status and the latest execution message
+Investigate jobs that are defined, their current status and the latest execution message
 
 #### SQL Agent Jobs grid
 Lists all SQL Server Agent Jobs that are defined in this server and their current status.
@@ -33,7 +33,7 @@ Lists all SQL Server Agent Jobs that are defined in this server and their curren
 Failed jobs are highlighted with a red "X" icon, successfully completed jobs are shown with a green "check" icon, and jobs that are currently running are shown with a blue "!" icon.
 
 
-To start a job from the grid, select the job and click **Start Job**. Membership of the Spotlight Diagnostic Administrators group is required to perform this operation. For more information, see Spotlight diagnostic user groups.
+To start a job from the grid, select the job and click **Start Job**. Membership of the Spotlight Diagnostic Administrators group is required to perform this operation.
 
 
 
@@ -51,7 +51,7 @@ When the job finishes, Spotlight checks the completion status (Success or Failur
 
 
 ### Service Status page
-Investigate Current and historical status of each SQL Server support service.
+Investigate the current and historical status of each SQL Server support service.
 
 #### Service Status grid
 Shows the current status of each SQL Server support service.
@@ -60,11 +60,9 @@ You can start and stop services by right-clicking a service and selecting the ap
 
 The start/stop service feature is fully cluster aware. If your server is running on a cluster, the start/stop service function requests that the cluster software take the cluster resource offline, rather than just stopping the service manually. This prevents the cluster service from failing the resource over to another node.
 
+To use the Start and Stop options when connected to SQL Server 2005 or later, in addition to the Spotlight user being a member of the Spotlight Diagnostics Administrators group, the Diagnostic Server must be connected to the SQL Server as a sysadmin level user and xp_cmdshell must be enabled on the SQL Server. If the Diagnostic Server is not connected as a sysadmin user and /or xp_cmdshell is disabled, the Start and Stop options will not perform the expected service control actions when they are used.
 
- Note:
-
-* To use the Start and Stop options when connected to SQL Server 2005 or later, in addition to the Spotlight user being a member of the Spotlight Diagnostics Administrators group, the Diagnostic Server must be connected to the SQL Server as a sysadmin level user and xp_cmdshell must be enabled on the SQL Server. If the Diagnostic Server is not connected as a sysadmin user and /or xp_cmdshell is disabled, the Start and Stop options will not perform the expected service control actions when they are used.
-* SQL Mail and SQL Agent Mail are not services and cannot be started or stopped. The Support Service Status panel displays their current configuration status only.
+SQL Mail and SQL Agent Mail are not services and cannot be started or stopped. The Support Service Status panel displays their current configuration status only.
 
 
 #### Service Status History chart
@@ -74,7 +72,7 @@ SQL Mail and SQL Agent Mail are not services and cannot be started or stopped. T
 
 
 ### SQL Agent Alerts page
-Investigate Defined SQL Server agents alerts.
+Investigate defined SQL Server agents alerts.
 
 #### SQL Agent Alerts grid
 Lists all SQL Server Agent alerts that are defined in this SQL Server, highlighting the type of alert (Event Alert or Performance Alert), as well as how often the event has occurred, and the date and time of its last occurrence.
@@ -84,10 +82,9 @@ Shows you when recent SQL agent alerts have occurred, and how many have occurred
 
 
 ### Cluster Services page
-Investigate State of your current Microsoft Cluster Server.
+Investigate the state of your current Microsoft Cluster Server.
 
-#### Cluster Services grid
-Displays information about the state of your current Microsoft Cluster Server.
+The Cluster Services grid displays information about the state of your current Microsoft Cluster Server.
 
 You can view the status of each cluster resource and group, as well as the status of any cluster resources owned by each server (node) in the cluster. Spotlight Enterprise highlights any unusual conditions such as resources offline, or cluster nodes down.
 
@@ -102,19 +99,11 @@ You can also perform the following basic cluster control operations on some reso
 
 
 ### DTC page
-Investigate Performance of the Distributed Transaction Coordinator (DTC).
+Investigate the performance of the Distributed Transaction Coordinator (DTC).
 
-#### DTC Details chart
-Shows data related to DTC (Distributed Transaction Coordinator) performance.
-
-The DTC Details page provides additional data on SQL Server transactions within SQL Server. If the server that Spotlight is currently connected to has more than one instance running then details reported in this page are for all instances of SQL Server on the current machine, not only the instance currently under analysis.
-
-
+{% include note.html content="The DTC Details page provides additional data on SQL Server transactions within SQL Server. If the server that Spotlight is currently connected to has more than one instance running then details reported in this page are for all instances of SQL Server on the current machine, not only the instance currently under analysis." %}
 
 ### Full Text Search page
-Investigate Performance of full-text indexing.
-
-#### Full Text Search Service grid
 Shows performance details for all full-text indexes on the server. In full-text indexing, a separate catalog is maintained that indexes each word in a database field as a separate index entry.
 
 If some of the details are incomplete for all of the rows, the Full Text Search Service may not be running. Check the Services Status grid on the Service Status page to confirm this.
@@ -122,13 +111,11 @@ If some of the details are incomplete for all of the rows, the Full Text Search 
 
 
 ### OLAP Services page
-Investigate OLAP services running on your system
-The OLAP Services page is available only when connected. to SQL Server 2000.
-
-#### OLAP grid
 Provides an overview of the OLAP Services or Analysis Services product currently running on your system.
 
 OLAP Services (known in SQL Server 2000 and later as Analysis Services) is a server product that performs online analytical processing (OLAP) and data mining on SQL Server systems. For more information, see the MSDN Library Web site (http://msdn.microsoft.com/library/).
+
+The OLAP Services page is available only when connected. to SQL Server 2000.
 
 
 
