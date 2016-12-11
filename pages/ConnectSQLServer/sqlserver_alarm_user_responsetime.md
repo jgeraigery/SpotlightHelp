@@ -18,10 +18,6 @@ This is not an error. Spotlight is just saying that it is taking over 20 seconds
 
 You may want to find out what the Response Time SQL is (default "select 1") and execute that SQL from SQL Server Management Studio from the Spotlight Diagnostic Server host against one of the monitored SQL Servers exhibiting the issue.
 
-## Configuration
-
-The Response Time SQL is a user defined T-SQL batch that can be used to indicate application response time.
-
-Note: Membership of the Spotlight diagnostic administrators group is required to change the SQL Statement used to measure SQL Server response time. For more information, see Spotlight diagnostic user groups.
+In the Spotlight Client, members of the Spotlight diagnostic administrators group can change the SQL Statement used to measure SQL Server response time. 
 
 {% include links.html %}

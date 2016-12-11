@@ -18,7 +18,7 @@ This alarm is raised when there is a problem with:
 
 When the alarm is raised
 
-* Check the **Service Status** page on the **Support Services** drilldown to see the status of the service.
+* Check the **Support Services drilldown \| Service Status page** to see the status of the service.
 * Review messages in the **SQL Server \| Error Log** drilldown to determine the cause of the problem.
 
 

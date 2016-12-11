@@ -12,9 +12,9 @@ folder: ConnectSQLServer
 
 The default threshold for this alarm is 600 seconds.
 
-When this alarm is raised, open the Support Services drilldown \| SQL Agent Jobs page to investigate the long running SQL Agent Job.
+When this alarm is raised, open the **Support Services drilldown \| SQL Agent Jobs page** to investigate the long running SQL Agent Job.
 
-You can customize the threshold to a value more suitable for your environment. You can customize a severity table for a SQL Agent job - see "Configure Keyed Alarms" in the online help for more information.
+{% include tip.html content="You can customize the threshold to a value more suitable for your environment. You can customize a severity table for a SQL Agent job. Use a Spotlight Client to **Configure \| Alarms**." %}
 
 
 {% include links.html %}

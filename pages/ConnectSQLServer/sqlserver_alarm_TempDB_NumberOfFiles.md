@@ -12,9 +12,7 @@ folder: ConnectSQLServer
 
 
 
-## When the alarm is raised
-
-To ease contention consider increasing the number of Tempdb files to one Tempdb file per processor. Thus increasing the number of Tempdb files increases the number of physical I/O operations that SQL Server can push to the disk at any one time. The more I/O that SQL Server can push down to the disk level, the faster the database will run.
+When the alarm is raised, to ease contention consider increasing the number of Tempdb files to one Tempdb file per processor. Thus increasing the number of Tempdb files increases the number of physical I/O operations that SQL Server can push to the disk at any one time. The more I/O that SQL Server can push down to the disk level, the faster the database will run.
 
 It is important to configure the files at the same initial size and with the same growth settings. That way, SQL Server will manage an even distribution of data across the files.
 

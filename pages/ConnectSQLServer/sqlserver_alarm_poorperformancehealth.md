@@ -10,12 +10,12 @@ folder: ConnectSQLServer
 ---
 
 
-Note that this alarm uses a score averaged over 30 minutes to smooth out any rapid movement.
-
 If a database devotes most of its time to CPU and I/O and has a low single-block read latency,
 it will obtain a performance-health rating of 80% or more, which is considered healthy.
 
-For more information on your database's performance health see the SQL Server \| Performance Health Drilldown.
+For more information on your database's performance health see the **SQL Server \| Performance Health** drilldown.
+
+{% include tip.html content="This alarm uses a score averaged over 30 minutes to smooth out any rapid movement." %}
 
 
 

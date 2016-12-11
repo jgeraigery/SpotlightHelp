@@ -10,7 +10,7 @@ folder: ConnectSQLServer
 ---
 
 
-This alarm is raised on the SQL Server \| Overview page \| Disk Storage panel \| Log Files component when the count of Virtual Log Files (VLFs) is excessive.
+This alarm is raised on the **SQL Server \| Overview page \| Disk Storage panel \| Log Files component** when the count of Virtual Log Files (VLFs) is excessive.
 
 A high number can have a major impact in SQL start up times and database restores.
 

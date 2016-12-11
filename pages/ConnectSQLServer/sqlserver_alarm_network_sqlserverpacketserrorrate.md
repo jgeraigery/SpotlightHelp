@@ -13,8 +13,6 @@ folder: ConnectSQLServer
 
 
 
-## When the alarm is raised
-
-Investigate what is causing the packet errors on your network.
+When the alarm is raised, investigate what is causing the packet errors on your network.
 
 {% include links.html %}

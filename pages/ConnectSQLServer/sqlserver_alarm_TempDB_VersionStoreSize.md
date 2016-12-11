@@ -11,12 +11,8 @@ folder: ConnectSQLServer
 
 
 
-
-
 There are two version stores in Tempdb. The online index build version store is used for online index builds in all databases. The common version store is used for all other data modification operations in all databases.
 
-## Configuration
-
-This alarm is disabled by default. Ensure the thresholds for this alarm are configured appropriate to your environment before enabling the alarm. For more information, see Configure \| Alarms.
+{% include note.html content="This alarm is disabled by default. Ensure the thresholds for this alarm are configured appropriate to your environment before enabling the alarm. Use a Spotlight Client to **Configure \| Alarms**." %}
 
 {% include links.html %}

@@ -13,9 +13,9 @@ folder: ConnectSQLServer
 
 
 
-## When the alarm is raised
+When the alarm is raised
 
-* Open the SQL Server \| Support Services Drilldown \| SQL Agent Alerts page. Determine which alerts have occurred recently. This page shows the most recent occurrence time for each alert, and the alert history for the previous hour.
+* Open the **SQL Server \| Support Services Drilldown \| SQL Agent Alerts page**. Determine which alerts have occurred recently. This page shows the most recent occurrence time for each alert, and the alert history for the previous hour.
 * Investigate the cause of the alert and take corrective action if necessary.
 
 {% include links.html %}

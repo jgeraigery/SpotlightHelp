@@ -22,9 +22,9 @@ Services currently monitored are:
 
 When this alarm is current, you should:
 
-* Check the **Service Status** page on the **Support Services** drilldown to see the status of all known SQL Server support services.
-* Review messages in the **SQL Error Log** drilldown to determine the reason the service is not running.
-* Restart the affected service if necessary. This can be done from the **Service Status** page by right-clicking the service in the Services Status grid.
+* Use the **Support Services drilldown \| Service Status page** to check the status of all known SQL Server support services.
+* Review messages in the **SQL Error Log drilldown** to determine the reason the service is not running.
+* Restart the affected service if necessary. Using a Spotlight Client, from the **Service Status** page, right click on the service in the Services Status grid.
 
 
 {% include links.html %}

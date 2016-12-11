@@ -10,11 +10,7 @@ folder: ConnectSQLServer
 ---
 
 
+{% include note.html content="This alarm is disabled by default. It is important to configure alarm thresholds that are appropriate to your environment before enabling this alarm. Use a Spotlight Client to **Configure \| Alarms**." %}
 
-
-
-## Configuration
-
-This alarm is disabled by default. It is important to configure alarm thresholds that are appropriate to your environment before enabling this alarm. For more information, see Configure \| Alarms.
 
 {% include links.html %}
