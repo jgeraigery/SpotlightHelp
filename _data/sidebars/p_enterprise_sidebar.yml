@@ -661,9 +661,42 @@ entries:
       url: /enterprise_interface_pagerduty.html
       output: web, pdf
 
-    - title: Spotlight Management Pack for SCOM
-      url: /enterprise_interface_scom.html
-      output: web, pdf
+      subfolders:
+      - title: Spotlight Management Pack for SCOM
+        output: web
+        subfolderitems:
+
+        - title: Spotlight Management Pack for SCOM
+          url: /enterprise_interface_scom.html
+          output: web, pdf
+
+        - title: Requirements
+          url: /enterprise_interface_scom_requirements.html
+          output: web, pdf
+
+        - title: Download, Unpack and Configure
+          url: /enterprise_interface_scom_cfg.html
+          output: web, pdf
+
+        - title: Workflow for Spotlight alarms
+          url: /enterprise_interface_scom_alarmsworkflow.html
+          output: web, pdf
+
+        - title: SCOM Console views of Spotlight
+          url: /enterprise_interface_scom_consoleviews.html
+          output: web, pdf
+
+        - title: Snooze and Acknowledge Spotlight alarms
+          url: /enterprise_interface_scom_snoozeack.html
+          output: web, pdf
+
+        - title: Launch the Spotlight Client from the SCOM Console
+          url: /enterprise_interface_scom_launchclient.html
+          output: web, pdf
+
+        - title: Troubleshooting
+          url: /enterprise_interface_scom_troubleshoot.html
+          output: web, pdf
 
   - title: Backend Deployment
     output: web, pdf
