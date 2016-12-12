@@ -1,6 +1,6 @@
 ---
 title: Download, Unpack and Configure
-summary: "The Spotlight Management Pack for SCOM is appropriate for organizations that use SCOM (System Center Operations Manager) as their centralized monitoring system and wish to use Spotlight as their tool of choice for SQL Server monitoring."
+summary: "Download, unpack and configure the Spotlight Management Pack for SCOM."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_interface_scom_cfg.html
 folder: SpotlightEnterprise
