@@ -10,7 +10,7 @@ folder: ConnectSQLServer
 ---
 
 
-Another process has locked the database or table. For more information, see SQL Server \| Databases drilldown.
+Another process has locked the database or table. For more information, see the **SQL Server \| Databases drilldown**.
 
 When the alarm is raised, consider rescheduling the collection to a quieter time of day.
 

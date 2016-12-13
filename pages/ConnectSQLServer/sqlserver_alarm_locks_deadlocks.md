@@ -21,8 +21,6 @@ Here we have Session 1 waiting on a lock held by Session 2 and Session 2 waiting
 
 The example above is the simplest type of deadlock, involving only two sessions. However, deadlocks can involve many more sessions, and it can be very difficult to track down the root cause of all the trouble. Spotlight Enterprise provides some features to make this task easier.
 
-## When the alarm is raised
-
-Look at the Locks tab on the SQL Server \| SQL Activity Drilldown to view the Deadlocks/sec counter on the Lock Types chart. This shows you how frequently deadlocks are occurring in your system.
+When the alarm is raised the **SQL Server \| SQL Activity Drilldown \| Locks page \| Lock Types chart \| Deadlocks/sec counter** shows you how frequently deadlocks are occurring in your system.
 
 {% include links.html %}

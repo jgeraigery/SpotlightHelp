@@ -11,15 +11,12 @@ folder: ConnectSQLServer
 
 
 
-
-
 This alarm alerts you to jobs that are inadvertently or otherwise disabled.
 
-{% include tip.html content="The Primary ID column may be hidden by default. See Show, hide and order columns for more information on how to display hidden columns." %}
+{% include note.html content="The **Primary ID** column may be hidden by default." %}
 
-## Configuration
+You can configure this alarm to ignore certain values. From the Spoltight Client see **Configure \| Alarms**.
 
-You can configure this alarm to ignore certain values. For more information, see Do not alarm for certain values.
-You can configure different alarm severities for specific primary databases. For more information, see Configure an alarm. The key for this alarm is the ID of the primary database. You can see this information in the Transaction Log Shipping Primaries grid on the Primaries page of the High Availability drilldown.
+You can configure different alarm severities for specific primary databases. From the Spoltight Client see **Configure \| Alarms**. The key for this alarm is the ID of the primary database. You can see this information on the **SQL Server \| High Availability drilldown \| Primaries page \| Transaction Log Shipping Primaries grid**.
 
 {% include links.html %}

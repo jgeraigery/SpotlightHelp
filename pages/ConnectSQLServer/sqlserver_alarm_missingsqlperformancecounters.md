@@ -17,11 +17,15 @@ Spotlight Enterprise raises an informational alarm shortly after connecting if i
 
 You can confirm the existence of this problem by running the following SQL in SQL Server Management Studio for SQL Server 2005 or later:
 
+```
 select * from sys.dm_os_performance_counters
+```
 
 or by running the following SQL in Query Analyzer for SQL Server 2000:
 
+```
 select * from master..sysperfinfo
+```
 
 If this query returns no records, then your SQL Server performance counters are missing and Spotlight Enterprise will not be able to operate correctly.
 
@@ -29,24 +33,34 @@ Sometimes, for a variety of reasons, the SQL Server Performance Monitor counters
 
 At the command prompt, type the following:
 
+```
 unlodctr.exe MSSQLServer
+```
 
 Then type:
 
+```
 lodctr.exe \binn\sqlctr.ini
+```
 
 Reboot the server.
+
 If the Analysis Services counters can't be found use the following:
 
 At the command prompt, type the following:
 
+```
 unlodctr.exe MSSQLServerOLAPService
+```
 
 Then type:
 
+```
 lodctr.exe \binn\msmdctr.ini
+```
 
 Reboot the server.
+
 If an unexpected error message is displayed, look it up at msdn.microsoft.com. Note, this tip is for non-clustered SQL Servers only.
 
 {% include links.html %}

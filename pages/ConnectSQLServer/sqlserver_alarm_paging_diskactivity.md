@@ -15,8 +15,6 @@ folder: ConnectSQLServer
 
 The recommended action is:- Put files that are accessed frequently (such as database files) on a different physical disk than the Windows paging file(s).
 
-## Configuration
-
-You can configure this alarm to ignore certain values. For more information, see Do not alarm for certain values.
+{% include note.html content="The Spotlight Client can be used to configure this alarm to ignore certain values: **Configure \| Alarms**." %}
 
 {% include links.html %}

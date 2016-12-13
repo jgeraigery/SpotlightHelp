@@ -17,7 +17,7 @@ The **Monitored Server - SQL Server host not defined** alarm is raised for:
 2. Where the **SQL Server Connection Details** dialog **Connection** field is set to **Cluster (monitor active node)**.
 3. And the active cluster node is NOT in the list of available OS connections in the **SQL Server Connection Details** dialog **Linked OS Connection** drop down field.
 
-For a SQL Server cluster that uses the Cluster (monitor active node) feature there must be a Windows connection for each Windows node in the cluster. See the online help **SQL Server \| Connect \| Connection Details** for more information. This alarm  clears once the Windows connection has been created.
+For a SQL Server cluster that uses the Cluster (monitor active node) feature there must be a Windows connection for each Windows node in the cluster. Refer to the online help **SQL Server \| Connect \| Connection Details** for more information. This alarm clears once the Windows connection has been created.
 
 
 The Monitored Server - SQL Server Host Not Defined Alarm is raised for:

@@ -20,7 +20,7 @@ Services currently monitored are:
 * The SQL Server Reporting service.
 
 
-When this alarm is current, you should:
+When this alarm is current:
 
 * Check the **Support Services drilldown \| Service Status page** to see the status of all known SQL Server support services.
 * Review messages in the **SQL Error Log drilldown** to determine the reason the service is not running.

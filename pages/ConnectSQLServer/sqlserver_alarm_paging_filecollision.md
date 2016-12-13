@@ -17,12 +17,11 @@ This can cause performance degradation – especially on IDE disks. IDE disks al
 
 To rectify this:
 
-Open the Windows Control Panel.
-Double-click System.
-Click the Advanced tab.
-Select Performance Settings, and change the paging file allocations.
-Configuration
+1. Open the Windows Control Panel.
+2. Double-click **System**.
+3. Click the **Advanced tab**.
+4. Select **Performance Settings**, and change the paging file allocations.
 
-You can configure this alarm to ignore certain values. For more information, see Do not alarm for certain values.
+{% include note.html content="The Spotlight Client can be used to configure this alarm to ignore certain values: **Configure \| Alarms**." %}
 
 {% include links.html %}

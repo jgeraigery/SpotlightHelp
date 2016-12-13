@@ -9,6 +9,6 @@ id:
 folder: ConnectSQLServer
 ---
 
-Add a linked OS connection from SQL Server \| Connection Details.
+Use a Spotlight Client to add a "linked OS connection" to the SQL Server connection: **Configure \| Connections \| SQL Server \| Connection Details**.
 
 {% include links.html %}

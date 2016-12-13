@@ -13,10 +13,10 @@ folder: ConnectSQLServer
 {% include note.html content="Spotlight only checks large index files, that is Index files that have over 1000 pages." %}
 
 
-## When the alarm is raised
+When the alarm is raised:
 
-1. Open the SQL Server \| Databases Drilldown \| Fragmented Indexes.
-2. Select the index to defragment and click Fragmented Indexes \| Generate defragmentation script.
+1. Open the **SQL Server \| Databases drilldown \| Fragmented Indexes**.
+2. Select the index to defragment and click **Fragmented Indexes \| Generate defragmentation script**.
 3. Use SQL Server Management Studio to schedule a job to run this script during a quiet period.
 
 

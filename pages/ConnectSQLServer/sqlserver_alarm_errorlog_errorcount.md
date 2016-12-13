@@ -10,7 +10,7 @@ folder: ConnectSQLServer
 ---
 
 
-When the alarm is raised use the SQL Server \| Error Log Drilldown to view the errors.
+When the alarm is raised use the **SQL Server \| Error Log drilldown** to view the errors.
 
 ## Configuration
 

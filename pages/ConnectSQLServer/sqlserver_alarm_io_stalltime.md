@@ -12,17 +12,13 @@ folder: ConnectSQLServer
 
 Sustained high I/O wait times are a good indicator that you have a disk subsystem bottleneck and that I/O device service times will be degraded.
 
-## When the alarm is raised
+When the alarm is raised look at the **SQL Server \| Wait Events drilldown \| IO Category** to see what is contributing to I/O consumption. If SQL Server is contributing to I/O consumption look at the following:
 
-Look at the SQL Server \| Wait Events drilldown \| IO Category to see what is contributing to I/O consumption. If SQL Server is contributing to I/O consumption look at the following:
+* The **SQL Server \| SQL Activity drilldown \| I/O by File page** to see which files are waiting on I/O operations. High rates of wait on log files may indicate that the device on which the log file resides is not able to keep up.
+* The **SQL Server \| SQL Activity drilldown \| Sessions page** to see which SQL Server sessions are generating high amounts of disk activity. The SQL and the query plan are available for further analysis by clicking a row in the grid.
+* The **SQL Server \| Wait Statistics drilldown**. Looking at the top statements by Avg Logical Reads/Writes shows SQL that may be doing large amounts of logical I/O. This logical I/O may result in unnecessary physical I/O.
 
-* The I/O by File page on the SQL Server \| SQL Activity drilldown to see which files are waiting on I/O operations. High rates of wait on log files may indicate that the device on which the log file resides is not able to keep up.
-* The Sessions page on the SQL Server \| SQL Activity drilldown to see which SQL Server sessions are generating high amounts of disk activity. The SQL and the query plan are available for further analysis by clicking a row in the grid.
-* The SQL Server \| Wait Statistics Drilldown. Looking at the top statements by Avg Logical Reads/Writes shows SQL that may be doing large amounts of logical I/O. This logical I/O may result in unnecessary physical I/O.
+{% include note.html content="From the Spotlight Client you can configure this alarm to ignore certain values. You can configure different thresholds for specific database files." %}
 
-## Configuration
-
-You can configure this alarm to ignore certain values. For more information, see Do not alarm for certain values.
-You can configure different thresholds for specific database files. For more information, see Configure an alarm.
 
 {% include links.html %}
