@@ -18,7 +18,7 @@ Spotlight raises this alarm when any SQL Server instance in this cluster is not 
 
 When the alarm is raised
 
-* View the SQL Server \| Support Services Drilldown \| Cluster Services page to see which SQL Server cluster group is not running on its preferred cluster node.
+* Open the **SQL Server \| Support Services drilldown \| Cluster Services page** to see which SQL Server cluster group is not running on its preferred cluster node.
 * Consider moving that cluster group to its preferred node.
 
 {% include links.html %}

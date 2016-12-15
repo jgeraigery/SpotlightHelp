@@ -10,13 +10,13 @@ folder: ConnectSQLServer
 ---
 
 
-It is raised when a log is almost full and the log files cannot automatically grow enough to relieve the problem. When the free space in a database's log file falls below a certain percentage of the log file's current total log size, the alarm is raised. Once a log fills completely, all attempts to update anything in that database will fail. This alarm takes into account the amount of free space currently within a fixed sized log file.
+This alarm is raised when a log is almost full and the log files cannot automatically grow enough to relieve the problem. When the free space in a database's log file falls below a certain percentage of the log file's current total log size, the alarm is raised. Once a log fills completely, all attempts to update anything in that database will fail. This alarm takes into account the amount of free space currently within a fixed sized log file.
 
 This alarm can occur when a log is filling up and all files in the log are approaching, or have reached, their MaxSize settings, or are defined with Auto Grow=No.
 
 When this alarm is current, you should first look at reducing the log requirements by:
 
-* On the SQL Server \| Databases Drilldown, check the Transactions information in the Databases grid to see if there is a very long running transaction for the database in question. To do this, from the View list select Transactions and then look at the Oldest Tran Start Time column.
+* On the **SQL Server \| Databases drilldown \| Databases grid**, check the Transactions information to see if there is a very long running transaction for the database in question. To do this, from the View list select Transactions and then look at the Oldest Tran Start Time column.
 * Backing up (or truncating) the log for the database in question. This removes any log entries that have been committed.
 
 If you cannot identify or resolve the cause of the problem using the above tips, consider increasing the amount of space allocated to the logs by:
