@@ -38,7 +38,7 @@ Data is collected from the SQL Server instance then written to the Spotlight Sta
 You can customize the collection schedules in the Spotlight Client. [Configure Scheduling][enterprise_cfgmonitor_scheduling]
 
 ## Where are the report definition files?
-The default location for the definition (rdl) files is in the Spotlight Client installation folder in the Plug-ins\Trending\Reports folder.
+The default location for the definition (rdl) files is in the Spotlight Client installation folder in the Plug-ins\Trending\SSRS folder.
 
 If you do not have write access to the Program Files folders listed above, you can create the following folder and use it as an alternative: <user>\Documents\Spotlight Reports
 
