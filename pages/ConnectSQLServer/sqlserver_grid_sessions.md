@@ -11,7 +11,7 @@ folder: ConnectSQLServer
 ## Tips to this grid
 
 * Many applications create multiple connections to SQL Server.
-* When there are more than 2000 connections only those connections that are active are shown.
+* When there are more than 2000 sessions only those sessions that are active (and those sessions that are blocked and blocking) are shown.
 * In SQL Server 2005 and 2008, to show only those sessions that are currently executing, click **Show active sessions only**.
 * In SQL Server 2000, clicking **Show active sessions only** shows sessions that:
    * Do not have a status of sleeping, background or dormant.
