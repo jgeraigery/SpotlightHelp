@@ -6,14 +6,14 @@ entries:
   - title: Products
     output: web
     folderitems:
-    - title: Spotlight Enterprise
-      url: /enterprise_welcome.html
-      output: web
-    - title: Spotlight Developer
-      url: /dev_welcome.html
-      output: web
     - title: Spotlight Cloud
       url: /cloud_welcome.html
+      output: web
+    - title: SQL Optimizer
+      url: /dev_welcome.html
+      output: web
+    - title: Spotlight on SQL Server Enterprise
+      url: /enterprise_welcome.html
       output: web
     - title: Spotlight Mobile
       url: /mobile_welcome.html
