@@ -789,8 +789,29 @@ entries:
           url: /enterprise_backend_wmilimitports.html
           output: web, pdf
 
-    - title: Federation
-      url: /enterprise_backend_federation.html
-      output: web, pdf
+      subfolders:
+      - title: Federation
+        output: web
+        subfolderitems:
+
+        - title: Federation
+          url: /enterprise_backend_federation.html
+          output: web, pdf
+
+        - title: Make (add to) a federation
+          url: /enterprise_backend_federation_add.html
+          output: web, pdf
+
+        - title: Monitoring connections
+          url: /enterprise_backend_federation_monitor.html
+          output: web, pdf
+
+        - title: Configure operations
+          url: /enterprise_backend_federation_cfgops.html
+          output: web, pdf
+
+        - title: Remove (break apart) a federation
+          url: /enterprise_backend_federation_remove.html
+          output: web, pdf
 
  
