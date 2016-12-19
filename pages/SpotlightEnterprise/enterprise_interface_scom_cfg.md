@@ -19,6 +19,7 @@ On the Windows server where the SCOM Console is installed:
 2. Create an Environment Variable called sosse_mp_path. Set the Environment Variable value to the directory above. This Environment Variable is required to snooze, unsnooze and acknowledge alarms from the SCOM application.
 
 Open the SCOM Console:
+
 1. Expand **Administration**.
 2. Select **Management Packs**.
 3. Right click **Management Packs** and select to import the Quest.SoSSE.mpb management pack from the directory created above.

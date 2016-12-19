@@ -50,8 +50,8 @@ The severity of the Spotlight alarm.
 #### Details
 The details of the Spotlight alarm.
 
-#### First
-Raised The earliest known time the same Spotlight alarm was raised against the connection (as sourced from the Playback Database).
+#### First Raised
+The earliest known time the same Spotlight alarm was raised against the connection (as sourced from the Playback Database).
 
 #### Last Raised
 The most recent time the same Spotlight alarm was raised against the connection. For an alarm that has been raised repeatedly this could be a more recent time than the time of this alarm.
