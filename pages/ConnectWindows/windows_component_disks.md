@@ -1,5 +1,6 @@
 ---
 title: Disks
+summary: "Shows the following information for the logical disk: Drive letter, Total size of the logical disk, Current space used on the logical disk."
 last_updated: July 29, 2016
 sidebar: c_windows_sidebar
 permalink: windows_component_disks.html
@@ -8,11 +9,6 @@ folder: ConnectWindows
 ---
 
 
-﻿Shows the following information for the logical disk:
-
-* Drive letter.
-* Total size of the logical disk.
-* Current space used on the logical disk.
 
 The disk component "fills up" as the total percentage of used space increases.
 

@@ -1,7 +1,7 @@
 ---
 title: Reads / Writes chart
 last_updated: July 29, 2016
-summary: ""
+summary: "This shows Reads/second and Writes/second for the selected process."
 sidebar: c_windows_sidebar
 permalink: windows_chart_readwrites.html
 id: SoWSubDrillDownProcessCharts.ReadsWritesChart
