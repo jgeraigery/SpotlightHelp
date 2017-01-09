@@ -1,5 +1,5 @@
 ---
-title: Snooze alarms in Spotlight Enterprise
+title: Snooze alarms in the Spotlight Client
 tags: [snooze]
 keywords: alarms, snooze
 summary: "To snooze an alarm is to temporarily remove the visual alert associated with an alarm."

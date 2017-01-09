@@ -27,7 +27,7 @@ For federated Spotlight Diagnostic Server you will be prompted to select the Spo
 
 Select **Enable auto-update facility** and the Spotlight Diagnostic Server will receive minor updates automatically.
 
-If **Enable auto-update facility** is Not Selected then an update to the Spotlight Diagnostic Server will require installation of a new version of Spotlight Enterprise.
+If **Enable auto-update facility** is Not Selected then an update to the Spotlight Diagnostic Server will require installation of a new version of Spotlight on SQL Server Enterprise.
 
 
 {% include links.html %}

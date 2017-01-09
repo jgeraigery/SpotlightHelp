@@ -1,7 +1,7 @@
 ---
 title: Product license
 keywords: license
-summary: "Spotlight Enterprise is supplied with a time-limited trial key so you can test the product. When the trial key expires Spotlight Enterprise reverts to a preview mode with severely limited access. When you enter a valid license key and site message you are licensed to use Spotlight Enterprise."
+summary: "Spotlight on SQL Server Enterprise is supplied with a time-limited trial key so you can test the product. When the trial key expires Spotlight on SQL Server Enterprise reverts to a preview mode with severely limited access. When you enter a valid license key and site message you are licensed to use Spotlight on SQL Server Enterprise."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_license.html
 folder: SpotlightEnterprise
@@ -27,7 +27,7 @@ A purchased commercial license may be applied to a single Spotlight Diagnostic S
 
 ### Authorization string has expired
 
-If you see this message then the trial authorization for Spotlight Enterprise has expired. If the trial date has not passed, check that the date on your system is set correctly.
+If you see this message then the trial authorization for Spotlight on SQL Server Enterprise has expired. If the trial date has not passed, check that the date on your system is set correctly.
 
 ### Invalid authorization string or site message
 

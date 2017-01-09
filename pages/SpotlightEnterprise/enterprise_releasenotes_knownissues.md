@@ -20,8 +20,8 @@ Manual refresh is required on some drilldowns. Right click the data in the grid 
 
 Known Issue | Issue ID
 ------------|---------
-**Installing other Spotlights.** Do not install other Spotlights into the Spotlight on SQL Server folder. You will be unable to run Spotlight Enterprise if you do this. When installing other Spotlights you must install them into a different folder. | N/A
-**Remote installation.** Remote installation of Spotlight Enterprise fails if the user has both a domain account and a local account with the same user name. | N/A
+**Installing other Spotlights.** Do not install other Spotlights into the Spotlight on SQL Server folder. You will be unable to run Spotlight on SQL Server Enterprise if you do this. When installing other Spotlights you must install them into a different folder. | N/A
+**Remote installation.** Remote installation of Spotlight on SQL Server Enterprise fails if the user has both a domain account and a local account with the same user name. | N/A
 
 
 ## known issues with the Spotlight Diagnostic Server
@@ -87,9 +87,9 @@ Known Issue | Issue ID
 **SQL Server 2012 and above** - Spotlight does not support Analysis Services in Tabular and Sharepoint modes. | .
 **Workload Analysis drilldown** - SQL Server 2012 and above - When monitoring a failover cluster the Physical Reads value is 0 / No Data. | 3688
 **SQL Server 2012 and SQL Server 2008 R2** - "Using dbghelp.dll version 4.0.5" entries in the SQL Server Error Log. The source of these entries can be traced back to a known issue (Microsoft) when a statement or job executes the sys.fn_xe_file_target_read_file stored procedure. Refer to http://support.microsoft.com/kb/2878139 <br><br> The Spotlight SQL Server \| Performance Health feature uses XEvents sessions which may execute the sys.fn_xe_file_target_read_file stored procedure. | 2927
-In the SQL Server Error Log, entries "SQL Trace was started" and "SQL Trace was stopped." repeat every 10 minutes while Spotlight is monitoring the connection. These entries are added by Microsoft; Spotlight Enterprise uses SQL Trace to monitor for deadlocks. | 3582
+In the SQL Server Error Log, entries "SQL Trace was started" and "SQL Trace was stopped." repeat every 10 minutes while Spotlight is monitoring the connection. These entries are added by Microsoft; Spotlight on SQL Server Enterprise uses SQL Trace to monitor for deadlocks. | 3582
 **Monitoring SQL Server 2008 RTM.** The Deadlocks page (SQL Activity drilldown) may not show data when monitoring a SQL Server 2008 RTM database. <br><br> *Workaround:* Upgrade to SQL Server 2008 SP1 | 7495
-**Access errors when connecting to SQL Server 2005.** If an access error related to xp_cmdshell occurs and the user changes the SQL Server configuration to allow access to xp_cmdshell, the SQL Server documentation states that you must disconnect and reconnect. To disconnect in Spotlight Enterprise, you must disable monitoring and enable monitoring for that SQL Server. <br><br>In the Spotlight Browser, right-click the SQL Server connection and select Properties. On the Monitoring page, clear the Monitor this server option and click OK. Open the Monitoring page again and select Monitor this server and then click OK. | N/A
+**Access errors when connecting to SQL Server 2005.** If an access error related to xp_cmdshell occurs and the user changes the SQL Server configuration to allow access to xp_cmdshell, the SQL Server documentation states that you must disconnect and reconnect. To disconnect in Spotlight on SQL Server Enterprise, you must disable monitoring and enable monitoring for that SQL Server. <br><br>In the Spotlight Browser, right-click the SQL Server connection and select Properties. On the Monitoring page, clear the Monitor this server option and click OK. Open the Monitoring page again and select Monitor this server and then click OK. | N/A
 **SQL Server 2000** - The display of long SQL queries is truncated when click on the SPID in the SQL Activity \| Sessions drilldown. | 1273
 **Data sourced from SQL Server 2000 performance counters may be incorrect.** Spotlight may display an incorrect size or procedure cache hit rate for SQL Server 2000. This does not apply to SQL Server 2005 or 2008. | 3057
 Unexpected error **"Could not load file or assembly 'System.Cor, Version=2.0.5.0…"** on first time connecting to a SQL Server instance. <br><br> *Solution:* Install the following patch to the .NET framework (http://support.microsoft.com/kb/2468871) | 2764

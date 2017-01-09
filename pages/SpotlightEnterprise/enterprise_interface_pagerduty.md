@@ -59,7 +59,7 @@ In PagerDuty:
 4. Create a PagerDuty service for Spotlight to send alarm notifications to. Select Configuration \| Services.
 5. From the Services page, click Add New Service.
 6. Create a name for the service. Assign an escalation policy. Select Use our API directly. Click Add Service.
-7. On the PagerDuty service page (for Spotlight Enterprise), take note of the Service API Key for later use (in Spotlight Enterprise).
+7. On the PagerDuty service page (for Spotlight on SQL Server Enterprise), take note of the Service API Key for later use (in Spotlight on SQL Server Enterprise).
 
 Use a Spotlight Client to apply these configurations to the Spotlight Diagnostic Server.
 

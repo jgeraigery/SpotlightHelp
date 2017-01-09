@@ -1,7 +1,7 @@
 ---
 title: Licensing
 keywords: release notes
-summary: "Spotlight is supplied with a time-limited trial key so you can test the product. When the trial key expires Spotlight reverts to a preview mode with severely limited access. When you enter a valid license key and site message you are licensed to use Spotlight Enterprise."
+summary: "Spotlight is supplied with a time-limited trial key so you can test the product. When the trial key expires Spotlight reverts to a preview mode with severely limited access. When you enter a valid license key and site message you are licensed to use Spotlight on SQL Server on SQL Server Enterprise."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_licensing.html
 folder: SpotlightEnterprise

@@ -1,5 +1,5 @@
 ---
-title: Spotlight Overview pages in Spotlight Enterprise
+title: Spotlight Overview pages in the Spotlight Client
 tags: [overview_page]
 keywords: overview page, drilldowns
 summary: "A Spotlight overview page captures the performance of a single monitored connection. Flows and components are updated in real time to highlight obvious bottlenecks and problem areas and color coded to indicate when an alarm is raised."

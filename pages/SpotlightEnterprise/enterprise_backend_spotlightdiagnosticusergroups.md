@@ -24,7 +24,7 @@ Members of this group are granted administrator privileges in addition to user p
 
 ### Spotlight Diagnostic Read-Only
 
-Members of this group can view the Spotlight Overview pages, the drilldown pages, the playback data and alarm cases. They cannot make changes to Spotlight's operation. For example, they cannot alter the state of Spotlight Enterprise and Monitored Servers.
+Members of this group can view the Spotlight Overview pages, the drilldown pages, the playback data and alarm cases. They cannot make changes to Spotlight's operation. For example, they cannot alter the state of Spotlight on SQL Server Enterprise and Monitored Servers.
 
 ## Add members, increase / decrease your level of membership
 

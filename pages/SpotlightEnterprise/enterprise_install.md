@@ -1,8 +1,8 @@
 ---
-title: Install Spotlight Enterprise
+title: Install Spotlight on SQL Server Enterprise
 tags: [setup]
 keywords: setup, install
-summary: "A minimal Spotlight Enterprise deployment consists of a Spotlight Diagnostic Server (to collect Spotlight data), a Spotlight Client (to view Spotlight data) and a Playback Database (to store recent history). These components are installed by the Spotlight Enterprise installer."
+summary: "A minimal Spotlight on SQL Server Enterprise deployment consists of a Spotlight Diagnostic Server (to collect Spotlight data), a Spotlight Client (to view Spotlight data) and a Playback Database (to store recent history). These components are installed by the Spotlight on SQL Server Enterprise installer."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_install.html
 folder: SpotlightEnterprise
@@ -20,9 +20,9 @@ In many cases, the Spotlight installer will run at elevated privileges in order 
 ### Multiple users of a system
 If multiple users of a system install Spotlight for use, the additional users must be local administrators.
 
-## Run the Spotlight Enterprise installer
+## Run the Spotlight on SQL Server Enterprise installer
 
-A minimal Spotlight Enterprise deployment consists of a Spotlight Diagnostic Server (to collect Spotlight data), a Spotlight Client (to view Spotlight data) and a Playback Database (to store recent history). These components are installed by the Spotlight Enterprise installer.
+A minimal Spotlight on SQL Server Enterprise deployment consists of a Spotlight Diagnostic Server (to collect Spotlight data), a Spotlight Client (to view Spotlight data) and a Playback Database (to store recent history). These components are installed by the Spotlight on SQL Server Enterprise installer.
 
 ### Welcome and select the type of install
 
@@ -45,7 +45,7 @@ The Spotlight Client will be installed as follows, unless you indicate otherwise
 C:\Program Files (x86)\Quest Software\Spotlight on SQL Server
 ```
 
-Do not install the Spotlight Client in the same location as an existing (but different entity of) Spotlight. If you install a different Spotlight after you have installed Spotlight Enterprise, do not install the new Spotlight in the Spotlight Enterprise directory.
+Do not install the Spotlight Client in the same location as an existing (but different entity of) Spotlight. If you install a different Spotlight after you have installed Spotlight on SQL Server Enterprise, do not install the new Spotlight in the Spotlight on SQL Server Enterprise directory.
 
 ### The Spotlight Diagnostic Server
 
@@ -75,7 +75,7 @@ Add more users to the Spotlight diagnostic user groups if required. Members of t
 
 When **Selected** the Spotlight Diagnostic Server will receive minor updates (scripts and configuration) automatically. Ensure the Spotlight Diagnostic Server can access the Internet.
 
-When **Not Selected** all updates to the Spotlight Diagnostic Server will require a new version and installation of Spotlight Enterprise.
+When **Not Selected** all updates to the Spotlight Diagnostic Server will require a new version and installation of Spotlight on SQL Server Enterprise.
 
 ### The Playback Database
 

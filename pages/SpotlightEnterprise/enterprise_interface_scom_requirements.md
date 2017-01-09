@@ -11,7 +11,7 @@ folder: SpotlightEnterprise
 SCOM (System Center Operations Manager) 2012 and above as deployed in your organization.
 
 ## Spotlight
-Spotlight on SQL Server Enterprise 11 or later.
+Spotlight on SQL Server on SQL Server Enterprise 11 or later.
 
 Spotlight on SQL Server Enterprise 11.1 or later is required to snooze / unsnooze and acknowledge alarms.
 

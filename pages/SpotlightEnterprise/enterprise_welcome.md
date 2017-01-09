@@ -45,12 +45,12 @@ Spotlight displays a visual representation of the status of the databases in you
 
 
 <div class="row">
-        <h2 class="page-header">Spotlight Enterprise Deployment</h2>
+        <h2 class="page-header">Spotlight on SQL Server Enterprise Deployment</h2>
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
                 <div class="panel-body">
                     <h4>Install</h4>
-                    <p>Install Spotlight Enterprise</p>
+                    <p>Install Spotlight on SQL Server Enterprise</p>
                     <a href="enterprise_install.html" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
