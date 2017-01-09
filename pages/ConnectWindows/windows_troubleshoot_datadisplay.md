@@ -1,7 +1,7 @@
 ---
 title: Data display and collection problems
 last_updated: July 29, 2016
-summary: "Known issues with the display and collection of data on the SQL Server Overview page or its drilldowns."
+summary: "Known issues with the display and collection of data on the Overview page or its drilldowns."
 sidebar: c_windows_sidebar
 permalink: windows_troubleshoot_datadisplay.html
 folder: ConnectWindows
