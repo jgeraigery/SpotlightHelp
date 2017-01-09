@@ -14,7 +14,7 @@ folder: SpotlightEnterprise
 4. Click **Remove**.
 5. Confirm your request to remove the Spotlight Diagnostic Server from the federation.
 
-{% include imageClient.html file="figure_federation_Remove-DS-from-Federation.tif" alt="Remove a Spotlight Diagnostic Server from the federation" %}
+{% include imageClient.html file="figure_federation_Remove-DS-from-Federation.png" alt="Remove a Spotlight Diagnostic Server from the federation" %}
 
 ## The federation now the Spotlight Diagnostic Server has been removed
 

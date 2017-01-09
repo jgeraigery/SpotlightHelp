@@ -13,6 +13,8 @@ More than one Spotlight Diagnostic Server may be required when:
 
 Multiple Spotlight Diagnostic Server are deployed separately or as a federation.
 
+{% include inline_imageClient.html file="figure_federation_deployment-Project-0A-and-0B.png" %}
+{% include inline_imageClient.html file="figure_federation_Federation-of-DS.png" %}
 
 ## Separate Spotlight deployments
 
@@ -21,9 +23,6 @@ A Spotlight Client monitors connections from one Spotlight Diagnostic Server at 
 ## Federation
 
 A Spotlight Client monitors connections from all Spotlight Diagnostic Server in the federation. Spotlight Clients in the federation share the same custom views, templates, alarm actions and list of planned outages.
-
-
-For more information, refer to the Spotlight Enterprise Federation Guide.
 
 
 {% include links.html %}
