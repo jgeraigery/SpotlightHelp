@@ -12,7 +12,7 @@ entries:
     - title: SQL Optimizer
       url: /dev_welcome.html
       output: web
-    - title: Spotlight on SQL Server Enterprise
+    - title: Spotlight Enterprise
       url: /enterprise_welcome.html
       output: web
     - title: Spotlight Mobile
