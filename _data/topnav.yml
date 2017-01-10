@@ -14,7 +14,7 @@ topnav_dropdowns:
           url: /cloud_welcome.html
         - title: SQL Optimizer
           url: /dev_welcome.html
-        - title: Spotlight on SQL Server Enterprise
+        - title: Spotlight Enterprise
           url: /enterprise_welcome.html
         - title: Spotlight Mobile
           url: /mobile_welcome.html
