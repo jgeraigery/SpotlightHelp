@@ -8,11 +8,11 @@ folder: SpotlightEnterprise
 
 ## Installation
 
-The Spotlight Diagnostic Server is a Windows service. For specifications see the Spotlight Enterprise Release Notes.
+The Spotlight Diagnostic Server is a Windows service. For specifications see the [Release Notes][enterprise_releasenotes_systemrequirements].
 
-The Spotlight Diagnostic Server is installed by the Spotlight installer.
+The Spotlight Diagnostic Server is installed by the [Spotlight installer][enterprise_install].
 
-Most deployments of Spotlight have one Spotlight Diagnostic Server, however a deployment may consist of multiple Spotlight Diagnostic Server or a federation of Spotlight Diagnostic Server if the organization requires Spotlight to monitor more connections than a single Spotlight Diagnostic Server allows or the organization has setup geographic hubs.
+Most deployments of Spotlight have one Spotlight Diagnostic Server, however a deployment may consist of multiple Spotlight Diagnostic Server or a federation of Spotlight Diagnostic Server if the organization requires Spotlight to monitor more connections than a single Spotlight Diagnostic Server allows or the organization has setup geographic hubs. See [Federation of Spotlight Diagnostic Server][enterprise_backend_federation]
 
 ## Deployment
 
@@ -29,7 +29,6 @@ Recent historical data is stored in the playback database. Each Spotlight Diagno
 Enabling of the Spotlight Statistics Repository is optional. Many Spotlight Diagnostic Server can connect to the same Spotlight Statistics Repository.
 
 ### Monitored connections in the deployment
-
 
 The Spotlight Diagnostic Server collects data from SQL Server, Windows and other supported connection types monitored by Spotlight.
 

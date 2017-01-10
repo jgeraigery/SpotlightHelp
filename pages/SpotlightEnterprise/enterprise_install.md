@@ -2,11 +2,42 @@
 title: Install Spotlight Enterprise
 tags: [setup]
 keywords: setup, install
-summary: "A minimal Spotlight Enterprise deployment consists of a Spotlight Diagnostic Server (to collect Spotlight data), a Spotlight Client (to view Spotlight data) and a Playback Database (to store recent history). These components are installed by the Spotlight Enterprise installer."
+summary: "The Spotlight Enterprise installer installs a Spotlight Diagnostic Server (to collect Spotlight data), a Spotlight Client (to view Spotlight data) and a Playback Database (to store recent history). This is a minimal Spotlight Enterprise deployment. The Spotlight Enterprise installer can be used to install additional Spotlight Clients following the initial install. The Spotlight Diagnostic Server can be installed remotely."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_install.html
 folder: SpotlightEnterprise
 ---
+
+
+## The size and shape of the deployment
+
+In a small deployment the Spotlight Diagnostic Server, Spotlight Client and Playback Database can all be installed on the same host, however they don't have to be.
+
+Many Spotlight Clients can connect to one Spotlight Diagnostic Server.
+
+Where a Spotlight Diagnostic Server has access to the Internet, connections can additionally be monitored from a web browser or a mobile device.
+
+The Playback Database can be installed on the same host as the Spotlight Diagnostic Server, dependent on the number of SQL Server instances to be monitored.
+
+Where there are a large number of connections to be monitored or those connections are geographically widespread it may be appropriate to deploy multiple Spotlight Diagnostic Server where many Spotlight Clients monitor many connections through many Spotlight Diagnostic Server.
+
+Once Spotlight is installed you may choose to collect and store data for reporting and trending. This data is stored in a Spotlight Statistics Repository. Many Spotlight Diagnostic Server can write to the same Spotlight Statistics Repository.
+
+Spotlight Clients, Spotlight Diagnostic Server, Playback Database, Spotlight Statistics Repository and monitored connections communicate over a Windows network. Appropriate permissions ensure communications flow.
+
+For more information on these considerations see [Backend Deployment][enterprise_backend].
+
+### Factor in how many SQL Server instances you intend to monitor
+
+#### 1 - 25 SQL Server instances
+The Spotlight Diagnostic Server, Playback Database (and later the Spotlight Statistics Repository) can all be installed on the same host, as long as that host meets the minimum hardware requirements listed in the [release notes][enterprise_releasenotes_systemrequirements].
+
+#### More than 25 SQL Server instances
+It is recommended that the Playback Database (and later the Spotlight Statistics Repository) be hosted on a different server than the Spotlight Diagnostic Server host. The host for the Playback Database and Spotlight Statistics Repository should be configured with an appropriate amount of I/O bandwidth to meet demand. If your environment uses a storage area network (SAN) it may be possible to install the Spotlight Statistics Repository and the Playback Database on the same host.
+
+#### Lots of SQL Server instances
+Consider a deployment of more than one Spotlight Diagnostic Server. A single Spotlight Diagnostic Server is designed to monitor a maximum of 100 SQL Servers, Analysis Services or Replication instances and 100 Windows servers. Exceeding this recommended limit on 32 bit environments may result in poor performance or product instability, due to the 1 Gb memory limit. On 64 bit environments theoretically more connections can be monitored as the 1 Gb limit no longer applies, however testing of this has been limited. For more information on deployments with more than one Spotlight Diagnostic Server, see the [Federation][enterprise_backend_federation] page.
+
 
 
 ## Permissions required during installation
@@ -22,7 +53,7 @@ If multiple users of a system install Spotlight for use, the additional users mu
 
 ## Run the Spotlight Enterprise installer
 
-A minimal Spotlight Enterprise deployment consists of a Spotlight Diagnostic Server (to collect Spotlight data), a Spotlight Client (to view Spotlight data) and a Playback Database (to store recent history). These components are installed by the Spotlight Enterprise installer.
+During installation you will be prompted to supply details for the Spotlight Diagnostic Server (to collect Spotlight data), Spotlight Client (to view Spotlight data) and Playback Database (to store recent history).
 
 ### Welcome and select the type of install
 
