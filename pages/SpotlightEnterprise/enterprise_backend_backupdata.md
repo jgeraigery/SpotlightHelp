@@ -29,6 +29,6 @@ The Playback Database is deployed on SQL Server. The backup procedure for the Pl
 
 The Spotlight Statistics Repository is deployed on SQL Server. The backup procedure for the Spotlight Statistics Repository is the same as for any other SQL Server database.
 
-{% include note.html content="Creation and use of the Spotlight Statistics Repository is optional in a Spotlight on SQL Server Enterprise deployment." %}
+{% include note.html content="Creation and use of the Spotlight Statistics Repository is optional in a Spotlight Enterprise deployment." %}
 
 {% include links.html %}

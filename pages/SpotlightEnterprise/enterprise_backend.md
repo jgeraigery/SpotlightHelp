@@ -9,11 +9,11 @@ folder: SpotlightEnterprise
 
 ## Data Collection and Storage
 
-A minimal Spotlight on SQL Server Enterprise deployment consists of a Spotlight Diagnostic Server (to collect Spotlight data), a Spotlight Client (to view Spotlight data) and a Playback Database (to store recent history). These components are installed by the Spotlight on SQL Server Enterprise installer. Following installation you may choose to expand your deployment. Following are all the components of Spotlight on SQL Server Enterprise that collect and store data.
+A minimal Spotlight Enterprise deployment consists of a Spotlight Diagnostic Server (to collect Spotlight data), a Spotlight Client (to view Spotlight data) and a Playback Database (to store recent history). These components are installed by the Spotlight Enterprise installer. Following installation you may choose to expand your deployment. Following are all the components of Spotlight Enterprise that collect and store data.
 
 ### Spotlight Diagnostic Server
 
-The Spotlight Diagnostic Server is at the core of the Spotlight on SQL Server Enterprise architecture. All Spotlight data passes through the Spotlight Diagnostic Server. The Spotlight Diagnostic Server is a Windows service. It runs under Windows credentials.
+The Spotlight Diagnostic Server is at the core of the Spotlight Enterprise architecture. All Spotlight data passes through the Spotlight Diagnostic Server. The Spotlight Diagnostic Server is a Windows service. It runs under Windows credentials.
 
 ### Playback Database
 
@@ -30,7 +30,7 @@ Upload health performance data to the Spotlight Cloud. Deployment of the Spotlig
 
 ## Deployment over the Windows network
 
-A Spotlight on SQL Server Enterprise deployment consists of many components that may be spread over a wide network.
+A Spotlight Enterprise deployment consists of many components that may be spread over a wide network.
 
 ### Network ports
 

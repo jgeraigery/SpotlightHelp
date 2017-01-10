@@ -1,5 +1,5 @@
 ---
-title: Diagnose alarms in the Spotlight Client
+title: Diagnose alarms in Spotlight Enterprise
 keywords: alarms
 summary: "Show performance statistics (grids and charts) related to the raised alarm."
 sidebar: p_enterprise_sidebar

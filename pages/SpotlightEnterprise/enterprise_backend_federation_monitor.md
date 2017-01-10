@@ -11,7 +11,7 @@ Any monitored connection in the federation can be added to any custom view. All 
 
 When a Spotlight Diagnostic Server joins a federation then the custom views from that Spotlight Diagnostic Server will be seen by all Spotlight Clients in the federation. Any two custom views with the same name will be merged into one view.
 
-{% include note.html content="Spotlight on SQL Server Enterprise Views from all Spotlight Diagnostic Server in the federation will also be seen by all Spotlight Clients in the federation. If there are two Enterprise Views with the same name, the Enterprise View from the Configuration server will override the local Enterprise View. Note that Spotlight is deprecating Enterprise Views. We recommend taking advantage of the new Custom Views to monitor your SQL Server instances in groups." %}
+{% include note.html content="Spotlight Enterprise Views from all Spotlight Diagnostic Server in the federation will also be seen by all Spotlight Clients in the federation. If there are two Enterprise Views with the same name, the Enterprise View from the Configuration server will override the local Enterprise View. Note that Spotlight is deprecating Enterprise Views. We recommend taking advantage of the new Custom Views to monitor your SQL Server instances in groups." %}
 
 ## Configure monitoring
 Configure monitoring of Spotlight connections from any Spotlight Client in the federation.

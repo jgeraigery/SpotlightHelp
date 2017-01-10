@@ -1,8 +1,8 @@
 ---
-title: Upgrade Spotlight on SQL Server Enterprise
+title: Upgrade Spotlight Enterprise
 tags: [setup]
 keywords: setup, install
-summary: "Upgrade Spotlight on SQL Server Enterprise using the Spotlight on SQL Server Enterprise installer."
+summary: "Upgrade Spotlight Enterprise using the Spotlight Enterprise installer."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_upgrade.html
 folder: SpotlightEnterprise
@@ -13,8 +13,8 @@ folder: SpotlightEnterprise
 ## Backup first
 [Backup all Spotlight configuration and saved collection data][enterprise_backend_backupdata].
 
-## Run the Spotlight on SQL Server Enterprise executable on each Spotlight Client
-If your enterprise has multiple Spotlight Clients then ensure all Spotlight Clients are included in the upgrade process. If the Spotlight Client and Spotlight Diagnostic Server are running different versions of Spotlight on SQL Server Enterprise, the client will be unable to connect to the Spotlight Diagnostic Server.
+## Run the Spotlight Enterprise executable on each Spotlight Client
+If your enterprise has multiple Spotlight Clients then ensure all Spotlight Clients are included in the upgrade process. If the Spotlight Client and Spotlight Diagnostic Server are running different versions of Spotlight Enterprise, the client will be unable to connect to the Spotlight Diagnostic Server.
 
 ## Upgrade the Playback Database and Spotlight Statistics Repository
 Following upgrade of the Spotlight Diagnostic Server, the Playback Database and Spotlight Statistics Repository are automatically upgraded the next time they are accessed by the Spotlight Diagnostic Server.

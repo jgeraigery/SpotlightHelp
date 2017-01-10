@@ -1,8 +1,8 @@
 ---
-title: Uninstall Spotlight on SQL Server Enterprise
+title: Uninstall Spotlight Enterprise
 tags: [setup]
 keywords: setup, install
-summary: "Follow these steps to uninstall Spotlight on SQL Server Enterprise. Multiple Spotlight Clients and servers may be involved."
+summary: "Follow these steps to uninstall Spotlight Enterprise. Multiple Spotlight Clients and servers may be involved."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_uninstall.html
 folder: SpotlightEnterprise
@@ -35,6 +35,6 @@ Repeat for each Windows server on which a Spotlight Client is installed:
 {% include tip.html content="Uninstall the Spotlight Diagnostic Server before you uninstall all Spotlight clients." %}
 
 ## 4. Delete the Playback Database and Spotlight Statistics Repository
-The Playback Database and Spotlight Statistics Repository are not removed when Spotlight on SQL Server Enterprise is uninstalled. You may delete them independently. You may use the Playback Database again with another Spotlight on SQL Server Enterprise installation.
+The Playback Database and Spotlight Statistics Repository are not removed when Spotlight Enterprise is uninstalled. You may delete them independently. You may use the Playback Database again with another Spotlight Enterprise installation.
 
 {% include links.html %}

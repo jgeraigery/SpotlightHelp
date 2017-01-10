@@ -11,7 +11,7 @@ folder: SpotlightEnterprise
 
 ## PagerDuty and Spotlight
 
-Prior to following these instructions ensure you have your PagerDuty API Access Key and Service API key. The instructions in the Spotlight on SQL Server Enterprise Integration Guide on the PagerDuty web site provide you with the necessary steps: www.pagerduty.com/docs. PagerDuty is a third party product (www.pagerduty.com).
+Prior to following these instructions ensure you have your PagerDuty API Access Key and Service API key. The instructions in the Spotlight Enterprise Integration Guide on the PagerDuty web site provide you with the necessary steps: www.pagerduty.com/docs. PagerDuty is a third party product (www.pagerduty.com).
 
 The Spotlight Diagnostic Server requires Internet access in order to fulfill on **Configure \| Alarm Actions \| Alarm Action \| Send PagerDuty incident**.
 

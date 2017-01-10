@@ -12,7 +12,7 @@ folder: SpotlightEnterprise
 
 ## Possible applications for tags
 
-Tags are a way for you to group your connections in a way that is meaningful to you, independent of the connection name and connection type. Here are some possible applications for tags in Spotlight on SQL Server Enterprise.
+Tags are a way for you to group your connections in a way that is meaningful to you, independent of the connection name and connection type. Here are some possible applications for tags in Spotlight Enterprise.
 
 
 ### Select Connections dialog

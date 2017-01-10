@@ -10,7 +10,7 @@ folder: SpotlightEnterprise
 
 The Spotlight Statistics Repository is deployed on SQL Server.
 
-The Spotlight Statistics Repository is not created during the installation of Spotlight on SQL Server Enterprise. The Spotlight Statistics Repository is (optionally) enabled in the Spotlight Client for the Spotlight Diagnostic Server following installation of Spotlight.
+The Spotlight Statistics Repository is not created during the installation of Spotlight Enterprise. The Spotlight Statistics Repository is (optionally) enabled in the Spotlight Client for the Spotlight Diagnostic Server following installation of Spotlight.
 
  Many Spotlight Diagnostic Server can connect to one Spotlight Statistics Repository.
 
@@ -23,7 +23,7 @@ limiting the number of collections archived, reducing how often data is collecte
 
 ## Use
 
-The [reports][enterprise_display_reports] use the data collected in the Spotlight Statistics Repository. Reports are used for long term statistical analysis and planning. Use the reports shipped with Spotlight on SQL Server Enterprise or create your own reports by querying the data from the Spotlight Statistics Repository yourself.
+The [reports][enterprise_display_reports] use the data collected in the Spotlight Statistics Repository. Reports are used for long term statistical analysis and planning. Use the reports shipped with Spotlight Enterprise or create your own reports by querying the data from the Spotlight Statistics Repository yourself.
 
 ## Maintenance
 

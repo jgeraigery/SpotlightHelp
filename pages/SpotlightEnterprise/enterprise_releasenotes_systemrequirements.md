@@ -1,7 +1,7 @@
 ---
 title: System Requirements
 keywords: release notes
-summary: "Before installing Spotlight on SQL Server Enterprise, ensure that your system meets the following minimum hardware and software requirements."
+summary: "Before installing Spotlight Enterprise, ensure that your system meets the following minimum hardware and software requirements."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_systemrequirements.html
 folder: SpotlightEnterprise
@@ -94,7 +94,7 @@ If the Diagnostic Server’s connection to the Spotlight Statistics Repository o
 
 ### Virtualized Environments
 
-We support deploying Spotlight on SQL Server Entrprise in a virtualized environment.
+We support deploying Spotlight Entrprise in a virtualized environment.
 
 ### Additional requirements
 
@@ -115,12 +115,13 @@ A single Spotlight Diagnostic Server is designed to monitor a maximum of 100 SQL
 
 
 ## Monitoring
-Spotlight on SQL Server Enterprise is able to monitor the following connections
+Spotlight Enterprise is able to monitor the following connections
 
 ### Databases
 Spotlight can be used to monitor:
 
 * [SQL Server][sqlserver_connect_requirements]
+* [Oracle][oracle_connect_requirements]
 
 ### Database Cloud Service
 Spotlight can be used to monitor SQL Azure.
@@ -129,7 +130,7 @@ Spotlight can be used to monitor SQL Azure.
 Spotlight can be used to monitor:
 
 * [Microsoft Windows][windows_connect_requirements]
-* [Linux][linux_connect_requirements]
+* [Unix][unix_connect_requirements]
 
 ### Virtualization
 Spotlight can monitor virtual environments and virtual guest machines in a virtual environment.

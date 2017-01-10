@@ -1,7 +1,7 @@
 ---
-title: Spotlight® on SQL Server Enterprise 12.0 Release Notes
+title: Spotlight™ Enterprise 12.0 Release Notes
 keywords: release notes
-summary: "These release notes provide information about the Spotlight on SQL Server Enterprise release."
+summary: "These release notes provide information about the Spotlight Enterprise release."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes.html
 folder: SpotlightEnterprise
@@ -9,7 +9,7 @@ folder: SpotlightEnterprise
 
 
 ## About this release
-Spotlight on SQL Server Enterprise is a powerful database diagnostic and resolution tool. Its unique user interface provides you with an intuitive, visual representation of the activity on a SQL server and other connections. Graphical flows illustrate the rate at which data is moving between server components. Icons display the value of key statistics and alarms. Alarms inform you of bottlenecks and other potential problems. Drilldowns show detailed information on all parts of your monitored connections.
+Spotlight Enterprise is a powerful database diagnostic and resolution tool. Its unique user interface provides you with an intuitive, visual representation of the activity on a SQL server and other connections. Graphical flows illustrate the rate at which data is moving between server components. Icons display the value of key statistics and alarms. Alarms inform you of bottlenecks and other potential problems. Drilldowns show detailed information on all parts of your monitored connections.
 
 With Spotlight, diagnostic data can be collected continuously, even when Spotlight is not open on the desktop. A Diagnostic Server can perform data collection continuously from a middleware machine, ready for Spotlight to display whenever Spotlight is started on any client interface.
 
