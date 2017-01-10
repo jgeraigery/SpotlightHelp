@@ -6,6 +6,8 @@ permalink: enterprise_backend_federation_cfgops.html
 folder: SpotlightEnterprise
 ---
 
+## Use a Spotlight Client to configure operations
+
 Any Spotlight Client in the federation can configure the operations of any Spotlight Diagnostic Server in the federation.
 
 1. Open the Spotlight Client.

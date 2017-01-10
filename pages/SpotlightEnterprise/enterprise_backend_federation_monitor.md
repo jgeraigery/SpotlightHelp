@@ -18,7 +18,7 @@ Configure monitoring of Spotlight connections from any Spotlight Client in the f
 
 Icon | Ribbon Select | Description
 -----|---------------|------------
-{% include inline_imageClient.html file="tb_config_connections.png" alt="Connections" %} | Connections | Manage the connections monitored by Spotlight. For more information, see Add connections to the federation on page 9.
+{% include inline_imageClient.html file="tb_config_connections.png" alt="Connections" %} | Connections | Manage the connections monitored by Spotlight. 
 {% include inline_imageClient.html file="tb_config_alarms.png" alt="Alarms" %} | Alarms | Set the thresholds and severities that determine when an alarm is raised. Select any template or monitored connection in the federation to configure.
 {% include inline_imageClient.html file="tb_config_alarmactions.png" alt="Alarm Actions" %} | Alarm Actions | Set actions for Spotlight to take when an alarm is raised. Alarm Action Rules may be specific to one Spotlight Diagnostic Server or applied to all Spotlight Diagnostic Server in the federation.
 {% include inline_imageClient.html file="tb_config_scheduling.png" alt="Scheduling" %} | Scheduling | Spotlight collects data according to these set schedules. Select any template or monitored connection in the federation to configure.
