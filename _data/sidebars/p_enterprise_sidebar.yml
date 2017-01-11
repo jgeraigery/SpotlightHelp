@@ -727,10 +727,6 @@ entries:
           url: /enterprise_backend_ds_javakeystore.html
           output: web, pdf
 
-        - title: Deployment of federated Spotlight Diagnostic Server
-          url: /enterprise_backend_ds_federated.html
-          output: web, pdf
-
     - title: Playback Database
       url: /enterprise_backend_playback.html
       output: web, pdf
@@ -789,7 +785,6 @@ entries:
           url: /enterprise_backend_wmilimitports.html
           output: web, pdf
 
-      subfolders:
       - title: Federation
         output: web
         subfolderitems:

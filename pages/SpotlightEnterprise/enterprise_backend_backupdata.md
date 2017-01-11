@@ -11,7 +11,7 @@ folder: SpotlightEnterprise
 
 ## Spotlight Diagnostic Server
 
-To backup the Spotlight Diagnostic Server, back up the Diagnostic Server\Agent folder.
+To backup the Spotlight Diagnostic Server, back up the **Diagnostic Server\Agent** folder.
 
 ```
 C:\Program Files\Quest Software\Diagnostic Server\Agent

@@ -12,8 +12,6 @@ The Spotlight Diagnostic Server is a Windows service. For specifications see the
 
 The Spotlight Diagnostic Server is installed by the [Spotlight installer][enterprise_install].
 
-Most deployments of Spotlight have one Spotlight Diagnostic Server, however a deployment may consist of multiple Spotlight Diagnostic Server or a federation of Spotlight Diagnostic Server if the organization requires Spotlight to monitor more connections than a single Spotlight Diagnostic Server allows or the organization has setup geographic hubs. See [Federation of Spotlight Diagnostic Server][enterprise_backend_federation]
-
 ## Deployment
 
 ### View data and configure Spotlight
@@ -42,10 +40,13 @@ A Spotlight Enterprise deployment consists of many components that may be spread
 
 The Spotlight Diagnostic Server requires access to the Internet when enabling Auto Update or Spotlight Cloud services.
 
-
 ### Account permissions
 
 The Windows account that the Spotlight Diagnostic Server runs under could be a domain user account or the local system account. These credentials can be used to authenticate Spotlight connections to monitor SQL Server instances and Windows Server, and to connect the Spotlight Diagnostic Server to the Playback Database and Spotlight Statistics Repository.
+
+### Federation
+
+Most deployments of Spotlight have one Spotlight Diagnostic Server, however a deployment may consist of multiple Spotlight Diagnostic Server or a federation of Spotlight Diagnostic Server if the organization requires Spotlight to monitor more connections than a single Spotlight Diagnostic Server allows or the organization has setup geographic hubs. See [Federation of Spotlight Diagnostic Server][enterprise_backend_federation]
 
 
 ## Maintenance

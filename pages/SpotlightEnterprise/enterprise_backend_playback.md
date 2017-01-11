@@ -10,7 +10,7 @@ folder: SpotlightEnterprise
 
 The Playback Database is deployed on SQL Server.
 
-The Playback Database is created by the Spotlight installer.
+The Playback Database is created by the [Spotlight installer][enterprise_install].
 
 There is one Playback Database per Spotlight Diagnostic Server.
 
@@ -18,7 +18,7 @@ There is one Playback Database per Spotlight Diagnostic Server.
 
 Use a Spotlight Client to [Configure the Playback Database][enterprise_cfgds_playbackdatabase].
 
-Use a Spotlight Client to configure Spotlight's data collection schedules. How often is data collected? On what day? At what time? [Configure Scheduling][enterprise_cfgmonitor_scheduling]
+Use a Spotlight Client to configure Spotlight's data collection schedules. How often is data collected? On what day? At what time? See [Configure Scheduling][enterprise_cfgmonitor_scheduling].
 
 ## Use
 
@@ -28,7 +28,7 @@ See how to use the data collected in the Playback Database. [Playback][enterpris
 
 ### Backup Spotlight data
 
-The Playback Database is deployed on SQL Server. The backup procedure is the same as for any other SQL Server database.
+The Playback Database is deployed on SQL Server. The backup procedure is the same as for any other SQL Server database. See [Backup Spotlight Data][enterprise_backend_backupdata].
 
 ### Maintenance plan for Spotlight Statistics Repository and Playback Database
 

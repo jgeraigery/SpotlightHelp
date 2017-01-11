@@ -11,10 +11,10 @@ folder: SpotlightEnterprise
 
 ## Configuration
 
-Initially, Spotlight does not collect and upload health performance data to the cloud. Uploading of data into the cloud is (optionally) enabled in the Spotlight Client for the  Spotlight Diagnostic Server following installation of Spotlight. Use the Spotlight Client to [Confiure uploading to the Spotlight Cloud][enterprise_cfgds_spotlightcloud].
+The Spotlight Diagnostic Server must be configured to allow upload of data to the Spotlight Cloud. Use the Spotlight Client to [Confiure uploading to the Spotlight Cloud][enterprise_cfgds_spotlightcloud].
 
 ## Use
 
-To retrieve the analysis of this data, use a web browser to sign in with your Spotlight Cloud credentials to www.spotlightessentials.com
+To retrieve the analysis of this data, use a web browser to sign in with your Spotlight Cloud credentials to [www.spotlightessentials.com](www.spotlightessentials.com).
 
 {% include links.html %}

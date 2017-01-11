@@ -10,17 +10,17 @@ After successfully changing the password, you can use the Java keytool (Agent\bi
 
 To set the KeyStore password:
 
-1. Stop the Spotlight Diagnostic Server service. For more information, see Start and stop the Spotlight Diagnostic Server.
-2. From the Spotlight Diagnostic Server install folder, navigate to folder Agent\bin\
+1. [Stop the Spotlight Diagnostic Server service.][enterprise_backend_ds_startstop]
+2. From the Spotlight Diagnostic Server install folder, navigate to folder **Agent\bin\**
 3. Open a cmd shell as the Administrator.
-4. Execute command DSKeyToolCLI -storepasswd
+4. Execute command **DSKeyToolCLI -storepasswd**
 5. Enter a new password of at least 6 characters.
-6. Restart the Spotlight Diagnostic Server service. For more information, see Start and stop the Spotlight Diagnostic Server.
+6. [Restart the Spotlight Diagnostic Server service.][enterprise_backend_ds_startstop]
 
 Verify that Alarm Actions and Planned Outages are working as expected.
 
-Verify that a keystore password entry can be found in the Spotlight Diagnostic Server install folder conf\Service\WebServic.xml
+Verify that a keystore password entry can be found in the Spotlight Diagnostic Server install folder **conf\Service\WebServic.xml**
 
-For more information, see http://docs.oracle.com/javase/8/docs/technotes/tools/windows/keytool.html.
+For more information, see [http://docs.oracle.com/javase/8/docs/technotes/tools/windows/keytool.html](http://docs.oracle.com/javase/8/docs/technotes/tools/windows/keytool.html).
 
 {% include links.html %}

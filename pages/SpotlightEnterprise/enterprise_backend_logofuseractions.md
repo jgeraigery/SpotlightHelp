@@ -133,13 +133,17 @@ The log records when an alarm is ignored.
 
 The log records when a user kills a session from the Spotlight Client. That is command **Sessions \| Kill Session**.
 
+{% include imageClient.html file="tb_drilldown_session_kill.png" alt="Kill Session" %}
+
 ### Databases drilldown
 
 The log records when a user runs the Update Statistics command on selected indexes from the Spotlight Client. This command is run from the Indexes page of the Databases drilldown.
 
 ### Support Services drilldown
 
-The log records when a user starts a SQL agent job from the Spotlight Client. That is command SQL Agent Jobs \| Start Job.
+The log records when a user starts a SQL agent job from the Spotlight Client. That is command **SQL Agent Jobs \| Start Job**.
+
+{% include imageClient.html file="tb_action_startjobl.png" alt="Start Job" %}
 
 The log records when a user changes the running state (Start / Stop) of a service from the Spotlight Client. This change is actioned from the Service Status page of the Support services drilldown.
 
@@ -155,7 +159,9 @@ The log records when a user changes a configuration parameter from the Spotlight
 
 ### Error Log drilldown
 
-The log records when a user archives the current error log file and opens a new log file from the Spotlight Client. That is command Cycle Error log.
+The log records when a user archives the current error log file and opens a new log file from the Spotlight Client. That is command **Cycle Error log**.
+
+{% include imageClient.html file="tb_drilldown_errorlog_cycle.png" alt="Cycle Error log" %}
 
 
 ## Changes to monitored Windows Server

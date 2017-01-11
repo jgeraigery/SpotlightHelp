@@ -8,7 +8,7 @@ folder: SpotlightEnterprise
 
 ## Installation
 
-The Spotlight Client is installed by the Spotlight installer. The Spotlight Client is installed on a Windows server. The Spotlight Client can be installed on the same Windows server as the Spotlight Diagnostic Server but does not have to be.
+The Spotlight Client is installed by the [Spotlight Enterprise installer][enterprise_install]. The Spotlight Client is installed on a Windows server. The Spotlight Client can be installed on the same Windows server as the Spotlight Diagnostic Server but does not have to be.
 
 ## Deployment
 
@@ -18,23 +18,20 @@ The Spotlight Client connects to a single Spotlight Diagnostic Server or a feder
 
 ### Spotlight Cloud
 
-Use the Spotlight Client to Configure uploading to Spotlight Cloud.
+Use the Spotlight Client to [Configure uploading to Spotlight Cloud][enterprise_cfgds_spotlightcloud].
 
 In a federation of Spotlight Diagnostic Server each Spotlight Diagnostic Server is independently configured for Spotlight Cloud.
 
 ### Playback Database
 
-Use the Spotlight Client to configure the Playback Database.
+Use the Spotlight Client to [configure the Playback Database][enterprise_cfgds_playbackdatabase].
 
 In a federation of Spotlight Diagnostic Server each Spotlight Diagnostic Server connects to its own Playback Database.
 
 ### Spotlight Statistics Repository
 
-Use the Spotlight Client to enable and configure the Spotlight Statistics Repository and generate reports.
+Use the Spotlight Client to enable and [configure the Spotlight Statistics Repository][enterprise_cfgds_ssr] and generate reports.
 
-In a federation of Spotlight Diagnostic Server each Spotlight Statistics Repository is independently configured in relation to the Spotlight Diagnostic Server.
-
-Spotlight Client is a comprehensive viewer to Spotlight data. The Spotlight Client is required to configure Spotlight and access Reporting and Trending data.
 
 ### Monitored connections in the deployment
 
@@ -42,8 +39,6 @@ Use the Spotlight Client to manage the connections monitored by Spotlight.
 
 
 ## Troubleshooting
-
-All data to / from the Spotlight Client passes through the Spotlight Diagnostic Server. Verify the Spotlight Client can connect to the Spotlight Diagnostic Server.
 
 ### Permissions for the Spotlight Client
 

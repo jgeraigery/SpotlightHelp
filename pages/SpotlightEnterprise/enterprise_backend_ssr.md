@@ -18,8 +18,7 @@ The Spotlight Statistics Repository is not created during the installation of Sp
 
 Use a Spotlight Client to enable, create and [Configure the Spotlight Statistics Repository][enterprise_cfgds_ssr].
 
-Configure the reporting schedules that determine how often data is collected for the Spotlight Statistics Repository. You can reduce the size of the repository by
-limiting the number of collections archived, reducing how often data is collected and reducing the data retention period. [Configure Scheduling][enterprise_cfgmonitor_scheduling]
+Configure the reporting schedules that determine how often data is collected for the Spotlight Statistics Repository. You can reduce the size of the repository by limiting the number of collections archived, reducing how often data is collected and reducing the data retention period. [Configure Scheduling][enterprise_cfgmonitor_scheduling]
 
 ## Use
 
@@ -29,7 +28,7 @@ The [reports][enterprise_display_reports] use the data collected in the Spotligh
 
 ### Backup Spotlight data
 
-The Spotlight Statistics Repository is deployed on SQL Server. The backup procedure is the same as for any other SQL Server database.
+The Spotlight Statistics Repository is deployed on SQL Server. The backup procedure is the same as for any other SQL Server database. See [Backup Spotlight Data][enterprise_backend_backupdata].
 
 ### Maintenance plan for Spotlight Statistics Repository and Playback Database
 

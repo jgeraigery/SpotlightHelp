@@ -12,7 +12,7 @@ folder: SpotlightEnterprise
 
 Using a web browser
 
-1. Open [www.spotlightessentials.com](www.spotlightessentials.com)
+1. Open [www.spotlightessentials.com](http://www.spotlightessentials.com)
 2. Sign in to the web site with your Spotlight Cloud credentials
 
 ## Before you can monitor Spotlight connections from the Spotlight web site
@@ -23,7 +23,7 @@ See also [Spotlight Services requiring Internet Access][enterprise_backend_ds_in
 
 ### The Spotlight Diagnostic Server must be configured to upload data to the Spotlight Cloud
 
-1. Create a Spotlight Cloud (Spotlight Essentials) account if you do not already have one. Do this at [www.spotlightessentials.com](www.spotlightessentials.com).
+1. Create a Spotlight Cloud (Spotlight Essentials) account if you do not already have one. Do this at [www.spotlightessentials.com](http://www.spotlightessentials.com).
 2. Use a Spotlight Client to [Configure uploading to the Spotlight Cloud][enterprise_cfgds_spotlightcloud].
 
 

@@ -21,9 +21,8 @@ Follow these instructions on each monitored host.
 
 See the following link for more information:
 
-http://support.microsoft.com/default.aspx?scid=kb;en-us;154596
+[http://support.microsoft.com/default.aspx?scid=kb;en-us;154596](http://support.microsoft.com/default.aspx?scid=kb;en-us;154596)
 
-To resolve any problems using WMI, see Troubleshooting WMI
 
 
 {% include links.html %}
