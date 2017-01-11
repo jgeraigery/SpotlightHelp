@@ -45,7 +45,7 @@ Your membership of the Spotlight diagnostic user groups impacts your ability to 
 
 To connect the Spotlight Client to the Spotlight Diagnostic Server, the Windows user on the Spotlight Client must be a member of at least one Spotlight diagnostic user group.
 
-To use the Spotlight Client to configure Spotlight or execute a user action such as kill a session, the Windows user on the Spotlight Client must be a member of a Spotlight diagnostic user group that is allowed to perform that action. For details see Permissions for the Spotlight Client.
+To use the Spotlight Client to configure Spotlight or execute a user action such as kill a session, the Windows user on the Spotlight Client must be a member of a Spotlight diagnostic user group that is allowed to perform that action. For details see [Permissions for the Spotlight Client][enterprise_interface_client_permissions].
 
 
 ### SCOM
@@ -53,7 +53,7 @@ To use the Spotlight Client to configure Spotlight or execute a user action such
 
 The Spotlight Management Pack for SCOM is appropriate for organizations that use SCOM (System Center Operations Manager) as their centralized monitoring system and wish to use Spotlight as their tool of choice for SQL Server monitoring.
 
-The Windows user(s) running the SCOM Console and SCOM Management Server must be member(s) of the Spotlight Diagnostic Administrators Group for each Spotlight Diagnostic Server. This ensures that a secure connection to the Spotlight Diagnostic Server can be made through Port 40403 and that Spotlight information can be retrieved. For details, see the Spotlight™ Management Pack for SCOM User Guide.
+The Windows user(s) running the SCOM Console and SCOM Management Server must be member(s) of the Spotlight Diagnostic Administrators Group for each Spotlight Diagnostic Server. This ensures that a secure connection to the Spotlight Diagnostic Server can be made through Port 40403 and that Spotlight information can be retrieved. For details, see the [Spotlight Management Pack for SCOM Guide][enterprise_interface_scom].
 
 
 {% include links.html %}

@@ -40,7 +40,7 @@ SQL Server uses UDP 1434 to locate the SQL Server instance port number. If UDP 1
 ## Checks to verify ports are open
 * Verify a firewall is not blocking port traffic.
 * Verify no other service is using the port.
-* Verify the port is not configured as an ephemeral port. This issue may arise if you have configured your Windows ports beyond Windows Factory settings or your Windows host is Windows 2008 with Exchange Server 2007. For more information on ephemeral (dynamic) ports, see https://support.microsoft.com/en-us/kb/929851
+* Verify the port is not configured as an ephemeral port. This issue may arise if you have configured your Windows ports beyond Windows Factory settings or your Windows host is Windows 2008 with Exchange Server 2007. For more information on ephemeral (dynamic) ports, see [https://support.microsoft.com/en-us/kb/929851](https://support.microsoft.com/en-us/kb/929851)
 
 
 {% include links.html %}

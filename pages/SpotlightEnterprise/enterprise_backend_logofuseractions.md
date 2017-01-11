@@ -143,7 +143,7 @@ The log records when a user runs the Update Statistics command on selected index
 
 The log records when a user starts a SQL agent job from the Spotlight Client. That is command **SQL Agent Jobs \| Start Job**.
 
-{% include imageClient.html file="tb_action_startjobl.png" alt="Start Job" %}
+{% include imageClient.html file="tb_action_startjob.png" alt="Start Job" %}
 
 The log records when a user changes the running state (Start / Stop) of a service from the Spotlight Client. This change is actioned from the Service Status page of the Support services drilldown.
 

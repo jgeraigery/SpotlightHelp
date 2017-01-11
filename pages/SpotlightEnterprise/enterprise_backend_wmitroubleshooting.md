@@ -32,6 +32,7 @@ If events with error messages are displayed then those events can be investigate
 This test checks that Microsoft tools can connect to WMI.
 
 Run this test from the Spotlight Diagnostic Server.
+
 1. Login to the Spotlight Diagnostic Server under the account used to run the Spotlight Diagnostic Server.
 2. Click **Control Panel \| Administrative Tools \| Computer Management**.
 3. Right click **Computer Management (Local) \| Connect to another computer**.
@@ -164,10 +165,10 @@ Either of the following will recreate the WMI classes:
 
 1. On the problematic machine with SQL Server Analysis Services installed, find out the SQL installation path. See below for the default installation path. Your installation path may be different.
 
-   SQL Server Analysis Services 2014 - C:\Program Files\Microsoft SQL Server\MSAS12.MSSQLSERVER\OLAP\bin\Counters
-   SQL Server Analysis Services 2012 - C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\bin\Counters
-   SQL Server Analysis Services 2008 - C:\Program Files\Microsoft SQL Server\MSAS10.MSSQLSERVER\OLAP\bin\Counters
-   SQL Server Analysis Services 2005 - C:\Program Files\Microsoft SQL Server\MSSQL.2\OLAP\bin
+   SQL Server Analysis Services 2014 | C:\Program Files\Microsoft SQL Server\MSAS12.MSSQLSERVER\OLAP\bin\Counters
+   SQL Server Analysis Services 2012 | C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\bin\Counters
+   SQL Server Analysis Services 2008 | C:\Program Files\Microsoft SQL Server\MSAS10.MSSQLSERVER\OLAP\bin\Counters
+   SQL Server Analysis Services 2005 | C:\Program Files\Microsoft SQL Server\MSSQL.2\OLAP\bin
 
    You are looking for the folder that contains the following files:
 
