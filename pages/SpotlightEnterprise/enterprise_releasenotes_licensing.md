@@ -16,9 +16,9 @@ A purchased commercial license may be applied to a single Spotlight Diagnostic S
 From a Spotlight Client connected to the Spotlight deployment:
 
 1. Click **Help \| About**.
-2. Ensure Product Information is to the front.
-3. Click view/change product license.
-4. Enter the License Key and Site Message.
+2. Ensure **Product Information** is to the front.
+3. Click **view/change product license**.
+4. Enter the **License Key** and **Site Message**.
 5. Make sure you enter the site message exactly. The site message is case sensitive.
 
 {% include links.html %}

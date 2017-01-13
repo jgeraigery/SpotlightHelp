@@ -107,8 +107,20 @@ entries:
         output: web
         subfolderitems:
 
+        - title: About Us
+          url: /enterprise_legal_aboutus.html
+          output: web, pdf
+
+        - title: Copyright Information
+          url: /enterprise_legal_copyright.html
+          output: web, pdf
+
         - title: Third Party Components
           url: /enterprise_legal_thirdpartycomponents.html
+          output: web, pdf
+
+        - title: Privacy Policy
+          url: /enterprise_legal_privacypolicy.html
           output: web, pdf
 
   - title: Using the Spotlight Client

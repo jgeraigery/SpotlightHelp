@@ -20,7 +20,7 @@ A purchased commercial license may be applied to a single Spotlight Diagnostic S
 3. Ensure **Product Information** is to the front.
 4. Click **view/change product license**.
 5. Click **Change this license**.
-6. Enter the new License Key and Site Message.
+6. Enter the new **License Key** and **Site Message**.
 
 
 ## Product authorization errors
