@@ -17,7 +17,7 @@ We are on a quest to make your information technology work harder for you. That 
 Our logo reflects our story: innovation, community and support. An important part of this story begins with the letter Q. It is a perfect circle, representing our commitment to technological precision and strength. The space in the Q itself symbolizes our need to add the missing piece — you — to the community, to the new Quest.
 
 ## Contacting Quest
-For sales or other inquiries, visit [www.quest.com/company/contact-us.aspx](www.quest.com/company/contact-us.aspx) or call +1 949 754-8000.
+For sales or other inquiries, visit [www.quest.com/company/contact-us.aspx](http://www.quest.com/company/contact-us.aspx) or call +1 949 754-8000.
 
 ## Technical support resources
 Technical support is available to Quest customers with a valid maintenance contract and customers who have trial versions. You can access the Quest Support Portal at [https://support.quest.com](https://support.quest.com).

@@ -27,11 +27,11 @@ Refer to our Web site (www.quest.com) for regional and international office info
 
 Patents
 
-Quest Software is proud of our advanced technology. Patents and pending patents may apply to this product. For the most current information about applicable patents for this product, please visit our website at [www.quest.com/legal](www.quest.com/legal).
+Quest Software is proud of our advanced technology. Patents and pending patents may apply to this product. For the most current information about applicable patents for this product, please visit our website at [www.quest.com/legal](http://www.quest.com/legal).
 
 Trademarks
 
-Quest, Toad, Toad World, Spotlight and the Quest logo are trademarks and registered trademarks of Quest Software Inc. For a complete list of Quest marks, visit [www.quest.com/legal](www.quest.com/legal). All other trademarks and registered trademarks are property of their respective owners.
+Quest, Toad, Toad World, Spotlight and the Quest logo are trademarks and registered trademarks of Quest Software Inc. For a complete list of Quest marks, visit [www.quest.com/legal](http://www.quest.com/legal). All other trademarks and registered trademarks are property of their respective owners.
 
 **Legend**
 
