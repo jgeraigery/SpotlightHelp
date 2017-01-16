@@ -1,7 +1,7 @@
 ---
 title: Custom views
 keywords: sample
-summary: "A Spotlight display (Heat map, Spotlight today, Alarms by time or Alarm log) can be filtered to the connections in the custom view."
+summary: "A Spotlight display (Heat map, Spotlight today, Alarms by time or Alarm log) can be filtered to the connections in the custom view. Create as many custom views as makes sense to your enterprise."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_connect_customviews.html
 folder: SpotlightEnterprise
@@ -9,12 +9,21 @@ folder: SpotlightEnterprise
 
 
 
-Create as many custom views as makes sense to your enterprise.
+## Add a custom view
 
-Add a custom view | Click Add Custom View {% include inline_imageClient.html file="tb_connections_addcustomview.png" alt="Add Custom View" %} from Monitored connections to open New connection view properties.
- Add / remove connections from a custom view | Right click on the view in Monitored connections. Select Properties to open Connection view properties.
-Rename a custom view | Right click on the view in Monitored connections. Select Rename view.
-Delete a custom view | Right click on the view in Monitored connections. Select Delete view.
+Click **Add Custom View** {% include inline_imageClient.html file="tb_connections_addcustomview.png" alt="Add Custom View" %}  to open the [New connection view properties dialog][enterprise_connect_newconnectionviewproperties].
+
+## Add / remove connections from a custom view
+
+Right click on the view. Select **Properties** to open [Connection view properties][enterprise_connect_connectionviewproperties].
+
+## Rename a custom view
+
+Right click on the custom view. Select **Rename view**.
+
+## Delete a custom view
+
+Right click on the custom view. Select **Delete view**.
 
 ## Custom views and the Spotlight deployment
 

@@ -15,22 +15,10 @@ folder: SpotlightEnterprise
 Tags are a way for you to group your connections in a way that is meaningful to you, independent of the connection name and connection type. Here are some possible applications for tags in Spotlight Enterprise.
 
 
-### Select Connections dialog
-
-Search for Spotlight Connections by tag name.
-
-### Alarm Action dialog
-
-Configure an Alarm Action for Spotlight to make when an alarm is raised. The Alarm Actions can be conditional on the tag name.  
-
-### Send an Email dialog
-
-Configure an Alarm Action to send an email when an alarm is raised. The tag name for the affected Spotlight Connection can be included in the email subject or message.
-
-
-### Run a Program dialog
-
-Configure an Alarm Action to run a program when an alarm is raised. The tag name for the affected Spotlight Connection can be included in the program output.
+[Select Connections dialog][enterprise_connect_selectconnections] | Search for Spotlight Connections by tag name.
+[Alarm Action dialog][enterprise_cfgmonitor_alarmaction] | Configure an Alarm Action for Spotlight to make when an alarm is raised. The Alarm Actions can be conditional on the tag name.  
+[Send an Email dialog][enterprise_cfgmonitor_alarmaction_sendemail] | Configure an Alarm Action to send an email when an alarm is raised. The tag name for the affected Spotlight Connection can be included in the email subject or message.
+[Run a Program dialog][enterprise_cfgmonitor_alarmaction_runaprogram] | Configure an Alarm Action to run a program when an alarm is raised. The tag name for the affected Spotlight Connection can be included in the program output.
 
 
 

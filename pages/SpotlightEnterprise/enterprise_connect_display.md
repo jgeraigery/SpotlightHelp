@@ -24,8 +24,8 @@ Grouping / View | Description
 ----------------|------------
 Customized views | Show custom views.
 All | All monitored connections.  
-Recent | The 9 most recently viewed connections.
-Connection type(s) | Groups monitored connections by connection type. For example, 'SQL Server' groups all monitored SQL Servers.  
+Recent | Show the 9 most recently viewed connections.
+Connection type(s) | Shows all monitored connections for that connection type. For example, 'SQL Server' lists all monitored SQL Servers.  
 
 ### Color and number
 
@@ -49,27 +49,27 @@ Rename view | For Custom Views only, rename this custom view
 Delete view | For Custom Views only, delete this custom view
 Properties | For Custom Views only, view/edit the properties of this custom view.
 
-## Connections
+## Displays for a single connection
 
-From the Spotlight Client, Connections pane, expand the connection type or custom view to list connections by name.
+Locate the name of the connection on the Connections Display. Expand the connection type or custom view to list the connections in that view.
 
 ### Left click
 
-Left click on the Spotlight Client, Connections pane, connection name to show the Spotlight Overview page for the connection.
+Left click on the connection name to show the [Spotlight Overview page][enterprise_display_overview] for the connection.
 
 ### Right click
 
-Right click on the Spotlight Client, Connections pane, connection name for further actions.
+Right click on the connection name for further actions.
 
 Right Click menu | Description
 ---------------------|------------
-Open | Open the Spotliht Overview page for the connection. This shows the performance of the connection at the component level.
-Connection Manager | Open the Connection Manager. The Connection Manager is used to add Spotlight connections and configure existing Spotlight connections.
-View Spotlight Today | Show the Spotlight connection in Spotlight Today. Spotlight Today lists recent alarms and alarms requiring acknowledgment.
-View Alarm Log | Show the Spotight connection in the Alarm log.
-View Alarms By Time | Show the Spotlight connection in Alarms by Time. Alarms by Time shows the start time, duration, and severity of alarms.
+Open | Open the [Spotlight Overview page][enterprise_display_overview] for the connection. This shows the performance of the connection at the component level.
+Connection Manager | Open the [Connection Manager][enterprise_cfgmonitor_connect]. The Connection Manager is used to add Spotlight connections and configure existing Spotlight connections.
+View Spotlight Today | Show the Spotlight connection in [Spotlight Today][enterprise_display_spotlighttoday]. Spotlight Today lists recent alarms and alarms requiring acknowledgment.
+View Alarm Log | Show the Spotight connection in the [Alarm log][enterprise_display_alarmlog].
+View Alarms By Time | Show the Spotlight connection in [Alarms by Time][enterprise_display_alarmsbytime]. Alarms by Time shows the start time, duration, and severity of alarms.
 Disable Monitoring | Disable monitoring this connection.
-Resume Monitoring | During a Planned Outage, click to resume monitoring this connection before the end of the scheduled time.
+Resume Monitoring | During a [Planned Outage][enterprise_connect_plannedoutage], click to resume monitoring this connection before the end of the scheduled time.
 Properties | View / edit the properties of this connection: connection details, tags and monitoring properties.
 
 {% include links.html %}
