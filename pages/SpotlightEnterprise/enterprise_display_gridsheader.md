@@ -26,6 +26,7 @@ Click the column header. An arrow appears to the right of the header.
 To sort the grid according to the contents of multiple columns, keep the SHIFT key depressed when sorting by the second or later column.
 
 For example, to sort the grid in the Alarm Log page by severity and then, within that sort, by action:
+
 1. Click the Severity header.
 2. While keeping the SHIFT key depressed, click the Action header.
 

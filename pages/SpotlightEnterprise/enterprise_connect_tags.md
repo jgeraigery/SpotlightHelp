@@ -69,7 +69,7 @@ Use to modify a tag in the list of tags.
 4. The tag appears in the **Value** field.
 5. Click **Delete**.
 
-{% include note.html content="Read-only users cannot Add, Replace and Delete tags. For more information, see Spotlight diagnostic user groups." %}
+{% include note.html content="Read-only users cannot Add, Replace and Delete tags. For more information, see [Spotlight diagnostic user groups][enterprise_backend_spotlightdiagnosticusergroups]." %}
 
 {% include tip.html content="The Connection Discovery Wizard imports details to SQL Server instances or Windows Servers from file. If you re-import the same file with updated tags, Spotlight will skip the connection creation step but update the tags." %}
 

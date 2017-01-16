@@ -53,7 +53,7 @@ Select the text encoding to use when saving the file.
 Encoding | Description
 ---------|------------
 ANSI | ANSI is the default choice. It supports only the character set used by Western European languages. Unsupported characters are converted to question marks.
-UNICODE (UTF-16) | The 16-bit version of the Universal Character Set Transformation Format. This format is maintained by the Unicode Consortium (http://www.unicode.org/), and provides the basis for processing, storage and interchange of text data in any language.
+UNICODE (UTF-16) | The 16-bit version of the Universal Character Set Transformation Format. This format is maintained by the Unicode Consortium [http://www.unicode.org/](http://www.unicode.org/), and provides the basis for processing, storage and interchange of text data in any language.
 UNICODE (UTF-8) | The 8-bit version of the Universal Character Set Transformation Format.
 
 
