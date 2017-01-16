@@ -6,7 +6,9 @@ permalink: enterprise_cfgclient_appearanceofcharts.html
 folder: SpotlightEnterprise
 ---
 
+## About Spotlight Charts
 
+For more information on Spotlight Charts, see [Spotlight Charts][enterprise_display_charts].
 
 ## Configure the appearance of Spotlight Charts for the Spotlight Client
 

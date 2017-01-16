@@ -10,7 +10,7 @@ folder: SpotlightEnterprise
 
 For this Spotlight Client to participate or to change your mind, click **Configure \| User experience**.
 
-Refer also to the Privacy Statement.
+Refer also to the [Privacy Statement](https://www.quest.com/legal/privacy.aspx).
 
 
 {% include links.html %}

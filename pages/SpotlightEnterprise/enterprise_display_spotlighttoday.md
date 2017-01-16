@@ -13,7 +13,7 @@ folder: SpotlightEnterprise
 
 From the Spotlight Client, click **Monitor \| Spotlight Today** to open Spotlight Today for all monitored connections.
 
-{% include tip.html content="You can open Spotlight Today with a subset of all monitored connections. From the left [Connections pane][enterprise_connect_display] click on a custom view or connection type then click **Spotlight Today** from the display pane. To open Spotlight Today for just one connection, right click on the connection in the Connections pane then click **Spotlight Today** from the display pane." %}
+{% include tip.html content="You can open Spotlight Today with a subset of all monitored connections. From the left [Connections pane][enterprise_connect_display] click on a custom view or connection type then click **Spotlight Today** from the display pane. To open Spotlight Today for just one connection, right click on the connection in the Connections pane then click **Spotlight Today**." %}
 
 
 ## About the Spotlight Today grid
@@ -31,7 +31,7 @@ Snoozed Until | The time the alarm is snoozed until.
 Condition Cleared | The time the alarm severity returned to normal. This is relevant to alarms that require acknowledgment.
 Connection type | The type of connection the alarm was raised on (for example, SQL Server). The connection type is available only when the Group By action is set to Connection.
 
-{% include tip.html content="The Spotlight Today grid is a Spotlight grid which may be saved to a file or the clipboard. To show / hide columns on the grid, right-click the grid headings and select Organize Columns. See also [Spotlight Grids][enterprise_display_grids]." %}
+{% include tip.html content="The Spotlight Today grid is a Spotlight grid which may be saved to a file or the clipboard. To show / hide columns on the grid, right-click the grid headings and select **Organize Columns**. See also [Spotlight Grids][enterprise_display_grids]." %}
 
 ## Filter the Spotlight Today grid
 

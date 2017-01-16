@@ -35,28 +35,28 @@ Use the Spotlight Client to enable and [configure the Spotlight Statistics Repos
 
 ### Monitored connections in the deployment
 
-Use the Spotlight Client to manage the connections monitored by Spotlight.
+Use the Spotlight Client to [manage the connections][enterprise_cfgmonitor_connect] monitored by Spotlight.
 
 
 ## Troubleshooting
 
 ### Permissions for the Spotlight Client
 
-The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to access the Spotlight Diagnostic Server, to configure the Spotlight Diagnostic Server, to acknowledge and snooze alarms, and execute actions on monitored systems like kill and pause.
+The Windows credentials used to run the Spotlight Client grant required permissions for the Spotlight Client to access the Spotlight Diagnostic Server, to configure the Spotlight Diagnostic Server, to acknowledge and snooze alarms, and execute actions on monitored systems like kill and pause. See [Permission to use Spotlight][enterprise_interface_client_permissions].
 
 If the Spotlight Client is in a different Windows domain to the domain that the Spotlight Diagnostic Server is in, the domain that the Spotlight Diagnostic Server is in must trust the domain that the Spotlight Client users are in.
 
 ### Network ports
 
-Spotlight's ability to function, to collect and display data, may depend on account permissions granted over the network and specific open network ports.
+Spotlight's ability to function, to collect and display data, may depend on account permissions granted over the network and specific open network ports. See [Network Ports][enterprise_backend_networkports]
 
 ### Internet Options on the Spotlight Client
 
-The Spotlight Client connects to the Spotlight Diagnostic Server via Internet port 40403. If you have customized Internet Options on the Spotlight Client, verify that your customized configurations do not conflict with Spotlight.
+The Spotlight Client connects to the Spotlight Diagnostic Server via Internet port 40403. If you have customized Internet Options on the Spotlight Client, verify that your customized configurations do not conflict with Spotlight. See [Internet Options on the Spotlight Client][enterprise_interface_client_internetoptions].
 
 ### Spotlight Version
 
-Ensure the Spotlight Client and Spotlight Diagnostic Server come from the same version of Spotlight. When upgrading Spotlight on SQL Server you must upgrade both the Spotlight client and Spotlight Diagnostic Server.
+Ensure the Spotlight Client and Spotlight Diagnostic Server come from the same version of Spotlight. When upgrading Spotlight, you must upgrade both the Spotlight client and Spotlight Diagnostic Server.
 
 
 

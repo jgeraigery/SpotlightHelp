@@ -14,7 +14,7 @@ folder: SpotlightEnterprise
 
 Click **Monitor \| Alarms by Time** from the Spotlight ribbon to open Alarms by Time for all monitored connections.
 
-{% include tip.html content="To open Alarms by Time with a subset of all monitored connections, from the left [Connections pane][enterprise_display_connect] click on a custom view or connection type then click **Alarms by Time** from the display pane. To open Alarms by Time for just one connection, right click on the connection in the Connections pane and select **Alarms by Time**." %}
+{% include tip.html content="To open Alarms by Time with a subset of all monitored connections, from the left [Connections pane][enterprise_connect_display] click on a custom view or connection type then click **Alarms by Time** from the display pane. To open Alarms by Time for just one connection, right click on the connection in the Connections pane and select **Alarms by Time**." %}
 
 ## Features of the display
 

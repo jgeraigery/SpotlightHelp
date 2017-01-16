@@ -6,6 +6,9 @@ permalink: enterprise_cfgclient_overviewpageclickaction.html
 folder: SpotlightEnterprise
 ---
 
+## About Spotlight Overview Pages
+
+For more information on Spotlight Overview Pages, see [Spotlight Overview pages in Spotlight Enterprise][enterprise_display_overview].
 
 
 ## Configure the Spotlight Overview page left click action for the Spotlight Client

@@ -14,6 +14,8 @@ On the computer hosting the Spotlight Client:
 2. Select the **Advanced** tab.
 3. Verify **Use SSL 3.0** is selected. Verify **Use TLS 1.2** is selected.
 
+{% include imageClient.html file="pane_windows_internetproperties_ssltls.png" alt="Internet Options" %}
+
 ## Verification
 
 Verify the Spotlight Client can access the Spotlight Diagnostic Server via Internet port 40403.
@@ -26,7 +28,7 @@ https://<ds-address>:40403/
 
 Replace **\<ds-address\>** with the Spotlight Diagnostic Server host address. The display confirms HTTPS port 40403 is open.
 
-If you still have problems, see also Spotlight services requiring Internet access.
+If you still have problems, see also [Spotlight services requiring Internet access][enterprise_backend_ds_internetaccess].
 
 
 {% include links.html %}
