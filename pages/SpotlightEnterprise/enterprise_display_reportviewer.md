@@ -1,7 +1,7 @@
 ---
 title: The Spotlight Report Viewer
 keywords: reports
-summary: "Spotlight reports are displayed in an external viewer."
+summary: "Spotlight reports are displayed in the Spotight Report Viewer."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_reportviewer.html
 id: 320
@@ -17,25 +17,26 @@ From the Spotlight Client
 4. Fill in the input parameters. These vary but many require the start date, end date and connection name.
 5. Click **View Report**.
 
-### Modify the report criteria
-Change reports by selecting a different report from the Report list at the top of the Spotlight Report Viewer. Check the input fields are still correct and click **View Report**.
-
-If you change the report criteria (time frame or Connection Name), click **View Report** to see an updated version of the report.
-
 ### Save / Export
 Save reports in PDF, or as an .xls (Microsoft Excel) file using the **Save** icon on the Report toolbar.
 
 ### Print, search, refresh
 Print, search, and refresh reports using the Report toolbar.
 
+### Generate a different report / change the input parameters
+To generate a different report, select the report from the Report list at the top of the Spotlight Report Viewer. Update the input fields if required then click **View Report**.
+
+If you change the report criteria (time frame or Connection Name) you must click **View Report** in order to see an updated version of the report.
+
+
 
 ## Can I customize the reports to my own criteria?
-The Spotlight Report Viewer displays reports using SQL Server 2005 or 2008 Report Definition Language files (.rdl). You can build on the supplied reports or create your own reports. [Query the Spotlight Statistics Repository][enterprise_ssrquery]
+The Spotlight Report Viewer displays reports using SQL Server 2005 or 2008 Report Definition Language files (.rdl). You can build on the supplied reports or create your own reports. See [Query the Spotlight Statistics Repository][enterprise_ssrquery].
 
 ## Where is the data? Can I customize the collection schedules?
 Data is collected from the SQL Server instance then written to the Spotlight Statistics Repository.
 
-You can customize the collection schedules in the Spotlight Client. [Configure Scheduling][enterprise_cfgmonitor_scheduling]
+You can customize the collection schedules in the Spotlight Client. See [Configure Scheduling][enterprise_cfgmonitor_scheduling].
 
 ## Where are the report definition files?
 The default location for the definition (rdl) files is in the Spotlight Client installation folder in the Plug-ins\Trending\SSRS folder.

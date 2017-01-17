@@ -42,8 +42,8 @@ Icon | Name | Description
 
 Configuration and deployment | Description
 -----------------------------|------------
-Configure the Playback Database | Click to re-enter connection details to the Playback Database, create a new Playback Database or specify the number of days that data will be stored in the Playback Database. The number of days specified corresponds to the number of days of history available to Playback. The default is seven days. The minimum is two days.
-Configure \| Scheduling  | Playback data is collected at scheduled intervals, in response to some alarms, and also while viewing a drilldown using the Spotlight client. This means that history data may not be available for a drilldown in Playback mode. You may want to set the rate at which data is collected.
-Playback Database | The Playback Database is stored on SQL Server. Employ maintenance procedures and back up the Playback Database regularly.
+[Configure the Playback Database][enterprise_cfgds_playbackdatabase] | Click to re-enter connection details to the Playback Database, create a new Playback Database or specify the number of days that data will be stored in the Playback Database. The number of days specified corresponds to the number of days of history available to Playback. The default is seven days. The minimum is two days.
+[Configure \| Scheduling][enterprise_cfgmonitor_scheduling]  | Playback data is collected at scheduled intervals, in response to some alarms, and also while viewing a drilldown using the Spotlight client. This means that history data may not be available for a drilldown in Playback mode. You may want to set the rate at which data is collected.
+[Playback Database][enterprise_backend_maintenanceplan] | The Playback Database is stored on SQL Server. Employ maintenance procedures and back up the Playback Database regularly.
 
 {% include links.html %}

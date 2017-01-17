@@ -323,7 +323,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: About the Spotlight Statistics Repository
+        - title: Query the Spotlight Statistics Repository
           url: /enterprise_ssrquery.html
           output: web, pdf
 

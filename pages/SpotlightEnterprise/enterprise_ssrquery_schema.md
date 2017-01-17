@@ -28,7 +28,7 @@ The main dimension tables in the Spotlight Statistics Repository are as follows.
 
 Table | Description
 ------|------------
-Spotlight_datasources | Contains data used to categorize the collections that are performed by Spotlight. There is one row in this table for each category of data collected. Examples of categories are SQL Server, Windows®, and Diagnostic Server.
+Spotlight_datasources | Contains data used to categorize the collections that are performed by Spotlight. There is one row in this table for each category of data collected. Examples of categories are SQL Server, Windows, and Diagnostic Server.
 Spotlight_domains | Contains data about the Diagnostic Servers feeding the Spotlight Statistics Repository. In the case of multiple Diagnostic Servers feeding the Spotlight Statistics Repository, there is one row per Diagnostic Server. The Domain_description column contains the Diagnostic Server host name.
 Spotlight_monitored_objects | Contains data about each of the SQL Server or Windows servers that a Diagnostic Server is monitoring. There is one row in this table for each server being monitored by each Diagnostic Server.
 Spotlight_techonologies | Contains data that categorizes the collections that are performed. There is one row in this table for each category of data collected.
