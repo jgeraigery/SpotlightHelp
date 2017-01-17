@@ -30,8 +30,8 @@ Icon | Description
 The Zoom (applied to the horizontal and vertical axes of the chart) determines the scale.
 
 * You cannot zoom a Pie chart.
-* When the chart is zoomed so that not all of a chart can be seen at the one time, the chart also displays scrollbars that allow you to choose the visible portion of the chart. For more information, see Pan over zoomed charts.
-* Where a drilldown displays several charts you can choose to maximize one chart so it occupies the whole drilldown. For more information, see Maximize and restore charts.
+* When the chart is zoomed so that not all of a chart can be seen at the one time, the chart also displays scrollbars that allow you to choose the visible portion of the chart. For more information, see [Pan over zoomed charts](#chartspan).
+* Where a drilldown displays several charts you can choose to maximize one chart so it occupies the whole drilldown. For more information, see [Maximize and restore charts][enterprise_display_chartscontent.html#maximizerestore].
 
 
 You can zoom in on a section of a chart using one of the following methods:
@@ -44,7 +44,7 @@ You can zoom in on a section of a chart using one of the following methods:
     * Click on the chart. This centers the view on the chosen point and doubles the current zoom factor.
     * Click-and-drag the mouse to enclose the area that you want to magnify. The chart zooms to the size of the enclosed rectangle when the mouse button is released.
 
-* To return the chart to its default size, right-click on the chart and select Unzoom.
+* To return the chart to its default size, right-click on the chart and select **Unzoom**.
 * To switch temporarily from Zoom mode to Pan mode, hold down the Ctrl key.
 * To zoom out, hold down the Shift key while clicking on the chart. This centers the view on the chosen point and halves the current zoom factor.
 
@@ -63,7 +63,7 @@ Click a time option (where applicable) to zoom the horizontal axis of the chart 
 
 
 
-## Pan over zoomed charts
+## Pan over zoomed charts {#chartspan}
 
 When you zoom in on a chart you can use the Pan tool in the chart toolbar to view other sections of the expanded chart.
 
@@ -75,10 +75,10 @@ To pan over a zoomed chart
 
 {% include tip.html content="To switch temporarily from Pan mode to Zoom mode, hold down the **Ctrl** key." %}
 
-Where a drilldown displays several charts you can choose to maximize one chart so it occupies the whole drilldown. For more information, see Maximize and restore charts.
+Where a drilldown displays several charts you can choose to maximize one chart so it occupies the whole drilldown. For more information, see [Maximize and restore charts][enterprise_display_chartscontent.html#maximizerestore].
 
 
-## Set the chart view
+## Set the chart view {#chartview}
 
 To change the style of chart
 
@@ -88,7 +88,7 @@ To change the style of chart
 Alternatively, right click on the chart and select **Properties**.
 
 
-## Filter on the data series
+## Filter on the data series {#filteronadataseries}
 
 A Spotlight chart may contain multiple graphs representing data series from multiple data sources. You can filter the chart so that it shows only the data series that you want to see.
 
@@ -103,7 +103,7 @@ Option | Description
 Show all items | Do not filter the contents of the chart.
 Show top 5 items | Filter out all but the top 5 data series that appear in the chart.
 Show top 10 items | Filter out all but the top 10 data series that appear in the chart.
-Custom... | Create a custom filter from the available parameters. For more information, see Configure properties - Filtering page.
+Custom... | Create a custom filter from the available parameters. For more information, see [Configure properties - Filtering page][enterprise_display_chartsproperties_filter].
 
 
 

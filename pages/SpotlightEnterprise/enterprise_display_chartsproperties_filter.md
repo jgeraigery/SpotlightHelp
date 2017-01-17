@@ -12,7 +12,7 @@ folder: SpotlightEnterprise
 
 
 
-Spotlight supplies a set of filters that you can use (Filter on the data series), but if none of the standard filters are suitable for your chart, you can design a custom filter.
+Spotlight supplies a set of filters that you can use ([Filter on the data series][enterprise_display_chartstoolbar.html#filteronadataseries]), but if none of the standard filters are suitable for your chart, you can design a custom filter.
 
 ## To set a custom filter
 
@@ -20,26 +20,28 @@ Spotlight supplies a set of filters that you can use (Filter on the data series)
 2. Configure as appropriate:
 
 
-## Name
+## Configure the custom filter
+
+### Name
 
 The display name for the chart.
 
 
-## Show all items
+### Show all items
 
 Select to display all current data series.
 
 For example, if a system has the multiple disks C:, D:, E:, and F:, the relevant disk usage chart displays the disk usage statistic for all four disks.
 
 
-## Show only the top items
+### Show only the top items
 
 Select to display the most significant data series.
 
 Select the number of data series to show from the associated drop down list.
 
 
-## Show the following items
+### Show the following items
 
 Select to choose the data series to show.
 

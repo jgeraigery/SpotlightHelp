@@ -16,7 +16,7 @@ Hover the mouse pointer over an item (line or area) in the chart to display the 
 
 
 
-## Maximize and restore charts
+## Maximize and restore charts {#maximizerestore}
 
 Where a drilldown displays several charts you can choose to maximize one chart so it occupies the whole drilldown.
 
@@ -54,7 +54,7 @@ Edit the visual properties of Spotlight charts.
 
 To set chart properties
 
-1. Right-click the chart and select Properties \| Chart.
+1. Right-click the chart and select **Properties \| Chart**.
 2. Configure as appropriate:
 
 Option | Description
@@ -70,11 +70,11 @@ Manual scaling, Minimum value, Maximum value | Select Manual Scaling to set the 
 
 A Spotlight chart may contain multiple graphs representing separate data series from multiple data sources. You can filter the chart so that it shows only the data series that you want to see.
 
-Spotlight supplies a set of filters that you can use (Filter on the data series), but if none of the standard filters are suitable for your chart, you can design a custom filter.
+Spotlight supplies a set of filters that you can use ([Filter on the data series][enterprise_display_chartstoolbar.html#filteronadataseries]), but if none of the standard filters are suitable for your chart, you can design a custom filter.
 
 To set a custom filter
 
-1. Right-click the chart and select Properties \| Filtering.
+1. Right-click the chart and select **Properties \| Filtering**.
 2. Configure as appropriate:
 
 Option | Description
@@ -95,7 +95,7 @@ Right click on the chart body and select  **What's This?**.
 
 ## Configure
 
-For more information, see Appearance of charts.
+For more information, see [Configure the appearance of Spotlight charts][enterprise_cfgclient_appearanceofcharts].
 
 
 ## Uable to collect data

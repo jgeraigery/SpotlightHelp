@@ -101,11 +101,12 @@ sidebars:
 - c_replication_sidebar
 - c_sqlazure_sidebar
 - c_oracle_sidebar
-- c_unix_sidebar
+- c_linux_sidebar
 - c_windows_sidebar
 - c_vmware_sidebar
 - c_hyperv_sidebar
 - c_spotlightds_sidebar
+- other
 
 description: ""
 # the description is used in the feed.xml file

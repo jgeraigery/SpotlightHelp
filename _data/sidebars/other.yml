@@ -1,0 +1,21 @@
+
+# The link here is rendered exactly as is in the Markdown references.
+
+entries:
+- title: other
+  folders:
+
+  - title: Other Links
+    folderitems:
+
+    - title: Some link bookmark
+      url: /enterprise_display_chartstoolbar.html#chartspan
+
+    - title: Some link bookmark
+      url: /enterprise_display_chartscontent.html#maximizerestore
+
+    - title: Some link bookmark
+      url: /enterprise_display_chartstoolbar.html#chartview
+
+    - title: Some link bookmark
+      url: /enterprise_display_chartstoolbar.html#filteronadataseries
