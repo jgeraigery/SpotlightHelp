@@ -50,13 +50,33 @@ entries:
         output: web
         subfolderitems:
 
+        - title: About Us
+          url: /cloud_legal_aboutus.html
+          output: web, pdf
+
+        - title: Copyright Information
+          url: /cloud_legal_copyright.html
+          output: web, pdf
+
         - title: Third Party Components
           url: /cloud_legal_thirdpartycomponents.html
           output: web, pdf
 
-    - title: Data handling and security
-      url: /cloud_security.html
-      output: web, pdf
+      - title: Data handling and security
+        output: web
+        subfolderitems:
+
+        - title: Data handling and security
+          url: /cloud_security.html
+          output: web, pdf
+
+        - title: Cloud Security Alliance Consensus Assessments
+          url: /cloud_security_csa.html
+          output: web, pdf
+
+        - title: Known Threats
+          url: /cloud_security_threats.html
+          output: web, pdf
 
 
   - title: Displays
@@ -69,14 +89,6 @@ entries:
 
     - title: Spotlight Today
       url: /cloud_display_spotlighttoday.html
-      output: web, pdf
-
-    - title: Alarms by Time
-      url: /cloud_display_alarmsbytime.html
-      output: web, pdf
-
-    - title: Alarm Log
-      url: /enterprise_display_alarmlog.html
       output: web, pdf
 
       subfolders:
