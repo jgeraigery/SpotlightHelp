@@ -41,7 +41,7 @@ You can customize the collection schedules in the Spotlight Client. See [Configu
 ## Where are the report definition files?
 The default location for the definition (rdl) files is in the Spotlight Client installation folder in the Plug-ins\Trending\SSRS folder.
 
-If you do not have write access to the Program Files folders listed above, you can create the following folder and use it as an alternative: <user>\Documents\Spotlight Reports
+If you do not have write access to the Program Files folders listed above, you can create the following folder and use it as an alternative: \<user\>\Documents\Spotlight Reports
 
 To set the location of your .rdl files in Spotlight:
 

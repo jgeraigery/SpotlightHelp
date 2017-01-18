@@ -45,7 +45,7 @@ Specify the name of the Spotlight Statistics Repository.
 
 ### Create
 
-Click **Create** to create a new Spotlight Statistics Repository.
+Click **Create** to create a new Spotlight Statistics Repository. This opens the [Create Spotlight Statistics Repository dialog][enterprise_cfgds_ssr_create].
 
 ### Store alarms in the repository for … days
 
