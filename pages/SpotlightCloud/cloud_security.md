@@ -9,44 +9,43 @@ folder: SpotlightCloud
 
 
 ## What data are we sending?
-Any user of various Dell Software products can opt-in to send system configuration and performance metrics from their SQL Server or Oracle environment to SpotlightEssentials.com. Data is collected and then sent periodically. Once it's uploaded we store it for analysis and consumption by the end user. From the data and subsequent analysis SpotlightEssentials.com is able to generate a picture of your systems health and performance. The actual source of the data that these products send is documented below in Appendix A.
+Any user of various Quest Software products can opt-in to send system configuration and performance metrics from their SQL Server or Oracle environment to the Spotlight Cloud. Data is collected and then sent periodically. Once it is uploaded we store it for analysis and consumption by the end user. From the data and subsequent analysis, Spotlight Cloud is able to generate a picture of your system's health and performance. The actual source of the data that these products send is documented below in Appendix A.
 
 ## How are we sending the data?
-The data is sent from the Spotlight on SQL Server Enterprise, Spotlight on Oracle, Toad for SQL Server, Toad for Oracle and Spotlight Developer to SpotlightEssentials.com over the internet. We enforce SSL (https) on the API endpoints on the website so that all data sent to us is encrypted.
+The data is sent from Spotlight on SQL Server Enterprise, Spotlight on Oracle, Toad for SQL Server, Toad for Oracle and Spotlight Developer to SpotlightEssentials.com over the internet. We enforce SSL (https) on the API endpoints on the web site so that all data sent to us is encrypted.
 
-## What encryption algorithms/levels/technologies are we using to transmit and store data?
-The data is transmitted from the Spotight Diagnostic Server to the Spotlight Cloud and from Spotlight Cloud to the web browser over SSL via https. Data at rest is encrypted using TripleDES. We are also going to implement ‘encrypt at rest’ for SQL queries and query plans: https://docs.microsoft.com/en-us/azure/storage/storage-service-encryption
+## What encryption algorithms/levels/technologies do we use to transmit and store data?
+The data is transmitted from the Spotlight Diagnostic Server to the Spotlight Cloud and from Spotlight Cloud to the web browser over SSL via https. Data at rest is encrypted using TripleDES. We will also implement ‘encrypt at rest’ for SQL queries and query plans: [https://docs.microsoft.com/en-us/azure/storage/storage-service-encryption](https://docs.microsoft.com/en-us/azure/storage/storage-service-encryption)
 
-## How is the data stored in SpotlightEssentials.com?
-When we store your data at SpotlightEssentials.com, your data is uploaded as an XML (Atom feed), or JSON object and it is stored in Microsoft's Azure Cloud Platform. The datacenter we currently use is in the north west of the United States of America. This data may be geo-replicated to other datacenters within the United States. The raw data that is uploaded is kept in the blob store and is encrypted at rest. Processed data that is non-numeric (for example SQL text and plans (extracted from the uploaded data)) are encrypted at rest. This is done so that if our storage account(s) in the datacenter get compromised, none of the data is readable.
+## How is the data stored in the Spotlight Cloud?
+Data is uploaded as an XML (Atom feed) or JSON object and is stored in Microsoft's Azure Cloud Platform. The datacenter we currently use is in the north west of the United States of America. This data may be geo-replicated to other datacenters within the United States. The raw data that is uploaded is kept in the blob store and is encrypted at rest. Processed data that is non-numeric (for example SQL text and plans (extracted from the uploaded data)) are encrypted at rest. This is done so that if our storage account(s) in the datacenter is compromised, none of the data is readable.
 
-## How are users authenticated on the Spotlight website?
-Following registration with Spotlight each user is assigned a unique user name and password. Users are required to enter these credentials over an SSL (https) connection to login to the site.
+## How are users authenticated on the Spotlight web site?
+Following registration on the Spotlight web site, each user is assigned a unique user name and password. Users are required to enter these credentials over an SSL (https) connection to login to the Spotlight web site.
 
-## How are users authenticated when using the Spotlight Mobile App?
-Following registration on the Spotlight website each user is assigned a unique user name and password, or if using a Windows device, a unique user token and password. Users are required to enter these credentials over an SSL connection to sign in to the Spotlight Mobile App.
+## How are users authenticated when using Spotlight Mobile?
+Following registration on the Spotlight web site, each user is assigned a unique user name and password, or if using a Windows device, a unique user token and password. Users are required to enter these credentials over an SSL connection to sign in to Spotlight Mobile.
 
 ## Where can I find security and compliance information on the Windows Azure Platform?
-The best place to go is the Windows Azure site itself.
+The best place to go is the [Windows Azure site](https://azure.microsoft.com/en-us/support/trust-center/).
 
-## What information do we store in the cloud about the mobile devices themselves that are accessing Spot Essentials? Do we have device type, UID, location, etc…?
+## What information do we store in the cloud about the mobile devices themselves that are accessing data from the Spotlight Cloud?
 Only mobile devices that have elected to receive “push notifications” from Spotlight are “identified” and recorded. For these devices we store:
 
 *	The generic type of device: i.e. “iOS” or “Android”
-*	A unique identifier. On Android it is the IMEI for GSM and the MEID or ESN for CDMA phones. On Apple it is an identifier that’s unique to Quest and unable to be used more broadly in identifying the device)
+*	A unique identifier. For Android this is the IMEI for GSM and the MEID or ESN for CDMA phones. For Apple devices the identifier is unique to Quest and unable to be used more broadly in identifying the device.
 These two pieces of information are stored against the Spotlight Cloud user account (i.e. their email address)
 
-## What is the volume of data (per monitored instance) that can be expected to be transmitted under normal usage. A range of data is fine. Assume the customer is using both “Mobile Monitoring” and “Health Check” data, although a breakdown of Mobile Monitor vs. Health Check would also be nice.
-For just SQL Server instances (not including OS etc.) we did some analysis of just the uploaded and stored data for the SQL Server procedures - on average (sample size of 1000 SQL Server connections), the total size of compressed data per instance per day in Azure approximately 43Mb/day. Now, the Health Check data as a percentage of this was roughly 5%. Given that this is a snapshot from today, and with the inclusion of uploads of data from more procedures and SQL plans in future releases, this average will increase.
+## What volume of data (per monitored instance) can we expect to be transmitted under normal usage?
+The results of an analysis of the uploaded and stored data from SQL Server procedures (from a sample size of 1,000 SQL Server connections) resulted in approximately 43Mb per day per SQL Server instance total compressed data in Microsoft Azure. The Health Check data as a percentage of this was roughly 5%. This analysis did not include data from monitored Operating Systems. We would expect the volume of data to increase with the inclusion of uploads of data from more procedures and SQL plans in future releases. 
 
-## Can we provide to the customer audit logs of user access and what has been done? I know we do not provide this directly via the site, however if they request information, can we supply it? For example, DBA leaves the company but they forget to remove the account from an organization, can we provide a report showing them whether that user has logged in over the past N days/weeks/months?
+## Can we provide audit logs to the customer of user access and what has been done?
 Web logs for a particular user can be provided.
 
 ## Have we ever been asked to provide a SSAE 16 or SAS 70 report to show security compliance?
-Not specifically however we’ve been asked to supply answers to a “Cloud Security Alliance” Risk Assessment - a subset of the answers to these questions will be published shortly on the Spotlight Cloud website.
-https://cloudsecurityalliance.org/group/consensus-assessments/
+Not specifically however we have supplied answers to a [Cloud Security Alliance Risk Assessment][cloud_security_csa].
 
-## Do we guarantee that stored data does not leave the US? The documentation on Spot Essentials says this, but wanted to confirm that geo replication outside of the US does not happen.
-The data at rest is stored in the US. For those Azure storage accounts being used with geo-replication, the replication is to another US site.
+## Do we guarantee that uploaded data is stored exclusively in the US and is not geo-replicated to other countries?
+The data at rest is stored in the United States. Azure storage accounts with geo-replication replicate to other sites in the United States.
 
 {% include links.html %}

@@ -1,11 +1,13 @@
 ---
 title: Cloud Security Alliance Consensus Assessments
-summary: ""
+summary: "Following is a subset of the answers to questions asked of us by Cloud Secuirity Alliance."
 sidebar: p_cloud_sidebar
 permalink: cloud_security_csa.html
 folder: SpotlightCloud
 ---
 
+
+The Cloud Security Alliance web site can be found at: [https://cloudsecurityalliance.org/group/consensus-assessments/](https://cloudsecurityalliance.org/group/consensus-assessments/)
 
 ## Compliance - Information System Regulatory Mapping
 
