@@ -1,5 +1,5 @@
 ---
-title: Data Handling and Security
+title: Security and Data Handling
 summary: ""
 sidebar: p_cloud_sidebar
 permalink: cloud_security.html
@@ -37,7 +37,7 @@ Only mobile devices that have elected to receive “push notifications” from S
 These two pieces of information are stored against the Spotlight Cloud user account (i.e. their email address)
 
 ## What volume of data (per monitored instance) can we expect to be transmitted under normal usage?
-The results of an analysis of the uploaded and stored data from SQL Server procedures (from a sample size of 1,000 SQL Server connections) resulted in approximately 43Mb per day per SQL Server instance total compressed data in Microsoft Azure. The Health Check data as a percentage of this was roughly 5%. This analysis did not include data from monitored Operating Systems. We would expect the volume of data to increase with the inclusion of uploads of data from more procedures and SQL plans in future releases. 
+The results of an analysis of the uploaded and stored data from SQL Server procedures (from a sample size of 1,000 SQL Server connections) resulted in approximately 43Mb per day per SQL Server instance total compressed data in Microsoft Azure. The Health Check data as a percentage of this was roughly 5%. This analysis did not include data from monitored Operating Systems. We would expect the volume of data to increase with the inclusion of uploads of data from more procedures and SQL plans in future releases.
 
 ## Can we provide audit logs to the customer of user access and what has been done?
 Web logs for a particular user can be provided.

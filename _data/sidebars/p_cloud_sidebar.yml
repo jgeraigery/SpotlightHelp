@@ -107,15 +107,15 @@ entries:
       url: /cloud_alarm_snooze.html
       output: web, pdf
 
-  - title: Data handling and security
+  - title: Security and data handling
     output: web, pdf
     folderitems:
 
-    - title: Data handling and security
+    - title: Security and data handling
       url: /cloud_security.html
       output: web, pdf
 
-    - title: Data handling and security FAQ
+    - title: Security and data handling FAQ
       url: /cloud_security_faq.html
       output: web, pdf
 

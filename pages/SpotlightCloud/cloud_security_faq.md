@@ -1,5 +1,5 @@
 ---
-title: Data Handling and Security
+title: Security and Data Handling
 summary: ""
 sidebar: p_cloud_sidebar
 permalink: cloud_security_faq.html
