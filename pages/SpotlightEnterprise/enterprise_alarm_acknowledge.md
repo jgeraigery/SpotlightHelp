@@ -10,17 +10,21 @@ folder: SpotlightEnterprise
 
 ## How to acknowledge an alarm
 
-An alarm can be acknowledged from Spotlight Today or a Spotlight Overview Page. Click {% include inline_imageClient.html file="tb_alarms_acknowledge.png" alt="Acknowledge" %} Acknowledge.
+An alarm can be acknowledged from [Spotlight Today][enterprise_display_spotlighttoday] or a [Spotlight Overview page][enterprise_display_overview].
+
+Click {% include inline_imageClient.html file="tb_alarms_acknowledge.png" alt="Acknowledge" %} **Acknowledge**.
 
 ## Look up an alarm once it has been acknowledged
 
-Locate the alarm in the Alarm log. The entry in the alarm log grid shows:
+Locate the alarm in the [Alarm log][enterprise_display_alarmlog].
+
+The entry in the alarm log grid shows:
 
 Acknowledged by | The login name of the user who acknowledged the alarm.
 Acknowledgment Comment | The comment entered by the user when they acknowledged the alarm.
 
 ## How to configure an alarm to require acknowledgment
 
-Use the Spotlight Client to configure an alarm to require acknowledgment.
+Use the Spotlight Client to [configure an alarm to require acknowledgment][enterprise_cfgmonitor_alarm].
 
 {% include links.html %}
