@@ -3,6 +3,7 @@ title: Run a program
 summary: "Configure Spotlight to run a program when an alarm is raised."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_alarmaction_runaprogram.html
+id: 213
 folder: SpotlightEnterprise
 ---
 

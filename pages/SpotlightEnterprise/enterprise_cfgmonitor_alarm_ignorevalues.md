@@ -3,6 +3,7 @@ title: The Ignore Values dialog
 summary: "Some alarms can be configured to ignore certain values. For example, the Spotlight Backup Alarms can be configured to ignore certain databases."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_alarm_ignorevalues.html
+id: 79
 folder: SpotlightEnterprise
 ---
 

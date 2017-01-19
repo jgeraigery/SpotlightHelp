@@ -3,6 +3,7 @@ title: Select a Diagnostic Server
 summary: "Connect the Spotlight Client to a Spotlight Diagnostic Server."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgds_select.html
+id: "701 1001"
 folder: SpotlightEnterprise
 ---
 

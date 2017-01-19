@@ -3,6 +3,7 @@ title: Add file
 summary: "This dialog is opened from Configure | Monitored Files on request to add a file to the list of tracked files or modify the configuration for a selected tracked file."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_monitoredfiles_addfile.html
+id: 185
 folder: SpotlightEnterprise
 ---
 

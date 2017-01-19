@@ -3,6 +3,7 @@ title: New Connection View Properties
 summary: "Use this dialog to create a custom view."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_connect_newconnectionviewproperties.html
+id: 905
 folder: SpotlightEnterprise
 ---
 

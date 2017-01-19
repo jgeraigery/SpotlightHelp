@@ -5,6 +5,7 @@ keywords: alarms, acknowledge
 summary: "If an alarm is configured to require acknowledgment then each raised instance of the alarm remains present in Spotlight until it is acknowledged."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_alarm_acknowledge.html
+id: 40012
 folder: SpotlightEnterprise
 ---
 

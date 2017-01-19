@@ -3,6 +3,7 @@ title: Send email to
 summary: "Configure Spotlight to send an email when an alarm is raised."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_alarmaction_sendemail.html
+id: 214
 folder: SpotlightEnterprise
 ---
 

@@ -3,6 +3,7 @@ title: Configure alarm action
 summary: "Apply the configuration of a template or connection to one or more connections."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_alarmaction.html
+id: 221
 folder: SpotlightEnterprise
 ---
 

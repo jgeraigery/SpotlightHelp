@@ -3,6 +3,7 @@ title: Federate Diagnostic Server
 summary: "The Spotlight Client is connected to a federated system if more than one Spotlight Diagnostic Server is listed on this screen. For more information on a federated system, see Deployment of federated Spotlight Diagnostic Server."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgds_federate.html
+id: 1011
 folder: SpotlightEnterprise
 ---
 

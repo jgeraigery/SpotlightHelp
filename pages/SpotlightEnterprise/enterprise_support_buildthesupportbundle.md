@@ -3,6 +3,7 @@ title: Build the Support Bundle
 summary: "In emailing a request for assistance, be sure to include a support bundle."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_support_buildthesupportbundle.html
+id: 40150
 folder: SpotlightEnterprise
 ---
 

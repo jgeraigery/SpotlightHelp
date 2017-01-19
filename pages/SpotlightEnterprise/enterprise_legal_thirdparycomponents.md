@@ -3,6 +3,7 @@ title: Third Party Components
 summary: "This product contains some third-party components (listed below). Copies of their licenses may be found at referencing http://www.quest.com/legal/license-agreements.aspx. Source code for components marked with an asterisk (*) is available at http://opensource.quest.com."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_legal_thirdpartycomponents.html
+id: 1007
 folder: SpotlightEnterprise
 ---
 

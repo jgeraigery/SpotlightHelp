@@ -3,6 +3,7 @@ title: Configure the Playback Database
 summary: "Recent events and data collected in the recent past are stored in the Playback Database."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgds_playbackdatabase.html
+id: 702
 folder: SpotlightEnterprise
 ---
 

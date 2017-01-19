@@ -3,6 +3,7 @@ title: Select Connections
 summary: "Select connections to add to a Custom View. This dialog is opened as one of a series on request to create a Custom View or Edit the Properties of an existing Custom View."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_connect_selectconnections.html
+id: 906
 folder: SpotlightEnterprise
 ---
 

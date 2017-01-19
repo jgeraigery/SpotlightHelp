@@ -3,6 +3,7 @@ title: Configure the database maintenance schedule
 summary: "Schedule a time for the Spotlight Diagnostic Server to run maintenance procedures for the Playback Database and Spotlight Statistics Repository."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgds_databasemaintenanceschedule.html
+id: 704
 folder: SpotlightEnterprise
 ---
 

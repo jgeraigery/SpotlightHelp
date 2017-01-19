@@ -3,6 +3,7 @@ title: Severity colors for accessibility
 summary: "Select a color scheme for the Spotlight Client. The color scheme is used to indicate alarm severity."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgclient_severitycolorsforaccessibility.html
+id: 440214
 folder: SpotlightEnterprise
 ---
 

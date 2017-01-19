@@ -3,6 +3,7 @@ title: Federation
 summary: "In a deployment where there are multiple Spotlight Diagnostic Server you may choose to federate the deployment."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_backend_federation.html
+id: 2030
 folder: SpotlightEnterprise
 ---
 

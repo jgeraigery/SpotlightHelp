@@ -3,6 +3,7 @@ title: Configure the Diagnostic Server's mail server
 summary: "Specify the mail server settings for the Spotlight Diagnostic Server to use (to fulfill on Configure | Alarm Actions | Alarm Action | Send email to)."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgds_mailserver.html
+id: 705
 folder: SpotlightEnterprise
 ---
 

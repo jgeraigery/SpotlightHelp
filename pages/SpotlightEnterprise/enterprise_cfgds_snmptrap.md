@@ -3,6 +3,7 @@ title: Configure the SNMP trap
 summary: "Provide details of the SNMP manager used by the Spotlight Diagnostic Server (to fulfill on Configure | Alarm Actions | Alarm Action | Send SNMP Trap)."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgds_snmptrap.html
+id: 707
 folder: SpotlightEnterprise
 ---
 

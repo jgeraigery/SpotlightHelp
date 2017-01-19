@@ -4,6 +4,7 @@ tags: [connection_details]
 summary: "Request Spotlight Enterprise monitor your SQL Server, Windows Server and other connection types. Add and remove connections and configure connection properties."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_connect_details.html
+id: 40101
 folder: SpotlightEnterprise
 ---
 

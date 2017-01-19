@@ -4,6 +4,7 @@ tags: [connection_details,configure_monitoring]
 summary: "Request Spotlight Enterprise monitor your SQL Server, Windows Server and other connection types. Remove connections and configure connection properties."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_connect.html
+id: 40008
 folder: SpotlightEnterprise
 ---
 
@@ -30,11 +31,11 @@ The connection properties for a new connection are entered on two tabs: **Detail
 {% endfor %}
 </ul>
 
-Connection **Tags** are optional. Connection Tags are a free form organizational tool that may be applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.
+[Connection Tags][enterprise_cfgmonitor_connect_tags] are optional. Connection Tags are a free form organizational tool that may be applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.
 
 ## Discover Connections
 
-The Connection Discovery Wizard is used to locate resources on the network and add those resources as Spotlight connections. The Connection Discovery Wizard can be used to locate SQL Server instances or Windows Servers.
+The [Connection Discovery Wizard][enterprise_cfgmonitor_connect_discoverywizard] is used to locate resources on the network and add those resources as Spotlight connections. The Connection Discovery Wizard can be used to locate SQL Server instances or Windows Servers.
 
 From the Spotlight Client
 
@@ -48,7 +49,7 @@ From the Spotlight Client
 From the Spotlight Client
 
 1. Click **Configure \| Connections**.
-2. Double click on the connection or click **Diagnose** to open the Spotlight Overview page for the connection.
+2. Double click on the connection or click **Diagnose** to open the [Spotlight Overview page][enterprise_display_overview] for the connection.
 
 
 ## Edit Connection Properties
@@ -73,8 +74,9 @@ The connection **Details** are  dependent on the connection type.
 {% endfor %}
 </ul>
 
-Replace / add / delete **Tags** for the connection. Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.
-Monitoring | Edit connection monitoring settings
+Replace / add / delete [Tags][enterprise_cfgmonitor_connect_tags] for the connection. Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.
+
+Use the [Monitoring][enterprise_cfgmonitor_connect_monitoring] tab to edit connection monitoring settings.
 
 ## Delete the connection
 

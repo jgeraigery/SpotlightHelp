@@ -3,6 +3,7 @@ title: Connection View Properties
 summary: "Use this dialog to add / remove connections from the custom view."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_connect_connectionviewproperties.html
+id: 907
 folder: SpotlightEnterprise
 ---
 

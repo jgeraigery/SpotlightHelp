@@ -3,6 +3,7 @@ title: Configure support bundle emails
 summary: "Select the message service for the Spotlight Client to use to send a Support bundle to Quest."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgclient_supportbundle.html
+id: 40260
 folder: SpotlightEnterprise
 ---
 

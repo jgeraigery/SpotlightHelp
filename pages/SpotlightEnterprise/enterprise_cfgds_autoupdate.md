@@ -3,6 +3,7 @@ title: Configure the auto-update facility
 summary: "Enable Auto Update so the Spotlight Diagnostic Server will receive minor updates (scripts and configuration) automatically."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgds_autoupdate.html
+id: 1002
 folder: SpotlightEnterprise
 ---
 

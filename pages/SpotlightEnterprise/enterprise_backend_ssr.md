@@ -3,6 +3,7 @@ title: Spotlight Statistics Repository
 summary: "Long term history for reporting and trending is stored in the Spotlight Statistics Repository."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_backend_ssr.html
+id: 2020
 folder: SpotlightEnterprise
 ---
 

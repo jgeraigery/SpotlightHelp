@@ -3,6 +3,7 @@ title: Adjust display performance and quality
 summary: "Adjust the display quality for this Spotlight Client for the Spotlight Overview pages and drilldowns. Display quality is balanced against the speed at which Spotlight delivers information."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgclient_displayperformance.html
+id: 40280
 folder: SpotlightEnterprise
 ---
 

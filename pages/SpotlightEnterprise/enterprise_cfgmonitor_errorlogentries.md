@@ -4,6 +4,7 @@ tags: [configure_monitoring,apply_configuration_to]
 summary: "Configure Spotlight to scan the SQL Server error log for matching entries."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_errorlogentries.html
+id: 234
 folder: SpotlightEnterprise
 ---
 

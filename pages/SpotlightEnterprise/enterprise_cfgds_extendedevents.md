@@ -3,6 +3,7 @@ title: Configure the use of Extended Events
 summary: "Request the Spotlight Diagnostic Server not use (use) Extended Events to collect data from monitored SQL Server instances (SQL Server 2008 and above)"
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgds_extendedevents.html
+id: 708
 folder: SpotlightEnterprise
 ---
 

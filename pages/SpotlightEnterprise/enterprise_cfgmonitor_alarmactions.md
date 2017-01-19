@@ -4,6 +4,7 @@ keywords: alarms
 summary: "Setup actions for Spotlight to take when an alarm is raised. The actions Spotlight can take include running a program and sending an email. Conditions on taking the action can be defined, such as the day of the week, the time of day, the severity of the alarm, the alarm type and the connection type."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_alarmactions.html
+id: 220
 folder: SpotlightEnterprise
 ---
 

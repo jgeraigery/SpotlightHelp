@@ -4,6 +4,7 @@ keywords: release notes
 summary: "New features in Spotlight Enterprise 12."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_new.html
+id: 40001
 folder: SpotlightEnterprise
 ---
 

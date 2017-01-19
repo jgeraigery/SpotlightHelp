@@ -3,6 +3,7 @@ title: Add filter
 summary: "This dialog is opened from Configure | SQL Analysis on request to add a filter."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_sqlanalysis_addfilter.html
+id: 44
 folder: SpotlightEnterprise
 ---
 

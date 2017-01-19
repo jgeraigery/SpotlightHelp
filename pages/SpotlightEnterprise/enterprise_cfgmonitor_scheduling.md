@@ -4,6 +4,7 @@ tags: [configure_monitoring,apply_configuration_to]
 summary: "Configure Spotlight's data collection schedules. How often is data collected? On what day? At what time?"
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_scheduling.html
+id: 211
 folder: SpotlightEnterprise
 ---
 

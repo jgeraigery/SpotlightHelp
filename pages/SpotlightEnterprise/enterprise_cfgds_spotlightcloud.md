@@ -3,6 +3,7 @@ title: Configure uploading to the Spotlight Cloud
 summary: "Enable functionality to monitor Spotlight connections from the Spotlight web site or Spotlight Mobile. Upload performance data for health check analysis."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgds_spotlightcloud.html
+id: 706
 folder: SpotlightEnterprise
 ---
 

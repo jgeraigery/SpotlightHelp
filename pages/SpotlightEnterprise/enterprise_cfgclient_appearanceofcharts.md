@@ -3,6 +3,7 @@ title: Configure the appearance of Spotlight Charts
 summary: "Configure the appearance of Spotlight charts for this Spotlight Client."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgclient_appearanceofcharts.html
+id: 40213
 folder: SpotlightEnterprise
 ---
 

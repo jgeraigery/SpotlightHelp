@@ -3,6 +3,7 @@ title: Send push notification to
 summary: "Configure Spotlight to send a push notification to a mobile device when an alarm is raised."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_alarmaction_pushnotification.html
+id: 215
 folder: SpotlightEnterprise
 ---
 

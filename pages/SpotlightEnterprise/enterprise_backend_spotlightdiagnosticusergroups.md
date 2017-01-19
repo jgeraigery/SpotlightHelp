@@ -3,6 +3,7 @@ title: Spotlight diagnostic user groups
 summary: "The Spotlight diagnostic user groups are Windows groups created on install of Spotlight. Spotlight uses membership of these groups to authenticate Spotlight Client access to the Spotlight Diagnostic Server."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_backend_spotlightdiagnosticusergroups.html
+id: 247
 folder: SpotlightEnterprise
 ---
 

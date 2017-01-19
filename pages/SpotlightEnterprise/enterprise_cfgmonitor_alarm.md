@@ -3,6 +3,7 @@ title: Configure an alarm
 summary: "This dialog is opened from Configure | Alarms on request to configure an alarm."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_alarm.html
+id: 210
 folder: SpotlightEnterprise
 ---
 

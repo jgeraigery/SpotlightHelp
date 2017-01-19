@@ -3,6 +3,7 @@ title: Playback Database
 summary: "Recent historical information (collected from monitored connections) is stored in the Playback Database."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_backend_playback.html
+id: 2010
 folder: SpotlightEnterprise
 ---
 

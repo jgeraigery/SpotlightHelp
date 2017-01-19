@@ -3,6 +3,7 @@ title: Overview page click action
 summary: "Select the preferred behavior for this Spotlight Client on left click a Spotlight Overview page component."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgclient_overviewpageclickaction.html
+id: 40220
 folder: SpotlightEnterprise
 ---
 

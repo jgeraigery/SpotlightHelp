@@ -3,6 +3,7 @@ title: Configure the Spotlight Statistics Repository
 summary: "Data for long term history for reporting and trending is stored in the Spotlight Statistics Repository. By default, use of the Spotlight Statistics Repository is disabled. Data for long term history for reporting and trending is only stored when the use of the Spotlight Statistics Repository is enabled and the Spotlight Statistics Repository is appropriately configured."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgds_ssr.html
+id: 703
 folder: SpotlightEnterprise
 ---
 

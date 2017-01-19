@@ -4,6 +4,7 @@ tags: [configure_monitoring,apply_configuration_to]
 summary: "Set the thresholds and severities that determine when an alarm is raised. Disable an alarm. Set an alarm to require acknowledgment. Configure keyed alarms. Collect additional diagnostic information on an alarm."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_alarms.html
+id: 212
 folder: SpotlightEnterprise
 ---
 

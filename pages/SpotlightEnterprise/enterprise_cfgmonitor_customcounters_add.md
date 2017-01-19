@@ -3,6 +3,7 @@ title: Add custom counters
 summary: "This dialog is opened from Configure | Custom Counters on request to add a custom counter."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_customcounters_add.html
+id: 19
 folder: SpotlightEnterprise
 ---
 
