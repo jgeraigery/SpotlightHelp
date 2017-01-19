@@ -136,7 +136,7 @@ toc: false
                                 <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">Can we provide to the customer audit logs of user access and what has been done? I know we do not provide this directly via the site, however if they request information, can we supply it? For example, DBA leaves the company but they forget to remove the account from an organization, can we provide a report showing them whether that user has logged in over the past N days/weeks/months?</a>
                             </h4>
                         </div>
-                        <div id="collapseNine" class="panel-collapse collapse">
+                        <div id="collapseTen" class="panel-collapse collapse">
                             <div class="panel-body">
                             Web logs for a particular user can be provided.
                             </div>
@@ -149,7 +149,7 @@ toc: false
                                 <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">Have we ever been asked to provide a SSAE 16 or SAS 70 report to show security compliance?</a>
                             </h4>
                         </div>
-                        <div id="collapseNine" class="panel-collapse collapse">
+                        <div id="collapseEleven" class="panel-collapse collapse">
                             <div class="panel-body">                            ##
                             Not specifically however we’ve been asked to supply answers to a “Cloud Security Alliance” Risk Assessment - a subset of the answers to these questions will be published shortly on the Spotlight Cloud website.
                             https://cloudsecurityalliance.org/group/consensus-assessments/
@@ -163,7 +163,7 @@ toc: false
                                 <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve">Do we guarantee that stored data does not leave the US? The documentation on Spot Essentials says this, but wanted to confirm that geo replication outside of the US does not happen.</a>
                             </h4>
                         </div>
-                        <div id="collapseNine" class="panel-collapse collapse">
+                        <div id="collapseTwelve" class="panel-collapse collapse">
                             <div class="panel-body">
                             The data at rest is stored in the US. For those Azure storage accounts being used with geo-replication, the replication is to another US site.
                             </div>

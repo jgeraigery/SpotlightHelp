@@ -62,27 +62,6 @@ entries:
           url: /cloud_legal_thirdpartycomponents.html
           output: web, pdf
 
-      - title: Data handling and security
-        output: web
-        subfolderitems:
-
-        - title: Data handling and security
-          url: /cloud_security.html
-          output: web, pdf
-
-        - title: Data handling and security FAQ
-          url: /cloud_security_faq.html
-          output: web, pdf
-
-        - title: Cloud Security Alliance Consensus Assessments
-          url: /cloud_security_csa.html
-          output: web, pdf
-
-        - title: Known Threats
-          url: /cloud_security_threats.html
-          output: web, pdf
-
-
   - title: Displays
     output: web, pdf
     folderitems:
@@ -127,4 +106,25 @@ entries:
     - title: Snooze
       url: /cloud_alarm_snooze.html
       output: web, pdf
-  
+
+  - title: Data handling and security
+    output: web, pdf
+    folderitems:
+
+    - title: Data handling and security
+      url: /cloud_security.html
+      output: web, pdf
+
+    - title: Data handling and security FAQ
+      url: /cloud_security_faq.html
+      output: web, pdf
+
+    - title: Cloud Security Alliance Consensus Assessments
+      url: /cloud_security_csa.html
+      output: web, pdf
+
+    - title: Known Threats
+      url: /cloud_security_threats.html
+      output: web, pdf
+
+ 
