@@ -12,38 +12,34 @@ folder: SpotlightEnterprise
 
 
 
-## To set chart properties
+## To open this dialog to set chart properties
 
-1. Right-click the chart and select **Properties \| Chart**.
-2. Configure as appropriate
+From the Spotlight Client, right-click the chart and select **Properties \| Chart**.
 
+## Configure as appropriate
 
-
-## Chart style
+### Chart style
 
 Select a style for the chart.
 
-## Arrange by
+### Arrange by
 
 Applicable when the Chart style is set to **Bar** or **Pie**.
 
 * Select to arrange the data in **Name** or **Value** order.
 
-
-## Include legend in chart
+### Include legend in chart
 
 Select to show the legend associated with the chart. Not all charts have a legend.
 
-
-## Series are stacked
+### Series are stacked
 
 Applicable when the Chart style is set to **Area**.
 
 Select | Plot the cumulative values of the different series.
 Clear  | Superimpose the different series on the same set of axes.
 
-
-## Manual scaling, Minimum value, Maximum value
+### Manual scaling, Minimum value, Maximum value
 
 Select **Manual Scaling** | Set the scaling factor for the chart in the **Minimum value** and **Maximum value** fields.
 Clear **Manual Scaling**  | Accept Spotlight's default scaling of the chart.

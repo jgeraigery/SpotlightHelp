@@ -19,3 +19,10 @@ entries:
 
     - title: Some link bookmark
       url: /enterprise_display_chartstoolbar.html#filteronadataseries
+
+    - title: Cannot connect to the Spotlight Diagnostic Server on Web service port 40403
+      url: /enterprise_backend_ds_40403.html
+
+    - title: Restore default settings for Spotlight Charts and Grids
+      url: /enterprise_display_chartsgrids_restore.html
+

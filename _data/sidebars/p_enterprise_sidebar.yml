@@ -780,6 +780,10 @@ entries:
       url: /enterprise_backend_networkports.html
       output: web, pdf
 
+    - title: Deployment over the Windows Network
+      url: /enterprise_backend_windowsnetwork.html
+      output: web, pdf
+
     - title: Spotlight Diagnostic User Groups
       url: /enterprise_backend_spotlightdiagnosticusergroups.html
       output: web, pdf
