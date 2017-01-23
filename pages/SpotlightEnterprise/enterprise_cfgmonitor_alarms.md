@@ -35,7 +35,7 @@ Option | Description
 -------|------------
 Factory Settings | Select to show the settings shipped with Spotlight. These settings can be reapplied to a connection. These settings cannot be changed.
 Connection | Select a Spotlight connection to show / change alarm configurations for that connection.
-Template | Select a template to show / change / reapply a template configuration. Select a template to delete or rename that template. The templates you have previously saved are listed. For more information, see Configuration templates.
+Template | Select a template to show / change / reapply a template configuration. Select a template to delete or rename that template. The templates you have previously saved are listed. For more information, see [Configuration templates][enterprise_cfgmonitor_templates].
 
 
 ## Select an alarm to configure
@@ -71,7 +71,7 @@ Optionally, apply this configuration to other connections.
 
 ### Save to Template  
 
-Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to **Delete** or **Rename** the template. For more information on Templates, see Configuration templates.
+Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to **Delete** or **Rename** the template. For more information, see [Configuration templates][enterprise_cfgmonitor_templates].
 
 ## Close the dialog
 

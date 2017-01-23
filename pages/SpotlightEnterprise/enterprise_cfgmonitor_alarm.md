@@ -18,11 +18,11 @@ Return the settings for this alarm to the Factory Settings. These are the settin
 
 You can now modify the settings for this alarm.
 
-{% include note.html content="You cannot modify the Factory Settings Template. If you cannot see an option to clear Factory Settings then you are browsing the Factory Settings Template. To modify the settings for this alarm, close this dialog and select either a Spotlight Connection or a different template from the Configure | Alarms dialog." %}
+{% include note.html content="You cannot modify the Factory Settings Template. If you cannot see an option to clear Factory Settings then you are browsing the Factory Settings Template. To modify the settings for this alarm, close this dialog and select either a Spotlight Connection or a different template from the **Configure | Alarms** dialog." %}
 
 ## Disable this alarm
 
-When selected this alarm will not be raised again for the connection / template selected on the Configure \| Alarms dialog.
+When selected this alarm will not be raised again for the connection / template selected on the **Configure \| Alarms** dialog.
 
 {% include tip.html content="Only some alarms can be disabled." %}
 
@@ -30,7 +30,7 @@ When selected this alarm will not be raised again for the connection / template 
 
 ### Select
 
-You want to know that this alarm was raised even after its severity returns to normal. When the severity of the alarm returns to normal Spotlight continues to presence the alarm in Spotlight Today and the Spotlight Overview page until you acknowledge that you have seen this instance of the alarm.
+You want to know that this alarm was raised even after its severity returns to normal. When the severity of the alarm returns to normal Spotlight continues to presence the alarm in [Spotlight Today][enterprise_display_spotlighttoday] and the [Spotlight Overview][enterprise_display_overview] page until you acknowledge that you have seen this instance of the alarm.
 
 ### Clear
 
@@ -50,7 +50,7 @@ All alarms have a **Default Severity**.
 
 Keys that have been added are listed here. Thresholds are applied independently to each key. Select the key to apply the thresholds to.
 
-{% include tip.html content="You can use keys to configure alarms to ignore certain values. For more information, see Do not alarm for certain values." %}
+{% include tip.html content="You can use keys to configure alarms to ignore certain values. For more information, see [Do not alarm for certain values][enterprise_cfgmonitor_alarm_ignorevalues]." %}
 
 ### Add
 
@@ -67,7 +67,7 @@ Dependent on the alarm, configuration is applied by adjusting thresholds or sele
 
 ### This alarm is raised with increasing severity dependent on a numeric value.
 
-Spotlight uses a threshold bar to illustrate the severity thresholds. For more information, see Severity thresholds.
+Spotlight uses a threshold bar to illustrate the severity thresholds. For more information, see [Severity thresholds][enterprise_cfgmonitor_alarm_severity].
 
 {% include imageClient.html file="pane_alarms_thresholds.png" alt="This alarm is raised with increasing severity dependent on a numeric value." %}
 
@@ -83,13 +83,13 @@ Spotlight uses a threshold bar to illustrate the severity thresholds. For more i
 
 #### Message
 
-Add message text to the Message field. Message text is displayed in the **Details** column of the **Alarm Log** when the alarm is raised. To include variables in the text see Alarms - Message Variables.
+Add message text to the Message field. Message text is displayed in the **Details** column of the **Alarm Log** when the alarm is raised. To include variables in the text see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].
 
 ## Collect additional diagnostic information
 
 ### Select
 
-Collect additional data in the Playback Database to assist you in resolving the root cause of the alarm. For more information, see Collect additional diagnostic information.
+Collect additional data in the Playback Database to assist you in resolving the root cause of the alarm.
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}
@@ -111,7 +111,7 @@ You may choose to turn the option off to conserve space in the Playback Database
 
 ## Do not raise an alarm for certain values
 
-Click **Values** to specify the values that Spotlight should ignore when an alarm is raised. You can use wildcard characters when specifying values to ignore. For more information, see Do not alarm for certain values.
+Click **Values** to specify the values that Spotlight should ignore when an alarm is raised. You can use wildcard characters when specifying values to ignore. For more information, see [Do not alarm for certain values][enterprise_cfgmonitor_alarm_ignorevalues].
 
 {% include note.html content="Not all alarms have this option." %}
 

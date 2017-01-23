@@ -43,7 +43,7 @@ Ensure the start value is lower than that for the low value for higher severity 
 
 #### Description
 
-Enter an alarm description in the **Description** field. When the alarm is raised, the description appears in the Details column of the Alarm log and Spotlight today
+Enter an alarm description in the **Description** field. When the alarm is raised, the description appears in the Details column of the [Alarm log][enterprise_display_alarmlog] and [Spotlight today][enterprise_display_spotlighttoday].
 
 You can use copy and paste to duplicate the description text from other severities in the table. To include variables in the text see Alarms - Message Variables.
 

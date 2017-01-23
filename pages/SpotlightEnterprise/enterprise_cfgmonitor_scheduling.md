@@ -27,7 +27,7 @@ Template | Select a template to show / change / reapply a template configuration
 
 ### Store reporting data
 
-Select to store reporting data in the Spotlight Statistics Repository for the selected connection. Reporting data is used by Reporting and Trending requires the Spotlight Statistics Repository to be configured (Configure the Spotlight Statistics Repository.
+Select to store reporting data in the Spotlight Statistics Repository for the selected connection. Reporting data is used by Reporting and Trending requires the Spotlight Statistics Repository to be configured.
 
 ### Do not collect and store reporting data
 
@@ -62,7 +62,8 @@ Information about each collection is documented under the connection type.
 
 Is Spotlight scheduled to collect data from this collection in the background? How often? Background schedules are used when the Spotlight Overview page or drilldowns are not being viewed. The data is stored for Playback in the Playback Database.
 
-Keywords may be
+Keywords may be:
+
 Keyword | Description
 --------|------------
 Not collecting | Spotlight is not currently collecting data for this collection. This is configurable.
@@ -86,7 +87,7 @@ Optionally, apply this configuration to other connections.
 
 ### Save to Template  
 
-Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to **Delete** or **Rename** the template. For more information on Templates, see Configuration templates.
+Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to **Delete** or **Rename** the template. For more information on Templates, see [Configuration templates][enterprise_cfgmonitor_templates].
 
 
 ## Close the dialog

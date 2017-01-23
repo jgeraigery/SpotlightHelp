@@ -11,7 +11,7 @@ folder: SpotlightEnterprise
 ## To open the alarm action dialog
 
 1. Click **Configure \| Alarm Actions**.
-2. Click New to create a new rule or select a rule and click **Edit**.
+2. Click **New** to create a new rule or select a rule and click **Edit**.
 
 ## Rules
 
@@ -23,7 +23,7 @@ For all alarms where the day of the week is Sunday or Saturday and the alarm sev
 ```
 {% endraw %}
 
-All the actions in the rule are executed when all the conditions in the rule are met. You may want to create many rules to ensure your requirements are met. To manage multiple rules and the order they are executed see Configure \| Alarm Actions.
+All the actions in the rule are executed when all the conditions in the rule are met. You may want to create many rules to ensure your requirements are met. To manage multiple rules and the order they are executed see [Configure \| Alarm Actions][enterprise_cfgmonitor_alarmactions].
 
 ### Name
 
@@ -37,7 +37,7 @@ Optionally, define one or more conditions for this alarm action rule. All action
 
 ### The alarm has been cleared
 
-Take action when the alarm severity returns to {% include inline_imageClient.html file="icon_alarm_green.png" alt="Normal" %} Normal. For more information, see Example Alarm Action Rules.
+Take action when the alarm severity returns to {% include inline_imageClient.html file="icon_alarm_green.png" alt="Normal" %} Normal.
 
 ### The alarm has existed for more than…
 
@@ -47,19 +47,17 @@ You define the period of time in hours, minutes or days. For example, take actio
 
 ### The alarm hasn't been acknowledged within…
 
-Take action when an alarm requiring acknowledgment has not been acknowledged for a specified period of time.
+Take action when an alarm requiring [acknowledgment][enterprise_alarm_acknowledge] has not been acknowledged for a specified period of time.
 
 You define the period of time: in hours, minutes or days.
 
-This condition is applicable to alarms requiring acknowledgment. Alarms are configured to require acknowledgment using Configure \| Alarms. For more information on alarm acknowledgment see Acknowledge.
+This condition is applicable to alarms requiring acknowledgment. Alarms are configured to require acknowledgment using [Configure \| Alarms][enterprise_cfgmonitor_alarms].
 
 ### The alarm is…
 
 Take action when the specified alarm is raised. If an alarm is not specified this rule applies to all alarms.
 
 Note the option to select "is" or "is not". Where "is not" is selected, take action for any alarm raised except the specified alarm.
-
-For more information on each alarm see About each alarm.
 
 ### The alarm severity is…
 
@@ -81,7 +79,7 @@ Take action when an alarm is raised against the specified connection type(s): An
 
 Take action when an alarm is raised against a connection with matching connection tag name.
 
-This condition is appropriate if your organization has defined tags for Spotlight connections. Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection. In the Modify Criteria dialog, use the drop down menu to select from tags currently assigned to connections on the Spotlight Diagnostic Server. For more information on tags, see Connection Properties \| Tags.
+This condition is appropriate if your organization has defined tags for Spotlight connections. Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection. In the Modify Criteria dialog, use the drop down menu to select from tags currently assigned to connections on the Spotlight Diagnostic Server. For more information on tags, see [Connection Properties \| Tags][enterprise_cfgmonitor_connect_tags].
 
 ### The date is…
 
@@ -99,17 +97,15 @@ Where multiple timezones are involved, the day of the week is as per the day on 
 
 ### The details contain…
 
-Take action when the Details column of the raised alarm(s) contains (or does not contain) one or more specific phrases.
+Take action when the **Details** column of the raised alarm(s) contains (or does not contain) one or more specific phrases.
 
-The Details column is as per the text displayed in the Details column of the Alarm log when the alarm is raised. To customize this text, see Configure \| Alarms.
+The Details column is as per the text displayed in the Details column of the Alarm log when the alarm is raised. To customize this text, see [Configure \| Alarms][enterprise_cfgmonitor_alarms].
 
 ### The Diagnostic Server is…
 
 Take action when the Spotlight Diagnostic Server is as selected.
 
-This option is applicable to a federated system. When a Spotlight Diagnostic Server joins a federation the condition "The Diagnostic Server is…" is added to every Alarm Action rule from that Spotlight Diagnostic Server. Do nothing if the Alarm Action rule is specific to that Spotlight Diagnostic Server. If the Alarm Action rule is applicable to the federation then you can remove the condition "The Diagnostic Server is…" and delete duplicate alarm actions.
-
-For more information, see Federate Diagnostic Servers.
+This option is applicable to a [federated system][enterprise_backend_federation]. When a Spotlight Diagnostic Server joins a federation the condition "The Diagnostic Server is…" is added to every Alarm Action rule from that Spotlight Diagnostic Server. Do nothing if the Alarm Action rule is specific to that Spotlight Diagnostic Server. If the Alarm Action rule is applicable to the federation then you can remove the condition "The Diagnostic Server is…" and delete duplicate alarm actions.
 
 ### The time of day is between…
 
@@ -135,15 +131,15 @@ If the alarm requires acknowledgment and has not been acknowledged, then this ac
 
 ### Execute a Powershell script
 
-Execute a Powershell script on the monitored server. The script is executed remotely using the username/password configured for the monitored Windows server. For more information, see Windows Server \| Connection Details.
+Execute a Powershell script on the monitored server. The script is executed remotely using the username/password configured for the monitored Windows server. For more information, see [Windows Server \| Connection Details][windows_connect_details].
 
-To use variables in your Powershell script see Alarms - Message Variables.
+To use variables in your Powershell script see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].
 
 ### Execute a SQL script
 
 Execute a SQL script on the monitored server. This action is applicable only to SQL Server connections. The script is executed under the username and password Spotlight uses to connect to the SQL Server.
 
-To use variables in your SQL script see Alarms - Message Variables for more information.
+To use variables in your SQL script see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables] for more information.
 
 ### Run a program
 
@@ -151,7 +147,7 @@ Execute a command line on the Spotlight Diagnostic server.
 
 When filling in the command line field:
 * File or path names that contain spaces should be enclosed in double quotes.
-* Use variables where applicable. For more information, see Alarms - Message Variables.
+* Use variables where applicable. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].
 * Here is an example. You can echo tag values as follows.
 
 #### Output to file
@@ -171,6 +167,7 @@ MSG /SERVER:<computer name> * "{{TAG_VALUE #tagname}}"
 {% endraw %}
 
 The behavior of the invoked program depends on the nature of the program.
+
 * It is recommended that you do not invoke a UI-based program in response to the alarm, as the program will run as a service on a remote host.
 * If the program that runs in response to an alarm is still executing when the alarm fires again, subsequent commands to run the program are ignored until that execution finishes.
 * If you attempt to stop Spotlight whilst a program or command line action is still executing, Spotlight will wait until that program or command line action has ended before stopping.
@@ -198,7 +195,7 @@ When multiple Spotlight Cloud account names are involved, separate each account 
 
 #### Message
 
-The push notification message. This can include variables. For more information, see Alarms - Message Variables.
+The push notification message. This can include variables. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].
 
 For more information on the receipt of these push notifications, refer to the Spotlight Mobile User Guide.
 
@@ -208,19 +205,23 @@ Send an email. Enter the target email address, subject line and content of the m
 
 You can create a default recipient list. For more information, see Configure the Diagnostic Server's mail server.
 
-To include text specific to the alarm in the email use variables. See Alarms - Message Variables.
+To include text specific to the alarm in the email use variables. See [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].
 
 ### Send PagerDuty incident
 
-Send the details of this alarm to PagerDuty®; PagerDuty can then be used to notify the appropriate people via SMS, email, phone calls and push notifications. Spotlight sends the following alarm details: the alarm name, connection name, the time the alarm was raised, the severity of the alarm, the alarm message and snooze status. Ensure the necessary instructions have been followed to integrate Spotlight with PagerDuty (Configure PagerDuty; PagerDuty; www.pagerduty.com/docs).
+Send the details of this alarm to PagerDuty; PagerDuty can then be used to notify the appropriate people via SMS, email, phone calls and push notifications. Spotlight sends the following alarm details: the alarm name, connection name, the time the alarm was raised, the severity of the alarm, the alarm message and snooze status. Ensure the necessary instructions have been followed to integrate Spotlight with PagerDuty:
+
+* [Configure PagerDuty][enterprise_cfgds_pagerduty]
+* [PagerDuty][enterprise_interface_pagerduty]
+* [www.pagerduty.com/docs](www.pagerduty.com/docs)
 
 ### Send SNMP Trap
 
-Generate an SNMP trap. The trap will be sent to the SNMP manager as configured on the page Configure the SNMP Trap. The SNMP trap can be viewed through third party software designed for that purpose. The trap contains the alarm name, time of the alarm, severity, Spotlight alarm message and connection name.
+Generate an SNMP trap. The trap will be sent to the SNMP manager as configured on the page [Configure the SNMP Trap][enterprise_cfgds_snmptrap]. The SNMP trap can be viewed through third party software designed for that purpose. The trap contains the alarm name, time of the alarm, severity, Spotlight alarm message and connection name.
 
 ### Stop processing further rules
 
-No further rules will be executed. Execute this rule to completion first. For more information, see Example Alarm Action Rules.
+No further rules will be executed. Execute this rule to completion first. For more information, see Example [Alarm Action Rules][enterprise_cfgmonitor_alarmactions].
 
 ### Suppress the alarm
 
@@ -244,7 +245,7 @@ Level is one of: Success, Error, Warning, Information.
 
 #### Message
 
-Message can include variables. For more information, see Alarms - Message Variables.
+Message can include variables. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].
 
 
 

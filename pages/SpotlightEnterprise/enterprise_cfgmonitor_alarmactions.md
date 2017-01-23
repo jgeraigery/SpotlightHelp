@@ -19,11 +19,11 @@ Click **Configure \| Alarm Actions**.
 
 ## New rule
 
-Click New to create a new rule. This opens the Alarm Action Dialog. A rule is made up of conditions and actions. ALL actions of the rule are executed when ALL conditions of the rule are met. You may want to create many rules to ensure your requirements are met.
+Click **New** to create a new rule. This opens the [Alarm Action Dialog][enterprise_cfgmonitor_alarmaction]. A rule is made up of conditions and actions. ALL actions of the rule are executed when ALL conditions of the rule are met. You may want to create many rules to ensure your requirements are met.
 
 ## Rule order
 
-Rules are executed in the order they are displayed in the Alarm Action Editor (top to bottom). Move rules up and down to re-organize them as appropriate. For examples see Example Alarm Action Rules.
+Rules are executed in the order they are displayed in the Alarm Action Editor (top to bottom). Move rules up and down to re-organize them as appropriate. For examples see [Example Alarm Action Rules][enterprise_cfgmonitor_alarmaction_example].
 
 ## Rule description
 
@@ -51,6 +51,6 @@ Move Down / Move Up | Rules are executed in the order they are listed in the Ala
 
 ## Federate Spotlight Diagnostic Servers
 
-In a federated system (Federate Diagnostic Servers) a rule may apply to one Spotlight Diagnostic Server or all Spotlight Diagnostic Server in the federation. When you create or modify the rule, use the Spotlight Diagnostic Server condition as appropriate.
+In a federated system a rule may apply to one Spotlight Diagnostic Server or all Spotlight Diagnostic Server in the federation. When you create or modify the rule, use the Spotlight Diagnostic Server condition as appropriate.
 
 {% include links.html %}

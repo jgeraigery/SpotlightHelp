@@ -110,7 +110,7 @@ A tag on the connection. Replace **#name** with the name of the tag. For example
 ```
 {% endraw %}
 
-This will be displayed as a comma separated list of the values for that tag. Tag names and values are assigned on the Connection Properties \| Tags.
+This will be displayed as a comma separated list of the values for that tag. Tag names and values are assigned on the [Connection Properties \| Tags][enterprise_cfgmonitor_connect_tags].
 
 ## If there is no matching tag,
 
@@ -128,7 +128,7 @@ will be replaced with the text
 ```
 {% endraw %}
 
-There are cases where additional variables are used in the Alarm Log \| Details column as defined in the Alarms Dialog. For example:
+There are cases where additional variables are used in the [Alarm Log][enterprise_display_alarmlog] \| **Details** column as defined in the [Alarms Dialog][enterprise_cfgmonitor_alarms]. For example:
 
 {% raw %}
 ```liquid
@@ -136,7 +136,7 @@ The data file {{SQLFiles.File}} ({{SQLFiles.path}}) in database {{SQLFiles.DBNam
 ```
 {% endraw %}
 
-The use of these variables is specific to the alarm they are used to describe. In the Alarms Dialog, you may copy and paste alarm descriptions including these variables from one severity to another. Further customized use of these variables is not recommended.
+The use of these variables is specific to the alarm they are used to describe. In the [Alarms Dialog][enterprise_cfgmonitor_alarms], you may copy and paste alarm descriptions including these variables from one severity to another. Further customized use of these variables is not recommended.
 
 
 {% include links.html %}
