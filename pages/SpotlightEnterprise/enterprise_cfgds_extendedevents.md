@@ -16,7 +16,7 @@ The Spotlight Diagnostic Server (by default) uses Extended Events to collect dat
 
 Use this screen to request that the Spotlight Diagnostic Server not use Extended Events to collect data from monitored SQL Server instances.
 
-{% include note.html content="This setting affects all SQL Server monitored through the Spotlight Diagnostic Server. To configure the use of Extended Events per monitored SQL Server, see SQL Server \| Connection Details." %}
+{% include note.html content="This setting affects all SQL Server monitored through the Spotlight Diagnostic Server. To configure the use of Extended Events per monitored SQL Server, see [SQL Server \| Connection Details][sqlserver_connect_details]." %}
 
 ## Open this screen from the Spotlight Client
 

@@ -46,7 +46,7 @@ Specify the name of the Playback Database. By default the name is **SpotlightPla
 
 ### Create
 
-Click **Create** to create a new Playback Database. For more information, see Create Playback Database dialog.
+Click **Create** to create a new Playback Database. For more information, see [Create Playback Database dialog][enterprise_cfgds_playbackdatabase_create].
 
 {% include tip.html content="If you want your Playback Database to have a different name to the default, type a new name in the Database field before you click the **Create** button." %}
 

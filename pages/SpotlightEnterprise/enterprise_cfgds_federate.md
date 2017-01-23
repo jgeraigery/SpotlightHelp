@@ -109,7 +109,7 @@ The Configuration server should have a reliable and fast Internet connection to 
 To remove a Spotlight Diagnostic Server from the federation:
 
 1. Select the Spotlight Diagnostic Server from the list.
-2. Click Remove to remove the Spotlight Diagnostic Server from the federation.
+2. Click **Remove** to remove the Spotlight Diagnostic Server from the federation.
 3. Confirm your request to remove the Spotlight Diagnostic Server.
 
 ### The federation now a Spotlight Diagnostic Server has been removed

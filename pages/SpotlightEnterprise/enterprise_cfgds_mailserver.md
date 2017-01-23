@@ -18,7 +18,7 @@ For federated Spotlight Diagnostic Server you will be prompted to select the Spo
 
 ## Click Configure Mail Server...
 
-Open the SMTP Mail Options dialog.
+Open the [SMTP Mail Options dialog][enterprise_cfgds_mailserver_smtpoptions].
 
 
 

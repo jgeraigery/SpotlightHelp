@@ -12,9 +12,9 @@ folder: SpotlightEnterprise
 
 ## PagerDuty and Spotlight
 
-Prior to following these instructions ensure you have your PagerDuty API Access Key and Service API key. The instructions in the Spotlight Enterprise Integration Guide on the PagerDuty web site provide you with the necessary steps: www.pagerduty.com/docs. PagerDuty is a third party product (www.pagerduty.com).
+Prior to following these instructions ensure you have your PagerDuty API Access Key and Service API key. The instructions in the Spotlight Enterprise Integration Guide on the PagerDuty web site provide you with the necessary steps: [www.pagerduty.com/docs](https://www.pagerduty.com/docs). PagerDuty is a third party product ([www.pagerduty.com](https://www.pagerduty.com/)).
 
-The Spotlight Diagnostic Server requires Internet access in order to fulfill on **Configure \| Alarm Actions \| Alarm Action \| Send PagerDuty incident**.
+The Spotlight Diagnostic Server requires Internet access in order to fulfill on [Configure \| Alarm Actions \| Alarm Action \| Send PagerDuty incident][enterprise_cfgmonitor_alarmaction].
 
 ## Open this screen from the Spotlight Client
 
@@ -40,7 +40,7 @@ The Service API Key links the Spotlight Diagnostic Server to the PagerDuty servi
 
 Click **Trigger Test Incident** to verify the Spotlight Diagnostic Server can successfully send an incident report to PagerDuty.
 
-{% include note.html content="PagerDuty receives incident reports from the Spotlight Diagnostic Server according to the Alarm Action Rules set in the Alarm Action Editor. No incident reports are sent until you create and enable appropriate rules. See Configure \| Alarm Actions." %}
+{% include note.html content="PagerDuty receives incident reports from the Spotlight Diagnostic Server according to the Alarm Action Rules set in the Alarm Action Editor. No incident reports are sent until you create and enable appropriate rules. See [Configure \| Alarm Actions][enterprise_cfgmonitor_alarmactions]." %}
 
 
 

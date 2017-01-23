@@ -8,7 +8,7 @@ folder: SpotlightEnterprise
 ---
 
 
-It is highly recommended that regular maintenance is performed to maintain efficient data retrieval. Scheduling automatic maintenance is just one step in the recommended maintenance plan. For more information, see Maintenance plan for Spotlight Statistics Repository and Playback Database.
+It is highly recommended that regular maintenance is performed to maintain efficient data retrieval. Scheduling automatic maintenance is just one step in the recommended maintenance plan. For more information, see [Maintenance plan for Spotlight Statistics Repository and Playback Database][enterprise_backend_maintenanceplan].
 
 ## Configure the database maintenance schedule from the Spotlight Client
 
