@@ -15,7 +15,7 @@ folder: SpotlightEnterprise
 From the Spotlight Client
 
 1. Click **Configure \| Connections**.
-2. Double click **Add new connection**. You may be prompted to enter **New Connection Details**.
+2. Double click **Add new connection**. You may be prompted to fill in the [New Connection Details dialog][enterprise_cfgmonitor_connect_newdetails].
 3. You will be prompted to fill in the connection properties.
 
 The connection properties for a new connection are entered on two tabs: **Details** and **Tags**. The connection details are required. The details are dependent on the connection type.
@@ -76,7 +76,7 @@ The connection **Details** are  dependent on the connection type.
 
 Replace / add / delete [Tags][enterprise_cfgmonitor_connect_tags] for the connection. Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.
 
-Use the [Monitoring][enterprise_cfgmonitor_connect_monitoring] tab to edit connection monitoring settings.
+Use the [Monitoring][enterprise_cfgmonitor_connect_monitor] tab to edit connection monitoring settings.
 
 ## Delete the connection
 

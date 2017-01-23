@@ -23,11 +23,11 @@ When selected, Spotlight compiles a list of resources on the network. From this 
 
 Depending on the size of your network it may take some time for Spotlight to discover all the available resources.
 
-Note: To locate SQL Server instances, Spotlight requires SQL Server Client tools be installed on both the Spotlight Client and Spotlight Diagnostic Server. If Spotlight finds no SQL Server instances then verify SQL Server Client Tools are installed. For more information, see SQL Server Client Tools.
+{% include tip.html content="To locate SQL Server instances, Spotlight requires SQL Server Client tools be installed on both the Spotlight Client and Spotlight Diagnostic Server. If Spotlight finds no SQL Server instances then verify SQL Server Client Tools are installed. The SQL Server Client Tools that you need can be found on the installation disk for Microsoft SQL Server 2000 or later." %}
 
 ### Import from a file
 
-When selected, Spotlight uses a file to locate SQL Server or Windows Server on your network. Setup the file beforehand as per the following instructions. Click Browse to locate the file.
+When selected, Spotlight uses a file to locate SQL Server or Windows Server on your network. Setup the file beforehand as per the following instructions. Click **Browse** to locate the file.
 
 
 ## Setup your import file to locate SQL Server instances on your network
@@ -74,15 +74,9 @@ Example tag names could be:
 * #APP.Finance
 * #APP.HR
 
-For more information, see Connection Properties \| Tags.
+For more information, see [Connection Properties \| Tags][enterprise_cfgmonitor_connect_tags].
 
-TIP: If you re-import the same file with updated tags, Spotlight will skip the connection creation step but update the tags for the connection.
-
-
-
-
-
-
+{% include tip.html content="If you re-import the same file with updated tags, Spotlight will skip the connection creation step but update the tags for the connection." %}
 
 ## Setup your import file  to locate Windows Server on your network
 
@@ -128,13 +122,11 @@ Example tag names could be:
 * #Country.USA
 * #Country.AU
 
-For more information, see Connection Properties \| Tags.
+For more information, see [Connection Properties \| Tags][enterprise_cfgmonitor_connect_tags].
 
+{% include tip.html content="If you re-import the same file with updated tags, Spotlight will skip the connection creation step but update the tags for the connection." %}
 
-TIP: If you re-import the same file with updated tags, Spotlight will skip the connection creation step but update the tags.
-
-NOTE: If a field in the file contains a comma, use "" to quote the value (as per CSV notation).
-
+{% include note.html content="If a field in the file contains a comma, use \"\" to quote the value (as per CSV notation)." %}
 
 
 ## Limitations

@@ -10,82 +10,47 @@ folder: SpotlightEnterprise
 
 
 
-## From the Spotlight Client
+## How to open this dialog from the Spotlight Client
 
 1. Click **Configure \| Connections**.
 2. Right-click the connection and select **Properties \| Monitoring**.
-3. Select monitoring options
 
-Note: The visibility of some of these options is dependent on connection type.
 
-## Monitor this server
+## Select from the following monitoring options.
 
-Selected | Monitor this connection.
-Not Selected | Do not monitor this connection. No new data is collected and therefore no alarms are raised. Existing data in the Playback Database and Spotlight Statistics Repository is preserved.
+{% include note.html content="The visibility of some of these options is dependent on connection type." %}
 
-## Alarms
+### Monitor this server
 
-Configure the alarm settings. For more information, see Configure \| Alarms.
+Select to monitor this connection using Spotlight Enterprise.
 
-## Schedules
+When not selected, no new data is collected by Spotlight Enterprise and therefore no alarms are raised. Existing data in the Playback Database and Spotlight Statistics Repository is preserved.
 
-Customize how often data is collected. For more information, see Configure \| Scheduling.
+### Alarms
 
-## Error Log Entries
+Configure the alarm settings. For more information, see [Configure \| Alarms][enterprise_cfgmonitor_alarms].
 
-Request Spotlight raise an alarm when certain SQL error log entries are logged. For more information, see Configure \| Error Log Entries.
+### Schedules
 
-## SQL Server Response Time
+Customize how often data is collected. For more information, see [Configure \| Scheduling][enterprise_cfgmonitor_scheduling].
+
+### Error Log Entries
+
+Request Spotlight raise an alarm when certain SQL error log entries are logged. For more information, see [Configure \| Error Log Entries][enterprise_cfgmonitor_errorlogentries].
+
+### SQL Server Response Time
 
 Set the SQL statement that is used to measure SQL Server response time.
 
-The response time itself can be viewed in the SQL Server \| SQL Activity Drilldown and the SQL Server \| Spotlight Overview page. For more information, see Configure \| SQL Server Response Time.
+The response time itself can be viewed in the **SQL Server \| SQL Activity** drilldown and the **SQL Server \| Spotlight Overview** page. For more information, see [Configure \| SQL Server Response Time][enterprise_cfgmonitor_sqlserverresponsetime].
 
-## SQL Analysis Filters
+### SQL Analysis Filters
 
-Enable SQL Analysis. Configure the filters used to gather SQL Analysis data. For more information, see Configure \| SQL Analysis.
+Enable SQL Analysis. Configure the filters used to gather SQL Analysis data. For more information, see [Configure \| SQL Analysis][enterprise_cfgmonitor_sqlanalysis].
 
-## Monitored Files
+### Monitored Files
 
-Track the growth of files (usually log files) on monitored Windows Servers. For more information, see Configure \| Monitored Files.
+Track the growth of files (usually log files) on monitored Windows Servers. For more information, see [Configure \| Monitored Files][enterprise_cfgmonitor_monitoredfiles].
 
-
-
-
-
-From the left hand side of the Spotlight Client window, expand the connection type or custom view to list connections by name.
-
-
-## Open the Spotlight Overview page for the connection
-
-Click on the connection name in the Connections pane to show the Spotlight Overview page for the connection.
-
-## Configure the Spotlight Connection
-
-Right click on the connection name in the Connections pane and select **Connection Manager**.
-
-## Show the Spotlight Connection in Spotlight Today
-
-Right click on the connection name in the Connections pane and select **Spotlight Today**.
-
-## Show the Spotlight Connection in the Alarm Log
-
-Right click on the connection name in the Connections pane and select **Alarm Log**.
-
-## Show the Spotlight Connection in Alarms by Time
-
-Right click on the connection name in the Connections pane and select **Alarms by Time**.
-
-## Disable monitoring of the Spotlight Connection
-
-Right click on the connection name in the Connections pane and select **Disable Monitoring**.
-
-## During a Planned Outage, resume monitoring this connection before the end of the scheduled time
-
-Right click on the connection name in the Connections pane and select **Resume Monitoring**.
-
-## Show / edit the connection properties of the Spotlight Connection
-
-Right click on the connection name in the Connections pane and select **Properties**.
 
 {% include links.html %}

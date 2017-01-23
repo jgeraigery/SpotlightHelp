@@ -388,10 +388,6 @@ entries:
           url: /enterprise_cfgmonitor_connect.html
           output: web, pdf
 
-        - title: Enter / Edit Connection details
-          url: /enterprise_cfgmonitor_connect_details.html
-          output: web, pdf
-
         - title: Connection tags
           url: /enterprise_cfgmonitor_connect_tags.html
           output: web, pdf
@@ -402,14 +398,6 @@ entries:
 
         - title: Connection Discovery Wizard
           url: /enterprise_cfgmonitor_connect_discoverywizard.html
-          output: web, pdf
-
-        - title: SQL Server Client Tools
-          url: /enterprise_cfgmonitor_connect_sqlserverclienttools.html
-          output: web, pdf
-
-        - title: New Connection Details
-          url: /enterprise_cfgmonitor_connect_newdetails.html
           output: web, pdf
 
         - title: Command line access

@@ -26,3 +26,13 @@ entries:
     - title: Restore default settings for Spotlight Charts and Grids
       url: /enterprise_display_chartsgrids_restore.html
 
+    - title: Enter / Edit Connection details
+      url: /enterprise_cfgmonitor_connect_details.html
+
+    - title: SQL Server Client Tools
+      url: /enterprise_cfgmonitor_connect_sqlserverclienttools.html
+
+    - title: New Connection Details
+      url: /enterprise_cfgmonitor_connect_newdetails.html
+
+

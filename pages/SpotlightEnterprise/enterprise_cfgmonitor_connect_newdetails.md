@@ -12,7 +12,7 @@ folder: SpotlightEnterprise
 
 ## Select Diagnostic Server
 
-In a federated system you will be prompted to select the Spotlight Diagnostic Server. The new connection will be monitored by this Spotlight Diagnostic Server.
+In a federated system you will be prompted to select the Spotlight Diagnostic Server. 
 
 Notes on this are as follows:
 
