@@ -35,4 +35,6 @@ entries:
     - title: New Connection Details
       url: /enterprise_cfgmonitor_connect_newdetails.html
 
+    - title: Baselining intervals
+      url: /enterprise_display_chartsbaselining_intervals.html
 
