@@ -10,11 +10,9 @@ folder: SpotlightEnterprise
 
 
 
-## To open the alarm action editor
+## Open the alarm action editor
 
-Click **Configure \| Alarm Actions**.
-
-
+Open the Alarm Action Editor from the Spotlight Client. Click **Configure \| Alarm Actions**.
 
 
 ## New rule

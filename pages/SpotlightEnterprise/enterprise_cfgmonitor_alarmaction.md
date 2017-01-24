@@ -1,6 +1,6 @@
 ---
-title: Configure alarm action
-summary: "Apply the configuration of a template or connection to one or more connections."
+title: Configure Alarm Action
+summary: "Setup actions for Spotlight to take when an alarm is raised. The actions Spotlight can take include running a program and sending an email. Conditions on taking the action can be defined, such as the day of the week, the time of day, the severity of the alarm, the alarm type and the connection type."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_alarmaction.html
 id: 221
@@ -8,7 +8,9 @@ folder: SpotlightEnterprise
 ---
 
 
-## To open the alarm action dialog
+## Open the Alarm Action dialog
+
+Open the Alarm Action dialog from the Spotlight Client.
 
 1. Click **Configure \| Alarm Actions**.
 2. Click **New** to create a new rule or select a rule and click **Edit**.
@@ -69,7 +71,7 @@ Take action when the alarm is raised against the specified connection(s).
 
 Note the option to select "is" or "is not". Where "is not" is selected, take action when the alarm is raised on any connection except the connection specified.
 
-Refer to the guidelines for The Connection is… The guidelines are designed to support a smooth running system. Note that the organization of rules in the Alarm Action Editor can be the difference between a smooth running system and an excessive duplication of actions (such as sending of emails).
+Refer to the guidelines for [The Connection is…][enterprise_cfgmonitor_alarmaction_connectionis] The guidelines are designed to support a smooth running system. Note that the organization of rules in the Alarm Action Editor can be the difference between a smooth running system and an excessive duplication of actions (such as sending of emails).
 
 ### The connection type is…
 
@@ -201,9 +203,9 @@ For more information on the receipt of these push notifications, refer to the Sp
 
 ### Send email to
 
-Send an email. Enter the target email address, subject line and content of the message to be sent. For more information, see Send email to....
+Send an email. Enter the target email address, subject line and content of the message to be sent. For more information, see [Send email to....][enterprise_cfgmonitor_alarmaction_sendemail]
 
-You can create a default recipient list. For more information, see Configure the Diagnostic Server's mail server.
+You can create a default recipient list. For more information, see [Configure the Diagnostic Server's mail server][enterprise_cfgds_mailserver].
 
 To include text specific to the alarm in the email use variables. See [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].
 

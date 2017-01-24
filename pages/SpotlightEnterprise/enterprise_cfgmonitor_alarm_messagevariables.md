@@ -1,6 +1,6 @@
 ---
 title: Alarms - Message Variables
-summary: "These variables provide useful information in describing an alarm. Message variables are used in the Alarm Action Dialog and the Details column of the Alarm log. The text in the Alarm Log | Details column is defined and can be modified in Configure an alarm."
+summary: "These variables provide useful information in describing an alarm. Message variables are used in the Alarm Action Dialog and the Details column of the Alarm log."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_alarm_messagevariables.html
 folder: SpotlightEnterprise
@@ -110,7 +110,7 @@ A tag on the connection. Replace **#name** with the name of the tag. For example
 ```
 {% endraw %}
 
-This will be displayed as a comma separated list of the values for that tag. Tag names and values are assigned on the [Connection Properties \| Tags][enterprise_cfgmonitor_connect_tags].
+This will be displayed as a comma separated list of the values for that tag. Tag names and values are assigned on [Connection Properties \| Tags][enterprise_cfgmonitor_connect_tags].
 
 #### If there is no matching tag
 
