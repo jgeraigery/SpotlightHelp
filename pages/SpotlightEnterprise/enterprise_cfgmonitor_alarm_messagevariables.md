@@ -112,7 +112,7 @@ A tag on the connection. Replace **#name** with the name of the tag. For example
 
 This will be displayed as a comma separated list of the values for that tag. Tag names and values are assigned on the [Connection Properties \| Tags][enterprise_cfgmonitor_connect_tags].
 
-## If there is no matching tag,
+#### If there is no matching tag
 
 {% raw %}
 ```liquid
@@ -127,6 +127,8 @@ will be replaced with the text
 #name not found.
 ```
 {% endraw %}
+
+## Other Variables
 
 There are cases where additional variables are used in the [Alarm Log][enterprise_display_alarmlog] \| **Details** column as defined in the [Alarms Dialog][enterprise_cfgmonitor_alarms]. For example:
 

@@ -38,3 +38,8 @@ entries:
     - title: Baselining intervals
       url: /enterprise_display_chartsbaselining_intervals.html
 
+    - title: Remove Many Connections
+      url: /enterprise_connect_commandline.html#RemoveManyConnections
+
+    - title: Add a list of Connections
+      url: /enterprise_connect_commandline.html#AddAListOfConnections

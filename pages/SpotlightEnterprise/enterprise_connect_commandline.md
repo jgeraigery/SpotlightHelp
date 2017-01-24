@@ -10,9 +10,13 @@ folder: SpotlightEnterprise
 
 ## 1. Access Spotlight from the command line
 
-1. Open the Spotlight Client installation directory (usually C:\Program Files (x86)\Quest Software\Spotlight on SQL Server)
-2. Open the Console directory in the Spotlight Client installation directory.
-3. Right click the file ds-cli.cmd and select Open to open the command prompt.
+1. Open the Spotlight Client installation directory, usually:
+    ```
+    C:\Program Files (x86)\Quest Software\Spotlight on SQL Server
+    ```
+
+2. Open the **Console** directory in the Spotlight Client installation directory.
+3. Right click the file **ds-cli.cmd** and select **Open** to open the command prompt.
 
 ## 2. Command Spotlight from the command line
 
@@ -32,7 +36,7 @@ Get-Connection
 
 ### Delete a Spotlight connection
 
-See also Remove many connections.
+See also [Remove many connections](#RemoveManyConnections).
 
 ```
 Remove-Connection -Name connectionName -PassThru
@@ -44,7 +48,7 @@ Remove-Connection -Name connectionName -PassThru
 
 #### Windows authentication (using Diagnostic Server credentials)
 
-See also Add a list of connections.
+See also [Add a list of connections](#AddAListOfConnections).
 
 ```
 Add-Connection -Address address -Technology connectionType -Enabled -PassThru
@@ -56,7 +60,7 @@ Add-Connection -Address address -Technology connectionType -Enabled -PassThru
 
 #### Supply User / Password details as per the connection type
 
-See also Add a list of connections.
+See also [Add a list of connections](#AddAListOfConnections).
 
 ```
 Add-Connection -Credential $(get-credential) -Address address -Technology connectionType -Enabled -PassThru
@@ -101,15 +105,15 @@ Get-Connection -Name connectionName | Set-Connection -Enabled
 
 Supply the name of the connection.
 
-Note: The connection name is not user-assignable. When executing Add-Connection from the command line, the connection name will take the form of the address followed by the connection type, as in address_connectionType
+{% include note.html content="The connection name is not user-assignable. When executing Add-Connection from the command line, the connection name will take the form of the address followed by the connection type, as in address_connectionType" %}
 
 Connection names are not case sensitive.
 
-TIP: A list of connection names can be summarized by wildcards * and ? as per prefix* or *infix* or on?char.
+{% include tip.html content="A list of connection names can be summarized by wildcards * and ? as per prefix* or \*infix\* or on?char." %}
 
 ### -Address address
 
-Supply the address of the Spotlight connection as per the form of the address entered in the Spotlight Client \| Configure Connections \| Properties \| Details \| Address field. For example: the Server Name, Server Instance Name, or IP address.
+Supply the address of the Spotlight connection as per the form of the address entered in the **Spotlight Client \| Configure Connections \| Properties \| Details \| Address field**. For example: the Server Name, Server Instance Name, or IP address.
 
 ### -Technology connectionType
 
@@ -146,7 +150,7 @@ Enable Spotlight monitoring on this connection.
 Disable Spotlight monitoring on this connection.
 
 
-## Add a list of connections
+## Add a list of connections {#AddAListOfConnections}
 
 Add a list of connections where all connections are of the same technology / connection type. Separate each address with a comma. Supply one technology type.
 
@@ -161,7 +165,7 @@ Add-Connection -Address address1,address2,address3 -Technology connectionType1,c
 ```
 
 
-## Remove many connections
+## Remove many connections {#RemoveManyConnections}
 
 Remove all connections
 

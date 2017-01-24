@@ -34,20 +34,27 @@ When selected, Spotlight uses a file to locate SQL Server or Windows Server on y
 
 On each line of the file, detail an existing SQL Server instance on your network. The format of the line is dependent on the authentication used to connect to the SQL Server instance and your use of connection tags.
 
-
-### ConnectionString
+```
+ConnectionString
+```
 
 Connect to this SQL Server instance with Windows authentication. The credentials of the Windows user configured to run the Spotlight Diagnostic Server are used.
 
-### ConnectionString,User,Password
+```
+ConnectionString,User,Password
+```
 
 Connect to this SQL Server instance with database user and password. Specify the database user and password.
 
-### ConnectionString,,,#Tag
+```
+ConnectionString,,,#Tag
+```
 
 Connect to this SQL Server instance with Windows authentication. The credentials of the Windows user configured to run the Spotlight Diagnostic Server are used. Assign one or more connection tags to the instance. Add multiple tags to the line by separating each tag with a comma.
 
-### ConnectionString,User,Password,#Tag
+```
+ConnectionString,User,Password,#Tag
+```
 
 Connect to this SQL Server instance with the database user and password. Assign one or more connection tags to the instance. Add multiple tags to the line by separating each tag with a comma.
 
@@ -78,24 +85,32 @@ For more information, see [Connection Properties \| Tags][enterprise_cfgmonitor_
 
 {% include tip.html content="If you re-import the same file with updated tags, Spotlight will skip the connection creation step but update the tags for the connection." %}
 
-## Setup your import file  to locate Windows Server on your network
+## Setup your import file to locate Windows Server on your network
 
 On each line of the file, detail an existing Windows Server on your network. The format of the line is dependent on the authentication used to connect to the Windows Server instance and your use of connection tags.
 
 
-### ConnectionString
+```
+ConnectionString
+```
 
 Log in to this Windows Server using the credentials of the Windows user configured to run the Spotlight Diagnostic Server.
 
-### ConnectionString,User,Password
+```
+ConnectionString,User,Password
+```
 
 Log in to this Windows Server using the given user and password.
 
-### ConnectionString,,,#Tag
+```
+ConnectionString,,,#Tag
+```
 
 Log in to this Windows Server using the credentials of the Windows user configured to run the Spotlight Diagnostic Server. Assign one or more connection tags. Add multiple tags to the line by separating each tag with a comma.
 
-### ConnectionString,User,Password,#Tag
+```
+ConnectionString,User,Password,#Tag
+```
 
 Log in to this Windows Server using the given user and password. Assign one or more connection tags. Add multiple tags to the line by separating each tag with a comma.
 

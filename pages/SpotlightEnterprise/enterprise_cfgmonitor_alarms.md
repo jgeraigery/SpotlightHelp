@@ -48,7 +48,7 @@ Name | The name of the alarm.
 Type | The alarm applies to this connection type.
 Modified | Yes if the alarm is set to other than the Factory Settings.
 
-Double click on an alarm to configure the alarm.
+Double click on an alarm to [configure the alarm][enterprise_cfgmonitor_alarm].
 
 Information about each alarm is documented under the connection type.
 
