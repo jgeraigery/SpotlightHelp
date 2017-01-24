@@ -1,6 +1,5 @@
 ---
 title: Configure PagerDuty
-tags: [PagerDuty]
 summary: "Enter PagerDuty account details for the Spotlight Diagnostic Server (to fulfill on Configure | Alarm Actions | Alarm Action | Send PagerDuty incident)."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgds_pagerduty.html

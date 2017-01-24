@@ -28,26 +28,15 @@ If you clear **Upload data to Spotlight Cloud** then Spotlight Cloud services ar
 
 Enter Spotlight Cloud (Spotlight Essentials) account details (**Email** or **Username**, **Password**). This section must be filled in when uploading of data to the Spotlight Cloud is enabled. Once filled in, the email (or username) signed in under is provided.
 
-Click **Register Now** to create a Spotlight Cloud account if you do not already have one. Registration is free.
+Click (Register Now](https://www.spotlightessentials.com/home/signup) to create a Spotlight Cloud account if you do not already have one. Registration is free.
 
 
 ## Additional references
 
-### Spotlight Cloud Services
-
-The Spotlight web site.
-
-### Spotlight Mobile
-
-Download, setup and install Spotlight Mobile.
-
-### Register now
-
-Register for a Spotlight Cloud Services account
-
-### Spotlight terms of service
-
-Spotlight Services Agreement
+[Spotlight Cloud Services](https://www.spotlightessentials.com/) | The Spotlight web site.
+[Spotlight Mobile](https://www.spotlightessentials.com/spotlight/mobile-monitoring) | Download, setup and install Spotlight Mobile.
+[Register now](https://www.spotlightessentials.com/home/signup) | Register for a Spotlight Cloud Services account
+[Spotlight terms of service](https://www.spotlightessentials.com/static/terms) | Spotlight Services Agreement
 
 ## Upgrades from Spotlight on SQL Server 11.0 or earlier and Spotlight Mobile
 

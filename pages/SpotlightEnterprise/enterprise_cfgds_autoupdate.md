@@ -11,7 +11,7 @@ folder: SpotlightEnterprise
 
 ## Auto update and your Spotlight deployment
 
-When auto-update is enabled the Spotlight Diagnostic Server must have Internet access. An outgoing HTTPS connection to the following URL is used to retrieve updates: [https://spotlight.blob.core.windows.net](https://spotlight.blob.core.windows.net)
+When auto-update is enabled the Spotlight Diagnostic Server must have Internet access. An outgoing HTTPS connection to the following URL is used to retrieve updates: **https://spotlight.blob.core.windows.net**
 
 {% include note.html content="Enabling of Auto-update does not open a port that allows incoming connections." %}
 

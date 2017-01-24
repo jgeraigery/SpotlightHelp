@@ -213,7 +213,7 @@ Send the details of this alarm to PagerDuty; PagerDuty can then be used to notif
 
 * [Configure PagerDuty][enterprise_cfgds_pagerduty]
 * [PagerDuty][enterprise_interface_pagerduty]
-* [www.pagerduty.com/docs](www.pagerduty.com/docs)
+* [www.pagerduty.com/docs](https://www.pagerduty.com/docs)
 
 ### Send SNMP Trap
 

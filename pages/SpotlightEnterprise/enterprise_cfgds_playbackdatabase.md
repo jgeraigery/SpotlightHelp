@@ -14,11 +14,9 @@ folder: SpotlightEnterprise
 1. Click **Configure \| Diagnostic server**.
 2. Select **Configure the Playback Database**.
 
-In the Spotlight deployment the Spotlight Client communicates with the Spotlight Diagnostic Server which communicates with the Playback Database. One Playback Database is deployed per Spotlight Diagnostic Server.
-
 ## Select the Diagnostic Server
 
-For federated Spotlight Diagnostic Server you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server has its own Playback Database.
+For federated Spotlight Diagnostic Server you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server has an independently configured Playback Database.
 
 ## Configure the Playback Database
 

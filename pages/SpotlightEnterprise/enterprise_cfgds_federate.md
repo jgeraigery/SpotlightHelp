@@ -1,6 +1,6 @@
 ---
 title: Federate Diagnostic Server
-summary: "The Spotlight Client is connected to a federated system if more than one Spotlight Diagnostic Server is listed on this screen. For more information on a federated system, see Deployment of federated Spotlight Diagnostic Server."
+summary: "The Spotlight Client is connected to a federated system if more than one Spotlight Diagnostic Server is listed on this screen. Use this dialog to manage the Spotlight Diagnostic Server in the federation."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgds_federate.html
 id: 1011
@@ -9,7 +9,7 @@ folder: SpotlightEnterprise
 
 
 
-Use this screen to manage the Spotlight Diagnostic Server in the federation.
+
 
 ## Open this screen from the Spotlight Client
 
@@ -61,7 +61,9 @@ Note:
 
 * Each Spotlight Diagnostic Server in the federation must be running Spotlight version 11.6 or later.
 
-* Each Spotlight Diagnostic Server in the federation authenticates with one selected Spotlight Diagnostic Server in the federation (the Configuration server). Each Spotlight Diagnostic Server authenticates with the Configuration server using Windows authentication over TCP port 40303. The Windows account that each Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server. Spotlight Diagnostic Server running under the built in Windows accounts (local system or network service) cannot be federated.
+* Each Spotlight Diagnostic Server in the federation authenticates with one selected Spotlight Diagnostic Server in the federation (the Configuration server). Each Spotlight Diagnostic Server authenticates with the Configuration server using Windows authentication over TCP port 40303. The Windows account that each Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server.
+
+* Spotlight Diagnostic Server running under the built in Windows accounts (local system or network service) cannot be federated.
 
 * All Spotlight Clients in the federation retrieve monitoring information directly from the Spotlight Diagnostic Server. TCP port 3843 must be open for incoming connections from all Spotlight Diagnostic Server in the federation.
 
