@@ -1,7 +1,7 @@
 ---
 title: Configure Disks Display
 tags: [configure_monitoring,apply_configuration_to]
-summary: "Configure how disks are displayed on the Windows Server | Overview Page | Disks panel."
+summary: "Configure how disks are displayed on the Windows Server | Overview page | Disks panel."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_disksdisplay.html
 id: 404
@@ -12,7 +12,7 @@ folder: SpotlightEnterprise
 
 ## Configure the disks display from the Spotlight Client
 
-1. Select the Windows Server from Monitored connections.
+1. Select the Windows Server from the [Connections display][enterprise_connect_display].
 2. Click **Monitor \| Disks Display**.
 
 ## Configure
@@ -40,7 +40,7 @@ The number of disks to display.
 
 Enter the number of the disk you want to edit.
 
-Disks are numbered from top to bottom starting at one. The number of available disks depends on how many disks you have chosen to display on the main screen. (See the **Number of disks to show on home page** field.)
+Disks are numbered from top to bottom starting at one. The number of available disks depends on how many disks you have chosen to display on the main screen. (See the **Number of disks to show on Overview page** field.)
 
 ### Display information for
 

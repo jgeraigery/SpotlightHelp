@@ -12,16 +12,16 @@ folder: SpotlightEnterprise
 
 1. Open the Spotlight Configure page specific to the template you want to create (for example **Configure \| Alarms**). Any of the following Spotlight configurations can be saved to a template.
 
-<ul>
-{% assign sorted_pages = (site.pages | sort: 'title') %}
-{% for page in sorted_pages %}
-{% for tag in page.tags %}
-{% if tag == "apply_configuration_to" %}
-<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ul>
+    <ul>
+    {% assign sorted_pages = (site.pages | sort: 'title') %}
+    {% for page in sorted_pages %}
+    {% for tag in page.tags %}
+    {% if tag == "apply_configuration_to" %}
+    <li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+    </ul>
 
 2. Select a template or connection that will be the basis of the new template.
 3. Click **Save as Template** to open the **Save to Template dialog**. You have now created a new template based on the configuration of the selected connection or template.
@@ -42,8 +42,8 @@ folder: SpotlightEnterprise
 3. Click **Apply configuration to….**
 4. If you have made changes to the configuration then you will be prompted to save those changes to the template.
 5. For an alarm or scheduling configuration, Choose configurations to apply.
-6. Select the Spotlight connections to apply the configuration to. For more information, see Select connections.
-7. Preview changes to the configuration of the Spotlight connections. For more information, see Preview changes.
+6. Select the Spotlight connections to apply the configuration to. For more information, see [Select connections][enterprise_cfgmonitor_selectconnections].
+7. Preview changes to the configuration of the Spotlight connections. For more information, see [Preview changes][enterprise_cfgmonitor_applyconfig_preview].
 
 ## How modify a template
 

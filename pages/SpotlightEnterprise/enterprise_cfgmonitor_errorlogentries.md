@@ -9,7 +9,7 @@ folder: SpotlightEnterprise
 ---
 
 
-## How Spotlight treats matched entries
+## How Spotlight treats matched error log entries
 
 Matched entries raise the **Error Log - Error Count alarm** on the SQL Server \| Overview Page \| Background Processes panel \| Error Log button. More information on the matched entry is available from the [SQL Server \| Error Log drilldown][sqlserver_drilldown_errorlog].
 
