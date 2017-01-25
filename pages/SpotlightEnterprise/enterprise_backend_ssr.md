@@ -37,7 +37,7 @@ It is highly recommended that regular maintenance is performed to maintain effic
 
 ### Database Objects and Privileges
 
-Browse information on the Spotlight Statistics Repository User Privileges and Roles and Spotlight Statistics Repository Objects Created. [Database Objects and Privileges][enterprise_backend_dobjectsandprivileges]
+Browse information on the Spotlight Statistics Repository User Privileges and Roles and Spotlight Statistics Repository Objects Created. [Database Objects and Privileges][enterprise_backend_dbobjectsprivileges]
 
 ### Upgrade
 

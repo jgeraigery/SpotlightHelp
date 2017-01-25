@@ -37,7 +37,7 @@ It is highly recommended that regular maintenance is performed to maintain effic
 
 ### Database Objects and Privileges
 
-Browse information on the Playback Database User Privileges and Roles and Playback Database Objects Created. [Database Objects and Privileges][enterprise_backend_dobjectsandprivileges]
+Browse information on the Playback Database User Privileges and Roles and Playback Database Objects Created. [Database Objects and Privileges][enterprise_backend_dbobjectsprivileges]
 
 ### Upgrade
 

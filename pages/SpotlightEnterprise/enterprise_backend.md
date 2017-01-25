@@ -13,19 +13,19 @@ A minimal Spotlight Enterprise deployment consists of a Spotlight Diagnostic Ser
 
 ### Spotlight Diagnostic Server
 
-The Spotlight Diagnostic Server is at the core of the Spotlight Enterprise architecture. All Spotlight data passes through the Spotlight Diagnostic Server. The Spotlight Diagnostic Server is a Windows service. It runs under Windows credentials.
+The [Spotlight Diagnostic Server][enterprise_backend_ds] is at the core of the Spotlight Enterprise architecture. All Spotlight data passes through the Spotlight Diagnostic Server. The Spotlight Diagnostic Server is a Windows service. It runs under Windows credentials.
 
 ### Playback Database
 
-Recent history is stored in the Playback Database. The Playback Database is deployed on SQL Server. There is one Playback Database per Spotlight Diagnostic Server.
+Recent history is stored in the [Playback Database][enterprise_backend_playback]. The Playback Database is deployed on SQL Server. There is one Playback Database per Spotlight Diagnostic Server.
 
 ### Spotlight Statistics Repository
 
-Long term history for reporting and trending is stored in the Spotlight Statistics Repository. The Spotlight Statistics Repository is deployed on SQL Server. Deployment of the Spotlight Statistics Repository is optional per Spotlight Diagnostic Server.
+Long term history for reporting and trending is stored in the [Spotlight Statistics Repository][enterprise_backend_ssr]. The Spotlight Statistics Repository is deployed on SQL Server. Deployment of the Spotlight Statistics Repository is optional per Spotlight Diagnostic Server.
 
 ### Spotlight Cloud
 
-Upload health performance data to the Spotlight Cloud. Deployment of the Spotlight Cloud to collect and store data is optional per Spotlight Diagnostic Server.
+Upload health performance data to the [Spotlight Cloud][enterprise_backend_cloud]. Deployment of the Spotlight Cloud to collect and store data is optional per Spotlight Diagnostic Server.
 
 
 ## Deployment over the Windows network
@@ -34,11 +34,11 @@ A Spotlight Enterprise deployment consists of many components that may be spread
 
 ### Network ports
 
-Spotlight's ability to function, to collect and display data, may depend on account permissions granted over the network and specific open network ports.
+Spotlight's ability to function, to collect and display data, may depend on account permissions granted over the network and specific open [network ports][enterprise_backend_networkports].
 
 ### Spotlight diagnostic user groups
 
-Spotlight diagnostic user groups are Windows groups created on install of Spotlight. Spotlight uses these groups to authenticate Spotlight Client access to the Spotlight Diagnostic Server. Membership of these groups affects the Spotlight Client's ability to configure Spotlight and execute actions on monitored Windows Server and SQL Server instances.
+[Spotlight diagnostic user groups][enterprise_backend_spotlightdiagnosticusergroups] are Windows groups created on install of Spotlight. Spotlight uses these groups to authenticate Spotlight Client access to the Spotlight Diagnostic Server. Membership of these groups affects the Spotlight Client's ability to configure Spotlight and execute actions on monitored Windows Server and SQL Server instances.
 
 ### WMI
 

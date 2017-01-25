@@ -20,7 +20,9 @@ The user must have the appropriate privileges required to update the tables of t
 
 ## Spotlight Statistics Repository Objects Created
 
-The following repository objects are created by Spotlight Enterprise in the Spotlight Statistics Repository:spotlight_daily_ssr_maintenance
+The following repository objects are created by Spotlight Enterprise in the Spotlight Statistics Repository:
+
+spotlight_daily_ssr_maintenance
 
 spotlight_get_datasources
 
@@ -97,278 +99,99 @@ spotlight_ssr_upgrade_info
 spotlight_ssr_version
 
 
-
-
-
-
-OBJECT NAME
-
-OBJECT TYPE
-
-
-
+### Procedure Objects
 
 spotlight_daily_ssr_maintenance
 
-Procedure
-
-
-
 spotlight_get_datasources
-
-Procedure
-
-
 
 spotlight_get_domains
 
-Procedure
-
-
-
 spotlight_get_monitored_objects
-
-Procedure
-
-
 
 spotlight_get_table_columns
 
-Procedure
-
-
-
 spotlight_get_table_data_instance
-
-Procedure
-
-
 
 spotlight_get_table_keys
 
-Procedure
-
-
-
 spotlight_get_table_range
-
-Procedure
-
-
 
 spotlight_get_table_span
 
-Procedure
-
-
-
 spotlight_get_tables
-
-Procedure
-
-
 
 spotlight_get_technologies
 
-Procedure
-
-
-
 spotlight_rep_alarms
-
-Procedure
-
-
 
 spotlight_rep_cache_hit_ratios
 
-Procedure
-
-
-
 spotlight_rep_cpu_utilization
-
-Procedure
-
-
 
 spotlight_rep_disk_growth
 
-Procedure
-
-
-
 spotlight_rep_disk_statistics
-
-Procedure
-
-
 
 spotlight_rep_growth_data_files
 
-Procedure
-
-
-
 spotlight_rep_sql_batches_rate
-
-Procedure
-
-
 
 spotlight_rep_top_sql
 
-Procedure
-
-
-
 spotlight_rep_top_sql_summary
-
-Procedure
-
-
 
 spotlight_rt_get_aggregated_workload_analysis
 
-Procedure
-
-
-
 spotlight_rt_get_allsqlagentjobs
-
-Procedure
-
-
 
 spotlight_rt_get_batch_data
 
-Procedure
-
-
-
 spotlight_rt_get_custom_counter
-
-Procedure
-
-
 
 spotlight_rt_get_failedsqlagentjobs
 
-Procedure
-
-
-
 spotlight_rt_get_fileio_stats
-
-Procedure
-
-
 
 spotlight_rt_get_mostcommonblock
 
-Procedure
-
-
-
 spotlight_rt_get_point_data
-
-Procedure
-
-
 
 spotlight_rt_get_point_data_top
 
-Procedure
-
-
-
 spotlight_rt_get_sqlblockedmost
-
-Procedure
-
-
 
 spotlight_rt_get_sqlblockingmost
 
-Procedure
-
-
-
 spotlight_rt_get_waitstats
-
-Procedure
-
-
 
 spotlight_sqlanalysis_results
 
-Procedure
-
-
-
 spotlight_ssr_upgrade_info
-
-Procedure
-
-
 
 spotlight_ssr_version
 
-Procedure
 
-
+### Table Objects
 
 spotlight_datasources
 
-Table
-
-
-
 spotlight_domains
-
-Table
-
-
 
 spotlight_monitored_objects
 
-Table
-
-
-
 spotlight_perfdata
-
-Table
-
-
 
 spotlight_stat_classes
 
-Table
-
-
-
 spotlight_stat_keys
-
-Table
-
-
 
 spotlight_stat_names
 
-Table
-
-
-
 spotlight_technologies
-
-Table
-
-
 
 spotlight_timestamps
 
-Table
 
 
 ## Playback Database User Privileges and Roles
@@ -380,44 +203,20 @@ The user must have the appropriate privileges required to update the table of th
 The following repository objects are created by Spotlight Enterprise in the playback database:
 
 
-
-
-
-
-OBJECT NAME
-
-OBJECT TYPE
-
-
-
+### Procedure Objects
 
 spotlight_daily_pb_maintenance
 
-Procedure
-
-
-
 spotlight_playback_version
 
-Procedure
 
-
+### Table Objects
 
 spotlight_playback_alarms
 
-Table
-
-
-
 spotlight_playback_data
 
-Table
-
-
-
 spotlight_playback_states
-
-Table
 
 
 ## Privileges / Grants Created
