@@ -55,31 +55,8 @@ If a connection is deleted, data for the deleted connection is stored in the Spo
 * Not all collections run both schedules. Some collections cannot be set to record data for reporting as they either gather too much data or there is no value in the data for the purposes of reporting. Other collections run only for reporting and are therefore not run in background mode.
 * Before you change the scheduling configurations you may like to backup the current schedules. You can do this by backing up the \\Agent\\Conf folder in the Spotlight Diagnostic Server installation folder.
 * The schedules of some collections cannot be modified.
-
-The following collections are used for displays (alarms, Spotlight Overview page components and drilldowns).
-
-
-## Note:
-
-Background collection schedules (collected when no Spotlight client is displaying that collection) are configurable unless otherwise stated. Collections with Cfg=N are non configurable.
-
-Some collections are used for multiple displays (Spotlight Overview page components and drilldowns). Modifying a collection schedule may impact more than just one display.
-
-o configure the collection schedule, see Configure | Scheduling.
-
-Data collected by background collection schedules is stored in the Playback Database.
-
-The SQL code is available for most of these collections. For more information, see Spotlight SQL query scripts.  
-
-
- Note:
-
-To view / change the rate of data collection, see Configure | Scheduling. Collections are configurable unless otherwise stated. Collections with Cfg=N are non configurable.
-
-Some collections used for Reporting and Trending are also used for displays (alarms, Spotlight Overview page components and drilldowns). Collections for Reporting and Trending are performed entirely independently of the same collections that run in the foreground / background.
-
-The SQL code is available for most SQL Server collections. For more information, see Spotlight SQL query scripts.  
-
+* Some collections are used for multiple displays (Spotlight Overview page components and drilldowns). Modifying a collection schedule may impact more than just one display.
+* Data collected by background collection schedules is stored in the Playback Database.
 
 
 {% include links.html %}

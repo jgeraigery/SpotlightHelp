@@ -27,7 +27,7 @@ Template | Select a template to show / change / reapply a template configuration
 
 ### Store reporting data
 
-Select to store reporting data in the Spotlight Statistics Repository for the selected connection. Reporting data is used by Reporting and Trending requires the Spotlight Statistics Repository to be configured.
+Select to store reporting data in the Spotlight Statistics Repository for the selected connection. Reporting data is used by Reporting and Trending and requires the Spotlight Statistics Repository to be configured.
 
 ### Do not collect and store reporting data
 
