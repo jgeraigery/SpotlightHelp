@@ -16,13 +16,13 @@ The measure of SQL Server Response Time is reported on the SQL Server \| Overvie
 
 ## Configure SQL Server Response Time from the Spotlight Client
 
-Click Configure \| SQL Server Response Time.
+Click **Configure \| SQL Server Response Time**.
 
 ## Select template or connection to configure
 
 Select the SQL Server connection from the list of available options. Spotlight will show the configuration for that connection. Make changes if required. Optionally use the options at the bottom of the screen to apply the same configuration to other SQL Server connections or save the configuration as a template.
 
-Alternatively, select a template to configure. The templates you have previously saved for SQL Server response time are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see Configuration templates.
+Alternatively, select a template to configure. The templates you have previously saved for SQL Server response time are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see [Configuration templates][enterprise_cfgmonitor_templates].
 
 
 ## Define the SQL statement used to measure SQL Server response time
@@ -48,7 +48,7 @@ Optionally, apply this configuration to other connections.
 
 ### Save to Template  
 
-Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to **Delete** or **Rename** the template. For more information on Templates, see Configuration templates.
+Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to **Delete** or **Rename** the template. For more information on Templates, see [Configuration templates][enterprise_cfgmonitor_templates].
 
 ## Close the dialog
 

@@ -41,10 +41,10 @@ All the actions in the rule are executed when all the conditions in the rule are
 
 Option | Description
 -------|------------
-New | Create a new rule. This opens the Alarm Action Dialog.
-Modify | Modify the selected rule. Click on the rule to select it. This opens the rule in the Alarm Action Dialog.
+New | Create a new rule. This opens the [Alarm Action dialog][enterprise_cfgmonitor_alarmaction].
+Modify | Modify the selected rule. Click on the rule to select it. This opens the rule in the [Alarm Action dialog][enterprise_cfgmonitor_alarmaction].
 Delete | Delete the selected rule.
-Move Down / Move Up | Rules are executed in the order they are listed in the Alarm Action Editor. Move rules up and down to re-organize them. For examples see Example Alarm Action Rules.
+Move Down / Move Up | Rules are executed in the order they are listed in the Alarm Action Editor. Move rules up and down to re-organize them. For examples see [Example Alarm Action Rules][enterprise_cfgmonitor_alarmaction_example].
 
 
 ## Federate Spotlight Diagnostic Servers

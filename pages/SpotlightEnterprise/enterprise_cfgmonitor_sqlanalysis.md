@@ -1,7 +1,7 @@
 ---
 title: Configure SQL Analysis
 tags: [configure_monitoring,apply_configuration_to]
-summary: "Enable or disable SQL Analysis. Define the data to be collected and displayed in the SQL Analysis - Workload View and the SQL Server | SQL Activity Drilldown | SQL Analysis page."
+summary: "Enable or disable SQL Analysis. Define the data to be collected and displayed in the SQL Analysis - Workload report and the SQL Server | SQL Activity Drilldown | SQL Analysis page."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_sqlanalysis.html
 id: 42
@@ -15,16 +15,15 @@ folder: SpotlightEnterprise
 
 ## Configure SQL Analysis from the Spotlight Client
 
-Click Configure \| SQL Analysis
+Click **Configure \| SQL Analysis**
 
-
-{% include tip.html content="To open this screen with a connection pre-selected, Select the SQL Server connection (Monitored connections) then click Monitor \| SQL Activity \| SQL Analysis." %}
+{% include tip.html content="To open this screen with a connection pre-selected, select the SQL Server connection on the [Connections display][enterprise_connect_display] then click **Monitor \| SQL Activity \| SQL Analysis**." %}
 
 ## Select template or connection to configure
 
 Select the SQL Server connection from the list of available options. Spotlight will show the configuration for that connection. Make changes if required. Optionally use the options at the bottom of the screen to apply the same configuration to other SQL Server connections or save the configuration as a template.
 
-Alternatively, select a template to configure. The templates you have previously saved for SQL Analysis configuration are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see Configuration templates.
+Alternatively, select a template to configure. The templates you have previously saved for SQL Analysis configuration are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see [Configuration templates][enterprise_cfgmonitor_templates].
 
 
 ## Override or use the factory settings
@@ -53,7 +52,7 @@ Filters determine what SQL Analysis data is collected from the SQL Server instan
  Note:
 
 * Filtering affects the average, minimum, maximum, and last values displayed in the grid, as calculations are performed only on data retrieved from the SQL Server instance.
-* The data collected from the SQL instance can be filtered for display using local filters on the SQL Analysis - Workload view and the SQL Analysis grid (SQL Activity drilldown).
+* The data collected from the SQL instance can be filtered for display using local filters on the SQL Analysis - Workload report and the SQL Analysis grid (SQL Activity drilldown).
 
 ### Get these Event Classes
 
@@ -65,11 +64,11 @@ The list of filters applied to the SQL Server instance.
 
 ### Add
 
-Click to create a filter. Open Configure \| SQL Analysis \| Add Filter.
+Click to create a filter. Open [Configure \| SQL Analysis \| Add Filter][enterprise_cfgmonitor_sqlanalysis_addfilter].
 
 Note:
 
-* You can use the percent sign (%) and underscore (_) as wildcards.
+* You can use the percent sign (%) and underscore (\_) as wildcards.
 * You cannot use wildcard characters in the Database name field when connected to a SQL Server 2000 instance.
 * When filtering on a string field such as DatabaseName or ApplicationName, use only the "LIKE" and "NOT LIKE" conditions. The other conditions apply only to numeric values.
 
@@ -173,7 +172,7 @@ Optionally, apply this configuration to other connections.
 
 ### Save to Template  
 
-Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to **Delete** or **Rename** the template. For more information on Templates, see Configuration templates.
+Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to **Delete** or **Rename** the template. For more information on Templates, see [Configuration templates][enterprise_cfgmonitor_templates].
 
 ## Close the dialog
 

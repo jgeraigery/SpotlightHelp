@@ -19,24 +19,25 @@ For SQL Server queries, use T-SQL syntax. For Windows queries, use WMI. It is re
 
 **Pages Allocated** (SQL Server 2005 or later)
 
+```
 select cntr_value from sys.dm_os_performance_counters
-
 where  object_name like '%:Access Methods%'
-
 and    counter_name = 'Pages Allocated/sec'
+```
 
 **User Connections** (SQL Server 2000)
 
+```
 select cntr_value from master.dbo.sysperfinfo
-
 where  object_name like '%:General Statistics%'
-
 and    counter_name = 'User Connections'
+```
 
 **Open Files** (Windows)
 
+```
 SELECT FilesOpen FROM Win32_PerfRawData_PerfNet_Server
-
+```
 
 
 

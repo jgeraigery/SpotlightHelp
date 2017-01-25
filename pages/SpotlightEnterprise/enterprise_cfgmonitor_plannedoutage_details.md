@@ -8,10 +8,10 @@ folder: SpotlightEnterprise
 ---
 
 
-## To schedule maintenance times
+## Schedule maintenance times using the Spotlight Client
 
-To add a planned outage schedule click Configure \| Planned Outage \| Add.
-To edit a planned outage schedule click Configure \| Planned Outage \| Edit.
+To add a planned outage schedule click **Configure \| Planned Outage \| Add**.
+To edit a planned outage schedule click **Configure \| Planned Outage \| Edit**.
 
 
 ## Connection

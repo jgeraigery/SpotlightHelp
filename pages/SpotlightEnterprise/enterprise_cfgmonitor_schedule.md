@@ -56,7 +56,6 @@ If a connection is deleted, data for the deleted connection is stored in the Spo
 * Before you change the scheduling configurations you may like to backup the current schedules. You can do this by backing up the \\Agent\\Conf folder in the Spotlight Diagnostic Server installation folder.
 * The schedules of some collections cannot be modified.
 * Some collections are used for multiple displays (Spotlight Overview page components and drilldowns). Modifying a collection schedule may impact more than just one display.
-* Data collected by background collection schedules is stored in the Playback Database.
 
 
 {% include links.html %}
