@@ -11,6 +11,8 @@ folder: SpotlightEnterprise
 
 ## Search
 
+{% include imageClient.html file="pane_selectconnections_search.png" alt="Search" %}
+
 Optionally, use the search field to search for Spotlight connections. Type text in this field. All connections matching this text in their name, type or tag will be listed.
 
 Name | The display name for the connection in Spotlight.
@@ -21,6 +23,8 @@ Tag | Tags are a free form organizational tool that may be optionally applied to
 ## Select
 
 Select from the connections monitored by Spotlight. Select connections to add to the custom view. Selected connections are ticked.
+
+{% include imageClient.html file="pane_selectconnections_connectiontypes.png" alt="Select Connections" %}
 
 Every connection monitored by Spotlight is listed.
 

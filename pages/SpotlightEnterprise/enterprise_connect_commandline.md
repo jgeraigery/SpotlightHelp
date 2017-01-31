@@ -54,10 +54,6 @@ See also [Add a list of connections](#AddAListOfConnections).
 Add-Connection -Address address -Technology connectionType -Enabled -PassThru
 ```
 
-
-
-### Add a Spotlight connection
-
 #### Supply User / Password details as per the connection type
 
 See also [Add a list of connections](#AddAListOfConnections).
@@ -75,10 +71,6 @@ Add-Connection -Credential $(get-credential) -Address address -Technology connec
 ```
 Get-Connection -Name connectionName | Set-Connection -Credential $(get-credential)
 ```
-
-
-
-### Change the authentication used to monitor a Spotlight connection
 
 #### Change to Windows authentication (using Diagnostic Server credentials)
 

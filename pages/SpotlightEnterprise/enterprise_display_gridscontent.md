@@ -60,7 +60,7 @@ Restore the default order to the column headings and word-wrapping settings.
 3. Click **Restore**.
 
 
-## Tree view
+## Tree view {#treeview}
 
 Display the left most column of the Spotlight grid as a hierarchical tree structure. The images below show the same first column of a table in the two formats: a simple text string and a hierarchical tree structure.
 

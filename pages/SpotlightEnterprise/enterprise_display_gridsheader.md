@@ -20,7 +20,7 @@ Click the column header. An arrow appears to the right of the header.
 *  The arrow points down when the column is sorted in descending order, up when the column is sorted in ascending order.
 *  Click the arrow to alternate ascending / descending order.
 *  Click a different header to select a different column to sort by.
-*  To sort by a column that is hidden, right-click the header row and select Arrange by \| {column name} .
+*  To sort by a column that is hidden, right-click the header row and select Arrange by \| *column name*.
 
 
 To sort the grid according to the contents of multiple columns, keep the SHIFT key depressed when sorting by the second or later column.

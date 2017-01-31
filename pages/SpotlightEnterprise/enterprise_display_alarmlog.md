@@ -55,8 +55,8 @@ Icon | Ribbon Select | Description
 -----|---------------|-------------
 {% include inline_imageClient.html file="tb_action_diagnose.png" alt="Diagnose" %} | Diagnose | Drilldown on data from the connection relevant to the selected alarm.
 {% include inline_imageClient.html file="tb_action_settings.png" alt="Alarm Settings" %} | Alarm Settings | Configure the selected alarm. See [Configure Alarms][enterprise_cfgmonitor_alarms].
-{% include inline_imageClient.html file="tb_action_ignorealarm.png" alt="Ignore this Alarm" %} | Ignore this Alarm | Request Spotlight ignore this alarm and future cases of this alarm. For future cases, request Spotlight ignore this alarm for the current value or for the current connection. The choices are dependent on the type of alarm. This is a simplified interface for **Configure \| Alarms \| Do not alarm for certain values**.
+{% include inline_imageClient.html file="tb_action_ignorealarm.png" alt="Ignore this Alarm" %} | Ignore this Alarm | Request Spotlight ignore this alarm and future cases of this alarm. For future cases, request Spotlight ignore this alarm for the current value or for the current connection. The choices are dependent on the type of alarm. This is a simplified interface for [Do not alarm for certain values][enterprise_cfgmonitor_alarm_ignorevalues].
 {% include inline_imageClient.html file="tb_alarms_time.png" alt="Show in Alarms by Time" %} | Show in Alarms by Time | Show the selected alarm in [alarms by time][enterprise_display_alarmsbytime].
-{% include inline_imageClient.html file="tb_grid_find.png" alt="Find" %} | Find | Find text in the display.
+{% include inline_imageClient.html file="tb_grid_find.png" alt="Find" %} | Find | [Find text][enterprise_display_gridstoolbar.html#findtext] in the display.
 
 {% include links.html %}

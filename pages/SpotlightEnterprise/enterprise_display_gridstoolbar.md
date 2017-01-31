@@ -20,7 +20,7 @@ Icon | Description
 {% include inline_imageClient.html file="tb_grid_organizecolumns.png" alt="Show, hide and order columns" %} | Show or hide columns and choose the order in which to display columns.
 
 
-## Find text
+## Find text {#findtext}
 
 {% include inline_imageClient.html file="tb_grid_find.png" alt="Find text" %} Find text in the Spotlight grid.
 

@@ -20,6 +20,12 @@ entries:
     - title: Some link bookmark
       url: /enterprise_display_chartstoolbar.html#filteronadataseries
 
+    - title: Some link bookmark
+      url: /enterprise_display_gridstoolbar.html#findtext
+
+    - title: Some link bookmark
+      url: /enterprise_display_gridscontent.html#treeview
+
     - title: Cannot connect to the Spotlight Diagnostic Server on Web service port 40403
       url: /enterprise_backend_ds_40403.html
 
