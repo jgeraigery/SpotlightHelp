@@ -12,8 +12,8 @@ topnav_dropdowns:
       folderitems:
         - title: Spotlight Cloud
           url: /cloud_welcome.html
-        - title: SQL Optimizer
-          url: /dev_welcome.html
+        - title: Spotlight Optimizer for SQL Server
+          url: /optimizer_welcome.html
         - title: Spotlight Enterprise
           url: /enterprise_welcome.html
         - title: Spotlight Mobile

@@ -1,6 +1,6 @@
 entries:
 - title: sidebar
-  product: Spotlight Developer
+  product: Spotlight Optimizer
   version: 
   folders:
 
@@ -22,5 +22,5 @@ entries:
     folderitems:
 
     - title: Welcome
-      url: /dev_welcome.html
+      url: /optimizer_welcome.html
       output: web, pdf

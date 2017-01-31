@@ -9,8 +9,8 @@ entries:
     - title: Spotlight Cloud
       url: /cloud_welcome.html
       output: web
-    - title: SQL Optimizer
-      url: /dev_welcome.html
+    - title: Spotlight Optimizer for SQL Server
+      url: /optimizer_welcome.html
       output: web
     - title: Spotlight Enterprise
       url: /enterprise_welcome.html

@@ -1,8 +1,8 @@
 ---
-title: Spotlight Developer
-sidebar: p_developer_sidebar
+title: Spotlight Optimizer for SQL Server
+sidebar: p_optimizer_sidebar
 toc: false
-permalink: dev_welcome.html
+permalink: optimizer_welcome.html
 ---
 
 
