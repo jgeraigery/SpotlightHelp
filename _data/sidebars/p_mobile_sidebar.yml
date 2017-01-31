@@ -101,6 +101,6 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Backend Deployment
-      url: /mobile_backend.html
+    - title: Backend Deployment (Spotlight Enterprise)
+      url: /mobile_backend_enterprise.html
       output: web, pdf

@@ -15,11 +15,11 @@ Data collected from monitored connections is sent to Spotlight Mobile via the Sp
 
 A Spotlight Cloud account is required to use Spotlight Mobile. Create a Spotlight Cloud account if you do not already have one. Do this at the Spotlight web site.
 
-{% include tip.html content="If there are many Spotlight Cloud accounts in your organization, see also Spotlight Cloud \| Organizations." %}
+{% include tip.html content="If there are many Spotlight Cloud accounts in your organization, see also [Spotlight Cloud \| Organizations][cloud_settings_organizations]." %}
 
 ## Configure the Spotlight Diagnostic Server
 
-For Spotlight Mobile to receive data from the Spotlight Diagnostic Server, ensure the Spotlight Cloud account configured to the Spotlight Diagnostic Server is your Spotlight Cloud account or the Spotlight Cloud account of an individual in the same organization as you (Spotlight Cloud \| Organizations).
+For Spotlight Mobile to receive data from the Spotlight Diagnostic Server, ensure the Spotlight Cloud account configured to the Spotlight Diagnostic Server is your Spotlight Cloud account or the Spotlight Cloud account of an individual in the same Spotlight Cloud Organization as you.
 
 Use a Spotlight Client:
 

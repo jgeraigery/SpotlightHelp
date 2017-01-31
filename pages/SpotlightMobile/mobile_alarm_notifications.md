@@ -24,7 +24,7 @@ Ensure Spotlight Mobile is enabled to receive push notifications from Spotlight.
 
 {% include tip.html content="On an iPhone navigate to Settings \| Spotlight. On an android device navigate to Settings \| Application manager \| Spotlight." %}
 
-### Send push notifications
+### Send push notifications from Spotlight Enterprise
 
 Ensure Spotlight is configured to send push notifications to Spotlight Mobile. Do this from the Spotlight Client. For more information, see [Send a Push Notification Dialog][enterprise_cfgmonitor_alarmaction_pushnotification].
 
@@ -33,16 +33,6 @@ Ensure Spotlight is configured to send push notifications to Spotlight Mobile. D
 
 Show a historical record of the last 50 push notifications sent to the mobile device.
 
-1. Sign in to Spotlight Cloud (www.spotlightessentials.com).
-2. Click Settings.
-3. Select the option to view the push notification history.
-
-Column | Description
--------|------------
-Date sent | The date and time the message was sent.
-Message | The message that was sent. For more information on this message, see Send a Push Notification Dialog.
-Recipient | The name of the recipient (as per their Spotlight Cloud (Spotlight Essentials) account). This is most useful when the Spotlight Cloud account holders are members of Spotlight Cloud Organizations.
-Receiving devices | The number of mobile devices receiving the notification.
-Status | The status of the notification. Was it sent?
+Show [Push Notification History][cloud_settings_pushnotificationhistory]
 
 {% include links.html %}
