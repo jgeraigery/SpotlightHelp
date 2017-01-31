@@ -37,6 +37,6 @@ Tap Add... or {% include inline_imageMobile.html file="tap_edit-button.png" alt=
 
 ## Add / Remove / Manage connections
 
-{% include note.html content="Use a Spotlight Client to add and remove the connections monitored by Spotlight Enterprise and edit connection properties. Spotlight Mobile does not have the facility to manage (add, remove, edit the properties of) Spotlight connections." %}
+{% include note.html content="In a Spotlight Enterprise deployment, use a Spotlight Client to add and remove the connections monitored by Spotlight Enterprise and edit connection properties. Spotlight Mobile does not have the facility to manage (add, remove, edit the properties of) Spotlight connections." %}
 
 {% include links.html %}
