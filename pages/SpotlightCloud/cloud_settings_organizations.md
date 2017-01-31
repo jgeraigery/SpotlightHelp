@@ -1,8 +1,8 @@
 ---
-title: Spotlight Cloud Organizations
+title: Manage Organizations in the Spotlight Cloud
 summary: ""
 sidebar: p_cloud_sidebar
-permalink: cloud_login_organization.html
+permalink: cloud_settings_organizations.html
 folder: SpotlightCloud
 ---
 

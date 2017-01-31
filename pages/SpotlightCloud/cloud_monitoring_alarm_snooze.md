@@ -4,7 +4,7 @@ tags: [snooze]
 keywords: alarms, snooze
 summary: "To snooze an alarm is to temporarily remove the visual alert associated with an alarm."
 sidebar: p_cloud_sidebar
-permalink: cloud_alarm_snooze.html
+permalink: cloud_monitoring_alarm_snooze.html
 folder: SpotlightCloud
 ---
 

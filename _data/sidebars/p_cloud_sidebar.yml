@@ -42,10 +42,6 @@ entries:
           url: /cloud_login_details.html
           output: web, pdf
 
-        - title: Organizations
-          url: /cloud_login_organization.html
-          output: web, pdf
-
       - title: Legal
         output: web
         subfolderitems:
@@ -62,16 +58,16 @@ entries:
           url: /cloud_legal_thirdpartycomponents.html
           output: web, pdf
 
-  - title: Displays
+  - title: Monitoring
     output: web, pdf
     folderitems:
 
     - title: Heat Map
-      url: /cloud_display_heatmap.html
+      url: /cloud_monitoring_display_heatmap.html
       output: web, pdf
 
-    - title: Spotlight Today
-      url: /cloud_display_spotlighttoday.html
+    - title: Alarms List
+      url: /cloud_monitoring_display_alarmlist.html
       output: web, pdf
 
       subfolders:
@@ -80,31 +76,71 @@ entries:
         subfolderitems:
 
         - title: Connections Display
-          url: /cloud_connect_display.html
+          url: /cloud_monitoring_display_connect.html
           output: web, pdf
 
     - title: Spotlight Overview pages
-      url: /cloud_display_overview.html
-      output: web, pdf
-
-    - title: Playback
-      url: /cloud_display_playback.html
+      url: /cloud_monitoring_display_overview.html
       output: web, pdf
 
   - title: Alarms
     output: web, pdf
     folderitems:
 
-    - title: Diagnose
-      url: /cloud_alarm_diagnose.html
-      output: web, pdf
-
     - title: Acknowledge
-      url: /cloud_alarm_acknowledge.html
+      url: /cloud_monitoring_alarm_acknowledge.html
       output: web, pdf
 
     - title: Snooze
-      url: /cloud_alarm_snooze.html
+      url: /cloud_monitoring_alarm_snooze.html
+      output: web, pdf
+
+  - title: Health Check
+    output: web, pdf
+    folderitems:
+
+    - title: Health Check
+      url: /cloud_healthcheck.html
+      output: web, pdf
+
+  - title: Waitopedia
+    output: web, pdf
+    folderitems:
+
+    - title: Waitopedia
+      url: /cloud_waitopedia.html
+      output: web, pdf
+
+  - title: Capacity
+    output: web, pdf
+    folderitems:
+
+    - title: Capacity
+      url: /cloud_capacity.html
+      output: web, pdf
+
+  - title: Collective IQ
+    output: web, pdf
+    folderitems:
+
+    - title: Collective IQ
+      url: /cloud_collectiveiq.html
+      output: web, pdf
+
+  - title: Your Profile / Settings
+    output: web, pdf
+    folderitems:
+
+    - title: Organizations
+      url: /cloud_settings_organizations.html
+      output: web, pdf
+
+    - title: Push Notification History
+      url: /cloud_settings_pushnotificationhistory.html
+      output: web, pdf
+
+    - title: Health Check Settings
+      url: /cloud_settings_healthcheck.html
       output: web, pdf
 
   - title: Security and data handling
