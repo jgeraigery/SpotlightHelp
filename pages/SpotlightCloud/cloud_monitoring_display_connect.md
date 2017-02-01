@@ -11,19 +11,9 @@ folder: SpotlightCloud
 
 Click on a connection vew to show those connections on a [Heat Map][cloud_monitoring_display_heatmap].
 
-## Open an Alarm list
-
-Click on a connection vew to show those connections on a Heat Map. From the Heat Map, click to see the [Alarm List][cloud_monitoring_display_alarmlist].
-
-To open an Alarm List for a connection, click on a connection to show the Spotlight Overview page for that connection. From the Spotlight Overview page, click to see the [Alarm List][cloud_monitoring_display_alarmlist].
-
 ## Open the Spotlight Overview page
 
 Click on a connection to see that connection on a [Spotlight Overview page][cloud_monitoring_display_overview].
-
-## Create a customized view of a Heat Map or Alarm List
-
-Tap Add... or {% include inline_imageMobile.html file="tap_edit-button.png" alt="Add button" %}
 
 ## Add / Remove / Manage connections
 

@@ -10,6 +10,7 @@ folder: SpotlightCloud
 
 ## How to acknowledge an alarm
 
+An alarm can be acknowledged from the [Alarm List][cloud_monitoring_display_alarmlist].
 
 ## Look up an alarm once it has been acknowledged
 

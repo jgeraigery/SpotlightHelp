@@ -103,6 +103,14 @@ entries:
       url: /cloud_healthcheck.html
       output: web, pdf
 
+    - title: Get Started
+      url: /cloud_healthcheck_getstarted.html
+      output: web, pdf
+
+    - title: Features and Benefits
+      url: /cloud_healthcheck_features.html
+      output: web, pdf
+
   - title: Waitopedia
     output: web, pdf
     folderitems:

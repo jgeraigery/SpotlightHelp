@@ -8,17 +8,13 @@ folder: SpotlightCloud
 
 ## How to open the Alarm list
 
-
 *  Tap a connection on the [Heat Map][cloud_monitoring_display_heatmap].
 *  Tap a connection or connection View from [Connections][cloud_monitoring_display_connect].
 
 ## How to use the Alarm list
 
-Each alarm is colored according to the severity of the alarm. Tap the row for alarm details, to [Snooze Alarm][cloud_monitoring_alarm_snooze] or [Acknowledge Alarm][cloud_monitoring_alarm_acknowledge].
+Each alarm is colored according to the severity of the alarm. Click to [Snooze Alarm][cloud_monitoring_alarm_snooze] or [Acknowledge Alarm][cloud_monitoring_alarm_acknowledge].
 
-{% include tip.html content="On an iPad, tap the colored icon." %}
-
-{% include imageMobile.html file="screen_iOS-iphone-alarm-list.png" alt="Alarm List Screen" %}
 
 ## Tell me about each alarm
 

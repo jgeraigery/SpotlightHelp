@@ -11,8 +11,6 @@ folder: SpotlightCloud
 Snoozed alarms are not included in the overall severity for a connection.
 Snoozed alarms are identified by:
 
-{% include imageClient.html file="icon_snooze.png" alt="snooze component" %}
-
 When snoozing or unsnoozing an alarm there may be a short delay before the snooze or unsnooze takes affect.
 When viewing historical data (via Playback), Spotlight Overview page do not show snoozed alarms.
 

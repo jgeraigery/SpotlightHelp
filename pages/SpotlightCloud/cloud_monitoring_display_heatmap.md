@@ -8,13 +8,12 @@ permalink: cloud_monitoring_display_heatmap.html
 folder: SpotlightCloud
 ---
 
+
+## Open the Heatmap
 The Heat Map is the opening **Monitoring** screen on the Spotlight web site.
 
-Click on a connection to open the [Alarm List][cloud_monitoring_display_alarmlist] for the connection.
-
-
-
-## Color indicates alarm severity.
+## Connection color and surface area
+The Heat Map display organizes connections based on the comparative number and severity of alarms raised against them. Connections with the most alarms raised against them are given the most surface area on the heat map. Connections are colored according to the most severe current alarm.
 
 Default Color | Severity | Description
 --------------|----------|------------
@@ -24,6 +23,7 @@ Default Color | Severity | Description
 {% include inline_imageMobile.html file="icon_alarm_orange.png" alt="Medium color" %} | Medium | At least one medium severity alarm is raised against this connection. No high severity alarms are raised.
 {% include inline_imageMobile.html file="icon_alarm_red.png" alt="High color" %} | High | At least one high severity alarm is raised against this connection.
 
-
+## Alarms raised for the connection
+Click on a connection to open the [Alarm List][cloud_monitoring_display_alarmlist] for the connection.
 
 {% include links.html %}

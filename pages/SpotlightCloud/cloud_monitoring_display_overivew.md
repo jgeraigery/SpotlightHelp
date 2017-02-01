@@ -12,17 +12,11 @@ folder: SpotlightCloud
 
 Start with the [Connections Display][cloud_monitoring_display_connect]. Click on a Spotlight connection to show the Spotlight Overview page for that connection.
 
-## About the Spotlight Overview page
+## Flows and components in an alarm state
 
-### Panels
+If a component's color is other than green then the component is in an alarm state. Click on the component to show the alarms raised against the component on the the [Alarm List][cloud_monitoring_display_alarmlist].
 
-If a panel's color is other than green then at least one of the panel's components is in an alarm state. The panel is colored according to the severity of the highest alarm raised against a panel component. Tap the panel to show the panel's components.
-
-### Flows and components
-
-If a component's color is other than green then the component is in an alarm state. Tap the component to show the alarms raised against the component.
-
-### Tailored to the connection type
+## Flows and components tailored to the connection type
 
 The Spotlight Overview page flows and components are tailored to the connection type.
 
