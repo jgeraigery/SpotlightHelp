@@ -24,3 +24,67 @@ entries:
     - title: Welcome
       url: /optimizer_welcome.html
       output: web, pdf
+
+    - title: Install
+      url: /optimizer_install.html
+      output: web, pdf
+
+    - title: Product License
+      url: /optimizer_license.html
+      output: web, pdf
+
+    - title: Legal
+      output: web
+      subfolderitems:
+
+      - title: About Us
+        url: /optimizer_legal_aboutus.html
+        output: web, pdf
+
+      - title: Copyright Information
+        url: /optimizer_legal_copyright.html
+        output: web, pdf
+
+      - title: Third Party Components
+        url: /optimizer_legal_thirdpartycomponents.html
+        output: web, pdf
+
+  - title: Monitoring
+    output: web, pdf
+    folderitems:
+
+    - title: Heat Map
+      url: /optimizer_display_heatmap.html
+      output: web, pdf
+
+    - title: Alarms List
+      url: /optimizer_display_alarmlist.html
+      output: web, pdf
+
+    - title: Connections Display
+      url: /optimizer_display_connect.html
+      output: web, pdf
+
+    - title: Spotlight Overview pages
+      url: /optimizer_display_overview.html
+      output: web, pdf
+
+  - title: Alarms
+    output: web, pdf
+    folderitems:
+
+    - title: Acknowledge
+      url: /optimizer_alarm_acknowledge.html
+      output: web, pdf
+
+    - title: Snooze
+      url: /optimizer_alarm_snooze.html
+      output: web, pdf
+
+  - title: Health Check
+    output: web, pdf
+    folderitems:
+
+    - title: Health Check
+      url: /optimizer_healthcheck.html
+      output: web, pdf
