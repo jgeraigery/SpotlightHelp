@@ -24,6 +24,9 @@ Default Color | Severity | Description
 {% include inline_imageMobile.html file="icon_alarm_red.png" alt="High color" %} | High | At least one high severity alarm is raised against this connection.
 
 ## Alarms raised for the connection
-Click on a connection to open the [Alarm List][cloud_monitoring_display_alarmlist] for the connection.
+Click **Alarms** to open the [Alarm List][cloud_monitoring_display_alarmlist].
+
+## Drilldown on a connection
+Click on a connection to open the [Spotlight Overview page][cloud_monitoring_display_overview] for the connection.
 
 {% include links.html %}

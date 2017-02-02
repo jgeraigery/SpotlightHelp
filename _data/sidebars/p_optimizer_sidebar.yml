@@ -54,12 +54,20 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Get Started
+      url: /optimizer_getstarted.html
+      output: web, pdf
+
+    - title: Features
+      url: /optimizer_features.html
+      output: web, pdf
+
     - title: Heat Map
       url: /optimizer_display_heatmap.html
       output: web, pdf
 
-    - title: Alarms List
-      url: /optimizer_display_alarmlist.html
+    - title: Diagnostics
+      url: /optimizer_display_diagnostics.html
       output: web, pdf
 
     - title: Connections Display
