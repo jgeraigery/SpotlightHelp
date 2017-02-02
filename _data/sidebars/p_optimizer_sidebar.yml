@@ -33,21 +33,22 @@ entries:
       url: /optimizer_license.html
       output: web, pdf
 
-    - title: Legal
-      output: web
-      subfolderitems:
+      subfolders:
+      - title: Legal
+        output: web
+        subfolderitems:
 
-      - title: About Us
-        url: /optimizer_legal_aboutus.html
-        output: web, pdf
+        - title: About Us
+          url: /optimizer_legal_aboutus.html
+          output: web, pdf
 
-      - title: Copyright Information
-        url: /optimizer_legal_copyright.html
-        output: web, pdf
+        - title: Copyright Information
+          url: /optimizer_legal_copyright.html
+          output: web, pdf
 
-      - title: Third Party Components
-        url: /optimizer_legal_thirdpartycomponents.html
-        output: web, pdf
+        - title: Third Party Components
+          url: /optimizer_legal_thirdpartycomponents.html
+          output: web, pdf
 
   - title: Monitoring
     output: web, pdf

@@ -1,5 +1,5 @@
 ---
-title: Install Spotlight Cloud
+title: Install Spotlight Developer
 tags: [setup]
 keywords: setup, install
 summary: ""
