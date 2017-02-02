@@ -31,3 +31,7 @@ View the SQL, trend charts and execution plans for each query so you have the fu
 Compare how your SQL performed from one execution to another and examine if a change in query plan has had a positive or negative effect.
 
 {% include imageCloud.html file="ssms-most xy-feature.jpg" alt="Most Expensive Queries" %}
+
+
+
+{% include links.html %}

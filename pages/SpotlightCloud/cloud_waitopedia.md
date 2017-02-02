@@ -4,3 +4,8 @@ summary: "Waitopedia is a comprehensive resource of information about SQL Server
 sidebar: p_cloud_sidebar
 permalink: cloud_waitopedia.html
 ---
+
+
+
+
+{% include links.html %}

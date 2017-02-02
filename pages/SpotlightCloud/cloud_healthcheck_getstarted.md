@@ -21,3 +21,8 @@ Launch Spotlight on SQL Server Enterprise and click the [Configure tab][enterpri
 4. Using the Configure Connections dialog add a connection. Once complete Spotlight Developer will begin uploading performance data for analysis
 
 You're now setup and data will begin uploading soon. Sign in within the next day, or two and you'll see analytics on your performance data.
+
+
+
+
+{% include links.html %}
