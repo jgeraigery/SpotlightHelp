@@ -35,9 +35,9 @@ Quest, Toad, Toad World, Spotlight and the Quest logo are trademarks and registe
 
 **Legend**
 
- | **Warning**: A WARNING icon indicates a potential for property damage, personal injury, or death.
- | **Caution**: A CAUTION icon indicates potential damage to hardware or loss of data if instructions are not followed.
- | **IMPORTANT, NOTE, TIP, MOBILE, or VIDEO**: An information icon indicates supporting information.
+{% include inline_image.html file="warning.png" alt="Warning" %} | **Warning**: A WARNING icon indicates a potential for property damage, personal injury, or death.
+{% include inline_image.html file="caution.png" alt="Caution" %} | **Caution**: A CAUTION icon indicates potential damage to hardware or loss of data if instructions are not followed.
+{% include inline_image.html file="note.png" alt="Important" %} | **IMPORTANT, NOTE, TIP, MOBILE, or VIDEO**: An information icon indicates supporting information.
 
 
 
