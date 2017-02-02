@@ -24,6 +24,7 @@ Use either the colored bar or the Severity table.
 {% include imageClient.html file="pane_alarms_severitybar.png" alt="This alarm is raised to a single severity." %}
 
 To set thresholds via the colored bar:
+
 1. Move the mouse pointer over the threshold between two severities until it appears as a split-bar pointer.
 2. Click and drag the mouse to move the threshold to a new position. When you have completed the move, the change also appears in the Severity table.
 

@@ -30,6 +30,7 @@ All the actions in the rule are executed when all the conditions in the rule are
 ### Name
 
 When you create a rule ensure its name is meaningful. For example:
+
 * **Alarm name** - where the rule applies to a specific alarm raised on any connection.
 * **Alarm name for Connection name** - where the rule applies to a specific alarm raised on a specific connection.
 
@@ -148,6 +149,7 @@ To use variables in your SQL script see [Alarms - Message Variables][enterprise_
 Execute a command line on the Spotlight Diagnostic server.
 
 When filling in the command line field:
+
 * File or path names that contain spaces should be enclosed in double quotes.
 * Use variables where applicable. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].
 * Here is an example. You can echo tag values as follows.
@@ -199,7 +201,7 @@ When multiple Spotlight Cloud account names are involved, separate each account 
 
 The push notification message. This can include variables. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].
 
-For more information on the receipt of these push notifications, refer to the Spotlight Mobile User Guide.
+For more information on the receipt of these push notifications, refer to the [Spotlight Mobile Guide][mobile_alarm_notifications].
 
 ### Send email to
 

@@ -67,7 +67,7 @@ Information about each alarm is documented under the connection type.
 
 ### Apply configuration to…  
 
-Optionally, apply this configuration to other connections.
+Optionally, [apply this configuration][enterprise_cfgmonitor_applyconfig.html] to other connections.
 
 ### Save to Template  
 
