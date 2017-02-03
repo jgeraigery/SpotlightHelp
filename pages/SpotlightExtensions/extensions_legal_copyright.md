@@ -1,8 +1,8 @@
 ---
 title: Copyright
-sidebar: p_optimizer_sidebar
-permalink: optimizer_legal_copyright.html
-folder: SpotlightOptimizer
+sidebar: p_extensions_sidebar
+permalink: extensions_legal_copyright.html
+folder: SpotlightExtensions
 ---
 
 

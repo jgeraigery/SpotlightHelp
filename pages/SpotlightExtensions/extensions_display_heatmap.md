@@ -1,11 +1,11 @@
 ---
-title: Heat Map in Spotlight Optimizer
+title: Heat Map in Spotlight Extensions
 tags: [heatmap]
 keywords: heatmap
 summary: "A simple ‘at-a-glance’ method for monitoring your SQL Server connections within SQL Server Management Studio."
-sidebar: p_optimizer_sidebar
-permalink: optimizer_display_heatmap.html
-folder: SpotlightOptimizer
+sidebar: p_extensions_sidebar
+permalink: extensions_display_heatmap.html
+folder: SpotlightExtensions
 ---
 
 

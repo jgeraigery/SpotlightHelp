@@ -7,6 +7,10 @@ folder: SpotlightCloud
 ---
 
 
+## Search
+
+Filter the list of connections on the Spotlight Client **Connections** display. To filter this list of connections, type text in the **Search** field. The search matches against the connection name.
+
 ## Open a Heat Map
 
 Click on a connection vew to show those connections on a [Heat Map][cloud_monitoring_display_heatmap].

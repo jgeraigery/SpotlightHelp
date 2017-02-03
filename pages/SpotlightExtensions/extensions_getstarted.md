@@ -1,7 +1,7 @@
 ---
 title: Health Check Get Started
-sidebar: p_optimizer_sidebar
-permalink: optimizer_getstarted.html
+sidebar: p_extensions_sidebar
+permalink: extensions_getstarted.html
 ---
 
 

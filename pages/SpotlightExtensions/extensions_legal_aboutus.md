@@ -1,8 +1,8 @@
 ---
 title: About Us
-sidebar: p_optimizer_sidebar
-permalink: optimizer_legal_aboutus.html
-folder: SpotlightOptimizer
+sidebar: p_extensions_sidebar
+permalink: extensions_legal_aboutus.html
+folder: SpotlightExtensions
 ---
 
 

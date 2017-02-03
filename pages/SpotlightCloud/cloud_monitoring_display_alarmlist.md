@@ -8,12 +8,20 @@ folder: SpotlightCloud
 
 ## How to open the Alarm list
 
-*  Tap a connection on the [Heat Map][cloud_monitoring_display_heatmap].
-*  Tap a connection or connection View from [Connections][cloud_monitoring_display_connect].
+1. Go to the **Monitoring** screen on the Spotlight web site.
+2. Click on the **Alarms** link.
 
-## How to use the Alarm list
+## Color
+Each alarm is colored according to the severity of the alarm.
 
-Each alarm is colored according to the severity of the alarm. Click to [Snooze Alarm][cloud_monitoring_alarm_snooze] or [Acknowledge Alarm][cloud_monitoring_alarm_acknowledge].
+## Group / Sort alarms
+The top of the **Alarms** screen has options to:
+
+* Group by Connection, Severity or Alarm
+* Sort alarms by Severity or Date
+
+## Snooze / Acknowledge alarms
+Click to [Snooze Alarm][cloud_monitoring_alarm_snooze] or [Acknowledge Alarm][cloud_monitoring_alarm_acknowledge].
 
 
 ## Tell me about each alarm

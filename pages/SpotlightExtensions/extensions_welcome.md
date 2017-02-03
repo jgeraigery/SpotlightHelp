@@ -1,8 +1,8 @@
 ---
-title: Spotlight Optimizer for SQL Server
-sidebar: p_optimizer_sidebar
+title: Spotlight Extensions for SQL Server
+sidebar: p_extensions_sidebar
 toc: false
-permalink: optimizer_welcome.html
+permalink: extensions_welcome.html
 ---
 
 

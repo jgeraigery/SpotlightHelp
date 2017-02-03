@@ -1,7 +1,7 @@
 ---
 title: System and Performance Healthcheck
-sidebar: p_optimizer_sidebar
-permalink: optimizer_features.html
+sidebar: p_extensions_sidebar
+permalink: extensions_features.html
 ---
 
 
@@ -18,7 +18,7 @@ You also get a FREE System health Check, Performance Health Analysis and compreh
 
 Spotlight Developer monitors SQL Server 2008, 2008r2, 2012, 2014 and 2016. However it can only be installed in SSMS versions 2012, 2014 and 2016
 
-{% include imageOptimizer.html file="spotdev-overview-desktop.png" alt="Overview" %}
+{% include imageExtensions.html file="spotdev-overview-desktop.png" alt="Overview" %}
 
 ## QUERY PLAN ANALYSIS
 
@@ -28,7 +28,7 @@ Everytime you execute SQL we’ll analyze it and let you know if we find any iss
 This powerful SQL Analysis is combined with a new intuitive execution plan visualization to make it quick and easy to see where the most expensive operations are occuring in your executed SQL.
 Learn more about Plan Analysis
 
-{% include imageOptimizer.html file="spot-dev-query-plan.png" alt="Query Plans" %}
+{% include imageExtensions.html file="spot-dev-query-plan.png" alt="Query Plans" %}
 
 
 ## CLOUD SERVICES
@@ -37,7 +37,7 @@ Want a health check for your environment?
 
 Upload performance data from Spotlight Developer to the Spotlight website and you’ll have access to a cloud-based set of Spotlight productivity tools to gain insight into the health of your SQL Server environment.
 
-{% include imageOptimizer.html file="health_checks_sample.png" alt="Health Checks" %}
+{% include imageExtensions.html file="health_checks_sample.png" alt="Health Checks" %}
 
 
 

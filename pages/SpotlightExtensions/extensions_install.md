@@ -3,9 +3,9 @@ title: Install Spotlight Developer
 tags: [setup]
 keywords: setup, install
 summary: ""
-sidebar: p_optimizer_sidebar
-permalink: optimizer_install.html
-folder: SpotlightOptimizer
+sidebar: p_extensions_sidebar
+permalink: extensions_install.html
+folder: SpotlightExtensions
 ---
 
 The Spotlight team are proud to announce the release of Spotlight Developer for SQL Server Management Studio (SSMS).
@@ -40,11 +40,11 @@ To “sign in” simply:
 
 1. Start your SSMS application and open Spotlight Developer using the Spotlight menu.
 
-   {% include imageOptimizer.html file="ssms-diagram1.png" alt="Start your SSMS application" %}
+   {% include imageExtensions.html file="ssms-diagram1.png" alt="Start your SSMS application" %}
 
 2. When directed enter your Spotlight username and password. Once signed in you will be able to add connections and then data will begin to be collected and uploaded to your Spotlight Essentials Account.
 
-   {% include imageOptimizer.html file="ssms-diagram2.jpg" alt="New Connection" %}
+   {% include imageExtensions.html file="ssms-diagram2.jpg" alt="New Connection" %}
 
 If you haven’t got a Spotlight account [click here](https://www.spotlightessentials.com/Home/SignUp) to signup for FREE.
 

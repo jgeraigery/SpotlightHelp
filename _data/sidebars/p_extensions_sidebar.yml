@@ -1,6 +1,6 @@
 entries:
 - title: sidebar
-  product: Spotlight Optimizer
+  product: Spotlight Extensions
   version: 
   folders:
 
@@ -22,15 +22,11 @@ entries:
     folderitems:
 
     - title: Welcome
-      url: /optimizer_welcome.html
+      url: /extensions_welcome.html
       output: web, pdf
 
     - title: Install
-      url: /optimizer_install.html
-      output: web, pdf
-
-    - title: Product License
-      url: /optimizer_license.html
+      url: /extensions_install.html
       output: web, pdf
 
       subfolders:
@@ -39,15 +35,15 @@ entries:
         subfolderitems:
 
         - title: About Us
-          url: /optimizer_legal_aboutus.html
+          url: /extensions_legal_aboutus.html
           output: web, pdf
 
         - title: Copyright Information
-          url: /optimizer_legal_copyright.html
+          url: /extensions_legal_copyright.html
           output: web, pdf
 
         - title: Third Party Components
-          url: /optimizer_legal_thirdpartycomponents.html
+          url: /extensions_legal_thirdpartycomponents.html
           output: web, pdf
 
   - title: Monitoring
@@ -55,39 +51,39 @@ entries:
     folderitems:
 
     - title: Get Started
-      url: /optimizer_getstarted.html
+      url: /extensions_getstarted.html
       output: web, pdf
 
     - title: Features
-      url: /optimizer_features.html
+      url: /extensions_features.html
       output: web, pdf
 
     - title: Heat Map
-      url: /optimizer_display_heatmap.html
+      url: /extensions_display_heatmap.html
       output: web, pdf
 
     - title: Diagnostics
-      url: /optimizer_display_diagnostics.html
+      url: /extensions_display_diagnostics.html
       output: web, pdf
 
     - title: Connections Display
-      url: /optimizer_display_connect.html
+      url: /extensions_display_connect.html
       output: web, pdf
 
     - title: Spotlight Overview pages
-      url: /optimizer_display_overview.html
+      url: /extensions_display_overview.html
       output: web, pdf
 
-  - title: Alarms
+  - title: Spotlight Optimizer
     output: web, pdf
     folderitems:
 
     - title: Acknowledge
-      url: /optimizer_alarm_acknowledge.html
+      url: /extensions_alarm_acknowledge.html
       output: web, pdf
 
     - title: Snooze
-      url: /optimizer_alarm_snooze.html
+      url: /extensions_alarm_snooze.html
       output: web, pdf
 
   - title: Health Check
@@ -95,5 +91,5 @@ entries:
     folderitems:
 
     - title: Health Check
-      url: /optimizer_healthcheck.html
+      url: /extensions_healthcheck.html
       output: web, pdf
