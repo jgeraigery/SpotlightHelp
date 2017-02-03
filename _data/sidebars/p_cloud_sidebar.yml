@@ -66,33 +66,16 @@ entries:
       url: /cloud_monitoring_display_heatmap.html
       output: web, pdf
 
-    - title: Alarms List
+    - title: Alarms
       url: /cloud_monitoring_display_alarmlist.html
       output: web, pdf
 
-      subfolders:
-      - title: Connections
-        output: web
-        subfolderitems:
-
-        - title: Connections Display
-          url: /cloud_monitoring_display_connect.html
-          output: web, pdf
-
-    - title: Spotlight Overview pages
+    - title: Overview
       url: /cloud_monitoring_display_overview.html
       output: web, pdf
 
-  - title: Alarms
-    output: web, pdf
-    folderitems:
-
-    - title: Acknowledge
-      url: /cloud_monitoring_alarm_acknowledge.html
-      output: web, pdf
-
-    - title: Snooze
-      url: /cloud_monitoring_alarm_snooze.html
+    - title: Connections
+      url: /cloud_monitoring_display_connect.html
       output: web, pdf
 
   - title: Health Check
@@ -101,10 +84,6 @@ entries:
 
     - title: Health Check
       url: /cloud_healthcheck.html
-      output: web, pdf
-
-    - title: Get Started
-      url: /cloud_healthcheck_getstarted.html
       output: web, pdf
 
     - title: Features and Benefits
