@@ -7,45 +7,45 @@ id: 214
 folder: SpotlightEnterprise
 ---
 
-
-
 The standard scenario may be:
+
 * for a given connection
 * when a specific alarm is raised
 * of specific severity ([severities][enterprise_cfgmonitor_alarm_severity])
 * send an email
 
-How can this rule be created and maintained in the Alarm Action Editor?
+How can this rule be created and maintained?
 
 
 
-## Creating the rule
+## Create and maintain alarm action rules from the Spotlight Client
 
-1. Click **Configure \| Alarm Actions**.
-2. Click **New** to create a new rule.
-3. If this rule is related to specific connections
+From the Spotlight Client:
 
-   1. In the list of conditions, tick **The connection is...**
-   2. In the rule description click **connections**. Select the connections this rule applies to.
+1. Click [Configure \| Alarms Actions][enterprise_cfgmonitor_alarmactions].
+2. Click **New** to create a new rule. This opens the [Alarm Action Dialog][enterprise_cfgmonitor_alarmaction].
 
-4. If this rule is related to specific alarms
-
-   1. In the list of conditions, tick **The alarm is...**
-   2. In the rule description click alarms. Select the alarms this rule applies to.
-
-5. If this rule is related to specific severities
-
-   1. In the list of conditions, tick **The alarm severity is...**
-   2. In the rule description click Low, Medium or High. Select the severities this rule applies to.
-
-6. In the list of actions to perform, tick Send email to...
-
-   1. In the rule description, click (recipient). This opens the **Send an Email Dialog**.
-
-{% include tip.html content="When you use The **connection is...** condition there are some things to be aware of. For more information, see [The Connection is…][enterprise_cfgmonitor_alarmaction_connectionis]." %}
+## Select the conditions under which the rule will run.
 
 
-## Variable conditions - multiple rules
+If this rule is related to specific connections
+
+1. In the list of conditions, tick **The connection is...**
+2. In the rule description click **connections**. Select the connections this rule applies to.
+
+   {% include tip.html content="When you use The **connection is...** condition there are some things to be aware of. For more information, see [The Connection is…][enterprise_cfgmonitor_alarmaction_connectionis]." %}
+
+If this rule is related to specific alarms
+
+1. In the list of conditions, tick **The alarm is...**
+2. In the rule description click alarms. Select the alarms this rule applies to.
+
+If this rule is related to specific severities
+
+1. In the list of conditions, tick **The alarm severity is...**
+2. In the rule description click Low, Medium or High. Select the severities this rule applies to.
+
+### Variable conditions - multiple rules
 
 For any given rule, all the actions are taken when all the conditions are met. Any variability requires separate rules.
 
@@ -80,39 +80,32 @@ where the connection type is database/sqlserver
 ```
 {% endraw %}
 
-## Send an Email Dialog
 
-Configure Spotlight to send an email when an alarm is raised.
+## Select the action to Send email to...
 
-### Open this dialog from the Spotlight Client
+In the list of actions to perform, tick **Send email to...**
 
-1. Click [Configure \| Alarms Actions][enterprise_cfgmonitor_alarmactions].
-2. Click **New** to create a new rule. This opens the [Alarm Action dialog][enterprise_cfgmonitor_alarmaction].
+## Open and fill in the Send a Push Notification dialog
 
-   1. Give a meaningful name to the rule.
-   2. Select the conditions under which the rule will run.
-   3. Under actions select **Send email to**.
+In the rule description, click (recipient). This opens the **Send an Email Dialog**.
 
-
-### Fill in this dialog
-
-#### To
+### To
 
 Enter the target email address.
 
-#### Subject
+### Subject
 
 This is the message subject line. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].
 
-#### Message
+### Message
 
 This is the body of the message to be sent. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].
 
-#### Settings
+### Settings
 
 The Spotlight Diagnostic Server requires details of what email settings to use when sending an email. Click the link to modify settings; open the [SMTP Mail Options dialog][enterprise_cfgds_mailserver_smtpoptions]. Note that you can also use this link to create a default recipient list.
 
-#### Test
+### Test
 
 Click **Test** to ensure all settings are correct and operational.
 

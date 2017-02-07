@@ -1,6 +1,6 @@
 ---
 title: Example alarm action rules
-summary: "A set of actions and conditions are defined in a rule in the Alarm Action Editor. For more information, see Configure | Alarm Actions."
+summary: "A set of actions and conditions are defined in a rule in the Alarm Action Editor."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_alarmaction_example.html
 folder: SpotlightEnterprise
@@ -34,7 +34,7 @@ For all alarms where the alarm severity is Low send email to jsmith@company com
 
 ## The alarm has been cleared
 
-The alarm has been cleared is a special condition. When an alarm is cleared then only rules matching that condition will be executed. So for the following two rules, the first rule is ignored when the alarm has been cleared - an email is sent for every alarm that has been cleared including if one of the three alarms listed by the first rule is cleared.
+**The alarm has been cleared** is a special condition. When an alarm is cleared then only rules matching that condition will be executed. So for the following two rules, the first rule is ignored when the alarm has been cleared - an email is sent for every alarm that has been cleared including if one of the three alarms listed by the first rule is cleared.
 
 ```
 For all alarms where the alarm is not one of CPU - Average CPU Usage, CPU - Individual CPU Usage, CPU Processor Queue Length stop processing further rules.

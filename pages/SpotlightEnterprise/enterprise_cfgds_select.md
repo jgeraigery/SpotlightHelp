@@ -11,6 +11,8 @@ folder: SpotlightEnterprise
 
 ## Connect the Spotlight Client to a Spotlight Diagnostic Server
 
+From the Spotlight Client:
+
 1. Click **Configure \| Diagnostic Server**.
 2. Click **Select a Diagnostic Server**.
 3. In the **Host** field type or select the machine name where the Spotlight Diagnostic Server is installed.

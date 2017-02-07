@@ -28,7 +28,7 @@ If you clear **Upload data to Spotlight Cloud** then Spotlight Cloud services ar
 
 Enter Spotlight Cloud (Spotlight Essentials) account details (**Email** or **Username**, **Password**). This section must be filled in when uploading of data to the Spotlight Cloud is enabled. Once filled in, the email (or username) signed in under is provided.
 
-Click (Register Now](https://www.spotlightessentials.com/home/signup) to create a Spotlight Cloud account if you do not already have one. Registration is free.
+Click [Register Now](https://www.spotlightessentials.com/home/signup) to create a Spotlight Cloud account if you do not already have one. Registration is free.
 
 
 ## Additional references

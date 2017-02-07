@@ -10,7 +10,7 @@ folder: SpotlightEnterprise
 
 ## Where the alarm severity is...
 
-When combining The alarm severity is… and The Connection is… conditions and a severity is repeated, order the rules with the highest severity first and lowest severity last. Add the Stop processing further rules action to the last rule in the list.
+When combining **The alarm severity is…** and **The Connection is…** conditions and a severity is repeated, order the rules with the highest severity first and lowest severity last. Add the **Stop processing further rules** action to the last rule in the list.
 
 ```
 For all alarms
@@ -31,7 +31,7 @@ where the connection is M601\SQLK8
 
 ## Where the alarm is...
 
-When multiple rule(s) apply to the same alarm, rules with The Connection is... condition should be ordered before rules that don't have The Connection is... condition.
+When multiple rule(s) apply to the same alarm, rules with **The Connection is...** condition should be ordered before rules that don't have **The Connection is...** condition.
 
 ```
 For all alarms
@@ -45,7 +45,7 @@ where the alarm is Backup - Days Since Last Full Backup
    send email to jsmith@company com
 ```
 
- Following is what the list may look like in the list of rules, where the rule name is the name of the alarm (when the alarm applies to all connections) and the name of the alarm for connection when the rule applies to the alarm on a specific connection,
+ Following is what the list may look like in the list of rules, where the rule name is *the name of the alarm* (when the alarm applies to all connections) and *the name of the alarm for connection* (when the rule applies to the alarm on a specific connection)
 
 ```
 Backup - Days Since Last Full Backup for M601\SQLK8
@@ -58,7 +58,7 @@ Backup - Days Since Last Full Backup
 
 Consider adding the Stop processing further rules action.
 
-In this example an email is sent to jsmith every time the Backup - Days Since Last Full Backup alarm is raised. In addition, an email is sent to dbrown when the alarm is raised on connection M601\SQLK8.
+In this example an email is sent to jsmith every time the **Backup - Days Since Last Full Backup alarm** is raised. In addition, an email is sent to *dbrown* when the alarm is raised on connection *M601\SQLK8*.
 
 ```
 For all alarms
@@ -72,7 +72,7 @@ where the alarm is Backup - Days Since Last Full Backup
    send email to jsmith@company com
 ```
 
-In this example an email is sent to jsmith every time the Backup - Days Since Last Full Backup alarm is raised - except when the alarm is raised on connection M601\SQLK8. An email is sent to dbrown (instead) when the alarm is raised on connection M601\SQLK8.
+In this example an email is sent to *jsmith* every time the **Backup - Days Since Last Full Backup alarm** is raised - except when the alarm is raised on connection *M601\SQLK8*. An email is sent to *dbrown* (instead) when the alarm is raised on connection *M601\SQLK8*.
 
 ```
 For all alarms

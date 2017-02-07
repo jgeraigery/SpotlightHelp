@@ -10,7 +10,7 @@ folder: SpotlightEnterprise
 
 Spotlight can be configured to raise an alarm on custom counters. For more information, see [Add alarms to custom counters][enterprise_cfgmonitor_alarm_customcounters] and SQL Server \| SQL Activity drilldown. To configure how often Spotlight collects Custom Counter data, see [Configure \| Scheduling][enterprise_cfgmonitor_scheduling].
 
-{% include note.html content="Membership of the Spotlight diagnostic administrators group is required to configure custom counters. For more information, see Spotlight diagnostic user groups." %}
+{% include note.html content="Membership of the Spotlight diagnostic administrators group is required to configure custom counters. For more information, see [Spotlight diagnostic user groups][enterprise_backend_spotlightdiagnosticusergroups]." %}
 
 
 ## Configure custom counters from the Spotlight Client

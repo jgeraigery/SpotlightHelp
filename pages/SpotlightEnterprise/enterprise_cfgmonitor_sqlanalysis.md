@@ -32,7 +32,7 @@ Alternatively, select a template to configure. The templates you have previously
 
 Select the **Override the factory settings** option to modify the settings for the selected template or connection.
 
-Select to **Enable SQL Analysis**. SQL Analysis is disabled by default.
+Select **Enable SQL Analysis**. SQL Analysis is disabled by default.
 
 {% include note.html content="Enabling SQL Analysis may adversely affect the performance of your SQL Server. SQL Analysis data collection puts extra load on your SQL Server; the more data you collect the more the load. For this reason Spotlight does not allow you to Enable SQL Analysis for a Template. If you select the option to **Apply Configuration to…** at the bottom of the screen then the Enable SQL Analysis configuration is NOT automatically applied to selected connections; SQL Analysis can only be enabled one connection at a time." %}
 
@@ -52,7 +52,7 @@ Filters determine what SQL Analysis data is collected from the SQL Server instan
  Note:
 
 * Filtering affects the average, minimum, maximum, and last values displayed in the grid, as calculations are performed only on data retrieved from the SQL Server instance.
-* The data collected from the SQL instance can be filtered for display using local filters on the SQL Analysis - Workload report and the SQL Analysis grid (SQL Activity drilldown).
+* The data collected from the SQL instance can be filtered for display using local filters on the SQL Analysis - Workload report and the SQL Activity drilldown \| SQL Analysis grid.
 
 ### Get these Event Classes
 
