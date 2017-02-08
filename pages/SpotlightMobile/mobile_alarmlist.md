@@ -12,7 +12,7 @@ folder: SpotlightMobile
 These are just some of the ways to open the Alarm List.
 
 *  Tap a connection on the [Heat Map][mobile_heatmap].
-*  Tap a connection or connection View from [Connections][mobile_connections].
+*  Tap a connection or connection View from the [Connections][mobile_connections] display.
 
 ## How to use the Alarm list
 
@@ -21,6 +21,16 @@ Each alarm is colored according to the severity of the alarm. Tap the row for al
 {% include tip.html content="On an iPad, tap the colored icon." %}
 
 {% include imageMobile.html file="screen_iOS-iphone-alarm-list.png" alt="Alarm List Screen" %}
+
+
+### Sort or group the alarms
+
+Tap the icon. Sort by date or severity. Group by server, severity or alarm.
+
+Android | iPhone
+--------|-------
+{% include inline_imageMobile.html file="tap_android-sort-icon.png" alt="Sort Android" %} | {% include inline_imageMobile.html file="tap_iOS-sort-group-alarms.png" alt="Sort iPhone" %}
+
 
 ## Tell me about each alarm
 

@@ -20,11 +20,11 @@ Android | iPhone
 
 ### Accounts
 
-List the Spotlight Cloud (Spotligh Essentials) accounts linked to this mobile device. The Spotlight Essentials account name is usually in the form of an email address. You can add and delete accounts and update the account key.
+List the Spotlight Cloud (Spotligh Essentials) accounts linked to this mobile device. The Spotlight Cloud account name is usually in the form of an email address. You can add and delete accounts and update the account key.
 
 ### Alarm List
 
-Set the default sort order and groupings for alarms on the [Alarm List][mobile_alarmlist].
+Select the default sort order and groupings for alarms on the [Alarm List][mobile_alarmlist].
 
 ### Startup Defaults
 

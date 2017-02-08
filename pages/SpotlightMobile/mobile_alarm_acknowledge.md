@@ -29,6 +29,6 @@ folder: SpotlightMobile
 
 ## How to configure an alarm to require acknowledgment
 
-{% include note.html content="Spotlight Mobile is not used to configure Spotlight. Use a Spotlight Client to configure an alarm to require acknowledgment." %}
+{% include note.html content="In a Spotlight Enterprise deployment, use a Spotlight Client to configure an alarm to require acknowledgment. Spotlight Mobile does not have the facility to configure a Spotlight Enterprise deployment." %}
 
 {% include links.html %}

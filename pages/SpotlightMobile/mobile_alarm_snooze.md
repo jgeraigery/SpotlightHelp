@@ -29,7 +29,7 @@ folder: SpotlightMobile
 
 ## How to unsnooze an alarm
 
-{% include note.html content="Use a Spotlight Client to unsnooze an alarm. Spotlight Mobile cannot be used to unsnooze alarms." %}
+{% include note.html content="In a Spotlight Enterprise deployment, use a Spotlight Client to unsnooze an alarms. Spotlight Mobile cannot be used to unsnooze alarms." %}
 
 
 {% include links.html %}

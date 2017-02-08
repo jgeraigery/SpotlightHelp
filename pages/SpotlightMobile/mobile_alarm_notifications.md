@@ -26,7 +26,7 @@ Ensure Spotlight Mobile is enabled to receive push notifications from Spotlight.
 
 ### Send push notifications from Spotlight Enterprise
 
-Ensure Spotlight is configured to send push notifications to Spotlight Mobile. Do this from the Spotlight Client. For more information, see [Send a Push Notification Dialog][enterprise_cfgmonitor_alarmaction_pushnotification].
+Ensure Spotlight is configured to send push notifications to Spotlight Mobile. In a Spotlight Enterprise deployment, do this from the Spotlight Client. For more information, see [Send a Push Notification Dialog][enterprise_cfgmonitor_alarmaction_pushnotification].
 
 
 ## Push notifications history

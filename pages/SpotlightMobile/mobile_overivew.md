@@ -10,7 +10,7 @@ folder: SpotlightMobile
 
 ## Open the Spotlight Overview page
 
-Start with the [Connections Display][mobile_connections]. Tap on a Spotlight connection to show the Spotlight Overview page panels for that connection.
+Start with the [Connections][mobile_connections] display. Tap on a Spotlight connection to show the Spotlight Overview page panels for that connection.
 
 Android | iPhone
 --------|-------

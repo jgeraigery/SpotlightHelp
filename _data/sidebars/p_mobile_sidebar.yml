@@ -25,17 +25,17 @@ entries:
       url: /mobile_welcome.html
       output: web, pdf
 
-    - title: Setup
-      url: /mobile_deploy.html
-      output: web, pdf
-
-    - title: Summary
-      url: /mobile_summary.html
+    - title: Download and Setup
+      url: /mobile_setup.html
       output: web, pdf
   
   - title: Displays
     output: web, pdf
     folderitems:
+
+    - title: Summary
+      url: /mobile_summary.html
+      output: web, pdf
 
     - title: Heat Map
       url: /mobile_heatmap.html
@@ -71,10 +71,6 @@ entries:
 
     - title: Snooze
       url: /mobile_alarm_snooze.html
-      output: web, pdf
-
-    - title: Sort / Group
-      url: /mobile_alarm_sortgroup.html
       output: web, pdf
 
     - title: Notifications

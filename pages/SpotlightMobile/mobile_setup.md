@@ -4,7 +4,7 @@ tags: [setup]
 keywords: deploy, setup, mobile
 summary: "Expand your deployment of Spotlight Enterprise to include Spotlight Mobile."
 sidebar: p_mobile_sidebar
-permalink: mobile_deploy.html
+permalink: mobile_setup.html
 folder: SpotlightMobile
 ---
 
@@ -13,13 +13,15 @@ folder: SpotlightMobile
 ## Get Spotlight Cloud credentials
 Data collected from monitored connections is sent to Spotlight Mobile via the Spotlight Cloud.
 
-A Spotlight Cloud account is required to use Spotlight Mobile. Create a Spotlight Cloud account if you do not already have one. Do this at the Spotlight web site.
+A Spotlight Cloud account is required to use Spotlight Mobile. Create a Spotlight Cloud account if you do not already have one. Do this at the [Spotlight web site](https://www.spotlightessentials.com/home/SignUp).
 
 {% include tip.html content="If there are many Spotlight Cloud accounts in your organization, see also [Spotlight Cloud \| Organizations][cloud_settings_organizations]." %}
 
 ## Configure the Spotlight Diagnostic Server
 
 For Spotlight Mobile to receive data from the Spotlight Diagnostic Server, ensure the Spotlight Cloud account configured to the Spotlight Diagnostic Server is your Spotlight Cloud account or the Spotlight Cloud account of an individual in the same Spotlight Cloud Organization as you.
+
+### In a Spotlight Enterprise deployment
 
 Use a Spotlight Client:
 

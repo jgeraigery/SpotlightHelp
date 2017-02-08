@@ -25,8 +25,6 @@ Tap on a connection vew to show those connections on a [Heat Map][mobile_heatmap
 
 Tap on a connection vew to show those connections on a Heat Map. From the Heat Map, tap to see the [Alarm List][mobile_alarmlist].
 
-To open an Alarm List for a connection, tap on a connection to show the Spotlight Overview page for that connection. From the Spotlight Overview page, tap to see the [Alarm List][mobile_alarmlist].
-
 ## Open the Spotlight Overview page
 
 Tap on a connection to see that connection on a [Spotlight Overview page][mobile_overview].
