@@ -25,23 +25,15 @@ entries:
       url: /cloud_welcome.html
       output: web, pdf
 
-    - title: Install
-      url: /cloud_install.html
+    - title: Download and Setup
+      url: /cloud_setup.html
       output: web, pdf
 
-    - title: Product License
-      url: /cloud_license.html
+    - title: Subscriptions
+      url: /cloud_subscriptions.html
       output: web, pdf
 
       subfolders:
-      - title: Account details
-        output: web
-        subfolderitems:
-
-        - title: Account details
-          url: /cloud_login_details.html
-          output: web, pdf
-
       - title: Legal
         output: web
         subfolderitems:

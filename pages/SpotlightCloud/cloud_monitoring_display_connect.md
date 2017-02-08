@@ -7,9 +7,15 @@ folder: SpotlightCloud
 ---
 
 
+## About the Connections display
+
+1. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
+2. The Heat Map is the opening **Monitoring** screen on the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
+3. The Connections display is the left panel of the **Monitoring** screen.
+
 ## Search
 
-Filter the list of connections on the Spotlight Client **Connections** display. To filter this list of connections, type text in the **Search** field. The search matches against the connection name.
+Filter the list of connections on the **Connections** display. To filter this list of connections, type text in the **Search** field. The search matches against the connection name.
 
 ## Open a Heat Map
 

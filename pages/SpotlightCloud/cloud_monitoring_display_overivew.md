@@ -10,10 +10,12 @@ folder: SpotlightCloud
 
 ## Open the Spotlight Overview page
 
-Open the Spotlight Overview page in any of the following ways:
+1. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
+2. Go to the **Monitoring** screen on the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
+3. Ways to open the Spotlight Overview page from the **Monitoring** screen:
 
-* Click on a connection on the [Heat Map][cloud_monitoring_display_heatmap]
-* Click on a connection on the [Connections Display][cloud_monitoring_display_connect].
+   * Click on a connection on the [Heat Map][cloud_monitoring_display_heatmap]
+   * Click on a connection on the [Connections Display][cloud_monitoring_display_connect].
 
 ## Component color
 Spotlight Overview page components are colored. If the color is other than green then the component is in an alarm state. If more than one alarm is raised against the component then the color shows the highest severity alarm raised.

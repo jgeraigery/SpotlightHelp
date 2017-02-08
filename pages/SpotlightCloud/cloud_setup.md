@@ -1,10 +1,10 @@
 ---
-title: Install Spotlight Cloud
+title: Download and Setup Spotlight Cloud
 tags: [setup]
 keywords: setup, install
 summary: ""
 sidebar: p_cloud_sidebar
-permalink: cloud_install.html
+permalink: cloud_setup.html
 folder: SpotlightCloud
 ---
 

@@ -10,7 +10,9 @@ folder: SpotlightCloud
 
 
 ## Open the Heatmap
-The Heat Map is the opening **Monitoring** screen on the Spotlight web site.
+
+1. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
+2. The Heat Map is the opening **Monitoring** screen on the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
 
 ## Connection color and surface area
 The Heat Map display organizes connections based on the comparative number and severity of alarms raised against them. Connections with the most alarms raised against them are given the most surface area on the heat map. Connections are colored according to the most severe current alarm.

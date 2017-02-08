@@ -1,15 +1,16 @@
 ---
 title: Alarms list in the Spotlight Cloud
-summary: "Spotlight Today is a display of recent alarms and alarms requiring acknowledgment."
+summary: "List all alarms raised against the connection or connection view."
 sidebar: p_cloud_sidebar
 permalink: cloud_monitoring_display_alarmlist.html
 folder: SpotlightCloud
 ---
 
-## How to open the Alarm list
+## Open the Alarm list
 
-1. Go to the **Monitoring** screen on the Spotlight web site.
-2. Click on the **Alarms** link.
+1. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
+2. Go to the **Monitoring** screen on the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
+3. Click on the **Alarms** link.
 
 ## Color
 Each alarm is colored according to the severity of the alarm.
