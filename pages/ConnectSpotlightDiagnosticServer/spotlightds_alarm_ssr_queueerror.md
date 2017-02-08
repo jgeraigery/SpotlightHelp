@@ -2,7 +2,7 @@
 title: ﻿Diagnostic Server - Repository Alarm - Queue Error
 last_updated: July 29, 2016
 summary: "Data collected by the Diagnostic Server has been queued and is awaiting insertion into the Spotlight Statistics Repository. The queue has now exceeded its limit and data is being discarded."
-sidebar: c_spotlightds_sidebar
+sidebar: p_enterprise_sidebar
 permalink: spotlightds_alarm_ssr_queueerror.html
 id: repository.alarm_queue error
 folder: ConnectSpotlightDS

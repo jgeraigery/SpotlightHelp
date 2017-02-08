@@ -375,6 +375,155 @@ entries:
       url: /enterprise_alarm_notifications.html
       output: web, pdf
 
+  - title: Monitor Diagnostic Server
+    output: web, pdf
+    folderitems:
+
+    - title: Monitor Diagnostic Server
+      url: /spotlightds_welcome.html
+      output: web, pdf
+
+      subfolders:
+      - title: Diagnostic Server - Alarms
+        output: web
+        subfolderitems:
+
+        - title: Diagnostic Server - Alarm Action Failure
+          url: /spotlightds_alarm_alarmactionfailure.html
+          output: web, pdf
+
+        - title: Diagnostic Server - Alarm Evaluation Failure
+          url: /spotlightds_alarm_alarmevaluationfailure.html
+          output: web, pdf
+  
+        - title: Diagnostic Server - Auto Update Failure
+          url: /spotlightds_alarm_autoupdatefailure.html
+          output: web, pdf
+
+        - title: Diagnostic Server - Auto Update Success
+          url: /spotlightds_alarm_autoupdatesuccess.html
+          output: web, pdf
+
+        - title: Diagnostic Server - Collection Execution Failure
+          url: /spotlightds_alarm_collectionexecutionfailure.html
+          output: web, pdf
+
+        - title: Diagnostic Server - Email Service
+          url: /spotlightds_alarm_emailservice.html
+          output: web, pdf
+
+        - title: Diagnostic Server - Federation Communications Failure
+          url: /spotlightds_alarm_federationcommunicationsfailure.html
+          output: web, pdf
+
+        - title: Diagnostic Server - License Service
+          url: /spotlightds_alarm_licenseservice.html
+          output: web, pdf
+
+        - title: Diagnostic Server - Microsoft .NET 4.5 Required
+          url: /spotlightds_alarm_microsoftnet45required.html
+          output: web, pdf
+
+        - title: Diagnostic Server - PagerDuty Service
+          url: /spotlightds_alarm_pagerdutyservice.html
+          output: web, pdf
+
+        - title: Diagnostic Server - Push Notification To Mobile Device
+          url: /spotlightds_alarm_pushnotificationtomobiledevice.html
+          output: web, pdf
+
+        - title: Diagnostic Server - SNMP Service
+          url: /spotlightds_alarm_snmpservice.html
+          output: web, pdf
+
+        - title: Diagnostic Server - Spotlight Cloud Data Transfer
+          url: /spotlightds_alarm_spotlightclouddatatransfer.html
+          output: web, pdf
+
+        - title: Diagnostic Server - Synchronize Connections Upload Failure
+          url: /spotlightds_alarm_synchronizeconnectionsuploadfailure.html
+          output: web, pdf
+
+      - title: Diagnostic Server - Spotlight Playback
+        output: web
+        subfolderitems:
+
+        - title: Connection Error
+          url: /spotlightds_alarm_playback_connectionerror.html
+          output: web, pdf
+
+        - title: Maintenance Error
+          url: /spotlightds_alarm_playback_MaintenanceError.html
+          output: web, pdf
+
+        - title: Queue Error
+          url: /spotlightds_alarm_playback_queueerror.html
+          output: web, pdf
+
+        - title: Read Error
+          url: /spotlightds_alarm_playback_readerror.html
+          output: web, pdf
+
+        - title: Update Error
+          url: /spotlightds_alarm_playback_updateerror.html
+          output: web, pdf
+
+        - title: Upgrade Error
+          url: /spotlightds_alarm_playback_upgradeerror.html
+          output: web, pdf
+
+        - title: Upgrade In Progress
+          url: /spotlightds_alarm_playback_UpgradeinProgress.html
+          output: web, pdf
+
+        - title: Version Error
+          url: /spotlightds_alarm_playback_versionerror.html
+          output: web, pdf
+
+      - title: Diagnostic Server - Spotlight Statistics Repository
+        output: web
+        subfolderitems:
+
+        - title: Connection Error
+          url: /spotlightds_alarm_ssr_connectionerror.html
+          output: web, pdf
+
+        - title: Maintenance Error
+          url: /spotlightds_alarm_ssr_MaintenanceError.html
+          output: web, pdf
+
+        - title: Queue Error
+          url: /spotlightds_alarm_ssr_queueerror.html
+          output: web, pdf
+
+        - title: Update Error
+          url: /spotlightds_alarm_ssr_updateerror.html
+          output: web, pdf
+
+        - title: Upgrade Error
+          url: /spotlightds_alarm_ssr_upgradeerror.html
+          output: web, pdf
+
+        - title: Upgrade In Progress
+          url: /spotlightds_alarm_ssr_UpgradeinProgress.html
+          output: web, pdf
+
+        - title: Version Error
+          url: /spotlightds_alarm_ssr_versionerror.html
+          output: web, pdf
+
+      - title: Spotlight Overview page
+        output: web, pdf
+        subfolderitems:
+
+        - title: Spotlight Overview page
+          url: /spotlightds_drilldown_overview.html
+          output: web, pdf
+
+        - title: Status
+          url: /spotlightds_component_status.html
+          output: web, pdf
+
   - title: Configure Monitoring
     output: web, pdf
     folderitems:

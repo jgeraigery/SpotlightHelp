@@ -1,7 +1,7 @@
 ---
 title: Status
 summary: "This button indicates the current status of the Spotlght Diagnostic Server."
-sidebar: c_spotlightds_sidebar
+sidebar: p_enterprise_sidebar
 permalink: spotlightds_component_status.html
 folder: ConnectSpotlightDS
 ---

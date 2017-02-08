@@ -105,7 +105,6 @@ sidebars:
 - c_windows_sidebar
 - c_vmware_sidebar
 - c_hyperv_sidebar
-- c_spotlightds_sidebar
 - other
 
 description: ""
