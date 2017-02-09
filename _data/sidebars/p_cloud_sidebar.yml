@@ -110,6 +110,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Cloud Settings
+      url: /cloud_settings.html
+      output: web, pdf
+
     - title: Organizations
       url: /cloud_settings_organizations.html
       output: web, pdf

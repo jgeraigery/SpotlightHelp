@@ -28,7 +28,7 @@ Tags are a free form organizational tool that may be optionally applied to Spotl
 
 Select from the connections monitored by Spotlight. This list is adjusted as applicable to the configuration to be applied. For example, a Spotlight configuration for a SQL Server instance can be applied to other SQL Server instances, but may not be applicable to Windows Server connections.
 
-{% include imageClient.html file="pane_selectconnections_connectiontypes.png" alt="Connection Type" %}
+{% include imageClient.html file="pane_selectconnections_connectiontypesall.png" alt="Connection Type" %}
 
 ## Selected
 

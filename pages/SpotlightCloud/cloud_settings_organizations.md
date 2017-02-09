@@ -1,6 +1,6 @@
 ---
 title: Manage Organizations in the Spotlight Cloud
-summary: ""
+summary: "Share monitoring and analysis data with the team."
 sidebar: p_cloud_sidebar
 permalink: cloud_settings_organizations.html
 folder: SpotlightCloud
@@ -27,7 +27,7 @@ Until now if your team each had their own separate Spotlight accounts you couldn
 
    {% include imageCloud.html file="create-organization-screen-grab.png" alt="Create organization" %}
 
-3. Enter the name you’d like to use for your organization.
+3. Enter the name you would like to use for your organization.
 
    {% include imageCloud.html file="organization-name-screen-grab.png" alt="Share data with the team" %}
 

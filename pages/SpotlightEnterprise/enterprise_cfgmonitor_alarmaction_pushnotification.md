@@ -91,7 +91,7 @@ In the rule description, click (add recipient account). This opens the **Send a 
 
 Enter the Spotlight Cloud (Spotlight Essentials) account name(s) to receive the push notification.
 
-Note that Spotlight Cloud account names are in the form of an email address. However the push notification is not sent to the email address. The push notification is sent to mobile device(s) where Spotlight Mobile is installed with Sign in from this(these) Spotlight Cloud account(s).
+Note that Spotlight Cloud account names are in the form of an email address. However the push notification is not sent to the email address. The push notification is sent to mobile device(s) where [Spotlight Mobile][mobile_welcome] is installed with Sign in from this(these) Spotlight Cloud account(s).
 
 When multiple Spotlight Cloud account names are involved, separate each account name with a comma.
 
