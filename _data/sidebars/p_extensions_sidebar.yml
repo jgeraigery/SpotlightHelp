@@ -29,6 +29,10 @@ entries:
       url: /extensions_install.html
       output: web, pdf
 
+    - title: Requirements
+      url: /extensions_requirements.html
+      output: web, pdf
+
     - title: Subscriptions
       url: /extensions_subscriptions.html
       output: web, pdf

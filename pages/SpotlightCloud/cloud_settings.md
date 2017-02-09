@@ -9,7 +9,9 @@ folder: SpotlightCloud
 
 ## Open Cloud Settings
 
-
+1. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
+2. Click on your profile icon in the top right corner of the web page.
+3. Select **Settings**.
 
 ## Account Details
 Change your name. Show your email address as known to Spotligt Cloud.
