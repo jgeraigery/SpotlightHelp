@@ -228,6 +228,7 @@ Not applicable.
 Each SQL Server connection from the Diagnostic Server must have access to a SQL Server account that is a member of the sysadmin server role. This can be a SQL Server login (such as 'sa'), or the Diagnostic Server can be installed to run under a Windows account that is trusted by SQL Server.
 
 The Spotlight user requires the following:
+
 * PUBLIC access to all databases on the monitored instance.
 * DATAREADER database role on the msdb database.
 * To be granted VIEW SERVER STATE privilege.

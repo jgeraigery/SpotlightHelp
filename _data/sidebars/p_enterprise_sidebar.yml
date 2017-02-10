@@ -917,12 +917,12 @@ entries:
       url: /enterprise_backend_logofuseractions.html
       output: web, pdf
 
-    - title: Network Ports
-      url: /enterprise_backend_networkports.html
-      output: web, pdf
-
     - title: Deployment over the Windows Network
       url: /enterprise_backend_windowsnetwork.html
+      output: web, pdf
+
+    - title: Network Ports
+      url: /enterprise_backend_networkports.html
       output: web, pdf
 
     - title: Spotlight Diagnostic User Groups

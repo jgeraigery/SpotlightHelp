@@ -10,11 +10,14 @@ folder: ConnectSpotlightDS
 
 
 
+## How to open (and Use) the Spotlight Overview page
+The Spotlight Overview page can be opened from:
 
-## There are many ways to open the Spotlight Overview page
+* [Spotlight Client][enterprise_display_overview]
+* [Spotlight Mobile][mobile_overview]
 
-* Click on the Spotlight Diagnostic Server connection on the Connections pane.
-* Click on the Spotlight Diagnostic Server connection on the heatmap display.
+## The Spotlight Overview page for the Diagnostic Server connection
+The Spotlight Overview page shows status information for Spotlight Diagnostic Server connected to the Spotlight Client.
 
 
 

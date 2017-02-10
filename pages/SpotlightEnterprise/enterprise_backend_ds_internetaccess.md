@@ -11,11 +11,11 @@ folder: SpotlightEnterprise
 
 ### Configure the auto-update facility
 
-Enable Auto Update so the Spotlight Diagnostic Server will receive minor updates (scripts and configuration) automatically.
+[Enable Auto Update][enterprise_cfgds_autoupdate] so the Spotlight Diagnostic Server will receive minor updates (scripts and configuration) automatically.
 
 ### Configure uploading to Spotlight Cloud
 
-Monitor Spotlight connections in a web browser or Spotlight Mobile. Upload performance data for health check analysis.
+Monitor Spotlight connections in a web browser or Spotlight Mobile. Upload performance data for health check analysis. See [Upload to the Spotlight Cloud][enterprise_cfgds_spotlightcloud].
 
 
 ## How to ensure the Spotlight Diagnostic Server is appropriately configured to access the Internet
