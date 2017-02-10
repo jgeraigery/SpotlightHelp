@@ -25,12 +25,12 @@ entries:
       url: /extensions_welcome.html
       output: web, pdf
 
-    - title: Download and Install
-      url: /extensions_install.html
+    - title: Components and Requirements
+      url: /extensions_requirements.html
       output: web, pdf
 
-    - title: Requirements
-      url: /extensions_requirements.html
+    - title: Download and Setup
+      url: /extensions_setup.html
       output: web, pdf
 
     - title: Subscriptions
@@ -58,46 +58,26 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Get Started
-      url: /extensions_getstarted.html
-      output: web, pdf
-
-    - title: Features
-      url: /extensions_features.html
-      output: web, pdf
-
     - title: Heat Map
-      url: /extensions_display_heatmap.html
+      url: /extensions_monitoring_heatmap.html
       output: web, pdf
 
-    - title: Diagnostics
-      url: /extensions_display_diagnostics.html
+    - title: Alarms
+      url: /extensions_monitoring_alarmlist.html
       output: web, pdf
 
-    - title: Connections Display
-      url: /extensions_display_connect.html
+    - title: Overview
+      url: /extensions_monitoring_overview.html
       output: web, pdf
 
-    - title: Spotlight Overview pages
-      url: /extensions_display_overview.html
+    - title: Connections
+      url: /extensions_monitoring_connect.html
       output: web, pdf
 
   - title: Spotlight Optimizer
     output: web, pdf
     folderitems:
 
-    - title: Acknowledge
-      url: /extensions_alarm_acknowledge.html
-      output: web, pdf
-
-    - title: Snooze
-      url: /extensions_alarm_snooze.html
-      output: web, pdf
-
-  - title: Health Check
-    output: web, pdf
-    folderitems:
-
-    - title: Health Check
-      url: /extensions_healthcheck.html
+    - title: Spotlight Optimizer
+      url: /extensions_optimizer.html
       output: web, pdf
