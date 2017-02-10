@@ -23,11 +23,12 @@ This space should exist on a local disk drive rather than a network drive.
 
 ### Operating system
 
-* Microsoft® Windows® 10 (64-bit)
+* Microsoft® Windows 10 (64-bit)
 * Microsoft Windows 8.1 (64-bit)
 * Microsoft Windows 8 (64-bit)
 * Microsoft Windows 7 (64-bit)
-* Microsoft Windows Server® 2012 R2 (64-bit)
+* Microsoft Windows Server 2016 (64-bit)
+* Microsoft Windows Server 2012 R2 (64-bit)
 * Microsoft Windows Server 2012 (64-bit)
 * Microsoft Windows Server 2008 R2 (64-bit)
 * Microsoft Windows Server 2008 (64-bit)
@@ -80,6 +81,7 @@ If the Diagnostic Server’s connection to the Spotlight Statistics Repository o
 * Microsoft Windows 8.1 (64-bit)
 * Microsoft Windows 8 (64-bit)
 * Microsoft Windows 7 (64-bit)
+* Microsoft Windows Server 2016 (64-bit)
 * Microsoft Windows Server 2012 R2 (64-bit)
 * Microsoft Windows Server 2012 (64-bit)
 * Microsoft Windows Server 2008 R2 (64-bit)
