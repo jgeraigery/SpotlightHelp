@@ -28,42 +28,34 @@ From the Spotlight Client
 Investigate SQL sessions including session details and locks.
 
 #### Session grid
-Shows all SQL Server sessions, each row representing a single session.
-
-
- Note:
-* Many applications create multiple connections to SQL Server.
-* When there are more than 2000 connections only those connections that are active are shown.
+Shows all SQL Server sessions, each row representing a single session. Many applications create multiple connections to SQL Server. When there are more than 2000 connections only those connections that are active are shown.
 
 In SQL Server 2005 or later, to show only those sessions that are currently executing,, click **Active only**.
 
 In SQL Server 2000, clicking **Active only** shows sessions that:
+
 * Do not have a status of sleeping, background or dormant.
 * Are blocked.
 * Have a command type of "WAITFOR".
 
-TIP:
+##### Tips for using the Session grid
+
 * Some columns may be hidden by default. To view them, right-click the grid headings and select **Organize Columns**.
 * SQL Server sessions can be closed. Select the session and click **Kill this session**. This option is available only to members of the Spotlight diagnostic administrators group. For more information, see Spotlight diagnostic user groups.
-
-
-
 * You can view more details for a session by clicking it in this grid. Additional pages are then displayed in the lower half of the drilldown.
-* The data displayed in this grid can be **Filtered**. Filtering is the method Spotlight uses to restrict displays to a manageable or relevant set of data. You can view or change the filter by right-clicking the grid and choosing View/Edit Filter.
+* The data displayed in this grid can be **Filtered**. Filtering is the method Spotlight uses to restrict displays to a manageable or relevant set of data. You can view or change the filter by right-clicking the grid and choosing **View/Edit Filter**.
 * To find a particular session, right-click and select **Find**.
 * Data in the Last Wait Type and Last Wait Resource columns is reported directly from SQL Server and, for performance reasons, is not resolved to actual resource names during normal data collection. To resolve the data to a more readable form, click the  button.
 
 
 #### SQL
-Shows the batch of SQL statements last executed or currently executing by the selected session.)
+Shows the batch of SQL statements last executed or currently executing by the selected session.
 
-TIP:
 * Use SQL Optimizer (if installed) to tune the displayed SQL by clicking **Optimize SQL**.
 * You can copy SQL text from the SQL Statement page by right-clicking and selecting the appropriate option from the shortcut menu.
 
 
 #### Plan
-
 Shows the query execution plan for the selected session in XML. To open the plan in SQL Server Management Studio (if installed) and view the query execution plan in graphical format, click **View Plan**.
 
 This feature is not available for SQL Server 2000.
@@ -73,7 +65,6 @@ Uses SQL Server trace functionality to show the SQL events and activity generate
 
 For performance reasons, Spotlight limits the number of records that can be viewed in this grid to 500. When the limit is reached, the oldest records are discarded as new ones are collected.
 
- TIP:
 * Opening the **Session Trace** page initiates a new session that does a trace on the selected session. The grid displays **No Data** until such time that the session executes some SQL. The grid is populated with the SQL that occurs from the time the **Session Trace** page is opened.
 * You can use SQL Optimizer (if installed) to tune the SQL of the selected session. To do this, select a row in the grid and click **Optimize SQL**.
 * To use the Session Trace functionality the version of SQL Server Management Tools installed on the Diagnostic Server is required to match the latest version of SQL Server monitored. When monitoring SQL Server 2012, SQL Server 2012 Management Tools are required.
@@ -158,7 +149,7 @@ A SQL Server session can be closed by selecting it and clicking **Kill Session**
 
 For performance reasons, Spotlight limits the number of records that can be viewed in this grid. By default, only 1000 locks will be displayed. If there are more locks than this, then no information will be displayed.
 
-The data displayed in this grid can be Filtered. Filtering is the method Spotlight uses to restrict displays to a manageable or relevant set of data. You can view or change the filter for this grid by clicking Change Filter.
+The data displayed in this grid can be Filtered. Filtering is the method Spotlight uses to restrict displays to a manageable or relevant set of data. You can view or change the filter for this grid by clicking **Change Filter**.
 
 
 
@@ -177,7 +168,7 @@ Shows the following lock statistics broken down by the lock type:
 
 **Deadlocks per Second** - The number of lock requests per second that resulted in a deadlock. A deadlock occurs when session A requests a lock that conflicts with a lock already held by session B, and then session B requests a lock that conflicts with one session A holds. SQL Server chooses one session as the deadlock victim, cancels that connection and rolls back any updates they had done.
 
-Tip: To switch between lock statistics, click the arrow next to the chart name.
+{% include tip.html content="To switch between lock statistics, click the arrow next to the chart name." %}
 
 #### Latches chart
 Shows statistics on Latch requests.
@@ -228,11 +219,11 @@ This feature is not available for SQL Server 2000.
 
 Shows the date of the deadlock and the SPID of the process that SQL Server terminated to resolve the deadlock.
 
-Select an item in the list to see information about the deadlock in XML. From here you can view a graphical representation of the deadlock in SQL Server Management Studio (if installed), by clicking View Plan.
+Select an item in the list to see information about the deadlock in XML. From here you can view a graphical representation of the deadlock in SQL Server Management Studio (if installed), by clicking **View Plan**.
 
 
 
-The best way to see deadlocks in Spotlight is to use the Playback Database (Playback) to view the Deadlocks list at the time the deadlock occurred. As SQL Server resolves deadlocks quickly, they appear for only a short time when Spotlight is in live mode.
+The best way to see deadlocks in Spotlight is to use the Playback Database to view the Deadlocks list at the time the deadlock occurred. As SQL Server resolves deadlocks quickly, they appear for only a short time when Spotlight is in live mode.
 
 
 ### I/O by File page
@@ -271,7 +262,7 @@ You can use the SQL Analysis grid when load testing in a testing environment. Fo
 
 **To filter the data displayed**
 
-Click Change Filter to refine the display of data. Click **Add**.
+Click **Change Filter** to refine the display of data. Click **Add**.
 
 * From the **Column** list, choose the column you want to base your filter on.
 * From the **Condition** list, choose a condition to apply to the column. You can use the percent sign (%) wildcard with the is **like/is not like** condition.
@@ -282,6 +273,7 @@ Click Change Filter to refine the display of data. Click **Add**.
 You can edit or delete a filter by selecting it in the filter list and clicking the appropriate button. To turn off filtering, clear the Filter results check box.
 
 TIP:
+
 * To identify SQL that consumed the most CPU, sort the grid by Total CPU
 * To identify the average CPU consumed by a particular statement, sort the grid by Average CPU
 * To identify SQL that was executed the most, sort the grid by Execution Count
@@ -304,11 +296,9 @@ Shows data collected for any custom counters that have been configured.
 #### Custom Counters grids
 Shows data collected for any SQL Server and Windows custom counters that have been configured.
 
-Data collected for any custom counters that have been configured is shown in the chart and grids.
+Data collected for any custom counters that have been configured is shown in the chart and grids. Note that the chart shows only those counters that return numeric values.
 
- Note:
-* The chart shows only those counters that return numeric values.
-* You can see Custom Counter data over a selected time range. See **Custom Counters View** in Spotlight Reporting and Trending for more information.  
+You can see Custom Counter data over a selected time range. See **Custom Counters** in Spotlight Reporting and Trending for more information.  
 
 
 ### Query Execution Statistics page
@@ -331,7 +321,7 @@ Select values as appropriate.
 Option | Description
 -------|-------------
 Statement type | Select how you want to filter the SQL statements.
-Where index name is | Specify the name of the index. This option is available only when "Show SQL statements using index" is selected.
+Where index name is | Specify the name of the index. This option is available only when **Show SQL statements using index** is selected.
 In the top *n* | Select how many statements to sample.
 By | Specify the criteria that Spotlight should use to determine the top statements.
 
@@ -352,8 +342,6 @@ Show SQL statements using large number of rows | Shows SQL statements in the top
 #### SQL Statement
 Shows the SQL statement of the currently selected row.
 
-
-TIP:
 * Use SQL Optimizer (if installed) to tune the displayed SQL by clicking **Optimize SQL**.
 * You can copy SQL text from the SQL Statement page by right-clicking and selecting the appropriate option from the shortcut menu.
 

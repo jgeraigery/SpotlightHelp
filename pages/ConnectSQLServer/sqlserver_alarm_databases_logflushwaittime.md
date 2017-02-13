@@ -25,8 +25,6 @@ Note that Spotlight Enterprise checks the log flush wait time for the last log f
 * Consider moving log files off RAID-5 devices as these are optimized for read activity, and log files generate mainly write activity.
 
 ## Configuration
-
-* You can configure this alarm to ignore certain values. For more information, see Do not alarm for certain values.
-* You can configure different alarm severities for specific databases. For more information, see Configure an alarm.
+You can configure this alarm to ignore certain values. You can configure different alarm severities for specific databases. 
 
 {% include links.html %}

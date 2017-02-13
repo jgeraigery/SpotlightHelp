@@ -24,7 +24,7 @@ When this alarm is current:
 
 To exclude certain databases from the Backup - Hours Since Last Differential Backup Alarm:
 
-1.  Open teh Spotlight Client.
+1.  Open the Spotlight Client.
 2.  On the Spotlight Overview page, right-click the Databases button and select **Alarm Settings**.
 3.  Select **Backup - Hours Since Last Differential Backup**.
 4.  Select **Override the default settings for the alarm**.

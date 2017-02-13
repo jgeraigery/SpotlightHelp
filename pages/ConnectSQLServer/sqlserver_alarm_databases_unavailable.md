@@ -19,8 +19,7 @@ This alarm detects unusual database statuses, including Suspect, Offline, Recove
 
 ## Configuration
 
-You can configure this alarm to ignore certain values. For more information, see Do not alarm for certain values.
-You can configure different alarm severities for specific databases. For more information, see Configure an alarm.
+You can configure this alarm to ignore certain values. You can configure different alarm severities for specific databases.
 
 ## Common database unavailable status
 
@@ -112,7 +111,6 @@ set status = status ^ 32768
 where name = 'YourDBName'
 ```
 
+{% include tip.html content="The database may still contain corrupt data, and a full database restore is recommended." %}
 
- Note: The database may still contain corrupt data, and a full database restore is recommended.
-
- {% include links.html %}
+{% include links.html %}
