@@ -38,10 +38,10 @@ In SQL Server 2000, clicking **Active only** shows sessions that:
 * Are blocked.
 * Have a command type of "WAITFOR".
 
-##### Tips for using the Session grid
+##### Tips for using the Session grid in the Spotlight Client
 
 * Some columns may be hidden by default. To view them, right-click the grid headings and select **Organize Columns**.
-* SQL Server sessions can be closed. Select the session and click **Kill this session**. This option is available only to members of the Spotlight diagnostic administrators group. For more information, see Spotlight diagnostic user groups.
+* SQL Server sessions can be closed. Select the session and click **Kill this session**. This option is available only to members of the Spotlight diagnostic administrators group. For more information, see [Spotlight diagnostic user groups][enterprise_backend_spotlightdiagnosicusergroups].
 * You can view more details for a session by clicking it in this grid. Additional pages are then displayed in the lower half of the drilldown.
 * The data displayed in this grid can be **Filtered**. Filtering is the method Spotlight uses to restrict displays to a manageable or relevant set of data. You can view or change the filter by right-clicking the grid and choosing **View/Edit Filter**.
 * To find a particular session, right-click and select **Find**.
@@ -143,7 +143,7 @@ The Locks grid is not refreshed automatically. To refresh the Locks grid, click 
 
 
 
-A SQL Server session can be closed by selecting it and clicking **Kill Session**. This will terminate the entire connection (SPID), not just the lock you selected. This option is available only to members of the Spotlight diagnostic administrators group. For more information, see Spotlight diagnostic user groups.
+A SQL Server session can be closed by selecting it and clicking **Kill Session**. This will terminate the entire connection (SPID), not just the lock you selected. This option is available only to members of the Spotlight diagnostic administrators group. For more information, see [Spotlight diagnostic user groups][enterprise_backend_spotlightdiagnosicusergroups].
 
 
 
@@ -272,7 +272,7 @@ Click **Change Filter** to refine the display of data. Click **Add**.
 
 You can edit or delete a filter by selecting it in the filter list and clicking the appropriate button. To turn off filtering, clear the Filter results check box.
 
-TIP:
+##### Tips for using the SQL Analysis grid in the Spotlight Client
 
 * To identify SQL that consumed the most CPU, sort the grid by Total CPU
 * To identify the average CPU consumed by a particular statement, sort the grid by Average CPU

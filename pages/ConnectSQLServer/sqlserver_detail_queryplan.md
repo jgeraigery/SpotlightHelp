@@ -8,7 +8,7 @@ permalink: sqlserver_detail_queryplan.html
 folder: ConnectSQLServer
 ---
 
-Click View Plan to open the plan in SQL Server Management Studio (if installed) and view the query execution plan in graphical format
+In the Spotlight Client, click **View Plan** to open the plan in SQL Server Management Studio (if installed) and view the query execution plan in graphical format
 
 
 {% include links.html %}

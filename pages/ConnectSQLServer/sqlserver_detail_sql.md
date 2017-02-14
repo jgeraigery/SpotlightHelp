@@ -9,7 +9,7 @@ folder: ConnectSQLServer
 ---
 
 
-From this window, you can right-click to:
+From this window in Spotlight Enterprise using the Spotlight Client, you can right-click to:
 
 * Copy the SQL text contained in the window to the Windows clipboard.
 * Use SQL Optimizer (if installed) to tune the displayed SQL. Alternatively, click the **Optimize SQL** link located above the SQL statement.
