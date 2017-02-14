@@ -11,7 +11,7 @@ folder: ConnectSQLServer
 
 
 
-{% include note.html content="This alarm is not activated for missing backups of the tempdb database." %}
+{% include note.html content="This alarm is not activated for missing backups of the **tempdb** database." %}
 
 When this alarm is raised:
 

@@ -14,12 +14,11 @@ This alarm detects unusual database statuses, including Suspect, Offline, Recove
 
 ## When the alarm is raised
 
-* Determine which databases are unavailable. Check the Databases grid on the SQL Server \| Databases Drilldown. The Status column shows which databases are unavailable.
+* Determine which databases are unavailable. Check the **SQL Server \| Databases drilldown \| Databases grid**. The Status column shows which databases are unavailable.
 * Take the action specified below for each unavailable database.
 
-## Configuration
+{% include note.html content="You can configure this alarm to ignore certain values. You can configure different alarm severities for specific databases." %}
 
-You can configure this alarm to ignore certain values. You can configure different alarm severities for specific databases.
 
 ## Common database unavailable status
 
@@ -35,7 +34,7 @@ Databases that are marked as Loading or Restoring are currently being restored b
 
 This status is also assigned to databases that have been restored using the NORECOVERY option. Specifying this parameter on a RESTORE statement tells SQL Server that there are more transaction logs to be restored, and that no access to the database is permitted until they are applied.
 
-You should check the Sessions tab on the SQL Activity drilldown for active sessions that are processing a RESTORE command (where the Last Command column contains Restore). If there are no sessions processing a RESTORE command, then the database is most likely unavailable because the last restore was done with the NORECOVERY keyword.
+You should check the **SQL Server \| SQL Activity drilldown \| Sessions tab** for active sessions that are processing a RESTORE command (where the Last Command column contains Restore). If there are no sessions processing a RESTORE command, then the database is most likely unavailable because the last restore was done with the NORECOVERY keyword.
 
 To remove Loading/Restoring status, you should complete the RESTORE process. This can involve either waiting for the active RESTORE command to complete, or restoring the remaining transaction logs. The last transaction log should be restored without the NORECOVERY keyword.
 
@@ -58,7 +57,7 @@ The first thing to do when you have a Suspect database is to check the SQL Serve
 Actions you can consider to correct a suspect database include:
 
 * Check the SQL Server error log to determine why the database was made suspect.
-Make sure all database files are available. If any database file is unavailable when SQL Server attempts to open the database, the database is made suspect. This can happen if you have deleted or renamed a database file while SQL Server was down. It can also happen if another Windows process (such as Backup or Virus Scanning software) is using a database file when SQL Server tries to open it. If this is the case, once the database file is available again, use the sp_resetstatus stored procedure (as documented in Books Online) to reset the database status, and then restart SQL Server to initiate recovery.
+* Make sure all database files are available. If any database file is unavailable when SQL Server attempts to open the database, the database is made suspect. This can happen if you have deleted or renamed a database file while SQL Server was down. It can also happen if another Windows process (such as Backup or Virus Scanning software) is using a database file when SQL Server tries to open it. If this is the case, once the database file is available again, use the sp_resetstatus stored procedure (as documented in Books Online) to reset the database status, and then restart SQL Server to initiate recovery.
 * If the Suspect status was caused by a full disk during recovery, you should free up disk space and use the sp_resetstatus stored procedure (as documented in Books Online) to reset the database status. SQL Server should then be restarted to initiate recovery.
 * If the Suspect status was caused by a full disk during recovery, and you cannot free up space on existing database disks, you should add a new data or log file on a different disk that has free space available. For SQL Server 2000, you can use the sp_add_data_file_recover_suspect_db or sp_add_log_file_recover_suspect_db to achieve the same results.
 * Restore the database from your last full database backup, and then restore all transaction log backups taken since that point.
@@ -67,9 +66,11 @@ In most cases, the correct action to take for a suspect database is to restore f
 
 If restoring is not an option for you and you cannot fix the problem using the tips above, there are a few more options you can attempt. These will not work in all cases, but sometimes they may give you enough to extract data from the corrupt database that cannot be retrieved any other way.
 
-Note: These procedures should only be considered as a last resort. They are not supported by Microsoft or Quest, and could irretrievably corrupt your databases and data.
+{% include note.html content="These procedures should only be considered as a last resort. They are not supported by Microsoft or Quest, and could irretrievably corrupt your databases and data." %}
 
-Using Emergency Mode: Emergency mode is a special status that can be set on an individual database that causes SQL Server to skip recovery for that one database.  In some cases, this can make the corrupt database available in order to extract data that cannot be retrieved any other way.
+### Using Emergency Mode
+
+Emergency mode is a special status that can be set on an individual database that causes SQL Server to skip recovery for that one database.  In some cases, this can make the corrupt database available in order to extract data that cannot be retrieved any other way.
 
 #### Allow direct updates to your system tables by running the following SQL:
 

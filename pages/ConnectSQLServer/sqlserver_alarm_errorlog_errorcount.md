@@ -12,7 +12,7 @@ folder: ConnectSQLServer
 
 When the alarm is raised use the **SQL Server \| Error Log drilldown** to view the errors.
 
-## Configuration
-You can define and edit the alert rules that Spotlight scans the SQL Server Error Log for in the Configure Error Log Entries dialog. Spotlight scans the error logs at the configured frequency. If you make changes to the alert rules it may take some time for changes to take effect. You can change how often Spotlight scans the error log in the Schedules dialog.
+{% include note.html content="Use the Spotlight Client **Configure \| Error Log Entries** to define and edit the alert rules that Spotlight scans the SQL Server Error Log for. Spotlight scans the error logs at the configured frequency. If you make changes to the alert rules it may take some time for changes to take effect. You can change how often Spotlight scans the error log in the Spotlight Client at **Configure \| Scheduling." %}
+
 
 {% include links.html %}

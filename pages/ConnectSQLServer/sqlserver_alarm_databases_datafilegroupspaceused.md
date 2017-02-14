@@ -17,7 +17,7 @@ This calculation is based on the sum of the current size of all the files in the
 
 ## While this alarm is current
 
-Open the SQL Server \| Databases Drilldown \| Data Files page. In the Data Files grid, check for files with **Auto Grow=No**. Files in danger of filling will have a low **Free Pct** figure.
+Open the **SQL Server \| Databases Drilldown \| Data Files page**. In the Data Files grid, check for files with **Auto Grow=No**. Files in danger of filling will have a low **Free Pct** figure.
 
 ## To resolve this problem
 
@@ -25,7 +25,7 @@ Adjust the file growth parameters of at least one file in the file group so that
 
 ## Spotlight alarm configuration
 
-This alarm can be configured to ignore certain values (file groups within the database).
+In Spotlight Enterprise this alarm can be configured to ignore certain values (file groups within the database).
 
 
 {% include links.html %}

@@ -21,7 +21,7 @@ This alarm can occur when a log file is filling up and:
 * There are a limited number of growths that can occur before an out of disk space condition occurs.
 
 ## When the alarm is raised
-View the Log Files page on the SQL Server \| Databases drilldown. Check for files with **Auto Grow=Yes**. Files in danger of filling will have a low Free Pct figure.
+View the **SQL Server \| Databases drilldown \| Log Files page**. Check for files with **Auto Grow=Yes**. Files in danger of filling will have a low Free Pct figure.
 
 ## To resolve this problem
 Free up disk space on the disk that the log file resides on.
