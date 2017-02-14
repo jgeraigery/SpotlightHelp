@@ -31,35 +31,39 @@ If this query returns no records, then your SQL Server performance counters are 
 
 Sometimes, for a variety of reasons, the SQL Server Performance Monitor counters will not show up as they should. Often, but not always, this problem can be fixed by following these steps:
 
-At the command prompt, type the following:
+At the command prompt:
 
-```
-unlodctr.exe MSSQLServer
-```
+1. Type the following:
 
-Then type:
+   ```
+   unlodctr.exe MSSQLServer
+   ```
 
-```
-lodctr.exe \binn\sqlctr.ini
-```
+2. Type:
 
-Reboot the server.
+   ```
+   lodctr.exe \binn\sqlctr.ini
+   ```
+
+3. Reboot the server.
 
 If the Analysis Services counters can't be found use the following:
 
-At the command prompt, type the following:
+At the command prompt:
 
-```
-unlodctr.exe MSSQLServerOLAPService
-```
+1. Type the following:
 
-Then type:
+   ```
+   unlodctr.exe MSSQLServerOLAPService
+   ```
 
-```
-lodctr.exe \binn\msmdctr.ini
-```
+2. Type:
 
-Reboot the server.
+   ```
+   lodctr.exe \binn\msmdctr.ini
+   ```
+
+3. Reboot the server.
 
 If an unexpected error message is displayed, look it up at msdn.microsoft.com. Note, this tip is for non-clustered SQL Servers only.
 

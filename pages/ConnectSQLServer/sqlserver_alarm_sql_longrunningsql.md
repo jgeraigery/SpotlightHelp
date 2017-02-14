@@ -18,37 +18,34 @@ folder: ConnectSQLServer
 
 ## Scenario
 
-You work in an OLTP environment and often get complaints about delays in server processing. You want to be notified when SQL on a particular server is running longer than expected so you can investigate what is causing the delay. You configure Spotlight to raise a medium severity alarm when it detects SQL running for longer than five minutes. When the SQL - Long Running SQL alarm is raised, you use the Sessions page to view the long running SQL.
+You work in an OLTP environment and often get complaints about delays in server processing. You want to be notified when SQL on a particular server is running longer than expected so you can investigate what is causing the delay. You configure Spotlight Enterprise to raise a medium severity alarm when it detects SQL running for longer than five minutes. When the SQL - Long Running SQL alarm is raised, you use the Sessions page to view the long running SQL.
 
 
 ## When the alarm is raised
 
-Open the SQL Server \| SQL Activity Drilldown \| Sessions page. View the long running SQL.
+Open the **SQL Server \| SQL Activity Drilldown \| Sessions page**. View the long running SQL.
 
 ## Configuration
 
-Click Configure \| Alarms.
+In Spotlight Enterprise, from a Spotlight Client:
 
-To apply the alarm configuration to a connection, select the connection from the drop down list. The templates you have created are also selectable from the drop down list. Select a template to modify. Note that the Spotlight Factory Settings Template cannot be modified. To create a template, select an existing template or connection from the list to form the basis of the new template and click Save as Template.
+1. Click **Configure \| Alarms**.
+2. To apply the alarm configuration to a connection, select the connection from the drop down list.
+3. Locate the alarm SQL - Long Running SQL. Double click on the alarm to configure the settings.
+4. Clear the Factory Settings control for the SQL - Long Running SQL alarm and so you can modify the settings for this alarm.
+5. Click **Add Severity** and select a severity.
 
-Locate the alarm SQL - Long Running SQL. Double click on the alarm to configure the settings.
-Clear the Factory Settings control for the SQL - Long Running SQL alarm and so you can modify the settings for this alarm.
-Click Add Severity and select a severity.
+   Scenario: Click **Add Severity** and select **Medium**.
+   1. Select the check box of the new severity.
+   2. Copy and paste the text in the Description cell from the Normal severity to the new severity.
+   3. In the Start cell, type the duration in seconds, of how long the SQL should run for before the alarm is raised.
 
-Scenario: Click Add Severity and select Medium.
+   Scenario: In the **Start** cell, type 300 .
 
-Select the check box of the new severity.
-Copy and paste the text in the Description cell from the Normal severity to the new severity.
-In the Start cell, type the duration in seconds, of how long the SQL should run for before the alarm is raised.
+   {% include tip.html content="You can also configure alarm severities using keys. In the SQL - Long Running SQL alarm, the key is the SPID." %}
 
-Scenario: In the Start cell, type 300 .
-
-
- TIP: You can also configure alarm severities using keys. In the SQL - Long Running SQL alarm, the key is the SPID. For more information, see Configure an alarm.
-
-
-Click OK to close the dialog for the SQL - Long Running SQL alarm.
-From the dialog to Configure Alarms, you can continue to configure more alarms for the selected connection / template. When you have finished you may choose to apply the configuration(s) to other connections or save the configuration(s) to a template.
-Click OK to save the alarm configuration(s) for the selected connection or template.
+6. Click **OK** to close the dialog for the SQL - Long Running SQL alarm.
+7. From the dialog to Configure Alarms, you can continue to configure more alarms for the selected connection (or template). When you have finished you may choose to apply the configuration(s) to other connections or save the configuration(s) to a template.
+8. Click **OK** to save the alarm configuration(s) for the selected connection (or template).
 
 {% include links.html %}

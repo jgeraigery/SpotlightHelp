@@ -20,11 +20,11 @@ Services currently monitored are:
 * The SQL Server Reporting service.
 
 
-When this alarm is current, you should:
+When this alarm is current:
 
-* Use the **Support Services drilldown \| Service Status page** to check the status of all known SQL Server support services.
-* Review messages in the **SQL Error Log drilldown** to determine the reason the service is not running.
-* Restart the affected service if necessary. Using a Spotlight Client, from the **Service Status** page, right click on the service in the Services Status grid.
+* Check the **SQL Server \| Support Services drilldown \| Service Status page** to see the status of all known SQL Server support services.
+* Review messages in the **SQL Server \| Error Log drilldown** to determine the reason the service is not running.
+* Restart the affected service if necessary. Right click the service in the **SQL Server \| Support Services drilldown \| Service Status page \| Service Status grid**.
 
 
 {% include links.html %}

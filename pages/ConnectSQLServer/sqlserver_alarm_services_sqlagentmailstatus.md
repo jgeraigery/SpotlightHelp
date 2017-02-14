@@ -18,11 +18,10 @@ This alarm is raised when there is a problem with:
 
 When the alarm is raised
 
-* Check the **Support Services drilldown \| Service Status page** to see the status of the service.
-* Review messages in the **SQL Server \| Error Log** drilldown to determine the cause of the problem.
+* Check the **SQL Server \| Support Services drilldown \| Service Status page** to see the status of the service.
+* Review messages in the **SQL Server \| Error Log drilldown** to determine the cause of the problem.
 
 
 {% include note.html content="The SQL Mail Status Alarm is available only on SQL Server 2000." %}
-
 
 {% include links.html %}

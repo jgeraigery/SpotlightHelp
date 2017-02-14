@@ -14,7 +14,7 @@ folder: ConnectSQLServer
 
 When this alarm is current:
 
-* Open the **Databases Drilldown \| LiteSpeed backups page** for more detail on the job.
+* Open the **SQL Server \| Databases drilldown \| LiteSpeed backups page** for more detail on the job.
 * Refer to the LiteSpeed documentation for assistance.
 
 {% include links.html %}

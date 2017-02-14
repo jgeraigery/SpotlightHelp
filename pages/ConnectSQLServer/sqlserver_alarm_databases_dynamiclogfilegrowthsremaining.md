@@ -17,23 +17,16 @@ The alarm is raised when the number of growths remaining, given the files growth
 This alarm can occur when a log file is filling up and:
 
 * The file is approaching, or has reached, its MaxSize settings
-* Is defined with Auto Grow=Yes
+* Is defined with **Auto Grow=Yes**
 * There are a limited number of growths that can occur before an out of disk space condition occurs.
 
 ## When the alarm is raised
+View the Log Files page on the SQL Server \| Databases drilldown. Check for files with **Auto Grow=Yes**. Files in danger of filling will have a low Free Pct figure.
 
-View the Log Files page on the SQL Server \| Databases Drilldown. Check for files with Auto Grow=Yes. Files in danger of filling will have a low Free Pct figure.
-To resolve this problem free up disk space on the disk that the log file resides on.
+## To resolve this problem
+Free up disk space on the disk that the log file resides on.
 
 ## Configuration
-
-You can configure this alarm to ignore certain values. For more information, see Do not alarm for certain values.
-You can configure different alarm severities for specific log files. For more information, see Configure an alarm.
-
-## Examples
-
-This alarm will be raised in the following circumstances:
-
-* The log file is 95% full, and has been defined such that Auto Grow=Yes and given the current growth increment, the file has a limited number of growths remaining before it consumes all available disk space.
+In Spotlight Enterprise from the Spotlight Client you can configure this alarm to ignore certain values. You can configure different alarm severities for specific log files. For more information, see **Configure an alarm**.
 
 {% include links.html %}

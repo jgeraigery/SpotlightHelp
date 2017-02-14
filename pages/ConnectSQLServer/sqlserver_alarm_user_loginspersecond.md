@@ -17,6 +17,6 @@ This can be an indicator of poor application design. Creating a connection to SQ
 
 While reconnecting will not necessarily slow down all users of the SQL Server instance, it will often result in poor performance for the application that is re-connecting all the time.
 
-When the alarm is raised use Microsoft SQL Server Profiler to monitor connect and disconnect events, and determine if a badly behaving application is causing the problem.
+When the alarm is raised use Microsoft SQL Server Profiler to monitor, connect and disconnect events, and determine if a badly behaving application is causing the problem.
 
 {% include links.html %}

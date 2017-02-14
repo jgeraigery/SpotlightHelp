@@ -15,9 +15,9 @@ folder: ConnectSQLServer
 
 This alarm may indicate a problem with the mirrored database.
 
-Mirroring alarms are disabled by default. It is important to configure alarm thresholds that are appropriate to your environment before enabling these alarms. Use a Spotlight Client to **Configure \| Alarms**.
+Mirroring alarms are disabled by default. It is important to configure alarm thresholds that are appropriate to your environment before enabling these alarms.
 
-You can configure this alarm to ignore certain values. You can configure different alarm severities for specific mirror databases. The key for this alarm is the name of the mirror database. Use a Spotlight Client to **Configure \| Alarms**.
+Use a Spotlight Client to **Configure \| Alarms**. You can configure this alarm to ignore certain values. You can configure different alarm severities for specific mirror databases. The key for this alarm is the name of the mirror database.
 
 
 {% include links.html %}
