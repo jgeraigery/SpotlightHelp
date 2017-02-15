@@ -23,7 +23,7 @@ Select database(s) that have been backed up using LiteSpeed from the **Databases
 * For more information on LiteSpeed, please refer to its documentation.
 
 
-##The grid shows:
+## The grid shows:
 
 ### Database Name
 

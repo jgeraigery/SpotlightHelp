@@ -53,8 +53,7 @@ Statement | Analyze which SQL statement is contributing most to the workload of 
 
 ### 3. Grid and charts
 
-  TIP: When a Workload Statement is selected, click **View Wait Details** alongside the statement header to show that statement in the SQL Server \| Wait Events drilldown. This shows what the query is waiting on.
-
+{% include tip.html content="When a Workload Statement is selected, click **View Wait Details** alongside the statement header to show that statement in the SQL Server \| Wait Events drilldown. This shows what the query is waiting on." %}
 
 #### The grid
 

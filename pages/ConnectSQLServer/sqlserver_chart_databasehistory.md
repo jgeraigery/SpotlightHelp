@@ -8,11 +8,11 @@ id: Databases2_Summary.DBHistoryChart
 folder: ConnectSQLServer
 ---
 
-## How to use the chart
+## How to use the chart in the Spotlight Client
 
 To view a particular graph, choose it from the Database History list.
 
-">The graphs in the chart (described below) are available for each database. To view a particular graph, choose it from the **Database History** list. When no database is selected in the Databases grid, the Database History chart displays information for all databases. When you select a database in the Database grid, both charts (Database Space and Database History) display information for the selected database only. You can display information for multiple databases by selecting multiple databases in the Database grid. Hold down the **Shift** key to select multiple databases, or the **CTRL** key to select individual databases.
+The graphs in the chart (described below) are available for each database. To view a particular graph, choose it from the **Database History** list. When no database is selected in the Databases grid, the Database History chart displays information for all databases. When you select a database in the Database grid, both charts (Database Space and Database History) display information for the selected database only. You can display information for multiple databases by selecting multiple databases in the Database grid. Hold down the **Shift** key to select multiple databases, or the **CTRL** key to select individual databases.
 
 ## The following graphs are available for each database:
 
