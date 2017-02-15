@@ -124,9 +124,210 @@ entries:
       url: /linux_drilldown_overview.html
       output: web, pdf
 
-    - title: Status
-      url: /linux_component_status.html
-      output: web, pdf
+      subfolders:
+      - title: Network
+        output: web
+        subfolderitems:
+
+        - title: Network Users
+          url: /linux_component_networkusers.html
+          output: web, pdf
+
+        - title: Connections
+          url: /linux_component_connections.html
+          output: web, pdf
+
+        - title: Established
+          url: /linux_component_established.html
+          output: web, pdf
+
+        - title: Time_Wait
+          url: /linux_component_timewait.html
+          output: web, pdf
+
+        - title: Close_Wait
+          url: /linux_component_closewait.html
+          output: web, pdf
+
+        - title: NIC Bandwidth
+          url: /linux_component_nicbandwidth.html
+          output: web, pdf
+
+        - title: Pkts/s
+          url: /linux_component_pktspers.html
+          output: web, pdf
+
+        - title: Errors/s
+          url: /linux_component_errorspers.html
+          output: web, pdf
+
+      - title: System
+        output: web
+        subfolderitems:
+
+        - title: OS
+          url: /linux_component_os.html
+          output: web, pdf
+
+        - title: Uptime
+          url: /linux_component_uptime.html
+          output: web, pdf
+
+        - title: Status
+          url: /linux_component_status.html
+          output: web, pdf
+
+      - title: CPU
+        output: web
+        subfolderitems:
+
+        - title: CPUs
+          url: /linux_component_cpus.html
+          output: web, pdf
+
+        - title: Speed
+          url: /linux_component_speed.html
+          output: web, pdf
+
+        - title: Type
+          url: /linux_component_type.html
+          output: web, pdf
+
+        - title: Virtualization Overhead
+          url: /linux_component_virtualizationoverhead.html
+          output: web, pdf
+
+        - title: CPU Usage
+          url: /linux_component_cpuusage.html
+          output: web, pdf
+
+        - title: User%
+          url: /linux_component_userpercent.html
+          output: web, pdf
+
+        - title: System%
+          url: /linux_component_systempercent.html
+          output: web, pdf
+
+        - title: Wait%
+          url: /linux_component_waitpercent.html
+          output: web, pdf
+
+        - title: Queue Length
+          url: /linux_component_queuelength.html
+          output: web, pdf
+
+        - title: Processes Total
+          url: /linux_component_processestotal.html
+          output: web, pdf
+
+        - title: Zombies
+          url: /linux_component_zombies.html
+          output: web, pdf
+
+        - title: Blocked
+          url: /linux_component_blocked.html
+          output: web, pdf
+
+      - title: Memory
+        output: web
+        subfolderitems:
+
+        - title: Physical Memory
+          url: /linux_component_physicalmemory.html
+          output: web, pdf
+
+        - title: Total RAM
+          url: /linux_component_totalram.html
+          output: web, pdf
+
+        - title: Free
+          url: /linux_component_free.html
+          output: web, pdf
+
+        - title: Free PCT
+          url: /linux_component_freepct.html
+          output: web, pdf
+
+        - title: Virtual Memory
+          url: /linux_component_virtualmemory.html
+          output: web, pdf
+
+        - title: Total Size
+          url: /linux_component_totalsize.html
+          output: web, pdf
+
+        - title: Free
+          url: /linux_component_copyright.html
+          output: web, pdf
+
+        - title: Used Pct
+          url: /linux_component_thirdpartycomponents.html
+          output: web, pdf
+
+      - title: Swap Space
+        output: web
+        subfolderitems:
+
+        - title: Total
+          url: /linux_component_aboutus.html
+          output: web, pdf
+
+        - title: Used
+          url: /linux_component_copyright.html
+          output: web, pdf
+
+      - title: Storage
+        output: web
+        subfolderitems:
+
+        - title: CPUs
+          url: /linux_component_aboutus.html
+          output: web, pdf
+
+        - title: Speed
+          url: /linux_component_copyright.html
+          output: web, pdf
+
+        - title: Type
+          url: /linux_component_thirdpartycomponents.html
+          output: web, pdf
+
+        - title: Virtualization Overhead
+          url: /linux_component_copyright.html
+          output: web, pdf
+
+        - title: CPU Usage
+          url: /linux_component_thirdpartycomponents.html
+          output: web, pdf
+
+        - title: User%
+          url: /linux_component_thirdpartycomponents.html
+          output: web, pdf
+
+        - title: System%
+          url: /linux_component_copyright.html
+          output: web, pdf
+
+        - title: Wait%
+          url: /linux_component_thirdpartycomponents.html
+          output: web, pdf
+
+        - title: Queue Length
+          url: /linux_component_thirdpartycomponents.html
+          output: web, pdf
+
+        - title: Processes Total
+          url: /linux_component_thirdpartycomponents.html
+          output: web, pdf
+
+        - title: Zombies
+          url: /linux_component_copyright.html
+          output: web, pdf
+
+        - title: Blocked
+          url: /linux_component_thirdpartycomponents.html
+          output: web, pdf
 
     - title: Version
       url: /linux_component_version.html
