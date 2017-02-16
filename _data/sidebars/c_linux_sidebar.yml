@@ -138,15 +138,15 @@ entries:
           output: web, pdf
 
         - title: Established
-          url: /linux_component_established.html
+          url: /linux_component_establishedconnections.html
           output: web, pdf
 
         - title: Time_Wait
-          url: /linux_component_timewait.html
+          url: /linux_component_timewaitconnections.html
           output: web, pdf
 
         - title: Close_Wait
-          url: /linux_component_closewait.html
+          url: /linux_component_closewaitconnections.html
           output: web, pdf
 
         - title: NIC Bandwidth
@@ -217,16 +217,16 @@ entries:
           url: /linux_component_queuelength.html
           output: web, pdf
 
-        - title: Processes Total
-          url: /linux_component_processestotal.html
+        - title: Total Processes
+          url: /linux_component_totalprocesses.html
           output: web, pdf
 
         - title: Zombies
-          url: /linux_component_zombies.html
+          url: /linux_component_zombieprocesses.html
           output: web, pdf
 
         - title: Blocked
-          url: /linux_component_blocked.html
+          url: /linux_component_blockedprocesses.html
           output: web, pdf
 
       - title: Memory
@@ -270,11 +270,11 @@ entries:
         subfolderitems:
 
         - title: Total
-          url: /linux_component_aboutus.html
+          url: /linux_component_totalswapspace.html
           output: web, pdf
 
         - title: Used
-          url: /linux_component_copyright.html
+          url: /linux_component_usedswapspace.html
           output: web, pdf
 
       - title: Storage
@@ -322,7 +322,7 @@ entries:
           output: web, pdf
 
         - title: Zombies
-          url: /linux_component_copyright.html
+          url: /linux_component_zombieprocesses.html
           output: web, pdf
 
         - title: Blocked
