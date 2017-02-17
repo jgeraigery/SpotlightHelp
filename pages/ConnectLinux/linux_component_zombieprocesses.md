@@ -1,5 +1,5 @@
 ---
-title: Zombies (﻿Zombie processes)
+title: Zombie processes
 last_updated: February 15, 2017
 summary: "Unix expects a parent process to acknowledge the termination of any child process. If it fails to do so, the terminated child process is classified by the kernel as a zombie."
 sidebar: c_linux_sidebar

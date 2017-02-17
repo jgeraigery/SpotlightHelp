@@ -221,11 +221,11 @@ entries:
           url: /linux_component_totalprocesses.html
           output: web, pdf
 
-        - title: Zombies
+        - title: Zombie Processes
           url: /linux_component_zombieprocesses.html
           output: web, pdf
 
-        - title: Blocked
+        - title: Blocked Processes
           url: /linux_component_blockedprocesses.html
           output: web, pdf
 
@@ -233,41 +233,45 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Physical Memory
-          url: /linux_component_physicalmemory.html
+        - title: Physical Memory - Total RAM
+          url: /linux_component_physicalmemory_totalram.html
           output: web, pdf
 
-        - title: Total RAM
-          url: /linux_component_totalram.html
+        - title: Physical Memory - Free
+          url: /linux_component_physicalmemory_free.html
           output: web, pdf
 
-        - title: Free
-          url: /linux_component_free.html
+        - title: Physical Memory - Free PCT
+          url: /linux_component_physicalmemory_freepct.html
           output: web, pdf
 
-        - title: Free PCT
-          url: /linux_component_freepct.html
+        - title: Physical Memory - Used RAM
+          url: /linux_component_physicalmemory_usedram.html
           output: web, pdf
 
-        - title: Virtual Memory
-          url: /linux_component_virtualmemory.html
+        - title: Virtual Memory - Total Size
+          url: /linux_component_virtualmemory_totalsize.html
           output: web, pdf
 
-        - title: Total Size
-          url: /linux_component_totalsize.html
+        - title: Virtual Memory - Free
+          url: /linux_component_virtualmemory_free.html
           output: web, pdf
 
-        - title: Free
-          url: /linux_component_copyright.html
+        - title: Virtual Memory - Used Pct
+          url: /linux_component_virtualmemory_usedpct.html
           output: web, pdf
 
-        - title: Used Pct
-          url: /linux_component_thirdpartycomponents.html
+        - title: Virtual Memory - Used
+          url: /linux_component_virtualmemory_used.html
           output: web, pdf
 
       - title: Swap Space
         output: web
         subfolderitems:
+
+        - title: Percent
+          url: /linux_component_percentswapspace.html
+          output: web, pdf
 
         - title: Total
           url: /linux_component_totalswapspace.html

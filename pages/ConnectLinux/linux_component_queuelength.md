@@ -1,7 +1,7 @@
 ---
 title: Queue Length
 last_updated: February 15, 2017
-summary: "This is the length of the "runnable processes" queue."
+summary: "This is the length of the 'runnable processes' queue."
 sidebar: c_linux_sidebar
 permalink: linux_component_queuelength.html
 folder: ConnectLinux
