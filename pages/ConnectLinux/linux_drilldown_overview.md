@@ -8,8 +8,14 @@ folder: ConnectLinux
 ---
 
 
-## How to open the Spotlight Overview page for Unix Connections from the Spotlight Client
+## How to open (and Use) the Spotlight Overview page
+The Spotlight Overview page can be opened from the:
 
-From the left Connections pane, click on the connection name.
+* [Spotlight Client][enterprise_display_overview]
+* [Spotlight Mobile][mobile_overview]
+
+## The Spotlight Overview page components for a Linux connection
+The Spotlight Overview page is made up of components and flows tailored to the Linux architecture. Refer to the sidebar navigation of this help system for more information on a specific component or flow.
+
 
 {% include links.html %}

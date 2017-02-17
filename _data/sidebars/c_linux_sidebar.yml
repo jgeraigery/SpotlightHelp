@@ -193,6 +193,10 @@ entries:
           url: /linux_component_cputype.html
           output: web, pdf
 
+        - title: Uptime
+          url: /linux_component_uptime.html
+          output: web, pdf
+
         - title: Virtualization Overhead
           url: /linux_component_virtualizationoverhead.html
           output: web, pdf

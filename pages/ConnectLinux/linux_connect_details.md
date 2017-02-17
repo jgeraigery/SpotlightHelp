@@ -26,43 +26,29 @@ Enter the hostname or IP address to the Linux machine.
 ## User
 Enter the user name to login to the Unix machine.
 
-Note: The root user is not allowed. Remote login as "root" has been disallowed for security reasons.
+{% include note.html content="The **root** user is not allowed. Remote login as **root** has been disallowed for security reasons." %}
 
 ## Password
 Enter the password to login to the Unix machine.
 
-Note: Not applicable when Use SSH Public / Private Keys is selected. Applicable when Save password details (for this connection) is selected.
-
-## Connection Type
-Select according to the Unix system's configuration. The options are: REXEC and SSH. See Configure the Unix System for more information.
-
 ## Port Number
 Enter the port number for SSH (secure shell) connection to the Unix machine. The default value is 22
-Note: Applicable when the Connection Type is SSH.
 
 
-## SSH Key Authentication
+## Virtualization details
 
-Applicable when the Connection Type is SSH.
+### Connection
 
-### Use SSH Public / Private Keys
-Select according to the Unix machine's configuration.
+If the Linux server is hosted by a virtual server then select the name of the virtual server.
 
-### SSH Key Type
-Choose the type of key to use when making the Spotlight connection: RSA® or DSA. See Configure the Unix System for more information.
+Click **Create** to add a virtual server to the list. Select from:
 
-### SSH Private key Filename
-Locate the file that contains the private key for the Spotlight connection.
-
-Either click
-or type the filename and location.
-
-### SSH Passphrase
-Type the passphrase used to decrypt the private key.
-
-Note: Applicable when Save password details (for this connection) is selected.
+* [VMware \| Connection Details][vmware_connect_details]
+* [Hyper-V \| Connection Details][hyperv_connect_details]
 
 
+### VM Name
+Select the name of the virtual machine from those hosted by the virtual server.
 
 
- {% include links.html %}
+{% include links.html %}
