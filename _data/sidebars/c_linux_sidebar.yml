@@ -133,11 +133,7 @@ entries:
           url: /linux_component_networkusers.html
           output: web, pdf
 
-        - title: Connections
-          url: /linux_component_connections.html
-          output: web, pdf
-
-        - title: Established
+        - title: Established connections
           url: /linux_component_establishedconnections.html
           output: web, pdf
 
@@ -149,16 +145,48 @@ entries:
           url: /linux_component_closewaitconnections.html
           output: web, pdf
 
-        - title: NIC Bandwidth
-          url: /linux_component_nicbandwidth.html
+        - title: Most active NIC name
+          url: /linux_component_mostactivenic_name.html
           output: web, pdf
 
-        - title: Pkts/s
-          url: /linux_component_pktspers.html
+        - title: Most active NIC - Pkts/s
+          url: /linux_component_mostactivenic_pktspers.html
           output: web, pdf
 
-        - title: Errors/s
-          url: /linux_component_errorspers.html
+        - title: Most active NIC - Errors/s
+          url: /linux_component_mostactivenic_errorspers.html
+          output: web, pdf
+
+        - title: Second most active NIC name
+          url: /linux_component_secondmostactivenic_name.html
+          output: web, pdf
+
+        - title: Second most active NIC - Pkts/s
+          url: /linux_component_secondmostactivenic_pktspers.html
+          output: web, pdf
+
+        - title: Second most active NIC - Errors/s
+          url: /linux_component_secondmostactivenic_errorspers.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
+        - title: Packets in
+          url: /linux_component_networkpacketsin.html
+          output: web, pdf
+
+        - title: Packets out
+          url: /linux_component_networkpacketsout.html
+          output: web, pdf
+
+        - title: Network errors in
+          url: /linux_component_networkerrorsin.html
+          output: web, pdf
+
+        - title: Network errors out
+          url: /linux_component_networkerrorsout.html
           output: web, pdf
 
       - title: System
@@ -231,6 +259,18 @@ entries:
 
         - title: Blocked Processes
           url: /linux_component_blockedprocesses.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
+        - title: Swap out
+          url: /linux_component_swappingout.html
+          output: web, pdf
+
+        - title: Swap in
+          url: /linux_component_swappingin.html
           output: web, pdf
 
       - title: Memory
