@@ -186,11 +186,11 @@ entries:
           output: web, pdf
 
         - title: Speed
-          url: /linux_component_speed.html
+          url: /linux_component_cpuspeed.html
           output: web, pdf
 
         - title: Type
-          url: /linux_component_type.html
+          url: /linux_component_cputype.html
           output: web, pdf
 
         - title: Virtualization Overhead
@@ -202,15 +202,15 @@ entries:
           output: web, pdf
 
         - title: User%
-          url: /linux_component_userpercent.html
+          url: /linux_component_cpuuserpercent.html
           output: web, pdf
 
         - title: System%
-          url: /linux_component_systempercent.html
+          url: /linux_component_cpusystempercent.html
           output: web, pdf
 
         - title: Wait%
-          url: /linux_component_waitpercent.html
+          url: /linux_component_cpuwaitpercent.html
           output: web, pdf
 
         - title: Queue Length
