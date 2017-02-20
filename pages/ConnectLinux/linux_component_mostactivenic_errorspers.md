@@ -7,4 +7,6 @@ permalink: linux_component_mostactivenic_errorspers.html
 folder: ConnectLinux
 ---
 
+The number of network packet errors per second for the most active network card.
+
 {% include links.html %}

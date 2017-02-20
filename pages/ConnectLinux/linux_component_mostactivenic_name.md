@@ -7,4 +7,6 @@ permalink: linux_component_mostactivenic_name.html
 folder: ConnectLinux
 ---
 
+The name of the network interface card (NIC) on the Unix host that has the highest rate of packet transfers.
+
 {% include links.html %}
