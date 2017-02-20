@@ -6,3 +6,6 @@ sidebar: c_linux_sidebar
 permalink: linux_component_physicalmemory_totalram.html
 folder: ConnectLinux
 ---
+
+
+{% include links.html %}

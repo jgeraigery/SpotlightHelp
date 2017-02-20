@@ -8,3 +8,5 @@ folder: ConnectLinux
 ---
 
 The value is the sum of the usage by the system and users.
+
+{% include links.html %}

@@ -6,3 +6,5 @@ sidebar: c_linux_sidebar
 permalink: linux_component_mostactivenic_errorspers.html
 folder: ConnectLinux
 ---
+
+{% include links.html %}

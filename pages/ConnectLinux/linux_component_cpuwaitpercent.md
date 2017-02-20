@@ -10,3 +10,5 @@ folder: ConnectLinux
 
 
 A high Wait level may indicate badly configured disks.
+
+{% include links.html %}

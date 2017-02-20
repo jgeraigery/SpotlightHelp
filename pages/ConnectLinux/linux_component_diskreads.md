@@ -6,3 +6,6 @@ sidebar: c_linux_sidebar
 permalink: linux_component_diskreads.html
 folder: ConnectLinux
 ---
+
+
+{% include links.html %}

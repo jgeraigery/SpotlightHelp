@@ -6,3 +6,5 @@ sidebar: c_linux_sidebar
 permalink: linux_component_virtualmemory_totalsize.html
 folder: ConnectLinux
 ---
+
+{% include links.html %}

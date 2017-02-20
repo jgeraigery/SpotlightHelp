@@ -6,3 +6,5 @@ sidebar: c_linux_sidebar
 permalink: linux_component_cpusystempercent.html
 folder: ConnectLinux
 ---
+
+{% include links.html %}

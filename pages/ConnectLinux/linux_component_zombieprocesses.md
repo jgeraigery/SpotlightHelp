@@ -9,3 +9,5 @@ folder: ConnectLinux
 ---
 
 A high number of zombie processes indicates that one or more processes are not handling their child processes properly. A zombie's parent process may need to be killed in order to eliminate its zombie child process.
+
+{% include links.html %}

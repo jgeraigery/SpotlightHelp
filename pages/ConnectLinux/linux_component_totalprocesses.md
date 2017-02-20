@@ -7,3 +7,5 @@ permalink: linux_component_totalprocesses.html
 id:
 folder: ConnectLinux
 ---
+
+{% include links.html %}
