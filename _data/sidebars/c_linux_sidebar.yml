@@ -150,7 +150,7 @@ entries:
           output: web, pdf
 
         - title: Most active NIC - Pkts/s
-          url: /linux_component_mostactivenic_pktspers.html
+          url: /linux_component_mostactivenic_packetspers.html
           output: web, pdf
 
         - title: Most active NIC - Errors/s
@@ -162,7 +162,7 @@ entries:
           output: web, pdf
 
         - title: Second most active NIC - Pkts/s
-          url: /linux_component_secondmostactivenic_pktspers.html
+          url: /linux_component_secondmostactivenic_packetspers.html
           output: web, pdf
 
         - title: Second most active NIC - Errors/s

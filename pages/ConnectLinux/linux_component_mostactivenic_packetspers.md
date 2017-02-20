@@ -7,8 +7,5 @@ permalink: linux_component_mostactivenic_packetspers.html
 folder: ConnectLinux
 ---
 
-<title>Packets/second (most active network card)</title>
-<shortdesc>The number of network packets transmitted/received per second for the most active network card.</shortdesc>
-
 
 {% include links.html %}
