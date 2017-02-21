@@ -8,9 +8,10 @@ folder: SpotlightExtensions
 
 ## Open the Alarm list
 
-From within SQL Server Management Studio:
+1. Open SQL Server Management Studio.
+2. From the **Spotlight** menu, select **Alarms**.
 
-* From the **Spotlight** menu, select **Alarms**.
+{% include note.html content="The first time you use Spotlight Extensions Monitoring you will be prompted to fill in the [Spotlight Sign in dialog][extensions_spotlightsignin]." %}
 
 ## Color
 Each alarm is colored according to the severity of the alarm.

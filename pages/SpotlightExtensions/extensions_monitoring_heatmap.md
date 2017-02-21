@@ -11,9 +11,10 @@ folder: SpotlightExtensions
 
 ## Open the Heatmap
 
-1. Open SQL Server Management Studio:
+1. Open SQL Server Management Studio.
 2. From the **Spotlight** menu, select **Heatmap**.
 
+{% include note.html content="The first time you use Spotlight Extensions Monitoring you will be prompted to fill in the [Spotlight Sign in dialog][extensions_spotlightsignin]." %}
 
 ## Connection color and surface area
 The Heat Map display organizes connections based on the comparative number and severity of alarms raised against them. Connections with the most alarms raised against them are given the most surface area on the heat map. Connections are colored according to the most severe current alarm.
@@ -29,7 +30,7 @@ Default Color | Severity | Description
 ## Alarms raised for the connection
 Click **Alarms** to open the [Alarm List][extensions_monitoring_alarmlist].
 
-## Drilldown on a connection
-Click on a connection to open the [Spotlight Overview page][extensions_monitoring_overview] for the connection.
+## Drilldown on the connection
+Click on the connection to open the [Spotlight Overview page][extensions_monitoring_overview] for the connection.
 
 {% include links.html %}

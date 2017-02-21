@@ -1,8 +1,8 @@
 ---
-title: Download and Setup Spotlight Extensions for SQL Server
+title: Download and Setup Spotlight Extensions
 tags: [setup]
 keywords: setup, install
-summary: ""
+summary: "Download the Spotlight Extensions installer from the Spotlight web site. Run the installer to install a Spotlight Diagnostic Server (to collect Spotlight monitoring data) and a Playback Database (to store recent monitoring history)."
 sidebar: p_extensions_sidebar
 permalink: extensions_setup.html
 folder: SpotlightExtensions
@@ -12,39 +12,45 @@ folder: SpotlightExtensions
 
 ## Download and install Spotlight Extensions
 
-1. Confirm an appropriate SQL Server Management Studio is installed and other requirements are met. See [Components and Requirements][extensions_requirements].
+1. Confirm an appropriate SQL Server Management Studio is installed and other [requirements are met][extensions_requirements].
 2. [Download Spotlight Extensions](https://www.spotlightessentials.com/download/register).
 3. Run the Spotlight Extensions installer.
 
-
-## Get Spotlight Cloud credentials
-A Spotlight Cloud account is required to monitor your SQL Server connections. Create a Spotlight Cloud account if you do not already have one. Do this at the [Spotlight web site](https://www.spotlightessentials.com/home/SignUp).
-
-{% include tip.html content="If there are many Spotlight Cloud accounts in your organization, see also [Spotlight Cloud \| Organizations][cloud_settings_organizations]." %}
+## Setup the Diagnostic Server
+During installation you will be prompted to supply details for the Spotlight Diagnostic Server (to collect monitoring data) and Playback Database (to store recent history). The Diagnostic Server collects monitoring data from your SQL Server environment so that it can be displayed in Spotlight Extensions and the web. The Diagnostic Server is a Windows service.
 
 
-## Configure Spotlight Extensions to upload performance data to the Spotlight Cloud
+### Install location
 
-1. Open SQL Server Management Studio.
-2. From the **Spotlight** menu, select **Spotlight Extensions**.
+Default installation folder for the Diagnostic Server:
 
-   {% include imageExtensions.html file="ssms-diagram1.png" alt="Start your SSMS application" %}
+```
+C:\Program Files\Quest Software\Diagnostic Server
+```
 
-3. When directed, enter your Spotlight Cloud credentials. username and password.
+{% include tip.html content="Consider installing the Spotlight Diagnostic Server on a computer that is always switched on. The Spotlight Diagnostic Server requires Internet access." %}
 
-   {% include imageExtensions.html file="ssms-diagram2.jpg" alt="New Connection" %}
+### Diagnostic Server Account
 
+The Spotlight Diagnostic Server will run under this Windows account. Enter a domain user account or select the local system account. These credentials can later be used to authenticate Spotlight connections to monitor SQL Server instances.
 
-## Add connections for data collection and analysis
+### Diagnostic Server Users
 
-From within SQL Server Management Studio:
+Spotlight uses the Spotlight diagnostic user groups to authenticate a user's right to execute actions on monitored systems. The Windows user installing Spotlight Extensions is automatically added to all Spotlight diagnostic user groups.
 
-1. From the **Spotlight** menu, select **Connections**.
-2. Click the **New Connection** button.
-3. Supply authenticaion details to connect to the SQL Server.
-4. Click **Test** to make sure the details are correct.
-5. Once authenticated, press **Save**.
+Add more users to the Spotlight diagnostic user groups if required. Members of these groups can be Windows users or Windows domain groups. Aliases are not supported.
 
-{% include note.html content="To edit connection details, select the connection and click **Configure Connection**." %}
+### The Playback Database
+The Spotlight Diagnostic Server stores recent monitoring data in the Playback Database.
+
+#### Instance
+Select a SQL Server instance to install the Playback Database on.
+
+#### Authentication
+Select Windows or SQL Server authentication.
+
+#### Database
+Optionally rename the database. The default name is **SpotlightPlaybackDatabase**. If the database has not already been created, click **Create** to create the database.
+
 
 {% include links.html %}
