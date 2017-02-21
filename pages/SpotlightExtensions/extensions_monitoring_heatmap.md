@@ -11,9 +11,8 @@ folder: SpotlightExtensions
 
 ## Open the Heatmap
 
-From within SQL Server Management Studio:
-
-* From the **Spotlight** menu, select **Heatmap**.
+1. Open SQL Server Management Studio:
+2. From the **Spotlight** menu, select **Heatmap**.
 
 
 ## Connection color and surface area
@@ -21,11 +20,11 @@ The Heat Map display organizes connections based on the comparative number and s
 
 Default Color | Severity | Description
 --------------|----------|------------
-{% include inline_imageMobile.html file="icon_alarm_green.png" alt="Normal color" %} | Normal | No alarms are raised against this connection.
-{% include inline_imageMobile.html file="icon_alarm_blue.png" alt="Information color" %} | Information | At least one information alarm is raised against this connection. No other alarms are raised.
-{% include inline_imageMobile.html file="icon_alarm_yellow.png" alt="Low color" %} | Low | At least one low severity alarm is raised against this connection. No high or medium severity alarms are raised.
-{% include inline_imageMobile.html file="icon_alarm_orange.png" alt="Medium color" %} | Medium | At least one medium severity alarm is raised against this connection. No high severity alarms are raised.
-{% include inline_imageMobile.html file="icon_alarm_red.png" alt="High color" %} | High | At least one high severity alarm is raised against this connection.
+{% include inline_imageExtensions.html file="icon_alarm_green.png" alt="Normal color" %} | Normal | No alarms are raised against this connection.
+{% include inline_imageExtensions.html file="icon_alarm_blue.png" alt="Information color" %} | Information | At least one information alarm is raised against this connection. No other alarms are raised.
+{% include inline_imageExtensions.html file="icon_alarm_yellow.png" alt="Low color" %} | Low | At least one low severity alarm is raised against this connection. No high or medium severity alarms are raised.
+{% include inline_imageExtensions.html file="icon_alarm_orange.png" alt="Medium color" %} | Medium | At least one medium severity alarm is raised against this connection. No high severity alarms are raised.
+{% include inline_imageExtensions.html file="icon_alarm_red.png" alt="High color" %} | High | At least one high severity alarm is raised against this connection.
 
 ## Alarms raised for the connection
 Click **Alarms** to open the [Alarm List][extensions_monitoring_alarmlist].

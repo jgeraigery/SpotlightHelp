@@ -15,6 +15,7 @@ Spotlight Extensions can be installed in:
 * SQL Server Management Studio 2012
 
 Spotlight Extensions runs in 64 bit.
+
 Spotlight Extensions can be installed to work for the current computer user or all users of the computer.
 
 {% include tip.html content="[Learn more about SQL Server Management Studio](https://msdn.microsoft.com/en-us/library/ms174173.aspx)" %}
