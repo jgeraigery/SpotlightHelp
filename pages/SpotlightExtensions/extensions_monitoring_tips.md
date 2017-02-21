@@ -2,7 +2,7 @@
 title: Monitoring tips and tricks in Spotlight Extensions
 summary: ""
 sidebar: p_extensions_sidebar
-permalink: extensions_security.html
+permalink: extensions_monitoring_tips.html
 folder: SpotlightExtensions
 ---
 
