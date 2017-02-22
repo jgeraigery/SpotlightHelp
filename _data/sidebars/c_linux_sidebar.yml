@@ -346,7 +346,7 @@ entries:
           output: web, pdf
 
         - title: Most Active Disk Percentage
-          url: /linux_component_mostactivediskpercent.html
+          url: /linux_component_mostactivedisk_percent.html
           output: web, pdf
 
         - title: Second Most Active Disk
@@ -354,7 +354,7 @@ entries:
           output: web, pdf
 
         - title: Second Most Active Disk Percentage
-          url: /linux_component_secondmostactivediskpercent.html
+          url: /linux_component_secondmostactivedisk_percent.html
           output: web, pdf
 
         - title: File System Display
@@ -369,7 +369,7 @@ entries:
           url: /linux_component_filesystem_fullest_totalspace.html
           output: web, pdf
 
-        - title: Used Space for the Fullest File System
+        - title: Fullest File System Used Space
           url: /linux_component_filesystem_fullest_usedspace.html
           output: web, pdf
 
@@ -381,7 +381,7 @@ entries:
           url: /linux_component_filesystem_secondfullest_totalspace.html
           output: web, pdf
 
-        - title: Used Space for the Second Fullest File System
+        - title: Second Fullest File System Used Space
           url: /linux_component_filesystem_secondfullest_usedspace.html
           output: web, pdf
 
