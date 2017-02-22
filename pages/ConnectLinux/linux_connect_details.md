@@ -1,7 +1,7 @@
 ---
-title: Connection Details for Unix server
+title: Connection Details for Linux server
 tags: [connection_details,connection_details_for_each_connection_type]
-summary: "Specify the connection details for a Unix server or Unix host of a database connection."
+summary: "Specify the connection details for a Linux server."
 sidebar: c_linux_sidebar
 permalink: linux_connect_details.html
 folder: ConnectLinux

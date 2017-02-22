@@ -1,5 +1,5 @@
 ---
-title: Memory - Physical Memory Available Alarm
+title: Memory - Physical Memory Available alarm
 tags: [linux_alarms]
 last_updated: July 29, 2016
 summary: "The Memory - Physical Memory Available alarm is raised when the available memory drops below a threshold."

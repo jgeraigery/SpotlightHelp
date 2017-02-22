@@ -100,11 +100,11 @@ entries:
       url: /linux_alarm_status.html
       output: web, pdf
 
-    - title: Swapping in flow
+    - title: Swapping in Flow
       url: /linux_alarm_swappinginflow.html
       output: web, pdf
 
-    - title: Swapping out flow
+    - title: Swapping out Flow
       url: /linux_alarm_swappingoutflow.html
       output: web, pdf
 
@@ -133,7 +133,7 @@ entries:
           url: /linux_component_networkusers.html
           output: web, pdf
 
-        - title: Established connections
+        - title: Established Connections
           url: /linux_component_establishedconnections.html
           output: web, pdf
 
@@ -145,27 +145,27 @@ entries:
           url: /linux_component_closewaitconnections.html
           output: web, pdf
 
-        - title: Most active NIC name
+        - title: Most Active NIC
           url: /linux_component_mostactivenic_name.html
           output: web, pdf
 
-        - title: Most active NIC - Pkts/s
+        - title: Most Active NIC - Pkts/s
           url: /linux_component_mostactivenic_packetspers.html
           output: web, pdf
 
-        - title: Most active NIC - Errors/s
+        - title: Most Active NIC - Errors/s
           url: /linux_component_mostactivenic_errorspers.html
           output: web, pdf
 
-        - title: Second most active NIC name
+        - title: Second Most Active NIC
           url: /linux_component_secondmostactivenic_name.html
           output: web, pdf
 
-        - title: Second most active NIC - Pkts/s
+        - title: Second Most Active NIC - Pkts/s
           url: /linux_component_secondmostactivenic_packetspers.html
           output: web, pdf
 
-        - title: Second most active NIC - Errors/s
+        - title: Second Most Active NIC - Errors/s
           url: /linux_component_secondmostactivenic_errorspers.html
           output: web, pdf
 
@@ -181,11 +181,11 @@ entries:
           url: /linux_component_networkpacketsout.html
           output: web, pdf
 
-        - title: Network errors in
+        - title: Network Errors in
           url: /linux_component_networkerrorsin.html
           output: web, pdf
 
-        - title: Network errors out
+        - title: Network Errors out
           url: /linux_component_networkerrorsout.html
           output: web, pdf
 
@@ -281,7 +281,7 @@ entries:
           url: /linux_component_physicalmemory_free.html
           output: web, pdf
 
-        - title: Physical Memory - Free PCT
+        - title: Physical Memory - % Free
           url: /linux_component_physicalmemory_freepct.html
           output: web, pdf
 
@@ -297,7 +297,7 @@ entries:
           url: /linux_component_virtualmemory_free.html
           output: web, pdf
 
-        - title: Virtual Memory - Used Pct
+        - title: Virtual Memory - % Used
           url: /linux_component_virtualmemory_usedpct.html
           output: web, pdf
 
@@ -325,11 +325,11 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Total disk writes per second
+        - title: Disk Writes
           url: /linux_component_diskwrites.html
           output: web, pdf
 
-        - title: Total disk reads per second
+        - title: Disk Reads
           url: /linux_component_diskreads.html
           output: web, pdf
 
@@ -337,52 +337,52 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Disk activity display count
+        - title: Disk Activity Display
           url: /linux_component_diskactivitydisplay.html
           output: web, pdf
 
-        - title: Most active disk
+        - title: Most Active Disk
           url: /linux_component_mostactivedisk.html
           output: web, pdf
 
-        - title: Most active disk percentage
+        - title: Most Active Disk Percentage
           url: /linux_component_mostactivediskpercentage.html
           output: web, pdf
 
-        - title: Second most active disk
+        - title: Second Most Active Disk
           url: /linux_component_secondmostactivedisk.html
           output: web, pdf
 
-        - title: Second most active disk percentage
+        - title: Second Most Active Disk Percentage
           url: /linux_component_secondmostactivediskpercentage.html
           output: web, pdf
 
-        - title: File system display count
-          url: /linux_component_filesystemdisplaycount.html
+        - title: File System Display
+          url: /linux_component_filesystemdisplay.html
           output: web, pdf
 
-        - title: Fullest file system used space control
-          url: /linux_component_fullestfilesystemusedspacecontrol.html
+        - title: Fullest File System Used Space
+          url: /linux_component_fullestfilesystemusedspace.html
           output: web, pdf
 
-        - title: Total space for the fullest file system
+        - title: Total Space for the Fullest File System
           url: /linux_component_totalspaceforthefullestfilesystem.html
           output: web, pdf
 
-        - title: Used space for the fullest file system
+        - title: Used Space for the Fullest File System
           url: /linux_component_usedspaceforthefullestfilesystem.html
           output: web, pdf
 
-        - title: Second fullest file system used space control
-          url: /linux_component_secondfullestfilesystemusedspacecontrol.html
+        - title: Second Fullest File System Used Space
+          url: /linux_component_secondfullestfilesystemusedspace.html
           output: web, pdf
 
-        - title: Total space for the second fullest file system
-          url: /linux_component_thirdpartycomponents.html
+        - title: Total Space for the Second Fullest File System
+          url: /linux_component_totalspaceforthesecondfullestfilesystem.html
           output: web, pdf
 
-        - title: Used space for the second fullest file system
-          url: /linux_component_thirdpartycomponents.html
+        - title: Used Space for the Second Fullest File System
+          url: /linux_component_usedspaceforthesecondfullestfilesystem.html
           output: web, pdf
 
     - title: Version

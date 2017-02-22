@@ -1,5 +1,5 @@
 ---
-title: ﻿Free virtual memory
+title: ﻿Free Virtual Memory
 last_updated: February 15, 2017
 summary: "The amount of virtual memory that has not yet been used."
 sidebar: c_linux_sidebar

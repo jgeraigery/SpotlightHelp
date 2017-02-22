@@ -1,5 +1,5 @@
 ---
-title: ﻿Blocked Processes Alarm
+title: ﻿Blocked Processes alarm
 tags: [linux_alarms]
 last_updated: July 29, 2016
 summary: "The Blocked Processes button in the CPU panel shows the number of processes waiting on information to become available in memory."

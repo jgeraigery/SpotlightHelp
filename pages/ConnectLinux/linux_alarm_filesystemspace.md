@@ -1,5 +1,5 @@
 ---
-title: File System Space Alarm
+title: File System Space alarm
 tags: [linux_alarms]
 last_updated: July 29, 2016
 summary: "The File System Space alarm indicates that the file system is full or filling up."

@@ -1,5 +1,5 @@
 ---
-title: ﻿Monitored Server - Unix Unsupported Version Alarm
+title: ﻿Monitored Server - Unix Unsupported Version alarm
 tags: [linux_alarms]
 last_updated: July 29, 2016
 summary: ""

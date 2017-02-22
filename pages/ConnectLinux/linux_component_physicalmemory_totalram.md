@@ -1,5 +1,5 @@
 ---
-title: ﻿Total physical memory
+title: ﻿Total Physical Memory
 last_updated: February 15, 2017
 summary: "Shows the amount of RAM in the Unix machine, present as RAM chips."
 sidebar: c_linux_sidebar

@@ -1,5 +1,5 @@
 ---
-title: Spotlight Overview page for Unix connections
+title: Spotlight Overview page for Linux Connections
 tags: [overview_page_for_each_connection_type]
 summary: "Show the components and flows for the Unix connection."
 sidebar: c_linux_sidebar

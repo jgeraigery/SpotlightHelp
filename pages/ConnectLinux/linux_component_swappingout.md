@@ -1,5 +1,5 @@
 ---
-title: Swap Out rate
+title: Swap out Rate
 last_updated: February 15, 2017
 summary: "The rate at which processes are being swapped out to disk."
 sidebar: c_linux_sidebar

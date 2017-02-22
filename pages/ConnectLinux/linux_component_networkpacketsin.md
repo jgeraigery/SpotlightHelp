@@ -1,5 +1,5 @@
 ---
-title: ﻿Rate of incoming network data
+title: ﻿Rate of Incoming Network Data
 last_updated: February 15, 2017
 summary: "The incoming rate of data to the server."
 sidebar: c_linux_sidebar

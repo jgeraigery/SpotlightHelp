@@ -1,5 +1,5 @@
 ---
-title: ﻿Network Errors Received Alarm
+title: ﻿Network Errors Received alarm
 tags: [linux_alarms]
 last_updated: July 29, 2016
 summary: "Network Errors Received represents the number of erroneous network packets coming in to the machine per second. The Network Errors Received alarm may warrant investigation as even a low error rate can indicate network problems."

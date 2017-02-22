@@ -1,5 +1,5 @@
 ---
-title: ﻿Used virtual memory
+title: ﻿Used Virtual Memory
 last_updated: February 15, 2017
 summary: "Shows how much virtual memory has been used."
 sidebar: c_linux_sidebar

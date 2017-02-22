@@ -1,5 +1,5 @@
 ---
-title: Swap In rate
+title: Swap in Rate
 last_updated: February 15, 2017
 summary: "The rate at which processes are being swapped in from disk."
 sidebar: c_linux_sidebar

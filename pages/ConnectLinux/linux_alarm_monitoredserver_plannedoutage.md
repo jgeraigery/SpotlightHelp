@@ -1,5 +1,5 @@
 ---
-title: ﻿Monitored Server - Unix Planned Outage Alarm
+title: ﻿Monitored Server - Unix Planned Outage alarm
 tags: [linux_alarms]
 last_updated: July 29, 2016
 summary: "This alarm is raised during a planned outage of the connection. Spotlight will resume monitoring the service at the end of the planned outage period."

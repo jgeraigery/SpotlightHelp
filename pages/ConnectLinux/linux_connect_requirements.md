@@ -1,5 +1,5 @@
 ---
-title: Linux connection requirements and initial configuration
+title: Linux Connection Requirements and Initial Configuration
 tags: [connection_requirements]
 summary: "Spotlight can monitor Linux Servers / Linux hosts of database connections according to the following requirements."
 sidebar: c_linux_sidebar
