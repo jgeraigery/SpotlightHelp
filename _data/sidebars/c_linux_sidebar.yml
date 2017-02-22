@@ -146,7 +146,7 @@ entries:
           output: web, pdf
 
         - title: Most Active NIC
-          url: /linux_component_mostactivenic_name.html
+          url: /linux_component_mostactivenic.html
           output: web, pdf
 
         - title: Most Active NIC - Pkts/s
@@ -158,7 +158,7 @@ entries:
           output: web, pdf
 
         - title: Second Most Active NIC
-          url: /linux_component_secondmostactivenic_name.html
+          url: /linux_component_secondmostactivenic.html
           output: web, pdf
 
         - title: Second Most Active NIC - Pkts/s
@@ -246,15 +246,15 @@ entries:
           output: web, pdf
 
         - title: Total Processes
-          url: /linux_component_totalprocesses.html
+          url: /linux_component_processes_total.html
           output: web, pdf
 
         - title: Zombie Processes
-          url: /linux_component_zombieprocesses.html
+          url: /linux_component_processes_zombie.html
           output: web, pdf
 
         - title: Blocked Processes
-          url: /linux_component_blockedprocesses.html
+          url: /linux_component_processes_blocked.html
           output: web, pdf
 
       - title: Flows
@@ -310,15 +310,15 @@ entries:
         subfolderitems:
 
         - title: Percent
-          url: /linux_component_percentswapspace.html
+          url: /linux_component_swapspace_percent.html
           output: web, pdf
 
         - title: Total
-          url: /linux_component_totalswapspace.html
+          url: /linux_component_swapspace_total.html
           output: web, pdf
 
         - title: Used
-          url: /linux_component_usedswapspace.html
+          url: /linux_component_swapspace_used.html
           output: web, pdf
 
       - title: Flows
@@ -362,27 +362,27 @@ entries:
           output: web, pdf
 
         - title: Fullest File System Used Space
-          url: /linux_component_fullestfilesystemusedspace.html
+          url: /linux_component_filesystem_fullest_usedspace.html
           output: web, pdf
 
         - title: Total Space for the Fullest File System
-          url: /linux_component_totalspaceforthefullestfilesystem.html
+          url: /linux_component_filesystem_fullest_totalspace.html
           output: web, pdf
 
         - title: Used Space for the Fullest File System
-          url: /linux_component_usedspaceforthefullestfilesystem.html
+          url: /linux_component_filesystem_fullest_usedspace.html
           output: web, pdf
 
         - title: Second Fullest File System Used Space
-          url: /linux_component_secondfullestfilesystemusedspace.html
+          url: /linux_component_filesystem_secondfullest_usedspace.html
           output: web, pdf
 
         - title: Total Space for the Second Fullest File System
-          url: /linux_component_totalspaceforthesecondfullestfilesystem.html
+          url: /linux_component_filesystem_secondfullest_totalspace.html
           output: web, pdf
 
         - title: Used Space for the Second Fullest File System
-          url: /linux_component_usedspaceforthesecondfullestfilesystem.html
+          url: /linux_component_filesystem_secondfullest_usedspaceforthe.html
           output: web, pdf
 
     - title: Version
