@@ -1,7 +1,5 @@
 ---
 title: Install Spotlight Enterprise
-tags: [setup]
-keywords: setup, install
 summary: "The Spotlight Enterprise installer installs a Spotlight Diagnostic Server (to collect Spotlight data), a Spotlight Client (to view Spotlight data) and a Playback Database (to store recent history). This is a minimal Spotlight Enterprise deployment. The Spotlight Enterprise installer can be used to install additional Spotlight Clients following the initial install. The Spotlight Diagnostic Server can be installed remotely."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_install.html

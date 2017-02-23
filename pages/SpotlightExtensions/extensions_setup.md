@@ -1,7 +1,5 @@
 ---
 title: Download and Setup Spotlight Extensions
-tags: [setup]
-keywords: setup, install
 summary: "Download the Spotlight Extensions installer from the Spotlight web site. Run the installer to install a Spotlight Diagnostic Server (to collect Spotlight monitoring data) and a Playback Database (to store recent monitoring history)."
 sidebar: p_extensions_sidebar
 permalink: extensions_setup.html
