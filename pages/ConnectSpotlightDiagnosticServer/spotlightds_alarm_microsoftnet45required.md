@@ -2,7 +2,7 @@
 title: Diagnostic Server - Microsoft .NET Version Alarm
 last_updated: July 29, 2016
 summary: "The Diagnostic Server uses .NET libraries to collect data from the machines being monitored. These libraries require at least version 4.5 of the Microsoft .NET framework."
-sidebar: p_enterprise_sidebar
+sidebar: p_spotlightds_sidebar
 permalink: spotlightds_alarm_microsoftnet45required.html
 id: IsDotnetAvailable.alarm
 folder: ConnectSpotlightDS

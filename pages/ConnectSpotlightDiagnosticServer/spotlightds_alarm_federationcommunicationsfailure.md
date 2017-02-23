@@ -2,7 +2,7 @@
 title: Diagnostic Server - Federation Communications Failure Alarm
 last_updated: July 29, 2016
 summary: "This alarm is raised by a Spotlight Diagnostic Server in a federation when the Spotlight Diagnostic Server that raises the alarm cannot communicate with the Configuration server."
-sidebar: p_enterprise_sidebar
+sidebar: p_spotlightds_sidebar
 permalink: spotlightds_alarm_federationcommunicationsfailure.html
 id: alarm_ds_federationcommunicationsfailure
 folder: ConnectSpotlightDS

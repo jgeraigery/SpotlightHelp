@@ -1,7 +1,5 @@
 ---
 title: Spotlight Chart Properties
-tags: [spotlight_charts]
-keywords: charts, drilldowns
 summary: "Edit the visual properties of Spotlight charts."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_chartsproperties.html
