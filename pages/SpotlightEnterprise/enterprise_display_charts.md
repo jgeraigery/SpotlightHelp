@@ -1,7 +1,5 @@
 ---
 title: Spotlight charts
-tags: [spotlight_charts]
-keywords: charts, drilldowns
 summary: "Charts are used in Spotlight drilldowns."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_charts.html

@@ -2,7 +2,7 @@
 title: ﻿Diagnostic Server - Playback Alarm - Queue Error
 last_updated: July 29, 2016
 summary: "Data collected by the Diagnostic Server has been queued and is awaiting insertion into the playback database. The queue has now exceeded its limit and data is being discarded."
-sidebar: p_enterprise_sidebar
+sidebar: p_spotlightds_sidebar
 permalink: spotlightds_alarm_playback_queueerror.html
 id: playback.alarm_queue error
 folder: ConnectSpotlightDS

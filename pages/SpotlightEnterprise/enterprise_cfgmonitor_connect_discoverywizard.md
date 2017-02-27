@@ -1,6 +1,5 @@
 ---
 title: Connection Discovery Wizard
-tags: [connection_details]
 summary: "The Connection Discovery Wizard is used to locate resources on the network to add as Spotlight connections. The Connection Discovery Wizard can be used to locate SQL Server instances or Windows Servers."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_connect_discoverywizard.html

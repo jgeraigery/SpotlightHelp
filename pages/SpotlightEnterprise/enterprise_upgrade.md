@@ -1,7 +1,5 @@
 ---
 title: Upgrade Spotlight Enterprise
-tags: [setup]
-keywords: setup, install
 summary: "Upgrade Spotlight Enterprise using the Spotlight Enterprise installer."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_upgrade.html

@@ -2,7 +2,7 @@
 title: ﻿Diagnostic Server - Playback Alarm - Upgrade in Progress
 last_updated: July 29, 2016
 summary: "The playback database is being upgraded."
-sidebar: p_enterprise_sidebar
+sidebar: p_spotlightds_sidebar
 permalink: spotlightds_alarm_playback_UpgradeinProgress.html
 id: Playback.Alarm_Upgrade in Progress
 folder: ConnectSpotlightDS

@@ -1,6 +1,5 @@
 ---
 title: New Connection Details dialog
-tags: [connection_details]
 summary: "This dialog may be opened from Configure | Connections on request to add a new connection."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_connect_newdetails.html
@@ -12,7 +11,7 @@ folder: SpotlightEnterprise
 
 ## Select Diagnostic Server
 
-In a federated system you will be prompted to select the Spotlight Diagnostic Server. 
+In a federated system you will be prompted to select the Spotlight Diagnostic Server.
 
 Notes on this are as follows:
 

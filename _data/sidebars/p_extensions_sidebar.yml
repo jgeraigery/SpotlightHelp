@@ -25,7 +25,7 @@ entries:
       url: /extensions_welcome.html
       output: web, pdf
 
-    - title: Components and Requirements
+    - title: Requirements
       url: /extensions_requirements.html
       output: web, pdf
 
@@ -70,8 +70,20 @@ entries:
       url: /extensions_monitoring_overview.html
       output: web, pdf
 
-    - title: Connections
-      url: /extensions_monitoring_connect.html
+    - title: Configure Connections
+      url: /extensions_monitoring_configureconnections.html
+      output: web, pdf
+
+    - title: Settings
+      url: /extensions_settings.html
+      output: web, pdf
+
+    - title: Tips and tricks
+      url: /extensions_monitoring_tips.html
+      output: web, pdf
+
+    - title: Spotlight Sign in
+      url: /extensions_spotlightsignin.html
       output: web, pdf
 
   - title: Spotlight Optimizer
@@ -80,4 +92,12 @@ entries:
 
     - title: Spotlight Optimizer
       url: /extensions_optimizer.html
+      output: web, pdf
+
+  - title: Security and data handling
+    output: web, pdf
+    folderitems:
+
+    - title: Security and data handling
+      url: /extensions_security.html
       output: web, pdf

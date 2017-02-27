@@ -1,7 +1,7 @@
 ---
 title: SQL Analysis grid
 last_updated: July 29, 2016
-summary: "The SQL Analysis grid shows the SQL being executed that conforms to the performance criteria configured on the SQL Analysis Options page."
+summary: "The SQL Analysis grid shows the SQL being executed that conforms to the configured performance criteria."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_sqlanalysis.html
 id: sqlactivity_gtrace.globaltracegrid
@@ -9,15 +9,15 @@ folder: ConnectSQLServer
 ---
 
 
-To configure the SQL Analysis options, go to **Monitoring Configuration (Ctrl+M)**  and click **SQL Analysis Filters**.
+To configure the SQL Analysis options, in Spotlght Enterprise from the Spotlight Client open **Configure \| SQL Analysis \| Filters**.
 
-  <note type="note">The Database Name column is blank when connected to a SQL Server 2000 instance.</note>
+{% include note.html content="The Database Name column is blank when connected to a SQL Server 2000 instance." %}
 
 Columns shown in the grid by default include:
 
 ## Event Class
-
 The following SQL executions are captured:
+
 * SP Completed
 * SQL Statement Completed
 * SQL Batch Completed
@@ -30,7 +30,8 @@ Contains text details of the particular instances of the event class(es) being c
 ## Database Name
 
 (Not available for SQL Server 2000) The name of the database generating the SQL execution.
-  <note type="note">This column is blank when connected to a SQL Server 2000 instance.</note>
+
+{% include note.html content="This column is blank when connected to a SQL Server 2000 instance." %}
 
 ## Database ID
 
@@ -175,15 +176,14 @@ To clear the data in the SQL Analysis grid without having to leave the SQL Analy
 
 ## Viewing details in the grid
 
-To wrap text in a column onto multiple lines, use the word wrap option. To access the word wrap option, right-click the SQL Analysis grid and select **Properties** and then click the Options tab.
+To wrap text in a column onto multiple lines, use the word wrap option. To access the word wrap option, right-click the SQL Analysis grid and select **Properties | Options**.
 
 Turning on the word wrap option may degrade the performance of Spotlight.The word wrap option is turned off by default.
 
-To view the details of the highlighted row in one window, right-click the grid and select **Grid Browser**. Use the Previous and Next buttons to move through the items in the grid.
+To view the details of the highlighted row in one window, right-click the grid and select **Grid Browser**. Use the **Previous** and **Next** buttons to move through the items in the grid.
 
-<note type="note">If you have SQL Optimizer installed, you can use it to tune the non-conforming SQL that has been identified.
-To do this, right-click a row in the grid and select Optimize SQL.</note>
-
+{% include note.html content="If SQL Optimizer is installed, you can use it to tune the non-conforming SQL that has been identified.
+To do this, right-click a row in the grid and select **Optimize SQL**." %}
 
 
 {% include links.html %}

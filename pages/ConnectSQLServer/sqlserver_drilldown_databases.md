@@ -189,9 +189,9 @@ You can filter the results displayed in the Indexes grid by the following criter
 * Data Space name
 * Index name
 
-To filter the results, type appropriate values into the fields above the Indexes grid (wildcards are supported) and then click **Apply Filter**.
+To filter the result in the Spotlight Client, type appropriate values into the fields above the Indexes grid (wildcards are supported) and then click **Apply Filter**.
 
-The **Update Statistics** option can be used to (re)collect index distribution statistics for the selected index(es). This option runs an UPDATE STATISTICS command on each of the selected indexes. This collects the latest index statistics for each index. To update statistics, right-click an entry in the Indexes table and select **Update Statistics**.
+The **Update Statistics** option can be used to (re)collect index distribution statistics for the selected index(es). This option runs an UPDATE STATISTICS command on each of the selected indexes. This collects the latest index statistics for each index. To update statistics, in the Spotlight Client right-click an entry in the Indexes table and select **Update Statistics**.
 
 You should update index statistics whenever:
 
@@ -199,7 +199,7 @@ You should update index statistics whenever:
 * A large amount of data in an indexed column has been added, changed, or removed (that is, if the distribution of key values has changed), or the table has been truncated using the TRUNCATE TABLE statement and then re-populated.
 
 * Selecting a single row in this grid shows detailed index statistics for that index in the lower section of the drilldown.
-* Only members of the Spotlight Diagnostic Administrators group can use the Update Statistics option.
+* In the Spotlight Client only members of the Spotlight Diagnostic Administrators group can use the Update Statistics option.
 
 
 #### Index Statistics Summary
@@ -299,7 +299,7 @@ How much space database files are using on each disk
 Shows each logical disk on the server, and allocates the space on each disk into either SQL Data files, SQL Log files, Non-SQL files or Free Space. You can easily see how much of each disk is used by SQL databases, and how much is free.
 
 
- TIP:
+##### Tips to using the Disk Space chart in the Spotlight Client
 
 * To switch between Disk Space Utilization by megabytes and Disk Space Utilization by percent, click the arrow next to the chart name.
 * Select one or more of the databases in the Databases grid to restrict the Data and Log figures to only the space used by those databases.

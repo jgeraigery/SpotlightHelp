@@ -2,7 +2,7 @@
 title: ﻿Diagnostic Server - Playback Alarm - Upgrade Error
 last_updated: July 29, 2016
 summary: "Following upgrade of the Spotlight Diagnostic Server, the Playback Database is automatically upgraded the next time it is accessed by the Spotlight Diagnostic Server."
-sidebar: p_enterprise_sidebar
+sidebar: p_spotlightds_sidebar
 permalink: spotlightds_alarm_playback_upgradeerror.html
 id: playback.alarm_upgrade error
 folder: ConnectSpotlightDS

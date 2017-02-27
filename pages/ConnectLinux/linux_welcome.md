@@ -36,7 +36,6 @@ folder: ConnectLinux
         </div>
     </div>
 
+{% include tip.html content="See the collections used by Spotlight Enterprise to monitor Linux server: [Collections][linux_collections]." %}
 
-
-
-{% include tip.html content="See the collections used by Spotlight Enterprise to monitor Linux server: [Collections][unix_collections]." %}
+{% include links.html %}
