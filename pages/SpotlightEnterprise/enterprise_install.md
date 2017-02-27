@@ -71,7 +71,7 @@ Scenarios that may be involved with a typical install include:
 The Spotlight Client will be installed as follows, unless you indicate otherwise
 
 ```
-C:\Program Files (x86)\Quest Software\Spotlight on SQL Server
+C:\Program Files (x86)\Quest Software\Spotlight Enterprise
 ```
 
 Do not install the Spotlight Client in the same location as an existing (but different entity of) Spotlight. If you install a different Spotlight after you have installed Spotlight Enterprise, do not install the new Spotlight in the Spotlight Enterprise directory.

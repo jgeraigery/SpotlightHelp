@@ -12,7 +12,7 @@ folder: SpotlightEnterprise
 
 1. Open the Spotlight Client installation directory, usually:
     ```
-    C:\Program Files (x86)\Quest Software\Spotlight on SQL Server
+    C:\Program Files (x86)\Quest Software\Spotlight Enterprise
     ```
 
 2. Open the **Console** directory in the Spotlight Client installation directory.

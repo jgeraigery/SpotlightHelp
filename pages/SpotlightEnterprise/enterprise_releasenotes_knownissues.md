@@ -20,7 +20,7 @@ Manual refresh is required on some drilldowns. Right click the data in the grid 
 
 Known Issue | Issue ID
 ------------|---------
-**Installing other Spotlights.** Do not install other Spotlights into the Spotlight on SQL Server folder. You will be unable to run Spotlight Enterprise if you do this. When installing other Spotlights you must install them into a different folder. | N/A
+**Installing other Spotlights.** Do not install other Spotlights into the Spotlight Enterprise folder. You will be unable to run Spotlight Enterprise if you do this. When installing other Spotlights you must install them into a different folder. | N/A
 **Remote installation.** Remote installation of Spotlight Enterprise fails if the user has both a domain account and a local account with the same user name. | N/A
 
 
