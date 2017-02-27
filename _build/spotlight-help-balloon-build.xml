@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project name="spotlight-help-balloon-build" default="build" basedir=".">
-  <property name="project.root" location="." />
+  <property name="project.root" location=".." />
 
 
   <target name="build" description="Build help web site">
