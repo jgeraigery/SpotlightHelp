@@ -4,8 +4,7 @@ def BuildHelp()
     {
         stage 'Build Help'
         def HelpDir=pwd()
-        bat """call "${HelpDir}\\_build\\BuildHelp.cmd"""""
-        
+        bat "\"${HelpDir}\\_build\\BuildHelp\""
     }
     catch (any)
     {
