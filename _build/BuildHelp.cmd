@@ -1,15 +1,14 @@
 @setlocal enabledelayedexpansion enableextensions
 
 @set useJekyllBundle=%~1
-@set jekyllCmd=%~2
-@set HelpDir=%~3
-@set wixToolsetBin=%~4
+@set HelpDir=%~2
+@set wixToolsetBin=%~3
 
 @if not defined useJekyllBundle @set useJekyllBundle=0
 @if /i "%useJekyllBundle%" == "yes" @set useJekyllBundle=1
 @if /i "%useJekyllBundle%" == "y" @set useJekyllBundle=1
 @set /a useJekyllBundle=%useJekyllBundle%
-@if %useJekyllBundle% EQU 1 set jekyllBundle=bundle exec
+@if %useJekyllBundle% EQU 1 set jekyllCmd=bundle exec jekyll
 
 @if not defined jekyllCmd @set jekyllCmd=jekyll
 @if not defined wixToolsetBin @for /L %%I in (9,1,11) do @set _temp=%ProgramFiles(x86)%\WiX Toolset v3.%%I\bin && if exist "!_temp!" set wixToolsetBin=!_temp!
@@ -17,10 +16,10 @@
 
 :: jekyll builds - folders starting with '_' will not be included in Jekyll outputs
 @echo Build offline help
-@call %jekyllBundle% "%jekyllCmd%" build --config "%HelpDir%\_configOffline.yml" -s "%HelpDir%" -d "%HelpDir%\_site"
+@call %jekyllCmd% build --config "%HelpDir%\_configOffline.yml" -s "%HelpDir%" -d "%HelpDir%\_site"
 
 @echo Build offline balloon help
-@call %jekyllBundle% "%jekyllCmd%" build --config "%HelpDir%\_configBalloonHelpOffline.yml" -s "%HelpDir%" -d "%HelpDir%\_siteBalloonHelp"
+@call %jekyllCmd% build --config "%HelpDir%\_configBalloonHelpOffline.yml" -s "%HelpDir%" -d "%HelpDir%\_siteBalloonHelp"
 
 :: Wix fragements for installing help
 @"%wixToolsetBin%\heat.exe" dir "%HelpDir%\_site" -o "%HelpDir%\_install\helpsite.wxs" -nologo -scom -sfrag -srd -sreg -gg -cg HelpSiteGroup -dr HELP_SITE_DIR
