@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project name="spotlight-help-balloon-build" default="build" basedir=".">
+  <property name="project.root" location=".." />
+
+
+  <target name="build" description="Build help web site">
+	<echo message="Building Spotlight Help web app" />
+
+    <!-- Getting bundle packages-->
+	<echo message="Installing packajes START" />
+  <exec executable="\tools\bundle.bat" dir="${project.root}" failonerror="true">
+      <arg value="install" />
+    </exec>
+  <echo message="Installing packajes DONE" />
+
+	<!-- Compile jekyll project-->
+	<echo message="Compile jekyll" />
+  <exec executable="\tools\jekyll.bat" dir="${project.root}" failonerror="true">
+    <arg value="build" />
+    <arg value="--config" />
+    <arg value="_configBalloonHelpOffline.yml" />
+  </exec>
+  <echo message="build jekyll Done" />
+  </target>
+</project>
