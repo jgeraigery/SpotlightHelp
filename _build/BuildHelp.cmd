@@ -13,7 +13,6 @@
 
 @if not defined jekyllCmd @set jekyllCmd=jekyll
 @if not defined wixToolsetBin @for /L %%I in (9,1,11) do @set _temp=%ProgramFiles(x86)%\WiX Toolset v3.%%I\bin && if exist "!_temp!" set wixToolsetBin=!_temp!
-@if not defined HelpDir @if defined Workspace @set HelpDir=%Workspace%
 @if not defined HelpDir @set HelpDir=%~dp0..
 
 :: jekyll builds - folders starting with '_' will not be included in Jekyll outputs
