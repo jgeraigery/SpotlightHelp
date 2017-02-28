@@ -27,7 +27,6 @@
     <echo message="build jekyll Done" />
   </target>
   <target name="deploy" description="deploy to blob">
-    <echo message="${help.blob.container}" />
     <exec executable="powershell.exe" failonerror="true">
       <arg line="&amp;scripts\spotlight-help-deploy-to-balloon.ps1" />
       <arg line="-project_root ${project.root}" />
