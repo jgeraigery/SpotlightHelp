@@ -43,7 +43,7 @@ function uploadFiles($folder, $destFolder)
     {
       if ($destFolder -eq "")
       {
-        uploadFiles($file, $file.name);
+        uploadFiles($folder + "\" + $file, $file.name);
       }
       else
       {
