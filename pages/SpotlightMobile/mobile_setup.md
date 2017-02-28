@@ -1,7 +1,5 @@
 ---
 title: Setup Spotlight Mobile
-tags: [setup]
-keywords: deploy, setup, mobile
 summary: "Expand your deployment of Spotlight Enterprise to include Spotlight Mobile."
 sidebar: p_mobile_sidebar
 permalink: mobile_setup.html

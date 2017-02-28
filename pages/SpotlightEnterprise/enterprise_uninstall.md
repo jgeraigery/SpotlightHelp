@@ -1,7 +1,5 @@
 ---
 title: Uninstall Spotlight Enterprise
-tags: [setup]
-keywords: setup, install
 summary: "Follow these steps to uninstall Spotlight Enterprise. Multiple Spotlight Clients and servers may be involved."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_uninstall.html

@@ -1,7 +1,5 @@
 ---
 title: Spotlight grid properties
-tags: [spotlight_grids]
-keywords: grids, drilldowns
 summary: "To open this dialog, right click the grid body and select Properties."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_gridsproperties.html

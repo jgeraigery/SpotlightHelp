@@ -1,7 +1,5 @@
 ---
 title: Install Spotlight Enterprise
-tags: [setup]
-keywords: setup, install
 summary: "The Spotlight Enterprise installer installs a Spotlight Diagnostic Server (to collect Spotlight data), a Spotlight Client (to view Spotlight data) and a Playback Database (to store recent history). This is a minimal Spotlight Enterprise deployment. The Spotlight Enterprise installer can be used to install additional Spotlight Clients following the initial install. The Spotlight Diagnostic Server can be installed remotely."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_install.html
@@ -73,7 +71,7 @@ Scenarios that may be involved with a typical install include:
 The Spotlight Client will be installed as follows, unless you indicate otherwise
 
 ```
-C:\Program Files (x86)\Quest Software\Spotlight on SQL Server
+C:\Program Files (x86)\Quest Software\Spotlight Enterprise
 ```
 
 Do not install the Spotlight Client in the same location as an existing (but different entity of) Spotlight. If you install a different Spotlight after you have installed Spotlight Enterprise, do not install the new Spotlight in the Spotlight Enterprise directory.

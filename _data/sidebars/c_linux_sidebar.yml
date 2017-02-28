@@ -100,11 +100,11 @@ entries:
       url: /linux_alarm_status.html
       output: web, pdf
 
-    - title: Swapping in flow
+    - title: Swapping in Flow
       url: /linux_alarm_swappinginflow.html
       output: web, pdf
 
-    - title: Swapping out flow
+    - title: Swapping out Flow
       url: /linux_alarm_swappingoutflow.html
       output: web, pdf
 
@@ -124,9 +124,266 @@ entries:
       url: /linux_drilldown_overview.html
       output: web, pdf
 
-    - title: Status
-      url: /linux_component_status.html
-      output: web, pdf
+      subfolders:
+      - title: Network
+        output: web
+        subfolderitems:
+
+        - title: Network Users
+          url: /linux_component_networkusers.html
+          output: web, pdf
+
+        - title: Established Connections
+          url: /linux_component_establishedconnections.html
+          output: web, pdf
+
+        - title: Time_Wait
+          url: /linux_component_timewaitconnections.html
+          output: web, pdf
+
+        - title: Close_Wait
+          url: /linux_component_closewaitconnections.html
+          output: web, pdf
+
+        - title: Most Active NIC
+          url: /linux_component_mostactivenic.html
+          output: web, pdf
+
+        - title: Most Active NIC - Pkts/s
+          url: /linux_component_mostactivenic_packetspers.html
+          output: web, pdf
+
+        - title: Most Active NIC - Errors/s
+          url: /linux_component_mostactivenic_errorspers.html
+          output: web, pdf
+
+        - title: Second Most Active NIC
+          url: /linux_component_secondmostactivenic.html
+          output: web, pdf
+
+        - title: Second Most Active NIC - Pkts/s
+          url: /linux_component_secondmostactivenic_packetspers.html
+          output: web, pdf
+
+        - title: Second Most Active NIC - Errors/s
+          url: /linux_component_secondmostactivenic_errorspers.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
+        - title: Packets in
+          url: /linux_component_networkpacketsin.html
+          output: web, pdf
+
+        - title: Packets out
+          url: /linux_component_networkpacketsout.html
+          output: web, pdf
+
+        - title: Network Errors in
+          url: /linux_component_networkerrorsin.html
+          output: web, pdf
+
+        - title: Network Errors out
+          url: /linux_component_networkerrorsout.html
+          output: web, pdf
+
+      - title: System
+        output: web
+        subfolderitems:
+
+        - title: OS
+          url: /linux_component_os.html
+          output: web, pdf
+
+        - title: Uptime
+          url: /linux_component_uptime.html
+          output: web, pdf
+
+        - title: Status
+          url: /linux_component_status.html
+          output: web, pdf
+
+      - title: CPU
+        output: web
+        subfolderitems:
+
+        - title: CPUs
+          url: /linux_component_cpus.html
+          output: web, pdf
+
+        - title: Speed
+          url: /linux_component_cpuspeed.html
+          output: web, pdf
+
+        - title: Type
+          url: /linux_component_cputype.html
+          output: web, pdf
+
+        - title: Virtualization Overhead
+          url: /linux_component_virtualizationoverhead.html
+          output: web, pdf
+
+        - title: CPU Usage
+          url: /linux_component_cpuusage.html
+          output: web, pdf
+
+        - title: User%
+          url: /linux_component_cpuuserpercent.html
+          output: web, pdf
+
+        - title: System%
+          url: /linux_component_cpusystempercent.html
+          output: web, pdf
+
+        - title: Wait%
+          url: /linux_component_cpuwaitpercent.html
+          output: web, pdf
+
+        - title: Queue Length
+          url: /linux_component_queuelength.html
+          output: web, pdf
+
+        - title: Total Processes
+          url: /linux_component_processes_total.html
+          output: web, pdf
+
+        - title: Zombie Processes
+          url: /linux_component_processes_zombie.html
+          output: web, pdf
+
+        - title: Blocked Processes
+          url: /linux_component_processes_blocked.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
+        - title: Swap out
+          url: /linux_component_swappingout.html
+          output: web, pdf
+
+        - title: Swap in
+          url: /linux_component_swappingin.html
+          output: web, pdf
+
+      - title: Memory
+        output: web
+        subfolderitems:
+
+        - title: Physical Memory - Total RAM
+          url: /linux_component_physicalmemory_totalram.html
+          output: web, pdf
+
+        - title: Physical Memory - Free
+          url: /linux_component_physicalmemory_free.html
+          output: web, pdf
+
+        - title: Physical Memory - % Free
+          url: /linux_component_physicalmemory_freepct.html
+          output: web, pdf
+
+        - title: Physical Memory - Used RAM
+          url: /linux_component_physicalmemory_usedram.html
+          output: web, pdf
+
+        - title: Virtual Memory - Total Size
+          url: /linux_component_virtualmemory_totalsize.html
+          output: web, pdf
+
+        - title: Virtual Memory - Free
+          url: /linux_component_virtualmemory_free.html
+          output: web, pdf
+
+        - title: Virtual Memory - % Used
+          url: /linux_component_virtualmemory_usedpct.html
+          output: web, pdf
+
+        - title: Virtual Memory - Used
+          url: /linux_component_virtualmemory_used.html
+          output: web, pdf
+
+      - title: Swap Space
+        output: web
+        subfolderitems:
+
+        - title: Percent
+          url: /linux_component_swapspace_percent.html
+          output: web, pdf
+
+        - title: Total
+          url: /linux_component_swapspace_total.html
+          output: web, pdf
+
+        - title: Used
+          url: /linux_component_swapspace_used.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
+        - title: Disk Writes
+          url: /linux_component_diskwrites.html
+          output: web, pdf
+
+        - title: Disk Reads
+          url: /linux_component_diskreads.html
+          output: web, pdf
+
+      - title: Storage
+        output: web
+        subfolderitems:
+
+        - title: Disk Activity Display
+          url: /linux_component_diskactivitydisplay.html
+          output: web, pdf
+
+        - title: Most Active Disk
+          url: /linux_component_mostactivedisk.html
+          output: web, pdf
+
+        - title: Most Active Disk Percentage
+          url: /linux_component_mostactivedisk_percent.html
+          output: web, pdf
+
+        - title: Second Most Active Disk
+          url: /linux_component_secondmostactivedisk.html
+          output: web, pdf
+
+        - title: Second Most Active Disk Percentage
+          url: /linux_component_secondmostactivedisk_percent.html
+          output: web, pdf
+
+        - title: File System Display
+          url: /linux_component_filesystemdisplay.html
+          output: web, pdf
+
+        - title: Fullest File System Used Space display
+          url: /linux_component_filesystem_fullest_usedspacedisplay.html
+          output: web, pdf
+
+        - title: Total Space for the Fullest File System
+          url: /linux_component_filesystem_fullest_totalspace.html
+          output: web, pdf
+
+        - title: Fullest File System Used Space
+          url: /linux_component_filesystem_fullest_usedspace.html
+          output: web, pdf
+
+        - title: Second Fullest File System Used Space display
+          url: /linux_component_filesystem_secondfullest_usedspacedisplay.html
+          output: web, pdf
+
+        - title: Total Space for the Second Fullest File System
+          url: /linux_component_filesystem_secondfullest_totalspace.html
+          output: web, pdf
+
+        - title: Second Fullest File System Used Space
+          url: /linux_component_filesystem_secondfullest_usedspace.html
+          output: web, pdf
 
     - title: Version
       url: /linux_component_version.html

@@ -61,6 +61,9 @@ MDAC is available from the Microsoft website: www.microsoft.com/downloads
 
 To find out the version of MDAC that you are currently running, you can download an application from the Microsoft website called the Component Checker Tool. Review the following Microsoft Knowledge Base article for more information: http://support.microsoft.com/kb/301202
 
+#### Microsoft Windows Powershell 3.0 or above
+Microsoft Windows Powershell 3.0 or above is required to [access Spotlight from the command line][enterprise_connect_commandline]. 
+
 
 ## Spotlight Diagnostic Server requirements
 

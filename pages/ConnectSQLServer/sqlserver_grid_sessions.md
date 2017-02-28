@@ -17,7 +17,7 @@ folder: ConnectSQLServer
    * Do not have a status of sleeping, background or dormant.
    * Are blocked.
    * Have a command type of "WAITFOR".
-* To close a SQL Server session, right click and select **Kill this session**. This option is available only to members of the Spotlight Diagnostic Administrators group.
+* To close a SQL Server session, right click and select **Kill this session**. This option is available only to members of the Spotlight Diagnostic Administrators group.  To select multiple sessions use the shortcut key combinations CTRL+click or SHIFT+click.
 * Click a session in the grid for more details on the session.
 
 ## The columns of the grid include:
@@ -33,6 +33,8 @@ SQL Server login name for this session.
 ### Status
 
 Status of the session (runnable, sleeping, blocked etc).
+
+{% include tip.html content="The status is color coded for readability." %}
 
 ### Blocked By
 

@@ -56,6 +56,21 @@ entries:
     - title: Acknowledge
       url: /tag_acknowledge.html
       output: web
+    - title: Alarms
+      url: /tag_alarms.html
+      output: web
+    - title: Collections
+      url: /tag_collections.html
+      output: web
+    - title: configure Monitoring
+      url: /tag_configure_monitoring.html
+      output: web
+    - title: Connection Details
+      url: /tag_connection_details.html
+      output: web
+    - title: Connection Requirements
+      url: /tag_connection_requirements.html
+      output: web
     - title: Heatmap
       url: /tag_heatmap.html
       output: web
@@ -65,18 +80,6 @@ entries:
     - title: Playback
       url: /tag_playback.html
       output: web
-    - title: Setup
-      url: /tag_setup.html
-      output: web
     - title: Snooze
       url: /tag_snooze.html
-      output: web
-    - title: Connection details
-      url: /tag_connection_details.html
-      output: web
-    - title: Connection requirements
-      url: /tag_connection_requirements.html
-      output: web
-    - title: configure monitoring
-      url: /tag_configure_monitoring.html
       output: web

@@ -73,7 +73,7 @@ The percentage of the log file that is used.
 
 ## How to restrict the files included in the charts
 
-To restrict the files included in the charts, highlight just the records you are interested in. Hold down the **Shift** key to select a block of multiple files or the **CTRL** key to select individual files.
+In the Spotlight Client, to restrict the files included in the charts, highlight just the records you are interested in. Hold down the **Shift** key to select a block of multiple files or the **CTRL** key to select individual files.
 
 
 {% include links.html %}

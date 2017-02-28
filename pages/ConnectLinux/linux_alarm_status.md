@@ -1,5 +1,6 @@
 ---
-title: ﻿Status Alarm
+title: ﻿Status alarm
+tags: [linux_alarms]
 last_updated: July 29, 2016
 summary: "Spotlight is re-establishing its connection to the Unix system."
 sidebar: c_linux_sidebar

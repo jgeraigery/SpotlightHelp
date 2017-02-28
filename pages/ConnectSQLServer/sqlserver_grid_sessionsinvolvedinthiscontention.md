@@ -20,7 +20,7 @@ The SQL Statement responsible for causing the contention.
 
 ID of the session executing the SQL Statement.
 
-The ID is hyper-linked to the same session on the SQL Activity drilldown \| Sessions page.
+The ID is hyper-linked to the same session on the **SQL Activity drilldown \| Sessions page**.
 
 ## Wait Type
 

@@ -7,12 +7,14 @@ folder: SpotlightEnterprise
 ---
 
 
+## Requirements
+Microsoft Windows Powershell 3.0 or above is required. Older operating systems (for example Windows Server 2008 R2) require an upgrade of the Windows Management Framework in order to access Spotlight from the command line. [Download Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595)
 
 ## 1. Access Spotlight from the command line
 
 1. Open the Spotlight Client installation directory, usually:
     ```
-    C:\Program Files (x86)\Quest Software\Spotlight on SQL Server
+    C:\Program Files (x86)\Quest Software\Spotlight Enterprise
     ```
 
 2. Open the **Console** directory in the Spotlight Client installation directory.

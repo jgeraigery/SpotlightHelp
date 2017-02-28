@@ -1,5 +1,6 @@
 ---
-title: ﻿Monitored Server - Unix Collection Execution Failure Alarm
+title: ﻿Monitored Server - Unix Collection Execution Failure alarm
+tags: [linux_alarms]
 last_updated: July 29, 2016
 summary: "Raised when a (specified collection) failed to execute against the server."
 sidebar: c_linux_sidebar

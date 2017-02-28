@@ -1,6 +1,6 @@
 ---
 title: Configure Connections
-tags: [connection_details,configure_monitoring]
+tags: [configure_monitoring]
 summary: "Request Spotlight Enterprise monitor your SQL Server, Windows Server and other connection types. Remove connections and configure connection properties."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_connect.html

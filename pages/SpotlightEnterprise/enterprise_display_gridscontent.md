@@ -1,7 +1,5 @@
 ---
 title: Spotlight grid content
-tags: [spotlight_grids]
-keywords: grids, drilldowns
 summary: "Right-click over the body content of a Spotlight grid for options."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_gridscontent.html

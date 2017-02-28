@@ -2,7 +2,7 @@
 title: ﻿Diagnostic Server - Playback Alarm - Connection Error
 last_updated: July 29, 2016
 summary: "Spotlight cannot connect to the playback database."
-sidebar: p_enterprise_sidebar
+sidebar: p_spotlightds_sidebar
 permalink: spotlightds_alarm_playback_connectionerror.html
 id: playback.alarm_connection error
 folder: ConnectSpotlightDS
