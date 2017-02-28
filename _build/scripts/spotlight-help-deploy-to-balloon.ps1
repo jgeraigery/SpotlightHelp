@@ -47,7 +47,7 @@ function uploadFiles($folder, $destFolder)
       }
       else
       {
-        uploadFiles($file, $destFolder + "/" + $file.name);
+        uploadFiles($folder + "\" + $file, $destFolder + "/" + $file.name);
       }
     }
   }
