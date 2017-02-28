@@ -10,14 +10,13 @@ $storageAccountName = "spotlightballoonhelp"
 $containerName = "balloonhelp"
 # Upload files in data subfolder to Azure.
 $localfolder = "${project_root}\_site"
-$destfolder = ""
 $storageAccountKey = (Get-AzureStorageKey -StorageAccountName $storageAccountName).Primary
 $blobContext = New-AzureStorageContext -StorageAccountName $storageAccountName -StorageAccountKey ${destkey}
 $files = Get-ChildItem $localFolder
 foreach($file in $files)
 {
   $fileName = "$localFolder\$file"
-  $blobName = "$destfolder/$file"
+  $blobName = "$file"
   write-host "copying $fileName to $blobName"
   Set-AzureStorageBlobContent -File $filename -Container $containerName -Blob $blobName -Context $blobContext -Force
 }
