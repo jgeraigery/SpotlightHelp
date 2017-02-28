@@ -12,19 +12,46 @@ $containerName = "balloonhelp"
 $localfolder = "${project_root}\_site"
 $storageAccountKey = (Get-AzureStorageKey -StorageAccountName $storageAccountName).Primary
 $blobContext = New-AzureStorageContext -StorageAccountName $storageAccountName -StorageAccountKey ${destkey}
-$files = Get-ChildItem $localFolder
-foreach($file in $files)
+
+function uploadFiles($folder, $destFolder)
 {
-  $fileName = "$localFolder\$file"
-  $blobName = "$file"
-  write-host "copying $fileName to $blobName"
+  $files = Get-ChildItem $folder
+  foreach($file in $files)
+  {
+    if($file -is [System.IO.FileInfo])
+    {
+      $fileName = "$folder\$file"
+      if ($destFolder -eq "")
+      {
+        $blobName = "$file"
+      }
+      else
+      {
+        $blobName = "$destFolder/$file"
+      }
 
-  If ($fileName.endswith(".html")) {
-    $blobProperties = @{"ContentType" = "text/html"};
-    Set-AzureStorageBlobContent -File $filename -Container $containerName -Blob $blobName -Properties $blobProperties -Context $blobContext -Force
-  } Else {
-    Set-AzureStorageBlobContent -File $filename -Container $containerName -Blob $blobName -Context $blobContext -Force
+      write-host "copying $fileName to $blobName"
+
+      If ($fileName.endswith(".html")) {
+        $blobProperties = @{"ContentType" = "text/html"};
+        Set-AzureStorageBlobContent -File $filename -Container $containerName -Blob $blobName -Properties $blobProperties -Context $blobContext -Force
+      } Else {
+        Set-AzureStorageBlobContent -File $filename -Container $containerName -Blob $blobName -Context $blobContext -Force
+      }
+    }
+    else
+    {
+      if ($destFolder -eq "")
+      {
+        uploadFiles($file, $file.name);
+      }
+      else
+      {
+        uploadFiles($file, $destFolder + "/" + $file.name);
+      }
+    }
   }
-
 }
+uploadFiles($localfolder, "");
+
 write-host "All files in $localFolder uploaded to $containerName!"
