@@ -30,7 +30,7 @@
     <exec executable="powershell.exe" failonerror="true">
       <arg line="&amp;scripts\spotlight-help-deploy-to-balloon.ps1" />
       <arg line="-project_root ${project.root}" />
-      <arg line="-destkey ${help.destkey}" />
+      <arg line="-destkey ${ENV:helpDestkey}" />
       <arg line="-blobContainer ${help.blob.container}" />
     </exec>
   </target>
