@@ -18,6 +18,13 @@ foreach($file in $files)
   $fileName = "$localFolder\$file"
   $blobName = "$file"
   write-host "copying $fileName to $blobName"
-  Set-AzureStorageBlobContent -File $filename -Container $containerName -Blob $blobName -Context $blobContext -Force
+
+  If ($fileName.endswith(".html")) {
+    $blobProperties = @{"ContentType" = "text/html"};
+    Set-AzureStorageBlobContent -File $filename -Container $containerName -Blob $blobName -Properties $blobProperties -Context $blobContext -Force
+  } Else {
+    Set-AzureStorageBlobContent -File $filename -Container $containerName -Blob $blobName -Context $blobContext -Force
+  }
+
 }
 write-host "All files in $localFolder uploaded to $containerName!"
