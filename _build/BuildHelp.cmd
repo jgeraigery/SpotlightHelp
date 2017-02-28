@@ -21,6 +21,13 @@
 @echo Build offline balloon help
 @call %jekyllCmd% build --config "%HelpDir%\_configBalloonHelpOffline.yml" -s "%HelpDir%" -d "%HelpDir%\_siteBalloonHelp"
 
+@echo Make a trimmed copy for Spotlight installer
+@set siteInstaller=%HelpDir%\_siteInstaller
+@robocopy "%HelpDir%\_site" "%siteInstaller%" /NP /NS /NC /NJH /NJS /NDL /NFL /MIR /XF *.otf /XF *.eot /XF *.svg /XF *.ttf /XF cloud_*.html /XF mobile_*.html /XF CNAME /XF *.sh /XF sitemap.xml /XF search.json /XF README.md /XF extensions_*.html /XD pdfconfigs /XD imagesCloud /XD imagesExtensions /XD imagesMobile
+
+@if exist "%siteInstaller%.zip" @del "%siteInstaller%.zip"
+@call "%~dp0ziptool" -c "%siteInstaller%" "%siteInstaller%.zip"
+
 :: Wix fragements for installing help
 @"%wixToolsetBin%\heat.exe" dir "%HelpDir%\_site" -o "%HelpDir%\_install\helpsite.wxs" -nologo -scom -sfrag -srd -sreg -gg -cg HelpSiteGroup -dr HELP_SITE_DIR
 @"%wixToolsetBin%\heat.exe" dir "%HelpDir%\_siteBalloonHelp" -o "%HelpDir%\_install\balloonhelpsite.wxs" -nologo -scom -sfrag -srd -sreg -gg -cg BalloonHelpSiteGroup -dr BALLOONHELP_SITE_DIR

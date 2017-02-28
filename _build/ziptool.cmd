@@ -3,7 +3,9 @@
 
 @for /f "tokens=* delims=" %%v in ('dir /b /s /a:-d  /o:-n "%SystemRoot%\Microsoft.NET\Framework\*jsc.exe"') do @set "jsc=%%v"
 
-@if not exist "%~dp0%~n0.exe" @"%jsc%" /debug+ /fast+ /w:4 /warnaserror+ /nologo /r:System.IO.Compression.FileSystem.dll /out:"%~dp0%~n0.exe" "%~dpf0"
+@set sourceFile=%~dpf0
+@if "%~x0" == "" @set sourceFile=%~dpf0.cmd
+@if not exist "%~dp0%~n0.exe" @"%jsc%" /debug+ /fast+ /w:4 /warnaserror+ /nologo /r:System.IO.Compression.FileSystem.dll /out:"%~dp0%~n0.exe" "%sourceFile%"
 
 @"%~dp0%~n0.exe" %*
 

@@ -7,4 +7,6 @@ _pdf
 _siteBalloonHelp/
 _siteBalloonhelpOffline/
 _siteOffline/
+_siteInstaller/
 *.swp
+*.zip
