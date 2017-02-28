@@ -21,7 +21,7 @@ The [SQL Server \| SQL Activity drilldown \| Sessions grid][sqlserver_grid_sessi
 A new report has been added to standard [Spotlight Enterprise reports][enterprise_display_reports]. The new report shows the availability / uptime of monitored instances.
 
 ## Performance Metrics Trends Charts
-The [SQL Server \| Workload Analysis][sqlserver_drilldown_workloadanalysis] drilldown has been enhanced to show a trending chart of a particular transaction.
+The [SQL Server \| Workload Analysis][sqlserver_drilldown_workloadanalysis] drilldown has been enhanced to drilldown on a trending chart for a particular transaction.
 
 
 {% include tip.html content="The Deadlocks, Wait Events and Workload Analysis features in Spotlight Enterprise make use of Extended Events. Spotlight will continue to use Extended Events in the development of the product's features." %}
