@@ -31,8 +31,8 @@
 {% elsif page.sidebar == "c_oracle_sidebar" %}
 {% assign sidebar = site.data.sidebars.c_oracle_sidebar.entries %}
 
-{% elsif page.sidebar == "c_linux_sidebar" %}
-{% assign sidebar = site.data.sidebars.c_linux_sidebar.entries %}
+{% elsif page.sidebar == "c_unix_sidebar" %}
+{% assign sidebar = site.data.sidebars.c_unix_sidebar.entries %}
 
 {% elsif page.sidebar == "c_windows_sidebar" %}
 {% assign sidebar = site.data.sidebars.c_windows_sidebar.entries %}
@@ -42,6 +42,9 @@
 
 {% elsif page.sidebar == "c_hyperv_sidebar" %}
 {% assign sidebar = site.data.sidebars.c_hyperv_sidebar.entries %}
+
+{% elsif page.sidebar == "c_spotlightds_sidebar" %}
+{% assign sidebar = site.data.sidebars.c_spotlightds_sidebar.entries %}
 
 {% else %}
 {% assign sidebar = site.data.sidebars.home_sidebar.entries %}

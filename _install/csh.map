@@ -140,9 +140,9 @@
 87	windows_drilldown_eventlogs	Content/Drilldowns/drilldown_windows_eventlog	IDH_EVENT_LOG_DRILLDOWN_WIN
 28	windows_drilldown_activity	Content/Drilldowns/drilldown_windows_activity	IDH_ACTIVITY_SUMMARY_DRILLDOWN_WIN
 
-## Connection Linux
-970	linux_connect_details
-470	linux_drilldown_overview
+## Connection Unix
+970	unix_connect_details
+470	unix_drilldown_overview
 
 ## Connection Diagnostic Server
 520	spotlightds_drilldown_overview	Content/Drilldowns/drilldown_spotlightdiagnosticserver	IDH_Home_DiagnosticServer
