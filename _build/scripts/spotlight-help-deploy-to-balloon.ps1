@@ -13,7 +13,8 @@ $localfolder = "${project_root}\_site"
 $destfolder = ""
 $storageAccountKey = (Get-AzureStorageKey -StorageAccountName $storageAccountName).Primary
 $blobContext = New-AzureStorageContext -StorageAccountName $storageAccountName -StorageAccountKey ${destkey}
-$files = Get-ChildItem $localFolder foreach($file in $files)
+$files = Get-ChildItem $localFolder
+foreach($file in $files)
 {
   $fileName = "$localFolder\$file"
   $blobName = "$destfolder/$file"
