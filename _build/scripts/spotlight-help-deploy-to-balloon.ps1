@@ -15,6 +15,7 @@ $blobContext = New-AzureStorageContext -StorageAccountName $storageAccountName -
 
 function uploadFiles($folder, $destFolder)
 {
+  $folder = $folder.Trim()
   $files = Get-ChildItem $folder
   foreach($file in $files)
   {
