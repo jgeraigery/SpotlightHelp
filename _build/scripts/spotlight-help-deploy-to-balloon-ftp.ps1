@@ -9,7 +9,7 @@ Param($project_root = "",
   $webclient = New-Object System.Net.WebClient
   $webclient.Credentials = New-Object System.Net.NetworkCredential($FTPUser,$FTPPass)
 
-function UploadFilesOfFolder($UploadFolder, $webclient)
+function UploadFilesOfFolder($UploadFolder, $webclient, $FTPHost)
 {
   $SrcEntries = Get-ChildItem $UploadFolder -Recurse
   $Srcfolders = $SrcEntries | Where-Object{$_.PSIsContainer}
@@ -66,4 +66,4 @@ function UploadFilesOfFolder($UploadFolder, $webclient)
   # Upload Files - Stop
 }
 
-UploadFilesOfFolder($UploadFolder, $webclient)
+UploadFilesOfFolder($UploadFolder, $webclient, $FTPHost)
