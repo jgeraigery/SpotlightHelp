@@ -1,8 +1,9 @@
 ---
 title: ﻿Diagnostic Server Playback Alarm - Version Error
+tags: [spotlightds_alarms]
 last_updated: July 29, 2016
 summary: "The version of the playback database is either newer than the version of the Diagnostic Server or could not be determined."
-sidebar: p_spotlightds_sidebar
+sidebar: c_spotlightds_sidebar
 permalink: spotlightds_alarm_playback_versionerror.html
 id: playback.alarm_version error
 folder: ConnectSpotlightDS

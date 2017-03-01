@@ -1,8 +1,9 @@
 ---
 title: ﻿Diagnostic Server - Collection Execution Failure Alarm
+tags: [spotlightds_alarms]
 last_updated: July 29, 2016
 summary: "The specified collection failed to execute against this server."
-sidebar: p_spotlightds_sidebar
+sidebar: c_spotlightds_sidebar
 permalink: spotlightds_alarm_collectionexecutionfailure.html
 id: procedureexecutionfailure.alarm
 folder: ConnectSpotlightDS

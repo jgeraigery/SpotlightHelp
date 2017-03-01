@@ -16,14 +16,6 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Connections
-    output: web, pdf
-    folderitems:
-
-    - title: Connection Details
-      url: /blah.html
-      output: web, pdf
-
   - title: Alarms
     output: web, pdf
     folderitems:

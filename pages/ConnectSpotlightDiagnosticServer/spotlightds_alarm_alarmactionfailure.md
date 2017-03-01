@@ -1,8 +1,9 @@
 ---
 title: ﻿Diagnostic Server - Alarm Action Failure Alarm
+tags: [spotlightds_alarms]
 last_updated: July 29, 2016
 summary: "The specified action failed to execute for this alarm."
-sidebar: p_spotlightds_sidebar
+sidebar: c_spotlightds_sidebar
 permalink: spotlightds_alarm_alarmactionfailure.html
 id: DSRuleActionFailure.alarm
 folder: ConnectSpotlightDS

@@ -1,4 +1,5 @@
 allowed-tags:
+  - alarms
   - collections
   - connection_details
   - connection_requirements
@@ -7,8 +8,6 @@ allowed-tags:
   - overview_page
   - playback
   - snooze
-  - spotlight_grids
-  - spotlight_charts
   - configure_monitoring
   - hyperv_alarms
   - vmware_alarms
@@ -20,4 +19,4 @@ allowed-tags:
   - sqlazure_alarms
   - sqlserver_alarms
   - unix_alarms
-  
+  - spotlightds_alarms
