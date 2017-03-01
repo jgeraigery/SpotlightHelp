@@ -3,50 +3,50 @@ Param($project_root = "",
       $FTPUser = "",
       $FTPPass = "")
 
-  #Directory where to find pictures to upload
-  $UploadFolder = "$project_root\_site\"
+#Directory where to find pictures to upload
+$UploadFolder = "$project_root\_site\"
 
-  $webclient = New-Object System.Net.WebClient
-  $webclient.Credentials = New-Object System.Net.NetworkCredential($FTPUser,$FTPPass)
-
-function UploadFilesOfFolder($UploadFolder, $webclient, $FTPHost)
+function UploadFilesOfFolder($targetfolder, $user, $passwd, $host)
 {
-  $SrcEntries = Get-ChildItem $UploadFolder -Recurse
+  $webclient = New-Object System.Net.WebClient
+  $webclient.Credentials = New-Object System.Net.NetworkCredential($user,$passwd)
+
+  $SrcEntries = Get-ChildItem $targetfolder -Recurse
   $Srcfolders = $SrcEntries | Where-Object{$_.PSIsContainer}
   $SrcFiles = $SrcEntries | Where-Object{!$_.PSIsContainer}
 
   # Create FTP Directory/SubDirectory If Needed - Start
   foreach($folder in $Srcfolders)
   {
-      $SrcFolderPath = $UploadFolder  -replace "\\","\\" -replace "\:","\:"
-      $DesFolder = $folder.Fullname -replace $SrcFolderPath,$FTPHost
+      $SrcFolderPath = $targetfolder  -replace "\\","\\" -replace "\:","\:"
+      $DesFolder = $folder.Fullnfolderame -replace $SrcFolderPath,$host
       $DesFolder = $DesFolder -replace "\\", "/"
       # Write-Output $DesFolder
 
       try
-          {
-              $makeDirectory = [System.Net.WebRequest]::Create($DesFolder);
-              $makeDirectory.Credentials = New-Object System.Net.NetworkCredential($FTPUser,$FTPPass);
-              $makeDirectory.Method = [System.Net.WebRequestMethods+FTP]::MakeDirectory;
-              $makeDirectory.GetResponse();
-              #folder created successfully
-              # Write-Output $folder
-              UploadFilesOfFolder($folder);
-          }
+      {
+          $makeDirectory = [System.Net.WebRequest]::Create($DesFolder);
+          $makeDirectory.Credentials = New-Object System.Net.NetworkCredential($user,$passwd);
+          $makeDirectory.Method = [System.Net.WebRequestMethods+FTP]::MakeDirectory;
+          $makeDirectory.GetResponse();
+          #folder created successfully
+          # Write-Output $folder
+          UploadFilesOfFolder($folder, $user, $passwd, $host);
+      }
       catch [Net.WebException]
-          {
-              try {
-                  #if there was an error returned, check if folder already existed on server
-                  $checkDirectory = [System.Net.WebRequest]::Create($DesFolder);
-                  $checkDirectory.Credentials = New-Object System.Net.NetworkCredential($FTPUser,$FTPPass);
-                  $checkDirectory.Method = [System.Net.WebRequestMethods+FTP]::PrintWorkingDirectory;
-                  $response = $checkDirectory.GetResponse();
-                  #folder already exists!
-              }
-              catch [Net.WebException] {
-                  #if the folder didn't exist
-              }
+      {
+          try {
+              #if there was an error returned, check if folder already existed on server
+              $checkDirectory = [System.Net.WebRequest]::Create($DesFolder);
+              $checkDirectory.Credentials = New-Object System.Net.NetworkCredential($user,$passwd);
+              $checkDirectory.Method = [System.Net.WebRequestMethods+FTP]::PrintWorkingDirectory;
+              $response = $checkDirectory.GetResponse();
+              #folder already exists!
           }
+          catch [Net.WebException] {
+              #if the folder didn't exist
+          }
+      }
   }
   # Create FTP Directory/SubDirectory If Needed - Stop
 
@@ -55,8 +55,8 @@ function UploadFilesOfFolder($UploadFolder, $webclient, $FTPHost)
   {
       $SrcFullname = $entry.fullname
       $SrcName = $entry.Name
-      $SrcFilePath = $UploadFolder -replace "\\","\\" -replace "\:","\:"
-      $DesFile = $SrcFullname -replace $SrcFilePath,$FTPHost
+      $SrcFilePath = $targetFolder -replace "\\","\\" -replace "\:","\:"
+      $DesFile = $SrcFullname -replace $SrcFilePath,$host
       $DesFile = $DesFile -replace "\\", "/"
       # Write-Output $DesFile
 
@@ -66,4 +66,4 @@ function UploadFilesOfFolder($UploadFolder, $webclient, $FTPHost)
   # Upload Files - Stop
 }
 
-UploadFilesOfFolder($UploadFolder, $webclient, $FTPHost)
+UploadFilesOfFolder($UploadFolder, $FTPUser, $FTPPass, $FTPHost)
