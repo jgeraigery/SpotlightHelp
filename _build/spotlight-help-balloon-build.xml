@@ -28,10 +28,11 @@
   </target>
   <target name="deploy" description="deploy to blob" depends="build">
     <exec executable="powershell.exe" failonerror="true">
-      <arg line="&amp;scripts\spotlight-help-deploy-to-balloon.ps1" />
+      <arg line="&amp;scripts\spotlight-help-deploy-to-balloon-ftp.ps1" />
       <arg line="-project_root ${project.root}" />
-      <arg line="-destkey ${ENV:helpDestkey}" />
-      <arg line="-blobContainer ${help.blob.container}" />
+      <arg line="-FTPHost ${FTPHost}" />
+      <arg line="-FTPUser ${ENV:ftpUser}" />
+      <arg line="-FTPPass ${ENV:ftpPass}" />
     </exec>
   </target>
 </project>
