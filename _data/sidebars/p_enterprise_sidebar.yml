@@ -319,7 +319,7 @@ entries:
           url: /enterprise_display_reportssrs.html
           output: web, pdf
 
-        - title: List of the Default Reports
+        - title: List the Default Reports
           url: /enterprise_display_reportsshipped.html
           output: web, pdf
 
