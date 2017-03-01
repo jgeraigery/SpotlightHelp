@@ -1,5 +1,5 @@
 ---
-title: SQL Server Reporting Services
+title: Access Spotlight Reports from a Web Browser
 keywords: reports
 summary: "Spotlight Reports can be deployed to SQL Server Reporting Services where they can be accessed via a web browser."
 sidebar: p_enterprise_sidebar

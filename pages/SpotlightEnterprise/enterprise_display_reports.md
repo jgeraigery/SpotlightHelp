@@ -15,10 +15,9 @@ Data for long term history for reporting and trending is stored in the Spotlight
 
 
 ## Generating and working with the reports
-The reports can be deployed to [SQL Server Reporting Services][enterprise_display_reportssrs] where they can be viewed in a web browser.
-
 The reports can be generated in the Spotlight Client using the [Spotlight Report Viewer][enterprise_display_reportviewer].
 
+The reports can be deployed to [SQL Server Reporting Services][enterprise_display_reportssrs] where they can be viewed in a web browser.
 
 ## Customizations
 The collection schedules for the Spotlight Statistics Repository can be customized. See [Configure Scheduling][enterprise_cfgmonitor_scheduling].

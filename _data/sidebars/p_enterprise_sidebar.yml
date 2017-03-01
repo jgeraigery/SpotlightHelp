@@ -315,7 +315,7 @@ entries:
           url: /enterprise_display_reportviewer.html
           output: web, pdf
 
-        - title: SQL Server Reporting Services
+        - title: Access Spotlight Reports from a Web Browser
           url: /enterprise_display_reportssrs.html
           output: web, pdf
 
