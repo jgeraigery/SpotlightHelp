@@ -18,8 +18,10 @@ function uploadFiles($folder, $destFolder)
   $files = Get-ChildItem $folder
   foreach($file in $files)
   {
+    write-host "$file:Name:$file.name"
     if($file -is [System.IO.FileInfo])
     {
+      write-host "$file is file"
       $fileName = "$folder\$file"
       if ($destFolder -eq "")
       {
@@ -41,6 +43,7 @@ function uploadFiles($folder, $destFolder)
     }
     else
     {
+      write-host "$file is folder"
       if ($destFolder -eq "")
       {
         uploadFiles($folder + "\" + $file, $file.name);
