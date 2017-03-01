@@ -30,8 +30,8 @@ topnav_dropdowns:
           url: /replication_welcome.html
         - title: SQL Azure
           url: /sqlazure_welcome.html
-        - title: Linux
-          url: /linux_welcome.html
+        - title: Unix/Linux
+          url: /unix_welcome.html
         - title: Windows server
           url: /windows_welcome.html
         - title: VMware
