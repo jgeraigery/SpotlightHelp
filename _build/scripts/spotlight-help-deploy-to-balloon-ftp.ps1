@@ -6,7 +6,7 @@ Param($project_root = "",
 #Directory where to find pictures to upload
 $UploadFolder = "$project_root\_site\"
 
-function UploadFilesOfFolder($targetfolder, $user, $passwd, $host)
+function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
 {
   $webclient = New-Object System.Net.WebClient
   $webclient.Credentials = New-Object System.Net.NetworkCredential($user,$passwd)
@@ -19,7 +19,7 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $host)
   foreach($folder in $Srcfolders)
   {
       $SrcFolderPath = $targetfolder  -replace "\\","\\" -replace "\:","\:"
-      $DesFolder = $folder.Fullnfolderame -replace $SrcFolderPath,$host
+      $DesFolder = $folder.Fullnfolderame -replace $SrcFolderPath,$ftphost
       $DesFolder = $DesFolder -replace "\\", "/"
       # Write-Output $DesFolder
 
@@ -31,7 +31,7 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $host)
           $makeDirectory.GetResponse();
           #folder created successfully
           # Write-Output $folder
-          UploadFilesOfFolder($folder, $user, $passwd, $host);
+          UploadFilesOfFolder($folder, $user, $passwd, $ftphost);
       }
       catch [Net.WebException]
       {
@@ -56,7 +56,7 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $host)
       $SrcFullname = $entry.fullname
       $SrcName = $entry.Name
       $SrcFilePath = $targetFolder -replace "\\","\\" -replace "\:","\:"
-      $DesFile = $SrcFullname -replace $SrcFilePath,$host
+      $DesFile = $SrcFullname -replace $SrcFilePath,$ftphost
       $DesFile = $DesFile -replace "\\", "/"
       # Write-Output $DesFile
 
