@@ -9,6 +9,8 @@ Param($project_root = "",
   $webclient = New-Object System.Net.WebClient
   $webclient.Credentials = New-Object System.Net.NetworkCredential($FTPUser,$FTPPass)
 
+function UploadFilesOfFolder($UploadFolder)
+{
   $SrcEntries = Get-ChildItem $UploadFolder -Recurse
   $Srcfolders = $SrcEntries | Where-Object{$_.PSIsContainer}
   $SrcFiles = $SrcEntries | Where-Object{!$_.PSIsContainer}
@@ -28,6 +30,8 @@ Param($project_root = "",
               $makeDirectory.Method = [System.Net.WebRequestMethods+FTP]::MakeDirectory;
               $makeDirectory.GetResponse();
               #folder created successfully
+              # Write-Output $folder
+              UploadFilesOfFolder($folder);
           }
       catch [Net.WebException]
           {
@@ -60,3 +64,6 @@ Param($project_root = "",
       $webclient.UploadFile($uri, $SrcFullname)
   }
   # Upload Files - Stop
+}
+
+UploadFilesOfFolder($UploadFolder)
