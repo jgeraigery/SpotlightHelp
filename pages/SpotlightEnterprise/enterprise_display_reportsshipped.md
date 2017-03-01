@@ -1,7 +1,7 @@
 ---
-title: List of Spotlight Reports
+title: List of the Default Reports
 keywords: reports
-summary: "From the Spotlight Client click Reports to list the reports available to this Spotlight Client. There may be a mixture of custom reports and reports shipped with Spotlight. The following reports are shipped with Spotlight Double click on the report to open it in theSpotlight Report Viewer. The input parameters for the reports vary. Many of these reports require you to input the start date, end date and connection name."
+summary: "The following Default Reports are shipped with Spotlight. These reports can be accessed via the Spotlight Client or deployed to SQL Server Reporting Services. The input parameters for the reports vary. Many of these reports require you to input the start date, end date and connection name."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_reportsshipped.html
 folder: SpotlightEnterprise

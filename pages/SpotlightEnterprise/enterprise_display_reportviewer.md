@@ -1,7 +1,7 @@
 ---
 title: The Spotlight Report Viewer
 keywords: reports
-summary: "Spotlight reports are displayed in the Spotight Report Viewer."
+summary: "Generate Spotlight Reports from within the Spotlight Client using the Spotight Report Viewer."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_reportviewer.html
 id: 320
@@ -12,10 +12,11 @@ folder: SpotlightEnterprise
 From the Spotlight Client
 
 1. Click **Reports** to show the reports that are available from this Spotlight Client.
-2. Select a report from the [List of Reports][enterprise_display_reportsshipped].
+3. Select a report. [Default Reports][enterprise_display_reportsshipped] are shipped with Spotlight. Reports that you create are listed under **Custom Reports**.
 3. If SQL Server authentication is required, enter the user and password details.
 4. Fill in the input parameters. These vary but many require the start date, end date and connection name.
 5. Click **View Report**.
+
 
 ### Save / Export
 Save reports in PDF, or as an .xls (Microsoft Excel) file using the **Save** icon on the Report toolbar.
@@ -30,26 +31,22 @@ If you change the report criteria (time frame or Connection Name) you must click
 
 
 
-## Can I customize the reports to my own criteria?
-The Spotlight Report Viewer displays reports using SQL Server 2005 or 2008 Report Definition Language files (.rdl). You can build on the supplied reports or create your own reports. See [Query the Spotlight Statistics Repository][enterprise_ssrquery].
+## How can I customize the reports to my own criteria or create my own reports?
+The Spotlight Report Viewer displays reports using SQL Server 2005 or 2008 Report Definition Language files (.rdl). Data is queried from the Spotlight Statistics Repository. For information on how to query the Spotlight Statistics Repository for data, see [Query the Spotlight Statistics Repository][enterprise_ssrquery].
 
-## Where is the data? Can I customize the collection schedules?
-Data is collected from the SQL Server instance then written to the Spotlight Statistics Repository.
+Default Reports are stored in the Spotlight Client installation folder
 
-You can customize the collection schedules in the Spotlight Client. See [Configure Scheduling][enterprise_cfgmonitor_scheduling].
+```
+Plug-ins\Trending\SSRS
+```
 
-## Where are the report definition files?
-The default location for the definition (rdl) files is in the Spotlight Client installation folder in the Plug-ins\Trending\SSRS folder.
+Store Custom Reports (the reports you create) on the same compouter as the Spotlight Client in
 
-If you do not have write access to the Program Files folders listed above, you can create the following folder and use it as an alternative: \<user\>\Documents\Spotlight Reports
+```
+ \<user\>\Documents\Spotlight Reports
+```
 
-To set the location of your .rdl files in Spotlight:
 
-1. Select **Reports**.
-2. Right-click **Reports**.
-3. Select **Settings**.
-4. Navigate to the folder containing the rdl files you want to use.
-5. Click **OK**.
 
 
 {% include links.html %}

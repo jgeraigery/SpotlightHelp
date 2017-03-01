@@ -315,7 +315,11 @@ entries:
           url: /enterprise_display_reportviewer.html
           output: web, pdf
 
-        - title: List of Spotlight Reports
+        - title: SQL Server Reporting Services
+          url: /enterprise_display_reportssrs.html
+          output: web, pdf
+
+        - title: List of the Default Reports
           url: /enterprise_display_reportsshipped.html
           output: web, pdf
 
