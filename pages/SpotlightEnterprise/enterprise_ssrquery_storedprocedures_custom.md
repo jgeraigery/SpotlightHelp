@@ -42,6 +42,33 @@ Return the same data as spotlight_rt_get_batch_data but for a particular point i
 spotlight_rt_get_point_data @start_date, @end_date, @domain_name_list, @monitoredobject_list, @table_name, @column_name
 ```
 
+Return the data from a specified collection at a specified time range.
+
+```
+declare @table_name NVARCHAR(255) = N'WaitStatsSummary' – This is collection name, you can find it in the table spotlight_stat_classes.
+declare @start_date datetime = N'2017-01-01'
+declare @end_date datetime = N'2017-01-18'
+declare @monitoredobject_list NVARCHAR(4000) = N'host_instance_sqlserver' – comma-separated list of monitored instances, c.f. spotlight_monitored_objects
+declare @domain_names NVARCHAR(255) – comma-separated list of SSR domains, c.f. spotlight_domains
+declare @column_names NVARCHAR(255) – comma separated list of columns to output, c.f. spotlight_stat_names
+select @domain_names = COALESCE(@domain_names + ',', '') + sd.domain_description
+FROM [spotlight_domains] as sd
+select @column_names = COALESCE(@column_names + ',', '') + sn.statistic_name
+FROM [spotlight_stat_names] as sn
+join [spotlight_stat_classes] as sc
+on sc.statistic_class_id = sn.statistic_class_id
+where sc.statistic_class_name = @table_name
+EXEC [dbo].[spotlight_rt_get_batch_data]
+@start_date = @start_date,
+@end_date = @end_date,
+@domain_name_list = @domain_names,
+@monitoredobject_list = @monitoredobject_list,
+@table_name = @table_name,
+@column_list = @column_names
+GO
+```
+
+
 Return the top n rows of spotlight_rt_get_point_data based on the column sort order passed in.
 ```
 spotlight_rt_get_point_data_top @start_date, @end_date, @domain_name_list, @monitoredobject_list, @table_name, @column_list,@sortdesc_column_list, @maxrows
