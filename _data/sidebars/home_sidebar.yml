@@ -37,8 +37,8 @@ entries:
     - title: SQL Azure
       url: /sqlazure_welcome.html
       output: web
-    - title: Linux
-      url: /linux_welcome.html
+    - title: Unix/Linux
+      url: /unix_welcome.html
       output: web
     - title: Windows Server
       url: /windows_welcome.html

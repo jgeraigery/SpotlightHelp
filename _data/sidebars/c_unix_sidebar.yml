@@ -1,0 +1,391 @@
+entries:
+- title: sidebar
+  product: Unix/Linux
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Connections
+    output: web, pdf
+    folderitems:
+
+    - title: Connection Details
+      url: /unix_connect_details.html
+      output: web, pdf
+
+    - title: Connection Requirements
+      url: /unix_connect_requirements.html
+      output: web, pdf
+
+  - title: Alarms
+    output: web, pdf
+    folderitems:
+
+    - title: Alarms
+      url: /unix_alarms.html
+      output: web, pdf
+
+    - title: Blocked Processes
+      url: /unix_alarm_blockedprocesses.html
+      output: web, pdf
+
+    - title: CPU Busy
+      url: /unix_alarm_cpubusy.html
+      output: web, pdf
+
+    - title: File System Space
+      url: /unix_alarm_filesystemspace.html
+      output: web, pdf
+
+    - title: Memory - Physical Memory Available
+      url: /unix_alarm_memory_physicalmemoryavailable.html
+      output: web, pdf
+
+    - title: Monitored Server - Unix Alarm Action Failure
+      url: /unix_alarm_monitoredserver_alarmactionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Unix Alarm Evaluation Failure
+      url: /unix_alarm_monitoredserver_alarmevaluationfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Unix Collection Execution Failure
+      url: /unix_alarm_monitoredserver_collectionexecutionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Unix Connection Failure
+      url: /unix_alarm_monitoredserver_connectionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Unix Planned Outage
+      url: /unix_alarm_monitoredserver_plannedoutage.html
+      output: web, pdf
+
+    - title: Monitored Server - Unix Unsupported Version
+      url: /unix_alarm_monitoredserver_unsupportedversion.html
+      output: web, pdf
+
+    - title: Most Active Disk
+      url: /unix_alarm_mostactivedisk.html
+      output: web, pdf
+
+    - title: Network Errors in
+      url: /unix_alarm_networkerrorsin.html
+      output: web, pdf
+
+    - title: Network Errors out
+      url: /unix_alarm_networkerrorsout.html
+      output: web, pdf
+
+    - title: Paging in
+      url: /unix_alarm_pagingin.html
+      output: web, pdf
+
+    - title: Paging out
+      url: /unix_alarm_pagingout.html
+      output: web, pdf
+
+    - title: Swapping in
+      url: /unix_alarm_swappingin.html
+      output: web, pdf
+
+    - title: Swapping out
+      url: /unix_alarm_swappingout.html
+      output: web, pdf
+
+    - title: Swap Space
+      url: /unix_alarm_swapspace.html
+      output: web, pdf
+
+    - title: Zombie Processes
+      url: /unix_alarm_zombieprocesses.html
+      output: web, pdf
+
+  - title: Spotlight Overview page
+    output: web, pdf
+    folderitems:
+
+    - title: Spotlight Overview page
+      url: /unix_drilldown_overview.html
+      output: web, pdf
+
+      subfolders:
+      - title: Network
+        output: web
+        subfolderitems:
+
+        - title: Network Users
+          url: /unix_component_networkusers.html
+          output: web, pdf
+
+        - title: Established Connections
+          url: /unix_component_establishedconnections.html
+          output: web, pdf
+
+        - title: Time_Wait
+          url: /unix_component_timewaitconnections.html
+          output: web, pdf
+
+        - title: Close_Wait
+          url: /unix_component_closewaitconnections.html
+          output: web, pdf
+
+        - title: Most Active NIC
+          url: /unix_component_mostactivenic.html
+          output: web, pdf
+
+        - title: Most Active NIC - Pkts/s
+          url: /unix_component_mostactivenic_packetspers.html
+          output: web, pdf
+
+        - title: Most Active NIC - Errors/s
+          url: /unix_component_mostactivenic_errorspers.html
+          output: web, pdf
+
+        - title: Second Most Active NIC
+          url: /unix_component_secondmostactivenic.html
+          output: web, pdf
+
+        - title: Second Most Active NIC - Pkts/s
+          url: /unix_component_secondmostactivenic_packetspers.html
+          output: web, pdf
+
+        - title: Second Most Active NIC - Errors/s
+          url: /unix_component_secondmostactivenic_errorspers.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
+        - title: Packets in
+          url: /unix_component_networkpacketsin.html
+          output: web, pdf
+
+        - title: Packets out
+          url: /unix_component_networkpacketsout.html
+          output: web, pdf
+
+        - title: Network Errors in
+          url: /unix_component_networkerrorsin.html
+          output: web, pdf
+
+        - title: Network Errors out
+          url: /unix_component_networkerrorsout.html
+          output: web, pdf
+
+      - title: System
+        output: web
+        subfolderitems:
+
+        - title: OS
+          url: /unix_component_os.html
+          output: web, pdf
+
+        - title: Uptime
+          url: /unix_component_uptime.html
+          output: web, pdf
+
+        - title: Status
+          url: /unix_component_status.html
+          output: web, pdf
+
+      - title: CPU
+        output: web
+        subfolderitems:
+
+        - title: CPUs
+          url: /unix_component_cpus.html
+          output: web, pdf
+
+        - title: Speed
+          url: /unix_component_cpuspeed.html
+          output: web, pdf
+
+        - title: Type
+          url: /unix_component_cputype.html
+          output: web, pdf
+
+        - title: CPU Usage
+          url: /unix_component_cpuusage.html
+          output: web, pdf
+
+        - title: User%
+          url: /unix_component_cpuuserpercent.html
+          output: web, pdf
+
+        - title: System%
+          url: /unix_component_cpusystempercent.html
+          output: web, pdf
+
+        - title: Wait%
+          url: /unix_component_cpuwaitpercent.html
+          output: web, pdf
+
+        - title: Queue Length
+          url: /unix_component_queuelength.html
+          output: web, pdf
+
+        - title: Total Processes
+          url: /unix_component_processes_total.html
+          output: web, pdf
+
+        - title: Zombie Processes
+          url: /unix_component_processes_zombie.html
+          output: web, pdf
+
+        - title: Blocked Processes
+          url: /unix_component_processes_blocked.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
+        - title: Swap out
+          url: /unix_component_swappingout.html
+          output: web, pdf
+
+        - title: Swap in
+          url: /unix_component_swappingin.html
+          output: web, pdf
+
+      - title: Memory
+        output: web
+        subfolderitems:
+
+        - title: Physical Memory - Total RAM
+          url: /unix_component_physicalmemory_totalram.html
+          output: web, pdf
+
+        - title: Physical Memory - Free
+          url: /unix_component_physicalmemory_free.html
+          output: web, pdf
+
+        - title: Physical Memory - % Free
+          url: /unix_component_physicalmemory_freepct.html
+          output: web, pdf
+
+        - title: Physical Memory - Used RAM
+          url: /unix_component_physicalmemory_usedram.html
+          output: web, pdf
+
+        - title: Virtual Memory - Total Size
+          url: /unix_component_virtualmemory_totalsize.html
+          output: web, pdf
+
+        - title: Virtual Memory - Free
+          url: /unix_component_virtualmemory_free.html
+          output: web, pdf
+
+        - title: Virtual Memory - % Used
+          url: /unix_component_virtualmemory_usedpct.html
+          output: web, pdf
+
+        - title: Virtual Memory - Used
+          url: /unix_component_virtualmemory_used.html
+          output: web, pdf
+
+      - title: Swap Space
+        output: web
+        subfolderitems:
+
+        - title: Percent
+          url: /unix_component_swapspace_percent.html
+          output: web, pdf
+
+        - title: Total
+          url: /unix_component_swapspace_total.html
+          output: web, pdf
+
+        - title: Used
+          url: /unix_component_swapspace_used.html
+          output: web, pdf
+
+      - title: Flows
+        output: web
+        subfolderitems:
+
+        - title: Total Disk Writes per Second
+          url: /unix_component_diskwrites.html
+          output: web, pdf
+
+        - title: Total Disk Reads per Second
+          url: /unix_component_diskreads.html
+          output: web, pdf
+
+      - title: Storage
+        output: web
+        subfolderitems:
+
+        - title: Disk Activity Display
+          url: /unix_component_diskactivitydisplay.html
+          output: web, pdf
+
+        - title: Most Active Disk
+          url: /unix_component_mostactivedisk.html
+          output: web, pdf
+
+        - title: Most Active Disk Percentage
+          url: /unix_component_mostactivedisk_percent.html
+          output: web, pdf
+
+        - title: Second Most Active Disk
+          url: /unix_component_secondmostactivedisk.html
+          output: web, pdf
+
+        - title: Second Most Active Disk Percentage
+          url: /unix_component_secondmostactivedisk_percent.html
+          output: web, pdf
+
+        - title: File System Display
+          url: /unix_component_filesystemdisplay.html
+          output: web, pdf
+
+        - title: Fullest File System Used Space display
+          url: /unix_component_filesystem_fullest_usedspacedisplay.html
+          output: web, pdf
+
+        - title: Total Space for the Fullest File System
+          url: /unix_component_filesystem_fullest_totalspace.html
+          output: web, pdf
+
+        - title: Fullest File System Used Space
+          url: /unix_component_filesystem_fullest_usedspace.html
+          output: web, pdf
+
+        - title: Second Fullest File System Used Space display
+          url: /unix_component_filesystem_secondfullest_usedspacedisplay.html
+          output: web, pdf
+
+        - title: Total Space for the Second Fullest File System
+          url: /unix_component_filesystem_secondfullest_totalspace.html
+          output: web, pdf
+
+        - title: Second Fullest File System Used Space
+          url: /unix_component_filesystem_secondfullest_usedspace.html
+          output: web, pdf
+
+    - title: Version
+      url: /unix_component_version.html
+      output: web, pdf
+  
+  - title: Collections
+    output: web, pdf
+    folderitems:
+
+    - title: Collections
+      url: /unix_collections.html
+      output: web, pdf
+
