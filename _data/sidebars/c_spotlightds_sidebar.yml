@@ -16,14 +16,6 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Connections
-    output: web, pdf
-    folderitems:
-
-    - title: Connection Details
-      url: /blah.html
-      output: web, pdf
-
   - title: Alarms
     output: web, pdf
     folderitems:
@@ -70,10 +62,6 @@ entries:
 
     - title: Diagnostic Server - PagerDuty Service
       url: /spotlightds_alarm_pagerdutyservice.html
-      output: web, pdf
-
-    - title: Diagnostic Server - Push Notification To Mobile Device
-      url: /spotlightds_alarm_pushnotificationtomobiledevice.html
       output: web, pdf
 
     - title: Diagnostic Server - SNMP Service
@@ -152,10 +140,6 @@ entries:
         - title: Version Error
           url: /spotlightds_alarm_ssr_versionerror.html
           output: web, pdf
-
-    - title: Diagnostic Server - Synchronize Connections Upload Failure
-      url: /spotlightds_alarm_synchronizeconnectionsuploadfailure.html
-      output: web, pdf
 
   - title: Spotlight Overview page
     output: web, pdf

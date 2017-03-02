@@ -27,6 +27,8 @@ Shows the contents of current and archived SQL Server error logs.
 ## SQL Agent Error Logs
 Shows the contents of the SQL Server Agent Error Log.
 
+{% include note.html content="Where the SQL Server host is Unix/Linux, SQL Agent Error Logs are not supported." %}
+
 ## Tips to using the drilldown
 
 * To display the current contents of the SQL Server error log, click **Refresh**.

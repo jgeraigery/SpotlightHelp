@@ -40,7 +40,7 @@ Default Reports are stored in the Spotlight Client installation folder
 Plug-ins\Trending\SSRS
 ```
 
-Store Custom Reports (the reports you create) on the same compouter as the Spotlight Client in
+Store Custom Reports (the reports you create) on the same computer as the Spotlight Client in
 
 ```
  \<user\>\Documents\Spotlight Reports

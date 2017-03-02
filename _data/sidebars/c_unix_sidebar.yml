@@ -52,27 +52,31 @@ entries:
       url: /unix_alarm_memory_physicalmemoryavailable.html
       output: web, pdf
 
-    - title: Monitored Server - Unix Alarm Action Failure
+    - title: Monitored Server - Unix/Linux Alarm Action Failure
       url: /unix_alarm_monitoredserver_alarmactionfailure.html
       output: web, pdf
 
-    - title: Monitored Server - Unix Alarm Evaluation Failure
+    - title: Monitored Server - Unix/Linux Alarm Evaluation Failure
       url: /unix_alarm_monitoredserver_alarmevaluationfailure.html
       output: web, pdf
 
-    - title: Monitored Server - Unix Collection Execution Failure
+    - title: Monitored Server - Unix/Linux Collection Execution Failure
       url: /unix_alarm_monitoredserver_collectionexecutionfailure.html
       output: web, pdf
 
-    - title: Monitored Server - Unix Connection Failure
+    - title: Monitored Server - Unix/Linux Connection Failure
       url: /unix_alarm_monitoredserver_connectionfailure.html
       output: web, pdf
 
-    - title: Monitored Server - Unix Planned Outage
+    - title: Monitored Server - Unix/Linux Secondary Connection Failure
+      url: /unix_alarm_monitoredserver_secondaryconnectionfailure.html
+      output: web, pdf
+
+    - title: Monitored Server - Unix/Linux Planned Outage
       url: /unix_alarm_monitoredserver_plannedoutage.html
       output: web, pdf
 
-    - title: Monitored Server - Unix Unsupported Version
+    - title: Monitored Server - Unix/Linux Unsupported Version
       url: /unix_alarm_monitoredserver_unsupportedversion.html
       output: web, pdf
 
@@ -169,11 +173,11 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Packets in
+        - title: Network Packets in
           url: /unix_component_networkpacketsin.html
           output: web, pdf
 
-        - title: Packets out
+        - title: Network Packets out
           url: /unix_component_networkpacketsout.html
           output: web, pdf
 

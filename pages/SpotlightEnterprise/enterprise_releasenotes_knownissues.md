@@ -83,7 +83,8 @@ GMT Time Zone: The Diagnostic Server shows the wrong time. The Activity drilldow
 
 Known Issue | Issue ID
 ------------|---------
-**Home Page** - An unexpected error occurs the first time the SQL Server home page is opened in the Spotlight client session. <br><br> \+ Performance Health / Wait Events / Workload Analysis - These drilldowns show no data. <br><br> *Workaround:* Apply patch to .NET 4 - Software Update KB2468871v2 <br><br> See also own Known issues configuring Spotlight 3606. | 3606
+**Overview Page** - An unexpected error occurs the first time the SQL Server Overview page is opened in the Spotlight client session. <br><br> \+ Performance Health / Wait Events / Workload Analysis - These drilldowns show no data. <br><br> *Workaround:* Apply patch to .NET 4 - Software Update KB2468871v2 <br><br> See also own Known issues configuring Spotlight 3606. | 3606
+**SQL Server Error Logs** - Where the host operating system is Unix/Linux, procedures that collect statistics on the OS volume using the dm_os_volume_stats table will not run. Example procedure: "HealthCheckOSVolumeStats". | SOSSE-6414
 **SQL Server 2012 and above** - Spotlight does not support Analysis Services in Tabular and Sharepoint modes. | .
 **Workload Analysis drilldown** - SQL Server 2012 and above - When monitoring a failover cluster the Physical Reads value is 0 / No Data. | 3688
 **SQL Server 2012 and SQL Server 2008 R2** - "Using dbghelp.dll version 4.0.5" entries in the SQL Server Error Log. The source of these entries can be traced back to a known issue (Microsoft) when a statement or job executes the sys.fn_xe_file_target_read_file stored procedure. Refer to http://support.microsoft.com/kb/2878139 <br><br> The Spotlight SQL Server \| Performance Health feature uses XEvents sessions which may execute the sys.fn_xe_file_target_read_file stored procedure. | 2927
@@ -118,5 +119,11 @@ Known Issue | Issue ID
 **Errors in the Windows Security Log.** Specifying OS Connection Details on Windows connections can cause WMI connection errors to be reported in the Windows Security Log of the machine being monitored. This does not affect Spotlight's monitoring capabilities. | 6722
 **Unusually large values displayed in Spotlight.** Spotlight may display unusually large values on some components and charts. These values are incorrect and are due to inaccurate raw performance counter values returned by Microsoft Windows. The following components and charts are affected: <br> *Disk Queue Length chart* (Spotlight on Windows > Disks drilldown > Logical Disk Activity page and Physical Disk Activity page). <br> *Disk Load chart* (Spotlight on Windows > Disks drilldown > Logical Disk Activity page and Physical Disk Activity page). <br><br> *Workaround:* Reboot the machine returning large values. | 5796
 
+### known issues monitoring Unix/Linux Server
+
+Known Issue | Issue ID
+------------|---------
+**Custom Counters** Custom Counters are not supported for Unix/Linux hosts. |  SOSSE-6363
+**Spotlight Reports** Spotlight Reports for Reporting and Trending are not supported for the Unix/Linux Connection Type. |  SOSSE-6364
 
 {% include links.html %}

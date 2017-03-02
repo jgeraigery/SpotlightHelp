@@ -1,7 +1,7 @@
 ---
-title: ﻿Rate of Incoming Network Data
+title: Network Packets in
 last_updated: February 15, 2017
-summary: "The incoming rate of data to the server."
+summary: "This flow shows the rate of data incoming to the Unix/Linux host."
 sidebar: c_unix_sidebar
 permalink: unix_component_networkpacketsin.html
 folder: ConnectUnix

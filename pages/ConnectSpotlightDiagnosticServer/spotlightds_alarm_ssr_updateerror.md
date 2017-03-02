@@ -1,8 +1,9 @@
 ---
 title: ﻿Diagnostic Server - Repository Alarm - Update Error
+tags: [spotlightds_alarms]
 last_updated: July 29, 2016
 summary: "There was a problem writing data to or deleting data from the Spotlight Statistics Repository."
-sidebar: p_spotlightds_sidebar
+sidebar: c_spotlightds_sidebar
 permalink: spotlightds_alarm_ssr_updateerror.html
 id: repository.alarm_update error
 folder: ConnectSpotlightDS

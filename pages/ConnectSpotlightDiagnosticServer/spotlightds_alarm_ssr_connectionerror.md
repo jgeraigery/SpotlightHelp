@@ -1,8 +1,9 @@
 ---
 title: ﻿Diagnostic Server - Repository Alarm - Connection Error
+tags: [spotlightds_alarms]
 last_updated: July 29, 2016
 summary: "The Diagnostic Server cannot connect to the configured Spotlight Statistics Repository."
-sidebar: p_spotlightds_sidebar
+sidebar: c_spotlightds_sidebar
 permalink: spotlightds_alarm_ssr_connectionerror.html
 id: repository.alarm_connection error
 folder: ConnectSpotlightDS

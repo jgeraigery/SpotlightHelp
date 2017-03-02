@@ -1,5 +1,5 @@
 ---
-title: List of the Default Reports
+title: List the Default Reports
 keywords: reports
 summary: "The following Default Reports are shipped with Spotlight. These reports can be accessed via the Spotlight Client or deployed to SQL Server Reporting Services. The input parameters for the reports vary. Many of these reports require you to input the start date, end date and connection name."
 sidebar: p_enterprise_sidebar

@@ -1,5 +1,5 @@
 ---
-title: ﻿Rate of Incoming Network Errors
+title: Network Errors in
 last_updated: February 15, 2017
 summary: "This flow shows the rate at which errors are received from the network."
 sidebar: c_unix_sidebar

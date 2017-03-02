@@ -8,7 +8,7 @@ id: 320
 folder: SpotlightEnterprise
 ---
 
-## Deploy the reports to SQL Server Reporting Services
+## Deploy Spotlight Reports to SQL Server Reporting Services
 
 In order to access Spotlight Reports via your web browser you first need to deploy reports to SQL Server Reporting Services.
 

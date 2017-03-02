@@ -1,8 +1,9 @@
 ---
 title: Diagnostic Server - License Service
+tags: [spotlightds_alarms]
 last_updated: July 29, 2016
 summary: "This alarm is raised if there is a problem with the product license such as the license has expired or the license cannot be read from the system."
-sidebar: p_spotlightds_sidebar
+sidebar: c_spotlightds_sidebar
 permalink: spotlightds_alarm_licenseservice.html
 id: alarm_ds_licenseservice
 folder: ConnectSpotlightDS
