@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project name="spotlight-help-balloon-build" default="deploy" basedir=".">
+  <property name="project.root" location=".." />
+
+
+  <target name="build" description="Build help web site">
+  	<echo message="Building Spotlight Help web app" />
+
+      <!-- Getting bundle packages-->
+  	<echo message="Installing packajes START" />
+    <exec executable="${project.root}\_build\tools\bundle.bat" dir="${project.root}" failonerror="true">
+        <arg value="install" />
+    </exec>
+    <echo message="Installing packajes DONE" />
+    <echo message="updating packajes START" />
+    <exec executable="${project.root}\_build\tools\bundle.bat" dir="${project.root}" failonerror="true">
+        <arg value="update" />
+    </exec>
+    <echo message="update packajes DONE" />
+  	<!-- Compile jekyll project-->
+  	<echo message="Compile jekyll" />
+    <exec executable="${project.root}\_build\tools\jekyll.bat" dir="${project.root}" failonerror="true">
+      <arg value="build" />
+      <arg value="--config" />
+      <arg value="_configBalloonHelpOffline.yml" />
+    </exec>
+    <echo message="build jekyll Done" />
+  </target>
+  <target name="deploy" description="deploy to blob" depends="build">
+    <exec executable="powershell.exe" failonerror="true">
+      <arg line="&amp;scripts\spotlight-help-deploy-to-balloon-ftp.ps1" />
+      <arg line="-project_root ${project.root}" />
+      <arg line="-FTPHost ${FTPHost}" />
+      <arg line="-FTPUser ${ENV:ftpUser}" />
+      <arg line="-FTPPass ${ENV:ftpPass}" />
+    </exec>
+  </target>
+</project>
