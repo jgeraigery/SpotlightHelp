@@ -125,5 +125,7 @@ Known Issue | Issue ID
 ------------|---------
 **Custom Counters** Custom Counters are not supported for Unix/Linux hosts. |  SOSSE-6363
 **Spotlight Reports** Spotlight Reports for Reporting and Trending are not supported for the Unix/Linux Connection Type. |  SOSSE-6364
+**Monitored Files** Spotlight can be configured to track the growth of files (usually log files) on monitored Windows Server. This service is not supported for the Unix/Linux Connection Type. |  SOSSE-6362
+
 
 {% include links.html %}
