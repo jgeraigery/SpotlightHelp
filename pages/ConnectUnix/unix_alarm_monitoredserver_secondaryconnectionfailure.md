@@ -1,5 +1,5 @@
 ---
-title: ﻿Monitored Server - Unix Secondary Connection Failure alarm
+title: ﻿Monitored Server - Unix/Linux Secondary Connection Failure alarm
 tags: [unix_alarms]
 last_updated: July 29, 2016
 summary: "Spotlight has failed to connect to the Unix Server."

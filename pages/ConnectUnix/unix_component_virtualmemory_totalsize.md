@@ -1,7 +1,7 @@
 ---
-title: ﻿Max Size of Virtual Memory
+title: ﻿Total Size of Virtual Memory
 last_updated: February 15, 2017
-summary: "The total virtual memory of the Unix machine."
+summary: "The total virtual memory of the Unix/Linux machine."
 sidebar: c_unix_sidebar
 permalink: unix_component_virtualmemory_totalsize.html
 folder: ConnectUnix

@@ -1,5 +1,5 @@
 ---
-title: ﻿Monitored Server - Unix Alarm Action Failure alarm
+title: ﻿Monitored Server - Unix/Linux Alarm Action Failure alarm
 tags: [unix_alarms]
 last_updated: July 29, 2016
 summary: "Raised when a (specified action) failed to evaluate."

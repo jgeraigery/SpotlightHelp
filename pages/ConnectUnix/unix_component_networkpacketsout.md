@@ -1,7 +1,7 @@
 ---
-title: ﻿Rate of Outgoing Network Data
+title: Network Packets out
 last_updated: February 15, 2017
-summary: "This shows the outgoing rate of data from the server."
+summary: "This flow shows the rate of data outgoing from the Unix/Linux host."
 sidebar: c_unix_sidebar
 permalink: unix_component_networkpacketsout.html
 folder: ConnectUnix

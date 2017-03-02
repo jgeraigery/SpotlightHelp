@@ -11,9 +11,7 @@ folder: ConnectUnix
 ## Unix/Linux Servers
 Spotlight can monitor the following operating systems:
 
-* Red Hat operating system based on Linux® 2.4, 2.6 and 3.10 kernels
-* SUSE® operating system based on Linux® 2.4, 2.6 and 3.0 kernels
-* Oracle® Enterprise Linux® (OEL) based on Linux® 2.4, 2.6 and 3.8 kernels
+* Red Hat Enterprise 7.3
 * Ubuntu® 16.04 and 16.10
 
 ## Unix/Linux Server Software
@@ -40,11 +38,11 @@ Ensure the following programs are accessible to the user logged on to the Unix/L
 
 ## User Permissions
 
-* The Unix user should have no special processing on log-on. In particular there must be no input required from the user, and nor should any special login banners be displayed.
+* The Unix/Linux user should have no special processing on log-on. In particular there must be no input required from the user, and nor should any special login banners be displayed.
 * The sysstat package must be installed to enable the user to get detailed disk I/O information.
 * The /proc filesystem must be present.
 * The sshd daemon must be installed and running and configured to receive remote connections.
-* The Unix user must have read/write access to /tmp
+* The Unix/Linux user must have read/write access to /tmp
 
 ## Remote Connectivity: SSH
 
