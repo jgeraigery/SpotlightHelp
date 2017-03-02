@@ -64,10 +64,6 @@ entries:
       url: /spotlightds_alarm_pagerdutyservice.html
       output: web, pdf
 
-    - title: Diagnostic Server - Push Notification To Mobile Device
-      url: /spotlightds_alarm_pushnotificationtomobiledevice.html
-      output: web, pdf
-
     - title: Diagnostic Server - SNMP Service
       url: /spotlightds_alarm_snmpservice.html
       output: web, pdf
@@ -144,10 +140,6 @@ entries:
         - title: Version Error
           url: /spotlightds_alarm_ssr_versionerror.html
           output: web, pdf
-
-    - title: Diagnostic Server - Synchronize Connections Upload Failure
-      url: /spotlightds_alarm_synchronizeconnectionsuploadfailure.html
-      output: web, pdf
 
   - title: Spotlight Overview page
     output: web, pdf

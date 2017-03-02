@@ -1,5 +1,5 @@
 ---
-title: ﻿Diagnostic Server - Alarm Action Failure Alarm
+title: ﻿Diagnostic Server - Alarm Action Failure alarm
 tags: [spotlightds_alarms]
 last_updated: July 29, 2016
 summary: "The specified action failed to execute for this alarm."

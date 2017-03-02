@@ -1,5 +1,5 @@
 ---
-title: ﻿Diagnostic Server - Spotlight Cloud Data Transfer Alarm
+title: ﻿Diagnostic Server - Spotlight Cloud Data Transfer alarm
 tags: [spotlightds_alarms]
 last_updated: July 29, 2016
 summary: "The Diagnostic Server - Spotlight Cloud data transfer alarm is raised when the transfer of data to Spotlight Cloud services (including the Spotlight web site and Spotlight Mobile) is not successful."

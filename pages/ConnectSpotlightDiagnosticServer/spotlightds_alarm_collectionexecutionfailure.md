@@ -1,5 +1,5 @@
 ---
-title: ﻿Diagnostic Server - Collection Execution Failure Alarm
+title: ﻿Diagnostic Server - Collection Execution Failure alarm
 tags: [spotlightds_alarms]
 last_updated: July 29, 2016
 summary: "The specified collection failed to execute against this server."

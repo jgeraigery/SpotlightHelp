@@ -1,5 +1,5 @@
 ---
-title: ﻿Diagnostic Server - Alarm Evaluation Failure Alarm
+title: ﻿Diagnostic Server - Alarm Evaluation Failure alarm
 tags: [spotlightds_alarms]
 last_updated: July 29, 2016
 summary: "The specified alarm failed to evaluate."

@@ -1,5 +1,5 @@
 ---
-title: ﻿Diagnostic Server - Email Service Alarm
+title: ﻿Diagnostic Server - Email Service alarm
 tags: [spotlightds_alarms]
 last_updated: July 29, 2016
 summary: "The Diagnostic Server could not connect to the specified email server or the email service is not configured."
