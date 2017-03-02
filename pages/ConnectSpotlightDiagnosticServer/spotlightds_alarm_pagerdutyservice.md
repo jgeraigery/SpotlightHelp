@@ -11,12 +11,11 @@ folder: ConnectSpotlightDS
 
 
 
-## Verify the PagerDuty account is available and the account is an API service.
+## Verify the PagerDuty account is available. Verify the service's integration type is API .
 
 Verify this with PagerDuty. PagerDuty is a third party product. [www.pagerduty.com](http://www.pagerduty.com)
 
-
-## There is an issue with the Spotlight Configuration
+## Perhaps there is an issue with the Spotlight Configuration
 
 Open this screen from the Spotlight Client
 
