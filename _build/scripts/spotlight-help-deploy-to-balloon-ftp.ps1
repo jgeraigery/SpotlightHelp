@@ -10,7 +10,7 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
 {
   $webclient = New-Object System.Net.WebClient
   $webclient.Credentials = New-Object System.Net.NetworkCredential($user,$passwd)
-  # Write-Output $targetfolder
+  Write-Output $targetfolder
   $SrcEntries = Get-ChildItem $targetfolder -Recurse
   $Srcfolders = $SrcEntries | Where-Object{$_.PSIsContainer}
   $SrcFiles = $SrcEntries | Where-Object{!$_.PSIsContainer}
@@ -18,11 +18,11 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
   # Create FTP Directory/SubDirectory If Needed - Start
   foreach($folder in $Srcfolders)
   {
-      # Write-Output $folder
+      Write-Output $folder
       $SrcFolderPath = $targetfolder  -replace "\\","\\" -replace "\:","\:"
       $DesFolder = $folder.Fullnfolderame -replace $SrcFolderPath,$ftphost
       $DesFolder = $DesFolder -replace "\\", "/"
-      # Write-Output $DesFolder
+      Write-Output $DesFolder
 
       try
       {
@@ -31,7 +31,7 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
           $makeDirectory.Method = [System.Net.WebRequestMethods+FTP]::MakeDirectory;
           $makeDirectory.GetResponse();
           #folder created successfully
-          # Write-Output $folder
+          Write-Output $folder
           UploadFilesOfFolder($folder, $user, $passwd, $ftphost);
       }
       catch [Net.WebException]
@@ -59,7 +59,7 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
       $SrcFilePath = $targetFolder -replace "\\","\\" -replace "\:","\:"
       $DesFile = $SrcFullname -replace $SrcFilePath,$ftphost
       $DesFile = $DesFile -replace "\\", "/"
-      # Write-Output $DesFile
+      Write-Output $DesFile
 
       $uri = New-Object System.Uri($DesFile)
       $webclient.UploadFile($uri, $SrcFullname)
