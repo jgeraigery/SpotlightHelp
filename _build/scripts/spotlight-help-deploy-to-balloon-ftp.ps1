@@ -6,6 +6,8 @@ Param($project_root = "",
 #Directory where to find pictures to upload
 $UploadFolder = "$project_root\_site\"
 
+UploadFilesOfFolder($UploadFolder, $FTPUser, $FTPPass, $FTPHost)
+
 function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
 {
   $webclient = New-Object System.Net.WebClient
@@ -15,6 +17,21 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
   $Srcfolders = $SrcEntries | Where-Object{$_.PSIsContainer}
   $SrcFiles = $SrcEntries | Where-Object{!$_.PSIsContainer}
 
+  # Upload Files - Start
+  foreach($entry in $SrcFiles)
+  {
+      $SrcFullname = $entry.fullname
+      $SrcName = $entry.Name
+      $SrcFilePath = $targetFolder -replace "\\","\\" -replace "\:","\:"
+      $DesFile = $SrcFullname -replace $SrcFilePath,$ftphost
+      $DesFile = $DesFile -replace "\\", "/"
+      Write-Output $DesFile
+
+      $uri = New-Object System.Uri($DesFile)
+      $webclient.UploadFile($uri, $SrcFullname)
+  }
+  # Upload Files - Stop
+  
   # Create FTP Directory/SubDirectory If Needed - Start
   foreach($folder in $Srcfolders)
   {
@@ -50,21 +67,4 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
       }
   }
   # Create FTP Directory/SubDirectory If Needed - Stop
-
-  # Upload Files - Start
-  foreach($entry in $SrcFiles)
-  {
-      $SrcFullname = $entry.fullname
-      $SrcName = $entry.Name
-      $SrcFilePath = $targetFolder -replace "\\","\\" -replace "\:","\:"
-      $DesFile = $SrcFullname -replace $SrcFilePath,$ftphost
-      $DesFile = $DesFile -replace "\\", "/"
-      Write-Output $DesFile
-
-      $uri = New-Object System.Uri($DesFile)
-      $webclient.UploadFile($uri, $SrcFullname)
-  }
-  # Upload Files - Stop
 }
-
-UploadFilesOfFolder($UploadFolder, $FTPUser, $FTPPass, $FTPHost)
