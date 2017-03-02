@@ -6,8 +6,6 @@ Param($project_root = "",
 #Directory where to find pictures to upload
 $UploadFolder = "$project_root\_site\"
 
-UploadFilesOfFolder -targetfolder $UploadFolder -user $FTPUser -passwd $FTPPass -ftphost $FTPHost
-
 function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
 {
   $webclient = New-Object System.Net.WebClient
@@ -69,3 +67,5 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
   }
   # Create FTP Directory/SubDirectory If Needed - Stop
 }
+
+UploadFilesOfFolder -targetfolder $UploadFolder -user $FTPUser -passwd $FTPPass -ftphost $FTPHost
