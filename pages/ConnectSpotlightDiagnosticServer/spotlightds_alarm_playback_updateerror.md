@@ -4,7 +4,7 @@ tags: [spotlightds_alarms]
 last_updated: July 29, 2016
 summary: "There was a problem writing data to or deleting data from the playback database."
 sidebar: c_spotlightds_sidebar
-permalink: spotlightds_alarm_playback_UpdateError.html
+permalink: spotlightds_alarm_playback_updateerror.html
 id: Playback.alarm_Update Error
 folder: ConnectSpotlightDS
 ---
