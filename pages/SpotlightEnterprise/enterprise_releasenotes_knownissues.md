@@ -118,5 +118,11 @@ Known Issue | Issue ID
 **Errors in the Windows Security Log.** Specifying OS Connection Details on Windows connections can cause WMI connection errors to be reported in the Windows Security Log of the machine being monitored. This does not affect Spotlight's monitoring capabilities. | 6722
 **Unusually large values displayed in Spotlight.** Spotlight may display unusually large values on some components and charts. These values are incorrect and are due to inaccurate raw performance counter values returned by Microsoft Windows. The following components and charts are affected: <br> *Disk Queue Length chart* (Spotlight on Windows > Disks drilldown > Logical Disk Activity page and Physical Disk Activity page). <br> *Disk Load chart* (Spotlight on Windows > Disks drilldown > Logical Disk Activity page and Physical Disk Activity page). <br><br> *Workaround:* Reboot the machine returning large values. | 5796
 
+### known issues monitoring Unix/Linux Server
+
+Known Issue | Issue ID
+------------|---------
+**Custom Counters** Custom Counters are not supported for Unix/Linux hosts. |  SOSSE-6363
+
 
 {% include links.html %}
