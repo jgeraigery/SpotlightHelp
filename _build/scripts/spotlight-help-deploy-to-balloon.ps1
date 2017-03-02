@@ -47,15 +47,15 @@ function uploadFiles($folder, $destFolder)
       write-host "$file is folder"
       if ($destFolder -eq "")
       {
-        uploadFiles("$folder\$file", $file);
+        uploadFiles -folder "$folder\$file" -destFolder $file
       }
       else
       {
-        uploadFiles("$folder\$file" , "$destFolder/$file");
+        uploadFiles -folder "$folder\$file" -destFolder "$destFolder/$file"
       }
     }
   }
 }
-uploadFiles($localfolder, "");
+uploadFiles -folder $localfolder -destFolder ""
 
 write-host "All files in $localFolder uploaded to $containerName!"

@@ -6,7 +6,7 @@ Param($project_root = "",
 #Directory where to find pictures to upload
 $UploadFolder = "$project_root\_site\"
 
-UploadFilesOfFolder($UploadFolder, $FTPUser, $FTPPass, $FTPHost)
+UploadFilesOfFolder -targetfolder $UploadFolder -user $FTPUser -passwd $FTPPass -ftphost $FTPHost
 
 function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
 {
@@ -31,7 +31,7 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
       $webclient.UploadFile($uri, $SrcFullname)
   }
   # Upload Files - Stop
-  
+
   # Create FTP Directory/SubDirectory If Needed - Start
   foreach($folder in $Srcfolders)
   {
@@ -49,7 +49,8 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
           $makeDirectory.GetResponse();
           #folder created successfully
           Write-Output $folder
-          UploadFilesOfFolder($folder, $user, $passwd, $ftphost);
+
+          UploadFilesOfFolder -targetfolder $folder -user $user -passwd $passwd -ftphost $ftphost
       }
       catch [Net.WebException]
       {
