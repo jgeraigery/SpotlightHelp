@@ -124,5 +124,6 @@ Known Issue | Issue ID
 Known Issue | Issue ID
 ------------|---------
 **Custom Counters** Custom Counters are not supported for Unix/Linux hosts. |  SOSSE-6363
+**Spotlight Reports** Spotlight Reports for Reporting and Trending are not supported for the Unix/Linux Connection Type. |  SOSSE-6364
 
 {% include links.html %}
