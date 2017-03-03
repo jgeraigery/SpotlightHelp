@@ -2,7 +2,7 @@
 title: ﻿Monitored Server - Unix/Linux Connection Failure alarm
 tags: [unix_alarms]
 last_updated: July 29, 2016
-summary: "Spotlight has failed to connect to the Unix Server."
+summary: "Spotlight has failed to connect to the Unix/Linux Server."
 sidebar: c_unix_sidebar
 permalink: unix_alarm_monitoredserver_connectionfailure.html
 id: alarm_MonitoredServer_ConnectionFailure_unix

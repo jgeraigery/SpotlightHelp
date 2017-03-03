@@ -169,6 +169,22 @@ entries:
           url: /unix_component_secondmostactivenic_errorspers.html
           output: web, pdf
 
+      - title: System
+        output: web
+        subfolderitems:
+
+        - title: OS
+          url: /unix_component_os.html
+          output: web, pdf
+
+        - title: Uptime
+          url: /unix_component_uptime.html
+          output: web, pdf
+
+        - title: Status
+          url: /unix_component_status.html
+          output: web, pdf
+
       - title: Flows
         output: web
         subfolderitems:
@@ -187,22 +203,6 @@ entries:
 
         - title: Network Errors out
           url: /unix_component_networkerrorsout.html
-          output: web, pdf
-
-      - title: System
-        output: web
-        subfolderitems:
-
-        - title: OS
-          url: /unix_component_os.html
-          output: web, pdf
-
-        - title: Uptime
-          url: /unix_component_uptime.html
-          output: web, pdf
-
-        - title: Status
-          url: /unix_component_status.html
           output: web, pdf
 
       - title: CPU
@@ -257,12 +257,12 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Swap out
-          url: /unix_component_swappingout.html
+        - title: Page out
+          url: /unix_component_pageout.html
           output: web, pdf
 
-        - title: Swap in
-          url: /unix_component_swappingin.html
+        - title: Page in
+          url: /unix_component_pagein.html
           output: web, pdf
 
       - title: Memory
@@ -301,6 +301,26 @@ entries:
           url: /unix_component_virtualmemory_used.html
           output: web, pdf
 
+      - title: Flows
+        output: web
+        subfolderitems:
+
+        - title: Swap out
+          url: /unix_component_swappingout.html
+          output: web, pdf
+
+        - title: Swap in
+          url: /unix_component_swappingin.html
+          output: web, pdf
+
+        - title: Total Disk Writes per Second
+          url: /unix_component_diskwrites.html
+          output: web, pdf
+
+        - title: Total Disk Reads per Second
+          url: /unix_component_diskreads.html
+          output: web, pdf
+
       - title: Swap Space
         output: web
         subfolderitems:
@@ -315,18 +335,6 @@ entries:
 
         - title: Used
           url: /unix_component_swapspace_used.html
-          output: web, pdf
-
-      - title: Flows
-        output: web
-        subfolderitems:
-
-        - title: Total Disk Writes per Second
-          url: /unix_component_diskwrites.html
-          output: web, pdf
-
-        - title: Total Disk Reads per Second
-          url: /unix_component_diskreads.html
           output: web, pdf
 
       - title: Storage
