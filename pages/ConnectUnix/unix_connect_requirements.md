@@ -36,6 +36,23 @@ Ensure the following programs are accessible to the user logged on to the Unix/L
 * wc
 * who
 
+
+### Additional Server Software for Ubuntu
+Install the **sysstat** package. On Ubuntu the **sysstat** package is not installed by default. If this package is not installed the Spotlight Overview page Storage panel Disk Activity metrics and Disk Writes/Reads flows will show no data.
+
+Install by command:
+
+```
+apt-get install sysstat
+```
+
+or
+
+```
+sudo apt-get install sysstat
+```
+
+
 ## User Permissions
 
 * The Unix/Linux user should have no special processing on log-on. In particular there must be no input required from the user, and nor should any special login banners be displayed.
