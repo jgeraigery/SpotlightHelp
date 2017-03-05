@@ -1,6 +1,7 @@
 ﻿body {
-    font-size:16px;
-	font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+	font-family: "Open Sans","Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 /*Masthead*/
@@ -12,22 +13,21 @@
   color: #ffffff;
   display: inline;
   float: left;
-  min-height: 47px;
-  margin: 13px 0 13px 13px;
+  padding-top: 16px;
   text-align: center;
   vertical-align: middle;
 }
 
   .masthead-logo a {
     color: #fff;
-    font-size: 120%;
+    font-size: 24px;
     text-decoration: none;
     display: inline;
   }
 
   .masthead-logo sup {
-    font-size: 50%;
-    vertical-align: super;
+    font-size: 60%;
+    margin-left: 4px;
   }
 
 .nav-link-quest {
@@ -40,16 +40,16 @@
 }
 
 .nav-link-home {
-  padding: 0 0 0 10px;
+  padding: 0;
 }
 /*Top nav*/
 .navbar {
   position: relative;
   z-index: 1000;
-  min-height: 73px;
   margin-bottom: 0px;
   border: 1px solid transparent;
   color: #fff;
+  height: 75px;
 }
 
 .nav > li {
@@ -376,7 +376,6 @@ li.dropdownActive a {
 
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
-    margin-top:10px;
 }
 
 .post-content .rssfeedLink {
@@ -410,7 +409,7 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .nav {
     /* padding: 4px;*/
-    padding:0px;
+    padding: 20px;
     margin: 0px;
 }
 
