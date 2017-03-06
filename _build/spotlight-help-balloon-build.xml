@@ -9,6 +9,10 @@
       <arg value="install" />
     </exec>
     <echo message="Installing packajes DONE" />
+    <exec executable="gem.cmd" dir="${project.root}" failonerror="true">
+      <arg value="install" />
+      <arg value="ffi" />
+    </exec>
     <echo message="updating packajes START" />
     <exec executable="bundle.bat" dir="${project.root}" failonerror="true">
       <arg value="update" />
