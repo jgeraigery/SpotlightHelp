@@ -24,6 +24,7 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
       $DesFile = $SrcFullname -replace $SrcFilePath,$ftphost
       $DesFile = $DesFile -replace "\\", "/"
       Write-Output $DesFile
+      Write-Output $SrcFullname
 
       $uri = New-Object System.Uri($DesFile)
       $webclient.UploadFile($uri, $SrcFullname)
