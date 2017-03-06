@@ -6,7 +6,7 @@ Param($project_root = "",
 #Directory where to find pictures to upload
 $UploadFolder = "$project_root\_site\"
 
-function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
+function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost, $localBase)
 {
   $webclient = New-Object System.Net.WebClient
   $webclient.Credentials = New-Object System.Net.NetworkCredential($user,$passwd)
@@ -32,10 +32,8 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
       $webclient.UploadFile($uri, $SrcFullname)
     } else {
       $SrcFolderPath = $targetfolder  -replace "\\","\\" -replace "\:","\:"
-      Write-Output $SrcFolderPath
-      $DesFolder = $entry.Fullnfolderame -replace $SrcFolderPath,$ftphost
-      Write-Output $ftphost
-      Write-Output $DesFolder
+      $SrcFolderPath = $SrcFolderPath + $entry
+      $DesFolder = $SrcFolderPath -replace $localBase, $ftphost
       $DesFolder = $DesFolder -replace "\\", "/"
       Write-Output $DesFolder
 
@@ -46,9 +44,9 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
         $makeDirectory.Method = [System.Net.WebRequestMethods+FTP]::MakeDirectory;
         $makeDirectory.GetResponse();
         #folder created successfully
-        Write-Output $entry
+        Write-Output 'Done'
 
-        UploadFilesOfFolder -targetfolder.Fullnfolderame $entry -user $user -passwd $passwd -ftphost $ftphost
+        UploadFilesOfFolder -targetfolder.Fullnfolderame $entry -user $user -passwd $passwd -ftphost $ftphost, -localBase $localBase
       }
       catch [Net.WebException]
       {
@@ -68,4 +66,4 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
   }
 }
 
-UploadFilesOfFolder -targetfolder $UploadFolder -user $FTPUser -passwd $FTPPass -ftphost $FTPHost
+UploadFilesOfFolder -targetfolder $UploadFolder -user $FTPUser -passwd $FTPPass -ftphost $FTPHost, -localBase $UploadFolder
