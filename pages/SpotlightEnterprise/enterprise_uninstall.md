@@ -28,7 +28,7 @@ Repeat for each Windows server on which a Spotlight Client is installed:
 
 1. Open Windows **Control Panel**.
 2. Select **Programs and Features**
-3. Select **Spotlight on SQL Server Enterprise** and click **Remove**.
+3. Select **Spotlight Enterprise** and click **Remove**.
 
 {% include tip.html content="Uninstall the Spotlight Diagnostic Server before you uninstall all Spotlight clients." %}
 

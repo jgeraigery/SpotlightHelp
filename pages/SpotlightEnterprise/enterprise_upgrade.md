@@ -33,14 +33,36 @@ The following information on the Spotlight Diagnostic Server is preserved when y
 
 ### Which versions of Spotlight can I upgrade from?
 
-To upgrade from an earlier version of Spotlight on SQL Server than 10.0, upgrade to at least version 10.0 before upgrading to 11.6.
+Upgrde to Spotlight Enterprise from Spotlight on SQL Server 10.0 or above.
 
-To upgrade from Spotlight on SQL Server 10.5.0, first upgrade to 10.5.2 and then upgrade to 11.6.
+To upgrade from an earlier version of Spotlight on SQL Server than 10.0, upgrade to at least version 10.0 first.
+
+To upgrade from Spotlight on SQL Server 10.5.0, first upgrade to 10.5.2 and then upgrade to Spotlight Enterprise.
+
+### File paths on upgrade from Spotlight on SQL Server Enterprise
+There is no change in the default installation path for the Spotlight Diagnostic Server on upgrade from Spotlight on SQL Server
+
+```
+C:\Program Files\Quest Software\Diagnostic Server
+```
+
+The default file path of the Spotlight Client on upgrade from Spotlight on SQL Server is as before
+
+```
+C:\Program Files (x86)\Quest Software\Spotlight on SQL Server
+```
+
+The default file path of the Spotlight Client on a clean install (not an upgrade) is
+
+```
+C:\Program Files (x86)\Quest Software\Spotlight Enterprise
+```
+
 
 ### Spotlight on SQL Server Enterprise 11.2 and alarms requiring acknowledgment
-The Spotlight factory settings for alarms requiring acknowledgment changes on upgrade from Spotlight 11.2. Only Connection Failure alarms are now factory set to require acknowledgment.
+The Spotlight factory settings for alarms requiring acknowledgment changes on upgrade from Spotlight on SQL Server Enterprise 11.2. Only Connection Failure alarms are now factory set to require acknowledgment.
 
-The alarms that were factory set to require acknowledgment in Spotlight 11.2 and earlier are as follows. They are included here so you can choose to manually enable them to require acknowledgment again post upgrade if required.
+The alarms that were factory set to require acknowledgment in Spotlight on SQL Server Enterprise 11.2 and earlier are as follows. They are included here so you can choose to manually enable them to require acknowledgment again post upgrade if required.
 
 *  Availability Group - Failed Over
 *  Clusters - Failed over
