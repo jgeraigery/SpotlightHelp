@@ -5,7 +5,13 @@
 
   <target name="build" description="Build help web site">
   	<echo message="Building Spotlight Help web app" />
-
+    <exec executable="ruby" dir="${project.root}" failonerror="true">
+        <arg value="--version" />
+    </exec>
+    <exec executable="gem" dir="${project.root}" failonerror="true">
+        <arg value="install" />
+        <arg value="bundler" />
+    </exec>
       <!-- Getting bundle packages-->
   	<echo message="Installing packajes START" />
     <exec executable="bundle" dir="${project.root}" failonerror="true">
