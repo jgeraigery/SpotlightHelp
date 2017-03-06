@@ -11,7 +11,7 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
   $webclient = New-Object System.Net.WebClient
   $webclient.Credentials = New-Object System.Net.NetworkCredential($user,$passwd)
   Write-Output $targetfolder
-  $SrcEntries = Get-ChildItem $targetfolder -Recurse
+  $SrcEntries = Get-ChildItem $targetfolder
   $Srcfolders = $SrcEntries | Where-Object{$_.PSIsContainer}
   $SrcFiles = $SrcEntries | Where-Object{!$_.PSIsContainer}
 
