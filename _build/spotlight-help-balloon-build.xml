@@ -8,18 +8,20 @@
 
       <!-- Getting bundle packages-->
   	<echo message="Installing packajes START" />
-    <exec executable="${project.root}\_build\tools\bundle.bat" dir="${project.root}" failonerror="true">
+    <exec executable="bundle" dir="${project.root}" failonerror="true">
         <arg value="install" />
     </exec>
     <echo message="Installing packajes DONE" />
     <echo message="updating packajes START" />
-    <exec executable="${project.root}\_build\tools\bundle.bat" dir="${project.root}" failonerror="true">
+    <exec executable="bundle" dir="${project.root}" failonerror="true">
         <arg value="update" />
     </exec>
     <echo message="update packajes DONE" />
   	<!-- Compile jekyll project-->
   	<echo message="Compile jekyll" />
-    <exec executable="${project.root}\_build\tools\jekyll.bat" dir="${project.root}" failonerror="true">
+    <exec executable="bundle exec jekyll build" dir="${project.root}" failonerror="true">
+      <arg value="exec" />
+      <arg value="jekyll" />
       <arg value="build" />
       <arg value="--config" />
       <arg value="_configBalloonHelpOffline.yml" />
