@@ -16,8 +16,10 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
   $SrcFiles = $SrcEntries | Where-Object{!$_.PSIsContainer}
 
   # Upload Files - Start
-  foreach($entry in $SrcFiles)
+  foreach($entry in $SrcEntries)
   {
+    Write-Output $entry
+    if ($entry -is [System.IO.FileInfo]) {
       $SrcFullname = $entry.fullname
       $SrcName = $entry.Name
       $SrcFilePath = $targetFolder -replace "\\","\\" -replace "\:","\:"
@@ -28,15 +30,7 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
 
       $uri = New-Object System.Uri($DesFile)
       $webclient.UploadFile($uri, $SrcFullname)
-  }
-  # Upload Files - Stop
-
-  # Create FTP Directory/SubDirectory If Needed - Start
-  foreach($folder in $Srcfolders)
-  {
-      Write-Output $folder
-      Write-Output $folder.Fullnfolderame
-
+    } else {
       $SrcFolderPath = $targetfolder  -replace "\\","\\" -replace "\:","\:"
       Write-Output $SrcFolderPath
       $DesFolder = $folder.Fullnfolderame -replace $SrcFolderPath,$ftphost
@@ -47,31 +41,31 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
 
       try
       {
-          $makeDirectory = [System.Net.WebRequest]::Create($DesFolder);
-          $makeDirectory.Credentials = New-Object System.Net.NetworkCredential($user,$passwd);
-          $makeDirectory.Method = [System.Net.WebRequestMethods+FTP]::MakeDirectory;
-          $makeDirectory.GetResponse();
-          #folder created successfully
-          Write-Output $folder
+        $makeDirectory = [System.Net.WebRequest]::Create($DesFolder);
+        $makeDirectory.Credentials = New-Object System.Net.NetworkCredential($user,$passwd);
+        $makeDirectory.Method = [System.Net.WebRequestMethods+FTP]::MakeDirectory;
+        $makeDirectory.GetResponse();
+        #folder created successfully
+        Write-Output $folder
 
-          UploadFilesOfFolder -targetfolder $folder -user $user -passwd $passwd -ftphost $ftphost
+        UploadFilesOfFolder -targetfolder $folder -user $user -passwd $passwd -ftphost $ftphost
       }
       catch [Net.WebException]
       {
           try {
-              #if there was an error returned, check if folder already existed on server
-              $checkDirectory = [System.Net.WebRequest]::Create($DesFolder);
-              $checkDirectory.Credentials = New-Object System.Net.NetworkCredential($user,$passwd);
-              $checkDirectory.Method = [System.Net.WebRequestMethods+FTP]::PrintWorkingDirectory;
-              $response = $checkDirectory.GetResponse();
-              #folder already exists!
+            #if there was an error returned, check if folder already existed on server
+            $checkDirectory = [System.Net.WebRequest]::Create($DesFolder);
+            $checkDirectory.Credentials = New-Object System.Net.NetworkCredential($user,$passwd);
+            $checkDirectory.Method = [System.Net.WebRequestMethods+FTP]::PrintWorkingDirectory;
+            $response = $checkDirectory.GetResponse();
+            #folder already exists!
           }
           catch [Net.WebException] {
               #if the folder didn't exist
           }
       }
+    }
   }
-  # Create FTP Directory/SubDirectory If Needed - Stop
 }
 
 UploadFilesOfFolder -targetfolder $UploadFolder -user $FTPUser -passwd $FTPPass -ftphost $FTPHost
