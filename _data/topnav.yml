@@ -10,12 +10,10 @@ topnav_dropdowns:
   folders:
     - title: Products
       folderitems:
-        - title: Spotlight Cloud
-          url: /cloud_welcome.html
-        - title: Spotlight Extensions
-          url: /extensions_welcome.html
         - title: Spotlight Enterprise
           url: /enterprise_welcome.html
+        - title: Spotlight Cloud
+          url: /cloud_welcome.html
         - title: Spotlight Mobile
           url: /mobile_welcome.html
     - title: Connection Types

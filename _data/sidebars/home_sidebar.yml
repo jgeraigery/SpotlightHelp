@@ -6,14 +6,11 @@ entries:
   - title: Products
     output: web
     folderitems:
-    - title: Spotlight Cloud
-      url: /cloud_welcome.html
-      output: web
-    - title: Spotlight Extensions
-      url: /extensions_welcome.html
-      output: web
     - title: Spotlight Enterprise
       url: /enterprise_welcome.html
+      output: web
+    - title: Spotlight Cloud
+      url: /cloud_welcome.html
       output: web
     - title: Spotlight Mobile
       url: /mobile_welcome.html
