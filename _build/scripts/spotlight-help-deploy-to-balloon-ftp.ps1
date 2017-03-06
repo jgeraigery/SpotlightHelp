@@ -18,7 +18,7 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
   # Upload Files - Start
   foreach($entry in $SrcEntries)
   {
-    Write-Output 'target:$entry'
+    Write-Output "target:$entry"
     if ($entry -is [System.IO.FileInfo]) {
       $SrcFullname = $entry.fullname
       $SrcName = $entry.Name
