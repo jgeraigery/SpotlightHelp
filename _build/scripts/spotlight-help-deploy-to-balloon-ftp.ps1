@@ -35,8 +35,13 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
   foreach($folder in $Srcfolders)
   {
       Write-Output $folder
+      Write-Output $folder.Fullnfolderame
+
       $SrcFolderPath = $targetfolder  -replace "\\","\\" -replace "\:","\:"
+      Write-Output $SrcFolderPath
       $DesFolder = $folder.Fullnfolderame -replace $SrcFolderPath,$ftphost
+      Write-Output $ftphost
+      Write-Output $DesFolder
       $DesFolder = $DesFolder -replace "\\", "/"
       Write-Output $DesFolder
 
