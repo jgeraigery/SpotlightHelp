@@ -5,20 +5,18 @@
   	<echo message="Building Spotlight Help web app" />
       <!-- Getting bundle packages-->
   	<echo message="Installing packajes START" />
-    <exec executable="bundle" dir="${project.root}" failonerror="true">
+    <exec executable="bundle.bat" dir="${project.root}" failonerror="true">
       <arg value="install" />
     </exec>
     <echo message="Installing packajes DONE" />
     <echo message="updating packajes START" />
-    <exec executable="bundle" dir="${project.root}" failonerror="true">
+    <exec executable="bundle.bat" dir="${project.root}" failonerror="true">
       <arg value="update" />
     </exec>
     <echo message="update packajes DONE" />
   	<!-- Compile jekyll project-->
   	<echo message="Compile jekyll" />
-    <exec executable="bundle exec jekyll build" dir="${project.root}" failonerror="true">
-      <arg value="exec" />
-      <arg value="jekyll" />
+    <exec executable="jekyll.bat" dir="${project.root}" failonerror="true">
       <arg value="build" />
       <arg value="--config" />
       <arg value="_configBalloonHelpOffline.yml" />
