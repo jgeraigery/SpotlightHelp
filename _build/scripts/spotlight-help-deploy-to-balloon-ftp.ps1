@@ -33,7 +33,7 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
     } else {
       $SrcFolderPath = $targetfolder  -replace "\\","\\" -replace "\:","\:"
       Write-Output $SrcFolderPath
-      $DesFolder = $folder.Fullnfolderame -replace $SrcFolderPath,$ftphost
+      $DesFolder = $entry.Fullnfolderame -replace $SrcFolderPath,$ftphost
       Write-Output $ftphost
       Write-Output $DesFolder
       $DesFolder = $DesFolder -replace "\\", "/"
@@ -46,9 +46,9 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost)
         $makeDirectory.Method = [System.Net.WebRequestMethods+FTP]::MakeDirectory;
         $makeDirectory.GetResponse();
         #folder created successfully
-        Write-Output $folder
+        Write-Output $entry
 
-        UploadFilesOfFolder -targetfolder $folder -user $user -passwd $passwd -ftphost $ftphost
+        UploadFilesOfFolder -targetfolder.Fullnfolderame $entry -user $user -passwd $passwd -ftphost $ftphost
       }
       catch [Net.WebException]
       {
