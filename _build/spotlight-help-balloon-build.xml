@@ -1,29 +1,17 @@
 <?xml version="1.0"?>
 <project name="spotlight-help-balloon-build" default="deploy" basedir=".">
   <property name="project.root" location=".." />
-
-
   <target name="build" description="Build help web site">
   	<echo message="Building Spotlight Help web app" />
-    <exec executable="rvm" dir="${project.root}" failonerror="true">
-        <arg value="list" />
-    </exec>
-    <exec executable="ruby" dir="${project.root}" failonerror="true">
-        <arg value="-v" />
-    </exec>
-    <exec executable="gem" dir="${project.root}" failonerror="true">
-        <arg value="install" />
-        <arg value="bundler" />
-    </exec>
       <!-- Getting bundle packages-->
   	<echo message="Installing packajes START" />
     <exec executable="bundle" dir="${project.root}" failonerror="true">
-        <arg value="install" />
+      <arg value="install" />
     </exec>
     <echo message="Installing packajes DONE" />
     <echo message="updating packajes START" />
     <exec executable="bundle" dir="${project.root}" failonerror="true">
-        <arg value="update" />
+      <arg value="update" />
     </exec>
     <echo message="update packajes DONE" />
   	<!-- Compile jekyll project-->
