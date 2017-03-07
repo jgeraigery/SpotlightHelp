@@ -4,7 +4,7 @@ Param($project_root = "",
       $FTPPass = "")
 
 #Directory where to find pictures to upload
-$UploadFolder = "$project_root\_site\"
+$UploadFolder = "$project_root\_site"
 function uploadFiles($folder, $destFolder)
 {
   $folder = $folder.Trim()
@@ -51,4 +51,4 @@ function uploadFiles($folder, $destFolder)
     }
   }
 }
-uploadFiles -folder $localfolder -destFolder ""
+uploadFiles -folder $UploadFolder -destFolder ""
