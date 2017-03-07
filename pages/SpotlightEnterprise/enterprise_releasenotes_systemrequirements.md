@@ -62,7 +62,7 @@ MDAC is available from the Microsoft website: www.microsoft.com/downloads
 To find out the version of MDAC that you are currently running, you can download an application from the Microsoft website called the Component Checker Tool. Review the following Microsoft Knowledge Base article for more information: http://support.microsoft.com/kb/301202
 
 #### Microsoft Windows Powershell 3.0 or above
-Microsoft Windows Powershell 3.0 or above is required to [access Spotlight from the command line][enterprise_connect_commandline]. 
+Microsoft Windows Powershell 3.0 or above is required to [access Spotlight from the command line][enterprise_connect_commandline].
 
 
 ## Spotlight Diagnostic Server requirements
@@ -126,7 +126,9 @@ Spotlight Enterprise is able to monitor the following connections
 Spotlight can be used to monitor:
 
 * [SQL Server][sqlserver_connect_requirements]
-* [Oracle][oracle_connect_requirements]
+* SQL Server Analysis Services
+* SQL Server Availability Group
+* SQL Server Replication
 
 ### Database Cloud Service
 Spotlight can be used to monitor SQL Azure.
@@ -135,7 +137,7 @@ Spotlight can be used to monitor SQL Azure.
 Spotlight can be used to monitor:
 
 * [Microsoft Windows][windows_connect_requirements]
-* [Unix][unix_connect_requirements]
+* [Unix/Linux][unix_connect_requirements]
 
 ### Virtualization
 Spotlight can monitor virtual environments and virtual guest machines in a virtual environment.
@@ -152,7 +154,7 @@ The MS Model database is used. The database size usually starts at about 3MB (da
 ### Hard disk space
 Requires approximately 270 MB for each monitored SQL Server instance and the corresponding monitored Windows host on which the SQL Server instance resides. Retains 7 days of historical data for each connection in the Playback Database by default. This is configurable.
 
-This estimate assumes default configuration in an average environment. Actual space used will depend on your environment and any data collection/storage configuration changes that are made. For more information, see the Spotlight on SQL Server Sizing Wizard. You can access the wizard from the Spotlight Installation Center.
+This estimate assumes default configuration in an average environment. Actual space used will depend on your environment and any data collection/storage configuration changes that are made. For more information, see the Spotlight Enterprise Sizing Wizard. You can access the wizard from the Spotlight Installation Center.
 
 ### SQL Server
 
