@@ -8,7 +8,7 @@ folder: ConnectSpotlightDS
 ---
 
 <div class="row">
-        <h2 class="page-header">Use Spotlight to monitor the Spotlight Diagnostic Server.</h2>
+        <h2 class="page-header">Use Spotlight to monitor the Spotlight Diagnostic Server</h2>
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
                 <div class="panel-body">

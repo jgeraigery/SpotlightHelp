@@ -21,23 +21,31 @@ Until now if your team each had their own separate Spotlight accounts you couldn
 
 ### Setup an organization
 
-1. Sign in to your Spotlight account and go to the [Settings page](https:\\www.spotlightessentials.com\settings).
+1. From a web browser, open the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
+2. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
+3. Click on your profile icon in the top right corner of the web page.
+4. Select **Settings** to open the [Settings page](https:\\www.spotlightessentials.com\settings).
 
-2. Create an organization by clicking on the link shown below.
+5. Create an organization by clicking on the link shown below.
 
    {% include imageCloud.html file="create-organization-screen-grab.png" alt="Create organization" %}
 
-3. Enter the name you would like to use for your organization.
+6. Enter the name you would like to use for your organization.
 
    {% include imageCloud.html file="organization-name-screen-grab.png" alt="Share data with the team" %}
 
 ### Invite someone to join your organization
 
-1. Sign in to your Spotlight account, go to the [Settings page](https:\\www.spotlightessentials.com\settings) and click **Manage Organization**.
+1. From a web browser, open the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
+2. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
+3. Click on your profile icon in the top right corner of the web page.
+4. Select **Settings** to open the [Settings page](https:\\www.spotlightessentials.com\settings).
+
+5. Click **Manage Organization**.
 
    {% include imageCloud.html file="manage-organization-screen-grab.png" alt="Manage" %}
 
-2. Enter the email address of the person you want to join the organization. They will receive an email asking them to join. Once accepted their email address will display on the Manage Organization page.
+6. Enter the email address of the person you want to join the organization. They will receive an email asking them to join. Once accepted their email address will display on the Manage Organization page.
 
    {% include note.html content="In order to invite someone they must already have, or sign up for a Spotlight account." %}
 
@@ -49,11 +57,16 @@ Until now if your team each had their own separate Spotlight accounts you couldn
 
 ### View organization members
 
-1. Sign in to your Spotlight account, go to the [Settings page](https:\\www.spotlightessentials.com\settings) and click **Manage Organization**.
+1. From a web browser, open the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
+2. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
+3. Click on your profile icon in the top right corner of the web page.
+4. Select **Settings** to open the [Settings page](https:\\www.spotlightessentials.com\settings).
+
+5. Click **Manage Organization**.
 
    {% include imageCloud.html file="manage-organization-screen-grab.png" alt="Manage" %}
 
-2. On the Manage Organization page each member is listed as shown below.
+6. On the Manage Organization page each member is listed as shown below.
 
    {% include imageCloud.html file="view-members-screen-grab.png" alt="View Members" %}
 
@@ -62,11 +75,16 @@ Until now if your team each had their own separate Spotlight accounts you couldn
 
 ### See recent activity of the members of your organization
 
-1. Sign in to your Spotlight account, go to the [Settings page](https:\\www.spotlightessentials.com\settings) and click **Data Sources**.
+1. From a web browser, open the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
+2. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
+3. Click on your profile icon in the top right corner of the web page.
+4. Select **Settings** to open the [Settings page](https:\\www.spotlightessentials.com\settings).
+
+5. Click **Data Sources**.
 
    {% include imageCloud.html file="data-sources-screen-grab.png" alt="Data Sources" %}
 
-2. To view recent activity go to the Data Sources page where any members who have uploaded data are listed along with the Diagnostic Server, Connection and when data was last seen for both Health Checks and Mobile.
+6. To view recent activity go to the Data Sources page where any members who have uploaded data are listed along with the Diagnostic Server, Connection and when data was last seen for both Health Checks and Mobile.
 
    {% include imageCloud.html file="view-members-screen-grab.png" alt="View Members" %}
 

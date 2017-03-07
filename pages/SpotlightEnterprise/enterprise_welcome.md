@@ -9,7 +9,7 @@ folder: SpotlightEnterprise
 
 
 
-Spotlight displays a visual representation of the status of the databases in your enterprise, enabling you to drill down to graphical flows that illustrate the rate at which data is moving between server components. Icons display the value of key statistics and measurements. A range of visual graphs and tabular grids provide you with detailed information about your SQL Server instance.
+Use Spotlight to monitor the databases and server host connections in your enterprise. Spotlight displays a visual representation of the status of the databases in your enterprise, enabling you to drill down to graphical flows that illustrate the rate at which data is moving between server components. Icons display the value of key statistics and measurements. A range of visual graphs and tabular grids provide you with more detailed information.
 
 
 <div class="row">

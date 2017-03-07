@@ -4,15 +4,16 @@ tags: [heatmap]
 keywords: heatmap
 summary: "The Heat Map display organizes connections based on the comparative number and severity of alarms raised against them. Connections with the most alarms raised against them are given the most surface area on the heat map. The heatmap refreshes itself automatically when connections are added and removed and when there is a change in the alarm status. Connections are removed from the heat map when monitoring is disabled and while they are in planned outage. The Heat Map answers the question: Which monitored connections require the most urgent attention?"
 sidebar: p_cloud_sidebar
-permalink: cloud_monitoring_display_heatmap.html
+permalink: cloud_display_heatmap.html
 folder: SpotlightCloud
 ---
 
 
 ## Open the Heatmap
 
-1. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
-2. The Heat Map is the opening **Monitoring** screen on the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
+1. From a web browser, open the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
+2. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
+3. The Heat Map is the opening **Monitoring** screen on the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
 
 ## Connection color and surface area
 The Heat Map display organizes connections based on the comparative number and severity of alarms raised against them. Connections with the most alarms raised against them are given the most surface area on the heat map. Connections are colored according to the most severe current alarm.
@@ -26,9 +27,9 @@ Default Color | Severity | Description
 {% include inline_imageMobile.html file="icon_alarm_red.png" alt="High color" %} | High | At least one high severity alarm is raised against this connection.
 
 ## Alarms raised for the connection
-Click **Alarms** to open the [Alarm List][cloud_monitoring_display_alarmlist].
+Click **Alarms** to open the [Alarm List][cloud_display_alarmlist].
 
 ## Drilldown on a connection
-Click on a connection to open the [Spotlight Overview page][cloud_monitoring_display_overview] for the connection.
+Click on a connection to open the [Spotlight Overview page][cloud_display_overview] for the connection.
 
 {% include links.html %}

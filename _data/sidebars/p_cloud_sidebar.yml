@@ -29,45 +29,24 @@ entries:
       url: /cloud_setup.html
       output: web, pdf
 
-    - title: Subscriptions
-      url: /cloud_subscriptions.html
-      output: web, pdf
-
-      subfolders:
-      - title: Legal
-        output: web
-        subfolderitems:
-
-        - title: About Us
-          url: /cloud_legal_aboutus.html
-          output: web, pdf
-
-        - title: Copyright Information
-          url: /cloud_legal_copyright.html
-          output: web, pdf
-
-        - title: Third Party Components
-          url: /cloud_legal_thirdpartycomponents.html
-          output: web, pdf
-
-  - title: Monitoring
+  - title: Displays
     output: web, pdf
     folderitems:
 
     - title: Heat Map
-      url: /cloud_monitoring_display_heatmap.html
+      url: /cloud_display_heatmap.html
       output: web, pdf
 
     - title: Alarms
-      url: /cloud_monitoring_display_alarmlist.html
+      url: /cloud_display_alarmlist.html
       output: web, pdf
 
     - title: Overview
-      url: /cloud_monitoring_display_overview.html
+      url: /cloud_display_overview.html
       output: web, pdf
 
     - title: Connections
-      url: /cloud_monitoring_display_connect.html
+      url: /cloud_display_connections.html
       output: web, pdf
 
   - title: Health Check
@@ -82,28 +61,20 @@ entries:
       url: /cloud_healthcheck_features.html
       output: web, pdf
 
-  - title: Waitopedia
+  - title: Alarms
     output: web, pdf
     folderitems:
 
-    - title: Waitopedia
-      url: /cloud_waitopedia.html
+    - title: Diagnose
+      url: /cloud_alarm_diagnose.html
       output: web, pdf
 
-  - title: Capacity
-    output: web, pdf
-    folderitems:
-
-    - title: Capacity
-      url: /cloud_capacity.html
+    - title: Acknowledge
+      url: /cloud_alarm_acknowledge.html
       output: web, pdf
 
-  - title: Collective IQ
-    output: web, pdf
-    folderitems:
-
-    - title: Collective IQ
-      url: /cloud_collectiveiq.html
+    - title: Snooze
+      url: /cloud_alarm_snooze.html
       output: web, pdf
 
   - title: Your Profile / Settings
@@ -120,30 +91,6 @@ entries:
 
     - title: Push Notification History
       url: /cloud_settings_pushnotificationhistory.html
-      output: web, pdf
-
-    - title: Health Check Settings
-      url: /cloud_settings_healthcheck.html
-      output: web, pdf
-
-  - title: Security and data handling
-    output: web, pdf
-    folderitems:
-
-    - title: Security and data handling
-      url: /cloud_security.html
-      output: web, pdf
-
-    - title: Security and data handling FAQ
-      url: /cloud_security_faq.html
-      output: web, pdf
-
-    - title: Cloud Security Alliance Consensus Assessments
-      url: /cloud_security_csa.html
-      output: web, pdf
-
-    - title: Known Threats
-      url: /cloud_security_threats.html
       output: web, pdf
 
  
