@@ -26,7 +26,7 @@ function uploadFiles($folder, $destFolder)
       }
       Write-Output "copying $fileName to $blobName"
       $webclient = New-Object System.Net.WebClient
-      $webclient.Credentials = New-Object System.Net.NetworkCredential($user,$passwd)
+      $webclient.Credentials = New-Object System.Net.NetworkCredential($FTPUser, $FTPPass)
       $uri = New-Object System.Uri("$FTPHost$blobName")
       $webclient.UploadFile($uri, $fileName)
     }
@@ -41,7 +41,7 @@ function uploadFiles($folder, $destFolder)
       {
         Write-Output "create folder:$FTPHost$destFolder"
         $makeDirectory = [System.Net.WebRequest]::Create("$FTPHost$destFolder");
-        $makeDirectory.Credentials = New-Object System.Net.NetworkCredential($user,$passwd);
+        $makeDirectory.Credentials = New-Object System.Net.NetworkCredential($FTPUser, $FTPPass);
         $makeDirectory.Method = [System.Net.WebRequestMethods+FTP]::MakeDirectory;
         $makeDirectory.GetResponse();
         #folder created successfully
