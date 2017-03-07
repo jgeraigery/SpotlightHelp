@@ -27,8 +27,8 @@ function uploadFiles($folder, $destFolder)
       Write-Output "copying $fileName to $blobName"
       $webclient = New-Object System.Net.WebClient
       $webclient.Credentials = New-Object System.Net.NetworkCredential($user,$passwd)
-      $uri = New-Object System.Uri($DesFile)
-      $webclient.UploadFile("$FTPHost$blobName", $fileName)
+      $uri = New-Object System.Uri("$FTPHost$blobName")
+      $webclient.UploadFile($uri, $fileName)
     }
     else
     {
