@@ -32,9 +32,16 @@ function uploadFiles($folder, $destFolder)
     }
     else
     {
+      $targetFolder = ""
+      if ($destFolder -eq "")
+      {
+        $targetFolder = "$FTPHost/$file"
+      } else {
+        $targetFolder = "$FTPHost/$destFolder/$file"
+      }
       Write-Output "$file is folder"
-      Write-Output "create folder:$FTPHost/$destFolder/$file"
-      $makeDirectory = [System.Net.WebRequest]::Create("$FTPHost/$destFolder/$file");
+      Write-Output "create folder:$targetFolder"
+      $makeDirectory = [System.Net.WebRequest]::Create($targetFolder);
       $makeDirectory.Credentials = New-Object System.Net.NetworkCredential($FTPUser, $FTPPass);
       $makeDirectory.Method = [System.Net.WebRequestMethods+FTP]::MakeDirectory;
       $makeDirectory.GetResponse();
