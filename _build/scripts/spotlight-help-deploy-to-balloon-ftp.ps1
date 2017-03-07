@@ -24,28 +24,28 @@ function uploadFiles($folder, $destFolder)
       {
         $blobName = "$destFolder/$file"
       }
-      Write-Output "copying $fileName to $blobName"
+      Write-Output "copying $fileName to $FTPHost/$blobName"
       $webclient = New-Object System.Net.WebClient
       $webclient.Credentials = New-Object System.Net.NetworkCredential($FTPUser, $FTPPass)
-      $uri = New-Object System.Uri("$FTPHost$blobName")
+      $uri = New-Object System.Uri("$FTPHost/$blobName")
       $webclient.UploadFile($uri, $fileName)
     }
     else
     {
       Write-Output "$file is folder"
+      Write-Output "create folder:$FTPHost/$destFolder/$file"
+      $makeDirectory = [System.Net.WebRequest]::Create("$FTPHost/$destFolder/$file");
+      $makeDirectory.Credentials = New-Object System.Net.NetworkCredential($FTPUser, $FTPPass);
+      $makeDirectory.Method = [System.Net.WebRequestMethods+FTP]::MakeDirectory;
+      $makeDirectory.GetResponse();
+      #folder created successfully
+      Write-Output 'Done'
       if ($destFolder -eq "")
       {
         uploadFiles -folder "$folder\$file" -destFolder $file
       }
       else
       {
-        Write-Output "create folder:$FTPHost$destFolder"
-        $makeDirectory = [System.Net.WebRequest]::Create("$FTPHost$destFolder");
-        $makeDirectory.Credentials = New-Object System.Net.NetworkCredential($FTPUser, $FTPPass);
-        $makeDirectory.Method = [System.Net.WebRequestMethods+FTP]::MakeDirectory;
-        $makeDirectory.GetResponse();
-        #folder created successfully
-        Write-Output 'Done'
         uploadFiles -folder "$folder\$file" -destFolder "$destFolder/$file"
       }
     }
