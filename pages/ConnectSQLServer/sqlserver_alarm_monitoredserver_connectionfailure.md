@@ -40,7 +40,7 @@ Verify WMI is working and returns data properly. If WMI queries fail then a Wind
 Verify TCP port 135 is open on the Windows server host.
 
 ## UDP port 1434
-If UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance.
+If the SQL Server instance is hosted on a Windows server and UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance.
 
 ## Microsoft Data Access Components (MDAC)
 You may need to upgrade Microsoft Data Access Components (MDAC) on the Spotlight Client host AND the Spotlight Diagnostic Server host. More information is available from the Microsoft Download Center (search for MDAC).

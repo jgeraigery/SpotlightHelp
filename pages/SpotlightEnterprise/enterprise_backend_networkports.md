@@ -37,6 +37,12 @@ The Spotlight Diagnostic Server uses WMI queries to retrieve performance counter
 SQL Server uses UDP 1434 to locate the SQL Server instance port number. If UDP 1434 is closed then the SQL Server instance port number must be included in the connection string used to connect Spotlight to the SQL Server instance.
 
 
+## Network ports on monitored Unix/Linux servers and hosts of database connections
+
+### SSH
+Verify the port number for SSH (secure shell) connection to the Unix/Linux machine is open. The default port number is 22.
+
+
 ## Checks to verify ports are open
 * Verify a firewall is not blocking port traffic.
 * Verify no other service is using the port.

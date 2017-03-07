@@ -30,7 +30,7 @@ Specify the connect string used to link to the SQL Server (that is, the Server N
 
 {% include tip.html content="For a Microsoft Cluster Server (MSCS) enter the virtual name of the cluster." %}
 
-{% include note.html content="If UDP port 1434 is closed then the port number must be included in the address." %}
+{% include note.html content="If the SQL Server instance is hosted on a Windows server and UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance." %}
 
 
 ## Authentication

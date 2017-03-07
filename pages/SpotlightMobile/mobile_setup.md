@@ -1,6 +1,6 @@
 ---
 title: Setup Spotlight Mobile
-summary: "Expand your deployment of Spotlight Enterprise to include Spotlight Mobile."
+summary: "Use Spotlight Mobile to monitor your Spotlight Enterprise, Spotlight on SQL Server or Spotlight on Oracle connections remotely via your mobile device."
 sidebar: p_mobile_sidebar
 permalink: mobile_setup.html
 folder: SpotlightMobile
@@ -19,22 +19,7 @@ A Spotlight Cloud account is required to use Spotlight Mobile. Create a Spotligh
 
 For Spotlight Mobile to receive data from the Spotlight Diagnostic Server, ensure the Spotlight Cloud account configured to the Spotlight Diagnostic Server is your Spotlight Cloud account or the Spotlight Cloud account of an individual in the same Spotlight Cloud Organization as you.
 
-### In a Spotlight Enterprise deployment
-
-Use a Spotlight Client:
-
-1. If you use more than one Spotlight Diagnostic Server, verify the Spotlight Client is connected to the appropriate Spotlight Diagnostic Server.
-2. Click **Configure \| Spotlight Cloud**.
-
-    {% include inline_imageClient.html file="tb_config_spotlighcloud.png" alt="Configure Spotlight Cloud" %}
-
-3. Select the option to **Upload data to Spotlight Cloud**.
-
-   For Spotlight on SQL Server prior to 11.6, select the option to **Upload mobile monitoring data to Spotlight Essentials**.
-
-4. Ensure the Spotlight Cloud account configured to this Spotlight Diagnostic Server is your Spotlight Cloud account or the Spotlight Cloud account of an individual in the same organization as you (Spotlight Cloud \| Organizations).
-
-Click **Register Now** to create a Spotlight Cloud account if you do not already have one.
+In a Spotlight Enterprise deployment, use a Spotlight Client to [configure uploading to the Spotliht Cloud][enterprise_cfgds_spotlightcloud].
 
 {% include important.html content="The Spotlight Web Publisher was required in the past to monitor SQL Server connections on a mobile device. If you used Spotlight Mobile with Spotlight on SQL Server 11.0 or earlier the Spotlight Web Publisher was installed to work with your Spotlight Diagnostic Server. To continue using Spotlight Mobile you must uninstall the Spotlight Web Publisher. Use Windows | Control Panel | Programs and Features. By default the Spotlight Web Publisher was installed on the same computer as the Spotlight Diagnostic Server." %}
 

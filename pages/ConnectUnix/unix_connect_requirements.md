@@ -69,5 +69,7 @@ sudo apt-get install sysstat
 * Spotlight supports both SSH1 and SSH2 protocols.
 * To allow Spotlight to make SSH connections to any Unix or Linux hosts that permit SSH connections, you may need to alter the PasswordAuthentication configuration item in the sshd_config file. Set the value of PasswordAuthentication to yes. Once you have modified the sshd_config file you must restart the sshd process to apply the new setting.
 
+## Network Ports
+Spotlight requires the port for SSH (secure shell) connection to the Unix/Linux server to be open. The port is open by default. The  port number is 22 by default
 
  {% include links.html %}

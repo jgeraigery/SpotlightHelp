@@ -28,6 +28,6 @@ Spotlight supports all SQL Server sort orders, including case-sensitive and bina
 
 On each monitored instance Spotlight requires the network setting "File and Print Sharing" to be enabled.
 
-UDP port 1434 should be open. If UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance.
+If the SQL Server instance is hosted on a Windows server and UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance.
 
 {% include links.html %}

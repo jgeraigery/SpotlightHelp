@@ -43,7 +43,8 @@ Verify WMI is working and returns data properly. Verify TCP Port 135 is open on 
 
 ## UDP port 1434
 
-If UDP Port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance.
+
+If the SQL Server instance is hosted on a Windows server and UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance.
 
 {% include note.html content="The alarm will clear automatically if the error is due to the service being down or network problems and the error condition goes away." %}
 
