@@ -31,8 +31,9 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost, $localBase
       $uri = New-Object System.Uri($DesFile)
       $webclient.UploadFile($uri, $SrcFullname)
     } else {
-      $SrcFolderPath = $targetfolder  -replace "\\","\\" -replace "\:","\:"
-      $SrcFolderPath = $SrcFolderPath + $entry
+      $srcPath = "$targetfolder$entry\"
+      $SrcFolderPath = $srcPath  -replace "\\","\\" -replace "\:","\:"
+
       $DesFolder = $SrcFolderPath -replace $localBase, $ftphost
       $DesFolder = $DesFolder -replace "\\", "/"
       Write-Output $DesFolder
@@ -46,7 +47,7 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost, $localBase
         #folder created successfully
         Write-Output 'Done'
 
-        UploadFilesOfFolder -targetfolder.Fullnfolderame $entry -user $user -passwd $passwd -ftphost $ftphost, -localBase $localBase
+        UploadFilesOfFolder -targetfolder $srcPath -user $user -passwd $passwd -ftphost $ftphost, -localBase $localBase
       }
       catch [Net.WebException]
       {
@@ -65,5 +66,5 @@ function UploadFilesOfFolder($targetfolder, $user, $passwd, $ftphost, $localBase
     }
   }
 }
-
-UploadFilesOfFolder -targetfolder $UploadFolder -user $FTPUser -passwd $FTPPass -ftphost $FTPHost, -localBase $UploadFolder
+$basePath = $UploadFolder -replace "\\","\\" -replace "\:","\:"
+UploadFilesOfFolder -targetfolder $UploadFolder -user $FTPUser -passwd $FTPPass -ftphost $FTPHost, -localBase $basePath
