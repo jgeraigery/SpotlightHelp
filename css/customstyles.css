@@ -142,10 +142,23 @@ h4[id],
 h5[id],
 h6[id],
 dt[id]{
-padding-top: 60px;
-margin-top: -40px
+  padding-top: 60px;
+  margin-top: -40px;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Open Sans","Segoe UI", Helvetica, Arial, sans-serif;
+}
 body h1 {
 	margin-top:10px;
 	font-weight: 100;
@@ -443,10 +456,6 @@ a.accordion-toggle, a.accordion-collapsed {
 .nav a:hover, .nav li.active > a {
     background-color: #8D8D8D;
     color: #f5f5f5;
-}
-
-.nav > li.active > a  {
-background-color: #347DBE;
 }
 
 .nav li a {
