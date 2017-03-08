@@ -4,6 +4,10 @@
 	font-family: "Open Sans","Segoe UI", Helvetica, Arial, sans-serif;
 }
 
+p {
+    font-size: 90%;
+}
+
 /*Masthead*/
 .container.masthead {
   background: #222;
@@ -671,8 +675,8 @@ a.fa.fa-envelope-o.mailto {
     font-weight: 600;
 }
 
-h3 {color: #666666; font-weight:normal; font-size:130%;}
-h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
+h3 {color: #666666; font-weight:100; font-size:120%;}
+h4 {color: #808080; font-weight:100; font-size:110%;}
 
 .alert, .callout {
     overflow: hidden;
@@ -742,10 +746,12 @@ button.cursorNorm {
     cursor: pointer;
 }
 
-h2  {
+h2 {
     font-size: 130%;
-    font-weight: 300;
     line-height:29px;
+}
+h2,h3,h4 {
+  font-weight: 100;
 }
 span.otherProgrammingLanguages {
     font-style: normal;
