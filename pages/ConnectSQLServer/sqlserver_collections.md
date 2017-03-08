@@ -68,7 +68,6 @@ SQL Agent - Alerts Alarm | Alert Failures | Minimum refresh for this collection 
 SQL Agent - Jobs Failed Alarm | Agent Job List  |
 SQL Agent - Long Running Jobs Alarms | Agent Job List |  
 SQL Agent - Status  | General Counters |  
-SQL Analysis - Aggregation Information Alarm | SQL Analysis Aggregation | Non configurable
 SQL Virtual Log Files Count alarm | SQL Virtual Log Files Count   |
 Tempdb Auto Growth | Tempdb File Auto Growth   |
 Tempdb Contention | Tempdb Contention  |   
