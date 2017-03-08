@@ -12,7 +12,7 @@ folder: ConnectUnix
                 <div class="panel-body">
                     <h4>Connect</h4>
                     <p>Connect Spotlight to Linux servers.</p>
-                    <a href="linux_connect_details.html" class="btn btn-primary">Learn More</a>
+                    <a href="Unix_connect_details.html" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@ folder: ConnectUnix
                 <div class="panel-body">
                     <h4>Alarms</h4>
                     <p>Respond to raised alarms.</p>
-                    <a href="linux_alarms.html" class="btn btn-primary">Learn More</a>
+                    <a href="unix_alarms.html" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@ folder: ConnectUnix
                 <div class="panel-body">
                     <h4>Overview</h4>
                     <p>Diagnose bottlenecks and problem areas.</p>
-                    <a href="linux_drilldown_overview.html" class="btn btn-primary">Learn More</a>
+                    <a href="unix_drilldown_overview.html" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
         </div>
