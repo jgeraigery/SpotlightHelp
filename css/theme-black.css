@@ -60,7 +60,7 @@ body .btn-primary {
     color: #ffffff;
     background-color: #4495ca;
     border-color: #347DBE;
-    border-radius: none !important;
+    border-radius: 0 !important;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
