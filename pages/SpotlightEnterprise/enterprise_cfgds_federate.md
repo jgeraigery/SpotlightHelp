@@ -59,7 +59,7 @@ Note:
 
 * The Spotlight Diagnostic Servers in the federation cannot be monitoring the same connections. Where duplicate connections exist, federation cannot proceed. Spotlight will prompt you to delete duplicate connections.
 
-* Each Spotlight Diagnostic Server in the federation must be running Spotlight version 11.6 or later.
+* Each Spotlight Diagnostic Server in the federation must be running the same Spotlight version. Federation is supported for Spotlight Enterprise (Spotlight on SQL Server) versions 11.6 and above.
 
 * Each Spotlight Diagnostic Server in the federation authenticates with one selected Spotlight Diagnostic Server in the federation (the Configuration server). Each Spotlight Diagnostic Server authenticates with the Configuration server using Windows authentication over TCP port 40303. The Windows account that each Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server.
 
