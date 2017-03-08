@@ -10,5 +10,6 @@ folder: SpotlightEnterprise
 
 * Spotlight Enterprise does not support installation of the Spotlight Client on the Windows Vista operating system.
 * Spotlight Enterprise does not support installation of the Spotlight Client and Spotlight Diagnostic Server on 32bit operating systems.
+* Spotlight Enterprise Views have been deprecated in favor of Federation and Connection Views.
 
 {% include links.html %}
