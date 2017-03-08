@@ -8,7 +8,7 @@ folder: SpotlightEnterprise
 
 
 ## SCOM Console views
-Open the SCOM Console. Expand **Monitoring \| Quest Spotlight on SQL Server Enterprise**. Select from the available SCOM Console views.
+Open the SCOM Console. Expand **Monitoring \| Quest Spotlight Enterprise**. Select from the available SCOM Console views.
 
 {% include note.html content="The views in the SCOM Console update automatically when an alarm is raised or the alarm status changes. The views in the SCOM Console show all Spotlight connections, including those connections that are disabled and in outage." %}
 
