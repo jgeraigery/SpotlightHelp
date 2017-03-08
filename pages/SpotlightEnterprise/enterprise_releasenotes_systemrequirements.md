@@ -221,7 +221,7 @@ The following is transferred during the upgrade:
 * Alarm Actions (These include running a program and sending an email.)
 * Planned Outages
 * Global options such as user-created Error Log rules
-* Configuration information for the Spotlight Statistics Repository (this applies only if you installed the Spotlight Statistics Repository from Spotlight on SQL Server.)
+* Configuration information for the Spotlight Statistics Repository (applicable to deployments that include the Spotlight Statistics Repository.)
 
 ### Alarms requiring acknowledgment - upgrade
 The Spotlight factory settings for alarms requiring acknowledgment changes on upgrade from Spotlight 11.2. Only Connection Failure alarms are now factory set to require acknowledgment.
