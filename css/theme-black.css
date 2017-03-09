@@ -38,11 +38,6 @@ a[data-toggle="tooltip"] {
   border-color: #272727;
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #fafafa;
-  color: #555555;
-}
-
 body .btn-primary {
   color: #ffffff;
   background-color: #4495ca;
