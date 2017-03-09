@@ -99,8 +99,6 @@ The collections Fragmentation by Index and Fragmentation Overview can adversely 
 **Query Execution Statistics drilldown** - Query Plan returns a duplicate attribute error - This is a Microsoft bug. <br><br> *Workaround:* Restrict the grid by getting fewer records or sorting on a different variable. | 11179
 For SQL Activity \| Sessions \| Plan there is a limit on the size of the \<inputbuf\> tag of 1024 bytes (or nearly that). This cannot be expanded as the SQL Server truncates the SQL when it creates the XML. | 2300
 **Negative values in Wait Statistics drilldown.** Negative values may be shown in the Waits Details grid. | 3757
-**SQL Analysis grid.** The Text Data column in the SQL Analysis grid may occasionally display blank rows. This is due to SQL Server not returning any data in the Text Data column from the trace. | 219577
-**SQL Analysis and filtering.** When default filters are set in a mixed environment of SQL Server 2000, SQL Server 2005 and SQL Server 2008, if the filter uses a column that does not exist in one of the versions of SQL Server then the filter is ignored for that version. | 211872
 **SQL - Long Running SQL alarm** raised from a Spotlight issued query - This issue follows "Cannot alter the event session", the query stops responding (hangs) so it raises a Long Running SQL alarm. Refer to the Microsoft known issue: https://support.microsoft.com/en-us/kb/2511963  | .
 
 

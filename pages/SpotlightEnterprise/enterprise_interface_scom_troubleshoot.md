@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-summary: "Troublshooting issues using the Spotlight Management Pack for SCOM."
+summary: "Troubleshooting issues using the Spotlight Management Pack for SCOM."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_interface_scom_troubleshoot.html
 folder: SpotlightEnterprise

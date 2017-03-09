@@ -243,41 +243,6 @@ The following counters can be displayed by clicking the arrow next to the chart 
 **Current Wait Time** - The number of milliseconds that SQL Server has spent waiting for I/O operations on this file since the last time data for this page was collected.
 
 
-### SQL Analysis page
-Investigate Expensive SQL.
-
-#### SQL Analysis grid
-Shows SQL being executed, in real time, that conforms to the performance criteria configured on the SQL Analysis Dialog.
-
-You can use the SQL Analysis grid when load testing in a testing environment. For example, if you are trying to answer the question “I am simulating application workload in my test environment and I want to look at a breakdown of SQL statements in real-time. I am interested in what SQL statements are consuming the most average CPU right now.”, you would want to look at an aggregate of SQL statement executions (workload) in real-time. The SQL Analysis grid in the SQL Activity drilldown allows you to do exactly that.
-
-**To filter the data displayed**
-
-Click **Change Filter** to refine the display of data. Click **Add**.
-
-* From the **Column** list, choose the column you want to base your filter on.
-* From the **Condition** list, choose a condition to apply to the column. You can use the percent sign (%) wildcard with the is **like/is not like** condition.
-* You cannot use wildcard characters for the Database name when connected to a SQL Server 2000 instance.
-* In the **Value** field, type a value to filter events by.
-* Select **Filter results**.
-
-You can edit or delete a filter by selecting it in the filter list and clicking the appropriate button. To turn off filtering, clear the Filter results check box.
-
-##### Tips for using the SQL Analysis grid in the Spotlight Client
-
-* To identify SQL that consumed the most CPU, sort the grid by Total CPU
-* To identify the average CPU consumed by a particular statement, sort the grid by Average CPU
-* To identify SQL that was executed the most, sort the grid by Execution Count
-* To identify SQL with the highest logical I/O, sort the grid by Average Reads
-* Values in the "Duration" columns are in microseconds (usec).
-* Not all columns are available for all event classes. Some columns will be blank for certain event classes.
-* Some columns are hidden by default. To view hidden columns, right-click **Organize Columns**.
-* To wrap a column onto multiple lines, right-click the data content of the grid and select **Properties \| Options**. Turning on the word wrap option may degrade the performance of Spotlight.
-* If SQL Optimizer is installed, you can use it to tune non-conforming SQL that has been identified. To do this, select a row in the grid and click **Optimize SQL**.
-* Results are cleared when you leave the SQL Analysis page. Click **Clear Grid** to clear the grid manually.
-
-
-
 ### Custom Counters page
 Investigate Custom Counters.
 

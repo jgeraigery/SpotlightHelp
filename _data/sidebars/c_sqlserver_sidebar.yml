@@ -196,10 +196,6 @@ entries:
       url: /sqlserver_alarm_monitoredserver_alarmevaluationfailure.html
       output: web, pdf
 
-    - title: Monitored Server - SQL Server Collection Execution Failure
-      url: /sqlserver_alarm_monitoredserver_collectionexecutionfailure.html
-      output: web, pdf
-
     - title: Monitored Server - SQL Server Connection Failure
       url: /sqlserver_alarm_monitoredserver_connectionfailure.html
       output: web, pdf
@@ -278,10 +274,6 @@ entries:
 
     - title: SQL Agent - Status
       url: /sqlserver_alarm_sqlagent_status.html
-      output: web, pdf
-
-    - title: SQL Analysis - Aggregation Information
-      url: /sqlserver_alarm_sqlanalysis_aggregationinformation.html
       output: web, pdf
 
     - title: SQL Custom Counters
@@ -708,14 +700,6 @@ entries:
 
         - title: I/O by File chart
           url: /sqlserver_chart_iobyfile.html
-          output: web, pdf
-
-      - title: SQL Analysis page
-        output: web
-        subfolderitems:
-
-        - title: SQL Analysis
-          url: /sqlserver_grid_sqlanalysis.html
           output: web, pdf
 
       - title: Custom Counters page

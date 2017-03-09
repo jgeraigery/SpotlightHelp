@@ -43,10 +43,6 @@ Set the SQL statement that is used to measure SQL Server response time.
 
 The response time itself can be viewed in the **SQL Server \| SQL Activity** drilldown and the **SQL Server \| Spotlight Overview** page. For more information, see [Configure \| SQL Server Response Time][enterprise_cfgmonitor_sqlserverresponsetime].
 
-### SQL Analysis Filters
-
-Enable SQL Analysis. Configure the filters used to gather SQL Analysis data. For more information, see [Configure \| SQL Analysis][enterprise_cfgmonitor_sqlanalysis].
-
 ### Monitored Files
 
 Track the growth of files (usually log files) on monitored Windows Servers. For more information, see [Configure \| Monitored Files][enterprise_cfgmonitor_monitoredfiles].

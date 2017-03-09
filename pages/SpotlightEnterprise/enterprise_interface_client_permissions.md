@@ -36,7 +36,6 @@ Alarm Action Editor | Yes | Yes | No
 Alarm Actions \| Run a program | Yes | No | No
 Scheduling | Yes | Yes | No
 Planned Outage (Add, Edit, Remove) | Yes | No | No
-SQL Analysis | Yes | Yes | No
 SQL Server Response Time | Yes | No | No
 Custom Counters | Yes | Yes | No
 Error Log Entries | Yes | Yes | No

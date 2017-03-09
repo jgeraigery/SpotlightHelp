@@ -7,12 +7,12 @@ folder: SpotlightEnterprise
 ---
 
 Open the SCOM Console.
-1. Expand **Monitoring \| Quest Spotlight on SQL Server Enterprise**.
+1. Expand **Monitoring \| Quest Spotlight Enterprise**.
 2. Select the **Spotlight Alarms** view.
 3. Select the alarm in the **All Alarms** panel.
-4. From the main menu select: **Tasks \| SoSSE Alarms Class Tasks**. Select to snooze, unsnooze or acknowledge the selected alarm.
+4. From the main menu select: **Tasks \| Spotlight Alarms Class Tasks**. Select to snooze, unsnooze or acknowledge the selected alarm.
 
-   Alternatively, from the SCOM Console Tasks Pane click **Tasks \| SoSSE Alarms Class Tasks** to snooze, unsnooze or acknowledge the selected alarm. To open the Tasks Pane, from the SCOM Console main menu click **View \| Tasks**.
+   Alternatively, from the SCOM Console Tasks Pane click **Tasks \| Spotlight Alarms Class Tasks** to snooze, unsnooze or acknowledge the selected alarm. To open the Tasks Pane, from the SCOM Console main menu click **View \| Tasks**.
 
 
 {% include note.html content="This functionality can only be performed one alarm at a time." %}

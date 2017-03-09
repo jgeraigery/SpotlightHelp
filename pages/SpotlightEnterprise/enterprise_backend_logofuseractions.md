@@ -45,10 +45,6 @@ Spotlight collects data according to set schedules. The log records all changes 
 
 Changes to Planned Outage are recorded in the log of user actions.
 
-### SQL Analysis
-
-The SQL Analysis dialog is used to determine what data is collected and displayed in the SQL Analysis - Workload Report and the SQL Server \| SQL Activity Drilldown \| SQL Analysis page. The log records all changes to the SQL Analysis dialog as applied to a monitored connection or template.
-
 ### SQL Server Response Time
 
 The log records changes to the SQL statement used to measure SQL Server response time as applied to a monitored connection or template.
