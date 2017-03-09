@@ -138,7 +138,6 @@ Blocking | Decode Wait Resource | Non configurable
 Blocking | Blocking List | Non configurable
 Deadlocks | Deadlock List  |  
 I/O by File | Virtual File Statistics  |
-SQL Analysis | SQL Analysis  |
 Custom Counters | Custom Counters - SQL Server |  
 Query Execution Statistics | QueryExecutionStatistics |  
 

@@ -21,7 +21,6 @@ Business benefits include:
 * Diagnostic Server reduces load on databases and operating systems by collecting data once and sharing it between all connected Spotlight clients.
 * Long-term historical data can be stored in a repository for future analysis and planning purposes.
 * Diagnostic Server configuration is centralized and applied to all connections. Individual connections can then be customized as required.
-* SQL Analysis captures SQL from a SQL Server based on a collection filter you specify and allows you to quickly get a picture of the most expensive SQL running on the server both from real-time and historical perspectives.
 * Operating System data is collected only once, even if multiple instances are being monitored on that particular host.
 
 {% include links.html %}

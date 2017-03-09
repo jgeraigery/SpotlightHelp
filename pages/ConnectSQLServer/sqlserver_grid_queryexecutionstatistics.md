@@ -12,7 +12,7 @@ folder: ConnectSQLServer
 
 To reduce the load when querying the SQL Server, Spotlight determines the top statements using the 'by' criteria before applying the other filters. For example, if you want to find statements using a particular index, and the top n filter was set to top 50 statements by average worker time, Spotlight first finds the top 50 statements by average worker time and then looks for the use of the specified index within this top 50.
 
-The Query Execution Statistics drilldown can be used as an alternative to the SQL Analysis drilldown. Select a statement in the grid to see the complete SQL statement and the query plan.
+Select a statement in the grid to see the complete SQL statement and the query plan.
 
 The columns in the Query Execution Statistics grid correspond to the data returned by sys.dm_exec_query_stats. For more information on sys.dm_exec_query_stats, see the Transact-SQL Reference section in Microsoft SQL Server Books Online.
 

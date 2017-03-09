@@ -496,18 +496,6 @@ entries:
           url: /enterprise_cfgmonitor_plannedoutage_details.html
           output: web, pdf
 
-      - title: Configure SQL Analysis
-        output: web
-        subfolderitems:
-
-        - title: Configure SQL Analysis
-          url: /enterprise_cfgmonitor_sqlanalysis.html
-          output: web, pdf
-
-        - title: Add filter
-          url: /enterprise_cfgmonitor_sqlanalysis_addfilter.html
-          output: web, pdf
-
     - title: Configure SQL Server Response Time
       url: /enterprise_cfgmonitor_sqlserverresponsetime.html
       output: web, pdf
