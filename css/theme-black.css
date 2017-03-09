@@ -13,16 +13,12 @@ h4 {color: #808080; }
     color: white;
 }
 
-.nav > li.active > a {
-    background-color: #888888;
-}
-
-.nav > li > a:hover {
-    background-color: #888888;
+.nav > li.active > a, .nav > li > a:hover {
+    background-color: #FAFAFA;
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: #888888;
+    background-color: #FAFAFA;
 }
 
 .nav li.thirdlevel > a {
