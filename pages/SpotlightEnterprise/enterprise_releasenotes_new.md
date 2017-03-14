@@ -1,7 +1,7 @@
 ---
 title: New in this Release
 keywords: release notes
-summary: "New features in Spotlight Enterprise 12."
+summary: "New features in Spotlight Enterprise 12.0"
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_new.html
 id: 40001
