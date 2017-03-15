@@ -4,22 +4,17 @@
     <div class="container topnavlinks">
         <div class="navbar-header">
           <div class="masthead-logo">
-          	<a class="nav-link-quest"
-             href="http://www.quest.com">
-				<img src="images/quest-logo-white.png" alt="Quest Software Inc." />
-          	</a>
-          	<img class="vert-line-mast" src="images/vert-line-masthead.png" alt="" />
-          	<a class="nav-link-home" href="/">Spotlight</a>
-        </div>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+          	<a class="nav-link-home" href="/">Spotlight<sup>®</sup></a>
+          </div>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav">
                 <!-- entries without drop-downs appear here -->
                 {% for entry in site.data.topnav.topnav %}
                 {% for item in entry.items %}
