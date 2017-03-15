@@ -35,6 +35,9 @@ Report on SQL Agent Jobs that failed during the selected time range.
 ## Server Alarms by Time Report
 Report on alarms that have occurred on the specified server for a set time period.
 
+## SQL Server Availability Report
+Report on how available the given SQL Server instances have been over the specified time period. Include uptime statistics and the reason for any downtime periods (as per Spotlight alarms raised).
+
 ## SQL Server Blocking Report
 Report on the lead blockers and the number of blocked processes over the selected time range. Report on the SQL statements that have caused the most blocking over the selected time range. Report on the SQL statements that have been blocked most often over the selected time range.
 
