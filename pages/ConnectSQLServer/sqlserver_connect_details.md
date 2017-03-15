@@ -104,6 +104,12 @@ Spotlight uses the current host node name to select the operating system connect
 Click **Create** to add a Windows server to the list. This opens [Windows Server \| Connection Details][windows_connect_details].
 
 
+## Alarms template
+
+Select the [configuration template][enterprise_cfgmonitor_templates] to apply to this connection.
+
+Select from any of the SQL Server configuration tempaltes that you have created. Select **Factory Settings Template** to apply the Factory Settings as shipped with Spotlight.
+
 
 ## Troubleshooting
 
