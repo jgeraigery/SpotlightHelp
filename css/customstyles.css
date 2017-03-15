@@ -1,6 +1,11 @@
 ﻿body {
-    font-size:16px;
-	font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+	font-family: "Open Sans","Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-size: 90%;
 }
 
 /*Masthead*/
@@ -12,22 +17,21 @@
   color: #ffffff;
   display: inline;
   float: left;
-  min-height: 47px;
-  margin: 13px 0 13px 13px;
+  padding-top: 16px;
   text-align: center;
   vertical-align: middle;
 }
 
   .masthead-logo a {
     color: #fff;
-    font-size: 120%;
+    font-size: 24px;
     text-decoration: none;
     display: inline;
   }
 
   .masthead-logo sup {
-    font-size: 50%;
-    vertical-align: super;
+    font-size: 60%;
+    margin-left: 4px;
   }
 
 .nav-link-quest {
@@ -40,16 +44,16 @@
 }
 
 .nav-link-home {
-  padding: 0 0 0 10px;
+  padding: 0;
 }
 /*Top nav*/
 .navbar {
   position: relative;
   z-index: 1000;
-  min-height: 73px;
   margin-bottom: 0px;
   border: 1px solid transparent;
   color: #fff;
+  height: 75px;
 }
 
 .nav > li {
@@ -132,10 +136,6 @@
 .gi-4x{font-size: 4em;}
 .gi-5x{font-size: 5em;}
 
-
-
-
-
 .breadcrumb > .active {color: #777 !important;}
 
 /* make room for the nav bar */
@@ -146,16 +146,28 @@ h4[id],
 h5[id],
 h6[id],
 dt[id]{
-padding-top: 60px;
-margin-top: -40px
+  padding-top: 60px;
+  margin-top: -40px;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Open Sans","Segoe UI", Helvetica, Arial, sans-serif;
+}
 body h1 {
 	margin-top:10px;
 	font-weight: 100;
 	color: #666;
-	font-size: 165%;
-	font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+	font-size: 155%;
 }
 
 .post-content img {
@@ -167,18 +179,19 @@ body h1 {
 }
 
 .post-content ol li, .post-content ul li {
-    margin: 10px 0px;
+  margin: 10px 0px;
+  font-size: 90%;
 }
 
 .pageSummary {
-    font-size:13px;
-    display:block;
-    margin-bottom:15px;
-    padding-left:20px;
+  font-size:13px;
+  display:block;
+  margin-bottom:15px;
+  padding-left:20px;
 }
 
 .post-summary {
-    margin-bottom:12px;
+  margin-bottom:12px;
 }
 
 .bs-example{
@@ -219,12 +232,13 @@ table > tfoot > tr > td {
     border-top: 1px solid #ddd;
 }
 table > thead > tr > th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #ddd;
-    text-transform: none;
-    background-color: #777;
-    color: white;
-    text-align: left;
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+  text-transform: none;
+  background-color: #777;
+  color: white;
+  text-align: left;
+  font-weight: 300;
 }
 table > caption + thead > tr:first-child > th,
 table > colgroup + thead > tr:first-child > th,
@@ -353,7 +367,7 @@ div#toc ul li ul li::before {
 
 div#toc >ul::before {
     content: "Topics on this page:";
-    font-weight: 500;
+    font-weight: 300;
     color: #555;
     text-align:center;
     margin-left:auto;
@@ -376,7 +390,6 @@ li.dropdownActive a {
 
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
-    margin-top:10px;
 }
 
 .post-content .rssfeedLink {
@@ -410,7 +423,7 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .nav {
     /* padding: 4px;*/
-    padding:0px;
+    padding: 20px;
     margin: 0px;
 }
 
@@ -423,7 +436,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav a {
-    color: #333;
+    color: #666;
     display: block;
     outline: none;
     /*-webkit-border-radius: 4px;
@@ -447,12 +460,8 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav a:hover, .nav li.active > a {
-    background-color: #8D8D8D;
-    color: #f5f5f5;
-}
-
-.nav > li.active > a  {
-background-color: #347DBE;
+    background-color: #fafafa;
+    color: #555555;
 }
 
 .nav li a {
@@ -477,173 +486,151 @@ ul#mysidebar {
 }
 
 .nav li.thirdlevel > a {
-    color: #248EC2;
-    font-weight:bold;
-    padding-left:20px;
-    background-color: whitesmoke !important;
-}
-
-
-.nav ul li a {
-    background-color: #FAFAFA;
-}
-
-.nav li a {
-    padding-right:10px;
+  padding-left:20px;
 }
 
 .nav li a:hover {
-    background-color: #8D8D8D;
+  background-color: #FAFAFA;
+  color: #555555;
 }
 
 .nav ul li a {
-    border-top:1px solid whitesmoke;
-    padding-left:10px;
+  background-color: #FAFAFA;
+  border-top:1px solid whitesmoke;
+  padding-left:10px;
 }
 /* end sidebar */
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    border-radius:5px;
-}
-
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    border-radius: 5px;
-}
-
 span.projectTitle {
-    font-family: Helvetica;
-    font-weight: bold;
+  font-family: Helvetica;
+  font-weight: bold;
 }
 
 .footer {
-    text-align: right;
+  text-align: right;
 }
 
 .footerMeta {
-    background-color: whitesmoke;
-    padding: 10px;
-    max-width: 250px;
-    border-radius: 5px;
-    margin-top: 50px;
-    font-style:italic;
-    font-size:12px;
+  background-color: whitesmoke;
+  padding: 10px;
+  max-width: 250px;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-style:italic;
+  font-size:12px;
 }
 
 img.screenshotSmall {
-    max-width: 300px;
+  max-width: 300px;
 }
-
 
 dl dt p {
-    margin-left:20px;
+  margin-left:20px;
 }
 
-
 dl dd {
-    margin-top:10px;
-    margin-bottom:10px;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
 dl.dl-horizontal dd {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 figcaption {
-
-    padding-bottom:12px;
-    padding-top:6px;
-    max-width: 90%;
-    margin-bottom:20px;
-    font-style: italic;
-    color: gray;
-
+  padding-bottom:12px;
+  padding-top:6px;
+  max-width: 90%;
+  margin-bottom:20px;
+  font-style: italic;
+  color: gray;
 }
 
 .testing {
-    color: orange;
+  color: orange;
 }
 
 .preference {
-    color: red;
+  color: red;
 }
 
 
 table.dataTable thead {
-    background-color: #444;
+  background-color: #444;
 }
 table td {
-    hyphens: auto;
+  hyphens: auto;
 }
 
 section table tr.success {
-    background-color: #dff0d8 !important;
+  background-color: #dff0d8 !important;
 }
 
 table tr.info {
-    background-color: #d9edf7 !important;
+  background-color: #d9edf7 !important;
 }
 
 section table tr.warning, table tr.testing, table tr.testing > td.sorting_1  {
-    background-color: #fcf8e3 !important;
+  background-color: #fcf8e3 !important;
 }
 section table tr.danger, table tr.preference, table tr.preference > td.sorting_1  {
-    background-color: #f2dede !important;
+  background-color: #f2dede !important;
 }
 
 .orange {
-    color: orange;
+  color: orange;
 }
 
 table.profile thead tr th {
-    background-color: #248ec2;
+  background-color: #248ec2;
 }
 
 table.request thead tr th {
-    background-color: #ED1951;
+  background-color: #ED1951;
 }
 
 .audienceLabel {
-    margin: 10px;
-    float: right;
-    border:1px solid #dedede;
-    padding:7px;
+  margin: 10px;
+  float: right;
+  border:1px solid #dedede;
+  padding:7px;
 }
 
 .prefaceAudienceLabel {
-    color: gray;
-    text-align: center;
-    margin:5px;
+  color: gray;
+  text-align: center;
+  margin:5px;
 }
 span.myLabel {
-    padding-left:10px;
-    padding-right:10px;
+  padding-left:10px;
+  padding-right:10px;
 }
 
 button.cursorNorm {
-    cursor: default;
+  cursor: default;
 }
 
 a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 hr.faded {
-    border: 0;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
 
 hr.shaded {
-    height: 12px;
-    border: 0;
-    box-shadow: inset 0 6px 6px -6px rgba(0,0,0,0.5);
-    margin-top: 70px;
-    background: white;
-    width: 100%;
-    margin-bottom: 10px;
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 6px 6px -6px rgba(0,0,0,0.5);
+  margin-top: 70px;
+  background: white;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .fa-6x{font-size:900%;}
@@ -653,43 +640,42 @@ hr.shaded {
 .fa-10x{font-size:1700%;}
 
 i.border {
-    padding: 10px 20px;
-    background-color: whitesmoke;
+  padding: 10px 20px;
+  background-color: whitesmoke;
 }
 
 a[data-toggle] {
-    color: #248EC2;
+  color: #248EC2;
 }
 
 .summary {
-    font-size:120%;
-    color: #808080;
-    margin:20px 0px 20px 0px;
-    border-left: 5px solid #ED1951;
-    padding-left: 10px;
-
+  font-size:120%;
+  color: #808080;
+  margin:20px 0px 20px 0px;
+  border-left: 5px solid #ED1951;
+  padding-left: 10px;
 }
 
 .summary:before {
-    content: "Summary: ";
-    font-weight: bold;
+  content: "Summary: ";
+  font-weight: 300;
 }
 
 
 a.fa.fa-envelope-o.mailto {
-    font-weight: 600;
+  font-weight: 600;
 }
 
-h3 {color: #ED1951; font-weight:normal; font-size:130%;}
-h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
+h3 {color: #666666; font-weight:100; font-size:120%;}
+h4 {color: #808080; font-weight:100; font-size:110%;}
 
 .alert, .callout {
     overflow: hidden;
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background-color: #248ec2;
-    color: white;
+  background-color: #248ec2;
+  color: white;
 }
 
 ol li ol li {list-style-type: lower-alpha;}
@@ -698,115 +684,116 @@ ol li ul li {list-style-type: disc;}
 li img {clear:both; }
 
 div#toc ul li ul li {
-    list-style-type: none;
-    margin: 5px 0px 0px 0px;
+  list-style-type: none;
+  margin: 5px 0px 0px 0px;
 }
 
 .tab-content {
-    padding: 15px;
-    background-color: #FAFAFA;
+  padding: 15px;
+  background-color: #FAFAFA;
 }
 
 span.tagTitle {font-weight: 500;}
 
 li.activeSeries {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .seriesContext .dropdown-menu li.active {
-    font-weight: bold;
-    margin-left: 43px;
-    font-size:18px;
+  font-weight: bold;
+  margin-left: 43px;
+  font-size:18px;
 }
 
 .alert-warning {
-    color: #444;
+  color: #444;
 }
 
 div.alert code, h2 code {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 /* without this, the links in these notes aren't visible.*/
 .alert a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 div.tags {padding: 10px 5px;}
 
 .tabLabel {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 hr {
-    border: 0;
-    border-bottom: 1px dashed #ccc;
-    background: #999;
-    margin: 30px 0px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
+  margin: 30px 0px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button.cursorNorm {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-h2  {
-    font-size:24px;
-    line-height:29px;
+h2 {
+  font-size: 130%;
+  line-height:29px;
+}
+h2,h3,h4 {
+  font-weight: 100;
 }
 span.otherProgrammingLanguages {
-    font-style: normal;
+  font-style: normal;
 }
 
 a[data-toggle="tooltip"] {
-    color: #649345;
-    font-style: italic;
-    cursor: default;
+  color: #649345;
+  font-style: italic;
+  cursor: default;
 }
 
 .seriesNext, .seriesContext {
-    margin-top: 15px;
-    margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .seriescontext ol li {
-    list-style-type: upper-roman;
+  list-style-type: upper-roman;
 }
 
 ol.series li {
-    list-style-type: decimal;
-    margin-left: 40px;
-    padding-left: 0px;
+  list-style-type: decimal;
+  margin-left: 40px;
+  padding-left: 0px;
 }
 
 .siteTagline {
-    font-size: 200%;
-    font-weight: bold;
-    color: silver;
-    font-family: monospace;
-    text-align: center;
-    line-height: 10px;
-    margin: 20px 0px;
-    display: block;
+  font-size: 200%;
+  font-weight: bold;
+  color: silver;
+  font-family: monospace;
+  text-align: center;
+  line-height: 10px;
+  margin: 20px 0px;
+  display: block;
 }
 
 .versionTagline {
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: courier;
-    font-color: silver;
-    color: #444;
-    display:block;
-}
-
-/* not sure if using this ...*/
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #248ec2 !important;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: courier;
+  font-color: silver;
+  color: #444;
+  display:block;
 }
 
 #mysidebar .nav ul {
-    background-color: #FAFAFA;
+  background-color: #FAFAFA;
+}
+#mysidebar a {
+  font-weight: 300;
 }
 .nav ul.series li {
     list-style: decimal;
@@ -823,12 +810,6 @@ ol.series li {
 .nav ul.series {
     background-color: #FAFAFA;
 }
-
-/*
-a.dropdown-toggle.otherProgLangs {
-    color: #f7e68f !important;
-}
-*/
 
 span.muted {color: #666;}
 
@@ -938,10 +919,79 @@ span.soft {
     background-color: whitesmoke;
 }
 
+@media (min-width: 768px) {
+  .navbar-nav > li > .dropdown-menu {
+    margin-top: 24px;
+  }
+  .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #262626;
+    color: #f9faf9;
+  }
+}
+
 @media (max-width: 767px) {
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-        color: #444;
-    }
+  .navbar-nav {
+    background: #F1F1F1;
+    padding: 0;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #555555;
+    margin-left: 0;
+    border-bottom: 1px solid #F0F0F0;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    background: #fafafa;
+    color: #555555;
+  }
+
+  .navbar-inverse .navbar-nav > li > a {
+    color: #333;
+  }
+  .navbar-inverse .navbar-nav > li > a .caret,
+  .navbar-inverse .navbar-nav > .dropdown.open > a .caret,
+  .navbar-inverse .navbar-nav > .open > a:hover .caret,
+  .navbar-inverse .navbar-nav > .dropdown > a .caret,
+  .navbar-inverse .navbar-nav > .dropdown > a:hover .caret,
+  .navbar-inverse .navbar-nav > li > a:hover .caret {
+    border-top-color: #000000;
+    border-bottom-color: #000000;
+  }
+  .navbar-inverse .navbar-nav > li > a:focus,
+  .navbar-inverse .navbar-nav > li > a:hover,
+  .navbar-inverse .navbar-nav > .open > a,
+  .navbar-inverse .navbar-nav > .open > a:hover,
+  .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #555555;
+    background: #fafafa;
+  }
+
+  a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
+    margin-left: 0;
+  }
+  .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #bs-example-navbar-collapse-1 {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14902);
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left: 1px solid rgba(0, 0, 0, 0.14902);
+    border-right: 1px solid rgba(0, 0, 0, 0.14902);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top:1px solid rgba(0, 0, 0, 0.14902);
+    margin-top: 24px;
+  }
 }
 
 @media (max-width: 990px) {
@@ -1073,22 +1123,21 @@ span.label.label-primary {
 .col-lg-12 .nav li a {background-color: white}
 
 li.sidebarTitle {
-    margin-top:20px;
-    font-weight: 100;
-    font-size:120%;
-    color: #fff;
-    margin-bottom:10px;
-    margin-left: 0px;
+  margin-top:20px;
+  font-weight: 100;
+  font-size:120%;
+  color: #555555;
+  margin-bottom:10px;
+  margin-left: 0px;
 	padding: 10px;
-	background: #347DBE;
-
+	background: #ebebeb;
 }
 
 .nav li.active > a.subfoldersTitle {
-    background-color: whitesmoke;
-    font-weight: bold;
-    color: black;
-    }
+  background-color: whitesmoke;
+  font-weight: bold;
+  color: black;
+}
 
 a code {
     color: #248EC2;
