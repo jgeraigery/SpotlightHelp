@@ -20,6 +20,11 @@ The SQL Server, **Top SQL Statements** drilldown has been renamed to **Query Exe
 On the SQL Server, SQL Activity drilldown, Sessions grid the Status column has been color coded for readability. | SOSSE-5714
 Spotlight should Scrub sensitive data before uploading to Spotlight Essentials so that the user's confidential data does not reach the web. | SoSSE-4484
 When monitoring a SQL Server Availability Group, Spotlight now requires the connection address is to the Availability Listener. Spotlight raises an alarm if the connection address is to another node. | SoSSE-3117
+When monitoring SQL Server, the **Support Services drilldown \| SQL Agent Jobs page** now includes the QL agent job SPID. | SOSSE-5638
+
+### SPID
+
+The unique session number for the SQL agent job.
 
 
 {% include links.html %}

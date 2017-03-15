@@ -71,4 +71,8 @@ Average duration of all successful runs for this job. This column is hidden by d
 
 If the job is currently running, this shows the current step number. This column is hidden by default.
 
+### SPID
+
+The unique session number for the SQL agent job.
+
 {% include links.html %}
