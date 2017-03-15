@@ -12,6 +12,7 @@ folder: ConnectAvailabilityGroup
 
 Refer to the message details for this alarm.
 
+* Verify the address of the Availability Listener is the address entered on the Spotlight Client screen: **Configure \| Connections \| Availabiity Group \| Connection Details**.
 * If the message details alert you to a problem in your environment then take the action required to resolve that problem.
 * If the message details alert you to a problem within Spotlight then contact Quest Support.
 
