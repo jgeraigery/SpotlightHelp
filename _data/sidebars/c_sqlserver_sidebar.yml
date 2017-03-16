@@ -610,8 +610,8 @@ entries:
           url: /sqlserver_grid_sessions.html
           output: web, pdf
 
-        - title: Statement
-          url: /sqlserver_statement.html
+        - title: SQL
+          url: /sqlserver_sql_selectedsession.html
           output: web, pdf
 
         - title: Session Trace
@@ -726,8 +726,8 @@ entries:
           url: /sqlserver_grid_queryexecutionstatistics.html
           output: web, pdf
 
-        - title: Statement
-          url: /sqlserver_statement.html
+        - title: SQL
+          url: /sqlserver_sql.html
           output: web, pdf
 
   - title: Performance Health drilldown
