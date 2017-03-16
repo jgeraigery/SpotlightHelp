@@ -4,7 +4,7 @@ tags: [sqlserver_alarms]
 last_updated: July 29, 2016
 summary: "The specified collection failed to execute against this server."
 sidebar: c_sqlserver_sidebar
-permalink: sqlserver_alarm_monitoredserver_collectionexecution.html
+permalink: sqlserver_alarm_monitoredserver_collectionexecutionfailure.html
 id:
 folder: ConnectSQLServer
 ---
