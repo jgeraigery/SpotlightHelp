@@ -10,10 +10,10 @@ folder: SpotlightEnterprise
 
 Issue | ID
 ------|---
-AV error occur when cancel link the Virtualization connection | SOSSE-6406
-Client has connection failures in a TLS 1.2 only environment | SOSSE-6383
-Tag and OS Details info being reverted when update connection properties | SOSSE-6370
-Session trace show error when trace from SQL activity | SOSSE-6260
+Corrected the source of an exception error on editing a connection to a monitored operating system where the link to the virtual server is removed. | SOSSE-6406
+Resolved the source of an error on creating a Playback Database or Spotlight Statistics Repository in a TLS 1.2 only environment. | SOSSE-6383
+Corrected a problem with the persistency of database connection properties (tags and operating system host) in an environment where multiple Spotlight Clients connect to a Spotlight Diagnostic Server. | SOSSE-6370
+Resolved the source of an exception error on monitoring SQL Server and actioning Session Trace from various drilldowns such as TempDB \| Usage and SQL Activity \| Locks. | SOSSE-6260
 Top N alarms shows no alarms in Spotlight Today | SOSSE-6224
 As a user I want there is an easier way to analyze activity performance issues in Spotlight | SOSSE-6218
 Column's sorting is not preserved | SOSSE-6216
