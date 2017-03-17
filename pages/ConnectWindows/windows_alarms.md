@@ -2,14 +2,14 @@
 title: Windows Server Alarms
 last_updated: July 29, 2016
 tags: [alarms,alarms_by_connection_type]
-summary: ""
+summary: "Respond to Windows server alarms raised by Spotlight."
 sidebar: c_windows_sidebar
 permalink: windows_alarms.html
 folder: ConnectWindows
 ---
 
 
-## List of alarms that can be raised against a Windows Server connection
+## Alarms that can be raised against a Windows Server connection
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}

@@ -2,14 +2,14 @@
 title: Availability Group Alarms
 last_updated: July 29, 2016
 tags: [alarms,alarms_by_connection_type]
-summary: ""
+summary: "Respond to Availability Group alarms raised by Spotlight."
 sidebar: c_availabilitygroup_sidebar
 permalink: availabilitygroup_alarms.html
 folder: ConnectAvailabilityGroup
 ---
 
 
-## List of alarms that can be raised against an Availability Group connection
+## Alarms that can be raised against an Availability Group connection
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}

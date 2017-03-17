@@ -2,13 +2,13 @@
 title: Spotlight Alarms raised against an Analysis Services connection
 last_updated: July 29, 2016
 tags: [alarms,alarms_by_connection_type]
-summary: ""
+summary: "Respond to SQL Server Analysis Services alarms raised by Spotlight."
 sidebar: c_analysisservices_sidebar
 permalink: analysisservices_alarms.html
 folder: ConnectAnalysisServices
 ---
 
-## List of alarms that can be raised against a SQL Server Analysis Services connection
+## Alarms that can be raised against a SQL Server Analysis Services connection
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}

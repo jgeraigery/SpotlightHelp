@@ -2,14 +2,14 @@
 title: SQL Server Replication Alarms
 last_updated: July 29, 2016
 tags: [alarms,alarms_by_connection_type]
-summary: ""
+summary: "Respond to SQL Server Replication alarms raised by Spotlight."
 sidebar: c_replication_sidebar
 permalink: replication_alarms.html
 folder: ConnectReplication
 ---
 
 
-## List of alarms that can be raised against a SQL Server Replication connection
+## Alarms that can be raised against a SQL Server Replication connection
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}

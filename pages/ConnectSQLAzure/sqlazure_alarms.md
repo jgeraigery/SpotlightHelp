@@ -2,7 +2,7 @@
 title: SQL Azure Alarms
 last_updated: July 29, 2016
 tags: [alarms,alarms_by_connection_type]
-summary: ""
+summary: "Respond to SQL Azure alarms raised by Spotlight."
 sidebar: c_sqlazure_sidebar
 permalink: sqlazure_alarms.html
 folder: ConnectSQLAzure
@@ -10,7 +10,7 @@ folder: ConnectSQLAzure
 
 
 
-## List of alarms that can be raised against a SQL Azure connection
+## Alarms that can be raised against a SQL Azure connection
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}

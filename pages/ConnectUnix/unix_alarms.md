@@ -2,14 +2,14 @@
 title: Unix/Linux Alarms
 last_updated: July 29, 2016
 tags: [alarms,alarms_by_connection_type]
-summary: ""
+summary: "Respond to Unix/Linux alarms raised by Spotlight."
 sidebar: c_unix_sidebar
 permalink: unix_alarms.html
 folder: ConnectUnix
 ---
 
 
-## List of alarms that can be raised against a Unix/Linux connection
+## Alarms that can be raised against a Unix/Linux connection
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}
