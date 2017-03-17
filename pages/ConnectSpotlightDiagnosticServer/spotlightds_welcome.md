@@ -1,5 +1,6 @@
 ---
 title: Spotlight Diagnostic Server
+summary: "The Spotlight Diagnostic Server is a core component of the Spotlight Enterprise architecture. All Spotlight data passes through the Spotlight Diagnostic Server. Spotlight Enterprise monitors the status of the Spotlight Diagnostic Server and raises alarms where necessary."
 last_updated: July 29, 2016
 sidebar: c_spotlightds_sidebar
 toc: false
@@ -8,12 +9,11 @@ folder: ConnectSpotlightDS
 ---
 
 <div class="row">
-        <h2 class="page-header">Use Spotlight to monitor the Spotlight Diagnostic Server</h2>
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
                 <div class="panel-body">
                     <h4>Alarms</h4>
-                    <p>Respond to raised alarms.</p>
+                    <p>Respond to alarms raised by Spotlight.</p>
                     <a href="spotlightds_alarms.html" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
