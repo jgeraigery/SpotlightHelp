@@ -21,21 +21,24 @@ folder: ConnectAvailabilityGroup
 
  1.  Click **Configure \| Connections**.
  2.  Double click **Add new connection**.
- 3.  Fill in the connection details as follows.
- 4.  Click **Test** to test the connection.
+ 3.  Fill in the connection details.
 
+## Connection details
 
-## Address
+### Address
 
 Specify the Availability Listener: IP address, hostname, or URL.
 
-## Authentication
+### Authentication
 
 Specify the authentication for Spotlight to use to connect to the Availability Listener.
 
 Select **Windows Authentication (using Diagnostic Server credentials)** to use the Windows user configured to run the Spotlight Diagnostic Server.
 
 Alternatively, fill in the **User** and **Password** fields. Ensure the account has sufficient privileges to retrieve server information, query the registry, and access WMI and performance monitor objects. An account with administrative rights to the listener allows this.
+
+## Test the connection
+On entering / modifying connection details in the Spotlight Client, click **Test** to test the connection.
 
 
 {% include links.html %}

@@ -16,21 +16,25 @@ From the Spotlight Client
 
 1.  Click **Configure \| Connections**.
 2.  Double click **Add new connection**.
-3.  Fill in the connection details as follows.
-4.  Click **Test** to test the connection.
+3.  Fill in the connection details.
 
+## Connection details
 
-## Address
+### Address
 Enter the hostname or IP address to the Unix/Linux machine.
 
-## User
+### User
 Enter the user name to login to the Unix/Linux machine.
 
-## Password
+### Password
 Enter the password to login to the Unix/Linux machine.
 
-## Port Number
+### Port Number
 Enter the port number for SSH (secure shell) connection to the Unix/Linux machine. The default value is 22.
+
+
+## Test the connection
+On entering / modifying connection details in the Spotlight Client, click **Test** to test the connection.
 
 
 {% include links.html %}

@@ -19,13 +19,13 @@ From the Spotlight Client
 
 1.  Click **Configure \| Connections**.
 2.  Double click **Add new connection**.
-3.  Fill in the connection details as follows.
-4.  Click **Test** to test the connection.
+3.  Fill in the connection details.
 
 {% include tip.html content="Spotlight can add Windows Server via discovery or by importing details from a file. See the [Connection Discovery Wizard][enterprise_cfgmonitor_connect_discoverywizard]." %}
 
+## Connection details
 
-## Address
+### Address
 
 Specify the IP address, hostname, or URL of the Windows Server.
 
@@ -33,7 +33,7 @@ If the Windows Server is in a different domain to the Spotlight Diagnostic Serve
 
 {% include note.html content="Spotlight can only connect to Windows servers in a domain. Spotlight cannot connect to Windows servers in a workgroup. Spotlight cannot connect to databases hosted on Windows servers in a workgroup." %}
 
-## Authentication
+### Authentication
 
 Specify the authentication for Spotlight to use to connect to the Windows server and retrieve performance data.
 
@@ -42,9 +42,9 @@ Select **Use Diagnostic Server credentials** to use the Windows user configured 
 Alternatively, fill in the **User** and **Password** fields. Include the Windows domain in the user name. For example, “domain\johnsmith”, instead of “johnsmith”. The account must have the privileges required to retrieve server information, query the registry, and access WMI and performance monitor objects. An account with administrative rights to the Windows server allows this. If this is not feasible in your environment then the following instructions are provided: [How to configure WMI with minimum required user permissions][windows_connect_wmiminimumpermissions].
 
 
-## Virtualization details
+### Virtualization details
 
-### Connection
+#### Connection
 
 If the Windows server is hosted by a virtual server then select the name of the virtual server.
 
@@ -54,8 +54,13 @@ Click **Create** to add a virtual server to the list. Select from:
 * [Hyper-V \| Connection Details][hyperv_connect_details]
 
 
-### VM Name
+#### VM Name
 Select the name of the virtual machine from those hosted by the virtual server.
+
+
+
+## Test the connection
+On entering / modifying connection details in the Spotlight Client, click **Test** to test the connection.
 
 
 ## Troubleshooting

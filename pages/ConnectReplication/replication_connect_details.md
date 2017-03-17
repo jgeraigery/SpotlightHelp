@@ -19,17 +19,17 @@ From the Spotlight Client
 
 1.  Click **Configure \| Connections**.
 2.  Double click **Add new connection**.
-3.  Fill in the connection details as follows.
-4.  Click **Test** to test the connection.
+3.  Fill in the connection details.
 
+## Connection details
 
-## Address
+### Address
 
 Specify the connect string for a distributor database in the replication environment.
 
 That is the: Server Name, Server Instance Name, or IP address.
 
-## Authentication
+### Authentication
 
 Specify the authentication for Spotlight to use to connect to the SQL Server Replication environment.
 
@@ -37,6 +37,9 @@ Select **Windows Authentication (using Diagnostic Server credentials)** to use t
 
 Alternatively, fill in the **User** and **Password** fields.
 
+
+## Test the connection
+On entering / modifying connection details in the Spotlight Client, click **Test** to test the connection.
 
 
 {% include links.html %}

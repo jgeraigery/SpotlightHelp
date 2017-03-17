@@ -19,12 +19,13 @@ From the Spotlight Client
 
 1.  Click **Configure \| Connections**.
 2.  Double click **Add new connection**.
-3.  Fill in the connection details as follows.
-4.  Click **Test** to test the connection.
+3.  Fill in the connection details.
 
 {% include tip.html content="Spotlight can add multiple SQL Server instances via discovery or by importing details from a file. See the Connection Discovery Wizard." %}
 
-## Address
+## Connection details
+
+### Address
 
 Specify the connect string used to link to the SQL Server (that is, the Server Name, Server Instance Name, or IP address).
 
@@ -33,7 +34,7 @@ Specify the connect string used to link to the SQL Server (that is, the Server N
 {% include note.html content="If the SQL Server instance is hosted on a Windows server and UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance." %}
 
 
-## Authentication
+### Authentication
 
 Specify the authentication for Spotlight to use to connect to the SQL Server instance.
 
@@ -44,13 +45,13 @@ Alternatively, fill in the **Database User** and **Password** fields. Ensure the
 The connection will fail if the account permissions are insufficient to allow Spotlight to collect the data it needs.
 
 
-## Read Only Intent
+### Read Only Intent
 
  Select this option if the SQL Server instance hosts a secondary replica of an Availability Group and for this secondary replica ApplicationIntent=ReadOnly. Failure to select this option when required will result in some data not being collected for the secondary replica; this will be most noticeable on the **SQL Server \| Databases** drilldown.
 
-## Use Extended Events
+### Use Extended Events
 
-### Selected
+#### Selected
 
 The Spotlight Diagnostic Server will use Extended Events to collect data from the SQL Server instance. The data is used by:
 
@@ -60,7 +61,7 @@ The Spotlight Diagnostic Server will use Extended Events to collect data from th
 
 If you select to use Extended Events (following a period of time when the use of Extended Events was deselected) the **SQL Server \| Workload Analysis** drilldown and **SQL Server \| Wait Events** drilldown may take a few minutes to repopulate with data.
 
-### Not Selected
+#### Not Selected
 
 The Spotlight Diagnostic Server will use SQL Server Trace to collect data for deadlock checks. The Spotlight Diagnostic Server will NOT collect data for the **SQL Server \| Workload Analysis** drilldown and **SQL Server \| Wait Events** drilldown.
 
@@ -69,33 +70,33 @@ If you set this value after the connection to the SQL Server is established then
 {% include note.html content="The setting for Use Extended Events can be set collectively for all SQL Server on the Spotlight Diagnostic Server from Configure the use of Extended Events." %}
 
 
-## Obscure string literals in SQL text and parameters in query plans
+### Obscure string literals in SQL text and parameters in query plans
 
-### Selected
+#### Selected
 
 Dummy text replaces string literals in all displays of the SQL Statement and Query Plan. This protects privacy information that may be contained in those literals.
 
 Large numbers  (greater than 99,999,999) are replaced with 987654321.
 
-### Not Selected
+#### Not Selected
 
 Large numbers and string literals in SQL Statements and Query Plans are displayed as is.
 
 
-## Exclude Spotlight sessions from Wait Events and Workload Analysis
+### Exclude Spotlight sessions from Wait Events and Workload Analysis
 
 When selected Spotlight sessions are excluded from the Wait Events and Workload Analysis drilldowns.
 
 {% include note.html content="For monitored SQL Server versions earlier than SQL Server 2012 some long term Spotlight sessions may remain. For monitored SQL Server 2012 and above all Spotlight Sessions are excluded." %}
 
 
-## Connection
+### Connection
 Select the Windows server hosting the SQL Server.
 
-### Do not monitor
+#### Do not monitor
 Select **Do not monitor** if you do not want to monitor the Windows server.
 
-### Cluster (monitor active node)
+#### Cluster (monitor active node)
 Select **Cluster (monitor active node)** for a Microsoft Cluster Server (MSCS).
 
 Spotlight uses the current host node name to select the operating system connection. Therefore each Windows node in the cluster must be monitored by Spotlight. Verify each Windows node is in the list of Windows server connections.
@@ -104,12 +105,14 @@ Spotlight uses the current host node name to select the operating system connect
 Click **Create** to add a Windows server to the list. This opens [Windows Server \| Connection Details][windows_connect_details].
 
 
-## Alarms template
+### Alarms template
 
 Select the [configuration template][enterprise_cfgmonitor_templates] to apply to this connection.
 
 Select from any of the SQL Server configuration tempaltes that you have created through [Configure Alarms][enterprise_cfgmonitor_alarms] or select **Factory Settings Template** to apply the Factory Settings shipped with Spotlight.
 
+## Test the connection
+On entering / modifying connection details in the Spotlight Client, click **Test** to test the connection.
 
 ## Troubleshooting
 

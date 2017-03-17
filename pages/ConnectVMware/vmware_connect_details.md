@@ -1,7 +1,7 @@
 ---
 title: Connection Details for VMware
 tags: [connection_details,connection_details_for_each_connection_type]
-summary: "Monitor a VMware® connection to an ESX Server™ or VirtualCenter server hosting a Windows server® by supplying the following connection details to Spotlight."
+summary: "Monitor a VMware connection to an ESX Server or VirtualCenter server hosting a Windows server by supplying the following connection details to Spotlight."
 sidebar: c_vmware_sidebar
 permalink: vmware_connect_details.html
 folder: ConnectVMware
@@ -16,16 +16,21 @@ From the Spotlight Client
 
 1.  Click **Configure \| Connections**.
 2.  Double click **Add new connection**.
-3.  Fill in the connection details as follows.
-4.  Click **Test** to test the connection.
+3.  Fill in the connection details.
 
+## Connection details
 
-## Address
+### Address
 Specify the IP address or hostname of the ESX server or VirtualCenter server hosting the Windows server.
 
 If you have a VirtualCenter server then connect to that in preference to the ESX host. That way if the virtual machine migrates from one host to another the VirtualCenter server can still be interrogated for data for the virtual machine.
 
-## Authentication
+### Authentication
 Specify the authentication (username and password) for Spotlight to use to connect to the VMware server. The user must have at least a read-only role for the ESX server or VirtualCenter server.
 
- {% include links.html %}
+
+## Test the connection
+On entering / modifying connection details in the Spotlight Client, click **Test** to test the connection.
+
+
+{% include links.html %}

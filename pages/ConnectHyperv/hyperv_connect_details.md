@@ -17,22 +17,27 @@ From the Spotlight Client
 
 1.  Click **Configure \| Connections**.
 2.  Double click **Add new connection**.
-3.  Fill in the connection details as follows.
+3.  Fill in the connection details.
 4.  Click **Test** to test the connection.
 
+## Connection details
 
-## Address
+### Address
 
 Specify the IP address or hostname of the Hyper-V server.
 
 
-## Authentication
+### Authentication
 
 Specify the authentication for Spotlight to use to connect to the Hyper-V server.
 
 Select **Use Diagnostic Server credentials** to use the Windows user configured to run the Spotlight Diagnostic Server.
 
 Alternatively, fill in the **User** and **Password** fields. The user must have at least a read-only role.
+
+
+## Test the connection
+On entering / modifying connection details in the Spotlight Client, click **Test** to test the connection.
 
 
 {% include links.html %}
