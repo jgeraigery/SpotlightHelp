@@ -2,7 +2,7 @@
 title: SQL Server Alarms
 last_updated: July 29, 2016
 tags: [alarms,alarms_by_connection_type]
-summary: ""
+summary: "Respond to SQL Server alarms raised by Spotlight."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarms.html
 folder: ConnectSQLServer
@@ -10,7 +10,7 @@ folder: ConnectSQLServer
 
 
 
-## List of alarms that can be raised against a SQL Server connection
+## Alarms that can be raised against a SQL Server connection
 
 <ul>
 {% assign sorted_pages = (site.pages | sort: 'title') %}
