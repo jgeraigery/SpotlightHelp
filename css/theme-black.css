@@ -40,8 +40,8 @@ a[data-toggle="tooltip"] {
 
 body .btn-primary {
   color: #ffffff;
-  background-color: #4495ca;
-  border-color: #347DBE;
+  background-color: #666666;
+  border-color: #cccccc;
   border-radius: 0 !important;
 }
 
