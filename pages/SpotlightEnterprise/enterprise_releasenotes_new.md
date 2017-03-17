@@ -8,8 +8,8 @@ id: 40001
 folder: SpotlightEnterprise
 ---
 
-## SQL Server on Linux Support
-Spotlight Enterprise now monitors [Linux servers][linux_welcome].
+## SQL Server on Unix/Linux Support
+Spotlight Enterprise now monitors [Unix/Linux servers][unix_welcome] and hosts of database connections.
 
 ## Plan Visualization
 The [SQL Server \| SQL Activity drilldown][sqlserver_drilldown_sqlactivity] has been enhanced. The Optimizer Plan Visualisation control replaces the old **SQL Statement** and **Plan** tabs for a selected session. The Optimizer Plan Visualisation control provides an interactive and intuitive way to view your plan and statement.
