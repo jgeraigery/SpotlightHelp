@@ -12,6 +12,7 @@ folder: ConnectAvailabilityGroup
 ## How to open (and Use) the Spotlight Overview page
 The Spotlight Overview page can be opened from:
 * [Spotlight Client][enterprise_display_overview]
+* [Spotlight web site][cloud_display_overview]
 * [Spotlight Mobile][mobile_overview]
 
 ## The Spotlight Overview page components for Availability Group connections
