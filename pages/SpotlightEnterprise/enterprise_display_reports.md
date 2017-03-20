@@ -13,11 +13,13 @@ folder: SpotlightEnterprise
 
 Data for long term history for reporting and trending is stored in the Spotlight Statistics Repository. By default, use of the Spotlight Statistics Repository is disabled. Data for long term history for reporting and trending is only stored when the use of the Spotlight Statistics Repository is enabled and the Spotlight Statistics Repository is appropriately configured. See [Configure the Spotlight Statistics Repository][enterprise_cfgds_ssr].
 
-
 ## Generating and working with the reports
 The reports can be generated in the Spotlight Client using the [Spotlight Report Viewer][enterprise_display_reportviewer].
 
 The reports can be deployed to [SQL Server Reporting Services][enterprise_display_reportssrs] where they can be viewed in a web browser.
+
+## Default reports
+The [Default Reports][enterprise_display_reportsshipped] are shipped with Spotlight.
 
 ## Customizations
 The collection schedules for the Spotlight Statistics Repository can be customized. See [Configure Scheduling][enterprise_cfgmonitor_scheduling].
