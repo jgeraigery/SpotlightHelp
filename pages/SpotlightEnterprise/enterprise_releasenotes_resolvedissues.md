@@ -14,9 +14,7 @@ Corrected the source of an exception error on editing a connection to a monitore
 Resolved the source of an error on creating a Playback Database or Spotlight Statistics Repository in a TLS 1.2 only environment. | SOSSE-6383
 Corrected a problem with the persistency of database connection properties (tags and operating system host) in an environment where multiple Spotlight Clients connect to a Spotlight Diagnostic Server. | SOSSE-6370
 Resolved the source of an exception error on monitoring SQL Server and actioning Session Trace from various drilldowns such as TempDB \| Usage and SQL Activity \| Locks. | SOSSE-6260
-Corrected a problem where on viewing Spotlight Today with 'Group By Top 50 alarms' The issue has been fixed so no matter how long you keep the Spotlight Today drilldown and displaying on the screen, there will be always Top 50 Alarms displaying in the grid
-
-Top N alarms shows no alarms in Spotlight Today | SOSSE-6224
+Corrected a problem where on viewing Spotlight Today with 'Group By Top 50 alarms' the Spotlght Today display failed over time to stay current with the top 50 alarms. | SOSSE-6224
 As a user I want there is an easier way to analyze activity performance issues in Spotlight | SOSSE-6218
 Column's sorting is not preserved | SOSSE-6216
 As a DBA I want to apply a template during connection creation | SOSSE-6105
