@@ -41,14 +41,15 @@ In SQL Server 2000, clicking **Active only** shows sessions that:
 ##### Tips for using the Session grid in the Spotlight Client
 
 * Some columns may be hidden by default. To view them, right-click the grid headings and select **Organize Columns**.
-* SQL Server sessions can be closed. Select the session and click **Kill this session**. This option is available only to members of the Spotlight diagnostic administrators group. For more information, see [Spotlight diagnostic user groups][enterprise_backend_spotlightdiagnosicusergroups].
+* To close a SQL Server session, right click and select **Kill this session**. This option is available only to members of the Spotlight Diagnostic Administrators group. For more information, see [Spotlight diagnostic user groups][enterprise_backend_spotlightdiagnosticusergroups]. To select multiple sessions use the shortcut key combinations CTRL+click or SHIFT+click.
+* The status column of the grid is color coded for readability.
 * You can view more details for a session by clicking it in this grid. Additional pages are then displayed in the lower half of the drilldown.
 * The data displayed in this grid can be **Filtered**. Filtering is the method Spotlight uses to restrict displays to a manageable or relevant set of data. You can view or change the filter by right-clicking the grid and choosing **View/Edit Filter**.
 * To find a particular session, right-click and select **Find**.
 * Data in the Last Wait Type and Last Wait Resource columns is reported directly from SQL Server and, for performance reasons, is not resolved to actual resource names during normal data collection. To resolve the data to a more readable form, click the  button.
 
 
-#### Statement
+#### SQL (The Optimizer Plan Visualisation control)
 The Optimizer Plan Visualisation control provides an interactive and intuitive way to view the selected statement and query execution plan.
 
 #### Session Trace
