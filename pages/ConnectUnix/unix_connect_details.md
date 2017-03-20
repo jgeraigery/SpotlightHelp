@@ -1,7 +1,7 @@
 ---
 title: Connection Details for Unix/Linux server
 tags: [connection_details,connection_details_for_each_connection_type]
-summary: "Specify the connection details for a Unix/Linux server."
+summary: "Monitor a Unix/Linux server (Unix/Linux hosts of your database connections) by supplying the following connection details to Spotlight."
 sidebar: c_unix_sidebar
 permalink: unix_connect_details.html
 folder: ConnectUnix

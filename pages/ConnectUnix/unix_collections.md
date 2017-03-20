@@ -1,7 +1,7 @@
 ---
 title: Unix/Linux Collections
 tags: [collections,collections_for_each_connection_type]
-summary: "The following collections are used for the Unix/Linux displays."
+summary: "Data is collected from the Unix/Linux connection from the following Spotlight collections."
 sidebar: c_unix_sidebar
 permalink: unix_collections.html
 folder: ConnectUnix

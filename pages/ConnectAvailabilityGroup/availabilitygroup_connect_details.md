@@ -2,7 +2,7 @@
 title: Connection Details for Availability Group
 last_updated: July 29, 2016
 tags: [connection_details,connection_details_for_each_connection_type]
-summary: "Specify the connection details for an Availability Group"
+summary: "Monitor a SQL Server Availability Group by supplying the following connection details to Spotlight."
 sidebar: c_availabilitygroup_sidebar
 permalink: availabilitygroup_connect_details.html
 folder: ConnectAvailabilityGroup

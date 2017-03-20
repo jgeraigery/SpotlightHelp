@@ -1,7 +1,7 @@
 ---
 title: VMware connection requirements
 tags: [connection_requirements]
-summary: "Spotlight can monitor a VMware® connection to an ESX Server™ or VirtualCenter server hosting a Windows server®."
+summary: "Spotlight can monitor a VMware connection to an ESX Server or VirtualCenter server hosting a Windows server."
 sidebar: c_vmware_sidebar
 permalink: vmware_connect_requirements.html
 folder: ConnectVMware

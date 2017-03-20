@@ -13,7 +13,7 @@ entries:
       url: /mobile_welcome.html
       output: web
 
-  - title: Connections
+  - title: Connection Types
     output: web
     folderitems:
     - title: SQL Server
@@ -44,7 +44,7 @@ entries:
       url: /hyperv_welcome.html
       output: web
 
-  - title: Keyword search
+  - title: Keyword Search
     output: web
     folderitems:
     - title: Acknowledge
@@ -56,7 +56,7 @@ entries:
     - title: Collections
       url: /tag_collections.html
       output: web
-    - title: configure Monitoring
+    - title: Configure Monitoring
       url: /tag_configure_monitoring.html
       output: web
     - title: Connection Details
