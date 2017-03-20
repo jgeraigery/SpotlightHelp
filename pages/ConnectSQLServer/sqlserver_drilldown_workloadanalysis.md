@@ -67,7 +67,22 @@ The top consumer of the resource is (by default) top of the list. Click on the c
 ##### CPU / Duration
 Where the selected resource is CPU or Duration, the grid shows the time (ms) spent by the selected workload over the selected time frame on this resource.
 
-The % CPU column is scaled to represent the percent relative to the available CPU time. The values are small as the available CPU time in milliseconds over an hour (the period selected) would be 1000 * 3600 * the number of CPUs.
+Further, show workload for the selected item:
+
+* CPU
+* Duration
+* % Total Duration
+* Avg Duration
+* Execution Count
+* % Total Execution Count
+* Logical Reads
+* % Total Logical Reads
+* Physical Reads
+* % Total Physical Reads
+* Writes
+* % Total Writes
+
+{% include note.html content="SQL Server releases prior to 2012 Server 2012 do not  differentiate physical reads from logical reads." %}
 
 ##### Reads / Writes
 Where the selected resource is Reads or Writes, the grid shows the time (ms) spent by the selected workload over the selected time frame on this resource.
