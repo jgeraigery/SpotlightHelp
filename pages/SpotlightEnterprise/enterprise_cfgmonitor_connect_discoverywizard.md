@@ -147,5 +147,8 @@ For more information, see [Connection Properties \| Tags][enterprise_cfgmonitor_
 
 Consider a deployment of more than one Spotlight Diagnostic Server. A single Spotlight Diagnostic Server is designed to monitor a maximum of 100 SQL Servers, Analysis Services or Replication instances and 100 Windows servers. Exceeding this recommended limit on 32 bit environments may result in poor performance or product instability, due to the 1 Gb memory limit. On 64 bit environments theoretically more connections can be monitored as the 1 Gb limit no longer applies, however testing of this has been limited.
 
+## How to apply an alarms configuration template to new SQL Server connections
+Once Spotlight has identified the new SQL Server connections by discovery or File Import, click **Edit** to modify identified connection properties. From her you can apply an alarms [configuration template][enterprise_cfgmonitor_templates] to new SQL Server connections.
+
 
 {% include links.html %}
