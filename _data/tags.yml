@@ -1,5 +1,6 @@
 allowed-tags:
   - alarms
+  - collect_additional_diagnostic_information
   - collections
   - connection_details
   - connection_requirements
