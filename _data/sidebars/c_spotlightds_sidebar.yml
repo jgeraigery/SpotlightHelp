@@ -16,6 +16,14 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Welcome
+    output: web, pdf
+    folderitems:
+
+    - title: Welcome
+      url: /spotlightds_welcome.html
+      output: web, pdf
+
   - title: Alarms
     output: web, pdf
     folderitems:
