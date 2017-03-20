@@ -1,5 +1,5 @@
 ---
-title: Spotlight Alarms raised against an Analysis Services connection
+title: Analysis Services alarms
 last_updated: July 29, 2016
 tags: [alarms,alarms_by_connection_type]
 summary: "Respond to SQL Server Analysis Services alarms raised by Spotlight."

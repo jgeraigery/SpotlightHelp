@@ -1,5 +1,5 @@
 ---
-title: Windows Server Alarms
+title: Windows Server alarms
 last_updated: July 29, 2016
 tags: [alarms,alarms_by_connection_type]
 summary: "Respond to Windows server alarms raised by Spotlight."

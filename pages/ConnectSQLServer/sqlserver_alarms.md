@@ -1,5 +1,5 @@
 ---
-title: SQL Server Alarms
+title: SQL Server alarms
 last_updated: July 29, 2016
 tags: [alarms,alarms_by_connection_type]
 summary: "Respond to SQL Server alarms raised by Spotlight."

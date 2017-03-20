@@ -1,5 +1,5 @@
 ---
-title: Availability Group Alarms
+title: Availability Group alarms
 last_updated: July 29, 2016
 tags: [alarms,alarms_by_connection_type]
 summary: "Respond to Availability Group alarms raised by Spotlight."
