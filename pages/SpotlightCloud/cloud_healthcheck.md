@@ -1,7 +1,7 @@
 ---
 title: Health Check for Spotlight and SQL Server Management Studio
 summary: "You can access powerful web based analytics about the performance of your environment, but first you need to sign up and begin uploading performance data."
-sidebar: p_cloud_sidebar
+sidebar: p_enterprise_sidebar
 permalink: cloud_healthcheck.html
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: Connections Display in the Spotlight Cloud
+title: Connections Display from the Spotlight web site
 summary: ""
-sidebar: p_cloud_sidebar
+sidebar: p_enterprise_sidebar
 permalink: cloud_display_connections.html
 folder: SpotlightCloud
 ---

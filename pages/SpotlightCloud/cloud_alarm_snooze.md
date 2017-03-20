@@ -3,7 +3,7 @@ title: Snooze alarms from the Spotlight web site
 tags: [snooze]
 keywords: alarms, snooze, mobile
 summary: "Temporarily remove the visual alert associated with an alarm."
-sidebar: p_cloud_sidebar
+sidebar: p_enterprise_sidebar
 permalink: cloud_alarm_snooze.html
 folder: SpotlightCloud
 ---

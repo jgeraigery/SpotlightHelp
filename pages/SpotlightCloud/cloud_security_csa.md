@@ -1,7 +1,7 @@
 ---
 title: Cloud Security Alliance Consensus Assessments
 summary: "Following is a subset of the answers to questions asked of us by Cloud Secuirity Alliance."
-sidebar: p_cloud_sidebar
+sidebar: p_enterprise_sidebar
 permalink: cloud_security_csa.html
 folder: SpotlightCloud
 ---

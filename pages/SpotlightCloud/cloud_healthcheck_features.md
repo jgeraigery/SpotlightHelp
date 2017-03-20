@@ -1,6 +1,6 @@
 ---
 title: System and Performance Healthcheck
-sidebar: p_cloud_sidebar
+sidebar: p_enterprise_sidebar
 permalink: cloud_healthcheck_features.html
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: Alarms list in the Spotlight Cloud
+title: Alarms list from the Spotlight web site
 summary: "List all alarms raised against the connection or connection view."
-sidebar: p_cloud_sidebar
+sidebar: p_enterprise_sidebar
 permalink: cloud_display_alarmlist.html
 folder: SpotlightCloud
 ---

@@ -1,7 +1,7 @@
 ---
 title: Push Notification History
 summary: "Show a historical record of the last 50 push notifications sent to a mobile device."
-sidebar: p_cloud_sidebar
+sidebar: p_enterprise_sidebar
 permalink: cloud_settings_pushnotificationhistory.html
 folder: SpotlightCloud
 ---

@@ -1,7 +1,7 @@
 ---
 title: Manage Organizations in the Spotlight Cloud
 summary: "Share monitoring and analysis data with the team."
-sidebar: p_cloud_sidebar
+sidebar: p_enterprise_sidebar
 permalink: cloud_settings_organizations.html
 folder: SpotlightCloud
 ---
@@ -17,9 +17,7 @@ Until now if your team each had their own separate Spotlight accounts you couldn
 {% include imageCloud.html file="share-data-with-the-team.png" alt="Share data with the team" %}
 
 
-## Find out more about setting up an Organization
-
-### Setup an organization
+## Setup an organization
 
 1. From a web browser, open the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
 2. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
@@ -34,7 +32,7 @@ Until now if your team each had their own separate Spotlight accounts you couldn
 
    {% include imageCloud.html file="organization-name-screen-grab.png" alt="Share data with the team" %}
 
-### Invite someone to join your organization
+## Invite someone to join your organization
 
 1. From a web browser, open the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
 2. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
@@ -47,15 +45,15 @@ Until now if your team each had their own separate Spotlight accounts you couldn
 
 6. Enter the email address of the person you want to join the organization. They will receive an email asking them to join. Once accepted their email address will display on the Manage Organization page.
 
-   {% include note.html content="In order to invite someone they must already have, or sign up for a Spotlight account." %}
+   {% include note.html content="The person you invite must already have a Spotlight Cloud (Spotlight Essesntials) account." %}
 
    {% include imageCloud.html file="invite-someone-screen-grab.png" alt="Invite" %}
 
-3. The person you’ve invited must click a link in the email they receive to confirm they want to join your organization.
+3. The person you have invited must click a link in the email they receive to confirm they want to join your organization.
 
    {% include note.html content="A person can only be a member of one organizatiojn at a time." %}
 
-### View organization members
+## View organization members
 
 1. From a web browser, open the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
 2. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
@@ -70,10 +68,10 @@ Until now if your team each had their own separate Spotlight accounts you couldn
 
    {% include imageCloud.html file="view-members-screen-grab.png" alt="View Members" %}
 
-   {% include note.html content="A user can leave the organization by logging in to the Spotlight website and clicking the **Leave Organization** link shown below in blue." %}
+   {% include note.html content="A user can leave the organization. Log in to the Spotlight website and click **Leave Organization**. The link is shown below in blue." %}
 
 
-### See recent activity of the members of your organization
+## See recent activity of the members of your organization
 
 1. From a web browser, open the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
 2. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)

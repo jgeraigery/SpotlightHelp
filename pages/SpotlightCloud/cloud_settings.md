@@ -1,7 +1,7 @@
 ---
 title: Cloud Settings
 summary: ""
-sidebar: p_cloud_sidebar
+sidebar: p_enterprise_sidebar
 permalink: cloud_settings.html
 folder: SpotlightCloud
 ---
@@ -15,7 +15,7 @@ folder: SpotlightCloud
 4. Select **Settings**.
 
 ## Account Details
-Use this section to change your name if necessary. Also use this section to see your email address as known to Spotligt Cloud.
+Use this section to update any changes to your name. Also use this section to see your email address as known to Spotligt Cloud.
 
 ## Time Zone
 Select your local timezone.
@@ -40,7 +40,7 @@ Show a historical record of the last 50 [push notifications][cloud_settings_push
 
 
 ## Manage Features
-Edit your [system health check settings][cloud_settings_healthcheck].
+Edit your system health check settings.
 
 
 

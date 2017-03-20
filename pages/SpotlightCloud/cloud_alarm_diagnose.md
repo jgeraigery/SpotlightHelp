@@ -2,12 +2,12 @@
 title: Diagnose alarms from the Spotlight web site
 keywords: alarms
 summary: "Show performance statistics related to the raised alarm."
-sidebar: p_cloud_sidebar
+sidebar: p_enterprise_sidebar
 permalink: cloud_alarm_diagnose.html
 folder: SpotlightCloud
 ---
 
-The alarm, connection or connection view is colored according to the most severe current alarm.
+Alarms and connections are colored according to the most severe current alarm.
 
 Default Color | Severity | Description
 --------------|----------|------------

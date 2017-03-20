@@ -3,7 +3,7 @@ title: Acknowledge alarms from the Spotlight web site
 tags: [acknowledge]
 keywords: alarm, acknowledge, mobile
 summary: "For alarms that require acknowledgment, each raised instance of the alarm remains present in Spotlight until the instance is acknowledged."
-sidebar: p_cloud_sidebar
+sidebar: p_enterprise_sidebar
 permalink: cloud_alarm_acknowledge.html
 folder: SpotlightCloud
 ---

@@ -1,7 +1,7 @@
 ---
 title: Health Check Settings
 summary: ""
-sidebar: p_cloud_sidebar
+sidebar: p_enterprise_sidebar
 permalink: cloud_settings_healthcheck.html
 folder: SpotlightCloud
 ---

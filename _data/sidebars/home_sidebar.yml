@@ -9,9 +9,6 @@ entries:
     - title: Spotlight Enterprise
       url: /enterprise_welcome.html
       output: web
-    - title: Spotlight Cloud
-      url: /cloud_welcome.html
-      output: web
     - title: Spotlight Mobile
       url: /mobile_welcome.html
       output: web
