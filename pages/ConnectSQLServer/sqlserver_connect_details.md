@@ -111,7 +111,7 @@ Select the alarms [configuration template][enterprise_cfgmonitor_templates] to a
 
 Select from any of the SQL Server configuration tempaltes that you have created through [Configure Alarms][enterprise_cfgmonitor_alarms] or select **Factory Settings Template** to apply the Factory Settings shipped with Spotlight.
 
-{% include note.html content="The template will apply to the Windows host of the SQL Server instance if you have identified the host." %}
+{% include note.html content="The template will apply to the Windows host of the SQL Server instance if identified. The host is identified in the **Connection** section of the **Connection Details** page." %}
 
 {% include tip.html content="The alarms template option is applicable only when creating a new SQL Server connection. To apply a template to an existing SQL Server connection, see [Configuration Templates][enterprise_cfgmonitor_templates]." %}
 
