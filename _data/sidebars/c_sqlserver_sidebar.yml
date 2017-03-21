@@ -184,10 +184,6 @@ entries:
       url: /sqlserver_alarm_missingsqlperformancecounters.html
       output: web, pdf
 
-    - title: Monitored Server - Missing Windows Host
-      url: /sqlserver_alarm_monitoredserver_missingwindowshost.html
-      output: web, pdf
-
     - title: Monitored Server - SQL Server Alarm Action Failure
       url: /sqlserver_alarm_monitoredserver_alarmactionfailure.html
       output: web, pdf
