@@ -22,13 +22,13 @@ Date and time the database was created.
 
 Estimated size of the database.
 
-## Last Processed
+## Last Processed 
 
 Date and time the database was last processed.
 
 ## Last Schema Update
 
-Date and time the metadata for the database was last updated.
+Date and time the meta data for the database was last updated.
 
 ## Last Update
 
@@ -44,11 +44,11 @@ The state of the objects in the database.
 
 ### Processed
 
-All processable objects in the database are processed. All major objects could be queried.
+All process-able objects in the database are processed. All major objects could be queried.
 
 ### Partially processed
 
-At least one major processable object is not processed. Some objects may not be queryable.
+At least one major process-able object is not processed. Some objects may not be query-able.
 
 ### Unprocessed
 

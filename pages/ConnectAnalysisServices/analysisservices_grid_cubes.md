@@ -14,7 +14,7 @@ folder: ConnectAnalysisServices
 The name of the cube.
 
 ## Database Name
-
+ 
 The database to which the cube belongs.
 
 ## Created Time
@@ -63,11 +63,11 @@ The state of the objects in the database.
 
 ### Processed
 
-All processable objects in the database are processed. All major objects could be queried.
+All process-able objects in the database are processed. All major objects could be queried.
 
 ### Partially processed
 
-At least one major processable object is not processed. Some objects may not be queryable.
+At least one major process-able object is not processed. Some objects may not be query-able.
 
 ### Unprocessed
 

@@ -18,7 +18,7 @@ Use a Spotlight Client to configure Spotlight collections. See [Configure Schedu
 
 From the Spotlight Client
 
-1.  Click **Configure \| Scheduliing**.
+1.  Click **Configure \| Scheduling**.
 2.  Select template or connection to configure
 3.  Select a collection to modify the collection schedule.
 
