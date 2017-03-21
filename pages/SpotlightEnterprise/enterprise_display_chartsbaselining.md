@@ -39,6 +39,6 @@ Icon | Option | Description
  | Intervals | The number of intervals is the number of sampled data values used to create the baseline chart. Up to 12 intervals are used dependent on the historical data available.<br><br>Where 4 or more intervals are used a box whiskers plot is used to summarize the data. Where less than 4 intervals are used, lines are drawn for each baseline interval. Where there is insufficient data to plot the chart for the entire duration the chart will be plotted for the time that sufficient data is available.
 
 
-{% include tip.html content="To enlarge the size of the baseline chart, right click the chart and select **Mazimize** so the chart occupies the whole drilldown. For more information, see [Maximize and restore charts][enterprise_display_chartscontent.html#maximizerestore]." %}
+{% include tip.html content="To enlarge the size of the baseline chart, right click the chart and select **Maximize** so the chart occupies the whole drilldown. For more information, see [Maximize and restore charts][enterprise_display_chartscontent.html#maximizerestore]." %}
 
 {% include links.html %}

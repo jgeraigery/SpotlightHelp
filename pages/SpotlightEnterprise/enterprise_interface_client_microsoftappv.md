@@ -9,7 +9,7 @@ folder: SpotlightEnterprise
 
 
 
-Spotlight supports deploying a global configruation file
+Spotlight supports deploying a global configuration file
 
 ```
 %ProgramData%\Quest Software\Spotlight\Default\config.xml

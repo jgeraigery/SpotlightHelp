@@ -117,9 +117,9 @@ Supply the connection type in Internet MIME format. For example: os/windows, os/
 
 Use the -Credential parameter to specify User / Password details as per the connection type. For Add-Connection, where the -Credential parameter is not specified, Windows authentication (using Diagnostic Server credentials) is assumed.
 
-The -Credential parameter requires a PSCredential object, which is a PowerShell built-in object.
+The -Credential parameter requires a PSCredential object, which is a Powershell built-in object.
 
-It can be used via a temporary variable (preferrable if you want to add many connections) as per:
+It can be used via a temporary variable (preferable if you want to add many connections) as per:
 
 ```
 $c = $(get-credential)

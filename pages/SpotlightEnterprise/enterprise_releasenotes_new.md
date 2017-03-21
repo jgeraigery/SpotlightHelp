@@ -7,12 +7,12 @@ permalink: enterprise_releasenotes_new.html
 id: 40001
 folder: SpotlightEnterprise
 ---
-
+ 
 ## SQL Server on Unix/Linux Support
 Spotlight Enterprise now monitors [Unix/Linux servers][unix_welcome] and hosts of database connections.
 
 ## Plan Visualization
-The [SQL Server \| SQL Activity drilldown][sqlserver_drilldown_sqlactivity] has been enhanced. The Optimizer Plan Visualisation control replaces the  **SQL Statement** and **Plan** tabs for a selected session. The Optimizer Plan Visualisation control provides an interactive and intuitive way to view your plan and statement.
+The [SQL Server \| SQL Activity drilldown][sqlserver_drilldown_sqlactivity] has been enhanced. The Optimizer Plan Visualization control replaces the  **SQL Statement** and **Plan** tabs for a selected session. The Optimizer Plan Visualization control provides an interactive and intuitive way to view your plan and statement.
 
 ## Sessions Status Visualization
 The [SQL Server \| SQL Activity drilldown \| Sessions grid][sqlserver_grid_sessions] has been enhanced. The grid is color coded by status to make it easier to scan sessions. Multiple sessions can be selected; multiple selected sessions can be killed in a single operation.

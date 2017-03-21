@@ -13,13 +13,13 @@ folder: SpotlightEnterprise
 
 ## Run the Spotlight Enterprise executable on each Spotlight Client
 If your enterprise has multiple Spotlight Clients then ensure all Spotlight Clients are included in the upgrade process. If the Spotlight Client and Spotlight Diagnostic Server are running different versions of Spotlight Enterprise, the client will be unable to connect to the Spotlight Diagnostic Server.
-
+ 
 If Spotlight Enterprise is deployed as a federated system of multiple Spotlight Diagnostic Server then make sure all the Spotlight Diagnostic Server in the federation are included in the upgrade process.
 
 ## Upgrade the Playback Database and Spotlight Statistics Repository
 Following upgrade of the Spotlight Diagnostic Server, the Playback Database and Spotlight Statistics Repository are automatically upgraded the next time they are accessed by the Spotlight Diagnostic Server.
 
-{% include note.html content="If in your environment the Playback Database / Spotlight Statistics Repository are replicated as per a Microsoft Replication database the upgrade can fail if schema changes are required that can only be made when replication is turned off. To successfully upgrade, the steps are to: turn replication off, upgrade the Spotlight Diagnostic Server, then reenable replication." %}
+{% include note.html content="If in your environment the Playback Database / Spotlight Statistics Repository are replicated as per a Microsoft Replication database the upgrade can fail if schema changes are required that can only be made when replication is turned off. To successfully upgrade, the steps are to: turn replication off, upgrade the Spotlight Diagnostic Server, then re-enable replication." %}
 
 ## Frequently Asked Questions
 
@@ -35,7 +35,7 @@ The following information on the Spotlight Diagnostic Server is preserved when y
 
 ### Which versions of Spotlight can I upgrade from?
 
-Upgrde to Spotlight Enterprise from Spotlight on SQL Server 10.0 or above.
+Upgrade to Spotlight Enterprise from Spotlight on SQL Server 10.0 or above.
 
 To upgrade from an earlier version of Spotlight on SQL Server than 10.0, upgrade to at least version 10.0 first.
 
