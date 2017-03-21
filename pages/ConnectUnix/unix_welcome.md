@@ -12,7 +12,7 @@ folder: ConnectUnix
                 <div class="panel-body">
                     <h4>Connect</h4>
                     <p>Connect Spotlight to a Unix/Linux server.</p>
-                    <a href="Unix_connect_details.html" class="btn btn-primary">Learn More</a>
+                    <a href="unix_connect_details.html" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
         </div>
