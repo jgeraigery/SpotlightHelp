@@ -10,8 +10,7 @@ folder: ConnectAvailabilityGroup
 
 
 
-
- {% include tip.html content="See the Replicas grid for the health of each node in the group." %}
+{% include tip.html content="See the Replicas grid for the health of each node in the group." %}
 
 
  {% include links.html %}
