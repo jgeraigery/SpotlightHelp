@@ -34,7 +34,7 @@ Verify the user has at least a read-only role for the ESX server or VirtualCente
 
 ## Hyper-V Server availability
 
-Verify the VMWare Server is available and accessible over the network. Verify TCP port 135 is open.
+Verify the VMware Server is available and accessible over the network. Verify TCP port 135 is open.
 
 
 {% include note.html content="The alarm will clear automatically if the error is due to the service being down or network problems and the error condition goes away." %}

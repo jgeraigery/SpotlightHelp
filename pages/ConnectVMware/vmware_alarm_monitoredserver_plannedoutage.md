@@ -10,7 +10,7 @@ folder: ConnectVMware
 ---
 
 
-{% include note.html content="No new alarms are raised during a planned outage. Pre-existing alarms requiring acknowledgement remain visible during the outage period and can be acknowledged." %}
+{% include note.html content="No new alarms are raised during a planned outage. Preexisting alarms requiring acknowledgment remain visible during the outage period and can be acknowledged." %}
 
 
 ## How to check the planned outage schedule

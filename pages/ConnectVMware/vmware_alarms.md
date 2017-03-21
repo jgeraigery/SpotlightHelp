@@ -1,5 +1,5 @@
 ---
-title: VMWare alarms
+title: VMware alarms
 last_updated: July 29, 2016
 tags: [alarms,alarms_by_connection_type]
 summary: "Respond to VMware alarms raised by Spotlight."
@@ -7,7 +7,7 @@ sidebar: c_vmware_sidebar
 permalink: vmware_alarms.html
 folder: ConnectVMware
 ---
-
+ 
 ## Alarms that can be raised against a VMware connection
 
 <ul>
