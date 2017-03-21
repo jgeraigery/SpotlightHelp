@@ -17,19 +17,15 @@ Resolved the source of an exception error on monitoring SQL Server and actioning
 Corrected a problem where on viewing Spotlight Today with 'Group By Top 50 alarms' the Spotlght Today display failed over time to stay current with the top 50 alarms. | SOSSE-6224
 As a user I want there is an easier way to analyze activity performance issues in Spotlight | SOSSE-6218
 Column's sorting is not preserved | SOSSE-6216
-As a DBA I want to apply a template during connection creation | SOSSE-6105
 The alarm isn't always selected when I go from an alarm in alarm log to alarms by time | SOSSE-6033
 As a support engineer, I want all logs to be rotating | SOSSE-5943
-Test VMware collection for vCentre 6.0 | SOSSE-5930
 Index fragmentation metric always shows 0 in homepage even though there are large indexs that require rebuilding | SOSSE-5901
 Playback history error when creating a support bundle | SOSSE-5837
 DOCO Support App-V deployment | SOSSE-5815
 QS_AllTablesBySize.sql causes deadlocks | SOSSE-5770
 Add CLR_MANUAL_EVENT to the list of idle waits. | SOSSE-5739
 Online Help - QS_Services.sql cannot be executed successfully with non-sysadmin account | SOSSE-5715
-As a DBA I want Spotlight to color different session status | SOSSE-5714
 Spotlight client crashes when attempting to use Wait Events/Workload Analysis with custom date | SOSSE-5699
-As a DBA I want to configure the zip attachment extension | SOSSE-5698
 “Alarm Requires Acknowledgement” checkbox isn’t in the Factory Settings template | SOSSE-5675
 As a user I want to know the SQL agent job SPID in Spotlight | SOSSE-5638
 As a supporter I want to know why DS fails to write data to playback database or statistic repository database in the log | SOSSE-5622
@@ -54,10 +50,7 @@ In alarms by time the connection state bar is red when there are no red alarms |
 As a DBA I don't want to see DBCC info messages in the alarm text | DS-598
 Fragmentation problem - Invalid column name 'AllocUnitTypeDesc'. [207] [Error Code: 207]. | DS-521
 CLONE - [Customers] New customer unable to upload data | DS-513
-As a DBA I want to View a Report on the availability of my SQL Server | DS-458
 SSR response time value inconsistent with real time value | DS-414
-
-
 Corrected a problem such that wen a Spotlight Connection is deleted the associated data in the Spotlight Statistics Repository is also removed. | SOSSE-3347
 
 
