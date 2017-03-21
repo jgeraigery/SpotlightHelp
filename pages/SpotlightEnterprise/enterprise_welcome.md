@@ -80,7 +80,7 @@ Use Spotlight to monitor the databases and server host connections in your enter
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-body">
-                        <h4>Spotlight Cloud</h4>
+                        <h4>Spotlight web site</h4>
                         <p>Monitor connections from the Spotlight web site and health check analysis</p>
                         <a href="enterprise_interface_website.html" class="btn btn-primary">Learn More</a>
                     </div>
