@@ -170,24 +170,30 @@ A Latch is like a mini-lock that is used internally by SQL Server to serialize a
 
 
 ### Blocking page
-Investigate current lock conflicts.
+Blocking in SQL Server occurs when a session that was performing some task is unable to progress because it must wait on a resource that is currently being used by another session. The resource that is being waited on can be either a physical structure like a lock on a table or an internal SQL Server resource such as a latch.
+
+Excessive blocking can be a major cause of poor application performance since it reduces the throughput of the system. Often a user of an application does not realize that they are waiting on a resource held by another user. From their point of view, it often seems like their application has stopped responding.
+
+When diagnosing blocking, you want to start your investigation by answering the following questions:
+
+* Who is waiting on what?
+* How long have they been waiting?
+* What SQL was running while they were waiting?
+
+Spotlight not only alerts you to blocking issues in your database but also helps you answer the above questions so you can quickly resolve the problem causing the blocking.
+
+The Blocking drilldown shows details about the current blocks and in particular, answers the questions stated above.
 
 #### Blocking grid
 Shows all connections that are currently either waiting on locks held by others or are causing others to wait, highlighting who is waiting on whom and the resources involved. You can view session details by selecting an entry in the grid and clicking **View Session Details**.
 
-
-
-The hierarchy in this tree diagram represents the blocking chains. It shows who is blocking whom and makes it easy to see who is at the head of the chain and is the root cause of all the blocking.
-
-SQL Server sessions can be closed by clicking **Kill Session**. This will terminate the entire connection (SPID), not just the lock you selected.
-
-
+The hierarchy in this tree diagram represents the blocking chains. It makes it easy to see which session is causing the blocking. In addition, the resource on which the sessions are waiting is displayed. The time spent waiting and the SQL last executed are also displayed.
 
 The tree will show one entry for each session that is blocked, and one for each session that is blocking another but is not blocked itself. Sessions at the top of the tree (those that do not have a "parent" in the tree) are at the head of the blocking chain.
 
 The Blocking grid is not refreshed automatically. To refresh the Blocking grid, click **Refresh**.
 
-
+SQL Server sessions can be closed by clicking **Kill Session**. This will terminate the entire connection (SPID), not just the lock you selected.
 
 You can use SQL Optimizer (if installed) to tune the SQL for the selected session. To do this, select a row in the grid and click **Optimize SQL**.
 

@@ -8,4 +8,6 @@ id: btnLocks
 folder: ConnectSQLServer
 ---
 
+Blocking in SQL Server occurs when a session that was performing some task is unable to progress because it must wait on a resource that is currently being used by another session. The resource that is being waited on can be either a physical structure like a lock on a table or an internal SQL Server resource such as a latch.
+
 {% include links.html %}

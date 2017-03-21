@@ -1,7 +1,7 @@
 ---
 title: Wait Details grid
 last_updated: July 29, 2016
-summary: "The Waits Detail grid shows detailed wait statistics for the SQL Server instance currently being monitored."
+summary: "The Waits Detail grid shows detailed wait statistics for the SQL Server instance currently being monitored. It shows all wait types and breaks down the statistics into signal time and resource wait time. By default, the Waits Detail grid is sorted by Wait Time Rate (ms/s) which allows you to immediately see which wait types are being waited on right now."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_waitsdetail.html
 id: sqlactivity_waitstats.spotlightgrid1
