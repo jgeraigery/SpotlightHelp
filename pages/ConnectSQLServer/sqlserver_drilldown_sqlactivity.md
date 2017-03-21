@@ -135,7 +135,7 @@ The Locks grid is not refreshed automatically. To refresh the Locks grid, click 
 
 
 
-A SQL Server session can be closed by selecting it and clicking **Kill Session**. This will terminate the entire connection (SPID), not just the lock you selected. This option is available only to members of the Spotlight diagnostic administrators group. For more information, see [Spotlight diagnostic user groups][enterprise_backend_spotlightdiagnosicusergroups].
+A SQL Server session can be closed by selecting it and clicking **Kill Session**. This will terminate the entire connection (SPID), not just the lock you selected. This option is available only to members of the Spotlight diagnostic administrators group. For more information, see [Spotlight diagnostic user groups][enterprise_backend_spotlightdiagnosticusergroups].
 
 
 
