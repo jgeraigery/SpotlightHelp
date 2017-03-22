@@ -1,5 +1,5 @@
 ---
-title: Memory reposessed (VMware)
+title: Memory repossessed (VMware)
 last_updated: July 29, 2016
 summary: "Memory Repossessed shows the amount of memory reclaimed by ESX."
 sidebar: c_windows_sidebar

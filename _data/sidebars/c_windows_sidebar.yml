@@ -568,7 +568,7 @@ entries:
           url: /windows_chart_vmware_memorystarvation.html
           output: web, pdf
 
-        - title: Memory Reposessed
+        - title: Memory Repossessed
           url: /windows_chart_vmware_memoryreposessed.html
           output: web, pdf
 

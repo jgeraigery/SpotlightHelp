@@ -64,7 +64,7 @@ entries:
       url: /vmware_alarm_monitoredserver_plannedoutage.html
       output: web, pdf
 
-    - title: VMware - Memory Reposessed
+    - title: VMware - Memory Repossessed
       url: /vmware_alarm_memoryreposessed.html
       output: web, pdf
 
