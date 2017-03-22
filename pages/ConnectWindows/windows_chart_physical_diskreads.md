@@ -1,5 +1,5 @@
 ---
-title: Disk Reads chart (Pysical Disk Activity)
+title: Disk Reads chart (Physical Disk Activity)
 last_updated: July 29, 2016
 summary: "This shows a recent summary of the number of read requests that have been sent to each physical disk."
 sidebar: c_windows_sidebar

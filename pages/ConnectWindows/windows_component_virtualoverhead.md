@@ -14,7 +14,7 @@ folder: ConnectWindows
 
 Show the percentage of CPU that is unavailable to this virtual machine because it is being consumed either by other virtual machines or by VMware itself. The amount of ready time is shown as a percentage of the theoretical maximum CPU available to the virtual machine.
 
-Applicable to Windows Servers hosted on VMWare.
+Applicable to Windows Servers hosted on VMware.
 
 ## Wait Time in nanoseconds
 

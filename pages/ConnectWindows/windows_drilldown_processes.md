@@ -6,7 +6,7 @@ sidebar: c_windows_sidebar
 permalink: windows_drilldown_processes.html
 folder: ConnectWindows
 ---
-
+ 
 ## How to open the Processes drilldown
 
 From the Spotlight Client
@@ -18,7 +18,7 @@ From the Spotlight Client
 {% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
 
 
-## About the Processese drilldown
+## About the Processes drilldown
 
 
 ### Processes page

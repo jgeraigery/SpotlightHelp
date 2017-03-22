@@ -6,7 +6,7 @@ sidebar: c_windows_sidebar
 permalink: windows_connect_wmiminimumpermissions.html
 folder: ConnectWindows
 ---
-
+ 
 
 
 ## Known Issues
@@ -24,14 +24,14 @@ Spotlight does not alarm on this data.
 
 ### The Physical Disk Drive collection
 
-The Physical Disk Drive collection populates the Windows Server \| Disks Drilldown \| Disk Summary page. This drilldown contains a list of the physical disks installed on the server. Its data is relatively static as it only changes when disks are added, removed or repartitioned.
+The Physical Disk Drive collection populates the Windows Server \| Disks Drilldown \| Disk Summary page. This drilldown contains a list of the physical disks installed on the server. Its data is relatively static as it only changes when disks are added, removed or re-partitioned.
 
 Inside of this known issue a Generic Failure error will be returned.
 
 
 ## 1. Setup permission to read data
 
-{% include note.html content="For the following instructions, *Spotlight User* is the windows user that will be used to authenticate the Spotight connection to the Windows server as per: [Windows Server \| Connection Details][windows_connect_details]" %}
+{% include note.html content="For the following instructions, *Spotlight User* is the windows user that will be used to authenticate the Spotlight connection to the Windows server as per: [Windows Server \| Connection Details][windows_connect_details]" %}
 
 1. Click **Control Panel \| Administrative Tools \| Computer Management** to open the Computer Management dialog.
 2. Double click **Local Users and Groups \| Groups**.

@@ -10,7 +10,7 @@ folder: ConnectWindows
 
 
 
-
+ 
 ## How to enter / edit connection details
 
 Use a Spotlight Client to enter / edit connection details.
@@ -69,7 +69,7 @@ On entering / modifying connection details in the Spotlight Client, click **Test
 * Verify the Windows Server fulfills the [requirements][windows_connect_requirements] of Spotlight.
 * Verify TCP Port 135 is open on the Windows server.
 * Verify the Windows server is in a domain. Spotlight cannot connect to Windows servers in a workgroup.
-* Verify WMI is working and returns data prroperly. The Spotlight Diagnostic Server uses WMI queries to retrieve performance counter information from the Windows Server. See [Troubleshooting WMI][enterprise_backend_wmitroubleshooting].
+* Verify WMI is working and returns data properly. The Spotlight Diagnostic Server uses WMI queries to retrieve performance counter information from the Windows Server. See [Troubleshooting WMI][enterprise_backend_wmitroubleshooting].
 * Check the [Spotlight Enterprise Release Notes][enterprise_releasenotes] for known issues.
 
 

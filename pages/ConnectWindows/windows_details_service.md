@@ -15,7 +15,7 @@ This is the friendly name of the service.
 
 ## Description
 
-The localised service description as seen in the services control panel applet.
+The localized service description as seen in the services control panel applet.
 
 ## Executable
 

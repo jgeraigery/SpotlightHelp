@@ -127,7 +127,7 @@ Shows the amount of memory reclaimed by ESX.
     Memory reclaimed via swapping can affect the performance of the virtual machine significantly more than if the memory is reclaimed via ballooning.
 
 
-### Virtualilzed Memory page (Hyper-V server host)
+### Virtualized Memory page (Hyper-V server host)
 
 Investigate Memory usage for the virtual machine.
 

@@ -8,7 +8,7 @@ id: CPU.CPUUtilizationChart
 folder: ConnectWindows
 ---
 
-High sustained load across all processors can mean that the system is underpowered for the load placed upon it, or that an application is misbehaving.
+High sustained load across all processors can mean that the system is under-powered for the load placed upon it, or that an application is misbehaving.
 
 High sustained load on individual processors can indicate an application that is not scaling well to multiple processors, or incorrectly configured processor affinity.
 

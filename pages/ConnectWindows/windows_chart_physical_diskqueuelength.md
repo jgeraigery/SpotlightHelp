@@ -1,5 +1,5 @@
 ---
-title: Disk Queue Length chart (Pysical Disk Activity)
+title: Disk Queue Length chart (Physical Disk Activity)
 last_updated: July 29, 2016
 summary: "This shows the number of I/O requests that were queued for each physical disk."
 sidebar: c_windows_sidebar

@@ -15,4 +15,4 @@ Alarms can be raised in this panel for all network cards in the machine, not onl
 
 Because of the methods involved in sending data, the actual maximum on an Ethernet network usually is approximately 50% of the theoretical bandwidth.  The actual bandwidth can equal the theoretical bandwidth only when using full duplex Ethernet.
 
-Token-passing network topologies (including **TokenRing** and **FDDI**) enable a theoretical maximum bandwidth much closer to the actual.
+Token-passing network topologies (including **Token Ring** and **FDDI**) enable a theoretical maximum bandwidth much closer to the actual.
