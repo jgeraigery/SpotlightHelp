@@ -116,7 +116,7 @@ The values on this chart are shown as percentages and are made up of memory recl
   A low idle percentage indicates that the performance of the virtual machine may be affected because it is not receiving the memory it needs, or its memory is currently swapped to disk.
 * **Active Memory** - Percentage of guest physical memory that ESX estimates is actively being used by the virtual machine.
 
-#### Memory Reposessed
+#### Memory Repossessed
 Shows the amount of memory reclaimed by ESX.
 
 * **Balloon** - Amount of memory reclaimed by ESX via ballooning to give to other virtual machines.

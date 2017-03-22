@@ -8,7 +8,7 @@ id: supportservices2_fts.ftsgrid
 folder: ConnectSQLServer
 ---
 
-{% include tip.html content="If some of the details are incomplete for all of the rows, the Full Text Search Service may not be running. Check the **Service Statust page \| Services Status grid** to confirm this." %}
+{% include tip.html content="If some of the details are incomplete for all of the rows, the Full Text Search Service may not be running. Check the **Service Status page \| Services Status grid** to confirm this." %}
 
 
 ## The columns of the grid are:
@@ -19,7 +19,7 @@ The name of the database where the tables in the Full Text Catalog reside.
 
 ### ID
 
-The Full Text Catalogue ID.
+The Full Text Catalog ID.
 
 ### FTC Name
 

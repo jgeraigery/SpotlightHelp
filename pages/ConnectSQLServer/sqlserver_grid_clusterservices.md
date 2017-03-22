@@ -8,11 +8,11 @@ id: SQLSupportServices_Cluster.ClusterGrid
 folder: ConnectSQLServer
 ---
 
-
+ 
 {% include note.html content="If you are connected to a SQL Server instance that is not running on a Microsoft Cluster Server, this page displays the message **SQL Server is not running on a Cluster server**." %}
 
 
-## Available collumns include:
+## Available columns include:
 
 ### Name
 

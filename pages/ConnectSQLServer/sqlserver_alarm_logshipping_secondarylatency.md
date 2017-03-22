@@ -16,7 +16,7 @@ When the alarm is raised it may indicate a problem in getting data from the prim
 {% include note.html content="The **Primary ID** column may be hidden by default." %}
 
 
-You can configure this alarm to ignore certain values. You can configure different alarm severities for specific secondary databases. From the Spoltight Client see **Configure \| Alarms**.
+You can configure this alarm to ignore certain values. You can configure different alarm severities for specific secondary databases. From the Spotlight Client see **Configure \| Alarms**.
 
 
 

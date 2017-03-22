@@ -8,9 +8,9 @@ id: HighAvailability_DBMirroringDetails
 folder: ConnectSQLServer
 ---
 
-## Available collumns include:
+## Available columns include:
 
-### Database Name
+### Database Name 
 
 Name of the mirrored database.
 

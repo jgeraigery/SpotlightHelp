@@ -10,7 +10,7 @@ folder: ConnectSQLServer
 ---
 
 
- It is raised when a log file is almost full and the file cannot automatically grow enough to relieve the problem. Once a log file fills completely, depending on the state of other log files within the database, attempts to update data in that database may fail. This alarm takes into account the amount of free space currently on the disk that the file resides on.
+It is raised when a log file is almost full and the file cannot automatically grow enough to relieve the problem. Once a log file fills completely, depending on the state of other log files within the database, attempts to update data in that database may fail. This alarm takes into account the amount of free space currently on the disk that the file resides on.
 
 The alarm is raised when the number of growths remaining, given the files growth settings and the amount of free disk space available, falls below a threshold.
 

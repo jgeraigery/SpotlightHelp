@@ -15,7 +15,7 @@ A database with unhealthy performance often spends too much time waiting for bot
 
 By analyzing the waits of a SQL Server instance Spotlight can determine the relative proportion of time the instance spends on CPU, I/O, locks and latches. As long as a database instance devotes enough time to CPU and I/O, it will be considered healthy.
 
-Additionally, the single-block-read latency of the databsae instance is taken into consideration. This needs to be low/fast enough to indicate that the time being spent on I/O is productive.
+Additionally, the single-block-read latency of the database instance is taken into consideration. This needs to be low/fast enough to indicate that the time being spent on I/O is productive.
 
 However, if the time spent on waits is significantly lower than the available CPU time on the Windows host, there is not enough load being placed on the database instance to assess its health.
 

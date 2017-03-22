@@ -74,7 +74,7 @@ Number of physical writes performed for each request.  It shows no data for SQL 
 
 ### Total CPU
 
-CPU-time consumed by the session since SQL Server restart. It is updated every time execution finishes. Units: Miliseconds.
+CPU-time consumed by the session since SQL Server restart. It is updated every time execution finishes. Units: Milliseconds.
 
 ### Total I/O
 

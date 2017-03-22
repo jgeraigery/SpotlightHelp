@@ -6,7 +6,7 @@ sidebar: c_sqlserver_sidebar
 permalink: sqlserver_drilldown_databases.html
 folder: ConnectSQLServer
 ---
-
+ 
 
 ## How to open the Databases drilldown
 
@@ -255,7 +255,7 @@ Shows fragmentation information for all indexes in the SQL Server database. Note
 For information about the Fragmentation statistics displayed on the Fragmentation page:
 
 * SQL Server 2005 and above:- See the sys.dm_db_index_physical_stats DMV.
-* SQL Server 2000:- See the DBCC SHOWCONTIG topic in the Transact-SQL Reference section in Microsoft® SQL Server Books Online.
+* SQL Server 2000:- See the DBCC SHOWCONTIG topic in the Transact-SQL Reference section in Microsoft SQL Server Books Online.
 
 ##### Types of Fragmentation
 The following types of fragmentation can occur in SQL Server tables: Internal and External.
@@ -308,14 +308,14 @@ Shows each logical disk on the server, and allocates the space on each disk into
 
 
 ### LiteSpeed backups page
-Show the history of my LightSpeed backups
+Show the history of my LiteSpeed backups
 
-#### LightSpeed Backup History grid
-For databases backed up using NetVault LiteSpeed for SQL Server, use to view the history of your backups.
+#### LiteSpeed Backup History grid
+For databases backed up using LiteSpeed for SQL Server, use to view the history of your backups.
 
 Requirements
 
-* Designed for use with NetVault LiteSpeed for SQL Server versions 7.1 and above.
+* Designed for use with LiteSpeed for SQL Server versions 7.1 and above.
 * Requires that LiteSpeed be installed and operational on your SQL Server network.
 
 

@@ -1,5 +1,5 @@
 ---
-title: Litespeed Backup History grid
+title: LiteSpeed Backup History grid
 last_updated: July 29, 2016
 summary: "The LiteSpeed backups grid shows the history of your LiteSpeed backups."
 sidebar: c_sqlserver_sidebar
@@ -7,10 +7,10 @@ permalink: sqlserver_grid_litespeedbackuphistory.html
 id: Databases2_LiteSpeed.LiteSpeedGrid
 folder: ConnectSQLServer
 ---
-
+ 
 ## Requirements
 
-* Designed for use with NetVault LiteSpeed for SQL Server versions 7.1 and above.
+* Designed for use with LiteSpeed for SQL Server versions 7.1 and above.
 * Requires that LiteSpeed be installed and operational on your SQL Server network.
 
 

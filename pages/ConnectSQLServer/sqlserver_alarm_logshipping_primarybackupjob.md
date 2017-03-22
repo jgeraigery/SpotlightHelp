@@ -18,7 +18,7 @@ See also the **SQL Server \| High Availability drilldown \| Primaries page \| Tr
 {% include note.html content="The **Primary ID** column may be hidden by default." %}
 
 
-You can configure this alarm to ignore certain values. You can configure different alarm severities for specific primary databases. From the Spoltight Client see **Configure \| Alarms**.
+You can configure this alarm to ignore certain values. You can configure different alarm severities for specific primary databases. From the Spotlight Client see **Configure \| Alarms**.
 
 
 {% include links.html %}

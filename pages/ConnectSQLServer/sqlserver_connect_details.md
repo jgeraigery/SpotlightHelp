@@ -109,7 +109,7 @@ Click **Create** to add a Windows server to the list. This opens [Windows Server
 
 Select the alarms [configuration template][enterprise_cfgmonitor_templates] to apply to this connection.
 
-Select from any of the SQL Server configuration tempaltes that you have created through [Configure Alarms][enterprise_cfgmonitor_alarms] or select **Factory Settings Template** to apply the Factory Settings shipped with Spotlight.
+Select from any of the SQL Server configuration templates that you have created through [Configure Alarms][enterprise_cfgmonitor_alarms] or select **Factory Settings Template** to apply the Factory Settings shipped with Spotlight.
 
 {% include note.html content="The template will apply to the Windows host of the SQL Server instance if identified. The host is identified in the **Connection** section of the **Connection Details** page." %}
 
