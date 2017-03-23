@@ -15,13 +15,10 @@ Resolved the source of an error on creating a Playback Database or Spotlight Sta
 Corrected a problem with the persistency of database connection properties (tags and operating system host) in an environment where multiple Spotlight Clients connect to a Spotlight Diagnostic Server. | SOSSE-6370
 Resolved the source of an exception error on monitoring SQL Server and actioning Session Trace from various drilldowns such as TempDB \| Usage and SQL Activity \| Locks. | SOSSE-6260
 Corrected a problem where on viewing Spotlight Today with 'Group By Top 50 alarms' the Spotlght Today display failed over time to stay current with the top 50 alarms. | SOSSE-6224
-As a user I want there is an easier way to analyze activity performance issues in Spotlight | SOSSE-6218
-Column's sorting is not preserved | SOSSE-6216
-The alarm isn't always selected when I go from an alarm in alarm log to alarms by time | SOSSE-6033
-As a support engineer, I want all logs to be rotating | SOSSE-5943
-Index fragmentation metric always shows 0 in homepage even though there are large indexs that require rebuilding | SOSSE-5901
-Playback history error when creating a support bundle | SOSSE-5837
-DOCO Support App-V deployment | SOSSE-5815
+Corrected a problem so that now when using the Alarm Log and selecting an alarm to 'Show in Alarms by Time' the Alarms by Time display always selects the relevant alarm on screen. | SOSSE-6033
+Issues with monitoring SQL Server, Index Fragmentation, have been addressed by removing the Index Fragmentation components from the SQL Sever Overview page. The Index Fragmentation alarm is still raised, as a medium alarm, from the Status component. | SOSSE-5901
+Corrected the source of a Playback history error when creating a support bundle. | SOSSE-5837
+
 QS_AllTablesBySize.sql causes deadlocks | SOSSE-5770
 Add CLR_MANUAL_EVENT to the list of idle waits. | SOSSE-5739
 Online Help - QS_Services.sql cannot be executed successfully with non-sysadmin account | SOSSE-5715
@@ -41,7 +38,6 @@ As a developer I want a complete RESTful Web-API | SOSSE-5167
 Displaying limited number of rows in details drill down. | SOSSE-5018
 Databases - Dynamic Data File Group Growths Remaining alarm failing | SOSSE-4786
 As a DBA I would like to see more of the grid in the Wait Events drilldown | SOSSE-4272
-Target system version tolerance | SOSSE-3679
 As a User I want to be able to remove data from SSR for connections when the connection is deleted | SOSSE-3347
 Write to Event Log action has no default message | SOSSE-2500
 Reports generate blank pages every second page. | SOSSE-2464
