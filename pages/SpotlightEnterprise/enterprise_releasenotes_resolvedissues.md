@@ -18,21 +18,16 @@ Corrected a problem where on viewing Spotlight Today with 'Group By Top 50 alarm
 Corrected a problem so that now when using the Alarm Log and selecting an alarm to 'Show in Alarms by Time' the Alarms by Time display always selects the relevant alarm on screen. | SOSSE-6033
 Issues with monitoring SQL Server, Index Fragmentation, have been addressed by removing the Index Fragmentation components from the SQL Sever Overview page. The Index Fragmentation alarm is still raised, as a medium alarm, from the Status component. | SOSSE-5901
 Corrected the source of a Playback history error when creating a support bundle. | SOSSE-5837
+In QS_AllTablesBySize.sql now use nolock instead of readpast to correct deadlocks caused by Spotlight. | SOSSE-5770
+Corrected sourc of "Error retrieving data: ClientConnectIssue: Exception of type 'System.OutOfMemoryException' was thrown " in the Wait Events drilldown when selecting a custom date | SOSSE-5699
+When configuring an alarm from the Configure \| Alarms dialog, the 'Alarm Requires Acknowledgement' option is now visible for the Factory Settings template. | SOSSE-5675
 
-QS_AllTablesBySize.sql causes deadlocks | SOSSE-5770
-Add CLR_MANUAL_EVENT to the list of idle waits. | SOSSE-5739
-Online Help - QS_Services.sql cannot be executed successfully with non-sysadmin account | SOSSE-5715
-Spotlight client crashes when attempting to use Wait Events/Workload Analysis with custom date | SOSSE-5699
-“Alarm Requires Acknowledgement” checkbox isn’t in the Factory Settings template | SOSSE-5675
-As a user I want to know the SQL agent job SPID in Spotlight | SOSSE-5638
-As a supporter I want to know why DS fails to write data to playback database or statistic repository database in the log | SOSSE-5622
-As a user I want every report to be generated across several servers | SOSSE-5610
 SCOM - robustify the code around calling waffle and NTLM for a customer that is getting repeated 401 http errors | SOSSE-5429
-As a DBA I want to be warned about loosing data when unchecking "Override the factory settings" | SOSSE-5423
+
 Cannot find perf data in table spotlight_stat_names for MemoryGrantsPending. | SOSSE-5384
-Publications.sql returns error "subquery returned more than 1 value" | SOSSE-5372
-Ignore some FTS waits | SOSSE-5287
-Auto Update failure Alarm can not be cleared when user disable auto update option | SOSSE-5176
+
+Corrected a problem where the Auto Update failure Alarm can now be cleared after the Auto Update facility has been disabled. | SOSSE-5176
+
 Better handling of deadlocks with victim SPID "Unknown" | SOSSE-5174
 As a developer I want a complete RESTful Web-API | SOSSE-5167
 Displaying limited number of rows in details drill down. | SOSSE-5018
