@@ -26,6 +26,10 @@ In the Spotlight Client, Spotlight grids, column sorting is now preserved for th
 Spotlight's audit log of user actions now records Spotlight Client startup and shutdown times | SOSSE-5943
 Spotlight's audit log of user actions is now tabled in the playback database. The contents of any existing useractionlog.csv file will be written into the table by the upgrade process and then the file will be deleted. |
 Spotlight Enterprise supports running a Spotlight Client in an App-V deployment. | SOSSE-5815
+CLR_MANUAL_EVENT has been added to the list of idle waits. | SOSSE-5739
+On Configure \| Custom Counters, uncheck 'Override the factory settings' you are now warned if this action will result in loosing configuration data.  | SOSSE-5423
+The SQL Server \| Wait Statistics drilldown now ignores the following wait types: FT_IFTS_SCHEDULER_IDLE_WAIT, FT_SCHEDULER_IDLE_WAIT, FT_IFTSHC_MUTEX, FT_COMPROWSET_RWLOCK, FT_IFTS_RWLOCK, FT_IFTSHC_MUTEX, FT_IFTSISM_MUTEX, FT_MASTER_MERGE, FT_METADATA_MUTEX | SOSSE-5287
+
 
 
 Test VMware collection for vCentre 6.0 | SOSSE-5930
