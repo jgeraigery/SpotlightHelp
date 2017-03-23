@@ -22,7 +22,16 @@ For data uploaded to Spotlight Cloud, dummy text replaces string literals to pro
 When monitoring a **SQL Server Availability Group**, Spotlight now raises an alarm if the connection address is to a node other than the Availability Listener. Spotlight requires the connection address be to the Availability Listener. | SoSSE-3117
 When monitoring SQL Server, the **Support Services drilldown \| SQL Agent Jobs page** now includes the QL agent job SPID. | SOSSE-5638
 A new Spotlight Report, **SQL Server Availability**, reports on the availability of given SQL Server instances over a specified time period. It includes uptime statistics and the reason for any downtime periods (as per Spotlight alarms raised). | DS-458
+In the Spotlight Client, Spotlight grids, column sorting is now preserved for the life of the Spotlight Client session. | SOSSE-6216
+Spotlight's audit log of user actions now records Spotlight Client startup and shutdown times | SOSSE-5943
+Spotlight's audit log of user actions is now tabled in the playback database. The contents of any existing useractionlog.csv file will be written into the table by the upgrade process and then the file will be deleted. |
+Spotlight Enterprise supports running a Spotlight Client in an App-V deployment. | SOSSE-5815
+
+
 Test VMware collection for vCentre 6.0 | SOSSE-5930
+
+
+
 
 
 {% include links.html %}
