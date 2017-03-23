@@ -509,14 +509,6 @@ entries:
           url: /sqlserver_component_logfiles_pcnt.html
           output: web, pdf
 
-        - title: Large Index Files - Maximum Fragmentation
-          url: /sqlserver_component_fragmentationmax.html
-          output: web, pdf
-
-        - title: Large Index Files - Median Fragmentation
-          url: /sqlserver_component_fragmentationmedian.html
-          output: web, pdf
-
         - title: Max I/O Stall Time
           url: /sqlserver_component_maxiostalltime.html
           output: web, pdf
