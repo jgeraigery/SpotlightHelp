@@ -1,12 +1,12 @@
 ---
 title: Databases drilldown
-last_updated: July 29, 2016
-summary: ""
+last_updated: March 24, 2017
+summary: "Drilldown on the details of all databases in SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_drilldown_databases.html
 folder: ConnectSQLServer
 ---
- 
+
 
 ## How to open the Databases drilldown
 
@@ -22,21 +22,19 @@ From the Spotlight Client
 ## About the Databaes drilldown
 
 
-### Databases page
+### Databases grid
 
-Select one or more databases in the Databases grid to show just those databases in Database Details.
+Shows details of all databases in SQL Server. Select one or more databases in the Databases grid to show just those databases in **Database Details**.
 
-The tempdb database has its own drilldown. Click on tempdb to open the tempdb drilldown. Click on another cell in the tempdb row to select tempdb for Database Details.
+You can select the Database View as: **Overview, Transactions, Backup Status or Properties** to adjust the category of information displayed in the Databases grid.
 
-#### Databases grid
+{% include imageClient.html file="tb_drilldown_database_view.png" alt="Database view" %}
 
-Shows details of all databases in SQL Server.
+{% include tip.html content="The **tempdb** database has its own drilldown. Click on tempdb to open the tempdb drilldown. Click on another cell in the tempdb row to select tempdb for **Database Details**." %}
 
-Select the Database View as: **Overview, Transactions, Backup Status or Properties** to adjust the category of information displayed in the Databases grid.
+{% include tip.html content="The # Tables column may not match the number of tables shown in the **Tables grid**. This is most evident when viewing table details for the tempdb database and is due to its dynamic nature." %}
 
-
-
-The # Tables column may not match the number of tables shown in the Tables grid. This is most evident when viewing table details for the tempdb database and is due to its dynamic nature.
+Click {% include imageClient.html file="tb_drilldown_databases_showhide.png" alt="show/hide" %} to Hide/Show the Databases grid.
 
 
 ### Summary page

@@ -23,14 +23,14 @@ When monitoring a **SQL Server Availability Group**, Spotlight now raises an ala
 When monitoring SQL Server, the **Support Services drilldown \| SQL Agent Jobs page** now includes the QL agent job SPID. | SOSSE-5638
 A new Spotlight Report, **SQL Server Availability**, reports on the availability of given SQL Server instances over a specified time period. It includes uptime statistics and the reason for any downtime periods (as per Spotlight alarms raised). | DS-458
 In the Spotlight Client, Spotlight grids, column sorting is now preserved for the life of the Spotlight Client session. | SOSSE-6216
-Spotlight's audit log of user actions now records Spotlight Client startup and shutdown times | SOSSE-5943
-Spotlight's audit log of user actions is now tabled in the playback database. The contents of any existing useractionlog.csv file will be written into the table by the upgrade process and then the file will be deleted. |
-Spotlight Enterprise supports running a Spotlight Client in an App-V deployment. | SOSSE-5815
+Spotlight's **audit log** of user actions now records Spotlight Client startup and shutdown times | SOSSE-5943
+Spotlight's **audit log** of user actions is now tabled in the playback database. The contents of any existing useractionlog.csv file will be written into the table by the upgrade process and then the file will be deleted. |
+Spotlight Enterprise supports running a Spotlight Client in an **App-V deployment**. | SOSSE-5815
 CLR_MANUAL_EVENT has been added to the list of idle waits. | SOSSE-5739
-On Configure \| Custom Counters, uncheck 'Override the factory settings' you are now warned if this action will result in loosing configuration data.  | SOSSE-5423
-The SQL Server \| Wait Statistics drilldown now ignores the following wait types: FT_IFTS_SCHEDULER_IDLE_WAIT, FT_SCHEDULER_IDLE_WAIT, FT_IFTSHC_MUTEX, FT_COMPROWSET_RWLOCK, FT_IFTS_RWLOCK, FT_IFTSHC_MUTEX, FT_IFTSISM_MUTEX, FT_MASTER_MERGE, FT_METADATA_MUTEX | SOSSE-5287
-
-
+On **Configure \| Custom Counters**, uncheck 'Override the factory settings' you are now warned if this action will result in loosing configuration data.  | SOSSE-5423
+The **SQL Server \| Wait Statistics drilldown** now ignores the following wait types: FT_IFTS_SCHEDULER_IDLE_WAIT, FT_SCHEDULER_IDLE_WAIT, FT_IFTSHC_MUTEX, FT_COMPROWSET_RWLOCK, FT_IFTS_RWLOCK, FT_IFTSHC_MUTEX, FT_IFTSISM_MUTEX, FT_MASTER_MERGE, FT_METADATA_MUTEX | SOSSE-5287
+Better handling of deadlocks: When the deadlock is a Intra-Query Parallel Deadlock SQL Server does not put a victim SPID in the deadlock graph however the SPID can be derived from other data in the deadlock graph. We have changed our deadlock code to find that SPID when the victim list is empty thus ensuring a victim SPID is returned for this type of deadlock. | SOSSE-5174
+The **SQL Server \| Databases drilldown** has been enhanced for greater usability. Use the Up/Down button to Hide/Show the Databases grid. Grab and move the line between the Databases grid and Database Detils according to which you want to see more of. Find and Save options have been added to the Database Details \| Data Files grid. | SOSSE-4786
 
 Test VMware collection for vCentre 6.0 | SOSSE-5930
 
