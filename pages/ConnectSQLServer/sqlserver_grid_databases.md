@@ -13,12 +13,10 @@ folder: ConnectSQLServer
 
 Select one or more databases in the Databases grid to show just those databases in **Database Details**. Press the **Shift** key to select a block of multiple databases or the **CTRL** key to select individual databases.
 
-{% include inline_imageClient.html file="tb_drilldown_database_view.png" alt="Database view" %} | You can select the Database View as: **Overview, Transactions, Backup Status or Properties** to adjust the category of information displayed in the Databases grid.
-{% include inline_imageClient.html file="tb_drilldown_databases_showhide.png" alt="show/hide" %} | Hide/Show the Databases grid.
+{% include inline_imageClient.html file="tb_drilldown_database_view.png" alt="Database view" %} | Click to select the Database View as: **Overview, Transactions, Backup Status or Properties** to adjust the category of information displayed in the Databases grid.
+{% include inline_imageClient.html file="tb_drilldown_databases_showhide.png" alt="show/hide" %} | Click to hide/show the Databases grid.
 
 {% include tip.html content="The **tempdb** database has its own drilldown. Click on tempdb to open the tempdb drilldown. Click on another cell in the tempdb row to select tempdb for **Database Details**." %}
-
-{% include tip.html content="The # Tables column may not match the number of tables shown in the **Tables grid**. This is most evident when viewing table details for the tempdb database and is due to its dynamic nature." %}
 
 ## Overview
 
