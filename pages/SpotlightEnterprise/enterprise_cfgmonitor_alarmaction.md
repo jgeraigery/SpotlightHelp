@@ -251,7 +251,7 @@ Level is one of: Success, Error, Warning, Information.
 
 The message field is required; it cannot be empty. The default message is:
 
-```
+```liquid
 {{CONNECTION_NAME}} raised an alarm: {{Message}}
 ```
 
