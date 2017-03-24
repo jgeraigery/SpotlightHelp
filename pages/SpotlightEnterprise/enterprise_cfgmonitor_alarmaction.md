@@ -251,9 +251,11 @@ Level is one of: Success, Error, Warning, Information.
 
 The message field is required; it cannot be empty. The default message is:
 
+{% raw %}
 ```liquid
 {{CONNECTION_NAME}} raised an alarm: {{Message}}
 ```
+{% endraw %}
 
 The message can include variables. For more information on variables, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].
 
