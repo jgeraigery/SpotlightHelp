@@ -24,17 +24,16 @@ When configuring an alarm from the Configure \| Alarms dialog, the 'Alarm Requir
 
 SCOM - robustify the code around calling waffle and NTLM for a customer that is getting repeated 401 http errors | SOSSE-5429
 
-Cannot find perf data in table spotlight_stat_names for MemoryGrantsPending. | SOSSE-5384
 
 Corrected a problem where the Auto Update failure Alarm can now be cleared after the Auto Update facility has been disabled. | SOSSE-5176
 
-Better handling of deadlocks with victim SPID "Unknown" | SOSSE-5174
+
 As a developer I want a complete RESTful Web-API | SOSSE-5167
+
 Displaying limited number of rows in details drill down. | SOSSE-5018
-Databases - Dynamic Data File Group Growths Remaining alarm failing | SOSSE-4786
-As a DBA I would like to see more of the grid in the Wait Events drilldown | SOSSE-4272
-As a User I want to be able to remove data from SSR for connections when the connection is deleted | SOSSE-3347
-Write to Event Log action has no default message | SOSSE-2500
+
+Corrected a problem such that when a Spotlight Connection is deleted the associated data in the Spotlight Statistics Repository is also removed. | SOSSE-3347
+
 Reports generate blank pages every second page. | SOSSE-2464
 DS keeps waiting forever when SSPI authentication failed on client side | DS-611
 In alarms by time the connection state bar is red when there are no red alarms | DS-601
@@ -42,7 +41,6 @@ As a DBA I don't want to see DBCC info messages in the alarm text | DS-598
 Fragmentation problem - Invalid column name 'AllocUnitTypeDesc'. [207] [Error Code: 207]. | DS-521
 CLONE - [Customers] New customer unable to upload data | DS-513
 SSR response time value inconsistent with real time value | DS-414
-Corrected a problem such that wen a Spotlight Connection is deleted the associated data in the Spotlight Statistics Repository is also removed. | SOSSE-3347
 
 
 
