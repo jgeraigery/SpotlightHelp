@@ -30,7 +30,10 @@ CLR_MANUAL_EVENT has been added to the list of idle waits. | SOSSE-5739
 On **Configure \| Custom Counters**, uncheck 'Override the factory settings' you are now warned if this action will result in loosing configuration data.  | SOSSE-5423
 The **SQL Server \| Wait Statistics drilldown** now ignores the following wait types: FT_IFTS_SCHEDULER_IDLE_WAIT, FT_SCHEDULER_IDLE_WAIT, FT_IFTSHC_MUTEX, FT_COMPROWSET_RWLOCK, FT_IFTS_RWLOCK, FT_IFTSHC_MUTEX, FT_IFTSISM_MUTEX, FT_MASTER_MERGE, FT_METADATA_MUTEX | SOSSE-5287
 Better handling of deadlocks: When the deadlock is a Intra-Query Parallel Deadlock SQL Server does not put a victim SPID in the deadlock graph however the SPID can be derived from other data in the deadlock graph. We have changed our deadlock code to find that SPID when the victim list is empty thus ensuring a victim SPID is returned for this type of deadlock. | SOSSE-5174
-The **SQL Server \| Databases drilldown** has been enhanced for greater usability. Use the Up/Down button to Hide/Show the Databases grid. Grab and move the line between the Databases grid and Database Detils according to which you want to see more of. Find and Save options have been added to the Database Details \| Data Files grid. | SOSSE-4786
+The **SQL Server \| Databases drilldown** has been enhanced for greater usability. Use the Up/Down button to Hide/Show the Databases grid. Move the line between the Databases grid and Database Detils according to which display you want to see more or less of. Find and Save options have been added to the Database Details \| Data Files grid. | SOSSE-4786
+The **SQL Server \| Wait Events drilldown** has been enhanced such that you can now move the line between the grid and charts according to which display you want to see more or less of. | SOSSE-4272
+On **Configure \| Alarm Actions** with action 'Write the alarm details to a Windows Event log' there is now an informative default 'Message'. The 'Message' field is required; it cannot be empty. | SOSSE-2500
+
 
 Test VMware collection for vCentre 6.0 | SOSSE-5930
 
