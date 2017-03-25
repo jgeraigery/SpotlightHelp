@@ -1,5 +1,5 @@
 _site/
-_install/
+_install/*.wxs
 .sass-cache/
 .jekyll-metadata
 _pdf
