@@ -21,9 +21,7 @@ Corrected the source of a Playback history error when creating a support bundle.
 In QS_AllTablesBySize.sql now use nolock instead of readpast to correct deadlocks caused by Spotlight. | SOSSE-5770
 Corrected sourc of "Error retrieving data: ClientConnectIssue: Exception of type 'System.OutOfMemoryException' was thrown " in the Wait Events drilldown when selecting a custom date | SOSSE-5699
 When configuring an alarm from the Configure \| Alarms dialog, the 'Alarm Requires Acknowledgement' option is now visible for the Factory Settings template. | SOSSE-5675
-
-SCOM - robustify the code around calling waffle and NTLM for a customer that is getting repeated 401 http errors | SOSSE-5429
-
+Spotlight Management Pack for Scom - tightened the code around calling waffle and NTLM for a customer getting repeated 401 http errors. | SOSSE-5429
 Corrected a problem where the Auto Update failure Alarm can now be cleared after the Auto Update facility has been disabled. | SOSSE-5176
 
 As a developer I want a complete RESTful Web-API | SOSSE-5167
@@ -34,9 +32,6 @@ Corrected a problem such that when a Spotlight Connection is deleted the associa
 Corrected a problem printing **Spotlight Reports** generated through the Spotlight Client Report Viewer when the paper size was set to A4. | SOSSE-2464
 Corrected a problem where the Spotlight Diagnostic Server was kept waiting when SSPI authentication failed on the Spotlight Client. | DS-611
 Corrected a problem where in Alarms by Time the connection state bar was colored red while there were no alarms raised. | DS-601
-
-Fragmentation problem - Invalid column name 'AllocUnitTypeDesc'. [207] [Error Code: 207]. | DS-521
-
 Corrected source of problem causing error: 'Diagnostic Server - Spotlight Cloud data transfer' for new customers. | DS-513
 Corrected a problem where the value for Response Time was inconsistent between the Spolight Statistics Repostiory and Playback Database. | DS-414
 
