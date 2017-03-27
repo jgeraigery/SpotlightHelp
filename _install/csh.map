@@ -92,7 +92,7 @@
 800	availabilitygroup_drilldown_overview	Content/Drilldowns/home_availabilitygroups	HighAvailability_homepage_SQLSV
 
 ## Connection Discovery Wizard
-888 enterprise_cfgmonitor_connect_discoverywizard  IDH_connect_discoverywizard
+888	enterprise_cfgmonitor_connect_discoverywizard	IDH_connect_discoverywizard
 
 ## Connection Hyper-V
 965	hyperv_connect_details	Content/Connections/connect_hyperv	IDH_Connect_HyperV
