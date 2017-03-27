@@ -9,19 +9,18 @@ folder: SpotlightEnterprise
 
 ## Location and data source of the log
 
-The log is located in the Spotlight Diagnostic Server installation folder:
+The log is tabled in the [Spotlight Playback Database][enterprise_backend_playback].
 
-```
-...\Agent\log\UserActionLog.csv
-```
-
-The data for the log is retrieved from the Playback Database.
+## Record Details
 
 For the following user actions the log records:
+
 * The Spotlight user making the change.
 * The time the change was made.
 * The configuration that was changed (if applicable).
 * The configuration value before and after the change (if applicable).
+
+The log also records startup and shutdown of Spotlight Clients.
 
 ## Changes to Configure \| Spotlight
 
