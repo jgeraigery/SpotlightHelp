@@ -17,7 +17,7 @@ Client has connection failures in a TLS 1.2 only environment | SOSSE-6383
 In the Spotlight Client, Spotlight grids, column sorting is now preserved for the life of the Spotlight Client session. | SOSSE-6216
 You can now click **Help \| About \| View/Change Product License \| Retrieve License Key** to retrieve details of your License Key and contact the licensing team. | SOSSE-6169
 Spotlight's **audit log** of user actions now records Spotlight Client startup and shutdown times | SOSSE-5943
-Spotlight's **audit log** of user actions is now tabled in the playback database. The contents of any existing useractionlog.csv file will be written into the table by the upgrade process and then the file will be deleted. |
+Spotlight's **audit log** of user actions is now tabled in the playback database. The contents of any existing useractionlog.csv file will be written into the table by the upgrade process and then the file will be deleted. | SOSSE-5742
 Spotlight Enterprise supports running a Spotlight Client in an **App-V deployment**. | SOSSE-5815
 CLR_MANUAL_EVENT has been added to the list of idle waits. | SOSSE-5739
 On the SQL Server \| **SQL Activity drilldown \| Sessions grid** the Status column has been color coded for readability. | SOSSE-5714
