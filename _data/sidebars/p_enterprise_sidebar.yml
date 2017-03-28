@@ -408,7 +408,7 @@ entries:
           url: /enterprise_cfgmonitor_connect_discoverywizard.html
           output: web, pdf
 
-        - title: Command line access
+        - title: Windows Powershell / Command line access
           url: /enterprise_connect_commandline.html
           output: web, pdf
 
