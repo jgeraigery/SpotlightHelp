@@ -1,6 +1,6 @@
 ---
-title: Command Line Access
-summary: "List / edit / delete Spotlight Connections from the command line."
+title: Windows Powershell / Command Line Access
+summary: "List / edit / delete Spotlight Connections from Windows Powershell / the command line."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_connect_commandline.html
 folder: SpotlightEnterprise
@@ -10,20 +10,17 @@ folder: SpotlightEnterprise
 ## Requirements
 Microsoft Windows Powershell 3.0 or above is required. Older operating systems (for example Windows Server 2008 R2) require an upgrade of the Windows Management Framework in order to access Spotlight from the command line. [Download Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595)
 
-## 1. Access Spotlight from the command line
+## 1. Access Spotlight from Windows Powershell / the command line
 
-1. Open the Spotlight Client installation directory, usually:
-    ```
-    C:\Program Files (x86)\Quest Software\Spotlight Enterprise
-    ```
+From Windows Powershell, enter command: **Import-DS**.
 
-2. Open the **Console** directory in the Spotlight Client installation directory.
-3. Right click the file **ds-cli.cmd** and select **Open** to open the command prompt.
+{% include tip.html content="In some special situations or for some platforms, if **Import-DS** does not work for you then open the **Console** directory in the Spotlight Client installation directory (usually C:\Program Files (x86)\Quest Software\Spotlight Enterprise). Right click the file **ds-cli.cmd** and select **Open** to open the command prompt." %}
 
-## 2. Command Spotlight from the command line
+
+## 2. Command Spotlight from Windows Powershell / the command line
 
 * Basic commands
-* Command line parameters
+* Windows Powershell / Command line parameters
 * Add a list of connections
 * Remove many connections
 
@@ -93,7 +90,7 @@ Get-Connection -Name connectionName | Set-Connection -Disabled
 Get-Connection -Name connectionName | Set-Connection -Enabled
 ```
 
-## Command line parameters
+## Windows Powershell / Command line parameters
 
 ### -Name connectionName
 
