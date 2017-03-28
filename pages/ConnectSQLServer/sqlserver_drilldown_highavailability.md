@@ -24,6 +24,8 @@ From the Spotlight Client
 
 {% include note.html content="Mirroring alarms are disabled by default. It is important to configure alarm thresholds that are appropriate to your environment before enabling these alarms. Use the Spotlight Client to **Configure \| Alarms**." %}
 
+{% include note.html content="The High Availability drilldown is not supported for SQL Server hosted on Unix/Linux operating systems." %}
+
 
 ### Transaction Log Shipping page
 

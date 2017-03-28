@@ -1,6 +1,6 @@
 ---
 title: SQL Server alarms
-last_updated: July 29, 2016
+last_updated: March 28, 2017
 tags: [alarms,alarms_by_connection_type]
 summary: "Respond to SQL Server alarms raised by Spotlight."
 sidebar: c_sqlserver_sidebar
@@ -64,6 +64,41 @@ See [Configure Alarm Actions][enterprise_cfgmonitor_alarmactions] to setup actio
 
 
 
+
+
+## Alarms not supported on the Unix/Linux Operating System
+The following alarms are not supported when the SQL Server connection is hosted on the Unix/Linux Operating System
+
+* Clusters - Failed over
+* Clusters - File Share Witness inaccessible
+* Clusters - Node unavailable
+* Clusters - non-Preferred Node
+* Databases - Dynamic Data File Group Growths Remaining
+* Databases - Dynamic Log File Growths Remaining
+* Databases - Data File Group Space Used
+* Databases - Log File Space Used
+* LiteSpeed Backup Failed
+* LiteSpeed Backup Warning
+* Log Shipping - Secondary Job
+* Log Shipping - Secondary Latency
+* Mirroring - State
+* Mirroring - Unrestored Log
+* Mirroring - Unsent Log
+* Mirroring Faildover
+* Monitored Server - Missing Windows Host
+* Services - DTC Service Status
+* Services - Full Text Search Service
+* Services - Integration Service Status
+* Services - Reporting Service Status
+* Services - SQL Agent Mail Status
+* Services - SQL Mail Status
+* SQL Agent - Alerts
+* SQL Agent - Jobs Failed
+* SQL Agent - Long Running Jobs (Percent)
+* SQL Agent - Long Running Jobs (Time)
+* SQL Agent - Status
+* SQL Analysis - Aggregation Information
+* Virtualization alarms
 
 
 {% include links.html %}

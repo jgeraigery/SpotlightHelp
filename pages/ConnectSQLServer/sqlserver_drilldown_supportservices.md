@@ -22,6 +22,7 @@ From the Spotlight Client
 
 ## About the Support Services drilldown
 
+{% include note.html content="The Support Services drilldown is not supported for SQL Server hosted on Unix/Linux operating systems." %}
 
 
 ### SQL Agent Jobs page

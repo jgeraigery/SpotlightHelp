@@ -1,6 +1,6 @@
 ---
 title: SQL Activity drilldown
-last_updated: July 29, 2016
+last_updated: March 28, 2017
 summary: "The SQL Activity drilldown provides access to charts and grids that show both current and recent activity details for the SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_drilldown_sqlactivity.html
@@ -46,7 +46,7 @@ In SQL Server 2000, clicking **Active only** shows sessions that:
 * You can view more details for a session by clicking it in this grid. Additional pages are then displayed in the lower half of the drilldown.
 * The data displayed in this grid can be **Filtered**. Filtering is the method Spotlight uses to restrict displays to a manageable or relevant set of data. You can view or change the filter by right-clicking the grid and choosing **View/Edit Filter**.
 * To find a particular session, right-click and select **Find**.
-* Data in the Last Wait Type and Last Wait Resource columns is reported directly from SQL Server and, for performance reasons, is not resolved to actual resource names during normal data collection. To resolve the data to a more readable form, click the  button.
+* Data in the Last Wait Type and Last Wait Resource columns is reported directly from SQL Server and, for performance reasons, is not resolved to actual resource names during normal data collection. To resolve the data to a more readable form, click the {% include inline_imageClient.html file="tb_drilldown_question.png" alt="Question mark button" %}  button.
 
 
 #### SQL (The Optimizer Plan Visualisation control)
@@ -253,6 +253,8 @@ The following counters can be displayed by clicking the arrow next to the chart 
 ### Custom Counters page
 Investigate Custom Counters.
 
+{% include note.html content="Custom Counters are not supported for SQL Server hosted on Unix/Linux operating systems." %}
+
 #### Custom Counters chart
 Shows data collected for any custom counters that have been configured.
 
@@ -261,7 +263,7 @@ Shows data collected for any SQL Server and Windows custom counters that have be
 
 Data collected for any custom counters that have been configured is shown in the chart and grids. Note that the chart shows only those counters that return numeric values.
 
-You can see Custom Counter data over a selected time range. See **Custom Counters** in Spotlight Reporting and Trending for more information.  
+You can see Custom Counter data over a selected time range. See the **Custom Counters** report in [Spotlight Reports][enterprise_display_reports] for more information.  
 
 
 ### Query Execution Statistics page
@@ -278,6 +280,8 @@ The columns in the Query Execution Statistics grid correspond to the data return
 ##### To filter the results
 
 Click **Query Execution Statistics**.
+
+{% include imageClient.html file="tb_drilldown_topsqlconfig.png" alt="Query Execution Statistics" %}
 
 Select values as appropriate.
 

@@ -85,7 +85,10 @@ GMT Time Zone: The Diagnostic Server shows the wrong time. The Activity drilldow
 Known Issue | Issue ID
 ------------|---------
 **Overview Page** - An unexpected error occurs the first time the SQL Server Overview page is opened in the Spotlight client session. <br><br> Performance Health / Wait Events / Workload Analysis - drilldown showd no data. <br><br> *Workaround:* Apply patch to .NET 4 - Software Update KB2468871v2 <br><br> See also own Known issues configuring Spotlight 3606. | 3606
-**No Disk Space data on Linux Operating System** - The SQL Server \| Databases drilldown shows no Disk Space data when the SQL Server is hosted on a Linux operating system. The following alarms don't work: Databases - Dynamic Data File Group Growths Remaining, Databases - Dynamic Log File Growths Remaining, Databases - Data File Group Space Used, Databases - Log File Space Used. The reason for this issue is Microsoft does not yet support retrieval of this data on Linux. | DS-476
+**No Disk Space data on Unix/Linux Operating System** - The SQL Server \| Databases drilldown shows no Disk Space data when the SQL Server is hosted on a Linux operating system. The following alarms don't work: Databases - Dynamic Data File Group Growths Remaining, Databases - Dynamic Log File Growths Remaining, Databases - Data File Group Space Used, Databases - Log File Space Used. The reason for this issue is Microsoft does not yet support retrieval of this data on Linux. | DS-476
+**Spotlight Reports where SQL Server is hosted on Unix/Linux** Some Spotlight Reports for SQL Server are not supported where the SQL Server host is Unix/Linux. |
+**The Spotlight Discovery Wizard where SQL Server is hosted on Unix/Linux** Spotlight does not discover SQL Server instances hosted on Unix/Linux. |
+**SQL Server drilldowns where SQL Server is hosted on Unix/Linux** The following drilldowns are not supported for SQL Server instances hosted on Unix/Linux: SQL Activity \| Custom Counters, High Availability, Support Services, Databases \| Disk Space, Error Log \| SQL Agent Error Logs |
 **SQL Server 2012 and above** - Spotlight does not support Analysis Services in Tabular and Sharepoint modes. | .
 **Workload Analysis drilldown** - SQL Server 2012 and above - When monitoring a failover cluster the Physical Reads value is 0 / No Data. | 3688
 **SQL Server 2012 and SQL Server 2008 R2** - "Using dbghelp.dll version 4.0.5" entries in the SQL Server Error Log. The source of these entries can be traced back to a known issue (Microsoft) when a statement or job executes the sys.fn_xe_file_target_read_file stored procedure. Refer to http://support.microsoft.com/kb/2878139 <br><br> The Spotlight SQL Server \| Performance Health feature uses XEvents sessions which may execute the sys.fn_xe_file_target_read_file stored procedure. | 2927
@@ -125,6 +128,6 @@ Known Issue | Issue ID
 **Custom Counters** Custom Counters are not supported for Unix/Linux hosts. |  SOSSE-6363
 **Spotlight Reports** Spotlight Reports for Reporting and Trending are not supported for the Unix/Linux Connection Type. |  SOSSE-6364
 **Monitored Files** Spotlight can be configured to track the growth of files (usually log files) on monitored Windows Server. This service is not supported for the Unix/Linux Connection Type. |  SOSSE-6362
-
+Data from the Unix/Linux operating system is not collected for the **Support Bundle**. |
 
 {% include links.html %}
