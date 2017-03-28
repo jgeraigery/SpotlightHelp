@@ -1,6 +1,6 @@
 ---
 title: Connection Discovery Wizard
-summary: "The Connection Discovery Wizard is used to locate resources on the network to add as Spotlight connections. The Connection Discovery Wizard can be used to locate SQL Server instances hosted on Windows Servers and Windows Servers."
+summary: "The Connection Discovery Wizard is used to locate resources on the network to add as Spotlight connections. The Connection Discovery Wizard can be used to locate SQL Server instances and Windows Servers."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_connect_discoverywizard.html
 folder: SpotlightEnterprise
@@ -14,8 +14,6 @@ folder: SpotlightEnterprise
 2. Click **Discover** from the list of **All connections**, **SQL Server** or **Windows**.
 3. If prompted, select the **SQL Server** or **Windows** connection type.
 
-{% include note.html content="The Connection Discovery Wizard does not add SQL Server hosted on Unix/Linux operating systems." %}
-
 ## Add multiple connections via discovery or file import
 
 ### Discover from the network
@@ -25,6 +23,8 @@ When selected, Spotlight compiles a list of resources on the network. From this 
 Depending on the size of your network it may take some time for Spotlight to discover all the available resources.
 
 {% include tip.html content="To locate SQL Server instances, Spotlight requires SQL Server Client tools be installed on both the Spotlight Client and Spotlight Diagnostic Server. If Spotlight finds no SQL Server instances then verify SQL Server Client Tools are installed. The SQL Server Client Tools that you need can be found on the installation disk for Microsoft SQL Server 2000 or later." %}
+
+{% include note.html content="Spotlight does not include SQL Server hosted on Unix/Linux operating systems in its compiled list." %}
 
 ### Import from a file
 
