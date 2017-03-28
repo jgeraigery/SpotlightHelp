@@ -1,6 +1,6 @@
 ---
 title: Unix/Linux alarms
-last_updated: July 29, 2016
+last_updated: March 28, 2017
 tags: [alarms,alarms_by_connection_type]
 summary: "Respond to Unix/Linux alarms raised by Spotlight."
 sidebar: c_unix_sidebar
