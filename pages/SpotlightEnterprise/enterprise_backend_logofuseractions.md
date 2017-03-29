@@ -12,12 +12,12 @@ folder: SpotlightEnterprise
 From the Spotlight Client
 
 1. Click **Reports** to show the reports that are available from this Spotlight Client.
-3. From **Default Reports**, select **Audit Log**.
+3. From **Default Reports**, select **Audit Report**.
 3. You may be required to provide authentication to the Spotlight Playback Database. Data for the log is stored in the Spotlight Playback Database.
 4. Fill in the input parameters.
 5. Click **View Report**.
 
-For more information, see [Spotlight Reports][enterprise_display_reports].
+For general information on Spotlight Reports, see [Spotlight Reports][enterprise_display_reports].
 
 
 ## Data source of the log

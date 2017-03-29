@@ -12,8 +12,8 @@ folder: SpotlightEnterprise
 ## All SQL Agent Jobs Report
 Report on the SQL Agent Jobs defined on selected SQL Server instances.
 
-## Audit Log
-Spotlight maintains an audit log of user actions. This log is a historical record of who changed what configuration when. For more information, see [Log of user actions][enterprise_backend_logofuseractions].
+## Audit Report
+Report on user actions from within Spotlight. The Audit Report is a historical record of who changed what Spotlight Configuration when. For more information, see [Log of user actions][enterprise_backend_logofuseractions].
 
 ## Custom Counters Report
 Report on data collected for configured custom counters on selected SQL Servers or Windows hosts.
