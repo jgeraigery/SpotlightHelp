@@ -97,7 +97,6 @@ The following alarms are not supported when the SQL Server connection is hosted 
 * SQL Agent - Long Running Jobs (Percent)
 * SQL Agent - Long Running Jobs (Time)
 * SQL Agent - Status
-* SQL Analysis - Aggregation Information
 * Virtualization alarms
 
 
