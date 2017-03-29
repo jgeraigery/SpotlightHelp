@@ -1,5 +1,5 @@
 ---
-title: Custom views
+title: Custom Views
 keywords: sample
 summary: "A Spotlight display (Heat map, Spotlight today, Alarms by time or Alarm log) can be filtered to the connections in the custom view. Create as many custom views as makes sense to your enterprise."
 sidebar: p_enterprise_sidebar

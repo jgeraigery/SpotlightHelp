@@ -1,5 +1,5 @@
 ---
-title: Chart toolbar
+title: Spotlight chart toolbar
 summary: "Configure the way the chart presents information."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_chartstoolbar.html

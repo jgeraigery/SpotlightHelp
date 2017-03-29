@@ -1,5 +1,5 @@
 ---
-title: Re-Locate the Spotlight Statistics Repository
+title: Relocate the Spotlight Statistics Repository
 summary: "Complete the following steps to re-locate the Spotlight Statistics Repository database without losing any existing data."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_backend_ssr_relocate.html

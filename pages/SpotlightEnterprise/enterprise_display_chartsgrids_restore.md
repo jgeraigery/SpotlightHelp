@@ -1,5 +1,5 @@
 ---
-title: Restore default settings for Spotlight Charts and Grids
+title: Restore default settings for Spotlight charts and grids
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_chartsgrids_restore.html
 id: 40230

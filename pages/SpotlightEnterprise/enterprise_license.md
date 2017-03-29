@@ -1,5 +1,5 @@
 ---
-title: Product license
+title: Product License
 keywords: license
 summary: "Spotlight Enterprise is supplied with a time-limited trial key so you can test the product. When the trial key expires Spotlight Enterprise reverts to a preview mode with severely limited access. When you enter a valid license key and site message you are licensed to use Spotlight Enterprise."
 sidebar: p_enterprise_sidebar

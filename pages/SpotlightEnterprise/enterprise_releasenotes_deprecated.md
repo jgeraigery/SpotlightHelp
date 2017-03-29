@@ -1,5 +1,5 @@
 ---
-title: Deprecated features
+title: Deprecated Features
 keywords: release notes
 summary: "The following is a list of features that are no longer supported starting with Spotlight Enterprise 12.0"
 sidebar: p_enterprise_sidebar

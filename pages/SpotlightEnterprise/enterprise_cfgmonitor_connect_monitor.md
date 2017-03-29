@@ -1,5 +1,5 @@
 ---
-title: Configure Monitoring Properties
+title: Configure Connection Monitoring Properties
 summary: "Configure the monitoring properties of a single connection."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgmonitor_connect_monitor.html

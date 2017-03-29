@@ -1,5 +1,5 @@
 ---
-title: Chart legend
+title: Spotlight chart legend
 summary: "The legend matches line color to the data series associated with the chart."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_chartslegend.html

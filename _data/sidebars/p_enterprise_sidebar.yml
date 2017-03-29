@@ -62,7 +62,7 @@ entries:
           url: /enterprise_releasenotes_licensing.html
           output: web, pdf
 
-        - title: Upgrade and Installation Instructions
+        - title: Upgrade and installation instructions
           url: /enterprise_releasenotes_upgrade.html
           output: web, pdf
 
@@ -99,7 +99,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Build the support bundle
+        - title: Build the Support Bundle
           url: /enterprise_support_buildthesupportbundle.html
           output: web, pdf
 
@@ -204,7 +204,7 @@ entries:
       url: /enterprise_display_alarmsbytime.html
       output: web, pdf
 
-    - title: Alarm Log
+    - title: Alarm log
       url: /enterprise_display_alarmlog.html
       output: web, pdf
 
@@ -221,11 +221,11 @@ entries:
           url: /enterprise_connect_customviews.html
           output: web, pdf
 
-        - title: New connection view properties
+        - title: New Connection View Properties
           url: /enterprise_connect_newconnectionviewproperties.html
           output: web, pdf
 
-        - title: Connection view properties
+        - title: Connection View Properties
           url: /enterprise_connect_connectionviewproperties.html
           output: web, pdf
 
@@ -246,11 +246,11 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: Spotlight Grids
+      - title: Spotlight grids
         output: web
         subfolderitems:
 
-        - title: Spotlight Grids
+        - title: Spotlight grids
           url: /enterprise_display_grids.html
           output: web, pdf
 
@@ -270,11 +270,11 @@ entries:
           url: /enterprise_display_gridsproperties.html
           output: web, pdf
 
-      - title: Spotlight Charts
+      - title: Spotlight charts
         output: web
         subfolderitems:
 
-        - title: Spotlight Charts
+        - title: Spotlight charts
           url: /enterprise_display_charts.html
           output: web, pdf
 
@@ -355,7 +355,7 @@ entries:
           url: /enterprise_ssrquery_storedprocedures_api.html
           output: web, pdf
 
-        - title: Additional Stored Procedures
+        - title: Additional stored procedures
           url: /enterprise_ssrquery_storedprocedures_custom.html
           output: web, pdf
 
@@ -383,11 +383,11 @@ entries:
       url: /enterprise_alarm_notifications.html
       output: web, pdf
 
-  - title: Configure Monitoring
+  - title: Configure monitoring
     output: web, pdf
     folderitems:
 
-    - title: Configure Monitoring
+    - title: Configure monitoring
       url: /enterprise_cfgmonitor_monitoring.html
       output: web, pdf
 
@@ -412,7 +412,7 @@ entries:
           url: /enterprise_cfgmonitor_connect_discoverywizard.html
           output: web, pdf
 
-        - title: Windows Powershell / Command Line Access
+        - title: Windows Powershell / Command line access
           url: /enterprise_connect_commandline.html
           output: web, pdf
 
@@ -492,7 +492,7 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Planned outage
+        - title: Configure Planned outage
           url: /enterprise_cfgmonitor_plannedoutage.html
           output: web, pdf
 
@@ -546,15 +546,15 @@ entries:
           url: /enterprise_cfgmonitor_applyconfig.html
           output: web, pdf
 
-        - title: Choose Configurations
+        - title: Choose configurations
           url: /enterprise_cfgmonitor_applyconfig_chooseconfigurations.html
           output: web, pdf
 
-        - title: Select Connections
+        - title: Select connections
           url: /enterprise_cfgmonitor_selectconnections.html
           output: web, pdf
 
-        - title: Preview Changes
+        - title: Preview changes
           url: /enterprise_cfgmonitor_applyconfig_preview.html
           output: web, pdf
 
@@ -562,11 +562,11 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Configuration Templates
+        - title: Configuration templates
           url: /enterprise_cfgmonitor_templates.html
           output: web, pdf
 
-        - title: Save to Template
+        - title: Save to template
           url: /enterprise_cfgmonitor_templates_save.html
           output: web, pdf
 
@@ -582,7 +582,7 @@ entries:
       url: /enterprise_cfgds_databasemaintenanceschedule.html
       output: web, pdf
 
-    - title: Configure Pager Duty
+    - title: Configure PagerDuty
       url: /enterprise_cfgds_pagerduty.html
       output: web, pdf
 
@@ -599,7 +599,7 @@ entries:
           url: /enterprise_cfgds_mailserver.html
           output: web, pdf
 
-        - title: SMTP Mail Options dialog
+        - title: SMTP mail options dialog
           url: /enterprise_cfgds_mailserver_smtpoptions.html
           output: web, pdf
 
@@ -797,7 +797,7 @@ entries:
       url: /enterprise_backend_dbobjectsprivileges.html
       output: web, pdf
 
-    - title: Maintenance Plan
+    - title: Maintenance plan
       url: /enterprise_backend_maintenanceplan.html
       output: web, pdf
 
@@ -805,7 +805,7 @@ entries:
       url: /enterprise_backend_backupdata.html
       output: web, pdf
 
-    - title: Log of User Actions
+    - title: Log of user actions
       url: /enterprise_backend_logofuseractions.html
       output: web, pdf
 
@@ -813,11 +813,11 @@ entries:
       url: /enterprise_backend_windowsnetwork.html
       output: web, pdf
 
-    - title: Network Ports
+    - title: Network ports
       url: /enterprise_backend_networkports.html
       output: web, pdf
 
-    - title: Spotlight Diagnostic User Groups
+    - title: Spotlight diagnostic user groups
       url: /enterprise_backend_spotlightdiagnosticusergroups.html
       output: web, pdf
 

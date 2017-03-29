@@ -1,5 +1,5 @@
 ---
-title: Baselining
+title: Spotlight chart baselining
 summary: "Baselining techniques are used to compare database performance over time. Compare data against baselines of earlier time periods. Determine if performance has improved or declined over time."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_chartsbaselining.html

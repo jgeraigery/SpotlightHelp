@@ -1,5 +1,5 @@
 ---
-title: Spotlight Chart Properties
+title: Spotlight chart properties
 summary: "Edit the visual properties of Spotlight charts."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_chartsproperties.html

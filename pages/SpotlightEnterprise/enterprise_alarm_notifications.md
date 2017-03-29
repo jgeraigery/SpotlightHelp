@@ -1,5 +1,5 @@
 ---
-title: Spotlight Notifications
+title: Push Notifications
 summary: "Spotlight can be configured to send notifications to your mobile device."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_alarm_notifications.html

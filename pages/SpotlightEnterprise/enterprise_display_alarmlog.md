@@ -1,5 +1,5 @@
 ---
-title: Alarm Log
+title: Alarm log
 keywords: alarm log
 summary: "The alarm log is a display of logged alarms."
 sidebar: p_enterprise_sidebar
@@ -12,14 +12,14 @@ folder: SpotlightEnterprise
 
 ## Open the Alarm log
 
-From the Spotlight Client, click **Monitor \| Alarm Log** to open the Alarm Log for all monitored connections.
+From the Spotlight Client, click **Monitor \| Alarm log** to open the Alarm log for all monitored connections.
 
-{% include tip.html content="The Alarm Log can be opened to show a custom view of monitored connections or a view of all connections of a specific type. From the left [Connections pane][enterprise_connect_display], click on a custom view or connection type then click **Alarm log** from the display pane. To open the Alarm log for just one connection, right click on the connection in the Connections pane and select **Alarm log**." %}
+{% include tip.html content="The Alarm log can be opened to show a custom view of monitored connections or a view of all connections of a specific type. From the left [Connections pane][enterprise_connect_display], click on a custom view or connection type then click **Alarm log** from the display pane. To open the Alarm log for just one connection, right click on the connection in the Connections pane and select **Alarm log**." %}
 
 
-## About the alarm log grid
+## About the Alarm log grid
 
-The alarm log grid is made up of rows and columns where each row represents an alarm and each column information about that alarm.
+The Alarm log grid is made up of rows and columns where each row represents an alarm and each column information about that alarm.
 
 Column | Description
 -------|------------
@@ -34,10 +34,10 @@ Snoozed Until | The alarm is snoozed until this time.
 Acknowledged by | The user who acknowledged the alarm.
 Acknowledgment Comment | The comment entered by the user when they acknowledged the alarm.
 
-{% include tip.html content="The alarm log is a Spotlight grid which may be saved to a file or the clipboard. To show / hide columns on the grid, right-click the grid headings and select **Organize Columns**. See also [Spotlight grids][enterprise_display_grids]." %}
+{% include tip.html content="The Alarm log is a Spotlight grid which may be saved to a file or the clipboard. To show / hide columns on the grid, right-click the grid headings and select **Organize Columns**. See also [Spotlight grids][enterprise_display_grids]." %}
 
 
-## Filter the alarm log
+## Filter the Alarm log
 {% include imageClient.html file="tb_action_changefilter.png" alt="Filter" %}
 Filter the Alarm log from the Filter ribbon group.
 
@@ -46,9 +46,9 @@ Ribbon Select | Description
 Filter by Severity | Show alarms of a certain severity.
 Filter by Time | Show alarms raised and canceled in the last 15 minutes, 30 minutes, 1 hour, 1 day, 1 week. Select **All** to show all alarms raised and canceled in the alarm log.
 
-{% include note.html content="By default the alarm log grid is filtered to show alarms raised and canceled in the last 15 minutes. Use **Filter by Time** to extend this time period. If a long period of time is selected and a large number of connections are monitored then the alarm log may take some time to load." %}
+{% include note.html content="By default the Alarm log grid is filtered to show alarms raised and canceled in the last 15 minutes. Use **Filter by Time** to extend this time period. If a long period of time is selected and a large number of connections are monitored then the Alarm log may take some time to load." %}
 
-## Actions on the alarm log
+## Actions on the Alarm log
 These actions are selectable from the Action ribbon group while the alarm log is on display. Some actions are enabled only when an alarm is selected.
 
 Icon | Ribbon Select | Description

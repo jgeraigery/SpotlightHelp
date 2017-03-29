@@ -1,5 +1,5 @@
 ---
-title: Windows Powershell / Command Line Access
+title: Windows Powershell / Command line access
 summary: "List / edit / delete Spotlight Connections from Windows Powershell / the command line."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_connect_commandline.html

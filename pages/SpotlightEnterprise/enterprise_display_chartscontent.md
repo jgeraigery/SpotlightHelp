@@ -1,5 +1,5 @@
 ---
-title: Chart content
+title: Spotlight chart content
 summary: "The charted information is displayed in the body of the chart."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_chartscontent.html
