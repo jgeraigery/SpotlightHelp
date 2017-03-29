@@ -1,6 +1,6 @@
 ---
 title: Sessions grid
-last_updated: July 29, 2016
+last_updated: March 28, 2017
 summary: "The Sessions grid shows all SQL Server sessions, each row representing a single SQL Server session."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_sessions.html
@@ -8,8 +8,9 @@ id: SQLActivity_Sessions.ConnectionsGrid
 folder: ConnectSQLServer
 ---
 
-## Tips to this grid
+## Tips to using this grid
 
+* Click a session in the grid for more details on the session.
 * Many applications create multiple connections to SQL Server.
 * When there are more than 2000 sessions only those sessions that are active (and those sessions that are blocked and blocking) are shown.
 * In SQL Server 2005 and 2008, to show only those sessions that are currently executing, click **Show active sessions only**.
@@ -18,7 +19,12 @@ folder: ConnectSQLServer
    * Are blocked.
    * Have a command type of "WAITFOR".
 * To close a SQL Server session, right click and select **Kill this session**. This option is available only to members of the Spotlight Diagnostic Administrators group.  To select multiple sessions use the shortcut key combinations CTRL+click or SHIFT+click.
-* Click a session in the grid for more details on the session.
+
+## General tips to using Spotlight grids
+
+* Some columns may be hidden by default. Right-click the grid headings and select the columns to show.
+* To filter the data displayed in this grid to restrict displays to a manageable or relevant set of data, right-click the grid and select **View/Edit Filter**.
+* To find a particular session, right-click and choose **Find**.
 
 ## The columns of the grid include:
 
@@ -160,12 +166,6 @@ Name of the Windows domain that the specified user belongs to.
 ### Win User
 
 Name of the Windows account under which the user is logged on.
-
-## General tips to using Spotlight grids
-
-* Some columns may be hidden by default. Right-click the grid headings and select the columns to show.
-* To filter the data displayed in this grid to restrict displays to a manageable or relevant set of data, right-click the grid and select **View/Edit Filter**.
-* To find a particular session, right-click and choose **Find**.
 
 
 
