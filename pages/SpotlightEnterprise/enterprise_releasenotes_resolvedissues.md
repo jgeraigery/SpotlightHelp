@@ -24,8 +24,6 @@ When configuring an alarm from the Configure \| Alarms dialog, the 'Alarm Requir
 Spotlight Management Pack for Scom - tightened the code around calling waffle and NTLM for a customer getting repeated 401 http errors. | SOSSE-5429
 Corrected a problem where the Auto Update failure Alarm can now be cleared after the Auto Update facility has been disabled. | SOSSE-5176
 
-As a developer I want a complete RESTful Web-API | SOSSE-5167
-
 Displaying limited number of rows in details drill down. | SOSSE-5018
 
 Corrected a problem such that when a Spotlight Connection is deleted the associated data in the Spotlight Statistics Repository is also removed. | SOSSE-3347
