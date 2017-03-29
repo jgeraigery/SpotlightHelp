@@ -42,7 +42,7 @@ entries:
           url: /enterprise_releasenotes_enhancements.html
           output: web, pdf
 
-        - title: Deprecated features
+        - title: Deprecated Features
           url: /enterprise_releasenotes_deprecated.html
           output: web, pdf
 
@@ -62,11 +62,11 @@ entries:
           url: /enterprise_releasenotes_licensing.html
           output: web, pdf
 
-        - title: Upgrade and installation instructions
+        - title: Upgrade and Installation Instructions
           url: /enterprise_releasenotes_upgrade.html
           output: web, pdf
 
-        - title: More resources
+        - title: More Resources
           url: /enterprise_releasenotes_moreresources.html
           output: web, pdf
 
@@ -160,6 +160,10 @@ entries:
           url: /enterprise_cfgclient_displayperformance.html
           output: web, pdf
 
+        - title: Choose Help location
+          url: /enterprise_cfgclient_helplocation.html
+          output: web, pdf
+
         - title: Configure support bundle emails
           url: /enterprise_cfgclient_supportbundle.html
           output: web, pdf
@@ -225,7 +229,7 @@ entries:
           url: /enterprise_connect_connectionviewproperties.html
           output: web, pdf
 
-        - title: Select connections
+        - title: Select Connections
           url: /enterprise_connect_selectconnections.html
           output: web, pdf
 
@@ -233,7 +237,7 @@ entries:
           url: /enterprise_connect_tags.html
           output: web, pdf
 
-        - title: Planned outages
+        - title: Planned Outages
           url: /enterprise_connect_plannedoutage.html
           output: web, pdf
   
@@ -242,11 +246,11 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: Spotlight grids
+      - title: Spotlight Grids
         output: web
         subfolderitems:
 
-        - title: Spotlight grids
+        - title: Spotlight Grids
           url: /enterprise_display_grids.html
           output: web, pdf
 
@@ -254,11 +258,11 @@ entries:
           url: /enterprise_display_gridstoolbar.html
           output: web, pdf
 
-        - title: Header row
+        - title: Header Row
           url: /enterprise_display_gridsheader.html
           output: web, pdf
 
-        - title: Grid content
+        - title: Grid Content
           url: /enterprise_display_gridscontent.html
           output: web, pdf
 
@@ -266,11 +270,11 @@ entries:
           url: /enterprise_display_gridsproperties.html
           output: web, pdf
 
-      - title: Spotlight charts
+      - title: Spotlight Charts
         output: web
         subfolderitems:
 
-        - title: Spotlight charts
+        - title: Spotlight Charts
           url: /enterprise_display_charts.html
           output: web, pdf
 
@@ -282,7 +286,7 @@ entries:
           url: /enterprise_display_chartslegend.html
           output: web, pdf
 
-        - title: Chart content
+        - title: Chart Content
           url: /enterprise_display_chartscontent.html
           output: web, pdf
 
@@ -294,7 +298,7 @@ entries:
           url: /enterprise_display_chartsproperties.html
           output: web, pdf
 
-        - title: Properties (Chart filters)
+        - title: Properties (Chart Filters)
           url: /enterprise_display_chartsproperties_filter.html
           output: web, pdf
 
@@ -396,11 +400,11 @@ entries:
           url: /enterprise_cfgmonitor_connect.html
           output: web, pdf
 
-        - title: Connection tags
+        - title: Connection Tags
           url: /enterprise_cfgmonitor_connect_tags.html
           output: web, pdf
 
-        - title: Connection monitoring
+        - title: Connection Monitoring
           url: /enterprise_cfgmonitor_connect_monitor.html
           output: web, pdf
 
@@ -408,7 +412,7 @@ entries:
           url: /enterprise_cfgmonitor_connect_discoverywizard.html
           output: web, pdf
 
-        - title: Windows Powershell / Command line access
+        - title: Windows Powershell / Command Line Access
           url: /enterprise_connect_commandline.html
           output: web, pdf
 
@@ -424,11 +428,11 @@ entries:
           url: /enterprise_cfgmonitor_alarm.html
           output: web, pdf
 
-        - title: Severity thresholds
+        - title: Severity Thresholds
           url: /enterprise_cfgmonitor_alarm_severity.html
           output: web, pdf
 
-        - title: Alarms - message variables
+        - title: Alarms - Message Variables
           url: /enterprise_cfgmonitor_alarm_messagevariables.html
           output: web, pdf
 
@@ -440,7 +444,7 @@ entries:
           url: /enterprise_cfgmonitor_alarm_customcounters.html
           output: web, pdf
 
-      - title: Configure Alarm actions
+      - title: Configure Alarm Actions
         output: web
         subfolderitems:
 
@@ -480,7 +484,7 @@ entries:
           url: /enterprise_cfgmonitor_scheduling.html
           output: web, pdf
 
-        - title: Configure a schedule
+        - title: Configure a Schedule
           url: /enterprise_cfgmonitor_schedule.html
           output: web, pdf
 
@@ -492,7 +496,7 @@ entries:
           url: /enterprise_cfgmonitor_plannedoutage.html
           output: web, pdf
 
-        - title: Planned outage details
+        - title: Planned Outage Details
           url: /enterprise_cfgmonitor_plannedoutage_details.html
           output: web, pdf
 
@@ -542,27 +546,27 @@ entries:
           url: /enterprise_cfgmonitor_applyconfig.html
           output: web, pdf
 
-        - title: Choose configurations
+        - title: Choose Configurations
           url: /enterprise_cfgmonitor_applyconfig_chooseconfigurations.html
           output: web, pdf
 
-        - title: Select connections
+        - title: Select Connections
           url: /enterprise_cfgmonitor_selectconnections.html
           output: web, pdf
 
-        - title: Preview changes
+        - title: Preview Changes
           url: /enterprise_cfgmonitor_applyconfig_preview.html
           output: web, pdf
 
-      - title: Configuration templates
+      - title: Configuration Templates
         output: web
         subfolderitems:
 
-        - title: Configuration templates
+        - title: Configuration Templates
           url: /enterprise_cfgmonitor_templates.html
           output: web, pdf
 
-        - title: Save to template
+        - title: Save to Template
           url: /enterprise_cfgmonitor_templates_save.html
           output: web, pdf
 
@@ -752,11 +756,11 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: Spotlght Diagnostic Server
+      - title: Spotlight Diagnostic Server
         output: web
         subfolderitems:
 
-        - title: Spotlght Diagnostic Server
+        - title: Spotlight Diagnostic Server
           url: /enterprise_backend_ds.html
           output: web, pdf
 
