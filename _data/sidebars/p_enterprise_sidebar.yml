@@ -678,10 +678,6 @@ entries:
           url: /cloud_display_connections.html
           output: web, pdf
 
-        - title: Health Check
-          url: /cloud_healthcheck.html
-          output: web, pdf
-
         - title: Diagnose
           url: /cloud_alarm_diagnose.html
           output: web, pdf
