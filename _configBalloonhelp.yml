@@ -93,21 +93,24 @@ defaults:
 
 sidebars:
 - home_sidebar
+- p_enterprise_sidebar
+- p_extensions_sidebar
+- p_cloud_sidebar
+- p_mobile_sidebar
+- c_sqlserver_sidebar
 - c_analysisservices_sidebar
 - c_availabilitygroup_sidebar
-- c_hyperv_sidebar
 - c_replication_sidebar
-- c_spotlightds_sidebar
 - c_sqlazure_sidebar
-- c_sqlserver_sidebar
-- c_vmware_sidebar
+- c_oracle_sidebar
+- c_unix_sidebar
 - c_windows_sidebar
-- p_cloud_sidebar
-- p_developer_sidebar
-- p_enterprise_sidebar
-- p_mobile_sidebar
+- c_vmware_sidebar
+- c_hyperv_sidebar
+- c_spotlightds_sidebar
+- other
 
-description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
+description: ""
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
