@@ -28,8 +28,8 @@ As a developer I want a complete RESTful Web-API | SOSSE-5167
 
 Displaying limited number of rows in details drill down. | SOSSE-5018
 
-Corrected a problem such that when a Spotlight Connection is deleted the associated data in the **Spotlight Statistics Repository** is also removed. | SOSSE-3347
-Corrected a problem printing **Spotlight Reports** generated through the Spotlight Client Report Viewer when the paper size was set to A4. | SOSSE-2464
+Corrected a problem such that when a Spotlight Connection is deleted the associated data in the Spotlight Statistics Repository is also removed. | SOSSE-3347
+Corrected a problem printing Spotlight Reports generated through the Spotlight Client Report Viewer when the paper size was set to A4. | SOSSE-2464
 Corrected a problem where the Spotlight Diagnostic Server was kept waiting when SSPI authentication failed on the Spotlight Client. | DS-611
 Corrected a problem where in Alarms by Time the connection state bar was colored red while there were no alarms raised. | DS-601
 Corrected source of problem causing error: 'Diagnostic Server - Spotlight Cloud data transfer' for new customers. | DS-513
