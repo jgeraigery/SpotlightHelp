@@ -11,6 +11,7 @@ folder: SpotlightEnterprise
 
 Known Issue | Issue ID
 ------------|---------
+The Spotlight Client experiences unhandled Microsoft .NET Framework exception errors when installed on Windows 10 version 1511.<br><br>*Workaround:* Upgrade Windows 10 to the latest version.  | SOSSE-6499
 If the Spotlight Client looses connection to the Spotlight Diagnostic Server then after a period of days the Spotlight Client will develop a minor memory leak. <br><br>*Workaround:* Restart the Spotlight Client. | 5433
 The Spotlight Client can experience performance issues (opening the home page, acknowledging and snoozing alarms) when a large number of alarms are raised against the one connection. | 2651
 Manual refresh is required on some drilldowns. Right click the data in the grid and select **Restore Default Settings \| Restore**. The grid shows "Loading". Click Refresh to populate the grid. | 11333 <br><br> 11406
