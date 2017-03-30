@@ -23,9 +23,6 @@ Corrected sourc of "Error retrieving data: ClientConnectIssue: Exception of type
 When configuring an alarm from the Configure \| Alarms dialog, the 'Alarm Requires Acknowledgement' option is now visible for the Factory Settings template. | SOSSE-5675
 Spotlight Management Pack for Scom - tightened the code around calling waffle and NTLM for a customer getting repeated 401 http errors. | SOSSE-5429
 Corrected a problem where the Auto Update failure Alarm can now be cleared after the Auto Update facility has been disabled. | SOSSE-5176
-
-Displaying limited number of rows in details drill down. | SOSSE-5018
-
 Corrected a problem such that when a Spotlight Connection is deleted the associated data in the Spotlight Statistics Repository is also removed. | SOSSE-3347
 Corrected a problem printing Spotlight Reports generated through the Spotlight Client Report Viewer when the paper size was set to A4. | SOSSE-2464
 Corrected a problem where the Spotlight Diagnostic Server was kept waiting when SSPI authentication failed on the Spotlight Client. | DS-611

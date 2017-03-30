@@ -7,8 +7,6 @@ permalink: enterprise_releasenotes_enhancements.html
 folder: SpotlightEnterprise
 ---
 
-## General Enhancements
-
 Enhancement | Issue ID
 ------------|---------
 There have been some changes to the implementation of **Spotlight Reports**. In the Spotlight Client the Reports tab now differentiates between Default Reports (those shipped with Spotlight) and Custom Reports (those reports you create). The location for Custom Reports has been set to a fixed location. The Report Viewer, Setting button, is no longer required and has been removed. | SOSSE-6416
@@ -26,6 +24,7 @@ On **Configure \| Custom Counters**, uncheck 'Override the factory settings' you
 The **SQL Server \| Wait Statistics drilldown** now ignores the following wait types: FT_IFTS_SCHEDULER_IDLE_WAIT, FT_SCHEDULER_IDLE_WAIT, FT_IFTSHC_MUTEX, FT_COMPROWSET_RWLOCK, FT_IFTS_RWLOCK, FT_IFTSHC_MUTEX, FT_IFTSISM_MUTEX, FT_MASTER_MERGE, FT_METADATA_MUTEX | SOSSE-5287
 Enhancement to applying alarm configurations from a **Configuration Template** or connection - Turn on / off individual configuration changes before the configurations are applied using the new checkboxes against each item in the Preview Changes dialog. | SOSSE-5268
 Better handling of deadlocks: When the deadlock is a Intra-Query Parallel Deadlock SQL Server does not put a victim SPID in the deadlock graph however the SPID can be derived from other data in the deadlock graph. We have changed our deadlock code to find that SPID when the victim list is empty thus ensuring a victim SPID is returned for this type of deadlock. | SOSSE-5174
+Enhancements to the **SQL Server \| Databases drilldown** where you can now adjust screen real estate by show/hide the Databases grid and drag the line between the grid and charts. We have added to the Database Details \| Data Files grid Find and Save buttons. | SOSSE-5018
 New enhanced access to list / edit / delete Spotlight Connections from the Windows Powershell / the command line. | SOSSE-4965
 The **SQL Server \| Databases drilldown** has been enhanced for greater usability. Use the Up/Down button to Hide/Show the Databases grid. Move the line between the Databases grid and Database Detils according to which display you want to see more or less of. Find and Save options have been added to the Database Details \| Data Files grid. | SOSSE-4786
 For data uploaded to Spotlight Cloud, dummy text replaces string literals to protect privacy information that may be contained in those literals. Data uploaded to the Spotlight Cloud is used in the displays on the Spotlight web site and Spotlight Mobile. | SoSSE-4484
