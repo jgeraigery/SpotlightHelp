@@ -26,7 +26,11 @@ Specify the IP address or hostname of the ESX server or VirtualCenter server hos
 If you have a VirtualCenter server then connect to that in preference to the ESX host. That way if the virtual machine migrates from one host to another the VirtualCenter server can still be interrogated for data for the virtual machine.
 
 ### Authentication
-Specify the authentication (username and password) for Spotlight to use to connect to the VMware server. The user must have at least a read-only role for the ESX server or VirtualCenter server.
+Specify the authentication for Spotlight to use to connect to the VMware server.
+
+Select **Use Diagnostic Server credentials** to use the Windows user configured to run the Spotlight Diagnostic Server.
+
+Alternatively, fill in the **User** and **Password** fields. The user must have at least a read-only role for the ESX server or VirtualCenter server.
 
 
 ## Test the connection
