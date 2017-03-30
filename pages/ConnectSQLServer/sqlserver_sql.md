@@ -8,15 +8,13 @@ permalink: sqlserver_sql.html
 folder: ConnectSQLServer
 ---
 
+Click to show visualization or SQL for the selected session.
 
-1. Select a plan from the possible plans. Click **More** to see more plans.
+{% include inline_imageClient.html file="tb_optimizerplan_plan.png" alt="Plan" %} | Click to show Visualization.
+{% include inline_imageClient.html file="tb_optimizerplan_sql.png" alt="SQL" %} | Click to show SQL.
 
-   {% include imageClient.html file="pane_optimizerplan_selectsqlplan.png" alt="Plan" %}
 
-2. Click to show a visualization or SQL of the selected plan.
-
-{% include inline_imageClient.html file="tb_optimizerplan_plan.png" alt="Plan" %} | Click to show a Visualization of the selected plan.
-{% include inline_imageClient.html file="tb_optimizerplan_sql.png" alt="SQL" %} | Click to show SQL for the selected plan.
+If the selected session is "running" then you will see an option to **View SQL for Batch**.
 
 
 
