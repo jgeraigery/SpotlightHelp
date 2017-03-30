@@ -56,19 +56,19 @@ entries:
     - title: Collections
       url: /tag_collections.html
       output: web
-    - title: Configure Monitoring
+    - title: Configure monitoring
       url: /tag_configure_monitoring.html
       output: web
-    - title: Connection Details
+    - title: Connection details
       url: /tag_connection_details.html
       output: web
-    - title: Connection Requirements
+    - title: Connection requirements
       url: /tag_connection_requirements.html
       output: web
-    - title: Heatmap
+    - title: Heat Map
       url: /tag_heatmap.html
       output: web
-    - title: Overview page
+    - title: Overview pages
       url: /tag_overview_page.html
       output: web
     - title: Playback

@@ -1,5 +1,5 @@
 ---
-title: Unix/Linux Connection Requirements and Initial Configuration
+title: Unix/Linux connection requirements and initial configuration
 tags: [connection_requirements]
 summary: "Spotlight can monitor Unix and Linux Servers and hosts of database connections fulfilling the following requirements."
 sidebar: c_unix_sidebar

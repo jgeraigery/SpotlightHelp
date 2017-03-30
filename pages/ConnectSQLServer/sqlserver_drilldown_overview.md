@@ -2,7 +2,7 @@
 title: Spotlight Overview page for SQL Server connections
 last_updated: July 29, 2016
 tags: [overview_page,overview_page_for_each_connection_type]
-summary: "Diagnose bottlenecks and problem areas for a single SQL Server connection."
+summary: "Use the Spotlight Overview page to diagnose bottlenecks and problem areas for a single SQL Server connection."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_drilldown_overview.html
 folder: ConnectSQLServer

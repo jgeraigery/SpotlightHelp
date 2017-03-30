@@ -1,7 +1,7 @@
 ---
 title: Spotlight Overview page for Unix/Linux Connections
 tags: [overview_page,overview_page_for_each_connection_type]
-summary: "Show the components and flows for the Unix/Linux connection."
+summary: "Use the Spotlight Overview page to diagnose bottlenecks and problem areas for a single Unix/Linux connection."
 sidebar: c_unix_sidebar
 permalink: unix_drilldown_overview.html
 folder: ConnectUnix
