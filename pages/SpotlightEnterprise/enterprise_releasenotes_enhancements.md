@@ -32,6 +32,7 @@ The **SQL Server \| Wait Events drilldown** has been enhanced such that you can 
 When a monitored system is newer than the versions Spotlight has been tested against, Spotlight will now monitor the system if able. Spotlight will raise an alarm to let you know the version is not yet supported. Some collections may fail because Spotlight has not been tested against the version yet. | SOSSE-3679
 When monitoring a **SQL Server Availability Group**, Spotlight now raises an alarm if the connection address is to a node other than the Availability Listener. Spotlight requires the connection address be to the Availability Listener. | SoSSE-3117
 On **Configure \| Alarm Actions** with action 'Write the alarm details to a Windows Event log' there is now an informative default 'Message'. The 'Message' field is required; it cannot be empty. | SOSSE-2500
+There is now an option to connect to a VMware ESX Server using diagnostic server credentials. | SOSSE-2044
 DBCC Info messages are now supressed for the SQL Virtual Log Files Count alarm. | DS-598
 A new Spotlight Report, **SQL Server Availability**, reports on the availability of given SQL Server instances over a specified time period. It includes uptime statistics and the reason for any downtime periods (as per Spotlight alarms raised). | DS-458
 The SQL Server, **Top SQL Statements** drilldown has been renamed to **Query Execution Statistics**. This drilldown is likely to be deprecated in the future in favor of the SQL Server \| Workload Analysis drilldown. | DS-428
