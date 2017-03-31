@@ -1,5 +1,5 @@
 ---
-title: Partial support for monitoring SQL Server v.Next CTP 1.1 hosted on Linux
+title: Partial support for monitoring SQL Server v.Next hosted on Linux
 last_updated: March 28, 2017
 summary: "Spotlight Enterprise now provides partial support for monitoring SQL Server hosted on Linux."
 sidebar: c_sqlserver_sidebar

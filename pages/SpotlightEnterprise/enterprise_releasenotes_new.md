@@ -8,8 +8,8 @@ id: 40001
 folder: SpotlightEnterprise
 ---
 
-## SQL Server v.Next CTP 1.1 hosted on Linux is partially supported
-Spotlight Enterprise now provides partial support for monitoring SQL Server hosted on Linux and [Unix/Linux servers][unix_welcome]. For clarification of supported features see [Partial support for monitoring SQL Server v.Next CTP 1.1 hosted on Linux][sqlserver_unix_partialsupport].
+## SQL Server v.Next hosted on Linux is partially supported
+Spotlight Enterprise now provides partial support for monitoring SQL Server hosted on Linux and [Unix/Linux servers][unix_welcome]. For clarification of supported features see [Partial support for monitoring SQL Server v.Next hosted on Linux][sqlserver_unix_partialsupport].
 
 ## Plan visualization
 The [SQL Server \| SQL Activity drilldown][sqlserver_drilldown_sqlactivity] has been enhanced. The Optimizer Plan Visualization control replaces the  **SQL Statement** and **Plan** tabs for a selected session. The Optimizer Plan Visualization control provides an interactive and intuitive way to view your plan and statement.

@@ -64,6 +64,6 @@ See [Configure Alarm Actions][enterprise_cfgmonitor_alarmactions] to setup actio
 
 
 ## Alarms not supported where the SQL Server host is Linux
-See [Partial support for monitoring SQL Server v.Next CTP 1.1 hosted on Linux][sqlserver_unix_partialsupport].
+See [Partial support for monitoring SQL Server v.Next hosted on Linux][sqlserver_unix_partialsupport].
 
 {% include links.html %}
