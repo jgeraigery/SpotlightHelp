@@ -1,5 +1,5 @@
 ---
-title: New in this Release
+title: New in this release
 keywords: release notes
 summary: "New features in Spotlight Enterprise 12.0"
 sidebar: p_enterprise_sidebar
@@ -7,20 +7,20 @@ permalink: enterprise_releasenotes_new.html
 id: 40001
 folder: SpotlightEnterprise
 ---
- 
-## SQL Server on Unix/Linux Support
-Spotlight Enterprise now monitors [Unix/Linux servers][unix_welcome] and hosts of database connections.
 
-## Plan Visualization
+## SQL Server v.Next CTP 1.1 hosted on Linux is partially supported
+Spotlight Enterprise now provides partial support for monitoring SQL Server hosted on Linux and [Unix/Linux servers][unix_welcome]. For clarification of supported features see [Partial support for monitoring SQL Server v.Next CTP 1.1 hosted on Linux][sqlserver_unix_partialsupport].
+
+## Plan visualization
 The [SQL Server \| SQL Activity drilldown][sqlserver_drilldown_sqlactivity] has been enhanced. The Optimizer Plan Visualization control replaces the  **SQL Statement** and **Plan** tabs for a selected session. The Optimizer Plan Visualization control provides an interactive and intuitive way to view your plan and statement.
 
-## Sessions Status Visualization
+## Sessions status visualization
 The [SQL Server \| SQL Activity drilldown \| Sessions grid][sqlserver_grid_sessions] has been enhanced. The grid is color coded by status to make it easier to scan sessions. Multiple sessions can be selected; multiple selected sessions can be killed in a single operation.
 
-## SQL Server Availability Report
+## SQL Server availability report
 A new report has been added to the default [Spotlight Enterprise reports][enterprise_display_reports]. The new report called the **SQL Server Availability Report** shows the availability / uptime of monitored instances.
 
-## Performance Metrics Trends Charts
+## Performance metrics trends charts
 The [SQL Server \| Workload Analysis][sqlserver_drilldown_workloadanalysis] drilldown has been enhanced to drilldown on a trending chart for a particular transaction.
 
 

@@ -242,19 +242,8 @@ SQL Optimizer | QueryExecutionStatistics
 
 
 
-## Collections not supported on the Unix/Linux Operating System
-The following schedules are not supported when the SQL Server connection is hosted on the Unix/Linux Operating System
-
-* Agent Job List
-* Agent Jobs Failed
-* Alert Failures
-* Cluster List
-* Cluster Summary
-* LiteSpeed Activity
-* LiteSpeed Alarm
-* Log Shipping Primaries
-* Log Shipping Secondaries
-* Mirroring
+## Collections not supported where the SQL Server host is Linux 
+See [Partial support for monitoring SQL Server v.Next CTP 1.1 hosted on Linux][sqlserver_unix_partialsupport].
 
 
 

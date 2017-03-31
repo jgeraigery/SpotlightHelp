@@ -22,9 +22,6 @@ From the Spotlight Client
 
 ## About the Support Services drilldown
 
-{% include note.html content="The Support Services drilldown is not supported for SQL Server hosted on Unix/Linux operating systems." %}
-
-
 ### SQL Agent Jobs page
 Investigate jobs that are defined, their current status and the latest execution message
 
@@ -101,6 +98,8 @@ You can also perform the following basic cluster control operations on some reso
 
 ### DTC page
 Investigate the performance of the Distributed Transaction Coordinator (DTC).
+
+{% include note.html content="The DTC page is not supported for SQL Server hosted on Unix/Linux operating systems." %}
 
 {% include note.html content="The DTC Details page provides additional data on SQL Server transactions within SQL Server. If the server that Spotlight is currently connected to has more than one instance running then details reported in this page are for all instances of SQL Server on the current machine, not only the instance currently under analysis." %}
 

@@ -1130,3 +1130,11 @@ entries:
     - title: Troubleshooting
       url: /sqlserver_troubleshoot_datadisplaycollect.html
       output: web, pdf
+
+  - title: SQL Server hosted on Linux
+    output: web, pdf
+    folderitems:
+
+    - title: SQL Server hosted on Linux
+      url: /sqlserver_unix_partialsupport.html
+      output: web, pdf

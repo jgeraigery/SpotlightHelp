@@ -290,6 +290,8 @@ The following are the best methods for reducing fragmentation:
 ### Disk Space page
 How much space database files are using on each disk
 
+{% include note.html content="The Disk Space page is not supported for SQL Server hosted on Unix/Linux operating systems." %}
+
 #### Disk Space chart
 Shows each logical disk on the server, and allocates the space on each disk into either SQL Data files, SQL Log files, Non-SQL files or Free Space. You can easily see how much of each disk is used by SQL databases, and how much is free.
 
