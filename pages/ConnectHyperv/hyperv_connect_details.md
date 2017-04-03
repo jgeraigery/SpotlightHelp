@@ -1,5 +1,5 @@
 ---
-title: Connection Details for Hyper-V
+title: Connection details for Hyper-V
 last_updated: July 29, 2016
 tags: [connection_details,connection_details_for_each_connection_type]
 summary: "Monitor a Hyper-V server by supplying the following connection details to Spotlight."

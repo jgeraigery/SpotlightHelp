@@ -16,7 +16,7 @@ When the status component is in an alarm state, right click **What's this?** to 
 
 ## Show Details
 
-When the status component is in an alarm state, right click **Show Details** to open Spotlight today for the Spotlight Diagnostic Server.
+When the status component is in an alarm state, right click **Show Details** to open Spotlight Today for the Spotlight Diagnostic Server.
 
 
 {% include links.html %}
