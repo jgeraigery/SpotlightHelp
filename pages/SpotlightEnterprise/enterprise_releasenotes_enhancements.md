@@ -12,9 +12,11 @@ Enhancement | Issue ID
 There have been some changes to the implementation of **Spotlight Reports**. In the Spotlight Client the Reports tab now differentiates between Default Reports (those shipped with Spotlight) and Custom Reports (those reports you create). The location for Custom Reports has been set to a fixed location. The Report Viewer, Setting button, is no longer required and has been removed. | SOSSE-6416
 You can now apply an alarms **configuration template** to a SQL Server connection while it is being created via **Configure Connections** and the **Connection Discovery Wizard**. | SOSSE-6407, SOSSE-6105
 Client has connection failures in a TLS 1.2 only environment | SOSSE-6383
+When creating a SQL Server connection, more support is provided on the **Configure \| Connections** screen when selecting OS Details \| Cluster (Monitor active node). | SOSSE-6376
 In the Spotlight Client, Spotlight grids, column sorting is now preserved for the life of the Spotlight Client session. | SOSSE-6216
 You can now click **Help \| About \| View/Change Product License \| Retrieve License Key** to retrieve details of your License Key and contact the licensing team. | SOSSE-6169
 Spotlight's **audit log** of user actions now records Spotlight Client startup and shutdown times | SOSSE-5943
+Spotlight has been tested to successfully monitor VMware vCentre 6.0. | SOSSE-5930
 Spotlight's **audit log** of user actions is now tabled in the playback database. The contents of any existing useractionlog.csv file will be written into the table by the upgrade process and then the file will be deleted. | SOSSE-5742
 Spotlight Enterprise supports running a Spotlight Client in an **App-V deployment**. | SOSSE-5815
 CLR_MANUAL_EVENT has been added to the list of idle waits. | SOSSE-5739
@@ -34,6 +36,8 @@ When monitoring a **SQL Server Availability Group**, Spotlight now raises an ala
 On **Configure \| Alarm Actions** with action 'Write the alarm details to a Windows Event log' there is now an informative default 'Message'. The 'Message' field is required; it cannot be empty. | SOSSE-2500
 There is now an option to connect to a VMware ESX Server using diagnostic server credentials. | SOSSE-2044
 DBCC Info messages are now supressed for the SQL Virtual Log Files Count alarm. | DS-598
+Spotlight accepts the use of PAC proxy files for the Diagnostic Server proxy. | DS-529
+The SQL Server \| Tempdb drilldown \| Usage page has been enhanced. Bug http://sqlity.net/en/671/deferred-deallocations-of-pages-in-tempdb/ was fixed in SQL Server 2012 Service Pack 2 and 2014 Service Pack 1 by the addition on a new column user_objects_deferred_dealloc_page_count to the DMV sys.dm_db_session_space_usage. This colum has been added to user_objects_dealloc_page_count to get the true deallocation page count. | DS-527
 A new Spotlight Report, **SQL Server Availability**, reports on the availability of given SQL Server instances over a specified time period. It includes uptime statistics and the reason for any downtime periods (as per Spotlight alarms raised). | DS-458
 The SQL Server, **Top SQL Statements** drilldown has been renamed to **Query Execution Statistics**. This drilldown is likely to be deprecated in the future in favor of the SQL Server \| Workload Analysis drilldown. | DS-428
 
