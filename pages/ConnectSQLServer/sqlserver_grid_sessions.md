@@ -42,6 +42,9 @@ Status of the session (runnable, sleeping, blocked etc).
 
 {% include tip.html content="The status is color coded for readability." %}
 
+{% include tip.html content="While the Status is running there is an option on the **SQL** sub page to **View SQL for Batch**." %}
+
+
 ### Blocked By
 
 Which SPID (if any) holds locks that this session is waiting on.
