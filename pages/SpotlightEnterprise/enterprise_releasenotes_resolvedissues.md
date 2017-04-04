@@ -27,11 +27,9 @@ Corrected a problem such that when a Spotlight Connection is deleted the associa
 Corrected a problem printing Spotlight Reports generated through the Spotlight Client Report Viewer when the paper size was set to A4. | SOSSE-2464
 Corrected a problem where the Spotlight Diagnostic Server was kept waiting when SSPI authentication failed on the Spotlight Client. | DS-611
 Corrected a problem where in Alarms by Time the connection state bar was colored red while there were no alarms raised. | DS-601
+Corrected a problem of "Arithmetic Overflow" error on calculation of database related collections in environments where monitored connections include large databases using large amounts of space. | DS-519
 Corrected source of problem causing error: 'Diagnostic Server - Spotlight Cloud data transfer' for new customers. | DS-513
 Corrected a problem where the value for Response Time was inconsistent between the Spolight Statistics Repostiory and Playback Database. | DS-414
-
-
-
 
 
 
