@@ -5,6 +5,7 @@ summary: "You can use the Spotlight Enterprise installer to install Spotlight En
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_upgrade.html
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 

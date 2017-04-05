@@ -3,6 +3,7 @@ title: Privacy Policy
 sidebar: p_enterprise_sidebar
 permalink: enterprise_legal_privacypolicy.html
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 

@@ -5,6 +5,7 @@ summary: "The following is a list of issues, including those attributed to third
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_knownissues.html
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 ## General known issues

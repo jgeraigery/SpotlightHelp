@@ -5,6 +5,7 @@ summary: "Before installing Spotlight Enterprise, ensure that your system meets 
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_systemrequirements.html
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 

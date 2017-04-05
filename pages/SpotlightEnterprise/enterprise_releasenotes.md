@@ -5,6 +5,7 @@ summary: "These release notes provide information about the Spotlight Enterprise
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes.html
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 

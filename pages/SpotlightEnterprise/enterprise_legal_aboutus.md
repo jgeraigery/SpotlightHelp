@@ -3,6 +3,7 @@ title: About Us
 sidebar: p_enterprise_sidebar
 permalink: enterprise_legal_aboutus.html
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 

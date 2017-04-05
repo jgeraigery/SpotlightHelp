@@ -5,6 +5,7 @@ sidebar: p_enterprise_sidebar
 permalink: enterprise_legal_thirdpartycomponents.html
 id: 1007
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 

@@ -5,6 +5,7 @@ summary: "The following is a list of features that are no longer supported start
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_deprecated.html
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 

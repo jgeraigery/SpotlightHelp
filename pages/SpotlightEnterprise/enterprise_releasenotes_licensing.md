@@ -5,6 +5,7 @@ summary: "Spotlight is supplied with a time-limited trial key so you can test th
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_licensing.html
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 

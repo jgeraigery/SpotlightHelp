@@ -5,6 +5,7 @@ summary:
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_globalization.html
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 This section contains information about installing and operating this product in non-English configurations, such as those needed by customers outside of North America. This section does not replace the materials about supported platforms and configurations found elsewhere in the product documentation.

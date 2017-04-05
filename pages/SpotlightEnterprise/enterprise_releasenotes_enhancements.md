@@ -5,6 +5,7 @@ summary: "The following is a list of enhancements implemented in Spotlight Enter
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_enhancements.html
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 Enhancement | Issue ID

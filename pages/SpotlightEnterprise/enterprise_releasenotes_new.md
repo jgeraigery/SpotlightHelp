@@ -6,6 +6,7 @@ sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_new.html
 id: 40001
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 ## SQL Server v.Next hosted on Linux is partially supported

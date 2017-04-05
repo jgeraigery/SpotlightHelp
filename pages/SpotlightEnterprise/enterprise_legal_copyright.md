@@ -3,6 +3,7 @@ title: Copyright
 sidebar: p_enterprise_sidebar
 permalink: enterprise_legal_copyright.html
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 
