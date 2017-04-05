@@ -6,6 +6,7 @@ sidebar: c_windows_sidebar
 toc: false
 permalink: windows_welcome.html
 folder: ConnectWindows
+readonly: true
 ---
 <div class="row">
         <div class="col-md-3 col-sm-6">
