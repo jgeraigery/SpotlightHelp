@@ -22,7 +22,7 @@ Spotlight's **audit log** of user actions is now tabled in the playback database
 Spotlight Enterprise supports running a Spotlight Client in an **App-V deployment**. | SOSSE-5815
 CLR_MANUAL_EVENT has been added to the list of idle waits. | SOSSE-5739
 On the SQL Server \| **SQL Activity drilldown \| Sessions grid** the Status column has been color coded for readability. | SOSSE-5714
-When monitoring SQL Server, the **Support Services drilldown \| SQL Agent Jobs page** now includes the QL agent job SPID. | SOSSE-5638
+When monitoring SQL Server, the **Support Services drilldown \| SQL Agent Jobs page** now includes the SQL agent job SPID. | SOSSE-5638
 On **Configure \| Custom Counters**, uncheck 'Override the factory settings' you are now warned if this action will result in loosing configuration data.  | SOSSE-5423
 The **SQL Server \| Wait Statistics drilldown** now ignores the following wait types: FT_IFTS_SCHEDULER_IDLE_WAIT, FT_SCHEDULER_IDLE_WAIT, FT_IFTSHC_MUTEX, FT_COMPROWSET_RWLOCK, FT_IFTS_RWLOCK, FT_IFTSHC_MUTEX, FT_IFTSISM_MUTEX, FT_MASTER_MERGE, FT_METADATA_MUTEX | SOSSE-5287
 Enhancement to applying alarm configurations from a **Configuration Template** or connection - Turn on / off individual configuration changes before the configurations are applied using the new checkboxes against each item in the Preview Changes dialog. | SOSSE-5268
