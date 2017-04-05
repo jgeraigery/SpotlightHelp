@@ -17,5 +17,13 @@ search: exclude
 {% endunless %}
 {% endfor %}
 
+{
+"title": "",
+"tags": "",
+"keywords": "",
+"url": "",
+"summary": ""
+}
+
 
 ]
