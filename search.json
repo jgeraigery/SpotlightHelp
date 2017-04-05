@@ -13,17 +13,10 @@ search: exclude
 "keywords": "{{page.keywords}}",
 "url": "{{ page.url | remove: "/"}}",
 "summary": "{{page.summary | strip }}"
-},
+}
+{% unless forloop.last %},{% endunless %}
 {% endunless %}
 {% endfor %}
-
-{
-"title": "",
-"tags": "",
-"keywords": "",
-"url": "",
-"summary": ""
-}
 
 
 ]
