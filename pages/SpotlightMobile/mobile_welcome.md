@@ -5,6 +5,7 @@ summary: "Spotlight Mobile operates in an environment where Spotlight Enterprise
 sidebar: p_mobile_sidebar
 permalink: mobile_welcome.html
 folder: SpotlightMobile
+readonly: true
 ---
 
 {% include links.html %}

@@ -5,6 +5,7 @@ sidebar: c_unix_sidebar
 toc: false
 permalink: unix_welcome.html
 folder: ConnectUnix
+readonly: true
 ---
 <div class="row">
         <div class="col-md-3 col-sm-6">

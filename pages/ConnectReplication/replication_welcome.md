@@ -5,6 +5,7 @@ sidebar: c_replication_sidebar
 toc: false
 permalink: replication_welcome.html
 folder: ConnectReplication
+readonly: true
 ---
 <div class="row">
         <div class="col-md-3 col-sm-6">

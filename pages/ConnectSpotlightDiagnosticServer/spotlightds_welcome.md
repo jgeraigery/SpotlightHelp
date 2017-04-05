@@ -6,6 +6,7 @@ sidebar: c_spotlightds_sidebar
 toc: false
 permalink: spotlightds_welcome.html
 folder: ConnectSpotlightDS
+readonly: true
 ---
 
 <div class="row">

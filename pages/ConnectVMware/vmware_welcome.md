@@ -5,6 +5,7 @@ sidebar: c_vmware_sidebar
 toc: false
 permalink: vmware_welcome.html
 folder: ConnectVMware
+readonly: true
 ---
 <div class="row">
         <div class="col-md-3 col-sm-6">

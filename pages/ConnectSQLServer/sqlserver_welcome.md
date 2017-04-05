@@ -6,6 +6,7 @@ sidebar: c_sqlserver_sidebar
 toc: false
 permalink: sqlserver_welcome.html
 folder: ConnectSQLServer
+readonly: true
 ---
 <div class="row">
         <div class="col-md-3 col-sm-6">

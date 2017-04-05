@@ -6,6 +6,7 @@ sidebar: c_windows_sidebar
 permalink: windows_grid_servicesdependentonthisservice.html
 id: servicedependencies.grddependson
 folder: ConnectWindows
+readonly: true
 ---
 
 Double-click an entry to see its full details.

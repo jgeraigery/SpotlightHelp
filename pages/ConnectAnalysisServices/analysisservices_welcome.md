@@ -6,6 +6,7 @@ sidebar: c_analysisservices_sidebar
 toc: false
 permalink: analysisservices_welcome.html
 folder: ConnectAnalysisServices
+readonly: true
 ---
 <div class="row">
         <div class="col-md-3 col-sm-6">

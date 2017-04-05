@@ -5,6 +5,7 @@ sidebar: p_enterprise_sidebar
 toc: false
 permalink: enterprise_welcome.html
 folder: SpotlightEnterprise
+readonly: true
 ---
 
 
