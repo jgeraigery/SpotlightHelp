@@ -1,5 +1,5 @@
 ---
-title: Microsoft Windows
+title: Windows server
 summary: "Use Spotlight Enterprise to monitor the Windows servers and hosts of database connections in your enterprise."
 last_updated: July 29, 2016
 sidebar: c_windows_sidebar
