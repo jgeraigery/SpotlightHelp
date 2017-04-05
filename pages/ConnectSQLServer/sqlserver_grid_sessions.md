@@ -18,7 +18,7 @@ folder: ConnectSQLServer
    * Do not have a status of sleeping, background or dormant.
    * Are blocked.
    * Have a command type of "WAITFOR".
-* To close a SQL Server session, right click and select **Kill this session**. This option is available only to members of the Spotlight Diagnostic Administrators group.  To select multiple sessions use the shortcut key combinations CTRL+click or SHIFT+click.
+* To close a SQL Server session, right click and select **Kill this session**. This option is available only to members of the Spotlight Diagnostic Administrators group.
 
 ## General tips to using Spotlight grids
 

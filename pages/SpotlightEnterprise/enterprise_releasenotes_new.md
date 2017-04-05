@@ -15,7 +15,7 @@ Spotlight Enterprise now provides partial support for monitoring SQL Server host
 The [SQL Server \| SQL Activity drilldown][sqlserver_drilldown_sqlactivity] has been enhanced. The Optimizer Plan Visualization control replaces the  **SQL Statement** and **Plan** tabs for a selected session. The Optimizer Plan Visualization control provides an interactive and intuitive way to view your plan and statement.
 
 ## Sessions status visualization
-The [SQL Server \| SQL Activity drilldown \| Sessions grid][sqlserver_grid_sessions] has been enhanced. The grid is color coded by status to make it easier to scan sessions. Multiple sessions can be selected; multiple selected sessions can be killed in a single operation.
+The [SQL Server \| SQL Activity drilldown \| Sessions grid][sqlserver_grid_sessions] has been enhanced. The grid is color coded by status to make it easier to scan sessions.
 
 ## SQL Server availability report
 A new report has been added to the default [Spotlight Enterprise reports][enterprise_display_reports]. The new report called the **SQL Server Availability Report** shows the availability / uptime of monitored instances.
