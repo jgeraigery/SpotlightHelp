@@ -9,7 +9,18 @@ folder: SpotlightEnterprise
 
 An alarm is raised when a collected value falls outside its "normal" range of values. This "normal" range is defined by thresholds and severities [configured][enterprise_cfgmonitor_alarms] for the alarm. A new alarm is raised each time the severity for the alarm changes. When the severity returns to normal, the alarm is canceled. Alarms critical to your operation can be configured to remain on view until they are [acknowledged][enterprise_alarm_acknowledge].
 
+## Displays for Spotlight alarms
+
+[Heat map][enterprise_display_heatmap] | The Heat Map organizes connections based on the comparative number and severity of alarms raised against them. The Heat Map answers the question: Which monitored connections require the most urgent attention?
+[Spotlight today][enterprise_display_spotlighttoday] | Spotlight Today is a display of recent alarms and alarms requiring acknowledgment.
+[Alarms by time][enterprise_display_alarmsbytime] | Alarms by Time tracks the start time, duration, and severity of logged alarms.
+[Alarm log][enterprise_display_alarmlog] | The alarm log is a display of logged alarms.
+[Spotlight Overview page][enterprise_display_overview] | The Spotlight Overview page illustrates the flows and components of a single monitored connection. The flows and components are updated in real time to highlight obvious bottlenecks and problem areas and color coded to indicate when an alarm is raised.
+[Playback][enterprise_display_playback] | Use the Playback facility to view events and data collected in the recent past on a Spotlight Overview Page, Drilldown or Spotlight Today. Playback time to capture the event or moment in Spotlight as though it was happening in real time.
+
 ## Act on (resolve, investigate) a raised alarm
+
+From the Spotlight Overview page or Alarm log, right click on the component / alarm and select **What's this?** to investigate the alarm by the following options.
 
 Icon | Title | Description
 --------------|----------|------------
@@ -55,16 +66,6 @@ Many options are available from the Spotlight Client Configure ribbon. In partic
 
 [Configure \| Alarms][enterprise_cfgmonitor_alarms] | Set the thresholds and severities that determine when an alarm is raised. Disable an alarm. Set an alarm to require acknowledgment. Configure keyed alarms. Collect additional diagnostic information on an alarm.
 [Configure \| Alarm Actions][enterprise_cfgmonitor_alarmactions] | Set actions for Spotlight to take when an alarm is raised. The actions Spotlight can take include running a program and sending an email. Conditions on taking the action can be defined, such as the day of the week, the time of day, the severity of the alarm, the alarm type and the connection type.
-
-
-## Displays for Spotlight alarms
-
-[Heat map][enterprise_display_heatmap] | The Heat Map organizes connections based on the comparative number and severity of alarms raised against them. The Heat Map answers the question: Which monitored connections require the most urgent attention?
-[Spotlight today][enterprise_display_spotlighttoday] | Spotlight Today is a display of recent alarms and alarms requiring acknowledgment.
-[Alarms by time][enterprise_display_alarmsbytime] | Alarms by Time tracks the start time, duration, and severity of logged alarms.
-[Alarm log][enterprise_display_alarmlog] | The alarm log is a display of logged alarms.
-[Spotlight Overview page][enterprise_display_overview] | The Spotlight Overview page illustrates the flows and components of a single monitored connection. The flows and components are updated in real time to highlight obvious bottlenecks and problem areas and color coded to indicate when an alarm is raised.
-[Playback][enterprise_display_playback] | Use the Playback facility to view events and data collected in the recent past on a Spotlight Overview Page, Drilldown or Spotlight Today. Playback time to capture the event or moment in Spotlight as though it was happening in real time.
 
 
 

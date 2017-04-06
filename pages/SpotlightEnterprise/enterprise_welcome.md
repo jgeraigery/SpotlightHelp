@@ -18,6 +18,15 @@ Use Spotlight to monitor the databases and server host connections in your enter
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
                 <div class="panel-body">
+                    <h4>New features</h4>
+                    <p>New in this release</p>
+                    <a href="enterprise_releasenotes_new.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-body">
                     <h4>Displays</h4>
                     <p>About the displays used to monitor Spotlight connections</p>
                     <a href="enterprise_display_heatmap.html" class="btn btn-primary">Learn More</a>
@@ -36,7 +45,7 @@ Use Spotlight to monitor the databases and server host connections in your enter
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
                 <div class="panel-body">
-                    <h4>Configure Monitoring</h4>
+                    <h4>Configure monitoring</h4>
                     <p>Configure connections, alarms, scheduling ...</p>
                     <a href="enterprise_cfgmonitor_monitoring.html" class="btn btn-primary">Learn More</a>
                 </div>
@@ -46,7 +55,7 @@ Use Spotlight to monitor the databases and server host connections in your enter
 
 
 <div class="row">
-        <h2 class="page-header">Spotlight Enterprise Deployment</h2>
+        <h2 class="page-header">Spotlight Enterprise deployment</h2>
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
                 <div class="panel-body">
@@ -68,7 +77,7 @@ Use Spotlight to monitor the databases and server host connections in your enter
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
                 <div class="panel-body">
-                    <h4>Backend Deployment</h4>
+                    <h4>Backend deployment</h4>
                     <p>The components of Spotlight and how they fit together</p>
                     <a href="enterprise_backend.html" class="btn btn-primary">Learn More</a>
                 </div>
@@ -81,18 +90,18 @@ Use Spotlight to monitor the databases and server host connections in your enter
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-body">
-                        <h4>Spotlight web site</h4>
-                        <p>Monitor connections from the Spotlight web site and health check analysis</p>
-                        <a href="enterprise_interface_website.html" class="btn btn-primary">Learn More</a>
+                        <h4>Spotlight Mobile</h4>
+                        <p>Monitor connections remotely via your mobile device</p>
+                        <a href="enterprise_interface_mobile.html" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-body">
-                        <h4>Spotlight Mobile</h4>
-                        <p>Monitor connections remotely via your mobile device</p>
-                        <a href="enterprise_interface_mobile.html" class="btn btn-primary">Learn More</a>
+                        <h4>Spotlight web site</h4>
+                        <p>Monitor connections from the Spotlight web site and health check analysis</p>
+                        <a href="enterprise_interface_website.html" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>
             </div>
