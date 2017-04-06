@@ -12,6 +12,7 @@ folder: SpotlightEnterprise
 ## Open this screen from the Spotlight Client
 
 1. Click **Configure \| Spotlight**.
+   {% include imageClient.html file="tb_config_spotlight.png" alt="Configure Spotlight" %}
 2. Select **Troubleshooting \| Configure support bundle emails**.
 
 

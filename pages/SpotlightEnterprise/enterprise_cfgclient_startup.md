@@ -12,6 +12,7 @@ folder: SpotlightEnterprise
 
 1. Open the Spotlight Client.
 2. Click **Configure \| Spotlight**.
+   {% include imageClient.html file="tb_config_spotlight.png" alt="Configure Spotlight" %}
 3. Select **Spotlight Startup location**.
 
 ## Select the desired behavior

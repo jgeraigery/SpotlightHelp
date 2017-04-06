@@ -16,6 +16,7 @@ To create the support bundle from the Spotlight Client
 
 A file is created containing a snapshot of your Spotlight installation. The file is called **SpotlightSupport.zip** located in the folder **C:\Users\<user>\AppData\Roaming\Quest Software\Spotlight\Default\Support**
 
+For more information, see [Configure support bundle emails][enterprise_cfgclient_supportbundle].
 
 
 {% include links.html %}

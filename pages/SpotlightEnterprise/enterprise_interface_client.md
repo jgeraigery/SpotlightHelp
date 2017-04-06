@@ -56,7 +56,7 @@ The Spotlight Client connects to the Spotlight Diagnostic Server via Internet po
 
 ### Spotlight Version
 
-Ensure the Spotlight Client and Spotlight Diagnostic Server come from the same version of Spotlight. When upgrading Spotlight, you must upgrade both the Spotlight client and Spotlight Diagnostic Server.
+Ensure the Spotlight Client and Spotlight Diagnostic Server come from the same version of Spotlight. When upgrading Spotlight, you must upgrade both the Spotlight Client and Spotlight Diagnostic Server.
 
 
 

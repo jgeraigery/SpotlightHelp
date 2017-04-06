@@ -1,5 +1,5 @@
 ---
-title: More Resources
+title: More resources
 keywords: release notes
 summary:
 sidebar: p_enterprise_sidebar

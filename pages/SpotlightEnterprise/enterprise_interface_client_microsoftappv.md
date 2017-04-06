@@ -1,5 +1,5 @@
 ---
-title: Support for a Microsoft App-V Deployment
+title: Support for a Microsoft App-V deployment
 summary: "Microsoft Application Virtualization (also known as App-V) is an application virtualization and application streaming solution from Microsoft. This page provides information regarding running a Spotlight Client in an App-V deployment."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_interface_client_microsoftappv.html

@@ -15,6 +15,7 @@ For more information on Spotlight Charts, see [Spotlight Charts][enterprise_disp
 
 1. Open the Spotlight Client.
 2. Click **Configure \| Spotlight**.
+   {% include imageClient.html file="tb_config_spotlight.png" alt="Configure Spotlight" %}
 3. Select **Appearance \| Appearance of charts**.
 
 ## Set display options for Spotlight Charts

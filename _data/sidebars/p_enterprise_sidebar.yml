@@ -34,7 +34,7 @@ entries:
           url: /enterprise_releasenotes.html
           output: web, pdf
 
-        - title: New Features
+        - title: New features
           url: /enterprise_releasenotes_new.html
           output: web, pdf
 
@@ -42,15 +42,15 @@ entries:
           url: /enterprise_releasenotes_enhancements.html
           output: web, pdf
 
-        - title: Deprecated Features
+        - title: Deprecated features
           url: /enterprise_releasenotes_deprecated.html
           output: web, pdf
 
-        - title: Resolved Issues
+        - title: Resolved issues
           url: /enterprise_releasenotes_resolvedissues.html
           output: web, pdf
 
-        - title: Known Issues
+        - title: Known issues
           url: /enterprise_releasenotes_knownissues.html
           output: web, pdf
 
@@ -66,7 +66,7 @@ entries:
           url: /enterprise_releasenotes_upgrade.html
           output: web, pdf
 
-        - title: More Resources
+        - title: More resources
           url: /enterprise_releasenotes_moreresources.html
           output: web, pdf
 

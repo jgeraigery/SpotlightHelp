@@ -1,5 +1,5 @@
 ---
-title: Resolved Issues in this Release
+title: Resolved issues in this release
 keywords: release notes
 summary: "The following is a list of issues addressed in Spotlight Enterprise 12.0"
 sidebar: p_enterprise_sidebar

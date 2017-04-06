@@ -1,5 +1,5 @@
 ---
-title: Known Issues with this Release
+title: Known issues with this release
 keywords: release notes
 summary: "The following is a list of issues, including those attributed to third-party products, known to exist at the time of release."
 sidebar: p_enterprise_sidebar

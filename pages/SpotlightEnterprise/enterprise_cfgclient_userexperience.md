@@ -8,7 +8,7 @@ folder: SpotlightEnterprise
 
 
 
-For this Spotlight Client to participate or to change your mind, click **Configure \| User experience**.
+For this Spotlight Client to participate or to change your mind, click {% include inline_imageClient.html file="tb_config_userexperience.png" alt="Configure User Experience" %} **Configure \| User experience**.
 
 Refer also to the [Privacy Statement](https://www.quest.com/legal/privacy.aspx).
 
