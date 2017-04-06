@@ -17,7 +17,7 @@ Corrected a problem with the persistency of database connection properties (tags
 Resolved the source of an exception error on monitoring SQL Server and actioning Session Trace from various drilldowns such as TempDB \| Usage and SQL Activity \| Locks. | SOSSE-6260
 Corrected a problem where on viewing Spotlight Today with 'Group By Top 50 alarms' the Spotlght Today display failed over time to stay current with the top 50 alarms. | SOSSE-6224
 Corrected a problem so that now when using the Alarm Log and selecting an alarm to 'Show in Alarms by Time' the Alarms by Time display always selects the relevant alarm on screen. | SOSSE-6033
-Issues with monitoring SQL Server, Index Fragmentation, have been addressed by removing the Index Fragmentation components from the SQL Sever Overview page. The Index Fragmentation alarm is still raised, as a medium alarm, from the Status component. | SOSSE-5901
+Issues with monitoring SQL Server, Index Fragmentation, have been addressed by removing the Index Fragmentation components from the SQL Sever Overview page. The Index Fragmentation alarm is still raised, as a medium alarm, from the Status and Databases components. | SOSSE-5901
 Corrected the source of a Playback history error when creating a support bundle. | SOSSE-5837
 In QS_AllTablesBySize.sql now use nolock instead of readpast to correct deadlocks caused by Spotlight. | SOSSE-5770
 Corrected sourc of "Error retrieving data: ClientConnectIssue: Exception of type 'System.OutOfMemoryException' was thrown " in the Wait Events drilldown when selecting a custom date | SOSSE-5699
