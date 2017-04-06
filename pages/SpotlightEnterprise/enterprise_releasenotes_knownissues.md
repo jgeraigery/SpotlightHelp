@@ -13,7 +13,7 @@ readonly: true
 Known Issue | Issue ID
 ------------|---------
 Spotlight Clients installed on Windows 10 may crash on deleting two connetions at the same time. | SOSSE-6556
-The Spotlight Client experiences unhandled Microsoft .NET Framework exception errors when installed on Windows 10.<br><br>scenario 1: Exception error on clicking the Status component on the Spotlight Overview page to check alarms.<br>scenario 2: Excception on selecting a connection from the left Connections pane while a SQL Server Spotlight Overview page is open. | SOSSE-6499
+The Spotlight Client experiences unhandled Microsoft .NET Framework exception errors when installed on Windows 10.<br>scenario 1: Exception error on clicking the Status component on the Spotlight Overview page to check alarms.<br>scenario 2: Excception error on selecting a connection from the left Connections pane while a SQL Server Spotlight Overview page is open. | SOSSE-6499
 If the Spotlight Client looses connection to the Spotlight Diagnostic Server then after a period of days the Spotlight Client will develop a minor memory leak. <br><br>*Workaround:* Restart the Spotlight Client. | 5433
 The Spotlight Client can experience performance issues (opening the home page, acknowledging and snoozing alarms) when a large number of alarms are raised against the one connection. | 2651
 Manual refresh is required on some drilldowns. Right click the data in the grid and select **Restore Default Settings \| Restore**. The grid shows "Loading". Click Refresh to populate the grid. | 11333 <br><br> 11406
