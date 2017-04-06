@@ -11,7 +11,7 @@ folder: SpotlightEnterprise
 
 ## Open the Spotlight Overview page
 
-From the Spotlight Client, click on a connection from the left [Connections display][enterprise_connect_display].
+From the Spotlight Client, click on a connection from the left [Connections display][enterprise_connect_display] to open the Spotlight Overview page.
 
 {% include tip.html content="There are other ways to open the Spotlight Overview page. From the Heatmap, left click on a connection to open the Spotlight Overview page for that connection." %}
 
@@ -71,9 +71,7 @@ The behavior of What's This is configurable. For more information, see [Home pag
 
 ## Show History
 
-Right click on a Spotlight Overview page component and select **Show History**.
-
-Show the component's history in a popup chart.
+Right click on a Spotlight Overview page component and select **Show History** to show the component's history in a popup chart.
 
 Use the chart toolbar to zoom and maximize the view. Help on the charts toolbar provides more information on the zoom feature: [Spotlight Charts Toolbar][enterprise_display_chartstoolbar].
 
@@ -83,15 +81,11 @@ For more historical views see [Playback][enterprise_display_playback].
 
 ## Show Details
 
-Right click on a Spotlight Overview page component and select **Show Details**.
-
-Open a Spotlight drilldown page made up of [grids][enterprise_display_grids] and [charts][enterprise_display_charts] that further details the data related to this Spotlight Overview page component.
+Right click on a Spotlight Overview page component and select **Show Details** to open a Spotlight drilldown page made up of [grids][enterprise_display_grids] and [charts][enterprise_display_charts] that further details the data related to this Spotlight Overview page component.
 
 ## Copy to Clipboard
 
-Right click on a Spotlight Overview page component and select **Copy to Clipboard**.
-
-Copy numeric data associated with the component to the clipboard. Paste from the clipboard to the desired destination –  as text within a text editor.
+Right click on a Spotlight Overview page component and select **Copy to Clipboard** to copy numeric data associated with the component to the clipboard. Paste from the clipboard to the desired destination –  as text within a text editor.
 
 {% include note.html content="When you copy and paste the details of a zoomed chart to an image file, the image contains only the visible portion of the chart. When you paste the details to a text file, the pasted text includes the details of the entire chart, not only of the visible section." %}
 

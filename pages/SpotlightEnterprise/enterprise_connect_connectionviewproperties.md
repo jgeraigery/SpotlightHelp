@@ -9,7 +9,7 @@ folder: SpotlightEnterprise
 
 ## How to open this dialog
 
-From the Spotlight Client, right click on the custom view on the [Connections Display][enterprise_connect_display] and select **Properties**.
+From the Spotlight Client, right click on the custom view on the [Connections display][enterprise_connect_display] and select **Properties**.
 
 ## Fill in this dialog
 

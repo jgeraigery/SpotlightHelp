@@ -8,11 +8,10 @@ id: 40006
 folder: SpotlightEnterprise
 ---
 
-{% include imageClient.html file="tb_alarms_log.png" alt="Alarm log" %}
 
 ## Open the Alarm log
 
-From the Spotlight Client, click **Monitor \| Alarm log** to open the Alarm log for all monitored connections.
+From the Spotlight Client, click {% include inline_imageClient.html file="tb_alarms_log.png" alt="Alarm log" %} **Monitor \| Alarm log** to open the Alarm log for all monitored connections.
 
 {% include tip.html content="The Alarm log can be opened to show a custom view of monitored connections or a view of all connections of a specific type. From the left [Connections pane][enterprise_connect_display], click on a custom view or connection type then click **Alarm log** from the display pane. To open the Alarm log for just one connection, right click on the connection in the Connections pane and select **Alarm log**." %}
 

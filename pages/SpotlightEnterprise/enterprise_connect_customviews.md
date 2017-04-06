@@ -1,5 +1,5 @@
 ---
-title: Custom Views
+title: Custom views
 keywords: sample
 summary: "A Spotlight display (Heat map, Spotlight today, Alarms by time or Alarm log) can be filtered to the connections in the custom view. Create as many custom views as makes sense to your enterprise."
 sidebar: p_enterprise_sidebar
@@ -11,7 +11,7 @@ folder: SpotlightEnterprise
 
 ## Add a custom view
 
-Click **Add Custom View** {% include inline_imageClient.html file="tb_connections_addcustomview.png" alt="Add Custom View" %}  to open the [New connection view properties dialog][enterprise_connect_newconnectionviewproperties].
+Click {% include inline_imageClient.html file="tb_connections_addcustomview.png" alt="Add Custom View" %} **Add Custom View** to open the [New connection view properties dialog][enterprise_connect_newconnectionviewproperties].
 
 ## Add / remove connections from a custom view
 

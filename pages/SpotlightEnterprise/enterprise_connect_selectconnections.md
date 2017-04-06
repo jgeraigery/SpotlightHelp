@@ -17,7 +17,7 @@ Optionally, use the search field to search for Spotlight connections. Type text 
 
 Name | The display name for the connection in Spotlight.
 Type | The connection type: Analysis Services, Hyper-V, SQL Server, Windows Server etc.
-Tag | Tags are a free form organizational tool that may be optionally applied to Spotlight connections.
+Tag | Tags are a free form organizational tool that may be optionally applied to Spotlight connections. See also [Connection tags][enterprise_connect_tags].
 
 
 ## Select

@@ -9,7 +9,7 @@ folder: SpotlightEnterprise
 
 ## Schedule a planned outage from the Spotlight Client
 
-To schedule maintenance times, click **Configure \| Planned Outage**.
+To schedule maintenance times, click {% include inline_imageClient.html file="tb_config_plannedoutage.png" alt="Configure Planned Outage" %} **Configure \| Planned Outage**.
 
 
 ## Spotlight displays while a connection is in planned outage
@@ -18,7 +18,7 @@ Icon | Spotlight Display | Description
 -----|---------------|------------
 {% include inline_imageClient.html file="tb_alarms_heatmap.png" alt="Heatmap" %} | Heat Map | Connections are removed from the heat map while they are in planned outage.
 {% include inline_imageClient.html file="tb_alarms_time.png" alt="Alarms by time" %} | Alarms by Time | A Monitored Server Planned Outage alarm is raised when planned outage begins. This information alarm clears when the planned outage completes.
-{% include inline_imageClient.html file="tb_alarms_log.png" alt="Alarm log" %} | Alarm Log |
+{% include inline_imageClient.html file="tb_alarms_log.png" alt="Alarm log" %} | Alarm Log | A Monitored Server Planned Outage alarm is raised when planned outage begins. This information alarm clears when the planned outage completes.
 {% include inline_imageClient.html file="tb_drilldown_home.png" alt="Spotlight overview page" %} | Overview page | During a planned outage, all controls are disabled except Status. A Monitored Server - Planned Outage alarm is raised against the Status control.
 
 

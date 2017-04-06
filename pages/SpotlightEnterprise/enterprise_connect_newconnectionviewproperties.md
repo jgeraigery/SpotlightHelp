@@ -10,7 +10,7 @@ folder: SpotlightEnterprise
 
 ## How to open this dialog
 
-From the Spotlight Client, click **Add Custom View** on the [Connections Display][enterprise_connect_display].
+From the Spotlight Client [Connections display][enterprise_connect_display], click {% include inline_imageClient.html file="tb_connections_addcustomview.png" alt="Add Custom View" %} **Add Custom View**.
 
 ## Fill in this dialog
 

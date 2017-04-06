@@ -213,11 +213,11 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Connections Display
+        - title: Connections display
           url: /enterprise_connect_display.html
           output: web, pdf
 
-        - title: Custom Views
+        - title: Custom views
           url: /enterprise_connect_customviews.html
           output: web, pdf
 
@@ -258,11 +258,11 @@ entries:
           url: /enterprise_display_gridstoolbar.html
           output: web, pdf
 
-        - title: Header Row
+        - title: Header row
           url: /enterprise_display_gridsheader.html
           output: web, pdf
 
-        - title: Grid Content
+        - title: Grid content
           url: /enterprise_display_gridscontent.html
           output: web, pdf
 
@@ -286,7 +286,7 @@ entries:
           url: /enterprise_display_chartslegend.html
           output: web, pdf
 
-        - title: Chart Content
+        - title: Chart content
           url: /enterprise_display_chartscontent.html
           output: web, pdf
 
@@ -298,7 +298,7 @@ entries:
           url: /enterprise_display_chartsproperties.html
           output: web, pdf
 
-        - title: Properties (Chart Filters)
+        - title: Properties (Chart filters)
           url: /enterprise_display_chartsproperties_filter.html
           output: web, pdf
 

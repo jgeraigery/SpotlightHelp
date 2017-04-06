@@ -11,7 +11,7 @@ folder: SpotlightEnterprise
 
 ## Open Spotlight Today
 
-From the Spotlight Client, click **Monitor \| Spotlight Today** to open Spotlight Today for all monitored connections.
+From the Spotlight Client, click {% include inline_imageClient.html file="tb_alarms_spotlighttoday.png" alt="Spotlight Today" %} **Monitor \| Spotlight Today** to open Spotlight Today for all monitored connections.
 
 {% include tip.html content="You can open Spotlight Today with a subset of all monitored connections. From the left [Connections pane][enterprise_connect_display] click on a custom view or connection type then click **Spotlight Today** from the display pane. To open Spotlight Today for just one connection, right click on the connection in the Connections pane then click **Spotlight Today**." %}
 
