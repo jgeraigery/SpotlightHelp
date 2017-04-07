@@ -428,7 +428,7 @@ entries:
           url: /enterprise_cfgmonitor_alarm.html
           output: web, pdf
 
-        - title: Severity Thresholds
+        - title: Severity thresholds
           url: /enterprise_cfgmonitor_alarm_severity.html
           output: web, pdf
 

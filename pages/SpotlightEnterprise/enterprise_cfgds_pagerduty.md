@@ -18,6 +18,7 @@ The Spotlight Diagnostic Server requires Internet access in order to fulfill on 
 ## Open this screen from the Spotlight Client
 
 1. Click **Configure \| Diagnostic server**.
+   {% include imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %}
 2. Select **Configure PagerDuty**.
 
 ## Select the Diagnostic Server

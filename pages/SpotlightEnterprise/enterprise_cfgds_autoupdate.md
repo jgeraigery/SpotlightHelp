@@ -18,6 +18,7 @@ When auto-update is enabled the Spotlight Diagnostic Server must have Internet a
 ## Open this screen from the Spotlight Client
 
 1. Click **Configure \| Diagnostic server**.
+   {% include imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %}
 2. Select **Configure the auto-update facility**.
 
 ## Select the Diagnostic Server

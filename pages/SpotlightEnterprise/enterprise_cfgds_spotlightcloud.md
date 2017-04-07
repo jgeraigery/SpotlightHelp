@@ -11,7 +11,7 @@ folder: SpotlightEnterprise
 
 ## Open this screen from the Spotlight Client
 
-Click **Configure \| Spotlight Cloud**.
+Click {% include inline_imageClient.html file="tb_config_spotlightcloud.png" alt="Configure Spotlight Cloud" %} **Configure \| Spotlight Cloud**.
 
 
 ## Select the Diagnostic Server

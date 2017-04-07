@@ -14,6 +14,7 @@ folder: SpotlightEnterprise
 From the Spotlight Client:
 
 1. Click **Configure \| Diagnostic Server**.
+   {% include imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %}
 2. Click **Select a Diagnostic Server**.
 3. In the **Host** field type or select the machine name where the Spotlight Diagnostic Server is installed.
 

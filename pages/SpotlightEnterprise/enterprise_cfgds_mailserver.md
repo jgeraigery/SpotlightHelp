@@ -10,6 +10,7 @@ folder: SpotlightEnterprise
 ## Open this screen from the Spotlight Client
 
 1. Click **Configure \| Diagnostic server**.
+   {% include imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %}
 2. Select **Configure the Diagnostic Server's mail server**.
 
 ## Select the Diagnostic Server

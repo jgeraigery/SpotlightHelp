@@ -16,6 +16,7 @@ A textual representation of the information sent by the Spotlight Diagnostic Ser
 ## Configure the SNMP trap from the Spotlight Client
 
 1. Click **Configure \| Diagnostic server**.
+   {% include imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %}
 2. Select **Configure the SNMP Trap**.
 
 ## Select the Diagnostic Server

@@ -12,6 +12,7 @@ folder: SpotlightEnterprise
 ## Configure the Spotlight Statistics Repository from the Spotlight Client
 
 1. Click **Configure \| Diagnostic server**.
+   {% include imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %}
 2. Select **Configure the Spotlight Statistics Repository**.
 
 ## Select the Diagnostic Server

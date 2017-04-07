@@ -14,6 +14,7 @@ folder: SpotlightEnterprise
 ## Open this screen from the Spotlight Client
 
 1. Click **Configure \| Diagnostic Server**.
+   {% include imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %}
 2. Select **Federate Diagnostic Servers**
 
 

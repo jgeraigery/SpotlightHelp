@@ -13,6 +13,7 @@ It is highly recommended that regular maintenance is performed to maintain effic
 ## Configure the database maintenance schedule from the Spotlight Client
 
 1. Click **Configure \| Diagnostic server**.
+   {% include imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %}
 2. Select **Configure the database maintenance schedule**.
 
 ## Select the Diagnostic Server

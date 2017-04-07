@@ -21,6 +21,7 @@ Use this screen to request that the Spotlight Diagnostic Server not use Extended
 ## Open this screen from the Spotlight Client
 
 1. Click **Configure \| Diagnostic server**.
+   {% include imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %}
 2. Select **Configure the use of Extended Events**.
 
 ## Select the Diagnostic Server

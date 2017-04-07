@@ -12,6 +12,7 @@ folder: SpotlightEnterprise
 ## Configure the Playback Database from the Spotlight Client
 
 1. Click **Configure \| Diagnostic server**.
+   {% include imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %}
 2. Select **Configure the Playback Database**.
 
 ## Select the Diagnostic Server
