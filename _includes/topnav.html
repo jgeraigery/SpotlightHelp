@@ -52,22 +52,41 @@
                 {% endif %}
                 <!--comment out this block if you want to hide search-->
                 <li>
-                    <div id="search-demo-container">
-                        <input type="text" id="search-input" placeholder="{{site.data.strings.search_placeholder_text}}">
-                        <ul id="results-container"></ul>
+                    <div contenteditable="contenteditable" id="search-demo-container">
+                        <input type="search" id="search-input" tabindex=0 placeholder="{{site.data.strings.search_placeholder_text}}">
+                        <nav contenteditable="contenteditable" id="results-container" tabindex=1></nav>
                     </div>
-                    <script src="{{ "js/jekyll-search.js"}}" type="text/javascript"></script>
-                    <script type="text/javascript">
+                    <script src="{{ "js/jekyll-search.js"}}"></script>
+                    <script>
                             var baseElement = document.getElementsByTagName("base");
-                            var dataSource = (baseElement ? baseElement[0].href + 'search.json' : '{{ "search.json" }}');
+                            var dataSource = (baseElement ? baseElement[0].href : '') + '{{ "search.json" }}';
+
+                            var searchDemoContainer = document.getElementById('search-demo-container');
+                            var searchInput = document.getElementById('search-input');
+                            var resultsContainer = document.getElementById('results-container');
+
+                            window.searchClearTimeout = function () {
+                                if (window.searchBlurTimer) {
+                                    window.clearTimeout(window.searchBlurTimer);
+                                    window.searchBlurTimer = null;
+                                }
+                            };
                             SimpleJekyllSearch.init({
-                                searchInput: document.getElementById('search-input'),
-                                resultsContainer: document.getElementById('results-container'),
+                                searchInput: searchInput,
+                                resultsContainer: resultsContainer,
                                 dataSource: dataSource,
-                                searchResultTemplate: '<li><a href="{url}" title="Subscriptions">{title}</a></li>',
+                                searchResultTemplate: '<a href="{url}" title="{title}" onFocus="window.searchClearTimeout();">{title}</a>',
                                 noResultsText: 'No results found.',
                                 limit: 10,
                                 fuzzy: true
+                            });
+                            var blurFn = function (e) {
+                                window.searchBlurTimer = window.setTimeout(function () { resultsContainer.style.display = 'none'; }, 25);
+                            };
+                            searchDemoContainer.addEventListener('focusout', blurFn);
+                            searchInput.addEventListener('focus', function (e) {
+                                searchClearTimeout();
+                                resultsContainer.style.display = 'block';
                             });
                     </script>
                     <!--end search-->

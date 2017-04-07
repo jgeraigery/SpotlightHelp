@@ -297,32 +297,37 @@ p.post-meta {font-size: 80%; color: #777;}
 .entry-date{font-size:14px;font-size:0.875rem;line-height:1.71429;margin-bottom:0;text-transform:uppercase;}
 
 /* search area */
-#search-demo-container ul#results-container {
-    list-style: none;
+#search-demo-container nav#results-container {
+    //list-style: none;
     font-size: 12px;
     background-color: white;
     position: absolute;
-    top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
+    margin-top: 33px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
     left: 20px;
-    z-index: -1;
+    display: block;
+    z-index: 1000;
     width:223px;
     border-left: 1px solid #dedede;
     box-shadow: 2px 3px 2px #dedede;
 }
 
 
-ul#results-container a {
+nav#results-container a {
     background-color: transparent;
 }
 
-ul#results-container a: hover {
+nav#results-container a:hover {
     color: black;
 }
-
+nav#results-container a:focus {
+    color: black;
+    background-color: #dedede;
+}
 
 #search-demo-container a:hover {
     color: black;
 }
+
 #search-input {
     padding: .5em;
     margin-left:20px;
@@ -332,7 +337,7 @@ ul#results-container a: hover {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     float: right;
-    margin-top:10px;
+    margin-top:2px;
 }
 /* end search */
 
