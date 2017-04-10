@@ -12,7 +12,7 @@ On the computer hosting the Spotlight Client:
 
 1. Open the **Control Panel \| Internet Options**.
 2. Select the **Advanced** tab.
-3. Verify **Use SSL 3.0** is selected. Verify **Use TLS 1.2** is selected.
+3. Verify **Use TLS 1.2** is selected.
 
 {% include imageClient.html file="pane_windows_internetproperties_ssltls.png" alt="Internet Options" %}
 
