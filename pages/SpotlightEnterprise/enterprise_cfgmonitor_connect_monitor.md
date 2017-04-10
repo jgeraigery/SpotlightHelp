@@ -11,7 +11,7 @@ folder: SpotlightEnterprise
 
 ## How to open this dialog from the Spotlight Client
 
-1. Click **Configure \| Connections**.
+1. Click {% include inline_imageClient.html file="tb_config_connections.png" alt="Configure Connections" %} **Configure \| Connections**.
 2. Right-click the connection and select **Properties \| Monitoring**.
 
 

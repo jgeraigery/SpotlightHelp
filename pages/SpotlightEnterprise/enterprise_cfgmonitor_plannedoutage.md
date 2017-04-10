@@ -13,7 +13,7 @@ folder: SpotlightEnterprise
 
 To schedule maintenance times
 
-*  Click **Configure \| Planned Outage**.
+*  Click {% include inline_imageClient.html file="tb_config_plannedoutage.png" alt="Configure Planned Outage" %} **Configure \| Planned Outage**.
 
 ## Planned Outage grid
 

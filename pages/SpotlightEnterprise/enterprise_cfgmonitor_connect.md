@@ -15,6 +15,7 @@ folder: SpotlightEnterprise
 From the Spotlight Client
 
 1. Click **Configure \| Connections**.
+   {% include imageClient.html file="tb_config_connections.png" alt="Configure Connections" %}
 2. Double click **Add new connection**. You may be prompted to fill in the [New Connection Details dialog][enterprise_cfgmonitor_connect_newdetails].
 3. You will be prompted to fill in the connection properties.
 
@@ -40,6 +41,7 @@ The [Connection Discovery Wizard][enterprise_cfgmonitor_connect_discoverywizard]
 From the Spotlight Client
 
 1. Click **Configure \| Connections**.
+   {% include imageClient.html file="tb_config_connections.png" alt="Configure Connections" %}
 2. Double click **Discover** from the list of All connections, SQL Server or Windows.
 
 
@@ -49,6 +51,7 @@ From the Spotlight Client
 From the Spotlight Client
 
 1. Click **Configure \| Connections**.
+   {% include imageClient.html file="tb_config_connections.png" alt="Configure Connections" %}
 2. Double click on the connection or click **Diagnose** to open the [Spotlight Overview page][enterprise_display_overview] for the connection.
 
 
@@ -57,10 +60,12 @@ From the Spotlight Client
 From the Spotlight Client
 
 1. Click **Configure \| Connections**.
+   {% include imageClient.html file="tb_config_connections.png" alt="Configure Connections" %}
 2. Right click on the connection and select **Properties**.
 
 The connection properties for an existing connection are shown on three tabs: **Details**, **Tags** and **Monitoring**.
 
+### Details
 The connection **Details** are  dependent on the connection type.
 
 <ul>
@@ -74,8 +79,10 @@ The connection **Details** are  dependent on the connection type.
 {% endfor %}
 </ul>
 
+### Tags
 Replace / add / delete [Tags][enterprise_cfgmonitor_connect_tags] for the connection. Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.
 
+### Monitoring
 Use the [Monitoring][enterprise_cfgmonitor_connect_monitor] tab to edit connection monitoring settings.
 
 ## Delete the connection
@@ -83,6 +90,7 @@ Use the [Monitoring][enterprise_cfgmonitor_connect_monitor] tab to edit connecti
 From the Spotlight Client
 
 1. Click **Configure \| Connections**.
+   {% include imageClient.html file="tb_config_connections.png" alt="Configure Connections" %}
 2. Right-click on the connection and select **Delete**.
 
 If you have customized the alarms set for this connection or the scheduling information then those customizations will be deleted with the connection. You may like to backup your customizations before you delete the connection. To do so, backup the \Agent\Conf folder in the Spotlight Spotlight Diagnostic Server installation folder.

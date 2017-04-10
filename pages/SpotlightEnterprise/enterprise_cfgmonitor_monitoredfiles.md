@@ -16,7 +16,7 @@ Data from tracked files is reported on the Windows Server \| Overview page \| Fi
 ## Configure monitored files from the Spotlight Client
 
 1. Select the Windows Server from the [Connections display][enterprise_connect_display].
-2. Click **Monitor \| Monitored Files**.
+2. Click {% include inline_imageClient.html file="tb_config_monitoredfiles.png" alt="Configure Monitored Files" %} **Monitor \| Monitored Files**.
 
 ## Select template or connection to configure
 

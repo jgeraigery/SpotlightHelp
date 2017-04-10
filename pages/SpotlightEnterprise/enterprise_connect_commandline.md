@@ -53,7 +53,7 @@ See also [Add a list of connections](#AddAListOfConnections).
 Add-Connection -Address address -Technology connectionType -Enabled -PassThru
 ```
 
-#### Supply User / Password details as per the connection type
+#### Supply User / Password details
 
 See also [Add a list of connections](#AddAListOfConnections).
 
@@ -65,7 +65,7 @@ Add-Connection -Credential $(get-credential) -Address address -Technology connec
 
 ### Change the authentication used to monitor a Spotlight connection
 
-#### Supply User / Password details as per the connection type
+#### Supply User / Password details
 
 ```
 Get-Connection -Name connectionName | Set-Connection -Credential $(get-credential)

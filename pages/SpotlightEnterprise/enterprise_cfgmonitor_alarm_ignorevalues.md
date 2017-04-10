@@ -11,6 +11,7 @@ folder: SpotlightEnterprise
 ## From the Spotlight Client
 
 1. Click **Configure \| Alarms**.
+   {% include imageClient.html file="tb_config_alarms.png" alt="Configure Alarms" %}
 2. Select the connection or template to apply the alarm configuration to.
 3. Double click on the alarm to [Configure an alarm][enterprise_cfgmonitor_alarm].
 4. Clear the **Factory Settings** control so you can modify the settings for this alarm.
@@ -56,7 +57,7 @@ Notes:
 * The exclusion list is not case sensitive. Therefore, both [a-z] and [A-Z] match any letters. For example, [a-z] and [A-Z] work equally.
 * “!” following “[“ is not treated as the special symbol that excludes following characters in the brackets, but treated as a single character “!”.
 
-{% include tip.html content="While an alarm is raised you can set Spotlight to ignore the alarm for the current value or connection using Spotlight today, Alarms by time, Alarm log or What's This." %}
+{% include tip.html content="While an alarm is raised you can set Spotlight to ignore the alarm for the current value or connection using Spotlight Today, Alarms by Time, Alarm log or What's This." %}
 
 
 {% include links.html %}

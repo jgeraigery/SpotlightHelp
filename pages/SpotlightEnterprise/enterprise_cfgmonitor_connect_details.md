@@ -12,11 +12,9 @@ folder: SpotlightEnterprise
 
 ## Open this dialog from the Spotlight Client
 
-From the Spotlight Client, click **Configure \| Connections**.
-
-To add a connection, double click **Add new connection**. You may be prompted to fill in the **New Connection Details** dialog.
-
-To edit the details of an existing connection, right click on the connection and select **Properties**.
+1. From the Spotlight Client, click {% include inline_imageClient.html file="tb_config_connections.png" alt="Configure Connections" %} **Configure \| Connections**.
+2. To add a connection, double click **Add new connection**. You may be prompted to fill in the **New Connection Details** dialog.
+   To edit the details of an existing connection, right click on the connection and select **Properties**.
 
 ## The connection details are dependent on the connection type
 

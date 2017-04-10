@@ -10,7 +10,7 @@ folder: SpotlightEnterprise
 
 ## From the Spotlight Client
 
-1. Click **Configure \| Scheduling**.
+1. Click {% include inline_imageClient.html file="tb_config_scheduling.png" alt="Configure Scheduling" %} **Configure \| Scheduling**.
 2. Select a Spotlight connection. The configuration will be applied to the selected connection.
 3. Double click on the collection.
 

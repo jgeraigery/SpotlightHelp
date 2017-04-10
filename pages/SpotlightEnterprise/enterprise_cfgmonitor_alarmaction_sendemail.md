@@ -23,6 +23,7 @@ How can this rule be created and maintained?
 From the Spotlight Client:
 
 1. Click [Configure \| Alarms Actions][enterprise_cfgmonitor_alarmactions].
+   {% include imageClient.html file="tb_config_alarmactions.png" alt="Configure Alarm Actions" %}
 2. Click **New** to create a new rule. This opens the [Alarm Action Dialog][enterprise_cfgmonitor_alarmaction].
 
 ## Select the conditions under which the rule will run.

@@ -13,6 +13,7 @@ folder: SpotlightEnterprise
 Open the Alarm Action dialog from the Spotlight Client.
 
 1. Click **Configure \| Alarm Actions**.
+   {% include imageClient.html file="tb_config_alarmactions.png" alt="Configure Alarm Actions" %}
 2. Click **New** to create a new rule or select a rule and click **Edit**.
 
 ## Rules

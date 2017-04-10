@@ -16,7 +16,7 @@ The measure of SQL Server Response Time is reported on the SQL Server \| Overvie
 
 ## Configure SQL Server Response Time from the Spotlight Client
 
-Click **Configure \| SQL Server Response Time**.
+Click {% include inline_imageClient.html file="tb_config_sqlserverresponse.png" alt="Configure SQL Server Response Time" %} **Configure \| SQL Server Response Time**.
 
 ## Select template or connection to configure
 

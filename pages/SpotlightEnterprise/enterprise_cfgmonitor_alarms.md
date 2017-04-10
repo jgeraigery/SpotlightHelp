@@ -26,7 +26,7 @@ The kinds of configuration include:
 
 ## Configure alarms from the Spotlight Client
 
-Click **Configure \| Alarms**.
+Click {% include inline_imageClient.html file="tb_config_alarms.png" alt="Configure Alarms" %} **Configure \| Alarms**.
 
 
 ## Select template or connection to configure

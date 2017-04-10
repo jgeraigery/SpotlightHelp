@@ -11,6 +11,7 @@ folder: SpotlightEnterprise
 ## From the Spotlight Client
 
 1. Click **Configure \| Alarms**.
+   {% include imageClient.html file="tb_config_alarms.png" alt="Configure Alarms" %}
 2. Select the connection or template to apply the alarm configuration to.
 3. Double click on the alarm to Configure an alarm.
 4. Clear the **Factory Settings** control so you can modify the settings for this alarm.

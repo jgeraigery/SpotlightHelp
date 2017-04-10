@@ -12,7 +12,7 @@ folder: SpotlightEnterprise
 
 ## Configure Spotlight's data collection schedules from the Spotlight Client
 
-Click **Configure \| Scheduling**.
+Click {% include inline_imageClient.html file="tb_config_scheduling.png" alt="Configure Scheduling" %} **Configure \| Scheduling**.
 
 
 ## Select template or connection to configure

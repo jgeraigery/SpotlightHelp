@@ -12,6 +12,7 @@ Prior to following these instructions, ensure you [Configure \| Custom Counters]
 ## From the Spotlight Client
 
 1. Click **Configure \| Alarms**.
+   {% include imageClient.html file="tb_config_alarms.png" alt="Configure Alarms" %}
 2. Select the connection or template to apply the alarm configuration to.
 3. Double click on the **Custom Counters** alarm appropriate to the connection type (SQL Custom Counters or Windows Custom Counters). The dialog to **Configure an alarm** opens.
 

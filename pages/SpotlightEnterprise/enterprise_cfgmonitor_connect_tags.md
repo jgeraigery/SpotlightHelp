@@ -27,6 +27,7 @@ Possible application | Description
 From the Spotlight Client
 
 1. Click **Configure \| Connections**.
+   {% include imageClient.html file="tb_config_connections.png" alt="Configure Connections" %}
 2. Right-click the connection and select **Properties \| Tags**.
 
 ## List of tags

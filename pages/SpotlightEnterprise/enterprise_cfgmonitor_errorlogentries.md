@@ -18,7 +18,7 @@ Matched entries raise the **Error Log - Error Count alarm** on the SQL Server \|
 
 ## Configure error log entries from the Spotlight Client
 
-Click **Configure \| Error Log Entries**.
+Click {% include inline_imageClient.html file="tb_config_errorlogentries.png" alt="Configure Error Log Entries" %} **Configure \| Error Log Entries**.
 
 {% include tip.html content="To open this screen with a connection pre-selected, from the SQL Server \| Overview page click **Error Log**, or from the SQL Server \| Error Log drilldown click **Error Log Entries**." %}
 
@@ -47,29 +47,29 @@ The default setting is to not scan the SQL Server error log for matching entries
 
 Click **Add** to add to the list. Each text string can be enabled or disabled as appropriate. Spotlight only matches enabled text strings.
 
-#### Add
+### Add
 
 Add a new text string for Spotlight to scan each log entry for.
 
 Do not use the \| character as part of the text string as Spotlight uses this character to mark the end of the string.
 
-#### Edit
+### Edit
 
 Modify the selected text string.
 
-#### Delete
+### Delete
 
 Remove the selected text string.
 
-#### Copy
+### Copy
 
 Copy the selected text string to a new entry.
 
-#### Enable All
+### Enable All
 
 Enable all text strings.
 
-#### Disable All
+### Disable All
 
 Disable all text strings.
 

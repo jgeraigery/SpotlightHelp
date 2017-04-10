@@ -15,7 +15,7 @@ Spotlight can be configured to raise an alarm on custom counters. For more infor
 
 ## Configure custom counters from the Spotlight Client
 
-Click **Configure \| Custom Counters**.
+Click {% include inline_imageClient.html file="tb_config_customcounters.png" alt="Configure Custom Counters" %} **Configure \| Custom Counters**.
 
 {% include tip.html content="To open this screen with a connection pre-selected, from the Spotlight Overview page click **Custom Counters**, or right-click **Custom** on the System panel and select **Configure Custom Counters**, or from the SQL Activity drilldown \| Custom Counters page, click **Configure \| Custom Counters**." %}
 
