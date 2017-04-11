@@ -74,3 +74,14 @@ body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic !im
 div.sidebarTitle {
   color: #015CAE;
 }
+
+body {
+    scrollbar-base-color: #2B2B2B;
+    scrollbar-face-color: #68686B;
+    scrollbar-track-color: #2B2B2B;
+    scrollbar-3dlight-color: #c8c8c8;
+    scrollbar-highlight-color: #8f8f8f;
+    scrollbar-arrow-color: #ffffff;
+    scrollbar-darkshadow-color: #FF888888;
+    scrollbar-shadow-color: #2B2B2B;
+}
