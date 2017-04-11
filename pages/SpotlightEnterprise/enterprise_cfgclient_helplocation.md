@@ -17,10 +17,12 @@ folder: SpotlightEnterprise
 
 
 ## Use offline help is not selected
-The Spotlight Client will load help from the online web site. The most recent edition of the help with all the latest updates will be opened.
+When **Use offline help** is not selected the Spotlight Client will load help from the online web site. The most recent edition of the help with all the latest updates will be opened.
+
+{% include note.html content="If the Spotlight Client Internet connection is poor or disconnected the Spotlight Client will load help locally from the Spotlight Client install folder." %}
 
 ## Select to use offline help
-The Spotlight Client will load help locally from the Spotlight Client install folder. This help was installed with Spotlight and is not updated.
+When **Use offline help** is selected the Spotlight Client will load help locally from the Spotlight Client install folder. This help was installed with Spotlight and is not updated.
 
 ## What Help is online / offline
 Help that is affected by the offline selection is:
