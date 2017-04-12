@@ -184,10 +184,6 @@ entries:
           url: /enterprise_interface_client_internetoptions.html
           output: web, pdf
 
-        - title: TLS 1.2 only environments
-          url: /enterprise_interface_client_tls12.html
-          output: web, pdf
-
         - title: Microsoft App-V
           url: /enterprise_interface_client_microsoftappv.html
           output: web, pdf
@@ -823,6 +819,10 @@ entries:
 
     - title: Spotlight diagnostic user groups
       url: /enterprise_backend_spotlightdiagnosticusergroups.html
+      output: web, pdf
+
+    - title: TLS 1.2 only environments
+      url: /enterprise_backend_windows_tls12.html
       output: web, pdf
 
       subfolders:
