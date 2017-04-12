@@ -40,9 +40,11 @@ There is now an option to connect to a **VMware ESX Server** using diagnostic se
 DBCC Info messages are now supressed for the **SQL Virtual Log Files Count alarm**. | DS-598
 Spotlight accepts the use of PAC proxy files for the Diagnostic Server proxy. | DS-529
 The **SQL Server \| Tempdb drilldown \| Usage page** has been enhanced. Bug http://sqlity.net/en/671/deferred-deallocations-of-pages-in-tempdb/ was fixed in SQL Server 2012 Service Pack 2 and 2014 Service Pack 1 by the addition on a new column user_objects_deferred_dealloc_page_count to the DMV sys.dm_db_session_space_usage. This colum has been added to user_objects_dealloc_page_count to get the true deallocation page count. | DS-527
+The SQL Server **Wait Events** and **Workload Analysis** drilldowns have been improved to collect more information and consume fewer resources on the monitored instance. | DS-512
 A new Spotlight Report, **SQL Server Availability**, reports on the availability of given SQL Server instances over a specified time period. It includes uptime statistics and the reason for any downtime periods (as per Spotlight alarms raised). | DS-458
 The SQL Server, **Top SQL Statements** drilldown has been renamed to **Query Execution Statistics**. This drilldown is likely to be deprecated in the future in favor of the SQL Server \| Workload Analysis drilldown. | DS-428
 Enhancement to **monitoring mirrored SQL Server connections** - backup alarms apply to the new principal on failover. | DS-425
 On monitoring **Availability Group connections**, backup alarms have been enhanced to exclude backup alarms on replicas that are not marked as preferred for backups. | DS-358
+
 
 {% include links.html %}
