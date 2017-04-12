@@ -1,0 +1,35 @@
+---
+title: TLS 1.2 only environments
+summary: "The following is required for TLS 1.2 only environements."
+sidebar: p_enterprise_sidebar
+permalink: enterprise_interface_client_tls12.html
+folder: SpotlightEnterprise
+---
+
+
+So we say in case you encounter an error like this
+
+{% include inline_imageClient.html file="pane_windows_errortls12only.png" alt="Windows pane" %}
+
+
+
+## Ensure the most recent service packs are installed for both the Windows operating system and SQL Server
+
+
+## Ensure the SQL Server version supports TSL 1.2. Update if necessary.
+
+Install all  matching updates from:
+
+* [https://support.microsoft.com/en-us/help/3135244/tls-1.2-support-for-microsoft-sql-server](https://support.microsoft.com/en-us/help/3135244/tls-1.2-support-for-microsoft-sql-server)
+* [https://support.microsoft.com/en-us/help/3140245/update-to-enable-tls-1.1-and-tls-1.2-as-a-default-secure-protocols-in-winhttp-in-windows](https://support.microsoft.com/en-us/help/3140245/update-to-enable-tls-1.1-and-tls-1.2-as-a-default-secure-protocols-in-winhttp-in-windows)
+
+
+## Ensure the ODBC Driver 13 for SQL Server is installed
+Install ODBC Driver 13 for SQL Server if necessary.
+
+
+
+
+
+
+{% include links.html %}
