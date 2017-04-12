@@ -1,6 +1,6 @@
 ---
 title: Install Spotlight Enterprise
-summary: "The Spotlight Enterprise installer installs a Spotlight Diagnostic Server (to collect Spotlight data), a Spotlight Client (to view Spotlight data) and a Playback Database (to store recent history). These three elements constitute a minimal Spotlight Enterprise deployment which can be expanded post install. The Spotlight Enterprise installer can be used to install additional Spotlight Clients following the initial install. The Spotlight Enterprise installer can install the Spotlight Diagnostic Server remotely."
+summary: "The Spotlight Enterprise installer installs a Spotlight Diagnostic Server (to collect Spotlight data), a Spotlight Client (to view Spotlight data) and a Playback Database (to store recent history). These three elements constitute a minimal Spotlight Enterprise deployment which can be expanded post install."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_install.html
 folder: SpotlightEnterprise
@@ -11,19 +11,25 @@ folder: SpotlightEnterprise
 
 In a small deployment the Spotlight Diagnostic Server, Spotlight Client and Playback Database can all be installed on the same host, however they don't have to be.
 
-Many Spotlight Clients can connect to one Spotlight Diagnostic Server.
+### Spotlight Clients
 
-Where a Spotlight Diagnostic Server has access to the Internet, connections can additionally be monitored from a web browser or a mobile device.
+Run the Spotlight Enterprise installer on each computer where you want to install a Spotlight Client. Many Spotlight Clients can connect to one Spotlight Diagnostic Server. The Spotlight Enterprise installer can install the Spotlight Diagnostic Server remotely.
 
-The Playback Database can be installed on the same host as the Spotlight Diagnostic Server, dependent on the number of SQL Server instances to be monitored.
+
+### Spotlight Diagnostic Server
+
+Consider installing the Spotlight Diagnostic Server on a computer that is always switched on. Some Spotlight Diagnostic Server functionality requires Internet access. For example, where a Spotlight Diagnostic Server has access to the Internet, connections can be monitored from a web browser or a mobile device.
 
 Where there are a large number of connections to be monitored or those connections are geographically widespread it may be appropriate to deploy multiple Spotlight Diagnostic Server where many Spotlight Clients monitor many connections through many Spotlight Diagnostic Server.
 
-Once Spotlight is installed you may choose to collect and store data for reporting and trending. This data is stored in a Spotlight Statistics Repository. Many Spotlight Diagnostic Server can write to the same Spotlight Statistics Repository.
+### Playback Database
 
-Spotlight Clients, Spotlight Diagnostic Server, Playback Database, Spotlight Statistics Repository and monitored connections communicate over a Windows network. Appropriate permissions ensure communications flow.
+The Playback Database can be installed on the same host as the Spotlight Diagnostic Server, dependent on the number of SQL Server instances to be monitored.
 
-For more information on these considerations see [Backend Deployment][enterprise_backend].
+### Windows network
+
+Spotlight Clients, Spotlight Diagnostic Server, Playback Database and monitored connections communicate over a Windows network. Appropriate permissions ensure communications flow. For more information on these considerations see [Backend deployment][enterprise_backend].
+
 
 ### Factor in how many SQL Server instances you intend to monitor
 
