@@ -1,13 +1,13 @@
 ---
 title: TLS 1.2 only environments
-summary: "The following is required for TLS 1.2 only environements."
+summary: "The following is applicable to you if you encounter connection errors like this from the Spotlight Client."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_interface_client_tls12.html
 folder: SpotlightEnterprise
 ---
 
 
-So we say in case you encounter an error like this
+The following is applicable to you if you encounter connection errors like this from the Spotlight Client:
 
 {% include inline_imageClient.html file="pane_windows_errortls12only.png" alt="Windows pane" %}
 
