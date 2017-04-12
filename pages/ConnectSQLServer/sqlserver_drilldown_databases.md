@@ -1,6 +1,6 @@
 ---
 title: Databases drilldown
-last_updated: March 24, 2017
+last_updated: April 12, 2017
 summary: "Drilldown on the details of all databases in SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_drilldown_databases.html
@@ -19,7 +19,7 @@ From the Spotlight Client
 {% include tip.html content="Click for more information on using [Spotlight Charts][enterprise_display_charts] and [Spotlight Grids][enterprise_display_grids]." %}
 
 
-## About the Databaes drilldown
+## About the Databases drilldown
 
 
 ### Databases grid
@@ -316,21 +316,43 @@ Requirements
 * Requires that LiteSpeed be installed and operational on your SQL Server network.
 
 
-### Fragmented Indexes drilldown
+### Fragmented Indexes pages
 Show me the most fragmented indexes
 
 #### Fragmented Indexes grid
 Use the Fragmented Indexes grid to assess the fragmentation of index files on the SQL Server.
 
-Select an index to defragment and click **Generate Defragmentation Script**. Use SQL Server Management Studio to schedule a job to run this script during a quiet period. Execution of this script could put significant load on the SQL Server.
-
-Filter the grid by the following criteria:
+##### Filtering the grid
+The grid can be filtered by the following criteria:
 
 * Top (most) fragmented indexes
 * Database name
-* Page count. The default is 1000, so by default all displayed indexes have a page count of at least 1000.
+* Minimum Size
+* Minimum operations
 
-To filter the results, type appropriate values into the fields and click **Apply Filter**.
+##### Sourcing the data
+
+Data is sourced from the Playback Database. Click **Collect now** to re-collect fragmentation information right now.
+
+{% include tip.html content="**Collect now** could put significant load on the SQL Server. It is advisable to collect fragmentation information during a quiet period." %}
+
+##### How to customize the default filter values
+
+You can customize the default filters per connection using the Connection Tag property. See also [Connection tags in Spotlight Enterprise][enterprise_connect_tags].
+
+1. From the Spotlight Client, click **Configure \| Connections**.
+   {% include imageClient.html file="tb_config_connections.png" alt="Configure Connections" %}
+2. Right-click on the connection and select **Properties \| Tags**.
+3. Enter the tag name and value in the **Value** field as per the following examples.
+4. Click **Add**.
+
+
+Configuration | Default value | Tag name | Tag name and value example | Example description
+--------------|---------------|----------|--------
+Top (most fragmented indexes)| 50 | frag.RowLimit | frag.RowLimit.100 | Set to collect top 100 most fragmented indexes.
+Database name | *All* | frag.DatabaseName | frag.DatabaseName.sales | Filter on the database called 'sales'.
+Minimum size (Megabytes) |  10 | frag.MinimumSizeMB | frag.MinimumSizeMB.15 | Set the minimum size count to 15 megabytes.
+Minimum operations (number of operations) | 5 | frag.MinimumOperations | frag.MinimumOperations.3 | Set the minimum number of operations to 3.
 
 
 

@@ -19,6 +19,7 @@ Tags are a way for you to group your connections in a way that is meaningful to 
 [Alarm Action dialog][enterprise_cfgmonitor_alarmaction] | Configure an Alarm Action for Spotlight to make when an alarm is raised. The Alarm Actions can be conditional on the tag name.  
 [Send an Email dialog][enterprise_cfgmonitor_alarmaction_sendemail] | Configure an Alarm Action to send an email when an alarm is raised. The tag name for the affected Spotlight Connection can be included in the email subject or message.
 [Run a Program dialog][enterprise_cfgmonitor_alarmaction_runaprogram] | Configure an Alarm Action to run a program when an alarm is raised. The tag name for the affected Spotlight Connection can be included in the program output.
+[SQL Server \| Databases drilldown \| Fragmentation page][sqlserver_drilldown_databases] | Configure the fragmentation drilldown parameters.
 
 
 

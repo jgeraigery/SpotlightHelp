@@ -14,6 +14,7 @@ There have been some changes to the implementation of **Spotlight Reports**. In 
 You can now apply an alarms **configuration template** to a SQL Server connection while it is being created via **Configure Connections** and the **Connection Discovery Wizard**. | SOSSE-6407, SOSSE-6105
 Client has connection failures in a TLS 1.2 only environment | SOSSE-6383
 When creating a SQL Server connection, more support is provided on the **Configure \| Connections** screen when selecting OS Details \| Cluster (Monitor active node). | SOSSE-6376
+The **SQL Server \| Databases drilldown \| Fragmentation page** has been enhanced. The 'Generate Defragmentation Script' has been deprecated in favor of sourcing data from the Playback Database and a new **Collect now** button on the drilldown. New filters Minimum Size and Minimum operations replace the Page count criteria. These filters can be configured. | SOSSE-6293
 In the Spotlight Client, Spotlight grids, **column sorting** is now preserved for the life of the Spotlight Client session. | SOSSE-6216
 You can now click **Help \| About \| View/Change Product License \| Retrieve License Key** to retrieve details of your License Key and contact the licensing team. | SOSSE-6169
 Spotlight's **audit log** of user actions now records Spotlight Client startup and shutdown times | SOSSE-5943
@@ -43,7 +44,5 @@ A new Spotlight Report, **SQL Server Availability**, reports on the availability
 The SQL Server, **Top SQL Statements** drilldown has been renamed to **Query Execution Statistics**. This drilldown is likely to be deprecated in the future in favor of the SQL Server \| Workload Analysis drilldown. | DS-428
 Enhancement to **monitoring mirrored SQL Server connections** - backup alarms apply to the new principal on failover. | DS-425
 On monitoring **Availability Group connections**, backup alarms have been enhanced to exclude backup alarms on replicas that are not marked as preferred for backups. | DS-358
-
-
 
 {% include links.html %}

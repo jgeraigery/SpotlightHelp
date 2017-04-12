@@ -19,6 +19,7 @@ Possible application | Description
 [Alarm Action Dialog][enterprise_cfgmonitor_alarmaction] | Setup actions to take when an alarm is raised. Actions can be conditional on the tag name.  
 [Send an Email Dialog][enterprise_cfgmonitor_alarmaction_sendemail] | Send an email when an alarm is raised. The tag name can be included in the email subject or message.
 [Run a Program Dialog][enterprise_cfgmonitor_alarmaction_runaprogram] | Run a program when an alarm is raised. The tag name can be included in the program output.
+[SQL Server \| Databases drilldown \| Fragmentation page][sqlserver_drilldown_databases] | Configure the fragmentation drilldown parameters.
 
 
 
