@@ -19,8 +19,8 @@ Corrected a problem where on viewing Spotlight Today with 'Group By Top 50 alarm
 Corrected a problem so that now when using the Alarm Log and selecting an alarm to 'Show in Alarms by Time' the Alarms by Time display always selects the relevant alarm on screen. | SOSSE-6033
 Issues with monitoring SQL Server, Index Fragmentation, have been addressed by removing the Index Fragmentation components from the SQL Sever Overview page. The Index Fragmentation alarm is still raised, as a medium alarm, from the Status and Databases components. | SOSSE-5901
 Corrected the source of a Playback history error when creating a support bundle. | SOSSE-5837
-In QS_AllTablesBySize.sql now use nolock instead of readpast to correct deadlocks caused by Spotlight. | SOSSE-5770
-Corrected sourc of "Error retrieving data: ClientConnectIssue: Exception of type 'System.OutOfMemoryException' was thrown " in the Wait Events drilldown when selecting a custom date | SOSSE-5699
+Corrected a problem of deadlocks caused by Spotlight by replacing readpast hints with nolock in the QS_AllTablesBySize.sql script. | SOSSE-5770
+Corrected source of "Error retrieving data: ClientConnectIssue: Exception of type 'System.OutOfMemoryException' was thrown " in the Wait Events drilldown when selecting a custom date | SOSSE-5699
 When configuring an alarm from the Configure \| Alarms dialog, the 'Alarm Requires Acknowledgement' option is now visible for the Factory Settings template. | SOSSE-5675
 Spotlight Management Pack for Scom - tightened the code around calling waffle and NTLM for a customer getting repeated 401 http errors. | SOSSE-5429
 Corrected a problem where the Auto Update failure Alarm can now be cleared after the Auto Update facility has been disabled. | SOSSE-5176
