@@ -16,7 +16,7 @@ The following is applicable to you if you encounter connection errors like this 
 ## Ensure the most recent service packs are installed for both the Windows operating system and SQL Server
 
 
-## Ensure the SQL Server version supports TSL 1.2. Update if necessary.
+## Ensure the SQL Server version supports TLS 1.2. Update if necessary.
 
 Install all  matching updates from:
 
