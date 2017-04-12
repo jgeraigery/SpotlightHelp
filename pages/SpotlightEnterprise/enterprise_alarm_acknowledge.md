@@ -15,7 +15,7 @@ An alarm can be acknowledged from [Spotlight Today][enterprise_display_spotlight
 
 Click {% include inline_imageClient.html file="tb_alarms_acknowledge.png" alt="Acknowledge" %} **Acknowledge**.
 
-## Look up an alarm once it has been acknowledged
+## How to look up an alarm once it has been acknowledged
 
 Locate the alarm in the [Alarm log][enterprise_display_alarmlog].
 
