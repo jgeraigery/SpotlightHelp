@@ -1,6 +1,6 @@
 ---
 title: TLS 1.2 only environments
-summary: "The following is applicable to you if you encounter connection errors like this from the Spotlight Client."
+summary: "The following is applicable to you if your Windows environment is TLS 1.2 only and you encounter connection errors like this from the Spotlight Client."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_interface_client_tls12.html
 folder: SpotlightEnterprise
@@ -16,7 +16,7 @@ The following is applicable to you if you encounter connection errors like this 
 ## Ensure the most recent service packs are installed for both the Windows operating system and SQL Server
 
 
-## Ensure the SQL Server version supports TLS 1.2. Update if necessary.
+## Ensure the monitored SQL Server versions support TLS 1.2. Update if necessary.
 
 Install all  matching updates from:
 
@@ -25,7 +25,7 @@ Install all  matching updates from:
 
 
 ## Ensure the ODBC Driver 13 for SQL Server is installed
-Install ODBC Driver 13 for SQL Server if necessary.
+Install ODBC Driver 13 for monitored SQL Server if necessary.
 
 
 
