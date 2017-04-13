@@ -1,4 +1,4 @@
-﻿body {
+body {
   font-size: 16px;
   font-weight: 200;
 	font-family: "Open Sans","Segoe UI", Helvetica, Arial, sans-serif;
@@ -297,15 +297,33 @@ p.post-meta {font-size: 80%; color: #777;}
 .entry-date{font-size:14px;font-size:0.875rem;line-height:1.71429;margin-bottom:0;text-transform:uppercase;}
 
 /* search area */
+.navbar-form {
+    padding-top: 10px;
+}
+.form-control:-moz-placeholder {
+  color: #a8a8a8;
+}
+.form-control::-moz-placeholder {
+  color: #a8a8a8;
+}
+.form-control:-ms-input-placeholder {
+  color: #a8a8a8;;
+}
+.form-control::-webkit-input-placeholder {
+  color: #a8a8a8;;
+}
+.form-control {
+  color: black;
+}
+
 #search-demo-container nav#results-container {
-    //list-style: none;
     font-size: 12px;
     background-color: white;
     position: absolute;
-    margin-top: 33px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
-    left: 20px;
+    margin-top: 4px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
+    left: 0px;
     display: block;
-    z-index: 1000;
+    z-index: 9999;
     width:223px;
     border-left: 1px solid #dedede;
     box-shadow: 2px 3px 2px #dedede;
@@ -313,7 +331,12 @@ p.post-meta {font-size: 80%; color: #777;}
 
 
 nav#results-container a {
-    background-color: transparent;
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 2px 10px;
+    margin-bottom: 2px;
+    background-color: #f1f1f1;
 }
 
 nav#results-container a:hover {
@@ -329,15 +352,8 @@ nav#results-container a:focus {
 }
 
 #search-input {
-    padding: .5em;
-    margin-left:20px;
     width:20em;
     font-size: 0.8em;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    float: right;
-    margin-top:2px;
 }
 /* end search */
 

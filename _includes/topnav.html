@@ -50,10 +50,12 @@
                 {% if site.feedback_disable == null or site.feedback_disable == false %}
                     {% include feedback.html %}
                 {% endif %}
-                <!--comment out this block if you want to hide search-->
-                <li>
-                    <div contenteditable="contenteditable" id="search-demo-container">
-                        <input type="search" id="search-input" tabindex=0 placeholder="{{site.data.strings.search_placeholder_text}}" autofocus="autofocus">
+            </ul>
+            <!--comment out this block if you want to hide search-->
+            <div class="col-sm-3 col-md-3">
+                <form role="search" action="" class="navbar-form">
+                    <div contenteditable="contenteditable" id="search-demo-container" class="input-group">
+                        <input class="form-control" type="search" id="search-input" tabindex=0 placeholder="{{site.data.strings.search_placeholder_text}}" autofocus="autofocus">
                         <nav contenteditable="contenteditable" id="results-container" tabindex=1></nav>
                     </div>
                     <script src="{{ "js/jekyll-search.js"}}"></script>
@@ -89,10 +91,10 @@
                                 resultsContainer.style.display = 'block';
                             });
                     </script>
-                    <!--end search-->
-                </li>
-            </ul>
+                </form>
+            </div>
+            <!--end search-->
         </div>
-        </div>
-        <!-- /.container -->
+    </div>
+    <!-- /.container -->
 </nav>
