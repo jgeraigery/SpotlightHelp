@@ -1,5 +1,5 @@
 ---
-title: Backend Deployment
+title: Backend deployment
 summary: "Following installation you may choose to expand your deployment of Spotlight or further understand your current deployment."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_backend.html

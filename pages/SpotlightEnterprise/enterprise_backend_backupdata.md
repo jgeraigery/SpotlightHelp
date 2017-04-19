@@ -1,5 +1,5 @@
 ---
-title: Backup Spotlight Data
+title: Backup Spotlight data
 summary: "Backup all Spotlight configuration and saved collection data regularly and before upgrade or uninstall."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_backend_backupdata.html

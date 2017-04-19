@@ -1,5 +1,5 @@
 ---
-title: Cannot connect to the Spotlight Diagnostic Server on Web service port 40403
+title: Cannot connect to the Spotlight Diagnostic Server on web service port 40403
 sidebar: p_enterprise_sidebar
 permalink: enterprise_backend_ds_40403.html
 id: 1010
@@ -25,7 +25,7 @@ For more information on Network Ports in Spotlight Enterprise, see [Network Port
 
 The Spotlight Client connects to the Spotlight Diagnostic Server via Internet port 40403. If you have customized Internet Options on the Spotlight Client, verify that your customized configurations do not conflict with Spotlight.
 
-For more information, see [Internet Options on the Spotlight Client][enterprise_interface_client_internetoptions]. 
+For more information, see [Internet Options on the Spotlight Client][enterprise_interface_client_internetoptions].
 
 
 

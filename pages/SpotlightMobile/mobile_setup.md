@@ -19,7 +19,7 @@ A Spotlight Cloud account is required to use Spotlight Mobile. Create a Spotligh
 
 For Spotlight Mobile to receive data from the Spotlight Diagnostic Server, ensure the Spotlight Cloud account configured to the Spotlight Diagnostic Server is your Spotlight Cloud account or the Spotlight Cloud account of an individual in the same Spotlight Cloud Organization as you.
 
-In a Spotlight Enterprise deployment, use a Spotlight Client to [configure uploading to the Spotliht Cloud][enterprise_cfgds_spotlightcloud].
+In a Spotlight Enterprise deployment, use a Spotlight Client to [configure uploading to the Spotlight Cloud][enterprise_cfgds_spotlightcloud].
 
 {% include important.html content="The Spotlight Web Publisher was required in the past to monitor SQL Server connections on a mobile device. If you used Spotlight Mobile with Spotlight on SQL Server 11.0 or earlier the Spotlight Web Publisher was installed to work with your Spotlight Diagnostic Server. To continue using Spotlight Mobile you must uninstall the Spotlight Web Publisher. Use Windows | Control Panel | Programs and Features. By default the Spotlight Web Publisher was installed on the same computer as the Spotlight Diagnostic Server." %}
 

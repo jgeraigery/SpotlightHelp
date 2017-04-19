@@ -743,7 +743,7 @@ entries:
           url: /enterprise_interface_scom_troubleshoot.html
           output: web, pdf
 
-  - title: Backend Deployment
+  - title: Backend deployment
     output: web, pdf
     folderitems:
 
