@@ -9,10 +9,7 @@ folder: SpotlightMobile
 
 ## How to open the Alarm list
 
-These are just some of the ways to open the Alarm List.
-
-*  Tap a connection on the [Heat Map][mobile_heatmap].
-*  Tap a connection or connection View from the [Connections][mobile_connections] display.
+Tap the Alarms icon from the [Heatmap][mobile_heatmap] or [Spotlight Overview page][mobile_heatmap] to open the alarms list.
 
 ## How to use the Alarm list
 

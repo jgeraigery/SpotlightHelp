@@ -10,8 +10,12 @@ folder: SpotlightMobile
 
 ## Open the Spotlight Overview page
 
-From the [Heatmap][mobile_heatmap] | Click on the connection to open the Spotlight Overview page for the connection.
-From [Connections][mobile_connections] | Tap on a Spotlight connection to show the Spotlight Overview page for that connection.
+Tap on a Spotlight Connection to open the Spotlight Overview page for that connection. For example:
+
+* Tap on a Spotlight Connection on the [Heatmap][mobile_heatmap]
+* Tap on a Spotlight Connection on the [Connections display][mobile_connections]
+
+Tap the Spotlight Overview page icon to return to the Spotlight Overview page for the connection.
 
 Android | iPhone
 --------|-------
