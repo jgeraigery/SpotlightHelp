@@ -327,14 +327,18 @@ The grid can be filtered by the following criteria:
 
 * Top (most) fragmented indexes
 * Database name
-* Minimum Size
-* Minimum operations
+* Minimum Size - 10MB = 1280 pages
+* Minimum operations - minimum number of either scan or update operations
 
 ##### Sourcing the data
 
 Data is sourced from the Playback Database. Click **Collect now** to re-collect fragmentation information right now.
 
 {% include tip.html content="**Collect now** could put significant load on the SQL Server. It is advisable to collect fragmentation information during a quiet period." %}
+
+##### Playback
+
+{% include note.html content="When in Playback, history will not be displayed for the Fragmented Indexes grid." %}
 
 ##### How to customize the default filter values
 
@@ -354,6 +358,13 @@ Database name | *All* | frag.DatabaseName | frag.DatabaseName.sales | Filter on 
 Minimum size (Megabytes) |  10 | frag.MinimumSizeMB | frag.MinimumSizeMB.15 | Set the minimum size count to 15 megabytes.
 Minimum operations (number of operations) | 5 | frag.MinimumOperations | frag.MinimumOperations.3 | Set the minimum number of operations to 3.
 
+
+##### How to defragment an index
+
+1. Select an index to defragment and click **Generate Defragmentation Script**.
+2. Use SQL Server Management Studio to schedule a job to run this script during a quiet period.
+
+{% include note.html content="Execution of this script could put significant load on the SQL Server." %}
 
 
 {% include links.html %}

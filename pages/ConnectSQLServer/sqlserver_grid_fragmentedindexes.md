@@ -12,10 +12,14 @@ folder: ConnectSQLServer
 
 The grid can be filtered by the following criteria:
 
+Yes, I think it should, what I know is:
+minimum size,
+minimal activity operations are counting times that a process has reached into the index to get data to satisfy a query.
+
 * Top (most) fragmented indexes
 * Database name
-* Minimum Size
-* Minimum operations
+* Minimum Size - 10MB = 1280 pages
+* Minimum operations - minimum number of either scan or update operations
 
 ## Collect now
 
@@ -69,6 +73,18 @@ The percentage of this index (partition) that is fragmented.
 ### Page Count
 
 The number of pages in the index (partition).
+
+
+## Playback
+
+{% include note.html content="When in Playback, history will not be displayed for the Fragmented Indexes grid." %}
+
+## How to defragment an index
+
+1. Select an index to defragment and click **Generate Defragmentation Script**.
+2. Use SQL Server Management Studio to schedule a job to run this script during a quiet period.
+
+{% include note.html content="Execution of this script could put significant load on the SQL Server." %}
 
 
 ## How to customize the default filter values
