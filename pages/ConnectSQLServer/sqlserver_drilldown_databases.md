@@ -316,7 +316,7 @@ Requirements
 * Requires that LiteSpeed be installed and operational on your SQL Server network.
 
 
-### Fragmented Indexes pages
+### Fragmented Indexes page
 Show me the most fragmented indexes
 
 #### Fragmented Indexes grid

@@ -12,10 +12,6 @@ folder: ConnectSQLServer
 
 The grid can be filtered by the following criteria:
 
-Yes, I think it should, what I know is:
-minimum size,
-minimal activity operations are counting times that a process has reached into the index to get data to satisfy a query.
-
 * Top (most) fragmented indexes
 * Database name
 * Minimum Size - 10MB = 1280 pages
