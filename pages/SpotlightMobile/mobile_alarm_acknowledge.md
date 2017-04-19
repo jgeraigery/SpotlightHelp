@@ -10,7 +10,7 @@ folder: SpotlightMobile
 
 ## How to acknowledge an alarm
 
-1. Locate the alarm on the [Alarm List][mobile_alarmlist].
+1. Locate the alarm from the [Alarm List][mobile_alarmlist] or [Spotlight Overview page][mobile_overview].
 1. Tap the alarm severity icon for more detail on the alarm.
 1. Tap the icon to acknowledge the alarm.
 

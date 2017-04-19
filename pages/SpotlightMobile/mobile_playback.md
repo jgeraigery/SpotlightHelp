@@ -18,6 +18,6 @@ folder: SpotlightMobile
    {% include inline_imageMobile.html file="tap_playback-icon_iphone.png" alt="Playback" %} | {% include inline_imageMobile.html file="tap_playback-icon_iphone.png" alt="Playback" %}
 
 3. Select the day and time to playback to. Alternatively, tap **Switch to real time** to leave playback mode.
-4. Tap **Save**.
+4. Tap **Set**.
 
 {% include links.html %}

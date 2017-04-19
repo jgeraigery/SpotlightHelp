@@ -10,7 +10,8 @@ folder: SpotlightMobile
 
 ## Open the Spotlight Overview page
 
-Start with the [Connections][mobile_connections] display. Tap on a Spotlight connection to show the Spotlight Overview page panels for that connection.
+From the [Heatmap][mobile_heatmap] | Click on the connection to open the Spotlight Overview page for the connection.
+From [Connections][mobile_connections] | Tap on a Spotlight connection to show the Spotlight Overview page for that connection.
 
 Android | iPhone
 --------|-------
@@ -27,6 +28,8 @@ If a panel's color is other than green then at least one of the panel's componen
 ### Flows and components
 
 If a component's color is other than green then the component is in an alarm state. Tap the component to show the alarms raised against the component.
+
+If the component's color is green then tap the component for help on the component.
 
 {% include imageMobile.html file="screen_iOS-processes-screen.jpeg" %}
 

@@ -1,7 +1,6 @@
 ---
 title: Diagnose alarms in Spotlight Mobile
 keywords: alarms
-summary: "Show performance statistics (grids and charts) related to the raised alarm."
 sidebar: p_mobile_sidebar
 permalink: mobile_alarm_diagnose.html
 folder: SpotlightMobile
