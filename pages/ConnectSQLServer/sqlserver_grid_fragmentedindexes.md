@@ -8,27 +8,7 @@ id: FragmentedIndexesGrid
 folder: ConnectSQLServer
 ---
 
-## How to filter the results
-
-The grid can be filtered by the following criteria:
-
-* Top (most) fragmented indexes
-* Database name
-* Minimum Size - 10MB = 1280 pages
-* Minimum operations - minimum number of either scan or update operations
-
-## Collect now
-
-Data is sourced from the Playback Database. Click **Collect now** to re-collect fragmentation information right now.
-
-{% include tip.html content="**Collect now** could put significant load on the SQL Server. It is advisable to collect fragmentation information during a quiet period." %}
-
-
 ## The columns of the grid show:
-
-### Show Top
-
-By default show the 50 most fragmented indexes.
 
 ### Database
 
@@ -71,21 +51,23 @@ The percentage of this index (partition) that is fragmented.
 The number of pages in the index (partition).
 
 
-## Playback
+## Using the Fragmented Indexes grid
 
-{% include note.html content="When in Playback, history will not be displayed for the Fragmented Indexes grid." %}
+### Data collection
+The data for this grid is collected once a day and stored in the Playback Database.
 
-## How to defragment an index
+{% include note.html content="To re-collect the data now, select the criteria and click **Collect now**. This could put significant load on the SQL Server. It is advisable to collect fragmentation information during a quiet period." %}
 
-1. Select an index to defragment and click **Generate Defragmentation Script**.
-2. Use SQL Server Management Studio to schedule a job to run this script during a quiet period.
+### Collection criteria definitions
+The criteria by which data is collected:
 
-{% include note.html content="Execution of this script could put significant load on the SQL Server." %}
+* Top (most) fragmented indexes - default 50
+* Database name - default *All*
+* Minimum Size - default 10MB = 1280 pages
+* Minimum operations - minimum number of either scan or update operations - default 5
 
-
-## How to customize the default filter values
-
-You can customize the default filters per connection using the Connection Tag property.
+### How to customize the criteria for the default collection
+To customize the criteria used to collect the data (as it is collected automatically once a day) use the Connection Tag property.
 
 1. From the Spotlight Client, click **Configure \| Connections**.
    {% include imageClient.html file="tb_config_connections.png" alt="Configure Connections" %}
@@ -93,13 +75,23 @@ You can customize the default filters per connection using the Connection Tag pr
 3. Enter the tag name and value in the **Value** field as per the following examples.
 4. Click **Add**.
 
-
 Configuration | Default value | Tag name | Tag name and value example | Example description
 --------------|---------------|----------|--------
 Top (most fragmented indexes)| 50 | frag.RowLimit | frag.RowLimit.100 | Set to collect top 100 most fragmented indexes.
 Database name | *All* | frag.DatabaseName | frag.DatabaseName.sales | Filter on the database called 'sales'.
 Minimum size (Megabytes) |  10 | frag.MinimumSizeMB | frag.MinimumSizeMB.15 | Set the minimum size count to 15 megabytes.
 Minimum operations (number of operations) | 5 | frag.MinimumOperations | frag.MinimumOperations.3 | Set the minimum number of operations to 3.
+
+### How to defragment an index
+
+1. Select an index to defragment and click **Generate Defragmentation Script**.
+2. Use SQL Server Management Studio to schedule a job to run this script during a quiet period.
+
+{% include note.html content="Execution of this script could put significant load on the SQL Server." %}
+
+### Playback
+
+{% include note.html content="When in Playback, history will not be displayed for the Fragmented Indexes grid." %}
 
 
 {% include links.html %}
