@@ -88,7 +88,7 @@ GMT Time Zone: The Diagnostic Server shows the wrong time. The Activity drilldow
 
 Known Issue | Issue ID
 ------------|---------
-On the **SQL Activity drilldown \| Query Execution Statistics page** the **Query Plan** column is empty for longer query plans. *Workaround:* Right click on the blank query plan cell and select to copy the current cell to the clipboard. | SOSSE-6535
+On the **SQL Activity drilldown \| Query Execution Statistics page** the **Query Plan** column is empty for longer query plans (plans exceeding 43679 characters). *Workaround:* Right click on the blank query plan cell and select to copy the current cell to the clipboard. | SOSSE-6535
 Playback is not currently available for the SQL Server **Databases drilldown \| Fragmented Indexes page**. | SOSSE-6560
 **Overview Page** - An unexpected error occurs the first time the SQL Server Overview page is opened in the Spotlight client session. <br><br> Performance Health / Wait Events / Workload Analysis - drilldown showd no data. <br><br> *Workaround:* Apply patch to .NET 4 - Software Update KB2468871v2 <br><br> See also own Known issues configuring Spotlight 3606. | 3606
 **No Disk Space data on Unix/Linux Operating System** - The SQL Server \| Databases drilldown shows no Disk Space data when the SQL Server is hosted on a Linux operating system. The following alarms don't work: Databases - Dynamic Data File Group Growths Remaining, Databases - Dynamic Log File Growths Remaining, Databases - Data File Group Space Used, Databases - Log File Space Used. The reason for this issue is Microsoft does not yet support retrieval of this data on Linux. | DS-476
