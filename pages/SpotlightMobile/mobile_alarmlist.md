@@ -9,7 +9,8 @@ folder: SpotlightMobile
 
 ## How to open the Alarm list
 
-Tap the Alarms icon from the [Heatmap][mobile_heatmap] or [Spotlight Overview page][mobile_heatmap] to open the alarms list.
+Tap the {% include inline_imageMobile.html file="tap_display_alarms.png" alt="Alarms" %} Alarms icon from the [Heatmap][mobile_heatmap] or [Spotlight Overview page][mobile_heatmap] to open the alarms list.
+
 
 ## How to use the Alarm list
 

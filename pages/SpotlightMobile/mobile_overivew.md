@@ -15,11 +15,7 @@ Tap on a Spotlight Connection to open the Spotlight Overview page for that conne
 * Tap on a Spotlight Connection on the [Heatmap][mobile_heatmap]
 * Tap on a Spotlight Connection on the [Connections display][mobile_connections]
 
-Tap the Spotlight Overview page icon to return to the Spotlight Overview page for the connection.
-
-Android | iPhone
---------|-------
-{% include inline_imageMobile.html file="tap_android-homepage-icon.png" alt="overview Android" %} | {% include inline_imageMobile.html file="tap_iOS-homepage-icon.png" alt="overview iPhone" %}
+Tap the {% include inline_imageMobile.html file="tap_display_overview.png" alt="Overview" %} Spotlight Overview page icon to return to the Spotlight Overview page for the connection.
 
 ## About the Spotlight Overview page
 
