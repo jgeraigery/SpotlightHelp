@@ -18,6 +18,7 @@ If the Spotlight Client looses connection to the Spotlight Diagnostic Server the
 The Spotlight Client can experience performance issues (opening the home page, acknowledging and snoozing alarms) when a large number of alarms are raised against the one connection. | 2651
 Manual refresh is required on some drilldowns. Right click the data in the grid and select **Restore Default Settings \| Restore**. The grid shows "Loading". Click Refresh to populate the grid. | 11333 <br><br> 11406
 Spotlight does not currently support PagerDuty API 2. Spotlight does support PagerDuty API V1. | SOSSE-6533
+Known issues using the online help top navigation pane from the following operating system: Microsoft Windows Server 2008 to 2016. *Workaround:* Select to use offline help or turn off IE Enhanced Security Configuration from the Server Manager. | SOSSE-6580
 
 
 ## known issues with installation and upgrade
