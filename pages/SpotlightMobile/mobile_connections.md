@@ -21,17 +21,13 @@ Android | iPhone
 
 Tap on a connection vew to show those connections on a [Heat Map][mobile_heatmap].
 
-## Open an Alarm list
-
-Tap on a connection vew to show those connections on a Heat Map. From the Heat Map, tap to see the [Alarm List][mobile_alarmlist].
-
 ## Open the Spotlight Overview page
 
 Tap on a connection to see that connection on a [Spotlight Overview page][mobile_overview].
 
-## Create a customized view of a Heat Map or Alarm List
+## Create a customized view of a Heat Map
 
-Tap Add... or {% include inline_imageMobile.html file="tap_edit-button.png" alt="Add button" %}
+Tap {% include inline_imageMobile.html file="tap_edit-button.png" alt="Add button" %}
 
 ## Add / Remove / Manage connections
 
