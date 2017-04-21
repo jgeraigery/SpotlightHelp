@@ -19,6 +19,7 @@ The Spotlight Client can experience performance issues (opening the home page, a
 Manual refresh is required on some drilldowns. Right click the data in the grid and select **Restore Default Settings \| Restore**. The grid shows "Loading". Click Refresh to populate the grid. | 11333 <br><br> 11406
 Spotlight does not currently support PagerDuty API 2. Spotlight does support PagerDuty API V1. | SOSSE-6533
 Known issues using the online help top navigation pane from the following operating systems: Microsoft Windows Server 2008 to 2016. *Workaround:* Configure the Spotlight Client to use offline help as per **Configure \| Spotlight \| Troubleshooting \| Choose Help location** or disable IE Enhanced Security Configuration from the Server Manager. Disabling IE Enhanced Security Configuration is not the preferred option. | SOSSE-6580
+Known issues using Spotlight Help when Internet Explorer 8 or below is installed on the Spotlight Client. *Workaround:* Upgrade Internet Explorer on the Spotlight Client. | SOSSE-6581
 
 
 ## known issues with installation and upgrade
