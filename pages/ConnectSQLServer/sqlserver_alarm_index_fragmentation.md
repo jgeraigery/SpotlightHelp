@@ -10,8 +10,7 @@ folder: ConnectSQLServer
 ---
 
 
-{% include note.html content="Spotlight only checks large index files, that is Index files that have over 1000 pages." %}
-
+{% include note.html content="Spotlight only checks large index files, that is Index files that have exceeded the **Maximum Size** criteria (default 10MB). The Maximum Size criteria can be customized using the Connection Tags feature; refer to the **SQL Server \| Databases drilldown** documentation for more information." %}
 
 When the alarm is raised:
 
