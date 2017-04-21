@@ -66,7 +66,9 @@ The criteria by which data is collected:
 * Minimum Size - default 10MB = 1280 pages
 * Minimum operations - minimum number of either scan or update operations - default 5
 
-### How to customize the criteria for the default collection
+### How to customize the schedule and criteria for the default collection
+To customize the collection schedule for the default collection, use the Spotlight Client. Click **Configure \| Scheduling** select the connection and customize the **Fragmentation by Index** schedule.
+
 To customize the criteria used to collect the data (as it is collected automatically once a day) use the Connection Tag property.
 
 1. From the Spotlight Client, click **Configure \| Connections**.

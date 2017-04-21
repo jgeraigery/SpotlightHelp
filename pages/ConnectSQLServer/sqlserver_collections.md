@@ -187,7 +187,8 @@ Databases \| Indexes page | Indexes | Non configurable
 Databases \| Indexes \| Fragmentation | Fragmentation List | Non configurable
 Databases \| Indexes \| Statistics | Index Statistics | Non configurable
 Databases \| Indexes \| Update Statistics | Index Statistics Update | Non configurable
-Databases \| LiteSpeed Backups | LiteSpeed Activity |  
+Databases \| LiteSpeed Backups | LiteSpeed Activity |
+Databases \| Fragmented Indexes | Fragmentation by Index |
 
 ## Support Services drilldown  
 
