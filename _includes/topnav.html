@@ -61,7 +61,7 @@
                     <script src="{{ "js/jekyll-search.js"}}"></script>
                     <script>
                             var baseElement = document.getElementsByTagName("base");
-                            var dataSource = (baseElement ? baseElement[0].href : '') + '{{ "search.json" }}';
+                            var dataSource = (baseElement && baseElement.length === 1 ? baseElement[0].href : '') + '{{ "search.json" }}';
 
                             var searchDemoContainer = document.getElementById('search-demo-container');
                             var searchInput = document.getElementById('search-input');

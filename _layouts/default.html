@@ -3,6 +3,11 @@
     {% include head.html %}
     <script>
         $(document).ready(function() {
+            var baseElement = document.getElementsByTagName("base");
+            var baseHref = (baseElement && baseElement.length === 1 ? baseElement[0].href : '/');
+            var tmpA = document.createElement('a');
+            tmpA.href = baseHref;
+            var basePath = tmpA.pathname;
             // Initialize navgoco with default options
             $("#mysidebar").navgoco({
                 caretHtml: '',
@@ -12,7 +17,7 @@
                 cookie: {
                     name: 'navgoco',
                     expires: false,
-                    path: '/'
+                    path: basePath
                 },
                 slide: {
                     duration: 400,
