@@ -18,7 +18,7 @@ If the Spotlight Client looses connection to the Spotlight Diagnostic Server the
 The Spotlight Client can experience performance issues (opening the home page, acknowledging and snoozing alarms) when a large number of alarms are raised against the one connection. | 2651
 Manual refresh is required on some drilldowns. Right click the data in the grid and select **Restore Default Settings \| Restore**. The grid shows "Loading". Click Refresh to populate the grid. | 11333 <br><br> 11406
 Spotlight does not currently support PagerDuty API 2. Spotlight does support PagerDuty API V1. | SOSSE-6533
-Known issues using the online help top navigation pane from the following operating system: Microsoft Windows Server 2008 to 2016. *Workaround:* Select to use offline help or turn off IE Enhanced Security Configuration from the Server Manager. | SOSSE-6580
+Known issues using the online help top navigation pane from the following operating systems: Microsoft Windows Server 2008 to 2016. *Workaround:* Configure the Spotlight Client to use offline help as per **Configure \| Spotlight \| Troubleshooting \| Choose Help location** or disable IE Enhanced Security Configuration from the Server Manager. Disabling IE Enhanced Security Configuration is not the preferred option. | SOSSE-6580
 
 
 ## known issues with installation and upgrade
@@ -65,8 +65,6 @@ Known Issue | Issue ID
 Known Issue | Issue ID
 ------------|---------
 **Planned Outages** - Where the Spotlight Client is installed on a Windows 2008 Server VM - The Planned Outage dialog disappears on Configure \| Planned Outage \| Add. <br><br> *Workaround:* Apply patch to .NET 4 - Software Update KB2468871v2 <br><br> *See also own Known issues monitoring SQL Server connections 3606.* | 3606
-**Configuring Alarms and Alarm Actions** - blank text boxes for collecting additional data and alarm action rule description. <br><br> *Workaround:* Either disable Internet Explorer Enhanced Security or add the site "about:security_Spotlight.exe" to the trusted sites in Internet Explorer. | 2553
-**Spotlight Alarm Actions** - The links in Alarm Actions might not work when Internet Explorer Enhanced Security Configuration is enabled. | 2893
 **Spotlight Alarm Actions** does not have an action to kill a block process. <br><br> *Workaround:* Write a SQL Query to return the SPID and kill the process; put the SQL into the Execute a SQL Script action. | 2669
 **Unable to send email** - This is a known issue under the following circumstances <br><br> Symantec Endpoint Protection is installed on the Spotlight Diagnostic Server and <br> The Spotlight Diagnostic Server is installed on a 64 bit machine and <br> The Spotlight Diagnostic Server installation is 64-bit. <br><br> *Workaround:* "disable the Internet Email Auto-Protect option" in Symantec Endpoint Protection. See also: <br> http://www.symantec.com/business/support/index?page=content&id=TECH95093 and <br> http://www.symantec.com/connect/forums/sep-121-internet-email-auto-protect-and-ccnet-mail-issues | 2266
 **Spotlight Cloud** - On the Configure \| Spotlight Cloud page the links to "Read more" and "Register now" are missing when Microsoft Windows is configured to run in "Windows Classic" mode. <br><br> The links open the web site: https://www.spotlightessentials.com | 2922
