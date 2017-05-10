@@ -26,6 +26,7 @@ Spotlight Management Pack for Scom - tightened the code around calling waffle an
 Corrected a problem where the Auto Update failure Alarm can now be cleared after the Auto Update facility has been disabled. | SOSSE-5176
 Corrected a problem such that when a Spotlight Connection is deleted the associated data in the Spotlight Statistics Repository is also removed. | SOSSE-3347
 Corrected a problem printing Spotlight Reports generated through the Spotlight Client Report Viewer when the paper size was set to A4. | SOSSE-2464
+Resolved an issue in Alarms by Time with the connection state bar color. | DS-750
 Resolved an issue where the Availability Group - Failed Over alarm failed to be raised. | DS-736
 Resolved the source of an error on the SQL Server \| Query Execution Statistics drilldown page when selecting to show query execution statistics using parallelism - error 'Cannot find either column "query_plan" or the user-defined function or aggregate "query_plan.exist", or the name is ambiguous.' | DS-699
 Corrected a problem where the Spotlight Diagnostic Server was kept waiting when SSPI authentication failed on the Spotlight Client. | DS-611
