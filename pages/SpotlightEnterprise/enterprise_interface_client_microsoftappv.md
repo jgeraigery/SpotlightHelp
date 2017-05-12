@@ -31,7 +31,7 @@ Here is an example file which pre-configures the three most useful items:
 ```
 
 This is a simple XML file which should be straight-forward to configure for anyone familiar with App-V.
-For a complete list of all supported configuration options please consult a config.xml file from an already installed client, which can be found in
+For a complete list of all supported configuration options please consult a config.xml file from an already installed Spotlight client, which can be found in
 
 ```
 %AppData%\Quest Software\Spotlight\<hex id>\config.xml
