@@ -67,6 +67,7 @@ To find out the version of MDAC that you are currently running, you can download
 #### Microsoft Windows Powershell 3.0 or above
 Microsoft Windows Powershell 3.0 or above is required to [access Spotlight from the command line][enterprise_connect_commandline].
 
+{% include note.html content="Microsoft Windows Server 2008 requires Microsoft Windows Powershell 3.0 or above to install." %}
 
 ## Spotlight Diagnostic Server requirements
 
