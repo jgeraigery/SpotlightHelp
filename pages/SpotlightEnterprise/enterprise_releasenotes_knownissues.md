@@ -28,6 +28,7 @@ Known Issue | Issue ID
 ------------|---------
 **Installing other Spotlights.** Do not install other Spotlights into the Spotlight Enterprise folder. You will be unable to run Spotlight Enterprise if you do this. When installing other Spotlights you must install them into a different folder. | N/A
 **Remote installation.** Remote installation of Spotlight Enterprise fails if the user has both a domain account and a local account with the same user name. | N/A
+Installing the Spotlight Client on Windows Server 2008 - **Installation Error - The path is not of a legal form.**. To resolve this error, install PowerShell 3.0 or above on the Windows Server. | SOSSE-6048
 
 
 ## known issues with the Spotlight Diagnostic Server

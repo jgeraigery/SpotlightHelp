@@ -34,6 +34,8 @@ This space should exist on a local disk drive rather than a network drive.
 * Microsoft Windows Server 2008 R2 (64-bit)
 * Microsoft Windows Server 2008 (64-bit)
 
+{% include note.html content="Microsoft Windows Server 2008 requires Microsoft Windows Powershell 3.0 or above." %}
+
 ### Screen resolution
 Minimum Resolution: 1280x1024
 
