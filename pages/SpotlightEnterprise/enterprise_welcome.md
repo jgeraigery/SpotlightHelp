@@ -83,6 +83,15 @@ Use Spotlight to monitor the databases and server host connections in your enter
                 </div>
             </div>
         </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-body">
+                    <h4>Federation of Diagnostic Servers</h4>
+                    <p>Solution for large scale deployments of Spotlight</p>
+                    <a href="enterprise_backend_federation.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
     </div>
 
 <div class="row">
