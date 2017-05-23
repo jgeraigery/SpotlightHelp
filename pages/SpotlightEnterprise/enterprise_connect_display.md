@@ -14,7 +14,7 @@ folder: SpotlightEnterprise
 Filter the list of connections on the Spotlight Client **Connections** display. To filter this list of connections, type text in the **Search** field. The search matches against the connection name, connection type and connection tags.
 
 Name | The display name for the connection in Spotlight.
-Type | The connection type: Analysis Services, Hyper-V, SQL Server, Windows Server etc.
+Type | The connection type: Analysis Services, Hyper-V, SQL Server, Windows Server, Linux etc.
 Tag | Tags are a free form organizational tool that may be optionally applied to Spotlight connections. See also [Connection tags][enterprise_connect_tags].
 
 ## Displays for a collection of connections
