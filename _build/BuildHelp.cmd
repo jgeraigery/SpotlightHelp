@@ -25,7 +25,7 @@
 @echo Make a trimmed copy for Spotlight installer
 @set siteInstaller=%HelpDir%\_siteInstaller
 @set installerHelp=%InstallDir%\InstallerHelp.zip
-@robocopy "%HelpDir%\_site" "%siteInstaller%" /NP /NS /NC /NJH /NJS /NDL /NFL /MIR /XF *.otf /XF *.eot /XF *.svg /XF *.ttf /XF cloud_*.html /XF mobile_*.html /XF CNAME /XF *.sh /XF sitemap.xml /XF search.json /XF README.md /XF extensions_*.html /XD pdfconfigs /XD imagesCloud /XD imagesExtensions /XD imagesMobile
+@robocopy "%HelpDir%\_site" "%siteInstaller%" /NP /NS /NC /NJH /NJS /NDL /NFL /MIR /XF *.otf /XF *.eot /XF *.svg /XF *.ttf /XF cloud_*.html /XF mobile_*.html /XF CNAME /XF *.sh /XF sitemap.xml /XF README.md /XF extensions_*.html /XD pdfconfigs /XD imagesCloud /XD imagesExtensions /XD imagesMobile
 
 @if exist "%InstallerHelp%" @del "%InstallerHelp%"
 @call "%~dp0ziptool" -c "%siteInstaller%" "%InstallerHelp%"
