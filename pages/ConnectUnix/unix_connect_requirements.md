@@ -1,5 +1,6 @@
 ---
 title: Unix/Linux connection requirements and initial configuration
+last_updated: May 26, 2017
 tags: [connection_requirements]
 summary: "Spotlight can monitor Unix and Linux Servers and hosts of database connections fulfilling the following requirements."
 sidebar: c_unix_sidebar
@@ -52,6 +53,7 @@ or
 sudo apt-get install sysstat
 ```
 
+{% include tip.html content="If **sysstat** is installed after the Spotlight Connection is created then to show data you must disable then reneable the Spotlight Connetion to Ubuntu. From the Connections pane, right click on the Spotlight Connection and select **Disable Monitoring**. Right click on the Spotlight Connection again and select the option to enable monitoring." %}
 
 ## User Permissions
 
