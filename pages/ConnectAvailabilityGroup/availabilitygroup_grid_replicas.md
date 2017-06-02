@@ -17,7 +17,7 @@ folder: ConnectAvailabilityGroup
 * The failover mode for each node is configured by the DBA in the SQL Server Management Studio.
 * When the failover mode is set to **manual** an accompanying icon highlights that manual failover is required. When no failover is available this icon is red.
 
- ![icon]({{ "/imagesClient/icon_refresherror.png" | prepend: site.baseurl }})
+ ![icon]({{ "imagesClient/icon_refresherror.png" }})
 
 ## Synchronization Health
 

@@ -24,7 +24,7 @@ Optionally, enter a textual description for the template.
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
 {% if tag == "apply_configuration_to" %}
-<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+<li><a href="{{ page.url | remove_first:'/' }}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}

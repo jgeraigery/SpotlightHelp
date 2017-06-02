@@ -1,6 +1,4 @@
 destination: _sitePDFStage/
-url: "http://localhost:40417"
-baseurl: "/pdf"
 output: pdf
 product: SpotlightEnterprise
 print_title: Spotlight Enterprise

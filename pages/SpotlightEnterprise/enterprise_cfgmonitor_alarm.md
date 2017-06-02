@@ -96,7 +96,7 @@ Collect additional data in the Playback Database to assist you in resolving the 
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
 {% if tag == "collect_additional_diagnostic_information" %}
-<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+<li><a href="{{ page.url | remove_first:'/' }}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}

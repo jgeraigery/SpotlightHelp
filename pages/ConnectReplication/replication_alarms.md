@@ -16,7 +16,7 @@ folder: ConnectReplication
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
 {% if tag == "replication_alarms" %}
-<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+<li><a href="{{ page.url | remove_first:'/' }}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}
@@ -32,7 +32,7 @@ If an alarm is configured to require acknowledgment then each raised instance of
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
 {% if tag == "acknowledge" %}
-<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+<li><a href="{{ page.url | remove_first:'/' }}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}
@@ -48,7 +48,7 @@ To snooze an alarm is to temporarily remove the visual alert associated with an 
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
 {% if tag == "snooze" %}
-<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+<li><a href="{{ page.url | remove_first:'/' }}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}
