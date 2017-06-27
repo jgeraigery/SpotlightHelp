@@ -2,7 +2,7 @@
 title: Backup - Days Since Last Full Backup alarm
 tags: [sqlserver_alarms]
 last_updated: July 29, 2016
-summary: "The Backup - Days Since Last Full Backup Alarm becomes active when Spotlight detects that a full backup on the SQL Server database has never taken place or has not taken place in the last three days."
+summary: "The Backup - Days Since Last Full Backup Alarm becomes active when Spotlight detects that a full backup on the SQL Server database has never taken place or has not taken place in the last three days. SE121 version"
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_backup_dayssincelastfullbackup.html
 id: alarm_backup_dayssincelastfullbackup
