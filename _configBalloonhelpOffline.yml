@@ -11,7 +11,7 @@ site_title: Spotlight Enterprise Documentation
 company_name: Quest Software Inc
 # this appears in the footer
 
-github_editme_path: GitQuest/SpotlightHelp/blob/gh-pages
+github_editme_path: GitQuest/SpotlightHelp/blob/SE121
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 disqus_shortname: idrbwjekyll
