@@ -1,13 +1,20 @@
 ---
 title: Resolved issues in this release
 keywords: release notes
-summary: "The following is a list of issues addressed in Spotlight Enterprise 12.0"
+summary: "The following is a list of issues addressed in Spotlight Enterprise 12.0 and 12.0.1"
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_resolvedissues.html
 folder: SpotlightEnterprise
 readonly: true
 ---
 
+## Issues addressed in Spotlight Enterprise 12.0.1
+
+Issue | ID
+------|---
+
+
+## Issues addressed in Spotlight Enterprise 12.0
 
 Issue | ID
 ------|---
