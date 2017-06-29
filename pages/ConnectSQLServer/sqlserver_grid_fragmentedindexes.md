@@ -58,6 +58,7 @@ The data for this grid is collected once a day and stored in the Playback Databa
 
 {% include note.html content="To re-collect the data now, select the criteria and click **Collect now**. This could put significant load on the SQL Server. It is advisable to collect fragmentation information during a quiet period." %}
 
+
 ### Collection criteria definitions
 The criteria by which data is collected:
 
@@ -84,12 +85,16 @@ Database name | *All* | frag.DatabaseName | frag.DatabaseName.sales | Filter on 
 Minimum size (Megabytes) |  10 | frag.MinimumSizeMB | frag.MinimumSizeMB.15 | Set the minimum size count to 15 megabytes.
 Minimum operations (number of operations) | 5 | frag.MinimumOperations | frag.MinimumOperations.3 | Set the minimum number of operations to 3.
 
-### How to defragment an index
+### How to defragment selected indexes
 
-1. Select an index to defragment and click **Generate Defragmentation Script**.
+1. Select one or more indexes to defragment and click **Generate Defragmentation Script**.
+   * Use CTRL+click or SHIFT+click to select multiple indexes.
+   * Use CTRL+A to select all indexes.
+   * Click outside the grid to clear all selections.
 2. Use SQL Server Management Studio to schedule a job to run this script during a quiet period.
 
 {% include note.html content="Execution of this script could put significant load on the SQL Server." %}
+
 
 ### Playback
 
