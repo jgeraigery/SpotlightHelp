@@ -13,7 +13,8 @@ readonly: true
 
 Enhancement | Issue ID
 ------------|---------
-
+On the SQL Server \| Databases drilldown \| Fragmented indexes page - select multiple indexes to Generate Defragmentation Script for all selected indexes. | SOSSE-2532
+On the SQL Server \| Databases drilldown, Databases grid and Fragmented indexes grids, click Ctrl+A to 'Select All' databases. Click outside the grid to 'Clear All' selected entries. | SOSSE-6651
 
 
 ## Enhancements implemented in Spotlight Enterprise 12.0

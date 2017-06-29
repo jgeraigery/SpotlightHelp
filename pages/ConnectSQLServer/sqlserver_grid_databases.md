@@ -18,6 +18,8 @@ Select one or more databases in the Databases grid to show just those databases 
 
 {% include tip.html content="The **tempdb** database has its own drilldown. Click on tempdb to open the tempdb drilldown. Click on another cell in the tempdb row to select tempdb for **Database Details**." %}
 
+{% include tip.html content="To select all databases click CTRL+A. Click outside the grid to clear all selections." %}
+
 ## Overview
 
 ### Database Name
