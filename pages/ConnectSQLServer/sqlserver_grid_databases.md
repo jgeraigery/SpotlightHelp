@@ -1,6 +1,6 @@
 ---
 title: Databases grid
-last_updated: March 24, 2017
+last_updated: June 30, 2017
 summary: "The Databases grid provides details of all databases in SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_databases.html
