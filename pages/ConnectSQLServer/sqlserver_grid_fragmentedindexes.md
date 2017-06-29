@@ -79,7 +79,7 @@ To customize the criteria used to collect the data (as it is collected automatic
 4. Click **Add**.
 
 Configuration | Default value | Tag name | Tag name and value example | Example description
---------------|---------------|----------|--------
+--------------|---------------|----------|----------------------------|--------------------
 Top (most fragmented indexes) | 50 | frag.RowLimit | frag.RowLimit.100 | Set to collect top 100 most fragmented indexes.
 Database name | *All* | frag.DatabaseName | frag.DatabaseName.sales | Filter on the database called 'sales'.
 Minimum size (Megabytes) |  10 | frag.MinimumSizeMB | frag.MinimumSizeMB.15 | Set the minimum size count to 15 megabytes.
