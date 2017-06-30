@@ -12,6 +12,9 @@ readonly: true
 
 Issue | ID
 ------|---
+Fail to initiate SSL trust when connecting to Web API | SOSSE-6685
+On Spotlight Today, corrected a problem with the 'Ignore this alarm' feature. | SOSSE-6678
+Corrected Connection Failure issues around the use of Extended Events:- Monitored Server - SQL Server Secondary Connection Failure: Connection 'SQLServerXEventsChannel' failed to connect: The event data stream was disconnected because there were too many outstanding events. | DS-822
 
 
 ## Issues addressed in Spotlight Enterprise 12.0
