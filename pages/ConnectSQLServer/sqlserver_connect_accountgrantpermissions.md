@@ -10,9 +10,14 @@ folder: ConnectSQLServer
 
 ## Known issues with this script
 
-### No data on the SQL Server \| Support Services Drilldown \| Service Status page  
+The following monitoring functions require sysadmin privileges; hence there are known issues when using the script:
 
-This script does not grant sufficient privileges to view the data on this page.
+* Mirroring
+* Number of viirtual log files (VLFs)
+* Jobs
+* The SQL Server \| Databases drilldown \| Open transactions count
+* The SQL Server \| Databases drilldown \| Indexes page \| Index Statistics Summary page
+* The SQL Server \| Support Services drilldown \| Service Status page - shows no data
 
 ### Error: The SQL Server Agent service status cannot be determined because a registry key cannot be read due to lack of permission.
 
