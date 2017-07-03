@@ -10,7 +10,7 @@ folder: ConnectSQLServer
 
 ## Known issues with this script
 
-The following monitoring functions require sysadmin privileges; hence there are known issues when using the script:
+The following monitoring functions require sysadmin privileges; hence have known issues when using the script:
 
 * Mirroring
 * Number of viirtual log files (VLFs)
