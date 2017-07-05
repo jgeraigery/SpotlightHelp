@@ -46,7 +46,7 @@ The following configurations are applied directly from the Spotlight Client to t
 3. Select the Spotlight Diagnostic Server.
 4. Click **Set as Configuration server**.
 
-Spotlight Diagnostic Server authenticate with the Configuration server using Windows authentication over TCP Port 40303. For each Spotlight Diagnostic Server in the federation, the Windows account that the Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server.
+Spotlight Diagnostic Server authenticate with the Configuration server using Windows authentication over TCP Port 40403. For each Spotlight Diagnostic Server in the federation, the Windows account that the Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server.
 
 The Configuration server should have a reliable and fast Internet connection to each of the other Spotlight Diagnostic Server in the federation.
 
