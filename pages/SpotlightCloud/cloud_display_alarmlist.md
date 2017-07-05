@@ -35,7 +35,7 @@ Information about each alarm is documented under the connection type.
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
 {% if tag == "alarms_by_connection_type" %}
-<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+<li><a href="{{ page.url | remove_first:'/' }}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}

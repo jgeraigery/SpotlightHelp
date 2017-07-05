@@ -25,7 +25,7 @@ Click on the connection type for more details:
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
 {% if tag == "connection_details_for_each_connection_type" %}
-<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+<li><a href="{{ page.url | remove_first:'/' }}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}

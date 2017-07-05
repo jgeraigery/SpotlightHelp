@@ -22,7 +22,7 @@ The components of the Spotlight Overview page are specific to the VMware connect
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
 {% if tag == "vmware_overview" %}
-<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+<li><a href="{{ page.url | remove_first:'/' }}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}

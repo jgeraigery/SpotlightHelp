@@ -3,6 +3,9 @@
 @set useJekyllBundle=%~1
 @set HelpDir=%~2
 @set wixToolsetBin=%~3
+@set roboOpts=/NP /NS /NC /NJH /NJS /NDL /NFL /MIR
+@set roboNonOnlineEx=/XF CNAME /XF *.sh /XF sitemap.xml /XF README.md
+@set roboNonSEEx=/XF cloud_*.html /XF mobile_*.html  /XF extensions_*.html /XD pdfconfigs /XD imagesCloud /XD imagesExtensions /XD imagesMobile
 
 @if not defined useJekyllBundle @set useJekyllBundle=0
 @if /i "%useJekyllBundle%" == "yes" @set useJekyllBundle=1
@@ -16,6 +19,13 @@
 @set InstallDir=%HelpDir%\_install
 
 :: jekyll builds - folders starting with '_' will not be included in Jekyll outputs
+@echo Build PDF help
+@set pdfHelpDir=%HelpDir%\_sitePDF
+@set pdfHelpStageDir=%pdfHelpDir%Stage
+@if exist "%pdfHelpStageDir%" @del /s /q "%pdfHelpStageDir%" 1>nul
+@call %jekyllCmd% build --config "%HelpDir%\pdfconfigs\config_p_enterprise_pdf.yml" -s "%HelpDir%" -d "%pdfHelpStageDir%"
+@robocopy "%pdfHelpStageDir%" "%pdfHelpDir%" %roboOpts% %roboNonOnlineEx% %roboNonSEEx%
+
 @echo Build offline help
 @call %jekyllCmd% build --config "%HelpDir%\_configOffline.yml" -s "%HelpDir%" -d "%HelpDir%\_site"
 
@@ -25,7 +35,7 @@
 @echo Make a trimmed copy for Spotlight installer
 @set siteInstaller=%HelpDir%\_siteInstaller
 @set installerHelp=%InstallDir%\InstallerHelp.zip
-@robocopy "%HelpDir%\_site" "%siteInstaller%" /NP /NS /NC /NJH /NJS /NDL /NFL /MIR /XF *.otf /XF *.eot /XF *.svg /XF *.ttf /XF cloud_*.html /XF mobile_*.html /XF CNAME /XF *.sh /XF sitemap.xml /XF README.md /XF extensions_*.html /XD pdfconfigs /XD imagesCloud /XD imagesExtensions /XD imagesMobile
+@robocopy "%HelpDir%\_site" "%siteInstaller%" %roboOpts% /XF *.otf /XF *.eot /XF *.svg /XF *.ttf %roboNonOnlineEx% %roboNonSEEx%
 
 @if exist "%InstallerHelp%" @del "%InstallerHelp%"
 @call "%~dp0ziptool" -c "%siteInstaller%" "%InstallerHelp%"

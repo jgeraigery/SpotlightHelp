@@ -1,12 +1,9 @@
-destination: _site/
-url: "http://127.0.0.1:4010"
-baseurl: "/spotlightenterprise-pdf"
-port: 4010
+destination: _sitePDFStage/
 output: pdf
 product: SpotlightEnterprise
-print_title: Spotlight Enterprise — PDF product
+print_title: Spotlight Enterprise
 print_subtitle: Version 12.0
-output: pdf
+company_name: Quest Software Inc
 defaults:
   -
     scope:
@@ -14,5 +11,5 @@ defaults:
       type: "pages"
     values:
       layout: "page_print"
-      comments: true
-      search: true
+      comments: false
+      search: false

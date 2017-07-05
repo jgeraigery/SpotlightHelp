@@ -26,7 +26,7 @@ The connection properties for a new connection are entered on two tabs: **Detail
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
 {% if tag == "connection_details_for_each_connection_type" %}
-<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+<li><a href="{{ page.url | remove_first:'/' }}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}
@@ -73,7 +73,7 @@ The connection **Details** are  dependent on the connection type.
 {% for page in sorted_pages %}
 {% for tag in page.tags %}
 {% if tag == "connection_details_for_each_connection_type" %}
-<li><a href="{{ page.url | prepend: site.baseurl}}">{{page.title}}</a></li>
+<li><a href="{{ page.url | remove_first:'/' }}">{{page.title}}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}
