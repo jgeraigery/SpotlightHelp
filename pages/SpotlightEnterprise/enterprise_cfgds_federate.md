@@ -40,7 +40,7 @@ One Spotlight Diagnostic Server in the federation selected as the Configuration 
 
 Configuration shared between the Spotlight Diagnostic Server in the federation is applied to the Configuration server. Other Spotlight Diagnostic Server in the federation poll the Configuration server for updates..
 
-Spotlight Diagnostic Server in the federation authenticate with the Configuration server using Windows authentication over TCP Port 40403. For each Spotlight Diagnostic Server in the federation, the Windows account that the Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server.
+Spotlight Diagnostic Server in the federation authenticate with the Configuration server using Windows authentication over TCP Port 40303. For each Spotlight Diagnostic Server in the federation, the Windows account that the Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server.
 
 The Configuration server should have a reliable and fast Internet connection to each of the other Spotlight Diagnostic Server in the federation.
 
@@ -62,7 +62,7 @@ Note:
 
 * Each Spotlight Diagnostic Server in the federation must be running the same Spotlight version. Federation is supported for Spotlight Enterprise (Spotlight on SQL Server) versions 11.6 and above.
 
-* Each Spotlight Diagnostic Server in the federation authenticates with one selected Spotlight Diagnostic Server in the federation (the Configuration server). Each Spotlight Diagnostic Server authenticates with the Configuration server using Windows authentication over TCP port 40403. The Windows account that each Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server.
+* Each Spotlight Diagnostic Server in the federation authenticates with one selected Spotlight Diagnostic Server in the federation (the Configuration server). Each Spotlight Diagnostic Server authenticates with the Configuration server using Windows authentication over TCP port 40303. The Windows account that each Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server.
 
 * Spotlight Diagnostic Server running under the built in Windows accounts (local system or network service) cannot be federated.
 
