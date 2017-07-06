@@ -13,8 +13,9 @@ readonly: true
 
 Enhancement | Issue ID
 ------------|---------
-On the SQL Server \| Databases drilldown \| Fragmented indexes page - select multiple indexes to Generate Defragmentation Script for all selected indexes. | SOSSE-2532
+On the SQL Server \| Workload Analysis drilldown, right click on a SQL statement to view the SQL statement in an external editor - Spotlight now opens the preferred SQL editor on your Spotlight Client host rather than requiring that SQL Server Management Studio be installed. | SOSSE-6676
 On the SQL Server \| Databases drilldown, Databases grid and Fragmented indexes grid, click Ctrl+A to 'Select All' rows. Click outside the grid to clear selected rows. | SOSSE-6651
+On the SQL Server \| Databases drilldown \| Fragmented indexes page - select multiple indexes to Generate Defragmentation Script for all selected indexes. | SOSSE-2532
 Improved user interface design arround previous unfriendly error message: "Unknown Identifier asked for extended events. Please connect." | DS-757
 
 
