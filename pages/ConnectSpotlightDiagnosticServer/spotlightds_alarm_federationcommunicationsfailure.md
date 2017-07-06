@@ -12,7 +12,7 @@ folder: ConnectSpotlightDS
 
 When this alarm is raised:
 
-* The Spotlight Diagnostic Server authenticates with the Configuration server using Windows authentication over TCP port 40303.
+* The Spotlight Diagnostic Server authenticates with the Configuration server using Windows authentication over TCP port 40403.
 * Verify the Windows account that the Spotlight Diagnostic Server is running under is valid in the domain of the Configuration server.
 
 
