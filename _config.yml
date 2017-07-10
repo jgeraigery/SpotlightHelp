@@ -58,6 +58,8 @@ kramdown:
 collections:
   tooltips:
     output: false
+  search:
+    output: true
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
 
 defaults:
@@ -79,6 +81,15 @@ defaults:
       comments: true
       search: true
       tooltip: true
+
+  -
+    scope:
+      path: ""
+      type: search
+    values:
+      layout: default
+      topnav: topnav
+      type: search
 
   -
     scope:
@@ -114,3 +125,9 @@ description: ""
 
 # needed for sitemap.xml file only
 url:
+
+
+uistring:
+    search_placeholder_product: Search ...
+    search_results_page_title: Search results
+    search_no_results_found: No results found.

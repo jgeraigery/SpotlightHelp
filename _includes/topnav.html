@@ -51,7 +51,22 @@
                     {% include feedback.html %}
                 {% endif %}
             </ul>
-            <!--comment out this block if you want to hide search-->
+<!-- search bar - uses Lunr.js  -->
+<div class="sidebarSearchBar">
+<form action="search.html" method="get">
+  <div class="input-group search">
+    <input type="text" id="search-box" name="query" class="form-control" placeholder="{{site.uistring.search_placeholder_product}}">
+    <div class="input-group-btn">
+      <button class="btn btn-default" type="submit" value="search">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+    </div>
+  </div>
+</form>
+</div>
+
+<!-- end search bar -->
+<!--          comment out this block if you want to hide search
             <div class="col-sm-3 col-md-3">
                 <form role="search" action="" class="navbar-form">
                     <div contenteditable="contenteditable" id="search-demo-container" class="input-group">
@@ -93,7 +108,7 @@
                     </script>
                 </form>
             </div>
-            <!--end search-->
+            end search -->
         </div>
     </div>
     <!-- /.container -->
