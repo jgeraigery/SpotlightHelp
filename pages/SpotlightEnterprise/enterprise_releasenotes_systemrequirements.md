@@ -162,7 +162,8 @@ This estimate assumes default configuration in an average environment. Actual sp
 
 ### SQL Server
 
-The Playback Database can be installed on:
+The Playback Database can be installed on SQL Server editions Enterprise and Standard:
+
 
 * SQL Server 2016
 * SQL Server 2014
@@ -192,7 +193,7 @@ Approximately 1.2 GB for each monitored SQL Server instance and the correspondin
 This estimate assumes default configuration in an average environment. Actual space used will depend on your environment and any data collection/storage configuration changes that are made. For more information, see the Spotlight Enterprise Sizing Wizard. You can access the wizard from the Spotlight Installation Center.
 
 ### SQL Server
-The Spotlight Statistics Repository can be installed on:
+The Spotlight Statistics Repository can be installed on SQL Server editions Enterprise and Standard:
 
 * SQL Server 2016
 * SQL Server 2014
