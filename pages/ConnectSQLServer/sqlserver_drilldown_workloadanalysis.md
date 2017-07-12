@@ -41,6 +41,9 @@ User | Analyze which user is contributing most to the workload of the selected r
 Host | Analyze which host is contributing most to the workload of the selected resource.
 Statement | Analyze which SQL statement is contributing most to the workload of the selected resource.
 
+{% include tip.html content="Use CTRL+C to copy a SQL statement to the clipboard. Right click on the SQL statement to open the SQL statement in an external editor. Select part of the SQL statement to copy just the selected part to the clipboard or open just the selected part in an external editor.<br><br>Right click on the SQL statement to show it in the **SQL Server \| Wait Events drilldown**." %}
+
+
 ## 3. The grid
 Show a breakdown of the selected workload for the selected resource.
 
