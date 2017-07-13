@@ -47,7 +47,7 @@ Host | Which host is contributing most to the wait time?
 Wait Type | Which wait type is contributing most to the wait time?
 Statement | Which SQL statement is contributing most to the wait time?
 
-{% include tip.html content="Use CTRL+C to copy the SQL statement to the clipboard. Right click on the SQL statement to open the SQL statement in an external editor. Select part of the SQL statement to copy just the selected part to the clipboard or open just the selected part in an external editor.<br><br>Right click on the SQL statement to show it in the **SQL Server \| Workload Analysis drilldown**. Workload Analysis will provide execution details of the SQL statement like how many times the query ran." %}
+{% include tip.html content="Copy a SQL statement to the clipboard or select part of the SQL statement to copy just the selected part to the clipboard. Right click on the SQL statement to open the SQL statement in an external editor.<br><br>Right click on the SQL statement to show it in the **SQL Server \| Workload Analysis drilldown**. Workload Analysis will provide execution details of the SQL statement like how many times the query ran." %}
 
 
 ### Grids and Charts
