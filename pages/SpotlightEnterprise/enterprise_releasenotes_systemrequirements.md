@@ -164,7 +164,6 @@ This estimate assumes default configuration in an average environment. Actual sp
 
 The Playback Database can be installed on SQL Server editions Enterprise and Standard:
 
-
 * SQL Server 2016
 * SQL Server 2014
 * SQL Server 2012
@@ -172,7 +171,7 @@ The Playback Database can be installed on SQL Server editions Enterprise and Sta
 * SQL Server 2008
 * SQL Server 2005
 
-{% include tip.html content="Due to the size of the Playback Database, it is recommended that this database is not installed on a SQL Express instance. The Playback Database is not supported on High Availability Always On and mirrored databases. The Playback Database cannot be installed on SQL Server 2000." %}
+{% include note.html content="Spotlight Enterprise does not support the Playback Database installed on a SQL Express instance, on High Availability Always On and mirrored databases. The Playback Database cannot be installed on SQL Server 2000." %}
 
 
 ### Other requirements
@@ -202,7 +201,7 @@ The Spotlight Statistics Repository can be installed on SQL Server editions Ente
 * SQL Server 2008
 * SQL Server 2005
 
-{% include tip.html content="Due to the size of the Spotlight Statistics Repository, it is recommended that this database is not installed on a SQL Express instance. The Spotlight Statistics Repository is not supported on High Availability Always On and mirrored databases. The Spotlight Statistics Repository cannot be installed on SQL Server 2000." %}
+{% include note.html content="Spotlight Enterprise does not support the Spotlight Statistics Repository installed on a SQL Express instance, on High Availability Always On and mirrored databases. The Spotlight Statistics Repository cannot be installed on SQL Server 2000." %}
 
 
 ### Other Requirements
