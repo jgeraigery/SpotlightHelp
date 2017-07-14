@@ -15,7 +15,7 @@ Issue | ID
 Spotlight Reports - Dates are now presented in the American format. | SOSSE-6715
 Spotlight Client installed on Windows Server 2008 host experienced connection failure issues; resolved by adding support for TLS1.0 on Windows Server 2008. | SOSSE-6685
 On Spotlight Today, corrected a problem with the 'Ignore this alarm' feature. | SOSSE-6678
-When monitoring SQL Server, Workload Analysis and Wait Events drilldowns, can copy queries and selected parts of queries. Requires Internet Explorer above version 8 installed on the Spotlight Client host computer. | 6677
+When monitoring SQL Server, Workload Analysis and Wait Events drilldowns, can copy queries and selected parts of queries. Requires Internet Explorer above version 8 installed on the Spotlight Client host computer. | SOSSE-6677
 When monitoring SQL Server \| Databases drilldown \| Disk Space chart, corrected a problem with the "Include Non-SQL files in chart" option. | DS-860
 Corrected a problem where Spotlight Enterprise 12.0 raised SQL Agent Failed Jobs alarms for unwanted jobs; Spotlight ignored exclusion values configured for these job names. | DS-825
 Corrected Connection Failure issues around the use of Extended Events:- Monitored Server - SQL Server Secondary Connection Failure: Connection 'SQLServerXEventsChannel' failed to connect: The event data stream was disconnected because there were too many outstanding events. | DS-822
