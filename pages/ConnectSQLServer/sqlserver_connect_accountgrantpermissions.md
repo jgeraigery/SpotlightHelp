@@ -13,15 +13,11 @@ folder: ConnectSQLServer
 The following monitoring functions require sysadmin privileges; hence have known issues when using the script:
 
 * Mirroring
-* Number of viirtual log files (VLFs)
+* Number of virtual log files (VLFs)
 * Jobs
 * The SQL Server \| Databases drilldown \| Open transactions count
 * The SQL Server \| Databases drilldown \| Indexes page \| Index Statistics Summary page
 * The SQL Server \| Support Services drilldown \| Service Status page - shows no data
-
-### Error: The SQL Server Agent service status cannot be determined because a registry key cannot be read due to lack of permission.
-
-The script QS_Services.sql can be executed successfully only under login with SQL Server sysadmin rights. If the script QS_Services.sql is executed without a sysadmin account the above error will be raised.
 
 
 ## Script to grant permissions to TrustedUser
