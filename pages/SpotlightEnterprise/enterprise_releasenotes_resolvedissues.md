@@ -18,8 +18,10 @@ On Spotlight Today, corrected a problem with the 'Ignore this alarm' feature. | 
 When monitoring SQL Server, Workload Analysis and Wait Events drilldowns, can copy queries and selected parts of queries. Requires Internet Explorer above version 8 installed on the Spotlight Client host computer. | SOSSE-6677
 Resolved customer support issues of high CPU on the Diagnostic Server host. The value of the SQL Server connection property 'Obscure string literals in SQL text and parameters in query plans' changes to 'not selected' for all SQL Server connections on upgrade. Following upgrade to select 'Obscure string literals in SQL text and parameters in query plans' as required, from the Spotlight Client, Click **Configure \| Connections**, select the SQL Server connection and fill in the connection details. | DS-869
 When monitoring SQL Server \| Databases drilldown \| Disk Space chart, corrected a problem with the "Include Non-SQL files in chart" option. | DS-860
+Resolved customer support issues of high CPU on the Diagnostic Server host by enhancing the data collection methodology for the SQL Server \| SQL Activity drilldown \| Query Execution Statistics page. | DS-851
 Corrected a problem where Spotlight Enterprise 12.0 raised SQL Agent Failed Jobs alarms for unwanted jobs; Spotlight ignored exclusion values configured for these job names. | DS-825
 Corrected Connection Failure issues around the use of Extended Events:- Monitored Server - SQL Server Secondary Connection Failure: Connection 'SQLServerXEventsChannel' failed to connect: The event data stream was disconnected because there were too many outstanding events. | DS-822
+Corrected erroneous raising of the SQL Server **Databases - Dynamic Data File Group Growths Remaining** alarm on upgrade. | DS-624
 
 
 ## Issues addressed in Spotlight Enterprise 12.0
