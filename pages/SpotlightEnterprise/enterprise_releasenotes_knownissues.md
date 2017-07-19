@@ -13,7 +13,6 @@ readonly: true
 Known Issue | Issue ID
 ------------|---------
 Spotlight Clients installed on Windows 10 - Exception error may occur on deleting two connetions at the same time. | SOSSE-6556
-Spotlight Clients installed on Windows 10 - For certain Windows 10 build s builds users may experience intermittent stability issues in the Spotlight client. Note that these issues only affect the client and do not cause any data integrity issues. For example, we have seen intermittent issues while checking alarm details in the Spotlight Overview page. If you experience such issues the Spotlight client can be run in a specific compatibility mode. Click here for instructions: [https://support.quest.com/kb/230547](https://support.quest.com/kb/230547). We will continue to work with our partners at Microsoft to isolate and resolve this issue. | SOSSE-6499
 If the Spotlight Client looses connection to the Spotlight Diagnostic Server then after a period of days the Spotlight Client will develop a minor memory leak. <br><br>*Workaround:* Restart the Spotlight Client. | 5433
 The Spotlight Client can experience performance issues (opening the home page, acknowledging and snoozing alarms) when a large number of alarms are raised against the one connection. | 2651
 Manual refresh is required on some drilldowns. Right click the data in the grid and select **Restore Default Settings \| Restore**. The grid shows "Loading". Click Refresh to populate the grid. | 11333 <br><br> 11406
