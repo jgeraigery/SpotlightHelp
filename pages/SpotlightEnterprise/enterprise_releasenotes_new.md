@@ -9,6 +9,8 @@ folder: SpotlightEnterprise
 readonly: true
 ---
 
+
+
 ## SQL Server vNext hosted on Linux is partially supported
 Spotlight Enterprise now provides partial support for monitoring SQL Server hosted on Linux and [Unix/Linux servers][unix_welcome]. For clarification of supported features see [Partial support for monitoring SQL Server vNext hosted on Linux][sqlserver_unix_partialsupport].
 

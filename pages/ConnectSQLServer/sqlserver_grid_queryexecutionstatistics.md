@@ -14,6 +14,8 @@ To reduce the load when querying the SQL Server, Spotlight determines the top st
 
 {% include tip.html content="Select a statement in the grid to see the complete SQL statement and the query plan." %}
 
+{% include note.html content="Optimizer Plan Visualization and display of the SQL Statement - Not available in Playback mode." %}
+
 {% include note.html content="The Query Plan column is empty for longer query plans (plans exceeding 43679 characters). As a workaround, right click on the blank query plan cell and select to copy the current cell to the clipboard." %}
 
 {% include note.html content="Not available for SQL Server 2000." %}

@@ -162,7 +162,7 @@ This estimate assumes default configuration in an average environment. Actual sp
 
 ### SQL Server
 
-The Playback Database can be installed on:
+The Playback Database can be installed on SQL Server editions Enterprise and Standard:
 
 * SQL Server 2016
 * SQL Server 2014
@@ -171,7 +171,7 @@ The Playback Database can be installed on:
 * SQL Server 2008
 * SQL Server 2005
 
-{% include tip.html content="Due to the size of the Playback Database, it is recommended that this database is not installed on a SQL Express instance. The Playback Database is not supported on High Availability Always On and mirrored databases. The Playback Database cannot be installed on SQL Server 2000." %}
+{% include note.html content="Spotlight Enterprise does not support the Playback Database installed on a SQL Express instance, on High Availability Always On and mirrored databases. The Playback Database cannot be installed on SQL Server 2000." %}
 
 
 ### Other requirements
@@ -192,7 +192,7 @@ Approximately 1.2 GB for each monitored SQL Server instance and the correspondin
 This estimate assumes default configuration in an average environment. Actual space used will depend on your environment and any data collection/storage configuration changes that are made. For more information, see the Spotlight Enterprise Sizing Wizard. You can access the wizard from the Spotlight Installation Center.
 
 ### SQL Server
-The Spotlight Statistics Repository can be installed on:
+The Spotlight Statistics Repository can be installed on SQL Server editions Enterprise and Standard:
 
 * SQL Server 2016
 * SQL Server 2014
@@ -201,7 +201,7 @@ The Spotlight Statistics Repository can be installed on:
 * SQL Server 2008
 * SQL Server 2005
 
-{% include tip.html content="Due to the size of the Spotlight Statistics Repository, it is recommended that this database is not installed on a SQL Express instance. The Spotlight Statistics Repository is not supported on High Availability Always On and mirrored databases. The Spotlight Statistics Repository cannot be installed on SQL Server 2000." %}
+{% include note.html content="Spotlight Enterprise does not support the Spotlight Statistics Repository installed on a SQL Express instance, on High Availability Always On and mirrored databases. The Spotlight Statistics Repository cannot be installed on SQL Server 2000." %}
 
 
 ### Other Requirements

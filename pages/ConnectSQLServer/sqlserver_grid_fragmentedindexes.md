@@ -1,6 +1,6 @@
 ---
 title: Fragmented Indexes grid
-last_updated: April 12, 2017
+last_updated: June 30, 2017
 summary: "Use the Fragmented Indexes grid to assess the fragmentation of index files on the SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_fragmentedindexes.html
@@ -58,6 +58,7 @@ The data for this grid is collected once a day and stored in the Playback Databa
 
 {% include note.html content="To re-collect the data now, select the criteria and click **Collect now**. This could put significant load on the SQL Server. It is advisable to collect fragmentation information during a quiet period." %}
 
+
 ### Collection criteria definitions
 The criteria by which data is collected:
 
@@ -78,18 +79,22 @@ To customize the criteria used to collect the data (as it is collected automatic
 4. Click **Add**.
 
 Configuration | Default value | Tag name | Tag name and value example | Example description
---------------|---------------|----------|--------
-Top (most fragmented indexes)| 50 | frag.RowLimit | frag.RowLimit.100 | Set to collect top 100 most fragmented indexes.
+--------------|---------------|----------|----------------------------|--------------------
+Top (most fragmented indexes) | 50 | frag.RowLimit | frag.RowLimit.100 | Set to collect top 100 most fragmented indexes.
 Database name | *All* | frag.DatabaseName | frag.DatabaseName.sales | Filter on the database called 'sales'.
 Minimum size (Megabytes) |  10 | frag.MinimumSizeMB | frag.MinimumSizeMB.15 | Set the minimum size count to 15 megabytes.
 Minimum operations (number of operations) | 5 | frag.MinimumOperations | frag.MinimumOperations.3 | Set the minimum number of operations to 3.
 
-### How to defragment an index
+### How to defragment selected indexes
 
-1. Select an index to defragment and click **Generate Defragmentation Script**.
+1. Select one or more indexes to defragment and click **Generate Defragmentation Script**.
+   * Use CTRL+click or SHIFT+click to select multiple indexes.
+   * Use CTRL+A to select all indexes.
+   * Click outside the grid to clear all selections.
 2. Use SQL Server Management Studio to schedule a job to run this script during a quiet period.
 
 {% include note.html content="Execution of this script could put significant load on the SQL Server." %}
+
 
 ### Playback
 

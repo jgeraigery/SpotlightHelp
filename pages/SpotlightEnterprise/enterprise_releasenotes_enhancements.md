@@ -1,12 +1,26 @@
 ---
 title: Enhancements in this release
 keywords: release notes
-summary: "The following is a list of enhancements implemented in Spotlight Enterprise 12.0"
+summary: "The following is a list of enhancements implemented in Spotlight Enterprise 12.0 and 12.0.1"
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_enhancements.html
 folder: SpotlightEnterprise
 readonly: true
 ---
+
+
+## Enhancements implemented in Spotlight Enterprise 12.0.1
+
+Enhancement | Issue ID
+------------|---------
+Updated the link to the new Spotlight Enterprise Community page. | SOSSE-6735
+On the SQL Server \| Databases drilldown, Databases grid and Fragmented indexes grid, click Ctrl+A to 'Select All' rows. Click outside the grid to clear selected rows. | SOSSE-6651
+On the SQL Server \| Workload Analysis drilldown, right click on a SQL statement to view the SQL statement in an external editor. | SOSSE-5755
+On the SQL Server \| Databases drilldown \| Fragmented indexes page - select multiple indexes to Generate Defragmentation Script for all selected indexes. | SOSSE-2532
+Improved user interface design arround previous unfriendly error message: "Unknown Identifier asked for extended events. Please connect." | DS-757
+
+
+## Enhancements implemented in Spotlight Enterprise 12.0
 
 Enhancement | Issue ID
 ------------|---------
@@ -30,7 +44,7 @@ Enhancement to applying alarm configurations from a **Configuration Template** o
 Better handling of **deadlocks**: When the deadlock is a Intra-Query Parallel Deadlock SQL Server does not put a victim SPID in the deadlock graph however the SPID can be derived from other data in the deadlock graph. We have changed our deadlock code to find that SPID when the victim list is empty thus ensuring a victim SPID is returned for this type of deadlock. | SOSSE-5174
 Enhancements to the **SQL Server \| Databases drilldown** where you can now adjust screen real estate by show/hide the Databases grid and drag the line between the grid and charts. We have added to the Database Details \| Data Files grid Find and Save buttons. | SOSSE-5018
 New enhanced access to list / edit / delete Spotlight Connections from the **Windows Powershell** / the command line. | SOSSE-4965
-The **SQL Server \| Databases drilldown** has been enhanced for greater usability. Use the Up/Down button to Hide/Show the Databases grid. Move the line between the Databases grid and Database Detils according to which display you want to see more or less of. Find and Save options have been added to the Database Details \| Data Files grid. | SOSSE-4786
+The **SQL Server \| Databases drilldown** has been enhanced for greater usability. Use the Up/Down button to Hide/Show the Databases grid. Move the line between the Databases grid and Database Details according to which display you want to see more or less of. Find and Save options have been added to the Database Details \| Data Files grid. | SOSSE-4786
 For **data uploaded to Spotlight Cloud**, dummy text replaces string literals to protect privacy information that may be contained in those literals. Data uploaded to the Spotlight Cloud is used in the displays on the Spotlight web site and Spotlight Mobile. | SoSSE-4484
 The **SQL Server \| Wait Events drilldown** has been enhanced such that you can now move the line between the grid and charts according to which display you want to see more or less of. | SOSSE-4272
 When a **monitored system** is newer than the versions Spotlight has been tested against, Spotlight will now monitor the system if able. Spotlight will raise an alarm to let you know the version is not yet supported. Some collections may fail because Spotlight has not been tested against the version yet. | SOSSE-3679
