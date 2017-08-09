@@ -13,16 +13,18 @@ readonly: true
 Issue | ID
 ------|---
 Spotlight Reports - Dates are now presented in the American format. | SOSSE-6715
+Spotlight Clients installed on Windows 10 are run in compatibility mode for Windows 8 to resolve intermittent stability issues with the Spotlight Client while checking alarm details in the Spotlight Overview page. | SOSSE-6711
 Spotlight Client installed on Windows Server 2008 host experienced connection failure issues; resolved by adding support for TLS1.0 on Windows Server 2008. | SOSSE-6685
 On Spotlight Today, corrected a problem with the 'Ignore this alarm' feature. | SOSSE-6678
 When monitoring SQL Server, Workload Analysis and Wait Events drilldowns, can copy queries and selected parts of queries. Requires Internet Explorer above version 8 installed on the Spotlight Client host computer. | SOSSE-6677
+Corrected a problem resulting in an Unexpected Error on diagnosing a deadlock from Alarms by Time when the Locks - Deadlock alarm is set to require acknowledgement. | SoSSE-6626
 Addressed customer support issues of high CPU on the Diagnostic Server host:- The value of the SQL Server connection property 'Obscure string literals in SQL text and parameters in query plans' has changed to 'not selected' for all SQL Server connections on upgrade. Following upgrade to select 'Obscure string literals in SQL text and parameters in query plans' as required, from the Spotlight Client, Click **Configure \| Connections**, select the SQL Server connection and fill in the connection details. | DS-869
 When monitoring SQL Server \| Databases drilldown \| Disk Space chart, corrected a problem with the "Include Non-SQL files in chart" option. | DS-860
 Addressed customer support issues of high CPU on the Diagnostic Server host:- Enhanced the data collection methodology for the SQL Server \| SQL Activity drilldown \| Query Execution Statistics page. | DS-851
 Corrected a problem where Spotlight Enterprise 12.0 raised SQL Agent Failed Jobs alarms for unwanted jobs; Spotlight ignored exclusion values configured for these job names. | DS-825
 Corrected Connection Failure issues around the use of Extended Events:- Monitored Server - SQL Server Secondary Connection Failure: Connection 'SQLServerXEventsChannel' failed to connect: The event data stream was disconnected because there were too many outstanding events. | DS-822
+Corrected a problem where when monitoring SQL Server with log shipping - on the High Availability \| Transaction Log Shipping drilldown, the Transaction Log Shipping Secondaries grid reported an Invalid column name. | DS-767
 Corrected erroneous raising of the SQL Server **Databases - Dynamic Data File Group Growths Remaining** alarm on upgrade. | DS-624
-
 
 ## Issues addressed in Spotlight Enterprise 12.0
 
