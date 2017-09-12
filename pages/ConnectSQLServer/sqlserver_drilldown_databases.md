@@ -335,20 +335,9 @@ The criteria by which data is collected:
 #### How to customize the criteria for the default collection
 To customize the collection schedule for the default collection, use the Spotlight Client. Click **Configure \| Scheduling** select the connection and customize the **Fragmentation by Index** schedule.
 
-To customize the criteria used to collect the data (as it is collected automatically once a day) use the Connection Tag property.
+To customize the criteria used to collect the data (as it is collected automatically once a day), use the Spotlight Client. Click **Configure \| Defragmentation Check**. See [Configure Defragmentation Check][enterprise_cfgmonitor_defragcheck].
+   {% include imageClient.html file="tb_config_connections.png" alt="Configure Defragmentation Check" %}
 
-1. From the Spotlight Client, click **Configure \| Connections**.
-   {% include imageClient.html file="tb_config_connections.png" alt="Configure Connections" %}
-2. Right-click on the connection and select **Properties \| Tags**.
-3. Enter the tag name and value in the **Value** field as per the following examples.
-4. Click **Add**.
-
-Configuration | Default value | Tag name | Tag name and value example | Example description
---------------|---------------|----------|--------
-Top (most fragmented indexes)| 50 | frag.RowLimit | frag.RowLimit.100 | Set to collect top 100 most fragmented indexes.
-Database name | *All* | frag.DatabaseName | frag.DatabaseName.sales | Filter on the database called 'sales'.
-Minimum size (Megabytes) |  10 | frag.MinimumSizeMB | frag.MinimumSizeMB.15 | Set the minimum size count to 15 megabytes.
-Minimum operations (number of operations) | 5 | frag.MinimumOperations | frag.MinimumOperations.3 | Set the minimum number of operations to 3.
 
 #### How to defragment an index
 
