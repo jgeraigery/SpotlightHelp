@@ -538,6 +538,11 @@ entries:
           url: /enterprise_cfgmonitor_monitoredfiles_addfile.html
           output: web, pdf
 
+    - title: Configure Defragmentation Check
+      url: /enterprise_cfgmonitor_defragcheck.html
+      output: web, pdf
+
+      subfolders:
       - title: Apply configuration to...
         output: web
         subfolderitems:

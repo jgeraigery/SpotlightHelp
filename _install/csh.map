@@ -47,6 +47,7 @@
 404	enterprise_cfgmonitor_disksdisplay	Content/Configure/dialog_disksdisplay	IDH_DISKS_TAB_WIN
 183	enterprise_cfgmonitor_monitoredfiles	Content/Configure/dialog_monitoredfiles	IDH_Files_page_WIN
 185	enterprise_cfgmonitor_monitoredfiles_addfile	Content/Configure/configure_windows_addfile	IDH_FILES_PAGE_SELECT_WIN
+190 enterprise_cfgmonitor_defragcheck
 
 ## Product Spotlight Enterprise (Configure Spotlight Diagnostic Server)
 701	enterprise_cfgds_select	Content/OptionsDialog/options_ds_address	Diagnostic_Server_DSM
