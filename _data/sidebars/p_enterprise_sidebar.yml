@@ -858,6 +858,10 @@ entries:
           url: /enterprise_backend_federation_cfgops.html
           output: web, pdf
 
+        - title: Upgrade Spotlight
+          url: /enterprise_backend_federation_upgrade.html
+          output: web, pdf
+
         - title: Remove (break apart) a federation
           url: /enterprise_backend_federation_remove.html
           output: web, pdf

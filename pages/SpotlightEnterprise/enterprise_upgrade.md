@@ -14,7 +14,7 @@ folder: SpotlightEnterprise
 ## Run the Spotlight Enterprise executable on each Spotlight Client
 If your enterprise has multiple Spotlight Clients then ensure all Spotlight Clients are included in the upgrade process. If the Spotlight Client and Spotlight Diagnostic Server are running different versions of Spotlight Enterprise, the client will be unable to connect to the Spotlight Diagnostic Server.
 
-If Spotlight Enterprise is deployed as a federated system of multiple Spotlight Diagnostic Server then make sure all the Spotlight Diagnostic Server in the federation are included in the upgrade process.
+If Spotlight Enterprise is deployed as a federated system of multiple Spotlight Diagnostic Server then make sure all the Spotlight Diagnostic Server in the federation are included in the upgrade process. For best practices, refer to [Upgrade Spotlight in a Federated Spotlight Deployment][enterprise_backend_federation_upgrade].
 
 ## Upgrade the Playback Database and Spotlight Statistics Repository
 Following upgrade of the Spotlight Diagnostic Server, the Playback Database and Spotlight Statistics Repository are automatically upgraded the next time they are accessed by the Spotlight Diagnostic Server.
