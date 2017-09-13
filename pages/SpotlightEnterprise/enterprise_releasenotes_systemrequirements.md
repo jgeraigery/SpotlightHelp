@@ -71,13 +71,13 @@ Microsoft Windows Powershell 3.0 or above is required to [access Spotlight from 
 
 ## Spotlight Diagnostic Server requirements
 
-### Processes
+### CPU and RAM
 Two processes make up the Diagnostic Server:
 
 * Diagnostic Server - a Java based application. Consumes memory as configured in its JVM settings.
 * Out-Of-Process collector - C# based application. Consumes available host memory.
 
-The following tables describe the number of connections that can be configured for a single Diagnostic Server based on the host's resources (CPU and RAM).
+Use the following tables to determine the number of connections that can be configured for a single Diagnostic Server based on the host's resources (CPU and RAM).
 
 *For an average load on the monitored instances*
 
