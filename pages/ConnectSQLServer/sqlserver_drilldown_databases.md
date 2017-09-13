@@ -1,6 +1,6 @@
 ---
 title: Databases drilldown
-last_updated: April 12, 2017
+last_updated: September 13, 2017
 summary: "Drilldown on the details of all databases in SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_drilldown_databases.html

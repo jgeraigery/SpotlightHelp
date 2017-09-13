@@ -1,5 +1,6 @@
 ---
 title: Configure Defragmentation Check
+last_updated: September 13, 2017
 tags: [configure_monitoring,apply_configuration_to]
 summary: "Configure the criteria used to collect data for the SQL Server | Databases drilldown | Fragmented indexes page"
 sidebar: p_enterprise_sidebar
