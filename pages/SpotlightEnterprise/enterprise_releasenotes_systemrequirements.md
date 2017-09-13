@@ -71,16 +71,27 @@ Microsoft Windows Powershell 3.0 or above is required to [access Spotlight from 
 
 ## Spotlight Diagnostic Server requirements
 
-### Platform
-2 GHz Pentium Dual Core
+### Processes
+Two processes make up the Diagnostic Server:
 
-### Memory
-2 GB RAM
+* Diagnostic Server - a Java based application. Consumes memory as configured in its JVM settings.
+* Out-Of-Process collector - C# based application. Consumes available host memory.
 
-### Hard disk space
-300 MB
+The following tables describe the number of connections that can be configured for a single Diagnostic Server based on the host's resources (CPU and RAM).
 
-If the Diagnostic Server’s connection to the Spotlight Statistics Repository or Playback database is interrupted, the Diagnostic Server will cache data to the local disk. In this event, an extra 2 MB per hour, per monitored server is required.
+*For an average load on the monitored instances*
+
+Host CPUs (2.4GHz)* | Host RAM | Hard Drive Space | DS JVM Settings | #DB Connections | #OS Connections
+--------------------|----------|------------------|-----------------|-----------------|----------------
+2 cores | 7GB || 2GB | 50 | 50
+4 cores | 14GB || 4GB | 100 | 100
+
+*For a high load on the monitored instances*
+
+Host CPUs (2.4GHz)* | Host RAM | Hard Drive Space | DS JVM Settings | #DB Connections | #OS Connections
+--------------------|----------|------------------|-----------------|-----------------|----------------
+2 cores | 7GB | 565MB | 2GB | 40 | 40
+4 cores | 14GB | 580MB | 4GB | 80 | 80
 
 ### Operating system
 
