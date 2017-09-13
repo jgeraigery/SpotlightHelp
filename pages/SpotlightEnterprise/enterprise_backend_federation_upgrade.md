@@ -21,7 +21,10 @@ To upgrade the Configuration Server, run the Spotlight Enterprise executable on 
 One Spotlight Diagnostic Server in the federation is selected as the Configuration server. For more information on the Configuration Server, see [Configure Operations][enterprise_backend_federation_cfgops].
 
 ## Upgrade all other Spotlight Diagnostic Server in the Federation
-Now you have upgraded the Configuration Server, run the Spotlight Enterprise executable on all other Spotlight Diagnostic Server in the federation. Make sure all the Spotlight Diagnostic Server in the federation are included in the upgrade process.
+Now you have upgraded the Configuration Server, run the Spotlight Enterprise executable on all other Spotlight Diagnostic Server in the federation. Make sure all the Spotlight Diagnostic Server in the federation are included in the upgrade process. Complete the upgrade steps for each Spotlight Diagnostic Server in the federation before you upgrade the Spotlight Clients.
+
+## Upgrade all Spotlight Clients in the Federation
+For all Spotlight Clients connected to the Federation - on the Spotlight Client host run the Spotlight Enterprise executable to upgrade the Spotlight Client. Ensure all Spotlight Clients are included in the upgrade process. If the Spotlight Client and Spotlight Diagnostic Server are running different versions of Spotlight Enterprise, the client will be unable to connect to the Spotlight Diagnostic Server.
 
 ## Re-open Spotlight Clients
 Re-open Spotlight Clients connected to the federation.
