@@ -26,7 +26,7 @@ If you intend to federate this Spotlight Diagnostic Server with your current Spo
 * The new Spotlight Diagnostic Server should be running the same Spotlight Enterprise version as your current Spotlight Enterprise deployment.
 * Configure a separate Playback Database and Spotlight Statistics Repository for the new Spotlight Diagnostic Server.
 * Open TCP Port 40403 on the new Spotlight Diagnostic Server.
-* Regarding the credentials used to run this Spotlight Diagnostic Server: following Federation this Spotlight Diagnostic Server will authenticate with the Configuration server (the current Spotlight Diagnostic Server deployment) using Windows authentication over TCP port 40403. The Windows account that each Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server (the current Spotlight Diagnostic Server deployment). Note that Spotlight Diagnostic Server running under the built in Windows accounts (local system or network service) cannot be federated.
+* Regarding the credentials used to run this Spotlight Diagnostic Server: following Federation this Spotlight Diagnostic Server will authenticate with the Configuration server (the current Spotlight Diagnostic Server deployment) using Windows authentication over TCP port 40403. The Windows account that this Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server (the current Spotlight Diagnostic Server deployment). Note that Spotlight Diagnostic Server running under the built in Windows accounts (local system or network service) cannot be federated.
 
 
 ## Copy monitored connection entity files to the new Spotlight Diagnostic Server
