@@ -81,10 +81,10 @@ Use the following tables to determine the number of connections that can be conf
 
 *For an average load on the monitored instances*
 
-Host CPUs (2.4GHz) | Host RAM | Hard Drive Space | DS JVM Settings | #DB Connections | #OS Connections
--------------------|----------|------------------|-----------------|-----------------|----------------
-2 cores | 7GB || 2GB | 50 | 50
-4 cores | 14GB || 4GB | 100 | 100
+Host CPUs (2.4GHz) | Host RAM | DS JVM Settings | #DB Connections | #OS Connections
+-------------------|----------|-----------------|-----------------|----------------
+2 cores | 7GB | 2GB | 50 | 50
+4 cores | 14GB | 4GB | 100 | 100
 
 *For a high load on the monitored instances*
 
