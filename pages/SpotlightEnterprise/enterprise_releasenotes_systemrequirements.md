@@ -225,7 +225,7 @@ It is highly recommended that regular maintenance is performed on the Spotlight 
 
 
 ## Upgrade and compatibility
-Use the Spotlight installer to upgrade from Spotlight on SQL Server version 10.0 or later. To upgrade from an earlier version of Spotlight than 10.0, upgrade to at least version 10.0 before upgrading to 11.7. To upgrade from 10.5.0, first upgrade to 10.5.2 and then upgrade to 12.0.
+Use the Spotlight installer to upgrade from Spotlight on SQL Server version 10.0 or later. To upgrade from an earlier version of Spotlight than 10.0, upgrade to at least version 10.0 before upgrading to 11.7. To upgrade from 10.5.0, first upgrade to 10.5.2 and then upgrade to 12.1.
 
 ### Spotlight Diagnostic Server - upgrade
 The following is transferred during the upgrade:

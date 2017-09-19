@@ -1,6 +1,6 @@
 ---
 title: Databases drilldown
-last_updated: April 12, 2017
+last_updated: September 13, 2017
 summary: "Drilldown on the details of all databases in SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_drilldown_databases.html
@@ -325,30 +325,19 @@ The data for this grid is collected once a day and stored in the Playback Databa
 {% include note.html content="To re-collect the data now, select the criteria and click **Collect now**. This could put significant load on the SQL Server. It is advisable to collect fragmentation information during a quiet period." %}
 
 #### Collection criteria definitions
-The criteria by which data is collected:
+The criteria by which data is collected (Defaults are set by [Configure Defragmentation Check][enterprise_cfgmonitor_defragcheck]):
 
-* Top (most) fragmented indexes - default 50
-* Database name - default *All*
-* Minimum Size - default 10MB = 1280 pages
-* Minimum operations - minimum number of either scan or update operations - default 5
+* Top (most) fragmented indexes
+* Database name
+* Minimum Size - 10MB = 1280 pages
+* Minimum operations - minimum number of either scan or update operations.
 
 #### How to customize the criteria for the default collection
 To customize the collection schedule for the default collection, use the Spotlight Client. Click **Configure \| Scheduling** select the connection and customize the **Fragmentation by Index** schedule.
 
-To customize the criteria used to collect the data (as it is collected automatically once a day) use the Connection Tag property.
+To customize the criteria used to collect the data, use the Spotlight Client. Click **Configure \| Defragmentation Collection**. See [Configure Defragmentation Check][enterprise_cfgmonitor_defragcheck].
+   {% include imageClient.html file="tb_config_defrag.png" alt="Configure Defragmentation Collection" %}
 
-1. From the Spotlight Client, click **Configure \| Connections**.
-   {% include imageClient.html file="tb_config_connections.png" alt="Configure Connections" %}
-2. Right-click on the connection and select **Properties \| Tags**.
-3. Enter the tag name and value in the **Value** field as per the following examples.
-4. Click **Add**.
-
-Configuration | Default value | Tag name | Tag name and value example | Example description
---------------|---------------|----------|--------
-Top (most fragmented indexes)| 50 | frag.RowLimit | frag.RowLimit.100 | Set to collect top 100 most fragmented indexes.
-Database name | *All* | frag.DatabaseName | frag.DatabaseName.sales | Filter on the database called 'sales'.
-Minimum size (Megabytes) |  10 | frag.MinimumSizeMB | frag.MinimumSizeMB.15 | Set the minimum size count to 15 megabytes.
-Minimum operations (number of operations) | 5 | frag.MinimumOperations | frag.MinimumOperations.3 | Set the minimum number of operations to 3.
 
 #### How to defragment an index
 

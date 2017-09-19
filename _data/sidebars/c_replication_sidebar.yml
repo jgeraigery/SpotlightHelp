@@ -112,6 +112,10 @@ entries:
       url: /replication_alarm_agentfailure_snapshot.html
       output: web, pdf
 
+    - title: Replication - Subscription Expiration
+      url: /replication_alarm_subscriptionexpiration.html
+      output: web, pdf
+
     - title: Replication - Subscription Failure
       url: /replication_alarm_subscriptionfailure.html
       output: web, pdf

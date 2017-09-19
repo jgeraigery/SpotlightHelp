@@ -17,7 +17,7 @@ folder: SpotlightEnterprise
 
 ## Select the Diagnostic Server
 
-If the Spotlight Diagnostic Server is federated you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server is independently configured for the Spotlight Statistics Repository.
+If the Spotlight Diagnostic Server is federated you will be prompted to select the Spotlight Diagnostic Server to configure. Please configure each Spotlight Diagnostic Server in the federation (one at a time) independent of each other. You can direct each Spotlight Diagnostic Server to store data in the same Spotlight Statistics Repository (so one Spotlight Statistics Repository for the whole federation), but you don't have to.
 
 ## Configure the Spotlight Statistics repository
 
@@ -52,6 +52,8 @@ Click **Create** to create a new Spotlight Statistics Repository. This opens the
 ### Store alarms in the repository for … days
 
 Specify the number of days to store alarm data in the repository, by default 30.
+
+{% include note.html content="It is highly recommended that regular maintenance is performed to maintain efficient data retrieval. Now that you have configured the Spotlight Statistics Repository, the next step is to [Configure the database maintenance schedule][enterprise_cfgds_databasemaintenanceschedule]." %}
 
 
 
