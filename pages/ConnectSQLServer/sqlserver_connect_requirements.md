@@ -9,7 +9,7 @@ folder: ConnectSQLServer
 ---
 
 
-Spotlight can monitor SQL Server instances of the following versions:
+Spotlight can monitor SQL Server instances of the following versions, editions Enterprise, Standard and Express:
 
 * SQL Server 2016 (32-bit and 64-bit)
 * SQL Server 2014 (32-bit and 64-bit)

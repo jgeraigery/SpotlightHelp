@@ -13,7 +13,6 @@ readonly: true
 Known Issue | Issue ID
 ------------|---------
 Spotlight Clients installed on Windows 10 - Exception error may occur on deleting two connetions at the same time. | SOSSE-6556
-The Spotlight Client experiences unhandled Microsoft .NET Framework exception errors when installed on Windows 10. The Spotlight Client may crash: <br>- on clicking the Status component on the Spotlight Overview page to check alarms.<br>- on selecting a connection from the left Connections pane while a SQL Server Spotlight Overview page is open. | SOSSE-6499
 If the Spotlight Client looses connection to the Spotlight Diagnostic Server then after a period of days the Spotlight Client will develop a minor memory leak. <br><br>*Workaround:* Restart the Spotlight Client. | 5433
 The Spotlight Client can experience performance issues (opening the home page, acknowledging and snoozing alarms) when a large number of alarms are raised against the one connection. | 2651
 Manual refresh is required on some drilldowns. Right click the data in the grid and select **Restore Default Settings \| Restore**. The grid shows "Loading". Click Refresh to populate the grid. | 11333 <br><br> 11406
@@ -98,6 +97,7 @@ Playback is not currently available for the SQL Server **Databases drilldown \| 
 **SQL Server drilldowns where SQL Server is hosted on Unix/Linux** The following drilldowns are not supported for SQL Server instances hosted on Unix/Linux: SQL Activity \| Custom Counters, High Availability, Support Services, Databases \| Disk Space, Error Log \| SQL Agent Error Logs |
 **SQL Server 2012 and above** - Spotlight does not support Analysis Services in Tabular and Sharepoint modes. | .
 **Workload Analysis drilldown** - SQL Server 2012 and above - When monitoring a failover cluster the Physical Reads value is 0 / No Data. | 3688
+**Workload Analysis and Wait Events drilldowns** - Unable to copy and paste queries from these drilldowns when Internet Explorer 8 or below is installed on the Spotlight Client host computer. Workaround: Upgrade Internet Explorer on the Spotlight Client host computer. | 6677
 **SQL Server 2012 and SQL Server 2008 R2** - "Using dbghelp.dll version 4.0.5" entries in the SQL Server Error Log. The source of these entries can be traced back to a known issue (Microsoft) when a statement or job executes the sys.fn_xe_file_target_read_file stored procedure. Refer to http://support.microsoft.com/kb/2878139 <br><br> The Spotlight SQL Server \| Performance Health feature uses XEvents sessions which may execute the sys.fn_xe_file_target_read_file stored procedure. | 2927
 In the SQL Server Error Log, entries "SQL Trace was started" and "SQL Trace was stopped." repeat every 10 minutes while Spotlight is monitoring the connection. These entries are added by Microsoft; Spotlight Enterprise uses SQL Trace to monitor for deadlocks. | 3582
 **Monitoring SQL Server 2008 RTM.** The Deadlocks page (SQL Activity drilldown) may not show data when monitoring a SQL Server 2008 RTM database. <br><br> *Workaround:* Upgrade to SQL Server 2008 SP1 | 7495

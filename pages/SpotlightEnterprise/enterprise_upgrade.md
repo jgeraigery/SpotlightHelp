@@ -13,8 +13,8 @@ folder: SpotlightEnterprise
 
 ## Run the Spotlight Enterprise executable on each Spotlight Client
 If your enterprise has multiple Spotlight Clients then ensure all Spotlight Clients are included in the upgrade process. If the Spotlight Client and Spotlight Diagnostic Server are running different versions of Spotlight Enterprise, the client will be unable to connect to the Spotlight Diagnostic Server.
- 
-If Spotlight Enterprise is deployed as a federated system of multiple Spotlight Diagnostic Server then make sure all the Spotlight Diagnostic Server in the federation are included in the upgrade process.
+
+If Spotlight Enterprise is deployed as a federated system of multiple Spotlight Diagnostic Server then make sure all the Spotlight Diagnostic Server in the federation are included in the upgrade process. For best practices, refer to [Upgrade Spotlight in a Federated Spotlight Deployment][enterprise_backend_federation_upgrade].
 
 ## Upgrade the Playback Database and Spotlight Statistics Repository
 Following upgrade of the Spotlight Diagnostic Server, the Playback Database and Spotlight Statistics Repository are automatically upgraded the next time they are accessed by the Spotlight Diagnostic Server.
@@ -40,6 +40,18 @@ Upgrade to Spotlight Enterprise from Spotlight on SQL Server 10.0 or above.
 To upgrade from an earlier version of Spotlight on SQL Server than 10.0, upgrade to at least version 10.0 first.
 
 To upgrade from Spotlight on SQL Server 10.5.0, first upgrade to 10.5.2 and then upgrade to Spotlight Enterprise.
+
+### Spotlight Enterprise 12.0.1 and SQL Server Connections \| 'Obscure string literals in SQL text and parameter’
+On upgrade to Spotlight Enterprise 12.0.1 the value of the SQL Server connection property 'Obscure string literals in SQL text and parameters in query plans' will change to 'not selected' for all SQL Server.
+
+Following upgrade you can select 'Obscure string literals in SQL text and parameters in query plans' for each SQL Server connection as required. From the Spotlight Client, Click **Configure \| Connections**, select the SQL Server connection and fill in the connection details.
+
+
+### Exclude Spotlight sessions from Wait Events and Workload Analysis
+
+When selected Spotlight sessions are excluded from the Wait Events and Workload Analysis drilldowns.
+
+{% include note.html content="For monitored SQL Server versions earlier than SQL Server 2012 some long term Spotlight sessions may remain. For monitored SQL Server 2012 and above all Spotlight Sessions are excluded." %}
 
 ### File paths on upgrade from Spotlight on SQL Server Enterprise
 There is no change in the default installation path for the Spotlight Diagnostic Server on upgrade from Spotlight on SQL Server

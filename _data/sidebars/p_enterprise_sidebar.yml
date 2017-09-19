@@ -2,6 +2,7 @@ entries:
 - title: sidebar
   product: Spotlight Enterprise
   version: 12.1
+
   folders:
 
   - title:
@@ -851,6 +852,10 @@ entries:
           url: /enterprise_backend_federation.html
           output: web, pdf
 
+        - title: Separate an existing deployment
+          url: /enterprise_backend_federation_separate.html
+          output: web, pdf
+
         - title: Make (add to) a federation
           url: /enterprise_backend_federation_add.html
           output: web, pdf
@@ -861,6 +866,10 @@ entries:
 
         - title: Configure operations
           url: /enterprise_backend_federation_cfgops.html
+          output: web, pdf
+
+        - title: Upgrade Spotlight
+          url: /enterprise_backend_federation_upgrade.html
           output: web, pdf
 
         - title: Remove (break apart) a federation

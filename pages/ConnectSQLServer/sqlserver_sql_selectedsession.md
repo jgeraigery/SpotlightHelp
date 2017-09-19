@@ -17,6 +17,7 @@ folder: ConnectSQLServer
 
 {% include tip.html content="While the Session Status is running there is an option to **View SQL for Batch**." %}
 
+{% include note.html content="Optimizer Plan Visualization is not available in Playback mode. Display of the SQL Statement is available in Playback mode." %}
 
 
 

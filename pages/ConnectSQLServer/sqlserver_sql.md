@@ -13,5 +13,7 @@ folder: ConnectSQLServer
 {% include inline_imageClient.html file="tb_optimizerplan_plan.png" alt="Plan" %} | Click to show the visualization.
 {% include inline_imageClient.html file="tb_optimizerplan_sql.png" alt="SQL" %} | Click to show the SQL.
 
+{% include note.html content="Optimizer Plan Visualization and display of the SQL Statement - Not available in Playback mode." %}
+
 
 {% include links.html %}

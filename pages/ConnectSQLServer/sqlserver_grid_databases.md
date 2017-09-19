@@ -1,6 +1,6 @@
 ---
 title: Databases grid
-last_updated: March 24, 2017
+last_updated: June 30, 2017
 summary: "The Databases grid provides details of all databases in SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_databases.html
@@ -17,6 +17,8 @@ Select one or more databases in the Databases grid to show just those databases 
 {% include inline_imageClient.html file="tb_drilldown_databases_showhide.png" alt="show/hide" %} | Click to hide/show the Databases grid.
 
 {% include tip.html content="The **tempdb** database has its own drilldown. Click on tempdb to open the tempdb drilldown. Click on another cell in the tempdb row to select tempdb for **Database Details**." %}
+
+{% include tip.html content="To select all databases click CTRL+A. Click outside the grid to clear all selections." %}
 
 ## Overview
 

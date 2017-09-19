@@ -58,6 +58,7 @@ The data for this grid is collected once a day and stored in the Playback Databa
 
 {% include note.html content="To re-collect the data now, select the criteria and click **Collect now**. This could put significant load on the SQL Server. It is advisable to collect fragmentation information during a quiet period." %}
 
+
 ### Collection criteria definitions
 The criteria by which data is collected (Defaults are set by [Configure Defragmentation Check][enterprise_cfgmonitor_defragcheck]):
 
@@ -72,7 +73,7 @@ To customize the collection schedule for the default collection, use the Spotlig
 To customize the criteria used to collect the data, use the Spotlight Client. Click **Configure \| Defragmentation Collection**. See [Configure Defragmentation Check][enterprise_cfgmonitor_defragcheck].
    {% include imageClient.html file="tb_config_defrag.png" alt="Configure Defragmentation Collection" %}
 
-### How to defragment an index
+### How to defragment selected indexes
 
 1. Select one or more indexes to defragment and click **Generate Defragmentation Script**.
    * Use CTRL+click or SHIFT+click to select multiple indexes.
@@ -81,6 +82,7 @@ To customize the criteria used to collect the data, use the Spotlight Client. Cl
 2. Use SQL Server Management Studio to schedule a job to run this script during a quiet period.
 
 {% include note.html content="Execution of this script could put significant load on the SQL Server." %}
+
 
 ### Playback
 
