@@ -71,27 +71,16 @@ Microsoft Windows Powershell 3.0 or above is required to [access Spotlight from 
 
 ## Spotlight Diagnostic Server requirements
 
-### CPU and RAM
-Two processes make up the Diagnostic Server:
+### Platform
+2 GHz Pentium Dual Core
 
-* Diagnostic Server - a Java based application. Consumes memory as configured in its JVM settings.
-* Out-Of-Process collector - C# based application. Consumes available host memory.
+### Memory
+2 GB RAM
 
-Use the following tables to determine the number of connections that can be configured for a single Diagnostic Server based on the host's resources (CPU and RAM).
+### Hard disk space
+300 MB
 
-*For an average load on the monitored instances*
-
-Host CPUs (2.4GHz) | Host RAM | DS JVM Settings | #DB Connections | #OS Connections
--------------------|----------|-----------------|-----------------|----------------
-2 cores | 7GB | 2GB | 50 | 50
-4 cores | 14GB | 4GB | 100 | 100
-
-*For a high load on the monitored instances*
-
-Host CPUs (2.4GHz) | Host RAM | Hard Drive Space | DS JVM Settings | #DB Connections | #OS Connections
--------------------|----------|------------------|-----------------|-----------------|----------------
-2 cores | 7GB | 565MB | 2GB | 40 | 40
-4 cores | 14GB | 580MB | 4GB | 80 | 80
+If the Diagnostic Server’s connection to the Spotlight Statistics Repository or Playback database is interrupted, the Diagnostic Server will cache data to the local disk. In this event, an extra 2 MB per hour, per monitored server is required.
 
 ### Operating system
 
@@ -173,7 +162,7 @@ This estimate assumes default configuration in an average environment. Actual sp
 
 ### SQL Server
 
-The Playback Database can be installed on SQL Server editions Enterprise and Standard:
+The Playback Database can be installed on:
 
 * SQL Server 2016
 * SQL Server 2014
@@ -182,7 +171,7 @@ The Playback Database can be installed on SQL Server editions Enterprise and Sta
 * SQL Server 2008
 * SQL Server 2005
 
-{% include note.html content="Spotlight Enterprise does not support the Playback Database installed on a SQL Express instance, on High Availability Always On and mirrored databases. The Playback Database cannot be installed on SQL Server 2000." %}
+{% include tip.html content="Due to the size of the Playback Database, it is recommended that this database is not installed on a SQL Express instance. The Playback Database is not supported on High Availability Always On and mirrored databases. The Playback Database cannot be installed on SQL Server 2000." %}
 
 
 ### Other requirements
@@ -203,7 +192,7 @@ Approximately 1.2 GB for each monitored SQL Server instance and the correspondin
 This estimate assumes default configuration in an average environment. Actual space used will depend on your environment and any data collection/storage configuration changes that are made. For more information, see the Spotlight Enterprise Sizing Wizard. You can access the wizard from the Spotlight Installation Center.
 
 ### SQL Server
-The Spotlight Statistics Repository can be installed on SQL Server editions Enterprise and Standard:
+The Spotlight Statistics Repository can be installed on:
 
 * SQL Server 2016
 * SQL Server 2014
@@ -212,7 +201,7 @@ The Spotlight Statistics Repository can be installed on SQL Server editions Ente
 * SQL Server 2008
 * SQL Server 2005
 
-{% include note.html content="Spotlight Enterprise does not support the Spotlight Statistics Repository installed on a SQL Express instance, on High Availability Always On and mirrored databases. The Spotlight Statistics Repository cannot be installed on SQL Server 2000." %}
+{% include tip.html content="Due to the size of the Spotlight Statistics Repository, it is recommended that this database is not installed on a SQL Express instance. The Spotlight Statistics Repository is not supported on High Availability Always On and mirrored databases. The Spotlight Statistics Repository cannot be installed on SQL Server 2000." %}
 
 
 ### Other Requirements
