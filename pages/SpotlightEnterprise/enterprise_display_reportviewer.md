@@ -32,7 +32,7 @@ If you change the report criteria (time frame or Connection Name) you must click
 
 
 ## How can I customize the reports to my own criteria or create my own reports?
-The Spotlight Report Viewer displays reports using SQL Server 2005 or 2008 Report Definition Language files (.rdl). Data is queried from the Spotlight Statistics Repository. For information on how to query the Spotlight Statistics Repository for data, see [Query the Spotlight Statistics Repository][enterprise_ssrquery].
+The Spotlight Client report viewer displays reports created by SQL Server Data Tools or Business Intelligence Development Studio. Data is queried from the Spotlight Statistics Repository. For information on how to query the Spotlight Statistics Repository for data, see [Query the Spotlight Statistics Repository][enterprise_ssrquery].
 
 Default Reports are stored in the Spotlight Client installation folder
 
