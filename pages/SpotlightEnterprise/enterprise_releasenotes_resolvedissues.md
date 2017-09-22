@@ -13,6 +13,7 @@ Issue | ID
 ------|---
 Corrected a problem using the SQL Server Workload Analysis drilldown where on copying the SQL Statement entity notation &lt; and &gt; was used instead of <>. | SOSSE-6794
 Corrected a problem where the SQL Server \| Databases drilldown \| Database Details page \| Growth File Used MB chart failed to Maximize. | SOSSE-6793
+Corrected a problem where you can now clear saved mail server settings for the Spotlight Diagnostic Server. | SOSSE-6792
 Corrected a problem where Spotlight raised Connection Failure alarms while a connection was in Planned Outage. | DS-964
 Corrected a problem where Spotlight took too long to display data on enabling a (disabled) monitored connection. | DS-948
 Corrected a problem where Spotlight incorrectly raised an  "Error Log - Error Count" alarm when Configure Error Log Entries was set to Enable error log scanning, all criteria unchecked. | DS-888
@@ -21,7 +22,6 @@ Corrected a problem where Spotlight was incorectly reporting "A full backup has 
 Corrected a problem where a Spotlight Connection to an Availability Group failed on the default port. | DS-841
 Corrected a problem where Spotlight raised false VMware - Virtual Machine Heartbeat alarm. | DS-826
 On creating a connection to an Availability Group, testing the connection will now correctly report an invalid listener. | DS-761
-
 
 
 

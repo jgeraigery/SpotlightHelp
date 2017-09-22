@@ -9,7 +9,10 @@ folder: SpotlightEnterprise
 
 ## How to open this dialog from the Spotlight Client
 
-This dialog is opened from the [Configure the Diagnostic Server's mail server dialog][enterprise_cfgds_mailserver] or Send an Email Dialog.
+This dialog is opened from the [Configure the Diagnostic Server's mail server dialog][enterprise_cfgds_mailserver] or Send an Email dialog.
+
+The Spotlight Diagnostic Server uses these settings to fulfill on Configure \| Alarm Actions \| Alarm Action \| Send email to.
+
 
 ## How to fill in the settings for this dialog
 
@@ -35,5 +38,8 @@ Type the details required to send an email from the Spotlight Diagnostic Server.
 
 This section is filled in for you if you clicked **Import Settings**.
 
+## How to clear the settings for this dialog
+
+To clear saved mail server settings for the Spotlight Diagnostic Server, click **Clear** and then click **OK**. Click **Clear** to clear current settings for this dialog. Click **OK** to save changes.
 
 {% include links.html %}
