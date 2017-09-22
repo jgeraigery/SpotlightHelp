@@ -9,7 +9,7 @@ readonly: true
 ---
 
 
-## Enhancements implemented in Spotlight Enterprise 12.0.1
+## Enhancements implemented in Spotlight Enterprise 12.1
 
 Enhancement | Issue ID
 ------------|---------
@@ -19,12 +19,6 @@ On the SQL Server \| Databases drilldown, Databases grid and Fragmented indexes 
 On the SQL Server \| Workload Analysis drilldown, right click on a SQL statement to view the SQL statement in an external editor. | SOSSE-5755
 On the SQL Server \| Databases drilldown \| Fragmented indexes page - select multiple indexes to Generate Defragmentation Script for all selected indexes. | SOSSE-2532
 Improved user interface design arround previous unfriendly error message: "Unknown Identifier asked for extended events. Please connect." | DS-757
-
-
-## Enhancements implemented in Spotlight Enterprise 12.0
-
-Enhancement | Issue ID
-------------|---------
 
 
 
