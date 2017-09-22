@@ -83,11 +83,11 @@ Known Issue | Issue ID
 GMT Time Zone: The Diagnostic Server shows the wrong time. The Activity drilldown, Connections page may show the wrong time in the GMT Time Zone by incorrectly adjusting for DST. | 10433
 
 
-
 ### known issues monitoring SQL Server
 
 Known Issue | Issue ID
 ------------|---------
+Historical information is not kept for the **Wait Statistics drilldown**. There is no workaround.<br><br>Historical information is not kept for the **SQL Server Wait Statistics Report**. If access to the report data is required please contact Quest Support. | SOSSE-6388
 On the **SQL Activity drilldown \| Query Execution Statistics page** the **Query Plan** column is empty for longer query plans (plans exceeding 43679 characters). *Workaround:* Right click on the blank query plan cell and select to copy the current cell to the clipboard. | SOSSE-6535
 Playback is not currently available for the SQL Server **Databases drilldown \| Fragmented Indexes page**. | SOSSE-6560
 **Overview Page** - An unexpected error occurs the first time the SQL Server Overview page is opened in the Spotlight client session. <br><br> Performance Health / Wait Events / Workload Analysis - drilldown showd no data. <br><br> *Workaround:* Apply patch to .NET 4 - Software Update KB2468871v2 <br><br> See also own Known issues configuring Spotlight 3606. | 3606
