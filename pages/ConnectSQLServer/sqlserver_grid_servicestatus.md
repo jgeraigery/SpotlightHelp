@@ -30,7 +30,7 @@ Configured / Not Configured - These states are applicable only when the instance
 
 The time and date that the state of the service last changed.
 
-{% include note.html content="The value of **State Changed** is 0 when the instance is linked to a Windows operating system because the start time is not relevant when the service is not running/not installed." %}
+{% include note.html content="The value of **State Changed** is 0 when the instance is linked to a Windows operating system and the status is Inactive or Not installed." %}
 
 ## How to start and stop services
 
