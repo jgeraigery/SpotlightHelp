@@ -13,6 +13,7 @@ readonly: true
 
 Enhancement | Issue ID
 ------------|---------
+Enhancements to the SQL Server \| Support Services \| Service Status page. | SOSSE-6756
 Updated the link to the new Spotlight Enterprise Community page. | SOSSE-6735
 On the SQL Server \| Databases drilldown, Databases grid and Fragmented indexes grid, click Ctrl+A to 'Select All' rows. Click outside the grid to clear selected rows. | SOSSE-6651
 On the SQL Server \| Workload Analysis drilldown, right click on a SQL statement to view the SQL statement in an external editor. | SOSSE-5755
