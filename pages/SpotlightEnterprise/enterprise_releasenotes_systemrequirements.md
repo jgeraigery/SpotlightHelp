@@ -125,7 +125,7 @@ Client Connectivity Tools - Required to monitor an Analysis Services server.
 #### SQL Server Management Tools
 Required to monitor an Analysis Services server, a SQL Server Replication environment, and the use of Session Trace when monitoring a SQL Server.
 
-The SQL Server Management Tools are available from any SQL Server 2005, SQL Server 2008, SQL Server 2012, SQL Server 2014 or SQL Server 2016 edition except SQL Server Express and SQL Server Compact. The version required corresponds to the latest version of SQL Server that you are monitoring. If you are monitoring SQL Server 2000 servers, you need the Management Tools from SQL Server 2005.
+The SQL Server Management Tools are available from any SQL Server 2005, SQL Server 2008, SQL Server 2012, SQL Server 2014 or SQL Server 2016 edition except SQL Server Express and SQL Server Compact. The version required corresponds to the latest version of SQL Server that you are monitoring. 
 
 #### Internet Access
 Required by Auto Update and Spotlight Cloud. Required to monitor your Spotlight connections from the Spotlight web site or a mobile device.

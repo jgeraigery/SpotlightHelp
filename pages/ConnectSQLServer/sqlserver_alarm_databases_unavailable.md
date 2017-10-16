@@ -1,7 +1,7 @@
 ---
 title: Databases - Unavailable alarm
 tags: [sqlserver_alarms]
-last_updated: July 29, 2016
+last_updated: October 16, 2017
 summary: "The Databases - Unavailable alarm becomes active when Spotlight Enterprise detects that a SQL Server database is not available for reading. Users attempting to access an unavailable database will receive an error message."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_databases_unavailable.html
@@ -26,7 +26,7 @@ Some of the more common unavailable statuses are listed below:
 
 ### Offline
 
-Databases can only be set offline manually, using the sp_dboption procedure (or ALTER DATABASE command under SQL Server 2000). If you have Offline databases, you should check who has set the database offline, and consider using sp_dboption or ALTER DATABASE to bring the database online again.
+Databases can only be set offline manually, using the sp_dboption procedure. If you have Offline databases, you should check who has set the database offline, and consider using sp_dboption to bring the database online again.
 
 ### Loading or Restoring
 
@@ -59,7 +59,7 @@ Actions you can consider to correct a suspect database include:
 * Check the SQL Server error log to determine why the database was made suspect.
 * Make sure all database files are available. If any database file is unavailable when SQL Server attempts to open the database, the database is made suspect. This can happen if you have deleted or renamed a database file while SQL Server was down. It can also happen if another Windows process (such as Backup or Virus Scanning software) is using a database file when SQL Server tries to open it. If this is the case, once the database file is available again, use the sp_resetstatus stored procedure (as documented in Books Online) to reset the database status, and then restart SQL Server to initiate recovery.
 * If the Suspect status was caused by a full disk during recovery, you should free up disk space and use the sp_resetstatus stored procedure (as documented in Books Online) to reset the database status. SQL Server should then be restarted to initiate recovery.
-* If the Suspect status was caused by a full disk during recovery, and you cannot free up space on existing database disks, you should add a new data or log file on a different disk that has free space available. For SQL Server 2000, you can use the sp_add_data_file_recover_suspect_db or sp_add_log_file_recover_suspect_db to achieve the same results.
+* If the Suspect status was caused by a full disk during recovery, and you cannot free up space on existing database disks, you should add a new data or log file on a different disk that has free space available.
 * Restore the database from your last full database backup, and then restore all transaction log backups taken since that point.
 
 In most cases, the correct action to take for a suspect database is to restore from your last good full database backup, and transaction logs.

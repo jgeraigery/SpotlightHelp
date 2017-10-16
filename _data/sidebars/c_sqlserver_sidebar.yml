@@ -248,7 +248,7 @@ entries:
       url: /sqlserver_alarm_services_reportingservicestatus.html
       output: web, pdf
 
-    - title: Services - SQL Agent Mail Status / SQL Mail Status
+    - title: Services - SQL Agent Mail Status
       url: /sqlserver_alarm_services_sqlagentmailstatus.html
       output: web, pdf
 
@@ -1019,14 +1019,6 @@ entries:
 
         - title: Full Text Search Service
           url: /sqlserver_grid_fulltextsearchservice.html
-          output: web, pdf
-
-      - title: OLAP Services page
-        output: web
-        subfolderitems:
-
-        - title: OLAP grid
-          url: /sqlserver_grid_olap.html
           output: web, pdf
 
   - title: Configuration drilldown

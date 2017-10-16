@@ -1,6 +1,6 @@
 ---
 title: Wait Details grid
-last_updated: July 29, 2016
+last_updated: October 16, 2017
 summary: "The Waits Detail grid shows detailed wait statistics for the SQL Server instance currently being monitored. It shows all wait types and breaks down the statistics into signal time and resource wait time. By default, the Waits Detail grid is sorted by Wait Time Rate (ms/s) which allows you to immediately see which wait types are being waited on right now."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_waitsdetail.html
@@ -63,7 +63,7 @@ The ratio of resource wait time for this wait type as a percentage of the resour
 
 ## Max Wait Time (ms)
 
-The maximum wait time for this wait, in milliseconds. This statistic is not available for SQL Server 2000.
+The maximum wait time for this wait, in milliseconds.
 
 
 {% include links.html %}

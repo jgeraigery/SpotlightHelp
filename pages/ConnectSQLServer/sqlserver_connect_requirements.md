@@ -1,6 +1,6 @@
 ---
 title: SQL Server connection requirements
-last_updated: July 29, 2016
+last_updated: October 16, 2017
 tags: [connection_requirements]
 summary: "Spotlight can monitor a SQL Server instance fulfilling the following requirements."
 sidebar: c_sqlserver_sidebar
@@ -20,9 +20,7 @@ Spotlight can monitor SQL Server instances of the following versions, editions E
 
 Spotlight Enterprise also supports MSDE (2000), SQL Express (2005) and SQL Server 2008 Express Edition. Note that use of these versions to host playback or Spotlight Statistics Repository databases is not supported.
 
-Spotlight continues to monitor SQL Server 2000 instances Service Pack 3 or later, however no further support (fixes) will be provided.
-
-Spotlight cannot monitor earlier versions of SQL Server (version 7.x and earlier).
+Spotlight cannot monitor earlier versions of SQL Server (SQL Server 2000 and earlier).
 
 Spotlight supports all SQL Server sort orders, including case-sensitive and binary sort orders. Spotlight cannot monitor SQL Server instances where the instance name contains non-US ASCII characters.
 

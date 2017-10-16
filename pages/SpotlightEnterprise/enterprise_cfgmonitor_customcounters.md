@@ -54,20 +54,12 @@ The name of the custom counter. The name is displayed in the Custom Counters dri
 
 For SQL Server queries, use T-SQL syntax. For Windows queries, use WMI. It is recommended that the query return only one column and one row. For all custom counter queries, Spotlight reads only the first column of the first row of data. Any additional data is ignored. To return multiple values, use more than one query. See the following for examples of custom counter queries.
 
-**Pages Allocated** (SQL Server 2005 or later)
+**Pages Allocated** (SQL Server)
 
 ```
 select cntr_value from sys.dm_os_performance_counters
 where  object_name like '%:Access Methods%'
 and    counter_name = 'Pages Allocated/sec'
-```
-
-**User Connections** (SQL Server 2000)
-
-```
-select cntr_value from master.dbo.sysperfinfo
-where  object_name like '%:General Statistics%'
-and    counter_name = 'User Connections'
 ```
 
 **Open Files** (Windows)

@@ -1,6 +1,6 @@
 ---
 title: Databases drilldown
-last_updated: September 13, 2017
+last_updated: October 16, 2017
 summary: "Drilldown on the details of all databases in SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_drilldown_databases.html
@@ -214,7 +214,6 @@ When a single index is selected in the Indexes grid, the Density grid shows the 
 The Density values shown in this grid derive from the latest statistics for the selected index. If the index statistics are out of date, so too will these values be. Check the Last Updated statistic on the Statistics sub-page for the date on which statistics where last collected. Use the Update Statistics option (available by right-clicking an entry in the Indexes table) to re-collect statistics. Only members of the Spotlight Diagnostic Administrators group can use the Update Statistics option.
 
 #### Index Distribution chart
-(Does not apply to SQL Server 2000)
 When a single index is selected in the Indexes grid above, the Index Distribution chart shows the index distribution histogram for that index.
 
 When SQL Server collects statistics on an index to determine its usefulness for resolving queries, it samples the data in the index and produces a histogram of the key values found. The Index Distribution chart shows that histogram for the selected index.
@@ -247,10 +246,7 @@ This chart can be used to identify skewed indexes. These are indexes that have a
 #### Fragmentation grid
 Shows fragmentation information for all indexes in the SQL Server database. Note that collecting and examining fragmentation information can take considerable time and put significant load on your server.
 
-For information about the Fragmentation statistics displayed on the Fragmentation page:
-
-* SQL Server 2005 and above:- See the sys.dm_db_index_physical_stats DMV.
-* SQL Server 2000:- See the DBCC SHOWCONTIG topic in the Transact-SQL Reference section in Microsoft SQL Server Books Online.
+For information about the Fragmentation statistics displayed on the Fragmentation page see the sys.dm_db_index_physical_stats DMV.
 
 ##### Types of Fragmentation
 The following types of fragmentation can occur in SQL Server tables: Internal and External.
@@ -283,7 +279,6 @@ There are several options available to eliminate (or at least reduce) fragmentat
 
 The following are the best methods for reducing fragmentation:
 
-* If you are using SQL Server 2000, you can use DBCC INDEXDEFRAGto defragment an index without completely rebuilding it. This can be done online while users are accessing and updating the index.
 * DBCC DBREINDEX can be used to rebuild all indexes on the table. Users cannot access the table while this command runs.
 * Running DROP INDEX and CREATE INDEX to rebuild the indexes will eliminate any fragmentation. However, this can be complicated when the index you need to defrag supports a constraint such as a Primary Key. SQL Server will not let you drop the primary key while there are foreign keys referencing it. This problem can be alleviated somewhat by using the DROP_EXISTING clause of CREATE INDEX. Again, the table will be unavailable to users while this runs.
 

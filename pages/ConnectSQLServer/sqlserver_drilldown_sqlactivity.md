@@ -1,6 +1,6 @@
 ---
 title: SQL Activity drilldown
-last_updated: March 28, 2017
+last_updated: October 16, 2017
 summary: "The SQL Activity drilldown provides access to charts and grids that show both current and recent activity details for the SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_drilldown_sqlactivity.html
@@ -30,18 +30,13 @@ Investigate SQL sessions including session details and locks.
 #### Session grid
 Shows all SQL Server sessions, each row representing a single session. Many applications create multiple connections to SQL Server. When there are more than 2000 connections only those connections that are active are shown.
 
-In SQL Server 2005 or later, to show only those sessions that are currently executing,, click **Active only**.
+To show only those sessions that are currently executing,, click **Active only**.
 
-In SQL Server 2000, clicking **Active only** shows sessions that:
-
-* Do not have a status of sleeping, background or dormant.
-* Are blocked.
-* Have a command type of "WAITFOR".
 
 ##### Tips for using the Session grid in the Spotlight Client
 
 * Some columns may be hidden by default. To view them, right-click the grid headings and select **Organize Columns**.
-* To close a SQL Server session, right click and select **Kill this session**. This option is available only to members of the Spotlight Diagnostic Administrators group. For more information, see [Spotlight diagnostic user groups][enterprise_backend_spotlightdiagnosticusergroups]. 
+* To close a SQL Server session, right click and select **Kill this session**. This option is available only to members of the Spotlight Diagnostic Administrators group. For more information, see [Spotlight diagnostic user groups][enterprise_backend_spotlightdiagnosticusergroups].
 * The status column of the grid is color coded for readability.
 * You can view more details for a session by clicking it in this grid. Additional pages are then displayed in the lower half of the drilldown.
 * The data displayed in this grid can be **Filtered**. Filtering is the method Spotlight uses to restrict displays to a manageable or relevant set of data. You can view or change the filter by right-clicking the grid and choosing **View/Edit Filter**.
@@ -211,7 +206,6 @@ It also shows the number of sessions that were not blocked, but were blocking ot
 
 ### Deadlocks page
 Investigate Deadlocks.
-This feature is not available for SQL Server 2000.
 
 #### Deadlock list
 
@@ -268,7 +262,6 @@ You can see Custom Counter data over a selected time range. See the **Custom Cou
 
 ### Query Execution Statistics page
 Diagnose workload issues by displaying SQL statements that match particular criteria.
-This feature is not available for SQL Server 2000.
 
 #### Query Execution Statistics grid
 Shows the top query execution statistics according to the criteria you have set.

@@ -8,6 +8,6 @@ folder: SpotlightEnterprise
 readonly: true
 ---
 
-
+Spotlight Enterprise no longer monitors SQL Server 2000.
 
 {% include links.html %}

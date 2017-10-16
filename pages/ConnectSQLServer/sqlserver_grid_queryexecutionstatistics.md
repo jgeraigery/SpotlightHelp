@@ -1,6 +1,6 @@
 ---
 title: Query Execution Statistics grid
-last_updated: March 28, 2017
+last_updated: October 16, 2017
 summary: "Use the Query Execution Statistics grid to diagnose workload issues by displaying SQL statements that match particular criteria."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_queryexecutionstatistics.html
@@ -17,8 +17,6 @@ To reduce the load when querying the SQL Server, Spotlight determines the top st
 {% include note.html content="Optimizer Plan Visualization and display of the SQL Statement - Not available in Playback mode." %}
 
 {% include note.html content="The Query Plan column is empty for longer query plans (plans exceeding 43679 characters). As a workaround, right click on the blank query plan cell and select to copy the current cell to the clipboard." %}
-
-{% include note.html content="Not available for SQL Server 2000." %}
 
 
 {% include links.html %}

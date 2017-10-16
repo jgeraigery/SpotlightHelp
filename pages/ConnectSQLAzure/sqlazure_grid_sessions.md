@@ -1,6 +1,6 @@
 ---
 title: Sessions grid
-last_updated: July 29, 2016
+last_updated: October 16, 2017
 summary: "The Sessions grid shows information about all SQL Azure database sessions on the SQ Azure database, each row representing a single SQL Server session. Note that many applications will create multiple connections to the SQL Azure database."
 sidebar: c_sqlazure_sidebar
 id: Sessions.grdSessions_sosa
@@ -127,7 +127,7 @@ Time the session was created.
 
 ### Request ID
 
-Returns the ID of the current request within the current session. Not available for SQL Server 2000.
+Returns the ID of the current request within the current session.
 
 ### Plan Handle
 

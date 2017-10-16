@@ -8,6 +8,6 @@ folder: SpotlightEnterprise
 
 
 
-The SQL Server Client Tools that you need can be found on the installation disk for Microsoft SQL Server 2000 or later.
+The SQL Server Client Tools that you need can be found on the installation disk for Microsoft SQL Server.
 
 {% include links.html %}

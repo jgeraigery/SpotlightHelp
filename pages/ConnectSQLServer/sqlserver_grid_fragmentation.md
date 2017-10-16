@@ -1,6 +1,6 @@
 ---
 title: Fragmentation grid
-last_updated: July 29, 2016
+last_updated: October 16, 2017
 summary: "The Fragmentation grid displays all indexes in the selected tables and shows the latest fragmentation information that Spotlight has collected for each one."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_fragmentation.html
@@ -75,7 +75,6 @@ There are several options available to eliminate (or at least reduce) fragmentat
 
 The following are the best methods for reducing fragmentation:
 
-* If you are using SQL Server 2000, you can use **DBCC INDEXDEFRAG** to defragment an index without completely rebuilding it. This has the advantage that it can be done online while people are accessing and updating the index.
 * **DBCC DBREINDEX** can be used to rebuild all indexes on the table. Nobody else can use the table while this command runs.
 * Running **DROP INDEX** and **CREATE INDEX** to rebuild the indexes will eliminate any fragmentation. This, however, can be complicated when the index you need to defrag supports a constraint such as a **Primary Key**. SQL Server will not let you drop the primary key while there are foreign keys referencing it. This problem can be alleviated somewhat by using the **DROP_EXISTING** clause of **CREATE INDEX**. Again, the table will be unavailable to users while this runs.
 
