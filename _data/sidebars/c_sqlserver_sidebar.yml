@@ -80,6 +80,10 @@ entries:
       url: /sqlserver_alarm_compiles_percentagerecompilations.html
       output: web, pdf
 
+    - title: Databases - Data File Group About to Grow
+      url: /sqlserver_alarm_databases_datafilegroupabouttogrow.html
+      output: web, pdf
+
     - title: Databases - Data File Group Space Used
       url: /sqlserver_alarm_databases_datafilegroupspaceused.html
       output: web, pdf
