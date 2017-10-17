@@ -14,6 +14,7 @@ readonly: true
 Enhancement | Issue ID
 ------------|---------
 New SQL Server alarm, Databases - Data File Group About to Grow, disabled by default, which when enabled alerts the Database Administrator before a file is about to grow. | SOSSE-6829
+Enhancement to the SQL Activity \| Sessions page - New "Loading..." indicator shows the SQL statement and Plan are loading. | SOSSE-6797
 Enhancements to the SQL Server \| Support Services \| Service Status page. | SOSSE-6756
 Updated the link to the new Spotlight Enterprise Community page. | SOSSE-6735
 On the SQL Server \| Databases drilldown, Databases grid and Fragmented indexes grid, click Ctrl+A to 'Select All' rows. Click outside the grid to clear selected rows. | SOSSE-6651
