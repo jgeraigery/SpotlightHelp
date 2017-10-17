@@ -13,13 +13,12 @@ readonly: true
 
 Enhancement | Issue ID
 ------------|---------
+New SQL Server alarm, Databases - Data File Group About to Grow, disabled by default, which when enabled alerts the Database Administrator before a file is about to grow. | SOSSE-6829
 Enhancements to the SQL Server \| Support Services \| Service Status page. | SOSSE-6756
 Updated the link to the new Spotlight Enterprise Community page. | SOSSE-6735
 On the SQL Server \| Databases drilldown, Databases grid and Fragmented indexes grid, click Ctrl+A to 'Select All' rows. Click outside the grid to clear selected rows. | SOSSE-6651
 On the SQL Server \| Workload Analysis drilldown, right click on a SQL statement to view the SQL statement in an external editor. | SOSSE-5755
 On the SQL Server \| Databases drilldown \| Fragmented indexes page - select multiple indexes to Generate Defragmentation Script for all selected indexes. | SOSSE-2532
 Improved user interface design arround previous unfriendly error message: "Unknown Identifier asked for extended events. Please connect." | DS-757
-
-
 
 {% include links.html %}
