@@ -32,6 +32,7 @@ Clusters - Node Unavailable Alarm | Cluster Summary |
 Clusters - Non-Preferred Node Alarm | Cluster Summary |  
 Compiles - Percentage Recompilations Alarm | Statistics |   
 SQL Custom Counters Alarm | Custom Counters - SQL Server |  
+﻿Databases - Data File Group About to Grow | SQLFileGroups.AboutToGrow |
 Databases - Data File Group Space Used Alarm | Files | Minimum refresh for this collection is 60 seconds
 Databases - Dynamic Data File Group Growths Remaining Alarm | Files | Minimum refresh for this collection is 60 seconds
 Databases - Dynamic Log File Growths Remaining Alarm | Files | Minimum refresh for this collection is 60 seconds
