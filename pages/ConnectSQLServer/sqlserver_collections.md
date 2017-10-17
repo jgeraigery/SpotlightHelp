@@ -125,7 +125,7 @@ Summary \| Server Memory chart | Memory Manager
 
 Page, grid, chart | Collection Name | Notes
 ------------------|-----------------|------
-Sessions | Session List |  
+Sessions | Full Session List |  
 Sessions \| SQL | Session Details | Non configurable
 Sessions \| Session Trace | Session Trace | Non configurable
 Sessions \| Session Locks | Locks List |  
