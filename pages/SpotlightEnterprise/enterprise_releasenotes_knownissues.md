@@ -98,6 +98,7 @@ Playback is not currently available for the SQL Server **Databases drilldown \| 
 **SQL Server 2012 and above** - Spotlight does not support Analysis Services in Tabular and Sharepoint modes. | .
 **Workload Analysis drilldown** - SQL Server 2012 and above - When monitoring a failover cluster the Physical Reads value is 0 / No Data. | 3688
 **Workload Analysis and Wait Events drilldowns** - Unable to copy and paste queries from these drilldowns when Internet Explorer 8 or below is installed on the Spotlight Client host computer. Workaround: Upgrade Internet Explorer on the Spotlight Client host computer. | 6677
+**Workload Analysis and Wait Events drilldowns - SQL Server versions prior to 2012** - On configuring Spotlight to exclude Spotlight sessions from the Wait Events and Workload Analysis drilldowns, Spotlight metrics and waits still show in the current data. For SQL Server versions prior to 2012 the way the exclusion is done is that only one session is excluded by the Extended Events collections. However Spotlight makes at least two connections to SQL Server so there can be multiple sessions; data can still be collected for those other sessions. This is a limitation imposed by the fields available in Extended Events in older SQL Server versions. | SOSSE-6913
 **SQL Server 2012 and SQL Server 2008 R2** - "Using dbghelp.dll version 4.0.5" entries in the SQL Server Error Log. The source of these entries can be traced back to a known issue (Microsoft) when a statement or job executes the sys.fn_xe_file_target_read_file stored procedure. Refer to http://support.microsoft.com/kb/2878139 <br><br> The Spotlight SQL Server \| Performance Health feature uses XEvents sessions which may execute the sys.fn_xe_file_target_read_file stored procedure. | 2927
 In the SQL Server Error Log, entries "SQL Trace was started" and "SQL Trace was stopped." repeat every 10 minutes while Spotlight is monitoring the connection. These entries are added by Microsoft; Spotlight Enterprise uses SQL Trace to monitor for deadlocks. | 3582
 **Monitoring SQL Server 2008 RTM.** The Deadlocks page (SQL Activity drilldown) may not show data when monitoring a SQL Server 2008 RTM database. <br><br> *Workaround:* Upgrade to SQL Server 2008 SP1 | 7495
@@ -110,7 +111,6 @@ The collections Fragmentation by Index and Fragmentation Overview can adversely 
 For SQL Activity \| Sessions \| Plan there is a limit on the size of the \<inputbuf\> tag of 1024 bytes (or nearly that). This cannot be expanded as the SQL Server truncates the SQL when it creates the XML. | 2300
 **Negative values in Wait Statistics drilldown.** Negative values may be shown in the Waits Details grid. | 3757
 **SQL - Long Running SQL alarm** raised from a Spotlight issued query - This issue follows "Cannot alter the event session", the query stops responding (hangs) so it raises a Long Running SQL alarm. Refer to the Microsoft known issue: https://support.microsoft.com/en-us/kb/2511963  | .
-
 
 
 ### known issues monitoring Windows Server
