@@ -65,6 +65,7 @@
 706	enterprise_cfgds_spotlightcloud	Content/OptionsDialog/options_ds_spotlightessentials	Lucy_Configure_DSM
 1011	enterprise_cfgds_federate	Content/OptionsDialog/options_ds_manage	IDH_CFG_FederateDS
 2030	enterprise_backend_federation	Content/SpotlightDiagnosticServer/ds_federate	IDH_Deploy_FederateDS
+710	enterprise_cfgds_storesqltextqueryplans
 
 ## Product Spotlight Enterprise (Configure Spotlight Client)
 40213	enterprise_cfgclient_appearanceofcharts	Content/OptionsDialog/options_client_charts	OptionsAppearanceCharts_BASIC

@@ -89,6 +89,11 @@ When selected Spotlight sessions are excluded from the Wait Events and Workload 
 
 {% include note.html content="For monitored SQL Server versions earlier than SQL Server 2012 some long term Spotlight sessions may remain. For monitored SQL Server 2012 and above all Spotlight Sessions are excluded." %}
 
+### Store SQL text and query plans in playback
+
+When Selected, Spotlight stores SQL query statements and plans in the Playback Database for this SQL Server connection. This data will be available during playback of events and data collected in the recent past in the **SQL Activity drilldown \| Sessions page** and the **SQL Activity drilldown \| Query Execution Statistics page**.
+
+{% include note.html content="Data will not be stored if the Spotlight Diagnostic Server setting has been disabled, see [Configure \| Diagnostic Server \| Store SQL Text and Query Plans in Playback][enterprise_cfgds_storesqltextqueryplans]." %}
 
 ### Connection
 Select the Windows server hosting the SQL Server.

@@ -157,6 +157,18 @@ Returns the ID of the current request within the current session.
 
 Identifier for the query plan. Note the plan handle is available only when the session is executing.
 
+### BatchText
+
+The full batch SQL for this session.
+
+{% include note.html content="Available only when **Store SQL text and query plans in playback** is enabled for this SQL Server connection. Refer to the Spotlight connection properties for this SQL Server connection for more information." %}
+
+### Query Plan
+
+The session Query Plan.
+
+{% include note.html content="Available only when **Store SQL text and query plans in playback** is enabled for this SQL Server connection. Refer to the Spotlight connection properties for this SQL Server connection for more information." %}
+
 ### Win Domain
 
 Name of the Windows domain that the specified user belongs to.

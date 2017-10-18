@@ -642,6 +642,10 @@ entries:
       url: /enterprise_cfgds_extendedevents.html
       output: web, pdf
 
+    - title: Store SQL Text and Query Plans in Playback
+      url: /enterprise_cfgds_storesqltextqueryplans.html
+      output: web, pdf
+
     - title: Configure uploading to the Spotlight Cloud
       url: /enterprise_cfgds_spotlightcloud.html
       output: web, pdf
