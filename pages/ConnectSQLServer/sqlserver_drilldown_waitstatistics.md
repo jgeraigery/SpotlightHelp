@@ -29,20 +29,18 @@ From the Spotlight Client
 ### Wait Time Trend chart
 Shows the total wait time in milliseconds broken down for the for the following wait types:
 
-* Wait (AlwaysOn)
-* Wait (Backup)
+* Wait (Idle)
+* Wait (Other)
+* Wait (Log)
 * Wait (CLR)
-* Wait (DBM)
-* Wait (DTC)
 * Wait (IO)
-* Wait (Latch)
-* Wait (Lock)
-* Wait (Memory)
-* Wait (MISC)
 * Wait (Network)
-* Wait (Preemptive)
-* Wait (ServiceBroker)
-* Wait (SOS)
+* Wait (Memory)
+* Wait (Latch)
+* Wait (Remote Provider)
+* Wait (CPU)
+* Wait (Lock)
+* Wait (XTP)
 
 Use this chart to look for trends in wait types over time.
 

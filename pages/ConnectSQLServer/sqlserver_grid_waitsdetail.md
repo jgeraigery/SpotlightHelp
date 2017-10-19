@@ -1,5 +1,5 @@
 ---
-title: Wait Details grid
+title: Waits Detail grid
 last_updated: October 16, 2017
 summary: "The Waits Detail grid shows detailed wait statistics for the SQL Server instance currently being monitored. It shows all wait types and breaks down the statistics into signal time and resource wait time. By default, the Waits Detail grid is sorted by Wait Time Rate (ms/s) which allows you to immediately see which wait types are being waited on right now."
 sidebar: c_sqlserver_sidebar
@@ -15,7 +15,7 @@ The type of the wait.
 
 ## Category
 
-The category that this wait belongs to. The following categories are used in Spotlight: AlwaysOn, Backup, CLR, DBM, DTC, IO, Latch, Lock, Memory, MISC, Network, Preemptive, ServiceBroker, SOS.
+The category that this wait belongs to. The following categories are used in Spotlight: Idle, Other, Log, CLR, IO, Network, Memory, Latch, Remote Provider, CPU, Lock, XTP.
 
 ## Waiting Tasks Rate (tasks/s)
 
