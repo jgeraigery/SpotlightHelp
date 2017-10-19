@@ -25,6 +25,7 @@ Known issues using Spotlight Help when Internet Explorer 8 or below is installed
 
 Known Issue | Issue ID
 ------------|---------
+On upgrade to Spotlight Enterprise 12.1, data for the SQL Server \| Workload Analysis and Wait Events drilldowns saved in the Playback Database will be deleted. There is a significant difference in the way data is aggregated for these drilldowns prior to Spotlight Enterprise 12.1 and on upgrade. | DS-824
 **Installing other Spotlights.** Do not install other Spotlights into the Spotlight Enterprise folder. You will be unable to run Spotlight Enterprise if you do this. When installing other Spotlights you must install them into a different folder. | N/A
 **Remote installation.** Remote installation of Spotlight Enterprise fails if the user has both a domain account and a local account with the same user name. | N/A
 Installing the Spotlight Client on Windows Server 2008 - **Installation Error - The path is not of a legal form.**. To resolve this error, install PowerShell 3.0 or above on the Windows Server. | SOSSE-6048
