@@ -13,7 +13,8 @@ folder: ConnectUnix
 Spotlight can monitor the following operating systems:
 
 * Red Hat Enterprise 7.3
-* Ubuntu® 16.04 and 16.10
+* Ubuntu 16.04 and 16.10
+* SUSE Linux Enterprise Server V12 SP2
 
 ## Unix/Linux Server Software
 Ensure the following programs are accessible to the user logged on to the Unix/Linux machine.
