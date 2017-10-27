@@ -63,7 +63,7 @@ See [Configure Alarms][enterprise_cfgmonitor_alarms] to set the thresholds and s
 See [Configure Alarm Actions][enterprise_cfgmonitor_alarmactions] to setup actions for Spotlight to take when an alarm is raised. The actions Spotlight can take include running a program and sending an email. Conditions on taking the action can be defined, such as the day of the week, the time of day, the severity of the alarm, the alarm type and the connection type.
 
 
-## Alarms not supported where the SQL Server host is Linux
-See [Partial support for monitoring SQL Server vNext hosted on Linux][sqlserver_unix_partialsupport].
+## Alarms not supported SQL Server 2017
+See [Partial support for monitoring SQL Server 2017][sqlserver_unix_partialsupport].
 
 {% include links.html %}
