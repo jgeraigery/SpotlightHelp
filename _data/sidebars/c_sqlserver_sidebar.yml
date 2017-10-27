@@ -1127,10 +1127,10 @@ entries:
       url: /sqlserver_troubleshoot_datadisplaycollect.html
       output: web, pdf
 
-  - title: SQL Server hosted on Linux
+  - title: SQL Server 2017
     output: web, pdf
     folderitems:
 
-    - title: SQL Server hosted on Linux
+    - title: SQL Server 2017
       url: /sqlserver_unix_partialsupport.html
       output: web, pdf

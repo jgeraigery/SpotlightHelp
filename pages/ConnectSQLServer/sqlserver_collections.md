@@ -244,8 +244,8 @@ SQL Optimizer | QueryExecutionStatistics
 
 
 
-## Collections not supported where the SQL Server host is Linux
-See [Partial support for monitoring SQL Server vNext hosted on Linux][sqlserver_unix_partialsupport].
+## Collections not supported when monitoring SQL Server 2017
+See [Partial support for monitoring SQL Server 2017][sqlserver_unix_partialsupport].
 
 
 
