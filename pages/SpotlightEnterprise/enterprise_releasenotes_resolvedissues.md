@@ -11,6 +11,7 @@ readonly: true
 
 Issue | ID
 ------|---
+Corrected Exception Error on the SQL Server \| Wait Events Drilldown: oid Dispatcher_UnhandledException(System.Object, System.Windows.Threading.DispatcherUnhandledExceptionEventArgs)> | SOSSE-6798
 Corrected a problem using the SQL Server Workload Analysis drilldown where on copying the SQL Statement entity notation &lt; and &gt; was used instead of <>. | SOSSE-6794
 Corrected a problem where the SQL Server \| Databases drilldown \| Database Details page \| Growth File Used MB chart failed to Maximize. | SOSSE-6793
 Corrected a problem where you can now clear saved mail server settings for the Spotlight Diagnostic Server. | SOSSE-6792
