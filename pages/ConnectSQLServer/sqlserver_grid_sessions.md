@@ -53,6 +53,10 @@ Current or previous command executed.
 
 Name of the Database that the session is in.
 
+## Thread Count
+
+Display of thread count. Use to display a single row per session as an option.
+
 ### Mem
 
 Number of pages in the procedure cache that are currently allocated to this process. A negative number indicates that the process is freeing memory allocated by another process.
