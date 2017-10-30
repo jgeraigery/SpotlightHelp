@@ -20,6 +20,8 @@ Corrected a problem when using Spotlight Today. Spotlight Today now correctly re
 Corrected a problem on the Spotlight Overview page where clicking on a red Status component shows no information. | SOSSE-6743
 Corrected a problem where the color of the connection and connection status did not match, particularly following a change in enable / disable monitoring. | SOSSE-6663
 Corrected a problem creating a Playback Database and Spotlight Statisitcs Repository on a SQL Server hosted on Linux. | SOSSE-6625
+Corrected a performance problem on the SQL Server \| Workload Analysis drilldown expanding nodes of the tree. | SOSSE-6617
+Corrected a problem where on the SQL Server \| Workload Analysis drilldown, select a custom date range - Error retrieving data: A task was canceled. | SOSSE-6451
 Corrected a problem where the Spotlight Client installed on Windows 10 crashed while checking alarm details. | SOSSE-6499
 Corrected a problem where the color of the connection on the Connections pane, Spotlight Today or Spotlight Overview page did not match alarms raised. | DS-984
 Corrected a problem where Spotlight raised Connection Failure alarms while a connection was in Planned Outage. | DS-964
