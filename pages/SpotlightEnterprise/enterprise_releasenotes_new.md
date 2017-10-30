@@ -10,7 +10,9 @@ readonly: true
 ---
 
 
-**Choose not to store SQL text and query plans in the Playback database** - A new configuration for the Spotlight Diagnostic Server allows you to disable storing this data from all monitored SQL Server. An alternative configuration would be to choose to enable storing this data for monitored SQL Server, then use the SQL Server \| Connection Details screen to disable data storage for individual monitored SQL Server.  
+**Choose not to store SQL text and query plans in the Playback database** - A new configuration for the Spotlight Diagnostic Server allows you to disable storing this data from all monitored SQL Server. To disable storing this data for some monitored SQL Server, 1) Configure the Spotlight Diagnostic Server to enable storing this data for monitored SQL Server, 2) Use the SQL Server \| Connection Details screen to disable storing this data for individual monitored SQL Server.  
+
+
 
 
 {% include tip.html content="The Deadlocks, Wait Events and Workload Analysis features in Spotlight Enterprise make use of Extended Events. Spotlight will continue to use Extended Events in the development of the product's features." %}

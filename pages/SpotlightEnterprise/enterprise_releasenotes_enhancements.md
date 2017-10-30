@@ -21,7 +21,7 @@ On the SQL Server \| Databases drilldown, Databases grid and Fragmented indexes 
 Enhancements to the SQL Server \| Workload Analysis, Wait Events and Performance Health drilldowns to reduce loading time and consume less memory. | SOSSE-6598
 On the SQL Server \| Workload Analysis drilldown, right click on a SQL statement to view the SQL statement in an external editor. | SOSSE-5755
 On the SQL Server \| Databases drilldown \| Fragmented indexes page - select multiple indexes to Generate Defragmentation Script for all selected indexes. | SOSSE-2532
-Improved user interface design arround previous unfriendly error message: "Unknown Identifier asked for extended events. Please connect." | DS-757
+Improved user interface design around previous unfriendly error message: "Unknown Identifier asked for extended events. Please connect." | DS-757
 
 
 {% include links.html %}
