@@ -1,10 +1,10 @@
 ---
-title: Partial support for monitoring SQL Server: SQL Server 2017 and Linux hosted SQL Server connections
+title: "Partial support for monitoring SQL Server: SQL Server 2017 and Linux hosted SQL Server connections"
 last_updated: October 27, 2017
-summary: "Spotlight Enterprise now provides partial support for monitoring SQL Server 2017 connections and SQL Server connections hosted on Linux."
+summary: "Spotlight Enterprise provides partial support for monitoring SQL Server 2017 connections and SQL Server connections hosted on Linux."
 sidebar: c_sqlserver_sidebar
 id: SQL_Statement
-permalink: sqlserver2017_partialsupport.html
+permalink: sqlserver_unix_partialsupport.html
 folder: ConnectSQLServer
 ---
 
@@ -52,7 +52,6 @@ The following components are not supported when SQL Server is hosted on Linux:
 * The High Availability drilldown Log Shipping configuration is partially supported for SQL Server 2017 connections hosted on Linux.
 * The Support Services \| DTC drilldown is not supported for SQL Server 2017 connections hosted on Linux.
 * The Databases \| Disk Space drilldown is not supported for SQL Server 2017 connections hosted on Linux.
-* The Error Log drilldown is not supported for SQL Server connections hosted on Linux.
 * The SQL Agent Error Log is partially supported for SQL Server 2017 connections hosted on Linux.
 
 
@@ -77,7 +76,6 @@ The following components are not supported when SQL Server is hosted on Linux:
     * Log Shipping Secondaries
     * Mirroring
 * Configure \| Custom Counters - Custom Counters are not supported for SQL Server connections hosted on Linux.
-* Configure \| Error Log Entries - SQL Agent Error Logs are not supported for SQL Server connections hosted on Linux.
 * Configure \| Monitored Files -  Tracking the growth of files (usually log files) is not supported for the Unix/Linux Connection Type.
 
 
