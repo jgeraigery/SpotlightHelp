@@ -41,9 +41,6 @@ To upgrade from an earlier version of Spotlight on SQL Server than 10.0, upgrade
 
 To upgrade from Spotlight on SQL Server 10.5.0, first upgrade to 10.5.2 and then upgrade to Spotlight Enterprise.
 
-### Spotlight Enterprise 12.1 and the SQL Server \| Workload Analysis and Wait Events drilldowns
-On upgrade to Spotlight Enterprise 12.1, data for the SQL Server \| Workload Analysis and Wait Events drilldowns saved in the Playback Database will be deleted. There is a significant difference in the way data is aggregated for these drilldowns prior to Spotlight Enterprise 12.1 and on upgrade.
-
 ### Spotlight Enterprise 12.1 and SQL Server Waits
 On upgrade to Spotlight Enterprise 12.1 there are new categories of wait events on the SQL Server Performance Health drilldown, Wait Statisitcs drilldown and Wait Events drilldown.
 
