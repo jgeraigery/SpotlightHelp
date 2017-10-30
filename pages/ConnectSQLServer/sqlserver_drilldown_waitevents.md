@@ -34,7 +34,7 @@ Select from the available categories of waits or select **ALL** for all waits.
 
 
 #### Workload
- Select a workload to investigate for the selected category of wait.
+Select a workload to investigate for the selected category of wait.
 
 The workload items are dependent on the **Category** selected.
 
@@ -52,7 +52,10 @@ Statement | Which SQL statement is contributing most to the wait time?
 
 ### Grids and Charts
 
- TIP: When a Workload Statement is selected, click **View Workload Analysis** to show the statement in the SQL Server \| Workload Analysis drilldown. Workload Analysis will provide execution details of the SQL statement like how many times the query ran.
+TIP: When a Workload Statement is selected, click **View Workload Analysis** to show the statement in the SQL Server \| Workload Analysis drilldown. Workload Analysis will provide execution details of the SQL statement like how many times the query ran.
+
+Use **Export all the statements** to save all SQL statements to a file (default filename SQLStatementList.sql). If the exporting tree list is large, Spotlight will save to multiple files; each output file no greater than 10Mb.
+
 
 #### Category : Category and Workload wait
 

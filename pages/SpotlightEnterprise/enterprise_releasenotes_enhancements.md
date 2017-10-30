@@ -19,9 +19,9 @@ Enhancements to the SQL Server \| Support Services \| Service Status page. | SOS
 Updated the link to the new Spotlight Enterprise Community page. | SOSSE-6735
 On the SQL Server \| Databases drilldown, Databases grid and Fragmented indexes grid, click Ctrl+A to 'Select All' rows. Click outside the grid to clear selected rows. | SOSSE-6651
 Enhancements to the SQL Server \| Workload Analysis, Wait Events and Performance Health drilldowns to reduce loading time and consume less memory. | SOSSE-6598
+On the SQL Server \| Workload Analysis and Wait Events drilldowns you can now export all SQL statements to a file. | SOSSE-5757
 On the SQL Server \| Workload Analysis drilldown, right click on a SQL statement to view the SQL statement in an external editor. | SOSSE-5755
 On the SQL Server \| Databases drilldown \| Fragmented indexes page - select multiple indexes to Generate Defragmentation Script for all selected indexes. | SOSSE-2532
 Improved user interface design around previous unfriendly error message: "Unknown Identifier asked for extended events. Please connect." | DS-757
-
 
 {% include links.html %}
