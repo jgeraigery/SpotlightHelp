@@ -53,7 +53,7 @@ Current or previous command executed.
 
 Name of the Database that the session is in.
 
-## Thread Count
+### Thread Count
 
 Display of thread count. Use to display a single row per session as an option.
 
