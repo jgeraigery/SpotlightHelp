@@ -27,12 +27,15 @@ Corrected a problem where the color of the connection on the Connections pane, S
 Corrected a problem where Spotlight raised Connection Failure alarms while a connection was in Planned Outage. | DS-964
 Corrected a problem where Spotlight took too long to display data on enabling a (disabled) monitored connection. | DS-948
 Corrected a problem where Spotlight incorrectly raised an  "Error Log - Error Count" alarm when Configure Error Log Entries was set to Enable error log scanning, all criteria unchecked. | DS-888
+Corrected a problem where the SQL Server \| Databases drilldown was forever "Loading..." data. | DS-901
+Corrected a problem where from the Windows \| Processes drilldown, unable to terminate a process. | DS-893
+Configure Error Log Entries was set to Enable error log scanning, all criteria unchecked. | DS-888
+Corrected a problem where the SQL- Long running SQL alarm and SQL Server \| Sessions drilldown reported differing status and loginuser. | DS-862
 Corrected a problem where on upgrade Spotlight was sometimes generating errors like: HTTP request to http://127.0.0.1:3166/CommandInBody failed : An existing connection was forcibly closed by the remote host. | DS-852
 Corrected a problem where Spotlight was incorrectly reporting "A full backup has never been taken for database" for some mirrored databases. | DS-847
 Corrected a problem where a Spotlight Connection to an Availability Group failed on the default port. | DS-841
 Corrected a problem where Spotlight raised false VMware - Virtual Machine Heartbeat alarm. | DS-826
 On creating a connection to an Availability Group, testing the connection will now correctly report an invalid listener. | DS-761
 On the SQL Server \| Performance Health drilldown the scoring algorithm has been revised to make it smarter. Previous reporting of incorrect low scores has been corrected. | DS-489
-
 
 {% include links.html %}

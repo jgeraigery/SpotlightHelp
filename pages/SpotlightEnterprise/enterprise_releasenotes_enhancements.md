@@ -25,6 +25,7 @@ Enhancement to the SQL Server \| Wait Event drilldown, visualization of Wait Typ
 When monitoring SQL Server \| SQL Activity drilldown \| Sessions page, added a "Thread Count" column to enable the ability to display a single row per session as an option. | SOSSE-4303
 SQL Replication - Subscription Expiration alarm alerts prior to replication subscriptions expiring. | SOSSE-3091
 On the SQL Server \| Databases drilldown \| Fragmented indexes page - select multiple indexes to Generate Defragmentation Script for all selected indexes. | SOSSE-2532
+Enhance Spotlight performance by implementing a common service to resolve SQL text and SQL plan for procedures: QueryExecutionStatistics, SQLBlockingList, SQLConnectionList, SQLConnectionDetails, WaitEvents and WorkloadAnalysis. | DS-897
 Improved user interface design around previous unfriendly error message: "Unknown Identifier asked for extended events. Please connect." | DS-757
 
 
