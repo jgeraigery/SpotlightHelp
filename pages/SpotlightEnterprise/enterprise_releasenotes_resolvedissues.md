@@ -36,7 +36,9 @@ Corrected a problem where on upgrade Spotlight was sometimes generating errors l
 Enhanced the process of writing to the Playback Database and Spotlight Statistics Repository to reduce the number of error messages in the adk.log. | DS-848
 Corrected a problem where Spotlight was incorrectly reporting "A full backup has never been taken for database" for some mirrored databases. | DS-847
 Corrected a problem where a Spotlight Connection to an Availability Group failed on the default port. | DS-841
+Cleaned SQL scripts of: Information Monitored Server - SQL Server Collection Execution Failure Collection 'LookupSQLText' failed. | DS-827
 Corrected a problem where Spotlight raised false VMware - Virtual Machine Heartbeat alarm. | DS-826
+When the Database Unavailable alarm is raised the message includes the database name. | DS-802
 On creating a connection to an Availability Group, testing the connection will now correctly report an invalid listener. | DS-761
 On the SQL Server \| Performance Health drilldown the scoring algorithm has been revised to make it smarter. Previous reporting of incorrect low scores has been corrected. | DS-489
 
