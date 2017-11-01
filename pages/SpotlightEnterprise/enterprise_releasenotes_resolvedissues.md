@@ -19,7 +19,7 @@ Corrected a problem where in Playback, no SQL displayed on the SQL Activity \| S
 Corrected a problem when using Spotlight Today. Spotlight Today now correctly retains customer set column organization when returning to Spotlight Today from viewing other Spotlight pages. | SOSSE-6751
 Corrected a problem on the Spotlight Overview page where clicking on a red Status component shows no information. | SOSSE-6743
 Corrected a problem where the color of the connection and connection status did not match, particularly following a change in enable / disable monitoring. | SOSSE-6663
-Corrected a problem creating a Playback Database and Spotlight Statisitcs Repository on a SQL Server hosted on Linux. | SOSSE-6625
+Corrected a problem creating a Playback Database and Spotlight Statistics Repository on a SQL Server hosted on Linux. | SOSSE-6625
 Corrected a performance problem on the SQL Server \| Workload Analysis drilldown expanding nodes of the tree. | SOSSE-6617
 Corrected a problem where on the SQL Server \| Workload Analysis drilldown, select a custom date range - Error retrieving data: A task was canceled. | SOSSE-6451
 Corrected a problem where the Spotlight Client installed on Windows 10 crashed while checking alarm details. | SOSSE-6499
@@ -38,6 +38,7 @@ Corrected a problem where Spotlight was incorrectly reporting "A full backup has
 Corrected a problem where a Spotlight Connection to an Availability Group failed on the default port. | DS-841
 Cleaned SQL scripts of: Information Monitored Server - SQL Server Collection Execution Failure Collection 'LookupSQLText' failed. | DS-827
 Corrected a problem where Spotlight raised false VMware - Virtual Machine Heartbeat alarm. | DS-826
+Corrected source of error: Monitored Server - SQL Server Secondary Connection Failure: Connection 'SQLServerXEventsChannel' failed to connect: The event data stream was disconnected because there were too many outstanding events. | DS-822
 When the Database Unavailable alarm is raised the message includes the database name. | DS-802
 Corrected a problem where Spotlight raised the alarm: "The SQL Server Agent service status cannot be determined because a registry key cannot be read due to lack of permission." | DS-779
 Corrected a problem where on the SQL Server \| High Availability drilldown, selecting a Log Shipping primary raised error: Invalid column name ("secondary_server") in table ("LogShippingPrimariesSecondaries") | DS-767
@@ -46,6 +47,6 @@ Corrected issue: Procedure s03-psql-6c_sqlserver.sqlfulltextcatalogs failed : Fa
 Corrected a problem with Alarm Actions where "The details contain" was not filtering properly when multiple alarms were raised. | DS-687
 Corrected a problem where Statement Waits and Workload Analysis failed to handle embedded CDATA. | DS-672
 On the SQL Server \| Performance Health drilldown the scoring algorithm has been revised to make it smarter. Previous reporting of incorrect low scores has been corrected. | DS-489
-Corrected a problem wher after migrating the Spotlight Diagnostic Server to another host the Spotlight Statistics Repository Cleaner failed to run.  | DS-413
+Corrected a problem where after migrating the Spotlight Diagnostic Server to another host the Spotlight Statistics Repository Cleaner failed to run.  | DS-413
 
 {% include links.html %}

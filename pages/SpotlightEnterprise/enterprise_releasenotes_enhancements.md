@@ -28,5 +28,4 @@ On the SQL Server \| Databases drilldown \| Fragmented indexes page - select mul
 Enhance Spotlight performance by implementing a common service to resolve SQL text and SQL plan for procedures: QueryExecutionStatistics, SQLBlockingList, SQLConnectionList, SQLConnectionDetails, WaitEvents and WorkloadAnalysis. | DS-897
 Improved user interface design around previous unfriendly error message: "Unknown Identifier asked for extended events. Please connect." | DS-757
 
-
 {% include links.html %}
