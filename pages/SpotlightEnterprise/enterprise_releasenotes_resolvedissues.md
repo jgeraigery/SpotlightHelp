@@ -39,9 +39,13 @@ Corrected a problem where a Spotlight Connection to an Availability Group failed
 Cleaned SQL scripts of: Information Monitored Server - SQL Server Collection Execution Failure Collection 'LookupSQLText' failed. | DS-827
 Corrected a problem where Spotlight raised false VMware - Virtual Machine Heartbeat alarm. | DS-826
 When the Database Unavailable alarm is raised the message includes the database name. | DS-802
+Corrected a problem where Spotlight raised the alarm: "The SQL Server Agent service status cannot be determined because a registry key cannot be read due to lack of permission." | DS-779
+Corrected a problem where on the SQL Server \| High Availability drilldown, selecting a Log Shipping primary raised error: Invalid column name ("secondary_server") in table ("LogShippingPrimariesSecondaries") | DS-767
 On creating a connection to an Availability Group, testing the connection will now correctly report an invalid listener. | DS-761
+Corrected issue: Procedure s03-psql-6c_sqlserver.sqlfulltextcatalogs failed : Failed to update database "EDDS1080437" because the database is read-only. | DS-712
+Corrected a problem with Alarm Actions where "The details contain" was not filtering properly when multiple alarms were raised. | DS-687
+Corrected a problem where Statement Waits and Workload Analysis failed to handle embedded CDATA. | DS-672
 On the SQL Server \| Performance Health drilldown the scoring algorithm has been revised to make it smarter. Previous reporting of incorrect low scores has been corrected. | DS-489
-
-
+Corrected a problem wher after migrating the Spotlight Diagnostic Server to another host the Spotlight Statistics Repository Cleaner failed to run.  | DS-413
 
 {% include links.html %}
