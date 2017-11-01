@@ -21,15 +21,14 @@ Corrected a problem on the Spotlight Overview page where clicking on a red Statu
 Corrected a problem where the color of the connection and connection status did not match, particularly following a change in enable / disable monitoring. | SOSSE-6663
 Corrected a problem creating a Playback Database and Spotlight Statistics Repository on a SQL Server hosted on Linux. | SOSSE-6625
 Corrected a performance problem on the SQL Server \| Workload Analysis drilldown expanding nodes of the tree. | SOSSE-6617
-Corrected a problem where on the SQL Server \| Workload Analysis drilldown, select a custom date range - Error retrieving data: A task was canceled. | SOSSE-6451
 Corrected a problem where the Spotlight Client installed on Windows 10 crashed while checking alarm details. | SOSSE-6499
+Corrected a problem where on the SQL Server \| Workload Analysis drilldown, select a custom date range - Error retrieving data: A task was canceled. | SOSSE-6451
 Corrected a problem where the color of the connection on the Connections pane, Spotlight Today or Spotlight Overview page did not match alarms raised. | DS-984
 Corrected a problem where Spotlight raised Connection Failure alarms while a connection was in Planned Outage. | DS-964
 Corrected a problem where Spotlight took too long to display data on enabling a (disabled) monitored connection. | DS-948
-Corrected a problem where Spotlight incorrectly raised an  "Error Log - Error Count" alarm when Configure Error Log Entries was set to Enable error log scanning, all criteria unchecked. | DS-888
 Corrected a problem where the SQL Server \| Databases drilldown was forever "Loading..." data. | DS-901
 Corrected a problem where from the Windows \| Processes drilldown, unable to terminate a process. | DS-893
-Configure Error Log Entries was set to Enable error log scanning, all criteria unchecked. | DS-888
+Corrected a problem where Spotlight incorrectly raised an  "Error Log - Error Count" alarm when Configure Error Log Entries was set to Enable error log scanning, all criteria unchecked. | DS-888
 Corrected a problem where the SQL- Long running SQL alarm and SQL Server \| Sessions drilldown reported differing status and loginuser. | DS-862
 Corrected the SQL - Long Running SQL alarm script conversion function to return one row per request and not one row per thread. | DS-853
 Corrected a problem where on upgrade Spotlight was sometimes generating errors like: HTTP request to http://127.0.0.1:3166/CommandInBody failed : An existing connection was forcibly closed by the remote host. | DS-852
