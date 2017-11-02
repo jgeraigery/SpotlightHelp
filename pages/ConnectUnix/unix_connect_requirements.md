@@ -61,14 +61,14 @@ sudo apt-get install sysstat
 
 #### Install on SUSE
 
-Install **sysstat** from: https://software.opensuse.org/download.html?project=server%3Amonitoring&package=sysstat
+Install **sysstat** from: [https://software.opensuse.org/download.html?project=server%3Amonitoring&package=sysstat](https://software.opensuse.org/download.html?project=server%3Amonitoring&package=sysstat)
 
 Enter commands:
 
 ```
-run: systemctl start sysstat
-run: systemctl enable sysstat
-run: systemctl status sysstat
+systemctl start sysstat
+systemctl enable sysstat
+systemctl status sysstat
 ```
 
 If all commands are successful then the status of **sysstat** will be "active".
