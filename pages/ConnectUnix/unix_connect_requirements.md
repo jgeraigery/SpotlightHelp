@@ -39,10 +39,12 @@ Ensure the following programs are accessible to the user logged on to the Unix/L
 * who
 
 
-### Additional Server Software for Ubuntu
-Install the **sysstat** package. On Ubuntu the **sysstat** package is not installed by default. If this package is not installed the Spotlight Overview page Storage panel Disk Activity metrics and Disk Writes/Reads flows will show no data.
+### Additional Server Software
+Install the **sysstat** package. On Ubuntu and SUSE the **sysstat** package is not installed by default. If this package is not installed the Spotlight Overview page Storage panel Disk Activity metrics and Disk Writes/Reads flows will show no data.
 
-Install by command:
+#### Install on Ubuntu
+
+Install the **sysstat** package on Ubuntu by command:
 
 ```
 apt-get install sysstat
@@ -54,7 +56,22 @@ or
 sudo apt-get install sysstat
 ```
 
-{% include tip.html content="If **sysstat** is installed after the Spotlight Connection is created then to show data you must disable then reneable the Spotlight Connetion to Ubuntu. From the Connections pane, right click on the Spotlight Connection and select **Disable Monitoring**. Right click on the Spotlight Connection again and select the option to enable monitoring." %}
+{% include tip.html content="If **sysstat** is installed after the Spotlight Connection is created then to show data you must disable then reneable the Spotlight Connetion. From the Connections pane, right click on the Spotlight Connection and select **Disable Monitoring**. Right click on the Spotlight Connection again and select the option to enable monitoring." %}
+
+
+#### Install on SUSE
+
+Install **sysstat** from: https://software.opensuse.org/download.html?project=server%3Amonitoring&package=sysstat
+
+Enter commands:
+
+```
+run: systemctl start sysstat
+run: systemctl enable sysstat
+run: systemctl status sysstat
+```
+
+If all commands are successful then the status of **sysstat** will be "active".
 
 ## User Permissions
 
