@@ -97,17 +97,17 @@ For example: Expand the **All Workload** menu to select a specific database. The
 ### Additional - when a Statement is selected from the All Workload menu
 You can now show the workload for the selected item:
 
-* CPU
-* Duration
+* CPU (ms/s)
+* Duration (ms/s)
 * % Total Duration
-* Avg Duration
+* Avg Duration (ms/s)
 * Execution Count
 * % Total Execution Count
-* Logical Reads
+* Logical Reads (reads/s)
 * % Total Logical Reads
-* Physical Reads
+* Physical Reads (reads/s)
 * % Total Physical Reads
-* Writes
+* Writes (writes/s)
 * % Total Writes
 
 {% include note.html content="SQL Server 2012 and above differentiates physical reads from logical reads." %}

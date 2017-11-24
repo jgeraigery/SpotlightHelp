@@ -72,18 +72,15 @@ Wait Time | The wait time spent on this wait type aggregated over the last hour.
 
 Chart | Description
 ------|------------
-Selected item compared to *All* | Show on a time series chart the wait time attributed to the selected workload item and the selected category of wait.
-Current selected item compared | Show on a pie chart the wait time currently attributed to the selected workload item as a proportion of the selected category of wait.
+Selected item compared to *All* | Show on a time series chart the wait time rate (ms/s) attributed to the selected workload item and the selected category of wait.
+Current selected item compared | Show on a pie chart the wait time rate (ms/s) currently attributed to the selected workload item as a proportion of the selected category of wait.
 
 #### Category : Selected category compared to Total
 
 Chart | Description
 ------|------------
-Selected category comparison | Show on a time series chart the wait time attributed to the selected category and the total wait time.
-Current Wait category comparison | Show on a pie chart the wait time currently attributed to the selected category as a proportion of the total wait.
-
-
-
+Selected category comparison | Show on a time series chart the wait time rate (ms/s) attributed to the selected category and the total wait time rate.
+Current Wait category comparison | Show on a pie chart the wait time rate (ms/s) currently attributed to the selected category as a proportion of the total wait time rate.
 
 
 {% include links.html %}
