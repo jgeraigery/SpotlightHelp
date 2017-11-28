@@ -1,6 +1,6 @@
 ---
 title: Support Services drilldown
-last_updated: July 29, 2016
+last_updated: October 16, 2017
 summary: ""
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_drilldown_supportservices.html
@@ -107,17 +107,6 @@ Investigate the performance of the Distributed Transaction Coordinator (DTC).
 Shows performance details for all full-text indexes on the server. In full-text indexing, a separate catalog is maintained that indexes each word in a database field as a separate index entry.
 
 If some of the details are incomplete for all of the rows, the Full Text Search Service may not be running. Check the Services Status grid on the Service Status page to confirm this.
-
-
-
-### OLAP Services page
-Provides an overview of the OLAP Services or Analysis Services product currently running on your system.
-
-OLAP Services (known in SQL Server 2000 and later as Analysis Services) is a server product that performs online analytical processing (OLAP) and data mining on SQL Server systems. For more information, see the MSDN Library Web site (http://msdn.microsoft.com/library/).
-
-The OLAP Services page is available only when connected. to SQL Server 2000.
-
-
 
 
 {% include links.html %}

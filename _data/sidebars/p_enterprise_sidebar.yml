@@ -1,7 +1,8 @@
 entries:
 - title: sidebar
   product: Spotlight Enterprise
-  version: 12.0.1
+  version: 12.1
+
   folders:
 
   - title:
@@ -538,6 +539,11 @@ entries:
           url: /enterprise_cfgmonitor_monitoredfiles_addfile.html
           output: web, pdf
 
+    - title: Configure Defragmentation Check
+      url: /enterprise_cfgmonitor_defragcheck.html
+      output: web, pdf
+
+      subfolders:
       - title: Apply configuration to...
         output: web
         subfolderitems:
@@ -634,6 +640,10 @@ entries:
 
     - title: Configure the use of Extended Events
       url: /enterprise_cfgds_extendedevents.html
+      output: web, pdf
+
+    - title: Store SQL Text and Query Plans in Playback
+      url: /enterprise_cfgds_storesqltextqueryplans.html
       output: web, pdf
 
     - title: Configure uploading to the Spotlight Cloud
@@ -846,6 +856,10 @@ entries:
           url: /enterprise_backend_federation.html
           output: web, pdf
 
+        - title: Separate an existing deployment
+          url: /enterprise_backend_federation_separate.html
+          output: web, pdf
+
         - title: Make (add to) a federation
           url: /enterprise_backend_federation_add.html
           output: web, pdf
@@ -856,6 +870,10 @@ entries:
 
         - title: Configure operations
           url: /enterprise_backend_federation_cfgops.html
+          output: web, pdf
+
+        - title: Upgrade Spotlight
+          url: /enterprise_backend_federation_upgrade.html
           output: web, pdf
 
         - title: Remove (break apart) a federation

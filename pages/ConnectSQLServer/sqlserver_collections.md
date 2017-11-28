@@ -32,6 +32,7 @@ Clusters - Node Unavailable Alarm | Cluster Summary |
 Clusters - Non-Preferred Node Alarm | Cluster Summary |  
 Compiles - Percentage Recompilations Alarm | Statistics |   
 SQL Custom Counters Alarm | Custom Counters - SQL Server |  
+﻿Databases - Data File Group About to Grow | SQLFileGroups.AboutToGrow |
 Databases - Data File Group Space Used Alarm | Files | Minimum refresh for this collection is 60 seconds
 Databases - Dynamic Data File Group Growths Remaining Alarm | Files | Minimum refresh for this collection is 60 seconds
 Databases - Dynamic Log File Growths Remaining Alarm | Files | Minimum refresh for this collection is 60 seconds
@@ -125,7 +126,7 @@ Summary \| Server Memory chart | Memory Manager
 
 Page, grid, chart | Collection Name | Notes
 ------------------|-----------------|------
-Sessions | Session List |  
+Sessions | Full Session List |  
 Sessions \| SQL | Session Details | Non configurable
 Sessions \| Session Trace | Session Trace | Non configurable
 Sessions \| Session Locks | Locks List |  
@@ -242,9 +243,8 @@ Application | Collection Name
 SQL Optimizer | QueryExecutionStatistics
 
 
-
-## Collections not supported where the SQL Server host is Linux
-See [Partial support for monitoring SQL Server vNext hosted on Linux][sqlserver_unix_partialsupport].
+## Collections not supported when SQL Server 2017 is hosted on Linux
+See [Partial support for monitoring SQL Server: SQL Server 2017 and Linux hosted SQL Server connections][sqlserver_unix_partialsupport].
 
 
 

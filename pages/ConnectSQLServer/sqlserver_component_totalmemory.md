@@ -19,11 +19,7 @@ This Memory gauge shows the total amount of memory currently allocated to SQL Se
 
 The maximum value shown on this gauge is the lower of SQL Server's **Max Memory** parameter and the amount of **physical RAM** on the machine. It indicates the maximum amount of memory that SQL Server can use.
 
-SQL Server parameters can be used to influence the amount of memory that SQL Server uses. The **Min Memory** and **Max Memory** parameters both default to **0**, which causes SQL Server to manage its total memory use as it sees fit. However you can set these parameters to non-zero values.
-
-A non-zero **Max Memory** parameter causes SQL Server to never request more than that amount of memory.
-
-A non-zero **Min Memory** parameter causes SQL Server not to give memory back to Windows if its total memory allocation is less than the value specified. Note that SQL Server does NOT automatically request this amount of memory on startup, but will request additional memory from Windows as it needs it, and that SQL Server will not release any memory back to the operating system until it has allocated more than this "minimum" amount.
+SQL Server parameters can be used to influence the amount of memory that SQL Server uses. The default maximum amount of memory (**Max Memory**) is 2147483647 MB. The minimum memory amount allowable for max server memory is 128 MB.
 
 {% include tip.html content="Click this gauge to view the page on the **SQL Memory drilldown** that shows you how SQL Server is currently using its memory." %}
 

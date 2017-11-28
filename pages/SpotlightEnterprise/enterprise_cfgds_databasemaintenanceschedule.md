@@ -18,7 +18,7 @@ It is highly recommended that regular maintenance is performed to maintain effic
 
 ## Select the Diagnostic Server
 
-For federated Spotlight Diagnostic Server you will be prompted to select the Spotlight Diagnostic Server to configure. Each Spotlight Diagnostic Server has an independently configured database maintenance schedule.
+If the Spotlight Diagnostic Server is federated you will be prompted to select the Spotlight Diagnostic Server to configure. Please configure each Spotlight Diagnostic Server in the federation (one at a time) independent of each other.
 
 ## Set the maintenance schedule
 
@@ -28,6 +28,7 @@ Enable / disable maintenance procedures.
 
 {% include note.html content="It is highly recommended that regular maintenance is performed to maintain efficient data retrieval." %}
 
+{% include note.html content="If your enterprise deploys multiple Spotlight Diagnostic Server and multiple Spotlight Diagnostic Server direct data to the same Spotlight Statistics Repository ([Configure the Spotlight Statistics Repository][enterprise_cfgds_ssr]) then **Enable** maintenance procedures for one of these Spotlight Diagnostic Server only. One maintenance plan script maintains the whole Spotlight Statistics Repository database." %}
 
 ### Run maintenance procedures…
 

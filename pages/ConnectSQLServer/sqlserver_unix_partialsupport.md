@@ -1,7 +1,7 @@
 ---
-title: Partial support for monitoring SQL Server vNext hosted on Linux
-last_updated: March 28, 2017
-summary: "Spotlight Enterprise now provides partial support for monitoring SQL Server hosted on Linux."
+title: "Partial support for monitoring SQL Server: SQL Server 2017 and Linux hosted SQL Server connections"
+last_updated: October 27, 2017
+summary: "Spotlight Enterprise provides partial support for monitoring SQL Server 2017 connections and SQL Server connections hosted on Linux."
 sidebar: c_sqlserver_sidebar
 id: SQL_Statement
 permalink: sqlserver_unix_partialsupport.html
@@ -10,16 +10,12 @@ folder: ConnectSQLServer
 
 
 ## Alarms
-Support is provided for SQL Server connections hosted on Linux with the following exceptions. The following alarms are not supported:
+The following alarms are not supported when SQL Server 2017 is hosted on Linux:
 
 * Clusters - Failed over
 * Clusters - File Share Witness inaccessible
 * Clusters - Node unavailable
 * Clusters - non-Preferred Node
-* Databases - Dynamic Data File Group Growths Remaining
-* Databases - Dynamic Log File Growths Remaining
-* Databases - Data File Group Space Used
-* Databases - Log File Space Used
 * LiteSpeed Backup Failed
 * LiteSpeed Backup Warning
 * Log Shipping - Secondary Job
@@ -27,7 +23,7 @@ Support is provided for SQL Server connections hosted on Linux with the followin
 * Mirroring - State
 * Mirroring - Unrestored Log
 * Mirroring - Unsent Log
-* Mirroring Faildover
+* Mirroring Failedover
 * Monitored Server - SQL Server Host Not Defined
 * Services - DTC Service Status
 * Services - Full Text Search Service
@@ -40,35 +36,35 @@ Support is provided for SQL Server connections hosted on Linux with the followin
 * SQL Agent - Long Running Jobs (Percent)
 * SQL Agent - Long Running Jobs (Time)
 * SQL Agent - Status
+* Tempdb File Location
 * Virtualization alarms
 
-
 ## Spotlight Overview page for SQL Server connections
-Support is provided for SQL Server connections hosted on a Linux with the following exceptions.
+The following components are not supported when SQL Server is hosted on Linux:
 
-* On the System panel, Custom Counters are not supported for SQL Server connections hosted on Linux.
-* On the Processes panel, the Virtualization component is not supported for SQL Server connections hosted on Linux.
+* On the System panel, Custom Counters are not supported.
+* On the Processes panel, the Virtualization component is not supported.
 
-## Drilldowns for SQL Server connections
-Support is provided for SQL Server connections hosted on Linux with the following exceptions.
+
+## SQL Server Drilldowns
 
 * The SQL Activity \| Custom Counters drilldown is not supported for SQL Server connections hosted on Linux.
-* The High Availability drilldown is not supported for SQL Server connections hosted on Linux.
-* The Support Services \| DTC drilldown is not supported for SQL Server connections hosted on Linux.
-* The Databases \| Disk Space drilldown is not supported for SQL Server connections hosted on Linux.
-* The Error Log \| SQL Agent Error Logs are not supported for SQL Server connections hosted on Linux.
+* The High Availability drilldown Log Shipping configuration is partially supported for SQL Server 2017 connections hosted on Linux.
+* The Support Services \| DTC drilldown is not supported for SQL Server 2017 connections hosted on Linux.
+* The Databases \| Disk Space drilldown is not supported for SQL Server 2017 connections hosted on Linux.
+* The SQL Agent Error Log is partially supported for SQL Server 2017 connections hosted on Linux.
 
-## Spotlight Enterprise monitoring displays
-Support is provided for standard Spotlight Enterprise displays. Monitoring from the Heat Map, Spotlight Today, Alarms by Time and the Alarm log is supported for SQL Server connections hosted on Linux. The Playback facility is supported for SQL Server connections hosted on Linux.
 
-* Some Spotlight Reports for SQL Server are not supported where the SQL Server host is Linux.
+## Reports
+
+* Some Spotlight Reports for SQL Server are not supported when the SQL Server host is Linux.
+
 
 ## Configure monitoring SQL Server
-Support is provided for Configure monitoring functions in Spotlight Enterprise for SQL Server connections hosted on Linux with the following exceptions.
 
 * Configure \| Connections - The Spotlight Discovery Wizard does not discover SQL Server instances hosted on Linux.
-* Configure \| Alarm actions - Actions are taken only for alarms supported for SQL Server connections hosted on Linux. No actions are taken for unsupported alarms. There are no equivalent to alarm actions for 'Execute a Powershell script' and 'Write the alarm details to a Windows Event log'.
-* Configure \| Scheduling - The following SQL Server collections are not supported where the SQL Server is hosted on Linux.
+* Configure \| Alarm Actions - For SQL Server 2017 connections hosted on Linux, some alarms are not supported (see above). No Actions are taken for alarms that are not supported. For Linux, there are no equivalent alarm actions for 'Execute a Powershell script' and 'Write the alarm details to a Windows Event log'.
+* Configure \| Scheduling - The following SQL Server collections are not supported for SQL Server 2017 connections hosted on Linux.
     * Agent Job List
     * Agent Jobs Failed
     * Alert Failures
@@ -80,11 +76,11 @@ Support is provided for Configure monitoring functions in Spotlight Enterprise f
     * Log Shipping Secondaries
     * Mirroring
 * Configure \| Custom Counters - Custom Counters are not supported for SQL Server connections hosted on Linux.
-* Configure \| Error Log Entries - SQL Agent Error Logs are not supported for SQL Server connections hosted on Linux.
 * Configure \| Monitored Files -  Tracking the growth of files (usually log files) is not supported for the Unix/Linux Connection Type.
 
 
 ## Support bundle
 Data from the Linux operating system is not collected for the Support Bundle.
+
 
 {% include links.html %}

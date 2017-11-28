@@ -1,6 +1,6 @@
 ---
 title: Sessions grid
-last_updated: March 28, 2017
+last_updated: October 16, 2017
 summary: "The Sessions grid shows all SQL Server sessions, each row representing a single SQL Server session."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_sessions.html
@@ -13,11 +13,7 @@ folder: ConnectSQLServer
 * Click a session in the grid for more details on the session.
 * Many applications create multiple connections to SQL Server.
 * When there are more than 2000 sessions only those sessions that are active (and those sessions that are blocked and blocking) are shown.
-* In SQL Server 2005 and 2008, to show only those sessions that are currently executing, click **Show active sessions only**.
-* In SQL Server 2000, clicking **Show active sessions only** shows sessions that:
-   * Do not have a status of sleeping, background or dormant.
-   * Are blocked.
-   * Have a command type of "WAITFOR".
+* To show only those sessions that are currently executing, click **Show active sessions only**.
 * To close a SQL Server session, right click and select **Kill this session**. This option is available only to members of the Spotlight Diagnostic Administrators group.
 
 ## General tips to using Spotlight grids
@@ -57,6 +53,10 @@ Current or previous command executed.
 
 Name of the Database that the session is in.
 
+### Thread Count
+
+Display of thread count. Use to display a single row per session as an option.
+
 ### Mem
 
 Number of pages in the procedure cache that are currently allocated to this process. A negative number indicates that the process is freeing memory allocated by another process.
@@ -71,15 +71,15 @@ The number of I/O requests serviced per second. Use this column to observe sessi
 
 ### Logical Reads
 
-Number of logical reads performed for each request.  It shows no data for SQL Server 2000.
+Number of logical reads performed for each request.
 
 ### Reads
 
-Number of physical reads performed for each request.  It shows no data for SQL Server 2000.
+Number of physical reads performed for each request.
 
 ### Writes
 
-Number of physical writes performed for each request.  It shows no data for SQL Server 2000.
+Number of physical writes performed for each request.
 
 ### Total CPU
 
@@ -91,15 +91,15 @@ The sum of **Total Reads** and **Total Writes**.
 
 ### Total Logical Reads
 
-Number of logical reads performed for the session. It shows no data for SQL Server 2000.
+Number of logical reads performed for the session.
 
 ### Total Reads
 
-Number of physical reads performed for the session. It shows no data for SQL Server 2000.
+Number of physical reads performed for the session.
 
 ### Total Writes
 
-Number of physical writes performed for the session. It shows no data for SQL Server 2000.
+Number of physical writes performed for the session.
 
 ### Current Wait Time (ms)
 
@@ -143,8 +143,7 @@ Workstation process id number.
 
 ### Net Address
 
-In SQL Server 2005 and 2008, this is the IP address for the client computer's network card.
-In SQL Server 2000, this is the mac address for the client computer's network card.
+This is the IP address for the client computer's network card.
 
 ### Net Library
 
@@ -156,11 +155,23 @@ Time the session was created.
 
 ### Request ID
 
-Returns the ID of the current request within the current session. It shows no data for SQL Server 2000.
+Returns the ID of the current request within the current session.
 
 ### Plan Handle
 
 Identifier for the query plan. Note the plan handle is available only when the session is executing.
+
+### BatchText
+
+The full batch SQL for this session.
+
+{% include note.html content="Available only when **Store SQL text and query plans in playback** is enabled for this SQL Server connection. Refer to the Spotlight connection properties for this SQL Server connection for more information." %}
+
+### Query Plan
+
+The session Query Plan.
+
+{% include note.html content="Available only when **Store SQL text and query plans in playback** is enabled for this SQL Server connection. Refer to the Spotlight connection properties for this SQL Server connection for more information." %}
 
 ### Win Domain
 

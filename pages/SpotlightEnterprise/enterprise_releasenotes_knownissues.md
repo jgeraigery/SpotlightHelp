@@ -25,6 +25,7 @@ Known issues using Spotlight Help when Internet Explorer 8 or below is installed
 
 Known Issue | Issue ID
 ------------|---------
+On upgrade to Spotlight Enterprise 12.1, there is a significant difference in the way data is aggregated for the SQL Server \| Workload Analysis and Wait Events drilldowns. When the selected time range includes data collected prior to the upgrade, that data may not display properly. As a workaround, adjust the time range to include only post upgrade data. | DS-824
 **Installing other Spotlights.** Do not install other Spotlights into the Spotlight Enterprise folder. You will be unable to run Spotlight Enterprise if you do this. When installing other Spotlights you must install them into a different folder. | N/A
 **Remote installation.** Remote installation of Spotlight Enterprise fails if the user has both a domain account and a local account with the same user name. | N/A
 Installing the Spotlight Client on Windows Server 2008 - **Installation Error - The path is not of a legal form.**. To resolve this error, install PowerShell 3.0 or above on the Windows Server. | SOSSE-6048
@@ -69,7 +70,7 @@ Known Issue | Issue ID
 **Spotlight Alarm Actions** does not have an action to kill a block process. <br><br> *Workaround:* Write a SQL Query to return the SPID and kill the process; put the SQL into the Execute a SQL Script action. | 2669
 **Unable to send email** - This is a known issue under the following circumstances <br><br> Symantec Endpoint Protection is installed on the Spotlight Diagnostic Server and <br> The Spotlight Diagnostic Server is installed on a 64 bit machine and <br> The Spotlight Diagnostic Server installation is 64-bit. <br><br> *Workaround:* "disable the Internet Email Auto-Protect option" in Symantec Endpoint Protection. See also: <br> http://www.symantec.com/business/support/index?page=content&id=TECH95093 and <br> http://www.symantec.com/connect/forums/sep-121-internet-email-auto-protect-and-ccnet-mail-issues | 2266
 **Spotlight Cloud** - On the Configure \| Spotlight Cloud page the links to "Read more" and "Register now" are missing when Microsoft Windows is configured to run in "Windows Classic" mode. <br><br> The links open the web site: https://www.spotlightessentials.com | 2922
-**Cap on collections.** To limit Spotlight's load and memory consumption, a cap of 10000 rows is placed on most collections. To modify this cap, edit the following text in file ..\agent\bin\SpotlightDiagnosticServer.ini: <br><br> "-Dcom.quest.adk.rowLimit=10000" | 11685
+**Cap on collections.** To limit Spotlight's load and memory consumption, a cap of 10000 rows is placed on most collections. To modify this cap, edit the following text in file ..\agent\bin\DiagnosticServer.properties: <br><br> "-Dcom.quest.adk.rowLimit=10000" | 11685
 **Unable to receive email attachment** - If the Spotlight Diagnostics Server sends an email with an attachment, that attachment will have a .zip extension. Some email servers automatically reject attachments with a .zip extension. <br><br> *Workaround* - Change the .zip extension to something else. In the Spotlight Diagnostic Server installation folder, in the **Agent/conf** folder, modify the text file **DiagnosticServer.properties** by changing the value of the property **com.quest.adk.email.attachment.extension**. | SOSSE-5698
 
 
@@ -83,11 +84,11 @@ Known Issue | Issue ID
 GMT Time Zone: The Diagnostic Server shows the wrong time. The Activity drilldown, Connections page may show the wrong time in the GMT Time Zone by incorrectly adjusting for DST. | 10433
 
 
-
 ### known issues monitoring SQL Server
 
 Known Issue | Issue ID
 ------------|---------
+Historical information is not kept for the **Wait Statistics drilldown**. There is no workaround.<br><br>Historical information is not kept for the **SQL Server Wait Statistics Report**. If access to the report data is required please contact Quest Support. | SOSSE-6388
 On the **SQL Activity drilldown \| Query Execution Statistics page** the **Query Plan** column is empty for longer query plans (plans exceeding 43679 characters). *Workaround:* Right click on the blank query plan cell and select to copy the current cell to the clipboard. | SOSSE-6535
 Playback is not currently available for the SQL Server **Databases drilldown \| Fragmented Indexes page**. | SOSSE-6560
 **Overview Page** - An unexpected error occurs the first time the SQL Server Overview page is opened in the Spotlight client session. <br><br> Performance Health / Wait Events / Workload Analysis - drilldown showd no data. <br><br> *Workaround:* Apply patch to .NET 4 - Software Update KB2468871v2 <br><br> See also own Known issues configuring Spotlight 3606. | 3606
@@ -98,12 +99,11 @@ Playback is not currently available for the SQL Server **Databases drilldown \| 
 **SQL Server 2012 and above** - Spotlight does not support Analysis Services in Tabular and Sharepoint modes. | .
 **Workload Analysis drilldown** - SQL Server 2012 and above - When monitoring a failover cluster the Physical Reads value is 0 / No Data. | 3688
 **Workload Analysis and Wait Events drilldowns** - Unable to copy and paste queries from these drilldowns when Internet Explorer 8 or below is installed on the Spotlight Client host computer. Workaround: Upgrade Internet Explorer on the Spotlight Client host computer. | 6677
+**Workload Analysis and Wait Events drilldowns - SQL Server versions prior to 2012** - On configuring Spotlight to exclude Spotlight sessions from the Wait Events and Workload Analysis drilldowns, Spotlight metrics and waits still show in the current data. For SQL Server versions prior to 2012 the way the exclusion is done is that only one session is excluded by the Extended Events collections. However Spotlight makes at least two connections to SQL Server so there can be multiple sessions; data can still be collected for those other sessions. This is a limitation imposed by the fields available in Extended Events in older SQL Server versions. | SOSSE-6913
 **SQL Server 2012 and SQL Server 2008 R2** - "Using dbghelp.dll version 4.0.5" entries in the SQL Server Error Log. The source of these entries can be traced back to a known issue (Microsoft) when a statement or job executes the sys.fn_xe_file_target_read_file stored procedure. Refer to http://support.microsoft.com/kb/2878139 <br><br> The Spotlight SQL Server \| Performance Health feature uses XEvents sessions which may execute the sys.fn_xe_file_target_read_file stored procedure. | 2927
 In the SQL Server Error Log, entries "SQL Trace was started" and "SQL Trace was stopped." repeat every 10 minutes while Spotlight is monitoring the connection. These entries are added by Microsoft; Spotlight Enterprise uses SQL Trace to monitor for deadlocks. | 3582
 **Monitoring SQL Server 2008 RTM.** The Deadlocks page (SQL Activity drilldown) may not show data when monitoring a SQL Server 2008 RTM database. <br><br> *Workaround:* Upgrade to SQL Server 2008 SP1 | 7495
 **Access errors when connecting to SQL Server 2005.** If an access error related to xp_cmdshell occurs and the user changes the SQL Server configuration to allow access to xp_cmdshell, the SQL Server documentation states that you must disconnect and reconnect. To disconnect in Spotlight Enterprise, you must disable monitoring and enable monitoring for that SQL Server. <br><br>In the Spotlight Browser, right-click the SQL Server connection and select Properties. On the Monitoring page, clear the Monitor this server option and click OK. Open the Monitoring page again and select Monitor this server and then click OK. | N/A
-**SQL Server 2000** - The display of long SQL queries is truncated when click on the SPID in the SQL Activity \| Sessions drilldown. | 1273
-**Data sourced from SQL Server 2000 performance counters may be incorrect.** Spotlight may display an incorrect size or procedure cache hit rate for SQL Server 2000. This does not apply to SQL Server 2005 or 2008. | 3057
 Unexpected error **"Could not load file or assembly 'System.Cor, Version=2.0.5.0…"** on first time connecting to a SQL Server instance. <br><br> *Solution:* Install the following patch to the .NET framework (http://support.microsoft.com/kb/2468871) | 2764
 The collections Fragmentation by Index and Fragmentation Overview can adversely impact the performance of monitored SQL Servers. If this is an issue then use Configure \| Scheduling to reduce the frequency of collection | 2705
 **Deadlock List Report** - Each Deadlock List report is limited to 4000 characters of deadlock information. | 13064
@@ -112,7 +112,6 @@ The collections Fragmentation by Index and Fragmentation Overview can adversely 
 For SQL Activity \| Sessions \| Plan there is a limit on the size of the \<inputbuf\> tag of 1024 bytes (or nearly that). This cannot be expanded as the SQL Server truncates the SQL when it creates the XML. | 2300
 **Negative values in Wait Statistics drilldown.** Negative values may be shown in the Waits Details grid. | 3757
 **SQL - Long Running SQL alarm** raised from a Spotlight issued query - This issue follows "Cannot alter the event session", the query stops responding (hangs) so it raises a Long Running SQL alarm. Refer to the Microsoft known issue: https://support.microsoft.com/en-us/kb/2511963  | .
-
 
 
 ### known issues monitoring Windows Server

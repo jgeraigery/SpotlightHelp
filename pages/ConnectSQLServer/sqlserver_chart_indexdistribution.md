@@ -1,6 +1,6 @@
 ---
 title: Index Distribution chart
-last_updated: July 29, 2016
+last_updated: October 16, 2017
 summary: "When a single index is selected in the Indexes grid above, the Index Distribution chart shows the index distribution histogram for the selected index."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_chart_indexdistribution.html
@@ -57,9 +57,6 @@ if the selected index is on a **Name** column, the chart may show the values:
 This means 5 of the people have a name that is alphabetically before or equal to ABRAHAM, 20 are between ABRAHAM and GEORGE, 25 between GEORGE and PETER, and so on.
 
 This chart can be used to identify **skewed** indexes. These are indexes that have a very uneven distribution of data. For example, if 95% of the table has the same value for a key, it is difficult for SQL Server to determine if it is a useful index or not. Searches on values that fall in the 5% might find the index very useful, but searching on the value that occurs 95% of the time are not so useful.
-
-{% include note.html content="The Index Distribution chart does not apply to SQL Server 2000." %}
-
 
 
 {% include links.html %}

@@ -1,6 +1,6 @@
 ---
 title: High Availability drilldown
-last_updated: July 29, 2016
+last_updated: October 16, 2017
 summary: "The High Availability drilldown shows statistics about the servers involved in transaction log shipping and database mirroring."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_drilldown_highavailability.html
@@ -29,8 +29,6 @@ From the Spotlight Client
 
 ### Transaction Log Shipping page
 
-{% include note.html content="Log Shipping Monitor History Detail not available for SQL Server 2000." %}
-
 #### Transaction Log Shipping Primaries grid
 Shows statistics relating to the primary database in the log shipping configuration.
 
@@ -47,8 +45,6 @@ Shows statistics relating to the secondary database in the log shipping configur
 
 
 ### Database Mirroring page
-
-{% include note.html content="This feature is not available for SQL Server 2000." %}
 
 #### Database Mirroring grid
 Shows statistics relating to either the principal or mirror server depending on which server Spotlight is connected to.

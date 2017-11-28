@@ -43,6 +43,8 @@ Statement | Analyze which SQL statement is contributing most to the workload of 
 
 {% include tip.html content="Copy a SQL statement to the clipboard or select part of the SQL statement to copy just the selected part to the clipboard. Right click on the SQL statement to open the SQL statement in an external editor.<br><br>Right click on the SQL statement to show it in the **SQL Server \| Wait Events drilldown**." %}
 
+Use **Export all the statements** to save all SQL statements to a file (default filename SQLStatementList.sql). If the exporting tree list is large, Spotlight will save to multiple files; each output file no greater than 10Mb.
+
 
 ## 3. The grid
 Show a breakdown of the selected workload for the selected resource.
@@ -95,17 +97,17 @@ For example: Expand the **All Workload** menu to select a specific database. The
 ### Additional - when a Statement is selected from the All Workload menu
 You can now show the workload for the selected item:
 
-* CPU
-* Duration
+* CPU (ms/s)
+* Duration (ms/s)
 * % Total Duration
-* Avg Duration
+* Avg Duration (ms/s)
 * Execution Count
 * % Total Execution Count
-* Logical Reads
+* Logical Reads (reads/s)
 * % Total Logical Reads
-* Physical Reads
+* Physical Reads (reads/s)
 * % Total Physical Reads
-* Writes
+* Writes (writes/s)
 * % Total Writes
 
 {% include note.html content="SQL Server 2012 and above differentiates physical reads from logical reads." %}

@@ -51,7 +51,7 @@ Color | Description
 ------|------------
 Green | Bars colored green represent healthy wait time (CPU and I/O).
 Yellow | If I/O is colored yellow then I/O latency is high.
-Blue | Bars colored blue represent unhealthy wait time. Categories of unhealthy wait are: Latch, Lock, CLR, OTHER, DBM, DTC, Backup, Memory, Network, ServiceBroker, SOS and MISC.
+Blue | Bars colored blue represent unhealthy wait time. Categories of unhealthy wait are: Idle, Other, Log, CLR, IO, Network, Memory, Latch, Remote Provider, CPU, Lock and XTP.
 
 ### Tips to using the Instance Wait Time chart
 

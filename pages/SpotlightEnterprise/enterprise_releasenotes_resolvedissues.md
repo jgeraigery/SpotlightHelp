@@ -1,60 +1,51 @@
 ---
 title: Resolved issues in this release
 keywords: release notes
-summary: "The following is a list of issues addressed in Spotlight Enterprise 12.0 and 12.0.1"
+summary: "The following is a list of issues addressed in Spotlight Enterprise 12.1"
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_resolvedissues.html
 folder: SpotlightEnterprise
 readonly: true
 ---
 
-## Issues addressed in Spotlight Enterprise 12.0.1
 
 Issue | ID
 ------|---
-Spotlight Reports - Dates are now presented in the American format. | SOSSE-6715
-Spotlight Clients installed on Windows 10 are run in compatibility mode for Windows 8 to resolve intermittent stability issues with the Spotlight Client while checking alarm details in the Spotlight Overview page. | SOSSE-6711
-Spotlight Client installed on Windows Server 2008 host experienced connection failure issues; resolved by adding support for TLS1.0 on Windows Server 2008. | SOSSE-6685
-On Spotlight Today, corrected a problem with the 'Ignore this alarm' feature. | SOSSE-6678
-When monitoring SQL Server, Workload Analysis and Wait Events drilldowns, can copy queries and selected parts of queries. Requires Internet Explorer above version 8 installed on the Spotlight Client host computer. | SOSSE-6677
-Corrected a problem resulting in an Unexpected Error on diagnosing a deadlock from Alarms by Time when the Locks - Deadlock alarm is set to require acknowledgement. | SoSSE-6626
-Addressed customer support issues of high CPU on the Diagnostic Server host:- The value of the SQL Server connection property 'Obscure string literals in SQL text and parameters in query plans' has changed to 'not selected' for all SQL Server connections on upgrade. Following upgrade to select 'Obscure string literals in SQL text and parameters in query plans' as required, from the Spotlight Client, Click **Configure \| Connections**, select the SQL Server connection and fill in the connection details. | DS-869
-When monitoring SQL Server \| Databases drilldown \| Disk Space chart, corrected a problem with the "Include Non-SQL files in chart" option. | DS-860
-Addressed customer support issues of high CPU on the Diagnostic Server host:- Enhanced the data collection methodology for the SQL Server \| SQL Activity drilldown \| Query Execution Statistics page. | DS-851
-Corrected a problem where Spotlight Enterprise 12.0 raised SQL Agent Failed Jobs alarms for unwanted jobs; Spotlight ignored exclusion values configured for these job names. | DS-825
-Corrected Connection Failure issues around the use of Extended Events:- Monitored Server - SQL Server Secondary Connection Failure: Connection 'SQLServerXEventsChannel' failed to connect: The event data stream was disconnected because there were too many outstanding events. | DS-822
-Corrected a problem where when monitoring SQL Server with log shipping - on the High Availability \| Transaction Log Shipping drilldown, the Transaction Log Shipping Secondaries grid reported an Invalid column name. | DS-767
-Corrected erroneous raising of the SQL Server **Databases - Dynamic Data File Group Growths Remaining** alarm on upgrade. | DS-624
-
-## Issues addressed in Spotlight Enterprise 12.0
-
-Issue | ID
-------|---
-Corrected the source of an exception error on editing a connection to a monitored operating system where the link to the virtual server is removed. | SOSSE-6406
-Resolved the source of an error on creating a Playback Database or Spotlight Statistics Repository in a TLS 1.2 only environment. | SOSSE-6383
-Corrected a problem with the persistency of database connection properties (tags and operating system host) in an environment where multiple Spotlight Clients connect to a Spotlight Diagnostic Server. | SOSSE-6370
-Resolved the source of an exception error on monitoring SQL Server and actioning Session Trace from various drilldowns such as TempDB \| Usage and SQL Activity \| Locks. | SOSSE-6260
-Corrected a problem where on viewing Spotlight Today with 'Group By Top 50 alarms' the Spotlght Today display failed over time to stay current with the top 50 alarms. | SOSSE-6224
-Corrected a problem so that now when using the Alarm Log and selecting an alarm to 'Show in Alarms by Time' the Alarms by Time display always selects the relevant alarm on screen. | SOSSE-6033
-Issues with monitoring SQL Server, Index Fragmentation, have been addressed by removing the Index Fragmentation components from the SQL Sever Overview page. The Index Fragmentation alarm is still raised, as a medium alarm, from the Status and Databases components. | SOSSE-5901
-Corrected the source of a Playback history error when creating a support bundle. | SOSSE-5837
-Corrected a problem of deadlocks caused by Spotlight by replacing readpast hints with nolock in the QS_AllTablesBySize.sql script. | SOSSE-5770
-Corrected source of "Error retrieving data: ClientConnectIssue: Exception of type 'System.OutOfMemoryException' was thrown " in the Wait Events drilldown when selecting a custom date | SOSSE-5699
-When configuring an alarm from the Configure \| Alarms dialog, the 'Alarm Requires Acknowledgement' option is now visible for the Factory Settings template. | SOSSE-5675
-Spotlight Management Pack for Scom - tightened the code around calling waffle and NTLM for a customer getting repeated 401 http errors. | SOSSE-5429
-Corrected a problem where the Auto Update failure Alarm can now be cleared after the Auto Update facility has been disabled. | SOSSE-5176
-Corrected a problem such that when a Spotlight Connection is deleted the associated data in the Spotlight Statistics Repository is also removed. | SOSSE-3347
-Corrected a problem printing Spotlight Reports generated through the Spotlight Client Report Viewer when the paper size was set to A4. | SOSSE-2464
-Resolved an issue in Alarms by Time with the connection state bar color. | DS-750
-Resolved an issue where the Availability Group - Failed Over alarm failed to be raised. | DS-736
-Resolved the source of an error on the SQL Server \| Query Execution Statistics drilldown page when selecting to show query execution statistics using parallelism - error 'Cannot find either column "query_plan" or the user-defined function or aggregate "query_plan.exist", or the name is ambiguous.' | DS-699
-Corrected a problem where the Spotlight Diagnostic Server was kept waiting when SSPI authentication failed on the Spotlight Client. | DS-611
-Corrected a problem where in Alarms by Time the connection state bar was colored red while there were no alarms raised. | DS-601
-Corrected a problem of "Arithmetic Overflow" error on calculation of database related collections in environments where monitored connections include large databases using large amounts of space. | DS-519
-Corrected source of problem causing error: 'Diagnostic Server - Spotlight Cloud data transfer' for new customers. | DS-513
-Corrected a problem where the value for Response Time was inconsistent between the Spolight Statistics Repostiory and Playback Database. | DS-414
-
-
-
+Corrected Exception Error on the SQL Server \| Wait Events Drilldown: oid Dispatcher_UnhandledException(System.Object, System.Windows.Threading.DispatcherUnhandledExceptionEventArgs)> | SOSSE-6798
+Corrected a problem using the SQL Server Workload Analysis drilldown where on copying the SQL Statement entity notation &lt; and &gt; was used instead of <>. | SOSSE-6794
+Corrected a problem where the SQL Server \| Databases drilldown \| Database Details page \| Growth File Used MB chart failed to Maximize. | SOSSE-6793
+Corrected a problem where you can now clear saved mail server settings for the Spotlight Diagnostic Server. | SOSSE-6792
+Corrected a problem where in Playback, no SQL displayed on the SQL Activity \| Sessions and SQL Activity \| Query Execution Statistics drilldowns. | SOSSE-6734<br><br>SOSSE-6782
+Corrected a problem when using Spotlight Today. Spotlight Today now correctly retains customer set column organization when returning to Spotlight Today from viewing other Spotlight pages. | SOSSE-6751
+Corrected a problem on the Spotlight Overview page where clicking on a red Status component shows no information. | SOSSE-6743
+Corrected a problem where the color of the connection and connection status did not match, particularly following a change in enable / disable monitoring. | SOSSE-6663
+Corrected a problem creating a Playback Database and Spotlight Statistics Repository on a SQL Server hosted on Linux. | SOSSE-6625
+Corrected a performance problem on the SQL Server \| Workload Analysis drilldown expanding nodes of the tree. | SOSSE-6617
+Corrected a problem where the Spotlight Client installed on Windows 10 crashed while checking alarm details. | SOSSE-6499
+Corrected a problem where on the SQL Server \| Workload Analysis drilldown, select a custom date range - Error retrieving data: A task was canceled. | SOSSE-6451
+Corrected a problem where the color of the connection on the Connections pane, Spotlight Today or Spotlight Overview page did not match alarms raised. | DS-984
+Corrected a problem where Spotlight raised Connection Failure alarms while a connection was in Planned Outage. | DS-964
+Corrected a problem where Spotlight took too long to display data on enabling a (disabled) monitored connection. | DS-948
+Corrected a problem where the SQL Server \| Databases drilldown was forever "Loading..." data. | DS-901
+Corrected a problem where from the Windows \| Processes drilldown, unable to terminate a process. | DS-893
+Corrected a problem where Spotlight incorrectly raised an  "Error Log - Error Count" alarm when Configure Error Log Entries was set to Enable error log scanning, all criteria unchecked. | DS-888
+Corrected a problem where the SQL- Long running SQL alarm and SQL Server \| Sessions drilldown reported differing status and loginuser. | DS-862
+Corrected the SQL - Long Running SQL alarm script conversion function to return one row per request and not one row per thread. | DS-853
+Corrected a problem where on upgrade Spotlight was sometimes generating errors like: HTTP request to http://127.0.0.1:3166/CommandInBody failed : An existing connection was forcibly closed by the remote host. | DS-852
+Enhanced the process of writing to the Playback Database and Spotlight Statistics Repository to reduce the number of error messages in the adk.log. | DS-848
+Corrected a problem where Spotlight was incorrectly reporting "A full backup has never been taken for database" for some mirrored databases. | DS-847
+Corrected a problem where a Spotlight Connection to an Availability Group failed on the default port. | DS-841
+Cleaned SQL scripts of: Information Monitored Server - SQL Server Collection Execution Failure Collection 'LookupSQLText' failed. | DS-827
+Corrected a problem where Spotlight raised false VMware - Virtual Machine Heartbeat alarm. | DS-826
+Corrected source of error: Monitored Server - SQL Server Secondary Connection Failure: Connection 'SQLServerXEventsChannel' failed to connect: The event data stream was disconnected because there were too many outstanding events. | DS-822
+When the Database Unavailable alarm is raised the message includes the database name. | DS-802
+Corrected a problem where Spotlight raised the alarm: "The SQL Server Agent service status cannot be determined because a registry key cannot be read due to lack of permission." | DS-779
+Corrected a problem where on the SQL Server \| High Availability drilldown, selecting a Log Shipping primary raised error: Invalid column name ("secondary_server") in table ("LogShippingPrimariesSecondaries") | DS-767
+On creating a connection to an Availability Group, testing the connection will now correctly report an invalid listener. | DS-761
+Corrected issue: Procedure s03-psql-6c_sqlserver.sqlfulltextcatalogs failed : Failed to update database "EDDS1080437" because the database is read-only. | DS-712
+Corrected a problem with Alarm Actions where "The details contain" was not filtering properly when multiple alarms were raised. | DS-687
+Corrected a problem where Statement Waits and Workload Analysis failed to handle embedded CDATA. | DS-672
+On the SQL Server \| Performance Health drilldown the scoring algorithm has been revised to make it smarter. Previous reporting of incorrect low scores has been corrected. | DS-489
+Corrected a problem where after migrating the Spotlight Diagnostic Server to another host the Spotlight Statistics Repository Cleaner failed to run.  | DS-413
 
 {% include links.html %}

@@ -14,7 +14,7 @@ folder: SpotlightEnterprise
 ## Run the Spotlight Enterprise executable on each Spotlight Client
 If your enterprise has multiple Spotlight Clients then ensure all Spotlight Clients are included in the upgrade process. If the Spotlight Client and Spotlight Diagnostic Server are running different versions of Spotlight Enterprise, the client will be unable to connect to the Spotlight Diagnostic Server.
 
-If Spotlight Enterprise is deployed as a federated system of multiple Spotlight Diagnostic Server then make sure all the Spotlight Diagnostic Server in the federation are included in the upgrade process.
+If Spotlight Enterprise is deployed as a federated system of multiple Spotlight Diagnostic Server then make sure all the Spotlight Diagnostic Server in the federation are included in the upgrade process. For best practices, refer to [Upgrade Spotlight in a Federated Spotlight Deployment][enterprise_backend_federation_upgrade].
 
 ## Upgrade the Playback Database and Spotlight Statistics Repository
 Following upgrade of the Spotlight Diagnostic Server, the Playback Database and Spotlight Statistics Repository are automatically upgraded the next time they are accessed by the Spotlight Diagnostic Server.
@@ -40,6 +40,22 @@ Upgrade to Spotlight Enterprise from Spotlight on SQL Server 10.0 or above.
 To upgrade from an earlier version of Spotlight on SQL Server than 10.0, upgrade to at least version 10.0 first.
 
 To upgrade from Spotlight on SQL Server 10.5.0, first upgrade to 10.5.2 and then upgrade to Spotlight Enterprise.
+
+### Spotlight Enterprise 12.1 and SQL Server Waits
+On upgrade to Spotlight Enterprise 12.1 there are new categories of wait events on the SQL Server Performance Health drilldown, Wait Statisitcs drilldown and Wait Events drilldown.
+
+Categories of wait prior to 12.1 | Categories of wait 12.1 and above
+---------------------------------|------------------------------------------
+Wait (AlwaysOn)<br>Wait (Backup)<br>Wait (CLR)<br>Wait (DBM)<br>Wait (DTC)<br>Wait (IO)<br>Wait (Latch)<br>Wait (Lock)<br>Wait (Memory)<br>Wait (MISC)<br>Wait (Network)<br>Wait (Preemptive)<br>Wait (ServiceBroker)<br>Wait (SOS) | Wait (Idle)<br>Wait (Other)<br>Wait (Log)<br>Wait (CLR)<br>Wait (IO)<br>Wait (Network)<br>Wait (Memory)<br>Wait (Latch)<br>Wait (Remote Provider)<br>Wait (CPU)<br>Wait (Look)<br>Wait (XTP)
+
+On Playback of data to the previous Spotlight Enterprise version:
+
+Drilldown | Playback to the preious version
+----------|---------------------------------
+Wait Events | Data is displayed under categories of wait 12.1 and above
+Performance Health | The Instance Wait Time chart shows the data
+Wait Statistics | The Wait Time Trend chart shows no data. Waits Detail shows the data as collected under the categories of wait prior to 12.1
+
 
 ### Spotlight Enterprise 12.0.1 and SQL Server Connections \| 'Obscure string literals in SQL text and parameter’
 On upgrade to Spotlight Enterprise 12.0.1 the value of the SQL Server connection property 'Obscure string literals in SQL text and parameters in query plans' will change to 'not selected' for all SQL Server.

@@ -17,11 +17,20 @@ The SQL Server support service.
 
 ### State
 
-The state of the SQL Server support service. For example, Active, Inactive, Not Installed, Not Configured.
+The state of the SQL Server support service.
+
+Active - The service is running.
+Inactive - The service is found and not running.
+Not installed - The service is not found. It is not installed.
+Configured / Not Configured - These states are applicable only when the instance is NOT linked to a Windows operating system.
+
+{% include note.html content="SQL Mail and SQL Agent Mail are included for consistency and given state **Not configured**." %}
 
 ### State Changed
 
 The time and date that the state of the service last changed.
+
+{% include note.html content="The value of **State Changed** is 0 when the instance is linked to a Windows operating system and the status is Inactive or Not installed." %}
 
 ## How to start and stop services
 

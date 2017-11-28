@@ -1,6 +1,6 @@
 ---
 title: Databases drilldown
-last_updated: April 12, 2017
+last_updated: October 16, 2017
 summary: "Drilldown on the details of all databases in SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_drilldown_databases.html
@@ -214,7 +214,6 @@ When a single index is selected in the Indexes grid, the Density grid shows the 
 The Density values shown in this grid derive from the latest statistics for the selected index. If the index statistics are out of date, so too will these values be. Check the Last Updated statistic on the Statistics sub-page for the date on which statistics where last collected. Use the Update Statistics option (available by right-clicking an entry in the Indexes table) to re-collect statistics. Only members of the Spotlight Diagnostic Administrators group can use the Update Statistics option.
 
 #### Index Distribution chart
-(Does not apply to SQL Server 2000)
 When a single index is selected in the Indexes grid above, the Index Distribution chart shows the index distribution histogram for that index.
 
 When SQL Server collects statistics on an index to determine its usefulness for resolving queries, it samples the data in the index and produces a histogram of the key values found. The Index Distribution chart shows that histogram for the selected index.
@@ -247,10 +246,7 @@ This chart can be used to identify skewed indexes. These are indexes that have a
 #### Fragmentation grid
 Shows fragmentation information for all indexes in the SQL Server database. Note that collecting and examining fragmentation information can take considerable time and put significant load on your server.
 
-For information about the Fragmentation statistics displayed on the Fragmentation page:
-
-* SQL Server 2005 and above:- See the sys.dm_db_index_physical_stats DMV.
-* SQL Server 2000:- See the DBCC SHOWCONTIG topic in the Transact-SQL Reference section in Microsoft SQL Server Books Online.
+For information about the Fragmentation statistics displayed on the Fragmentation page see the sys.dm_db_index_physical_stats DMV.
 
 ##### Types of Fragmentation
 The following types of fragmentation can occur in SQL Server tables: Internal and External.
@@ -283,7 +279,6 @@ There are several options available to eliminate (or at least reduce) fragmentat
 
 The following are the best methods for reducing fragmentation:
 
-* If you are using SQL Server 2000, you can use DBCC INDEXDEFRAGto defragment an index without completely rebuilding it. This can be done online while users are accessing and updating the index.
 * DBCC DBREINDEX can be used to rebuild all indexes on the table. Users cannot access the table while this command runs.
 * Running DROP INDEX and CREATE INDEX to rebuild the indexes will eliminate any fragmentation. However, this can be complicated when the index you need to defrag supports a constraint such as a Primary Key. SQL Server will not let you drop the primary key while there are foreign keys referencing it. This problem can be alleviated somewhat by using the DROP_EXISTING clause of CREATE INDEX. Again, the table will be unavailable to users while this runs.
 
@@ -325,30 +320,19 @@ The data for this grid is collected once a day and stored in the Playback Databa
 {% include note.html content="To re-collect the data now, select the criteria and click **Collect now**. This could put significant load on the SQL Server. It is advisable to collect fragmentation information during a quiet period." %}
 
 #### Collection criteria definitions
-The criteria by which data is collected:
+The criteria by which data is collected (Defaults are set by [Configure Defragmentation Check][enterprise_cfgmonitor_defragcheck]):
 
-* Top (most) fragmented indexes - default 50
-* Database name - default *All*
-* Minimum Size - default 10MB = 1280 pages
-* Minimum operations - minimum number of either scan or update operations - default 5
+* Top (most) fragmented indexes
+* Database name
+* Minimum Size - 10MB = 1280 pages
+* Minimum operations - minimum number of either scan or update operations.
 
 #### How to customize the criteria for the default collection
 To customize the collection schedule for the default collection, use the Spotlight Client. Click **Configure \| Scheduling** select the connection and customize the **Fragmentation by Index** schedule.
 
-To customize the criteria used to collect the data (as it is collected automatically once a day) use the Connection Tag property.
+To customize the criteria used to collect the data, use the Spotlight Client. Click **Configure \| Defragmentation Collection**. See [Configure Defragmentation Check][enterprise_cfgmonitor_defragcheck].
+   {% include imageClient.html file="tb_config_defrag.png" alt="Configure Defragmentation Collection" %}
 
-1. From the Spotlight Client, click **Configure \| Connections**.
-   {% include imageClient.html file="tb_config_connections.png" alt="Configure Connections" %}
-2. Right-click on the connection and select **Properties \| Tags**.
-3. Enter the tag name and value in the **Value** field as per the following examples.
-4. Click **Add**.
-
-Configuration | Default value | Tag name | Tag name and value example | Example description
---------------|---------------|----------|--------
-Top (most fragmented indexes)| 50 | frag.RowLimit | frag.RowLimit.100 | Set to collect top 100 most fragmented indexes.
-Database name | *All* | frag.DatabaseName | frag.DatabaseName.sales | Filter on the database called 'sales'.
-Minimum size (Megabytes) |  10 | frag.MinimumSizeMB | frag.MinimumSizeMB.15 | Set the minimum size count to 15 megabytes.
-Minimum operations (number of operations) | 5 | frag.MinimumOperations | frag.MinimumOperations.3 | Set the minimum number of operations to 3.
 
 #### How to defragment an index
 

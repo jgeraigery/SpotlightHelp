@@ -80,6 +80,10 @@ entries:
       url: /sqlserver_alarm_compiles_percentagerecompilations.html
       output: web, pdf
 
+    - title: Databases - Data File Group About to Grow
+      url: /sqlserver_alarm_databases_datafilegroupabouttogrow.html
+      output: web, pdf
+
     - title: Databases - Data File Group Space Used
       url: /sqlserver_alarm_databases_datafilegroupspaceused.html
       output: web, pdf
@@ -248,7 +252,7 @@ entries:
       url: /sqlserver_alarm_services_reportingservicestatus.html
       output: web, pdf
 
-    - title: Services - SQL Agent Mail Status / SQL Mail Status
+    - title: Services - SQL Agent Mail Status
       url: /sqlserver_alarm_services_sqlagentmailstatus.html
       output: web, pdf
 
@@ -1021,14 +1025,6 @@ entries:
           url: /sqlserver_grid_fulltextsearchservice.html
           output: web, pdf
 
-      - title: OLAP Services page
-        output: web
-        subfolderitems:
-
-        - title: OLAP grid
-          url: /sqlserver_grid_olap.html
-          output: web, pdf
-
   - title: Configuration drilldown
     output: web, pdf
     folderitems:
@@ -1131,10 +1127,10 @@ entries:
       url: /sqlserver_troubleshoot_datadisplaycollect.html
       output: web, pdf
 
-  - title: SQL Server hosted on Linux
+  - title: SQL Server 2017 and Linux hosts
     output: web, pdf
     folderitems:
 
-    - title: SQL Server hosted on Linux
+    - title: SQL Server 2017 and Linux hosted SQL Server connections
       url: /sqlserver_unix_partialsupport.html
       output: web, pdf

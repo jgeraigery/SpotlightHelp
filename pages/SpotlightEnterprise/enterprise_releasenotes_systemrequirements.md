@@ -74,8 +74,10 @@ Microsoft Windows Powershell 3.0 or above is required to [access Spotlight from 
 ### Platform
 2 GHz Pentium Dual Core
 
-### Memory
-2 GB RAM
+Host CPUs (2.4GHz) | Host RAM | DS JVM Settings | #DB Connections | #OS Connections
+-------------------|----------|-----------------|-----------------|----------------
+2 cores | 7GB | 2GB | 50 | 50
+4 cores | 14GB | 4GB | 100 | 100
 
 ### Hard disk space
 300 MB
@@ -114,7 +116,7 @@ Client Connectivity Tools - Required to monitor an Analysis Services server.
 #### SQL Server Management Tools
 Required to monitor an Analysis Services server, a SQL Server Replication environment, and the use of Session Trace when monitoring a SQL Server.
 
-The SQL Server Management Tools are available from any SQL Server 2005, SQL Server 2008, SQL Server 2012, SQL Server 2014 or SQL Server 2016 edition except SQL Server Express and SQL Server Compact. The version required corresponds to the latest version of SQL Server that you are monitoring. If you are monitoring SQL Server 2000 servers, you need the Management Tools from SQL Server 2005.
+The SQL Server Management Tools are available from any SQL Server 2005, SQL Server 2008, SQL Server 2012, SQL Server 2014 or SQL Server 2016 edition except SQL Server Express and SQL Server Compact. The version required corresponds to the latest version of SQL Server that you are monitoring. 
 
 #### Internet Access
 Required by Auto Update and Spotlight Cloud. Required to monitor your Spotlight connections from the Spotlight web site or a mobile device.
@@ -214,7 +216,7 @@ It is highly recommended that regular maintenance is performed on the Spotlight 
 
 
 ## Upgrade and compatibility
-Use the Spotlight installer to upgrade from Spotlight on SQL Server version 10.0 or later. To upgrade from an earlier version of Spotlight than 10.0, upgrade to at least version 10.0 before upgrading to 11.7. To upgrade from 10.5.0, first upgrade to 10.5.2 and then upgrade to 12.0.
+Use the Spotlight installer to upgrade from Spotlight on SQL Server version 10.0 or later. To upgrade from an earlier version of Spotlight than 10.0, upgrade to at least version 10.0 before upgrading to 11.7. To upgrade from 10.5.0, first upgrade to 10.5.2 and then upgrade to 12.1.
 
 ### Spotlight Diagnostic Server - upgrade
 The following is transferred during the upgrade:

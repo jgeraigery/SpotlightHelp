@@ -34,7 +34,7 @@ Select from the available categories of waits or select **ALL** for all waits.
 
 
 #### Workload
- Select a workload to investigate for the selected category of wait.
+Select a workload to investigate for the selected category of wait.
 
 The workload items are dependent on the **Category** selected.
 
@@ -52,7 +52,10 @@ Statement | Which SQL statement is contributing most to the wait time?
 
 ### Grids and Charts
 
- TIP: When a Workload Statement is selected, click **View Workload Analysis** to show the statement in the SQL Server \| Workload Analysis drilldown. Workload Analysis will provide execution details of the SQL statement like how many times the query ran.
+TIP: When a Workload Statement is selected, click **View Workload Analysis** to show the statement in the SQL Server \| Workload Analysis drilldown. Workload Analysis will provide execution details of the SQL statement like how many times the query ran.
+
+Use **Export all the statements** to save all SQL statements to a file (default filename SQLStatementList.sql). If the exporting tree list is large, Spotlight will save to multiple files; each output file no greater than 10Mb.
+
 
 #### Category : Category and Workload wait
 
@@ -69,18 +72,15 @@ Wait Time | The wait time spent on this wait type aggregated over the last hour.
 
 Chart | Description
 ------|------------
-Selected item compared to *All* | Show on a time series chart the wait time attributed to the selected workload item and the selected category of wait.
-Current selected item compared | Show on a pie chart the wait time currently attributed to the selected workload item as a proportion of the selected category of wait.
+Selected item compared to *All* | Show on a time series chart the wait time rate (ms/s) attributed to the selected workload item and the selected category of wait.
+Current selected item compared | Show on a pie chart the wait time rate (ms/s) currently attributed to the selected workload item as a proportion of the selected category of wait.
 
 #### Category : Selected category compared to Total
 
 Chart | Description
 ------|------------
-Selected category comparison | Show on a time series chart the wait time attributed to the selected category and the total wait time.
-Current Wait category comparison | Show on a pie chart the wait time currently attributed to the selected category as a proportion of the total wait.
-
-
-
+Selected category comparison | Show on a time series chart the wait time rate (ms/s) attributed to the selected category and the total wait time rate.
+Current Wait category comparison | Show on a pie chart the wait time rate (ms/s) currently attributed to the selected category as a proportion of the total wait time rate.
 
 
 {% include links.html %}
