@@ -88,6 +88,7 @@ GMT Time Zone: The Diagnostic Server shows the wrong time. The Activity drilldow
 
 Known Issue | Issue ID
 ------------|---------
+The Workload Analysis and Wait Events drilldowns do not show data properly when upgrading from Spotlight versions 11.7.1 and below to Spotlight Enterprise 12.1. | DS-1070
 Historical information is not kept for the **Wait Statistics drilldown**. There is no workaround.<br><br>Historical information is not kept for the **SQL Server Wait Statistics Report**. If access to the report data is required please contact Quest Support. | SOSSE-6388
 On the **SQL Activity drilldown \| Query Execution Statistics page** the **Query Plan** column is empty for longer query plans (plans exceeding 43679 characters). *Workaround:* Right click on the blank query plan cell and select to copy the current cell to the clipboard. | SOSSE-6535
 Playback is not currently available for the SQL Server **Databases drilldown \| Fragmented Indexes page**. | SOSSE-6560
