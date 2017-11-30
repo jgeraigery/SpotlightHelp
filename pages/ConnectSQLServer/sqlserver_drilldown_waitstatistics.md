@@ -29,7 +29,6 @@ From the Spotlight Client
 ### Wait Time Trend chart
 Shows the total wait time in milliseconds broken down for the for the following wait types:
 
-* Wait (Idle)
 * Wait (Other)
 * Wait (Log)
 * Wait (CLR)
