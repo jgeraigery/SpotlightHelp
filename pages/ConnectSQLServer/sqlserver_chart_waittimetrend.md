@@ -9,7 +9,6 @@ folder: ConnectSQLServer
 ---
 
 
-* Wait (Idle)
 * Wait (Other)
 * Wait (Log)
 * Wait (CLR)

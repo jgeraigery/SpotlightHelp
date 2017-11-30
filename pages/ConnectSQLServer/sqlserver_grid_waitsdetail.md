@@ -15,7 +15,7 @@ The type of the wait.
 
 ## Category
 
-The category that this wait belongs to. The following categories are used in Spotlight: Idle, Other, Log, CLR, IO, Network, Memory, Latch, Remote Provider, CPU, Lock, XTP.
+The category that this wait belongs to. The following categories are used in Spotlight: Other, Log, CLR, IO, Network, Memory, Latch, Remote Provider, CPU, Lock, XTP.
 
 ## Waiting Tasks Rate (tasks/s)
 
