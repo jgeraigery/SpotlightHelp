@@ -32,7 +32,7 @@ Check the address is a valid IP address or hostname of the ESX server or Virtual
 
 Verify the user has at least a read-only role for the ESX server or VirtualCenter server.
 
-## Hyper-V Server availability
+## VMware Server availability
 
 Verify the VMware Server is available and accessible over the network. Verify TCP port 135 is open.
 
