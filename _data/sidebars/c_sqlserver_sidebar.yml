@@ -514,7 +514,7 @@ entries:
           output: web, pdf
 
         - title: Fragmentation
-          url: /sqlserver_component_fragmentationmax.html
+          url: /sqlserver_component_fragmentation.html
           output: web, pdf
 
         - title: Max I/O Stall Time
