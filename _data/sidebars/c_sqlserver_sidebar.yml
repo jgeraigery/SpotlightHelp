@@ -610,6 +610,10 @@ entries:
           url: /sqlserver_sql_selectedsession.html
           output: web, pdf
 
+        - title: Plan
+          url: /sqlserver_plan.html
+          output: web, pdf
+
         - title: Session Trace
           url: /sqlserver_grid_sessiontrace.html
           output: web, pdf
