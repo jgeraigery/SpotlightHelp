@@ -11,5 +11,8 @@ readonly: true
 
 Issue | ID
 ------|---
+Corrected a problem with the SQL Server \| Sessions drilldown - filtering sessions in playback mode. | SOSSE-7030
+
+
 
 {% include links.html %}
