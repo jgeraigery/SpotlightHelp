@@ -8,16 +8,14 @@ folder: SpotlightMobile
 
 
 
-## Get Spotlight Cloud credentials
+## Get Quest credentials
 Data collected from monitored connections is sent to Spotlight Mobile via the Spotlight Cloud.
 
-A Spotlight Cloud account is required to use Spotlight Mobile. Create a Spotlight Cloud account if you do not already have one. Do this at the [Spotlight web site](https://www.spotlightessentials.com/home/SignUp).
-
-{% include tip.html content="If there are many Spotlight Cloud accounts in your organization, see also [Spotlight Cloud \| Organizations][cloud_settings_organizations]." %}
+A Quest account is required to use Spotlight Mobile. Create a Quest account if you do not already have one. Do this at the [Spotlight web site](https://www.spotlightessentials.com).
 
 ## Configure the Spotlight Diagnostic Server
 
-For Spotlight Mobile to receive data from the Spotlight Diagnostic Server, ensure the Spotlight Cloud account configured to the Spotlight Diagnostic Server is your Spotlight Cloud account or the Spotlight Cloud account of an individual in the same Spotlight Cloud Organization as you.
+For Spotlight Mobile to receive data from the Spotlight Diagnostic Server, ensure the Quest account configured to the Spotlight Diagnostic Server is your Quest account or the Quest account of an individual in the same Spotlight Organization as you.
 
 In a Spotlight Enterprise deployment, use a Spotlight Client to [configure uploading to the Spotlight Cloud][enterprise_cfgds_spotlightcloud].
 
@@ -30,7 +28,7 @@ See https://www.spotlightessentials.com/spotlight/mobile-monitoring.
 
 During installation, you may be given the opportunity to decline to receive push notifications from Spotlight Enterprise. See [Push notifications][mobile_alarm_notifications].
 
-Sign in to the Spotlight Mobile app with your Spotlight Cloud account. If you have many Spotlight Cloud accounts then each can be added to Spotlight Mobile.
+Sign in to the Spotlight Mobile app with your Quest account. If you have many Quest accounts then each can be added to Spotlight Mobile.
 
 
 

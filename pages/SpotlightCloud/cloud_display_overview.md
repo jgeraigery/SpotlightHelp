@@ -11,8 +11,8 @@ folder: SpotlightCloud
 ## Open the Spotlight Overview page
 
 1. From a web browser, open the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
-2. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
-3. Go to the **Monitoring** screen on the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
+2. Sign in using your Quest account. You have already signed in if you see your profile icon {% include inline_imageCloud.html file="tb-profile.png" alt="Account Profile" %} in the top right corner of the screen. If you see a {% include inline_imageCloud.html file="tb-signin.png" alt="Sign in" %} link then you need to sign in.
+3. Click the **Monitoring** tab.
 4. Ways to open the Spotlight Overview page from the **Monitoring** screen:
 
    * Click on a connection on the [Heat Map][cloud_display_heatmap]

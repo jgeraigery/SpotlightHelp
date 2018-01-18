@@ -10,43 +10,20 @@ folder: SpotlightCloud
 ## Open Cloud Settings
 
 1. From a web browser, open the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
-2. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
-3. Click on your profile icon in the top right corner of the web page.
-4. Select **Settings**.
+2. Sign in using your Quest account. You have already signed in if you see your profile icon {% include inline_imageCloud.html file="tb-profile.png" alt="Account Profile" %} in the top right corner of the screen. If you see a {% include inline_imageCloud.html file="tb-signin.png" alt="Sign in" %} link then you need to sign in.
+3. Click on your profile icon {% include inline_imageCloud.html file="tb-profile.png" alt="Account Profile" %}.
+4. Select **Account Settings**.
 
-## Account Details
-Use this section to update any changes to your name. Also use this section to see your email address as known to Spotligt Cloud.
+## Your Profile settings
 
-## Time Zone
-Select your local timezone.
+### Details
+From the *Details* section of *Your Profile* page, you can update your personal details - name and address (including email address) - if required. Scroll down and click **Save** to save changes.
 
-## Interested in New Features
-Express interest in receiving emails on new features and Spotlight updates.
+### ﻿Manage Password
+Click **Change Password** to change your password to your Quest Account.
 
-## User Token
-Generate a new user token.
-
-## Change Password
-Change your sign in password.
-
-## Organization
-Create / Manage an [organization][cloud_settings_organizations].
-
-## Uploads
-Sources of data uploads and date last seen.
-
-## Push Notifications
-Show a historical record of the last 50 [push notifications][cloud_settings_pushnotificationhistory] sent to a mobile device.
-
-
-## Manage Features
-Edit your system health check settings.
-
-
-
-
-
-
+### Your default Organization
+The *Your default Organization* section of *Your Profile* screen shows the name of the Spotlight Organization assigned to your Quest Account. There is an option to rename this organization.
 
 
 

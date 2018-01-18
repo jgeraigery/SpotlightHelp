@@ -18,11 +18,11 @@ See also [Spotlight Services requiring Internet Access][enterprise_backend_ds_in
 
 ### The Spotlight Diagnostic Server must be configured to upload data to the Spotlight Cloud
 
-1. Create a Spotlight Cloud (Spotlight Essentials) account if you do not already have one. Do this at [www.spotlightessentials.com](http://www.spotlightessentials.com).
+1. Create a Quest account if you do not already have one. Do this at [www.spotlightessentials.com](http://www.spotlightessentials.com).
 2. Use a Spotlight Client to [Configure uploading to the Spotlight Cloud][enterprise_cfgds_spotlightcloud].
 
-## Sign in to Spotlight Mobile with your Spotlight Cloud account
-If you have many Spotlight Cloud accounts then each can be added to Spotlight Mobile.
+## Sign in to Spotlight Mobile with your Quest account
+If you have many Quest accounts then each can be added to Spotlight Mobile.
 
 
 ## Push notifications

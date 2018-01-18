@@ -90,13 +90,13 @@ In the rule description, click (add recipient account). This opens the **Send a 
 
 ### To
 
-Enter the Spotlight Cloud (Spotlight Essentials) account name(s) to receive the push notification.
+Enter the Quest account name(s) to receive the push notification.
 
-Note that Spotlight Cloud account names are in the form of an email address. However the push notification is not sent to the email address. The push notification is sent to mobile device(s) where [Spotlight Mobile][mobile_welcome] is installed with Sign in from this(these) Spotlight Cloud account(s).
+Note that Quest account names are in the form of an email address. However the push notification is not sent to the email address. The push notification is sent to mobile device(s) where [Spotlight Mobile][mobile_welcome] is installed with Sign in from this(these) Quest account(s).
 
-When multiple Spotlight Cloud account names are involved, separate each account name with a comma.
+When multiple Quest account names are involved, separate each account name with a comma.
 
-In the case of a Spotlight Cloud (Spotlight Essentials) organization, to send a push notification to all members of the organization, list all members of the organization in the To field.
+In the case of a Spotlight Organization, to send a push notification to all members of the organization, list all members of the organization in the To field.
 
 ### Message
 
@@ -106,7 +106,7 @@ This can include variables. For more information, see [Alarms - Message Variable
 
 ### Test
 
-Click **Test** to send a push notification to mobile device(s) where Spotlight Mobile is installed with Sign in from this(these) Spotlight Cloud account(s). Confirm notifications are working as expected.
+Click **Test** to send a push notification to mobile device(s) where Spotlight Mobile is installed with Sign in from this(these) Quest account(s). Confirm notifications are working as expected.
 
 
 
