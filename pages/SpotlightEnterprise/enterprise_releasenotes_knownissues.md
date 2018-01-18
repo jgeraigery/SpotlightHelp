@@ -74,7 +74,6 @@ Known Issue | Issue ID
 **Unable to receive email attachment** - If the Spotlight Diagnostics Server sends an email with an attachment, that attachment will have a .zip extension. Some email servers automatically reject attachments with a .zip extension. <br><br> *Workaround* - Change the .zip extension to something else. In the Spotlight Diagnostic Server installation folder, in the **Agent/conf** folder, modify the text file **DiagnosticServer.properties** by changing the value of the property **com.quest.adk.email.attachment.extension**. | SOSSE-5698
 
 
-
 ## Monitoring Connections
 
 ### known issues monitoring SQL Server Analysis Services
@@ -88,6 +87,7 @@ GMT Time Zone: The Diagnostic Server shows the wrong time. The Activity drilldow
 
 Known Issue | Issue ID
 ------------|---------
+For some Error Log alarms the option to 'Ignore for this Value' does not work. | SOSSE-7177
 The Monitored Server - SQL Server Secondary Connection Failure alarm is raised with error: "Connection 'SQLServerXEventsChannel' failed to connect: Unknown Identifier asked for extended events. Please connect." <br>*Workaround* Ensure the Spotlight user monitoring the instance has permission to use Extended Events. <br>use master;<br>GRANT ALTER ANY EVENT SESSION TO SpotlightUser;<br> Go<br>USE master;<br>GRANT VIEW SERVER STATE TO SpotlightUser;<br>GO | SOSSE-7092
 The Workload Analysis and Wait Events drilldowns do not show data properly when upgrading from Spotlight versions 11.7.1 and below to Spotlight Enterprise 12.1. | DS-1070
 Historical information is not kept for the **Wait Statistics drilldown**. There is no workaround.<br><br>Historical information is not kept for the **SQL Server Wait Statistics Report**. If access to the report data is required please contact Quest Support. | SOSSE-6388
