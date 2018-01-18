@@ -116,6 +116,50 @@ entries:
       url: /sqlserver_alarm_errorlog_errorcount.html
       output: web, pdf
 
+    - title: Error Log - Fatal Current Process Error (severity level 20)
+      url: /sqlserver_alarm_errorlog_fatalcurrentprocess.html
+      output: web, pdf
+
+    - title: Error Log - Fatal Database Integrity Suspect Error (severity level 23)
+      url: /sqlserver_alarm_errorlog_fataldatabaseintegritysuspect.html
+      output: web, pdf
+
+    - title: Error Log - Fatal Database (dbid) Processes Error (severity level 21)
+      url: /sqlserver_alarm_errorlog_fataldatabaseprocess.html
+      output: web, pdf
+
+    - title: Error Log - Fatal Hardware Error (severity level 24)
+      url: /sqlserver_alarm_errorlog_fatalhardware24.html
+      output: web, pdf
+
+    - title: Error Log - Fatal Hardware Error (severity level 25)
+      url: /sqlserver_alarm_errorlog_fatalhardware25.html
+      output: web, pdf
+
+    - title: Error Log - Fatal Table Integrity Suspect Error (severity level 22)
+      url: /sqlserver_alarm_errorlog_fataltableintegritysuspect.html
+      output: web, pdf
+
+    - title: Error Log - High Severity Message
+      url: /sqlserver_alarm_errorlog_highseverity.html
+      output: web, pdf
+
+    - title: Error Log - Information Severity Message
+      url: /sqlserver_alarm_errorlog_informationseverity.html
+      output: web, pdf
+
+    - title: Error Log - Low Severity Message
+      url: /sqlserver_alarm_errorlog_lowseverity.html
+      output: web, pdf
+
+    - title: Error Log - Medium Severity Message
+      url: /sqlserver_alarm_errorlog_mediumseverity.html
+      output: web, pdf
+
+    - title: Error Log - Nonfatal Error (severity level lower than 20)
+      url: /sqlserver_alarm_errorlog_nonfatal.html
+      output: web, pdf
+
     - title: I/O Stall Time
       url: /sqlserver_alarm_io_stalltime.html
       output: web, pdf

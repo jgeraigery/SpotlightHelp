@@ -33,7 +33,7 @@ Click **Sign up** if you do not have a Quest account. You must use this link to 
 When you have a Quest account then click **Sign in** to enter your Quest account details.
 
 1. You will be prompted to provide Quest account details: name, password, email address and country of residence.
-2. An email will be sent to you from support@quest.com.
+2. An email will be sent to you from supportadmin@quest.com.
 3. Verify your email address in one of two ways:
    * The email contains a verification code. In the Spotlight dialog, enter the verification code and click **Verify Email Address**.
    * Click the **Verify Email Address** link in the email.
