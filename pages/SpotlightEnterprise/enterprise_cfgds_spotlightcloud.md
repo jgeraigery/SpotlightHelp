@@ -33,8 +33,10 @@ Click **Sign up** if you do not have a Quest account. You must use this link to 
 When you have a Quest account then click **Sign in** to enter your Quest account details.
 
 1. You will be prompted to provide Quest account details: name, password, email address and country of residence.
-2. An email will be sent to you from support@quest.com. This email will contain a verification code.
-3. Enter the verification code and click **Verify Email Address**.
+2. An email will be sent to you from support@quest.com.
+3. Verify your email address in one of two ways:
+   * The email contains a verification code. In the Spotlight dialog, enter the verification code and click **Verify Email Address**.
+   * Click the **Verify Email Address** link in the email.
 4. Your Spotlight Organization will now be visible to show that you have signed in and your email address is verified.
 
 
