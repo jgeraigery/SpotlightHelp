@@ -129,6 +129,11 @@ Known Issue | Issue ID
 **Errors in the Windows Security Log.** Specifying OS Connection Details on Windows connections can cause WMI connection errors to be reported in the Windows Security Log of the machine being monitored. This does not affect Spotlight's monitoring capabilities. | 6722
 **Unusually large values displayed in Spotlight.** Spotlight may display unusually large values on some components and charts. These values are incorrect and are due to inaccurate raw performance counter values returned by Microsoft Windows. The following components and charts are affected: <br> *Disk Queue Length chart* (Spotlight on Windows > Disks drilldown > Logical Disk Activity page and Physical Disk Activity page). <br> *Disk Load chart* (Spotlight on Windows > Disks drilldown > Logical Disk Activity page and Physical Disk Activity page). <br><br> *Workaround:* Reboot the machine returning large values. | 5796
 
+### Known issues monitoring VMware
+Known Issue | Issue ID
+------------|---------
+When connecting to VMware with Diagnostic Server credentials Spotlight connects successfully but does not show hosts on the VMware homepage.  | SOSSE-7176
+
 ### known issues monitoring Unix/Linux Server
 
 Known Issue | Issue ID
