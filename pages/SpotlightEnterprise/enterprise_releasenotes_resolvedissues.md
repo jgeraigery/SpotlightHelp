@@ -11,7 +11,6 @@ readonly: true
 
 Issue | ID
 ------|---
-
 Corrected a problem flagging error as the Curl is too old. | SOSSE-7141
 The Failed SQL Agent Jobs Report has been changed to return all jobs in the reporting period and not just the last execution of each job. | SOSSE-7093
 Corrected a problem where in some localizations the Performance Health Rating was invalid with exaggerated values displayed. | SOSSE-7055
