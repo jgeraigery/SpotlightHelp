@@ -26,6 +26,15 @@ Corrected a problem where on uninstall the Spotlight Client icon remained on the
 Corrected a problem where following upgrade / re-install unexpected errors occurred on Query Execution Statistics drilldown. | SOSSE-6623
 Corrected a problem where on configuring the schedules to 'save background data to SSR' for Response Time - this broke the SQL Server Performance Summary Report. | SOSSE-6454
 Corrected a problem with the Connection Discovery wizard where importing a file to update existing tags did not update. | SOSSE-5047
-
+Corrected issue causing the Diagnostic Server to crash with out of memory error; related to Spotlight Cloud data transfer. | DS-1165
+Corrected an issue with the Blocked Processes alarm where alert email stated 'session 70 blocked by session 0'. | DS-1160
+Corrected a problem where the SQL - Long running SQL alarm failed to fire. | DS-1121
+Corrected a problem where the FragmentationByIndex procedure ran at unexpected times. | DS-1120
+Corrected a problem where the following information was not available in Playback - Under Sessions: Sessions, Computers, Active, Active Sessions - Under Processes: Total, System, User, Blocked Processes. | DS-1107
+Corrected a problem where for an alarm configured with keys, using the Alarms dialog to remove the key lead to an unexpected error. | DS-1055
+Corrected a problem where procedure delmsr115_sqlserver.sqlfragmentationbyindex failed. | DS-1039
+Corrected a problem where the SQL Agent - Failed Job alarm requiring acknowledgement was cleared without acknowledgement. | DS-1033
+Changed the time to collected data from Spotlight Cloud to 2:00 am instead of 3:00 am so it is not run at the same time as the Database Maintenance Job. This resolves the cause behind errors like: Collection 'Health Check- Master Files' failed : Failed to convert value 'FG' from column 'type' int | DS-870
+Corrected a problem using Office 365 SMTP client submission to send an email in Spotlight. | DS-783
 
 {% include links.html %}
