@@ -14,17 +14,5 @@ folder: ConnectSQLServer
 * Check the availability of the service.
 * Check the network.
 
-**Workaround to  error: "Connection 'SQLServerXEventsChannel' failed to connect: Unknown Identifier asked for extended events. Please connect."**
-Ensure the Spotlight user monitoring the instance has permission to use Extended Events.
-
-```
-use master;
-GRANT ALTER ANY EVENT SESSION TO SpotlightUser;
-Go
-
-USE master;
-GRANT VIEW SERVER STATE TO SpotlightUser;
-GO
-```
 
 {% include links.html %}
