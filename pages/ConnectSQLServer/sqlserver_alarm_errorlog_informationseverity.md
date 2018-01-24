@@ -1,7 +1,7 @@
 ---
 title: ﻿SQL Server Information Severity Error Log Message alarm
 tags: [sqlserver_alarms]
-summary: "The SQL Server Information Severity Error Log Message alarm becomes active when Spotlight Enterprise detects a new fatal error message that contains one of the custom log entries of information severity that are defined in the Error log entries configuration window."
+summary: "The SQL Server Information Severity Error Log Message alarm becomes active when Spotlight Enterprise detects a new error message that contains one of the custom log entries of information severity that are defined in the Error log entries configuration window."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_errorlog_informationseverity.html
 folder: ConnectSQLServer
