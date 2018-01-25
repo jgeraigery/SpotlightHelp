@@ -45,6 +45,7 @@ Statement | Analyze which SQL statement is contributing most to the workload of 
 
 Use **Export all the statements** to save all SQL statements to a file (default filename SQLStatementList.sql). If the exporting tree list is large, Spotlight will save to multiple files; each output file no greater than 10Mb.
 
+Data from statement nodes can be exported to an .xlsx file for further analysis. Click {% include inline_imageClient.html file="tb_grid_save.png" alt="Workload Analysis export" %}. Data includes: STATEMENT, Avg CPU (ms), Avg Duration (ms), CPU (ms), Duration (ms), %Total Duration, Execution Count, % Total execution Count, Max CPU (ms), Min CPU (ms), Min Duration (ms).
 
 ## 3. The grid
 Show a breakdown of the selected workload for the selected resource.
