@@ -57,6 +57,8 @@ Minimum .NET 4.5.
 
 #### Microsoft Internet Explorer® 6.0 or later.
 
+{% include note.html content="Sign up and Sign in to Spotlight Cloud does not support Internet Explorer 9.0." %}
+
 #### Microsoft Data Access Components (MDAC)
 MDAC includes the ODBC and other components that enable a connection to be established to a SQL Server database. The database may be local or remote. Your client machine must have MDAC 2.7 (or later) installed.
 
@@ -216,6 +218,8 @@ The TCP protocol must be enabled on the instance where the Spotlight Statistics 
 ### Maintenance
 It is highly recommended that regular maintenance is performed on the Spotlight Statistics Repository. See [Maintenance plan for Spotlight Statistics Repository and Playback Database][enterprise_backend_maintenanceplan].
 
+## Spotlight Cloud
+Sign up and Sign in to Spotlight Cloud does not support Internet Explorer 9.0.
 
 ## Upgrade and compatibility
 Use the Spotlight installer to upgrade from Spotlight on SQL Server version 10.0 or later. To upgrade from an earlier version of Spotlight than 10.0, upgrade to at least version 10.0 before upgrading to 11.7. To upgrade from 10.5.0, first upgrade to 10.5.2 and then upgrade to 12.1.
