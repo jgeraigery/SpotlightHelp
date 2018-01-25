@@ -10,6 +10,8 @@ readonly: true
 ---
 
 
+You can now export the tabular data from the SQL Server Workload Analysis and Wait Events drilldowns.
+
 
 
 
