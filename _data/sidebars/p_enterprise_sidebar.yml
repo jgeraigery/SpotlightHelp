@@ -704,10 +704,6 @@ entries:
           url: /cloud_settings.html
           output: web, pdf
 
-        - title: Push Notification History
-          url: /cloud_settings_pushnotificationhistory.html
-          output: web, pdf
-
     - title: Pager Duty
       url: /enterprise_interface_pagerduty.html
       output: web, pdf
