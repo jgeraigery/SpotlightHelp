@@ -41,11 +41,13 @@ User | Analyze which user is contributing most to the workload of the selected r
 Host | Analyze which host is contributing most to the workload of the selected resource.
 Statement | Analyze which SQL statement is contributing most to the workload of the selected resource.
 
-{% include tip.html content="Copy a SQL statement to the clipboard or select part of the SQL statement to copy just the selected part to the clipboard. Right click on the SQL statement to open the SQL statement in an external editor.<br><br>Right click on the SQL statement to show it in the **SQL Server \| Wait Events drilldown**." %}
+Possible actions you can take once the resource and workload item are selected:
 
-Use **Export all the statements** to save all SQL statements to a file (default filename SQLStatementList.sql). If the exporting tree list is large, Spotlight will save to multiple files; each output file no greater than 10Mb.
-
-Data from statement nodes can be exported to an .xlsx file for further analysis. Click {% include inline_imageClient.html file="tb_grid_save.png" alt="Workload Analysis export" %}. Data includes: STATEMENT, Avg CPU (ms), Avg Duration (ms), CPU (ms), Duration (ms), %Total Duration, Execution Count, % Total execution Count, Max CPU (ms), Min CPU (ms), Min Duration (ms).
+* Copy the SQL statement to the clipboard or select part of the SQL statement to copy just the selected part to the clipboard.
+* Right click on the SQL statement to open the SQL statement in an external editor.
+* Right click on the SQL statement to show it in the **SQL Server \| Wait Events drilldown**.
+* Use **Export all the statements** to save all SQL statements to a file (default filename SQLStatementList.sql). If the exporting tree list is large, Spotlight will save to multiple files; each output file no greater than 10Mb.
+* Export data from statement nodes to an .xlsx file for further analysis. Click {% include inline_imageClient.html file="tb_grid_save.png" alt="Workload Analysis export" %}. Data includes: STATEMENT, Avg CPU (ms), Avg Duration (ms), CPU (ms), Duration (ms), %Total Duration, Execution Count, % Total execution Count, Max CPU (ms), Min CPU (ms), Min Duration (ms).
 
 ## 3. The grid
 Show a breakdown of the selected workload for the selected resource.
