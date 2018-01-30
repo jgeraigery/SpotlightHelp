@@ -13,6 +13,7 @@ Issue | ID
 ------|---
 Corrected a problem flagging error as the Curl is too old. | SOSSE-7141
 The Failed SQL Agent Jobs Report has been changed to return all jobs in the reporting period and not just the last execution of each job. | SOSSE-7093
+Corrected a problem where the Generate defragmentation script produced an error for regions set to French. | SOSSE-7063
 Corrected a problem where in some localizations the Performance Health Rating was invalid with exaggerated values displayed. | SOSSE-7055
 Corrected a problem with Spotlight Today when Group by Alarms was in use. | SOSSE-7051
 Corrected problem underlying - Unexpected error: Live result set not available for table SQLDatabaseInfo | SOSSE-7048
@@ -22,11 +23,11 @@ Corrected a problem with SQL Server Analysis Services drilldowns where date colu
 Corrected a problem where on Configure \| Alarms an unexpected error was raised. | SOSSE-7017
 Corrected a problem with the Heatmap display algorithm. | SOSSE-6894
 Corrected a problem where PowerShell commands did not work after import. | SOSSE-6830
-While adding a Windows connection you now have the option to select an initial Alarms Template. | SOSSE-6754
 Corrected a problem where on uninstall the Spotlight Client icon remained on the desktop. | SOSSE-6675
 Corrected a problem where following upgrade / re-install unexpected errors occurred on Query Execution Statistics drilldown. | SOSSE-6623
 Corrected a problem where on configuring the schedules to 'save background data to SSR' for Response Time - this broke the SQL Server Performance Summary Report. | SOSSE-6454
 Corrected a problem with the Connection Discovery wizard where importing a file to update existing tags did not update. | SOSSE-5047
+Corrected a problem where on upgrade some existing connections showed "This connection is not currently being monitored". | DS-1183
 Corrected issue causing the Diagnostic Server to crash with out of memory error; related to Spotlight Cloud data transfer. | DS-1165
 Corrected an issue with the Blocked Processes alarm where alert email stated 'session 70 blocked by session 0'. | DS-1160
 Corrected a problem where the SQL - Long running SQL alarm failed to fire. | DS-1121
@@ -40,7 +41,7 @@ Corrected a problem where the SQL Agent - Failed Job alarm requiring acknowledge
 Improved the code that checks the OOP Collector is started to not block the thread doing the check but timeout if it takes too long. You will see an alarm if the OOP Collector fails to start instead of the Diagnostic Server process being stopped by too many blocked threads being detected. | DS-936
 Changed the time to collected data from Spotlight Cloud to 2:00 am instead of 3:00 am so it is not run at the same time as the Database Maintenance Job. This resolves the cause behind errors like: Collection 'Health Check- Master Files' failed : Failed to convert value 'FG' from column 'type' int | DS-870
 Corrected a problem using Office 365 SMTP client submission to send an email in Spotlight. | DS-783
-
+Corrected a problem where on the SQL Server Sessions drilldown the SQL page was forever loading. | SES-130
 
 
 
