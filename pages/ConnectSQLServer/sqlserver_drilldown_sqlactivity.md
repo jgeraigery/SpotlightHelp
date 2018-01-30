@@ -44,7 +44,16 @@ To show only those sessions that are currently executing,, click **Active only**
 * Data in the Last Wait Type and Last Wait Resource columns is reported directly from SQL Server and, for performance reasons, is not resolved to actual resource names during normal data collection. To resolve the data to a more readable form, click the {% include inline_imageClient.html file="tb_drilldown_question.png" alt="Question mark button" %}  button.
 
 
-#### SQL (The Optimizer Plan Visualisation control)
+#### SQL
+Shows the batch of SQL statements last executed or currently executing by the selected item.
+
+From this window, you can right-click to:
+
+Copy | Copy the SQL text contained in the window to the Windows clipboard.
+Optimize SQL | Use SQL Optimizer (if installed) to tune the displayed SQL.
+Open in External Editor | Open the SQL text in an external editor. The editor set as preferred for .SQL files on your computer is used.
+
+#### Plan
 The Optimizer Plan Visualisation control provides an interactive and intuitive way to view the selected statement and query execution plan.
 
 #### Session Trace
