@@ -663,46 +663,9 @@ entries:
       url: /enterprise_interface_mobile.html
       output: web, pdf
 
-      subfolders:
-      - title: Spotlight web site
-        output: web
-        subfolderitems:
-
-        - title: Spotlight web site
-          url: /enterprise_interface_website.html
-          output: web, pdf
-
-        - title: Heat Map
-          url: /cloud_display_heatmap.html
-          output: web, pdf
-
-        - title: Alarms
-          url: /cloud_display_alarmlist.html
-          output: web, pdf
-
-        - title: Overview
-          url: /cloud_display_overview.html
-          output: web, pdf
-
-        - title: Connections
-          url: /cloud_display_connections.html
-          output: web, pdf
-
-        - title: Diagnose
-          url: /cloud_alarm_diagnose.html
-          output: web, pdf
-
-        - title: Acknowledge
-          url: /cloud_alarm_acknowledge.html
-          output: web, pdf
-
-        - title: Snooze
-          url: /cloud_alarm_snooze.html
-          output: web, pdf
-
-        - title: Cloud Settings
-          url: /cloud_settings.html
-          output: web, pdf
+    - title: Spotlight web site
+      url: /enterprise_interface_website.html
+      output: web, pdf
 
     - title: Pager Duty
       url: /enterprise_interface_pagerduty.html

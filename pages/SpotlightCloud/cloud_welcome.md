@@ -1,16 +1,16 @@
 ---
-title: Spotlight web site
+title: Welcome
+keywords: mobile, welcome, getting started
 summary: "Monitor Spotlight connections from the Spotlight web site."
-sidebar: p_enterprise_sidebar
-permalink: enterprise_interface_website.html
-folder: SpotlightEnterprise
+sidebar: p_cloud_sidebar
+permalink: cloud_welcome.html
+folder: CloudConnect
+readonly: true
 ---
-
-
 
 ## How to monitor Spotlight connections from the Spotlight web site
 
-1. Direct your web browser to [www.spotlightessentials.com](http://www.spotlightessentials.com).
+1. Direct your web browser to [http://www.spotlightessentials.com](http://www.spotlightessentials.com).
 2. Sign in using your Quest account if required. You have already signed in if you see your profile icon {% include inline_imageCloud.html file="tb-profile.png" alt="Account Profile" %} in the top right corner of the screen. If you see a {% include inline_imageCloud.html file="tb-signin.png" alt="Sign in" %} link then you need to sign in.
 3. Click **Monitoring**.
 

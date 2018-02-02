@@ -12,6 +12,8 @@ topnav_dropdowns:
       folderitems:
         - title: Spotlight Enterprise
           url: /enterprise_welcome.html
+        - title: Cloud Connect
+          url: /cloud_welcome.html
         - title: Spotlight Mobile
           url: /mobile_welcome.html
     - title: Connection Types

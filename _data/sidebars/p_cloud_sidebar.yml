@@ -1,0 +1,82 @@
+entries:
+- title: sidebar
+  product: Cloud Connect
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+
+    - title: Welcome
+      url: /cloud_welcome.html
+      output: web, pdf
+
+  - title: Displays
+    output: web, pdf
+    folderitems:
+
+    - title: Heat Map
+      url: /cloud_display_heatmap.html
+      output: web, pdf
+
+    - title: Alarm List
+      url: /cloud_display_alarmlist.html
+      output: web, pdf
+
+    - title: Health Check
+      url: /cloud_display_healthcheck.html
+      output: web, pdf
+
+    - title: Connections
+      url: /cloud_display_connections.html
+      output: web, pdf
+
+    - title: Spotlight Overview pages
+      url: /cloud_display_overview.html
+      output: web, pdf
+
+    - title: Remove a Diagnostic Server
+      url: /cloud_display_removeds.html
+      output: web, pdf
+
+  - title: Alarms
+    output: web, pdf
+    folderitems:
+
+    - title: Acknowledge
+      url: /cloud_alarm_acknowledge.html
+      output: web, pdf
+
+    - title: Snooze
+      url: /cloud_alarm_snooze.html
+      output: web, pdf
+
+  - title: Your Quest Account
+    output: web, pdf
+    folderitems:
+
+    - title: Your Profile
+      url: /cloud_account_yourprofile.html
+      output: web, pdf
+
+    - title: Health Check Settings
+      url: /cloud_account_healthchecksettings.html
+      output: web, pdf  
+
+    - title: Product Downloads
+      url: /cloud_account_productdownloads.html
+      output: web, pdf
