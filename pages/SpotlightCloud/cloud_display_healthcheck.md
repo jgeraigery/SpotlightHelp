@@ -22,7 +22,7 @@ To show the Health Check page for the selected connections, click on the current
 
 ## About health checks
 
-* Implement healthchecks for Security, Disaster Recovery, Index Optimization, Memory, I/O, and Configuration.
+* Healthchecks for Security, Disaster Recovery, Index Optimization, Memory, I/O, and Configuration.
 * Get insight into the performance of each of your instances, including recent history of the instance’s performance, system waits and I/O latency.
 * See how your performance is trending over time and compare one instance with another. Using aggregated statistics from the entire Spotlight community you can compare how your instances perform.
 
