@@ -16,13 +16,8 @@ folder: SpotlightCloud
 5. From the **Product Downloads** section of the menu left of the screen, select as appropriate.
 
 
-## Product Downloads
-
-### Download Tuning Pack
-From the left panel, click **Spotlight Tuning Pack**.
-
-The Spotlight Tuning Pack provides free plan analysis and automated query tuning from inside the SQL Server Management Studio (SSMS).
-
+## Spotlight Tuning Pack
+Download the Spotlight Tuning Pack. The Spotlight Tuning Pack provides free plan analysis and automated query tuning from inside the SQL Server Management Studio (SSMS).
 
 
 {% include links.html %}

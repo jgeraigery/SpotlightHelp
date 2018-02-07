@@ -73,6 +73,10 @@ entries:
       url: /cloud_account_yourprofile.html
       output: web, pdf
 
+    - title: Billing & Subscriptions
+      url: /cloud_account_subscriptions.html
+      output: web, pdf
+
     - title: Health Check Settings
       url: /cloud_account_healthchecksettings.html
       output: web, pdf  
