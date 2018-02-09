@@ -8,7 +8,7 @@ readonly: true
 
 
 
-Copyright 2017 Quest Software Inc. ALL RIGHTS RESERVED.
+Copyright 2018 Quest Software Inc. ALL RIGHTS RESERVED.
 
 This guide contains proprietary information protected by copyright. The software described in this guide is furnished under a software license or nondisclosure agreement. This software may be used or copied only in accordance with the terms of the applicable agreement. No part of this guide may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying and recording for any purpose other than the purchaser’s personal use without the written permission of Quest Software Inc.
 

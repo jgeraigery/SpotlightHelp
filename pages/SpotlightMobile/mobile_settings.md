@@ -20,7 +20,7 @@ Android | iPhone
 
 ### Accounts
 
-List the Spotlight Cloud (Spotlight Essentials) accounts linked to this mobile device. The Spotlight Cloud account name is usually in the form of an email address. You can add and delete accounts and update the account key.
+List the Quest accounts linked to this mobile device. The Quest account name is usually in the form of an email address. You can add and delete accounts and update the account key.
 
 ### Alarm List
 

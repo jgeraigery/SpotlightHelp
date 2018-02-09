@@ -1,7 +1,7 @@
 entries:
 - title: sidebar
   product: Spotlight Enterprise
-  version: 12.1
+  version: 12.2
 
   folders:
 
@@ -241,7 +241,7 @@ entries:
         - title: Planned Outages
           url: /enterprise_connect_plannedoutage.html
           output: web, pdf
-  
+
     - title: Spotlight Overview pages
       url: /enterprise_display_overview.html
       output: web, pdf
@@ -663,55 +663,10 @@ entries:
       url: /enterprise_interface_mobile.html
       output: web, pdf
 
-      subfolders:
-      - title: Spotlight web site
-        output: web
-        subfolderitems:
+    - title: Spotlight web site
+      url: /enterprise_interface_website.html
+      output: web, pdf
 
-        - title: Spotlight web site
-          url: /enterprise_interface_website.html
-          output: web, pdf
-
-        - title: Heat Map
-          url: /cloud_display_heatmap.html
-          output: web, pdf
-
-        - title: Alarms
-          url: /cloud_display_alarmlist.html
-          output: web, pdf
-
-        - title: Overview
-          url: /cloud_display_overview.html
-          output: web, pdf
-
-        - title: Connections
-          url: /cloud_display_connections.html
-          output: web, pdf
-
-        - title: Diagnose
-          url: /cloud_alarm_diagnose.html
-          output: web, pdf
-
-        - title: Acknowledge
-          url: /cloud_alarm_acknowledge.html
-          output: web, pdf
-
-        - title: Snooze
-          url: /cloud_alarm_snooze.html
-          output: web, pdf
-
-        - title: Cloud Settings
-          url: /cloud_settings.html
-          output: web, pdf
-
-        - title: Organizations
-          url: /cloud_settings_organizations.html
-          output: web, pdf
-
-        - title: Push Notification History
-          url: /cloud_settings_pushnotificationhistory.html
-          output: web, pdf
-  
     - title: Pager Duty
       url: /enterprise_interface_pagerduty.html
       output: web, pdf
@@ -879,5 +834,3 @@ entries:
         - title: Remove (break apart) a federation
           url: /enterprise_backend_federation_remove.html
           output: web, pdf
-
- 

@@ -1,7 +1,6 @@
 ---
-title: SQL
-last_updated: March 17, 2017
-summary: "The Optimizer Plan Visualization control provides an interactive and intuitive way to view your plan and statement. The focus is on the selected session for this drilldown."
+title: SQL Statement
+summary: "Shows the batch of SQL statements last executed or currently executing by the selected item."
 sidebar: c_sqlserver_sidebar
 id: SQL_Statement
 permalink: sqlserver_sql_selectedsession.html
@@ -9,16 +8,10 @@ folder: ConnectSQLServer
 ---
 
 
+From this window, you can right-click to:
 
-
-{% include inline_imageClient.html file="tb_optimizerplan_plan.png" alt="Plan" %} | Click to show Visualization.
-{% include inline_imageClient.html file="tb_optimizerplan_sql.png" alt="SQL" %} | Click to show SQL.
-
-
-{% include tip.html content="While the Session Status is running there is an option to **View SQL for Batch**." %}
-
-{% include note.html content="Optimizer Plan Visualization is not available in Playback mode. Display of the SQL Statement is available in Playback mode." %}
-
-
+Copy | Copy the SQL text contained in the window to the Windows clipboard.
+Optimize SQL | Use SQL Optimizer (if installed) to tune the displayed SQL.
+Open in External Editor | Open the SQL text in an external editor. The editor set as preferred for .SQL files on your computer is used.
 
 {% include links.html %}

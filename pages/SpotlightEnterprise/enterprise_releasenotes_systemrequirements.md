@@ -57,6 +57,8 @@ Minimum .NET 4.5.
 
 #### Microsoft Internet Explorer® 6.0 or later.
 
+{% include note.html content="Sign up and Sign in to Spotlight Cloud requires Internet Explorer 10 or above or equivalent browser." %}
+
 #### Microsoft Data Access Components (MDAC)
 MDAC includes the ODBC and other components that enable a connection to be established to a SQL Server database. The database may be local or remote. Your client machine must have MDAC 2.7 (or later) installed.
 
@@ -116,7 +118,7 @@ Client Connectivity Tools - Required to monitor an Analysis Services server.
 #### SQL Server Management Tools
 Required to monitor an Analysis Services server, a SQL Server Replication environment, and the use of Session Trace when monitoring a SQL Server.
 
-The SQL Server Management Tools are available from any SQL Server 2005, SQL Server 2008, SQL Server 2012, SQL Server 2014 or SQL Server 2016 edition except SQL Server Express and SQL Server Compact. The version required corresponds to the latest version of SQL Server that you are monitoring. 
+The SQL Server Management Tools are available from any SQL Server 2005, SQL Server 2008, SQL Server 2012, SQL Server 2014 or SQL Server 2016 edition except SQL Server Express and SQL Server Compact. The version required corresponds to the latest version of SQL Server that you are monitoring.
 
 #### Internet Access
 Required by Auto Update and Spotlight Cloud. Required to monitor your Spotlight connections from the Spotlight web site or a mobile device.
@@ -166,6 +168,7 @@ This estimate assumes default configuration in an average environment. Actual sp
 
 The Playback Database can be installed on:
 
+* SQL Server 2017
 * SQL Server 2016
 * SQL Server 2014
 * SQL Server 2012
@@ -196,6 +199,7 @@ This estimate assumes default configuration in an average environment. Actual sp
 ### SQL Server
 The Spotlight Statistics Repository can be installed on:
 
+* SQL Server 2017
 * SQL Server 2016
 * SQL Server 2014
 * SQL Server 2012
@@ -214,6 +218,8 @@ The TCP protocol must be enabled on the instance where the Spotlight Statistics 
 ### Maintenance
 It is highly recommended that regular maintenance is performed on the Spotlight Statistics Repository. See [Maintenance plan for Spotlight Statistics Repository and Playback Database][enterprise_backend_maintenanceplan].
 
+## Spotlight Cloud
+Sign up and Sign in to Spotlight Cloud requires Internet Explorer 10 or above or equivalent browser.
 
 ## Upgrade and compatibility
 Use the Spotlight installer to upgrade from Spotlight on SQL Server version 10.0 or later. To upgrade from an earlier version of Spotlight than 10.0, upgrade to at least version 10.0 before upgrading to 11.7. To upgrade from 10.5.0, first upgrade to 10.5.2 and then upgrade to 12.1.

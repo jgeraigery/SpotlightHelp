@@ -187,16 +187,16 @@ For example, if the rule is to Send an email if a CPU alarm is raised and Run ac
 
 ### Send Push Notification to my mobile device
 
-Send a push notification to mobile device(s) where Spotlight Mobile is installed with Sign in from the Spotlight Cloud (Spotlight Essentials) account(s) entered into the To field.
+Send a push notification to mobile device(s) where Spotlight Mobile is installed with Sign in from the Quest account(s) entered into the To field.
 
 
 #### To
 
-The Spotlight Cloud (Spotlight Essentials) account name(s) to receive the push notification.
+The Quest account name(s) to receive the push notification.
 
-Note that Spotlight Cloud account names are in the form of an email address. However the push notification is not sent to the email address. The push notification is sent to mobile device(s) where Spotlight Mobile is installed with Sign in from this(these) Spotlight Cloud account name(s).
+Note that Quest account names are in the form of an email address. However the push notification is not sent to the email address. The push notification is sent to mobile device(s) where Spotlight Mobile is installed with Sign in from this(these) Quest account name(s).
 
-When multiple Spotlight Cloud account names are involved, separate each account name with a comma.
+When multiple Quest account names are involved, separate each account name with a comma.
 
 #### Message
 

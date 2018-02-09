@@ -70,9 +70,18 @@ Known Issue | Issue ID
 **Spotlight Alarm Actions** does not have an action to kill a block process. <br><br> *Workaround:* Write a SQL Query to return the SPID and kill the process; put the SQL into the Execute a SQL Script action. | 2669
 **Unable to send email** - This is a known issue under the following circumstances <br><br> Symantec Endpoint Protection is installed on the Spotlight Diagnostic Server and <br> The Spotlight Diagnostic Server is installed on a 64 bit machine and <br> The Spotlight Diagnostic Server installation is 64-bit. <br><br> *Workaround:* "disable the Internet Email Auto-Protect option" in Symantec Endpoint Protection. See also: <br> http://www.symantec.com/business/support/index?page=content&id=TECH95093 and <br> http://www.symantec.com/connect/forums/sep-121-internet-email-auto-protect-and-ccnet-mail-issues | 2266
 **Spotlight Cloud** - On the Configure \| Spotlight Cloud page the links to "Read more" and "Register now" are missing when Microsoft Windows is configured to run in "Windows Classic" mode. <br><br> The links open the web site: https://www.spotlightessentials.com | 2922
+**Spotlight Cloud** - On the Configure \| Spotlight Cloud page, the organization name or the text "My Organization" may be displayed instead of the email address for customers who signed in to Spotlight Cloud using Spotlight Enterprise versions earlier than 12.2. | ENT-217
 **Cap on collections.** To limit Spotlight's load and memory consumption, a cap of 10000 rows is placed on most collections. To modify this cap, edit the following text in file ..\agent\bin\DiagnosticServer.properties: <br><br> "-Dcom.quest.adk.rowLimit=10000" | 11685
 **Unable to receive email attachment** - If the Spotlight Diagnostics Server sends an email with an attachment, that attachment will have a .zip extension. Some email servers automatically reject attachments with a .zip extension. <br><br> *Workaround* - Change the .zip extension to something else. In the Spotlight Diagnostic Server installation folder, in the **Agent/conf** folder, modify the text file **DiagnosticServer.properties** by changing the value of the property **com.quest.adk.email.attachment.extension**. | SOSSE-5698
 
+
+## knows issues connecting to Spotlight Cloud
+
+Known Issue | Issue ID
+------------|---------
+Keyboard shortcuts do not work on the Sign in and Sign up pages. | SOSSE-6887
+Use of the Sign in and Sign up pages requires Internet Explorer 10 or above or equivalent browser. | SOSSE-7188
+When using the Sign in and Sign up pages ensure Internet Explorer Enhanced Security Configuration is disabled. | SCM-88
 
 
 ## Monitoring Connections
@@ -88,6 +97,7 @@ GMT Time Zone: The Diagnostic Server shows the wrong time. The Activity drilldow
 
 Known Issue | Issue ID
 ------------|---------
+For all Error Log alarms the option to 'Ignore for this value only' does not work. | DS-1174
 The Workload Analysis and Wait Events drilldowns do not show data properly when upgrading from Spotlight versions 11.7.1 and below to Spotlight Enterprise 12.1. | DS-1070
 Historical information is not kept for the **Wait Statistics drilldown**. There is no workaround.<br><br>Historical information is not kept for the **SQL Server Wait Statistics Report**. If access to the report data is required please contact Quest Support. | SOSSE-6388
 On the **SQL Activity drilldown \| Query Execution Statistics page** the **Query Plan** column is empty for longer query plans (plans exceeding 43679 characters). *Workaround:* Right click on the blank query plan cell and select to copy the current cell to the clipboard. | SOSSE-6535
@@ -127,6 +137,12 @@ Known Issue | Issue ID
 **Time stamp in Event Log drilldown.** When monitoring a Windows Vista 64-bit or Windows Server 2008 64-bit machine, the time shown for events in the Event Log drilldown is in GMT, not local time. | 4625
 **Errors in the Windows Security Log.** Specifying OS Connection Details on Windows connections can cause WMI connection errors to be reported in the Windows Security Log of the machine being monitored. This does not affect Spotlight's monitoring capabilities. | 6722
 **Unusually large values displayed in Spotlight.** Spotlight may display unusually large values on some components and charts. These values are incorrect and are due to inaccurate raw performance counter values returned by Microsoft Windows. The following components and charts are affected: <br> *Disk Queue Length chart* (Spotlight on Windows > Disks drilldown > Logical Disk Activity page and Physical Disk Activity page). <br> *Disk Load chart* (Spotlight on Windows > Disks drilldown > Logical Disk Activity page and Physical Disk Activity page). <br><br> *Workaround:* Reboot the machine returning large values. | 5796
+
+### Known issues monitoring VMware
+
+Known Issue | Issue ID
+------------|---------
+When connecting to VMware with Diagnostic Server credentials Spotlight connects successfully but does not show hosts on the VMware homepage. | DS-777
 
 ### known issues monitoring Unix/Linux Server
 

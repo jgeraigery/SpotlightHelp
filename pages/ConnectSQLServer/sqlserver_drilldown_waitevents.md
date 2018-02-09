@@ -47,14 +47,20 @@ Host | Which host is contributing most to the wait time?
 Wait Type | Which wait type is contributing most to the wait time?
 Statement | Which SQL statement is contributing most to the wait time?
 
-{% include tip.html content="Copy a SQL statement to the clipboard or select part of the SQL statement to copy just the selected part to the clipboard. Right click on the SQL statement to open the SQL statement in an external editor.<br><br>Right click on the SQL statement to show it in the **SQL Server \| Workload Analysis drilldown**. Workload Analysis will provide execution details of the SQL statement like how many times the query ran." %}
+Possible actions you can take once the category and workload are selected:
+
+* Copy a SQL statement to the clipboard or select part of the SQL statement to copy just the selected part to the clipboard.
+* To open the SQL statement in an external editor, right click on it.
+* To show the SQL statement in the **SQL Server \| Workload Analysis drilldown** right click on it. Workload Analysis will provide execution details of the SQL statement like how many times the query ran.
+* Export data from statement nodes to an .xlsx file for further analysis. Select the SQL statement then click {% include inline_imageClient.html file="tb_grid_save.png" alt="Wait Events export" %}. Data includes: STATEMENT, WAIT TIME, % OF TOTAL WAIT, % OF TOTAL AVAILABLE CPU TIME.
 
 
 ### Grids and Charts
 
-TIP: When a Workload Statement is selected, click **View Workload Analysis** to show the statement in the SQL Server \| Workload Analysis drilldown. Workload Analysis will provide execution details of the SQL statement like how many times the query ran.
+Possible actions you can take on the grids and charts:
 
-Use **Export all the statements** to save all SQL statements to a file (default filename SQLStatementList.sql). If the exporting tree list is large, Spotlight will save to multiple files; each output file no greater than 10Mb.
+* When a Workload Statement is selected, click **View Workload Analysis** to show the statement in the SQL Server \| Workload Analysis drilldown. Workload Analysis will provide execution details of the SQL statement like how many times the query ran.
+* Use **Export all the statements** to save all SQL statements to a file (default filename SQLStatementList.sql). If the exporting tree list is large, Spotlight will save to multiple files; each output file no greater than 10Mb.
 
 
 #### Category : Category and Workload wait

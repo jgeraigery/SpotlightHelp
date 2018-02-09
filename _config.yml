@@ -95,6 +95,7 @@ defaults:
 sidebars:
 - home_sidebar
 - p_enterprise_sidebar
+- p_cloud_sidebar
 - p_mobile_sidebar
 - c_sqlserver_sidebar
 - c_analysisservices_sidebar

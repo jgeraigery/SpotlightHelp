@@ -15,6 +15,6 @@ The Spotlight Diagnostic Server must be configured to allow upload of data to th
 
 ## Use
 
-To retrieve the analysis of this data, use a web browser to sign in with your Spotlight Cloud credentials to [www.spotlightessentials.com](https://www.spotlightessentials.com).
+To retrieve the analysis of this data, use a web browser to sign in with your Quest account to [www.spotlightessentials.com](https://www.spotlightessentials.com).
 
 {% include links.html %}

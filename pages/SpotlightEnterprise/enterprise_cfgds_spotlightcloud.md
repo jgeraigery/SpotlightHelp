@@ -24,19 +24,21 @@ Select **Upload data to Spotlight Cloud** to enable functionality to monitor Spo
 
 If you clear **Upload data to Spotlight Cloud** then Spotlight Cloud services are disabled for this Spotlight Diagnostic Server. Spotlight connections cannot be monitored from the Spotlight web site or Spotlight Mobile. Performance data for health check analysis is not uploaded to the Spotlight Cloud.
 
-## Spotlight Cloud services account details
+## Sign in with Quest account details
 
-Enter Spotlight Cloud (Spotlight Essentials) account details (**Email** or **Username**, **Password**). This section must be filled in when uploading of data to the Spotlight Cloud is enabled. Once filled in, the email (or username) signed in under is provided.
+This section must be filled in when uploading of data to the Spotlight Cloud is enabled. When this section is filled in the Spotlight Organization assigned to your Quest account is on display.
 
-Click [Register Now](https://www.spotlightessentials.com/home/signup) to create a Spotlight Cloud account if you do not already have one. Registration is free.
+Click **Sign up** if you do not have a Quest account. You must use this link to sign up for a Quest account to use with Spotlight Enterprise. The Sign in link on the website (spotlightessentials.com) is specific to the Spotlight Cloud product and cannot be used with the Spotlight Enterprise product.
 
+When you have a Quest account then click **Sign in** to enter your Quest account details.
 
-## Additional references
+1. You will be prompted to provide Quest account details: name, password, email address and country of residence.
+2. An email will be sent to you from supportadmin@quest.com.
+3. Verify your email address in one of two ways:
+   * The email contains a verification code. In the Spotlight dialog, enter the verification code and click **Verify Email Address**.
+   * Click the **Verify Email Address** link in the email.
+4. Your Spotlight Organization will now be visible to show that you have signed in and your email address is verified.
 
-[Spotlight Cloud Services](https://www.spotlightessentials.com/) | The Spotlight web site.
-[Spotlight Mobile](https://www.spotlightessentials.com/spotlight/mobile-monitoring) | Download, setup and install Spotlight Mobile.
-[Register now](https://www.spotlightessentials.com/home/signup) | Register for a Spotlight Cloud Services account
-[Spotlight terms of service](https://www.spotlightessentials.com/static/terms) | Spotlight Services Agreement
 
 ## Upgrades from Spotlight on SQL Server 11.0 or earlier and Spotlight Mobile
 

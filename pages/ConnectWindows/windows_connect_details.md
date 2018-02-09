@@ -10,7 +10,7 @@ folder: ConnectWindows
 
 
 
- 
+
 ## How to enter / edit connection details
 
 Use a Spotlight Client to enter / edit connection details.
@@ -57,6 +57,14 @@ Click **Create** to add a virtual server to the list. Select from:
 #### VM Name
 Select the name of the virtual machine from those hosted by the virtual server.
 
+
+### Alarms template
+
+Select the alarms [configuration template][enterprise_cfgmonitor_templates] to apply to this connection.
+
+Select from any of the Windows configuration templates that you have created through [Configure Alarms][enterprise_cfgmonitor_alarms] or select **Factory Settings Template** to apply the Factory Settings shipped with Spotlight.
+
+{% include tip.html content="The alarms template option is applicable only when creating a new Windows connection. To apply a template to an existing Windows connection, see [Configuration Templates][enterprise_cfgmonitor_templates]." %}
 
 
 ## Test the connection

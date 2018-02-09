@@ -3,16 +3,16 @@ title: Spotlight Overview pages from the Spotlight web site
 tags: [overview_page]
 keywords: overview page, drilldowns
 summary: "A Spotlight overview page captures the performance of a single monitored connection. Flows and components are updated in real time to highlight obvious bottlenecks and problem areas and color coded to indicate when an alarm is raised."
-sidebar: p_enterprise_sidebar
+sidebar: p_cloud_sidebar
 permalink: cloud_display_overview.html
-folder: SpotlightCloud
+folder: CloudConnect
 ---
 
 ## Open the Spotlight Overview page
 
-1. From a web browser, open the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
-2. From the Spotlight web site [Sign in to Spotlight Cloud.](https://www.spotlightessentials.com/home/SignIn)
-3. Go to the **Monitoring** screen on the Spotlight web site - [https://www.spotlightesssentials.com](https://www.spotlightesssentials.com).
+1. From a web browser, open the Spotlight web site - [http://www.spotlightessentials.com](http://www.spotlightessentials.com).
+2. Sign in using your Quest account. You have already signed in if you see your profile icon {% include inline_imageCloud.html file="tb-profile.png" alt="Account Profile" %} in the top right corner of the screen. If you see a {% include inline_imageCloud.html file="tb-signin.png" alt="Sign in" %} link then you need to sign in.
+3. Click the **Monitoring** tab.
 4. Ways to open the Spotlight Overview page from the **Monitoring** screen:
 
    * Click on a connection on the [Heat Map][cloud_display_heatmap]
@@ -31,23 +31,18 @@ Default Color | Severity
 {% include inline_imageClient.html file="icon_alarm_red.png" alt="High color" %} | High
 
 ## Flows and components in an alarm state
-Click on the component in an alarm state to show the alarms raised against the component on the the [Alarm List][cloud_display_alarmlist].
+To list the alarms raised for this connection, open the **Alarms** panel. From the top right of the Overview page, click {% include inline_imageCloud.html file="tb_rightpopup.png" alt="Open the alarms panel" %}
+
+The Alarms panel shows the number of alarms raised of each severity and lists each alarm currently raised. Sort the alarms by time or severity. If many alarms have been raised then use the search feature to search for the alarm and the next and previous links to page through the list of alarms. Click on an alarm for more information.
+
+{% include imageCloud.html file="pane_alarmspanel.png" alt="Alarms Panel" %}
+
+### Alarm focus
+Now you have selected an alarm from the list of alarms. Click **Acknowledge** to acknowledge the alarm. Click **Snooze** to snooze the alarm.
+
+{% include imageCloud.html file="pane_alarmpanel.png" alt="Alarm Panel" %}
 
 ## Flows and components tailored to the connection type
-The Spotlight Overview page flows and components are tailored to the connection type.
-
-<ul>
-{% assign sorted_pages = (site.pages | sort: 'title') %}
-{% for page in sorted_pages %}
-{% for tag in page.tags %}
-{% if tag == "overview_page_for_each_connection_type" %}
-<li><a href="{{ page.url | remove_first:'/' }}">{{page.title}}</a></li>
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ul>
-
-
-
+The Spotlight Overview page flows and components are tailored to the connection type. Hover your mouse over a component for a description.
 
 {% include links.html %}

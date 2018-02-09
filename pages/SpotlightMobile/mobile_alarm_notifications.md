@@ -28,11 +28,4 @@ Ensure Spotlight Mobile is enabled to receive push notifications from Spotlight.
 
 Ensure Spotlight is configured to send push notifications to Spotlight Mobile. In a Spotlight Enterprise deployment, do this from the Spotlight Client. For more information, see [Send a Push Notification Dialog][enterprise_cfgmonitor_alarmaction_pushnotification].
 
-
-## Push notifications history
-
-Show a historical record of the last 50 push notifications sent to the mobile device.
-
-Show [Push Notification History][cloud_settings_pushnotificationhistory]
-
 {% include links.html %}
