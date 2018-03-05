@@ -21,6 +21,12 @@ You work in an OLTP environment and often get complaints about delays in server 
 
 Open the **SQL Server \| SQL Activity Drilldown \| Sessions page**. View the long running SQL.
 
+
+## Did you upgrade from Spotlight Enterprise 12.1 to Spotlight Enterprise 12.2?
+If you added a new Long Running SQL severity in version 12.1, the description will be "Session KEY_VALUE has been executing for toDurationFromMS(LongRunningSQL.total_elapsed_time)", after upgrading to 12.2. This description will lead to the wrong duration time of the raised alarm. To correct this issue, pleae replace the function *toDurationFromMS* with *toDurationFromSec* in descriptions in alarm setting for all customized Long Running SQL alarms when upgrade from 12.1 to 12.2.
+
+Note that this issue only affects customers who had customized long running sql alarm in 12.1 and then upgraded to 12.2. Upgrading from 12.0 or pervious version or clean install of 12.2 will not be affected.
+
 ## Configuration
 
 In Spotlight Enterprise, from a Spotlight Client:
