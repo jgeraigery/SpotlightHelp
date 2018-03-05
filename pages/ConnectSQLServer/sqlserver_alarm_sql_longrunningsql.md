@@ -23,9 +23,7 @@ Open the **SQL Server \| SQL Activity Drilldown \| Sessions page**. View the lon
 
 
 ## Did you upgrade from Spotlight Enterprise 12.1 to Spotlight Enterprise 12.2?
-If you used Spotlight Enterprise 12.1 to configure a new seveity to the SQL - Long Running SQL alarm, then on upgrade to Spotlight Enterprise 12.2 the reporting of the duriation of time of the raised alarm in the description will be incorrect. To correct this issue, pleae replace the function *toDurationFromMS* with *toDurationFromSec* in the Alarm Setting descriptions for all customized Long Running SQL alarms on upgrade to Spotlight Enterprise 12.2.
-
-Note that this issue is specific to upgrades from Spotlight Enterprise 12.1 to 12.2 and configurations saved using Spotlight Enterprise 12.1. Other versions of Spotlight Enterprise and upgrades from Spotlight Enterprise 12.0 and earlier are not affected.
+If you used Spotlight Enterprise 12.1 to configure a new seveity to the SQL - Long Running SQL alarm, then on upgrade to Spotlight Enterprise 12.2 the reporting of the duriation of time of the raised alarm in the description will be incorrect. To correct this issue, pleae replace the function *toDurationFromMS* with *toDurationFromSec* in the Alarm Setting description. This issue is specific to upgrades from Spotlight Enterprise 12.1 to 12.2 and configurations saved using Spotlight Enterprise 12.1. Other versions of Spotlight Enterprise, fresh installs and upgrades from Spotlight Enterprise 12.0 and earlier are not affected.
 
 ## Configuration
 
