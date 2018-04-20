@@ -1,6 +1,6 @@
 ---
 title: Configure uploading to the Spotlight Cloud
-summary: "Enable functionality to monitor Spotlight connections from the Spotlight web site or Spotlight Mobile. Upload performance data for health check analysis."
+summary: "Enable functionality to monitor Spotlight connections from the Spotlight Cloud web site or Spotlight Cloud Mobile. Upload performance data for health check analysis."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_cfgds_spotlightcloud.html
 id: 706
@@ -20,15 +20,15 @@ For federated Spotlight Diagnostic Server you will be prompted to select the Spo
 
 ## Upload data to Spotlight Cloud
 
-Select **Upload data to Spotlight Cloud** to enable functionality to monitor Spotlight connections from the Spotlight web site or Spotlight Mobile. Upload performance data for health check analysis.
+Select **Upload data to Spotlight Cloud** to enable functionality to monitor Spotlight connections from the Spotlight Cloud web site or Spotlight Cloud Mobile. Upload performance data for health check analysis.
 
-If you clear **Upload data to Spotlight Cloud** then Spotlight Cloud services are disabled for this Spotlight Diagnostic Server. Spotlight connections cannot be monitored from the Spotlight web site or Spotlight Mobile. Performance data for health check analysis is not uploaded to the Spotlight Cloud.
+If you clear **Upload data to Spotlight Cloud** then Spotlight Cloud services are disabled for this Spotlight Diagnostic Server. Spotlight connections cannot be monitored from the Spotlight Cloud web site or Spotlight Cloud Mobile. Performance data for health check analysis is not uploaded to the Spotlight Cloud.
 
 ## Sign in with Quest account details
 
 This section must be filled in when uploading of data to the Spotlight Cloud is enabled. When this section is filled in the Spotlight Organization assigned to your Quest account is on display.
 
-Click **Sign up** if you do not have a Quest account. You must use this link to sign up for a Quest account to use with Spotlight Enterprise. The Sign in link on the website (spotlightessentials.com) is specific to the Spotlight Cloud product and cannot be used with the Spotlight Enterprise product.
+Click **Sign up** if you do not have a Quest account. You must use this link to sign up for a Quest account to use with Spotlight Enterprise. The Sign up link on the website (spotlightcloud.io) is specific to the Spotlight Cloud product and cannot be used with the Spotlight Enterprise product.
 
 When you have a Quest account then click **Sign in** to enter your Quest account details.
 
@@ -39,6 +39,11 @@ When you have a Quest account then click **Sign in** to enter your Quest account
    * Click the **Verify Email Address** link in the email.
 4. Your Spotlight Organization will now be visible to show that you have signed in and your email address is verified.
 
+
+## More information on how to monitor Spotlight Enterprise connections from the Spotlight Cloud web site or Spotlight Cloud Mobile
+
+* [Spotlight Cloud Connect][cloud_welcome]
+* [Spotlight Cloud Mobile][mobile_welcome]
 
 ## Upgrades from Spotlight on SQL Server 11.0 or earlier and Spotlight Mobile
 

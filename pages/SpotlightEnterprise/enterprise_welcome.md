@@ -99,7 +99,7 @@ Use Spotlight to monitor the databases and server host connections in your enter
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-body">
-                        <h4>Spotlight Mobile</h4>
+                        <h4>Spotlight Cloud Mobile</h4>
                         <p>Monitor connections remotely via your mobile device</p>
                         <a href="enterprise_interface_mobile.html" class="btn btn-primary">Learn More</a>
                     </div>
@@ -108,8 +108,8 @@ Use Spotlight to monitor the databases and server host connections in your enter
             <div class="col-md-3 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-body">
-                        <h4>Spotlight web site</h4>
-                        <p>Monitor connections from the Spotlight web site and health check analysis</p>
+                        <h4>Spotlight Cloud web site</h4>
+                        <p>Monitor connections from the Spotlight Cloud web site and health check analysis</p>
                         <a href="enterprise_interface_website.html" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>

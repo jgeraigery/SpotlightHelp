@@ -12,7 +12,7 @@ entries:
     - title: Cloud Connect
       url: /cloud_welcome.html
       output: web
-    - title: Spotlight Mobile
+    - title: Spotlight Cloud Mobile
       url: /mobile_welcome.html
       output: web
 

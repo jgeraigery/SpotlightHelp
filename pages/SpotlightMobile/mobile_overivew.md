@@ -1,5 +1,5 @@
 ---
-title: Spotlight Overview pages in Spotlight Mobile
+title: Spotlight Overview pages in Spotlight Cloud Mobile
 tags: [overview_page]
 keywords: overview, mobile
 summary: "A Spotlight overview page captures the performance of a single monitored connection. Flows and components are updated in real time to highlight obvious bottlenecks and problem areas and color coded to indicate when an alarm is raised."
