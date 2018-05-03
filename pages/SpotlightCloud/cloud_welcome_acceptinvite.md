@@ -1,6 +1,6 @@
 ---
-title: Accept an invitation to join Spotlight Cloud
-summary: "Your organization has been setup to monitor Spotlight Enterprise connections in the cloud and you have received an email prompting you to join the organization."
+title: Accept an invitation to join Cloud Connect
+summary: "You have received an email prompting you to join Cloud Connect in your organization."
 sidebar: p_cloud_sidebar
 permalink: cloud_welcome_acceptinvite.html
 folder: CloudConnect
@@ -13,7 +13,7 @@ Open the email invitation and click **Join Now**. This will open the web page to
 
 {% include note.html content="The **Join Now** link is valid for 48 hours. It expires if no action is taken. If it has expired then request any current member of the organization to resend it." %}
 
-{% include note.html content="An email address can be a member of only one organization at a time. If you have already accepted one invitation to join Spotlight Cloud then you cannot use the same email address to accept another invitation." %}
+{% include note.html content="An email address can be a member of only one organization at a time. If you have already accepted one invitation to join Spotlight Cloud or already belong to an organization then other users will not be able to invite you to join their organization." %}
 
 
 ## Create a Quest Account

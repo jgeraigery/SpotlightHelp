@@ -1,7 +1,7 @@
 entries:
 - title: sidebar
   product: Cloud Connect
-  version: 
+  version:
   folders:
 
   - title:
@@ -25,7 +25,7 @@ entries:
       url: /cloud_welcome.html
       output: web, pdf
 
-    - title: Accept an invitation to join Spotlight Cloud
+    - title: Accept an invitation to join Cloud Connect
       url: /cloud_welcome_acceptinvite.html
       output: web, pdf
 
@@ -49,9 +49,17 @@ entries:
       url: /cloud_account_people.html
       output: web, pdf
 
+    - title: Connections
+      url: /cloud_account_connections.html
+      output: web, pdf
+
+    - title: Diagnostic Server
+      url: /cloud_account_diagnosticserver.html
+      output: web, pdf
+
     - title: Health Check Settings
       url: /cloud_account_healthchecksettings.html
-      output: web, pdf  
+      output: web, pdf
 
     - title: Product Downloads
       url: /cloud_account_productdownloads.html
@@ -86,12 +94,20 @@ entries:
           url: /cloud_display_alarmsfaq.html
           output: web, pdf
 
-    - title: Spotlight Overview pages
+    - title: Overview
       url: /cloud_display_overview.html
       output: web, pdf
 
     - title: Health Check
       url: /cloud_display_healthcheck.html
+      output: web, pdf
+
+    - title: Scheduled Maintenance / Incident Reports
+      url: /cloud_display_appstatus.html
+      output: web, pdf
+
+    - title: Auto Refresh and Historical Data
+      url: /cloud_display_history.html
       output: web, pdf
 
     - title: Remove a Diagnostic Server
