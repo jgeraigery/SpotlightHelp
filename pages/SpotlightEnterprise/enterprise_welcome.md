@@ -10,11 +10,11 @@ readonly: true
 
 
 
-Use Spotlight to monitor the databases and server host connections in your enterprise. Spotlight displays a visual representation of the status of the databases in your enterprise, enabling you to drill down to graphical flows that illustrate the rate at which data is moving between server components. Icons display the value of key statistics and measurements. A range of visual graphs and tabular grids provide you with more detailed information.
+Use Spotlight Enterprise to monitor the databases and server host connections in your enterprise. Spotlight Enterprise displays a visual representation of the status of the databases in your enterprise, enabling you to drill down to graphical flows that illustrate the rate at which data is moving between server components. Icons display the value of key statistics and measurements. A range of visual graphs and tabular grids provide you with more detailed information.
 
 
 <div class="row">
-        <h2 class="page-header">Use Spotlight to monitor database and server host connections</h2>
+        <h2 class="page-header">Use Spotlight Enterprise to monitor database and server host connections</h2>
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
                 <div class="panel-body">
@@ -28,7 +28,7 @@ Use Spotlight to monitor the databases and server host connections in your enter
             <div class="panel panel-default text-center">
                 <div class="panel-body">
                     <h4>Displays</h4>
-                    <p>About the displays used to monitor Spotlight connections</p>
+                    <p>About the displays used to monitor Spotlight Enterprise connections</p>
                     <a href="enterprise_display_heatmap.html" class="btn btn-primary">Learn More</a>
                 </div>
             </div>

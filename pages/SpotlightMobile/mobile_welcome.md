@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Spotlight Cloud Mobile
 keywords: mobile, welcome, getting started
 summary: "Spotlight Cloud Mobile operates in an environment where Spotlight Enterprise, Spotlight on SQL Server and / or Spotlight on Oracle is installed. Use Spotlight Cloud Mobile to monitor your Spotlight connections remotely via your mobile device. Spotlight Cloud Mobile features include a heat map, alarms list, alarm details and the ability to snooze and acknowledge alarms."
 sidebar: p_mobile_sidebar

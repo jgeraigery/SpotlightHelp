@@ -113,3 +113,15 @@ entries:
     - title: Remove a Diagnostic Server
       url: /cloud_display_removeds.html
       output: web, pdf
+
+  - title: Legal
+    output: web, pdf
+    folderitems:
+
+    - title: Data Handling and Security
+      url: /cloud_legal_datahandlingsecurity.html
+      output: web, pdf
+
+    - title: Legal Agreements and Policies
+      url: /cloud_legal_legalagreementspolicies.html
+      output: web, pdf
