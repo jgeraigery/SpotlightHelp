@@ -1,6 +1,6 @@
 entries:
 - title: sidebar
-  product: Spotlight Mobile
+  product: Spotlight Cloud Mobile
   version: 2.1
   folders:
 
@@ -24,12 +24,8 @@ entries:
     - title: Welcome
       url: /mobile_welcome.html
       output: web, pdf
-
-    - title: Download and Setup
-      url: /mobile_setup.html
-      output: web, pdf
   
-  - title: Displays
+  - title: Monitoring Displays
     output: web, pdf
     folderitems:
 

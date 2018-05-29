@@ -659,11 +659,11 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Spotlight Mobile
+    - title: Spotlight Cloud Mobile
       url: /enterprise_interface_mobile.html
       output: web, pdf
 
-    - title: Spotlight web site
+    - title: Spotlight Cloud web site
       url: /enterprise_interface_website.html
       output: web, pdf
 

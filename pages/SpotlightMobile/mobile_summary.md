@@ -1,6 +1,6 @@
 ---
-title: Spotlight Mobile Summary
-summary: "Spotlight Mobile monitoring features include a Heatmap, alarm list, alarm details and the ability to snooze and acknowledge alarms."
+title: Spotlight Cloud Mobile Summary
+summary: "Spotlight Cloud Mobile monitoring features include a Heatmap, alarm list, alarm details and the ability to snooze and acknowledge alarms."
 sidebar: p_mobile_sidebar
 permalink: mobile_summary.html
 folder: SpotlightMobile
@@ -24,8 +24,8 @@ Screen / Action | Android | iPhone | Description
 [Acknowledge Alarm][mobile_alarm_acknowledge] | {% include inline_imageMobile.html file="tap_android-ack-icon.png" alt="Ack Android" %} | {% include inline_imageMobile.html file="tap_Ack-button-iOs.png" alt="Ack ios" %} | Acknowledge an instance of an alarm requiring acknowledgment.
 [Snooze Alarm][mobile_alarm_snooze] | {% include inline_imageMobile.html file="tap_android-snooze-icon.png" alt="Snooze Android" %} | {% include inline_imageMobile.html file="tap_iOS-snooze-icon.png" alt="Snooze iPhone" %} | Temporarily remove the visual alert associated with an alarm.  
 [Playback][mobile_playback] | {% include inline_imageMobile.html file="tap_playback-icon_iphone.png" alt="Playback" %} | {% include inline_imageMobile.html file="tap_playback-icon_iphone.png" alt="Playback" %} | Reproduce the Spotlight overview page for a date and time from the recent past.
-[Settings][mobile_settings] | {% include inline_imageMobile.html file="tap_android-settings-icon.png" alt="Settings Android" %} | {% include inline_imageMobile.html file="tap_iOS_settings_icon.png" alt="Settings iPhone" %} |  Configure Spotlight Mobile.
-[Profile][mobile_profile] | {% include inline_imageMobile.html file="tap_android-users-profile-icon.png" alt="Profile Android" %} | {% include inline_imageMobile.html file="tap_iOS-users-profile-icon.png" alt="Profile iPhone" %} | Show / change the current user. This is applicable where more than one Quest user has signed in to Spotlight Mobile.
+[Settings][mobile_settings] | {% include inline_imageMobile.html file="tap_android-settings-icon.png" alt="Settings Android" %} | {% include inline_imageMobile.html file="tap_iOS_settings_icon.png" alt="Settings iPhone" %} |  Configure Spotlight Cloud Mobile.
+[Profile][mobile_profile] | {% include inline_imageMobile.html file="tap_android-users-profile-icon.png" alt="Profile Android" %} | {% include inline_imageMobile.html file="tap_iOS-users-profile-icon.png" alt="Profile iPhone" %} | Show / change the current user. This is applicable where more than one Quest user has signed in to Spotlight Cloud Mobile.
 [Refresh][mobile_refresh] | {% include inline_imageMobile.html file="tap_android-refresh-icon.png" alt="Refresh Android" %} | {% include inline_imageMobile.html file="tap_iOS-refresh-icon.png" alt="Refresh iPhone" %} | Refresh the screen. The time and date of the last refresh is on display. From time to time the refresh button may be grayed out (disabled).
 
 

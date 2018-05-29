@@ -15,8 +15,8 @@ Spotlight | PagerDuty
 A Spotlight alarm is raised satisfying the conditions for an incident to be raised in PagerDuty. | A new incident is raised in PagerDuty.
 The alarm severity level changes in Spotlight; the alarm is still not resolved. | The incident is updated in PagerDuty with the new severity level.
 The alarm's severity level changes in Spotlight such that the alarm is resolved. | The incident is resolved in PagerDuty.
-The alarm is acknowledged (Acknowledge) in Spotlight (Spotlight Client, Spotlight web site or Spotlight Mobile) | The incident is resolved in PagerDuty.
-The alarm is snoozed (Snooze) in Spotlight (Spotlight Client, Spotlight web site or Spotlight Mobile) | The incident is updated in PagerDuty.
+The alarm is acknowledged (Acknowledge) in Spotlight (Spotlight Client, Spotlight Cloud web site or Spotlight Cloud Mobile) | The incident is resolved in PagerDuty.
+The alarm is snoozed (Snooze) in Spotlight (Spotlight Client, Spotlight Cloud web site or Spotlight Cloud Mobile) | The incident is updated in PagerDuty.
 No change in Spotlight. | The incident is acknowledged or resolved in PagerDuty.
 
 

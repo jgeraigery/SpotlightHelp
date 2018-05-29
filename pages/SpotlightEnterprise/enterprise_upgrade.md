@@ -105,7 +105,7 @@ The alarms that were factory set to require acknowledgment in Spotlight on SQL S
 *  Mirroring Failedover
 *  SQL Agent - Jobs Failed
 
-### Spotlight on SQL Server Enterprise 11.1.x or earlier and Spotlight Mobile
+### Spotlight on SQL Server Enterprise 11.1.x or earlier and Spotlight Cloud Mobile
 If you used Spotlight on SQL Server 11.1.x or earlier to monitor your Spotlight connections on a mobile device and intend to continue monitoring your connections on a mobile device then the following additional upgrade instructions are required.
 
 1. Uninstall the **Spotlight Web Publisher** via **Windows \| Control Panel \| Programs and Features**. The Spotlight Web Publisher was required in the past to monitor SQL Server connections on a mobile device. It is now important that you uninstall it. By default the Spotlight Web Publisher was installed on the same computer as the Spotlight Diagnostic Server.

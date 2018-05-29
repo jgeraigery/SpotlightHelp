@@ -1,7 +1,7 @@
 entries:
 - title: sidebar
   product: Cloud Connect
-  version: 
+  version:
   folders:
 
   - title:
@@ -25,44 +25,12 @@ entries:
       url: /cloud_welcome.html
       output: web, pdf
 
-  - title: Displays
-    output: web, pdf
-    folderitems:
-
-    - title: Heat Map
-      url: /cloud_display_heatmap.html
+    - title: Accept an invitation to join Cloud Connect
+      url: /cloud_welcome_acceptinvite.html
       output: web, pdf
 
-    - title: Alarm List
-      url: /cloud_display_alarmlist.html
-      output: web, pdf
-
-    - title: Health Check
-      url: /cloud_display_healthcheck.html
-      output: web, pdf
-
-    - title: Connections
-      url: /cloud_display_connections.html
-      output: web, pdf
-
-    - title: Spotlight Overview pages
-      url: /cloud_display_overview.html
-      output: web, pdf
-
-    - title: Remove a Diagnostic Server
-      url: /cloud_display_removeds.html
-      output: web, pdf
-
-  - title: Alarms
-    output: web, pdf
-    folderitems:
-
-    - title: Acknowledge
-      url: /cloud_alarm_acknowledge.html
-      output: web, pdf
-
-    - title: Snooze
-      url: /cloud_alarm_snooze.html
+    - title: Supported Web Browsers
+      url: /cloud_welcome_browsersupport.html
       output: web, pdf
 
   - title: Your Quest Account
@@ -77,10 +45,83 @@ entries:
       url: /cloud_account_subscriptions.html
       output: web, pdf
 
+    - title: People
+      url: /cloud_account_people.html
+      output: web, pdf
+
+    - title: Connections
+      url: /cloud_account_connections.html
+      output: web, pdf
+
+    - title: Diagnostic Server
+      url: /cloud_account_diagnosticserver.html
+      output: web, pdf
+
     - title: Health Check Settings
       url: /cloud_account_healthchecksettings.html
-      output: web, pdf  
+      output: web, pdf
 
     - title: Product Downloads
       url: /cloud_account_productdownloads.html
+      output: web, pdf
+
+  - title: Monitoring Displays
+    output: web, pdf
+    folderitems:
+
+    - title: Sign in and Monitor Connections
+      url: /cloud_display_connections.html
+      output: web, pdf
+
+    - title: Heat Map
+      url: /cloud_display_heatmap.html
+      output: web, pdf
+
+      subfolders:
+      - title: Alarms
+        output: web
+        subfolderitems:
+
+        - title: Alarms Page
+          url: /cloud_display_alarmspage.html
+          output: web, pdf
+
+        - title: Alarms Panel
+          url: /cloud_display_alarmspanel.html
+          output: web, pdf
+
+        - title: Alarms FAQ
+          url: /cloud_display_alarmsfaq.html
+          output: web, pdf
+
+    - title: Overview
+      url: /cloud_display_overview.html
+      output: web, pdf
+
+    - title: Health Check
+      url: /cloud_display_healthcheck.html
+      output: web, pdf
+
+    - title: Scheduled Maintenance / Incident Reports
+      url: /cloud_display_appstatus.html
+      output: web, pdf
+
+    - title: Auto Refresh and Historical Data
+      url: /cloud_display_history.html
+      output: web, pdf
+
+    - title: Remove a Diagnostic Server
+      url: /cloud_display_removeds.html
+      output: web, pdf
+
+  - title: Legal
+    output: web, pdf
+    folderitems:
+
+    - title: Data Handling and Security
+      url: /cloud_legal_datahandlingsecurity.html
+      output: web, pdf
+
+    - title: Legal Agreements and Policies
+      url: /cloud_legal_legalagreementspolicies.html
       output: web, pdf

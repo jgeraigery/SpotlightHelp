@@ -1,5 +1,5 @@
 ---
-title: Diagnose alarms in Spotlight Mobile
+title: Diagnose alarms in Spotlight Cloud Mobile
 keywords: alarms
 sidebar: p_mobile_sidebar
 permalink: mobile_alarm_diagnose.html

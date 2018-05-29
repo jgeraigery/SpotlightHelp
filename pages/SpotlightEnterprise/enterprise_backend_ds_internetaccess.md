@@ -15,7 +15,7 @@ folder: SpotlightEnterprise
 
 ### Configure uploading to Spotlight Cloud
 
-Monitor Spotlight connections in a web browser or Spotlight Mobile. Upload performance data for health check analysis. See [Upload to the Spotlight Cloud][enterprise_cfgds_spotlightcloud].
+Monitor Spotlight connections in a web browser or Spotlight Cloud Mobile. Upload performance data for health check analysis. See [Upload to the Spotlight Cloud][enterprise_cfgds_spotlightcloud].
 
 
 ## How to ensure the Spotlight Diagnostic Server is appropriately configured to access the Internet
@@ -62,7 +62,7 @@ Spotlight Cloud requires incoming and outgoing HTTPS connections to the followin
 
 URL | Web browser lookup
 ----|-------------------
-https://www.spotlightessentials.com | Successful display of the Spotlight web site confirms HTTPS port 443 is open.
+https://www.spotlightessentials.com | Successful display of the Spotlight Cloud web site confirms HTTPS port 443 is open.
 https://api.spotlightessentials.com | Successful display of the text “Welcome to Spotlight Web API!” confirms access for uploading.
 
 

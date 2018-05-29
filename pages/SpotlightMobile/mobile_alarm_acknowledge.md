@@ -1,5 +1,5 @@
 ---
-title: Acknowledge alarms in Spotlight Mobile
+title: Acknowledge alarms in Spotlight Cloud Mobile
 tags: [acknowledge]
 keywords: alarm, acknowledge, mobile
 summary: "For alarms that require acknowledgment, each raised instance of the alarm remains present in Spotlight until the instance is acknowledged."
@@ -29,6 +29,6 @@ folder: SpotlightMobile
 
 ## How to configure an alarm to require acknowledgment
 
-{% include note.html content="In a Spotlight Enterprise deployment, use a Spotlight Client to configure an alarm to require acknowledgment. Spotlight Mobile does not have the facility to configure a Spotlight Enterprise deployment." %}
+{% include note.html content="In a Spotlight Enterprise deployment, use a Spotlight Client to configure an alarm to require acknowledgment. Spotlight Cloud Mobile does not have the facility to configure a Spotlight Enterprise deployment." %}
 
 {% include links.html %}
