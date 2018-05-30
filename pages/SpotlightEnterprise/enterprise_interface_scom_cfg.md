@@ -9,7 +9,7 @@ folder: SpotlightEnterprise
 
 
 ## Download
-To download the Spotlight Management Pack for SCOM, see: [https://www.spotlightessentials.com/download](https://www.spotlightessentials.com/download).
+Download the Spotlight Management Pack for SCOM: [http://spotlight.blob.core.windows.net/public/Quest.SoSSE.MP.v12.0.zip](http://spotlight.blob.core.windows.net/public/Quest.SoSSE.MP.v12.0.zip).
 
 
 ## Unpack the Spotlight Management Pack for SCOM
