@@ -37,13 +37,9 @@ The following alarms are not supported when SQL Server 2017 is hosted on Linux:
 * SQL Agent - Long Running Jobs (Time)
 * SQL Agent - Status
 * Tempdb File Location
-* Virtualization alarms
 
 ## Spotlight Overview page for SQL Server connections
-The following components are not supported when SQL Server is hosted on Linux:
-
-* On the System panel, Custom Counters are not supported.
-* On the Processes panel, the Virtualization component is not supported.
+When SQL Server is hosted on Linux, on the System panel, Custom Counters are not supported.
 
 
 ## SQL Server Drilldowns
