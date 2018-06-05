@@ -112,6 +112,10 @@ entries:
       url: /sqlserver_alarm_databases_unavailable.html
       output: web, pdf
 
+    - title: Error Log - Critical Error (severity level lower than 20)
+      url: /sqlserver_alarm_errorlog_nonfatal.html
+      output: web, pdf
+
     - title: Error Log - Error Count
       url: /sqlserver_alarm_errorlog_errorcount.html
       output: web, pdf
@@ -154,10 +158,6 @@ entries:
 
     - title: Error Log - Medium Severity Message
       url: /sqlserver_alarm_errorlog_mediumseverity.html
-      output: web, pdf
-
-    - title: Error Log - Nonfatal Error (severity level lower than 20)
-      url: /sqlserver_alarm_errorlog_nonfatal.html
       output: web, pdf
 
     - title: I/O Stall Time
