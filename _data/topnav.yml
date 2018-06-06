@@ -18,7 +18,7 @@ topnav_dropdowns:
           url: /enterprise_backend.html
         - title: Federation of Diagnostic Servers
           url: /enterprise_backend_federation.html
-    - title: Data Interfaces
+    - title: Interfaces
       folderitems:
         - title: Spotlight Client
           url: /enterprise_interface_client.html
