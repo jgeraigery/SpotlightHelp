@@ -16,6 +16,8 @@ When data is uploaded to cloud Connect it is sent via https to a cloud-based ser
 ## Where is customer data stored?
 As of April 2018, all data is uploaded to Azure datacenters in North America. The datacenters utilized include: *North Central*, *South Central* and *East US2*.
 
+The best place to go is the [Windows Azure](https://azure.microsoft.com/en-us/overview/trusted-cloud/) site itself.
+
 ## How long is customer data kept?
 Data uploaded to Cloud Connect is kept indefinitely. However, we make no promises about how long we'll keep customers' data. Quest may purge 'old data' in order to keep our financial costs under control.
 
@@ -31,7 +33,7 @@ Data uploaded to Cloud Connect is kept indefinitely. However, we make no promise
 The best place to go is the [Windows Azure](https://azure.microsoft.com/en-us/overview/trusted-cloud/) site itself.
 
 ## Appendix A
-The following data is collected from monitored connections by the Spotlight Diagnostic Server. It is uploaded as XML (Atom feed).
+The following data is collected from monitored connections by the Spotlight Diagnostic Server. It is uploaded as a JSON.
 
 1.	master.sys.sql_logins
      1.	name,
