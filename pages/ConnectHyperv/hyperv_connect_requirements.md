@@ -11,7 +11,7 @@ folder: ConnectHyperv
 
 Hyper-V® 6.2 and above.
 
-The username used to connect to the virtual guest machine must have at least a read-only role.
+If you select to fill in the user and password fields, verify the user has the privileges required to retrieve server information and access WMI.
 
 Ensure any firewall is configured to open TCP port 135.
 

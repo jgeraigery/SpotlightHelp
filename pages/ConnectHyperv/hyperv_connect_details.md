@@ -33,7 +33,7 @@ Specify the authentication for Spotlight to use to connect to the Hyper-V server
 
 Select **Use Diagnostic Server credentials** to use the Windows user configured to run the Spotlight Diagnostic Server.
 
-Alternatively, fill in the **User** and **Password** fields. The user must have at least a read-only role.
+Alternatively, fill in the **User** and **Password** fields. Verify the user has the privileges required to retrieve server information and access WMI.
 
 
 ## Test the connection
