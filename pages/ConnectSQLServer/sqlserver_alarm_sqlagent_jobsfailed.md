@@ -19,4 +19,19 @@ When the alarm is raised, open the **SQL Server \| Support Services drilldown \|
 
 
 
+All failed jobs for the SQLAgentJobsFailed procedure are collected. Multiple alarms are raised within one collection (5 minutes) when there is a job failed every one minute.
+In addition, the new script also resolves DS-1132 as we added the StepName column that the new script retrieves. (for SOSSe this column refers to null)
+
+Another modification is to create a new column named "ID" which is built out of JobId-LastRunTime columns in order to make a unique identifier for each row and support alarming for multiple jobs failed within one execution.
+
+Execute SQLAgentJobList and SQLAgentJobsFailed for sqlserver version 2005+ and see that data is retrieved.
+Make sure alarms are raised for SQLAgentJobsFailed.
+
+
+Document that we notify again about all failures of a job (top failures actually) during past 5 minutes
+
+
+
+
+
 {% include links.html %}
