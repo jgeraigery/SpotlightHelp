@@ -48,7 +48,7 @@ Known Issue | Issue ID
 Known Issue | Issue ID
 ------------|---------
 **History Browser and Playback mode.** Playback data is collected at scheduled intervals, in response to some alarms, and also while viewing a drilldown using the Spotlight client. This means that history data may not be available for a drilldown in Playback mode. To change the rate at which data is collected, go to **Configure \| Scheduling**. | N/A
-
+The **Show System Sessions** filter is not supported in Playback mode. | SoSSE-7031
 
 
 ## known issues using the Spotlight Statistics Repository
