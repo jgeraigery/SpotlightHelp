@@ -16,7 +16,7 @@ Where user / password details are required ensure the user us a member of the [S
 
 From Windows Powershell, enter command: **Import-DS | Add-DS -PassThru**.
 
-{% include tip.html content="Use Get-DS to verify the Spotlight Diagnostic Server has been imported correctly. Get-DS will show imported Spotlight Diagnostic Server addresses." %}
+{% include tip.html content="Enter command **get-dS** to verify the Spotlight Diagnostic Server has been imported correctly. Get-DS will show imported Spotlight Diagnostic Server addresses." %}
 
 {% include tip.html content="In some special situations or for some platforms, if **Import-DS** does not work for you then open the **Console** directory in the Spotlight Client installation directory (usually C:\Program Files (x86)\Quest Software\Spotlight Enterprise). Right click the file **ds-cli.cmd** and select **Open** to open the command prompt." %}
 
