@@ -10,9 +10,13 @@ folder: SpotlightEnterprise
 ## Requirements
 Microsoft Windows Powershell 3.0 or above is required. Older operating systems (for example Windows Server 2008 R2) require an upgrade of the Windows Management Framework in order to access Spotlight from the command line. [Download Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595)
 
+Where user / password details are required ensure the user us a member of the [Spotlight Diagnostic User Groups](enterprise_backend_spotlightdiagnosticusergroups) **Spotlight Diagnostic Administrators** or **Spotlight Diagnostic Users**. Where there are multiple Spotlight Diagnostic Servers in a [federation](enterprise_backend_federation) the user is required to be a member of the Spotlight Diagnostic User Groups for all Spotlight Diagnostic Servers in the federation.
+
 ## 1. Access Spotlight from Windows Powershell / the command line
 
-From Windows Powershell, enter command: **Import-DS**.
+From Windows Powershell, enter command: **Import-DS | Add-DS -PassThru**.
+
+{% include tip.html content="Use Get-DS to verify the Spotlight Diagnostic Server has been imported correctly. Get-DS will show imported Spotlight Diagnostic Server addresses." %}
 
 {% include tip.html content="In some special situations or for some platforms, if **Import-DS** does not work for you then open the **Console** directory in the Spotlight Client installation directory (usually C:\Program Files (x86)\Quest Software\Spotlight Enterprise). Right click the file **ds-cli.cmd** and select **Open** to open the command prompt." %}
 
