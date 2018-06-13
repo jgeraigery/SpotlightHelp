@@ -147,15 +147,9 @@ end
 
 --Grant CONTROL SERVER to TrustedUser
 
------un-comment the following lines for SQL Server 2012 and above.
+-----un-comment the following line for SQL Server 2012 and above.
 
 --Grant ALTER ANY EVENT SESSION to TrustedUser
-
---ALTER ANY EVENT SESSION and VIEW SERVER STATE
-
------un-comment the following line for SQL Server 2008.
-
---CONTROL SERVER
 ```
 
 ### Known issues with this script
