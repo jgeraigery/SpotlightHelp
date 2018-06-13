@@ -40,25 +40,40 @@ On each line of the file, detail an existing SQL Server instance on your network
 ConnectionString
 ```
 
-Connect to this SQL Server instance with Windows authentication. The credentials of the Windows user configured to run the Spotlight Diagnostic Server are used.
+Connect to this SQL Server instance with Windows authentication. The credentials of the Windows user configured to run the Spotlight Diagnostic Server are used. Create a corresponding link to the SQL Server host operating system.
 
 ```
 ConnectionString,User,Password
 ```
 
-Connect to this SQL Server instance with database user and password. Specify the database user and password.
+Connect to this SQL Server instance with database user and password. Specify the database user and password. Create a corresponding link to the SQL Server host operating system.
 
 ```
-ConnectionString,,,#Tag
+ConnectionString1,,,\CreateOSConnection:false
+ConnectionString2,User,Password,\CreateOSConnection:false
 ```
 
-Connect to this SQL Server instance with Windows authentication. The credentials of the Windows user configured to run the Spotlight Diagnostic Server are used. Assign one or more connection tags to the instance. Add multiple tags to the line by separating each tag with a comma.
+Connect to these SQL Server instances. Do not create a corresponding link to the SQL Server host operating system. In the first string use windows authentication. In the second string, specify the database user and password.
 
 ```
-ConnectionString,User,Password,#Tag
+DefaultCreateConnection:false
+ConnectionString1,User,Password
+ConnectionString2,User,Password,\CreateOSConnection:true
 ```
 
-Connect to this SQL Server instance with the database user and password. Assign one or more connection tags to the instance. Add multiple tags to the line by separating each tag with a comma.
+Set that by default Spotlight does not create a corresponding link to the SQL Server host operating system. **DefaultCreateConnection:false** should be the first line of the import file. For ConnectionString1 Spotlight does not create a corresponding link to the SQL Server host operating system. For ConnectionString2 Spotlight does create a corresponding link to the SQL Server host operating system. 
+
+```
+ConnectionString,,,,#Tag
+```
+
+Connect to this SQL Server instance with Windows authentication. The credentials of the Windows user configured to run the Spotlight Diagnostic Server are used. Create a corresponding link to the SQL Server host operating system. Assign one or more connection tags to the instance. Add multiple tags to the line by separating each tag with a comma.
+
+```
+ConnectionString,User,Password,,#Tag
+```
+
+Connect to this SQL Server instance with the database user and password. Create a corresponding link to the SQL Server host operating system. Assign one or more connection tags to the instance. Add multiple tags to the line by separating each tag with a comma.
 
 
 ### More information on the connection string and connection tags follows.
