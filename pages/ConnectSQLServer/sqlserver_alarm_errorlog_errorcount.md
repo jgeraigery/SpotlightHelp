@@ -2,7 +2,7 @@
 title: ﻿Error Log - Error Count alarm
 tags: [sqlserver_alarms]
 last_updated: July 29, 2016
-summary: "The Error Log - Error Count alarm becomes active when Spotlight Enterprise detects messages that could be potential problems in the SQL Sever error log."
+summary: "The Error Log - Error Count alarm counts the total number of entries that were filtered from the SQL Server Error Log during the last sampling period according to the match/ignore filtering rules set by Configure Error Log Entries."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_errorlog_errorcount.html
 id: Home.btnErrorLog.ErrorCount.Alarm
