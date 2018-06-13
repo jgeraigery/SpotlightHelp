@@ -120,10 +120,6 @@ entries:
       url: /sqlserver_alarm_errorlog_errorcount.html
       output: web, pdf
 
-    - title: Error Log - Fatal Current Process Error (severity level 20)
-      url: /sqlserver_alarm_errorlog_fatalcurrentprocess.html
-      output: web, pdf
-
     - title: Error Log - Fatal Database Integrity Suspect Error (severity level 23)
       url: /sqlserver_alarm_errorlog_fataldatabaseintegritysuspect.html
       output: web, pdf
@@ -158,6 +154,10 @@ entries:
 
     - title: Error Log - Medium Severity Message
       url: /sqlserver_alarm_errorlog_mediumseverity.html
+      output: web, pdf
+
+    - title: Error Log - Nonfatal Error (severity level lower than 20)
+      url: /sqlserver_alarm_errorlog_fatalcurrentprocess.html
       output: web, pdf
 
     - title: I/O Stall Time
