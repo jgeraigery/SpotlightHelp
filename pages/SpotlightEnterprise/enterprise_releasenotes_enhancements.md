@@ -15,5 +15,6 @@ Enhancement | Issue ID
 ------------|---------
 On the SQL Server \| Workload Analysis drilldown as a performance enhancement the list of SQL statements is loaded 200 at a time. Click **Show More** to show the next 200 statements.  | SoSSE-7336
 On the SQL Server \| Wait Events drilldown, % of Sample Time replaces the % of Total Available CPU Time metric. The % of Sample Time calculates the proportion of wait time (for this wait type) over the time frame selected for the drilldown page. | SoSSE-7378
+Windows Disk Space Report has been improved to better support multiple selected connections. | SoSSE-5383
 
 {% include links.html %}
