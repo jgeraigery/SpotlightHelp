@@ -14,15 +14,15 @@ All SQL Agent Jobs | Agent Job List | spotligtht_rt_get_allsqlagentjobs
 Database Growth	| Database List	| spotlight_rep_growth_data_files
 Failed SQL Agent Jobs	| Agent Jobs Failed	| spotlight_rt_get_failedsqlagentjobs
 SQL Server Availability	| Connection Availability	| text
-SQL Server Blocking	| Blocking List	| spotlight_rt_get_sqlblockingmost,spotlight_rt_get_mostcommonblock,spotlight_rt_get_sqlblockedmost
-SQL Server  Configuration	| Server Properties,xp_msver properties,Configuration List | text
+SQL Server Blocking	| Blocking List	| spotlight_rt_get_sqlblockingmost, spotlight_rt_get_mostcommonblock, spotlight_rt_get_sqlblockedmost
+SQL Server  Configuration	| Server Properties, xp_msver properties, Configuration List | text
 SQL Server Connection	| SQL Server Connections | text
 SQL Server Database Space	| Database List	| text
 SQL Server  Inventory	| Version Information |	text
-SQL Server  IO |	Buffer Manager,Virtual File Statistics |	text
+SQL Server  IO |	Buffer Manager, Virtual File Statistics |	text
 SQL Server  Job Duration |	Agent Job List |	text
 SQL Server  Job	| Agent Job List |	text
-SQL Server  Memory | Buffer Manager,Cache Manager,Memory Manager | text
+SQL Server  Memory | Buffer Manager, Cache Manager, Memory Manager | text
 SQL Server  Performance Summary	| SQL CPU Percent |	text
 SQL Server  Single Server Connection |	SQL Server Connection |	text
 SQL Server  Transaction Daily Range Summary	| Database Info	| text
@@ -32,7 +32,7 @@ SQL Server  Wait Statistics	| Wait Statistics Details	| spotlight_rt_get_waitsta
 Windows Disk Space | File Systems	| text
 Windows Inventory	| Operating System, Memory, Processor Details	| text
 Windows Memory |	Memory |	text
-Windows Performance Summary	| Processors,Memory, Network, Physical Disks |	text
+Windows Performance Summary	| Processors, Memory, Network, Physical Disks |	text
 Windows Virtualization	| Virtual Machine Usage	| text
 
 
