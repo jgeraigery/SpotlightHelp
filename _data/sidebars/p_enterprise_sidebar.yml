@@ -328,6 +328,10 @@ entries:
           url: /enterprise_display_reportsshipped.html
           output: web, pdf
 
+        - title: Collections used by the Default Reports
+          url: /enterprise_display_reportscollections.html
+          output: web, pdf
+
       - title: Query the Spotlight Statistics Repository
         output: web
         subfolderitems:

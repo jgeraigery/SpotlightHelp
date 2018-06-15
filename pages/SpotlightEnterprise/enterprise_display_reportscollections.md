@@ -1,7 +1,7 @@
 ---
-title: Access Spotlight Reports from a Web Browser
+title: Collections used by the Default Reports
 keywords: reports
-summary: "Spotlight Reports can be deployed to SQL Server Reporting Services where they can be accessed via a web browser."
+summary: "The Default Reports shipped with Spotlight use the following collections and procedures."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_display_reportscollections.html
 folder: SpotlightEnterprise
@@ -51,7 +51,7 @@ SQL Server Large Databases | Database List | \	| sqldatabaselist	| spotlight_rt_
 SQL Server  Metric |  |	SpotlightGetStatClass	| \StoredProcs\SSR_proc_get_tables.sql	| spotlight_get_tables
 . |  | SpotlightGetStatName | b.statistic_class_name = @table_name | text
 . |  | SpotlightGetSQLStat | sc.statistic_class_name = @stat_class_name | text
-SQL Server Redundant and Reverse Indexes | Redundant Indexes, Reverse Indexes | \ | sqlredundantindexes,sqlreverseindexes | spotlight_rt_get_point_data
+SQL Server Redundant and Reverse Indexes | Redundant Indexes, Reverse Indexes | \ | sqlredundantindexes, sqlreverseindexes | spotlight_rt_get_point_data
 SQL Server Tables Missing Clustered Indexes or Primary Keys | Tables Missing Primary Keys, Tables Missing Clustered Indexes | \	| sqltablesmissingprimarykeys, sqltablesmissingclusteredindexes | spotlight_rt_get_point_data
 Windows Configuration	| Operating System, Paging Files, Advanced Performance Options, Windows System Start Options | \ |  operatingsystem, pagingfiles, advancedperformanceoptions, systemoptions | spotlight_rt_get_point_data
 Windows General Statistics | Memory, Processes, SQL CPU Percent, System Performance, Network, Logical Disks | \ | memory, processors, sqlcpupercent, system, network, logicaldisks | spotlight_rt_get_batch_data
