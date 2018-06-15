@@ -51,11 +51,11 @@ SQL Server Large Databases | Database List | \	| sqldatabaselist	| spotlight_rt_
 SQL Server  Metric |  |	SpotlightGetStatClass	| \StoredProcs\SSR_proc_get_tables.sql	| spotlight_get_tables
 . |  | SpotlightGetStatName | b.statistic_class_name = @table_name | text
 . |  | SpotlightGetSQLStat | sc.statistic_class_name = @stat_class_name | text
-SQL Server Redundant and Reverse Indexes | Redundant Indexes,Reverse Indexes | \ | sqlredundantindexes,sqlreverseindexes | spotlight_rt_get_point_data
+SQL Server Redundant and Reverse Indexes | Redundant Indexes, Reverse Indexes | \ | sqlredundantindexes,sqlreverseindexes | spotlight_rt_get_point_data
 SQL Server Tables Missing Clustered Indexes or Primary Keys | Tables Missing Primary Keys, Tables Missing Clustered Indexes | \	| sqltablesmissingprimarykeys, sqltablesmissingclusteredindexes | spotlight_rt_get_point_data
 Windows Configuration	| Operating System, Paging Files, Advanced Performance Options, Windows System Start Options | \ |  operatingsystem, pagingfiles, advancedperformanceoptions, systemoptions | spotlight_rt_get_point_data
-Windows General Statistics | Memory,Processes, SQL CPU Percent, System Performance, Network, Logical Disks | \ | memory, processors, sqlcpupercent, system, network, logicaldisks | spotlight_rt_get_batch_data
-Windows Hardware Configuration | Computer System, Processor Details, Physical Memory, Physical Disk Drive, Network Adapter | \	| computersystem,processordetails,physicalmemory<br>physicaldiskdrive,networkadapter | spotlight_rt_get_point_data
+Windows General Statistics | Memory, Processes, SQL CPU Percent, System Performance, Network, Logical Disks | \ | memory, processors, sqlcpupercent, system, network, logicaldisks | spotlight_rt_get_batch_data
+Windows Hardware Configuration | Computer System, Processor Details, Physical Memory, Physical Disk Drive, Network Adapter | \	| computersystem, processordetails, physicalmemory, physicaldiskdrive, networkadapter | spotlight_rt_get_point_data
 Windows Keyed Metrics	| | \	 |  |	text
 Windows Server Health	| Processes, SQL CPU Percent, System Performance, Memory, Network, Logical Disks | \ | processors, sqlcpupercent, system, memory, network, logicaldisks | dbo.spotlight_rt_get_batch_data
 Windows Virtualization Summary |  |	\	|  | text
