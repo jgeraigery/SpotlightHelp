@@ -8,7 +8,21 @@ folder: SpotlightEnterprise
 ---
 
 
-Report | Schedule | Collection Procedure
+## How to configure Spotlight collections
+Use a Spotlight Client to configure Spotlight collections. See [Configure Scheduling][enterprise_cfgmonitor_scheduling]
+
+From the Spotlight Client
+
+1.  Click **Configure \| Scheduling**.
+2.  Select template or connection to configure
+3.  Select a collection to modify the collection schedule.
+
+## Query the Spotlight Statistics Repository and Procedures
+Stored procedures return metadata about the Spotlight Statistics Repository or data from within the Spotlight Statistics Repository. See [Spotlight API Stored Procedures][enterprise_ssrquery_storedprocedures_api]. See also [Additional Stored Procedures][enterprise_ssrquery_storedprocedures_custom].
+
+## Default Reports
+
+Report | Collection Name | Collection Procedure
 -------|----------|---------------------
 All SQL Agent Jobs | Agent Job List | spotligtht_rt_get_allsqlagentjobs
 Database Growth	| Database List	| spotlight_rep_growth_data_files
@@ -36,7 +50,7 @@ Windows Performance Summary | Processors, Memory, Network, Physical Disks | text
 Windows Virtualization | Virtual Machine Usage | text
 
 
-Report | Schedule	| Datasets | statistic_class_name	| Procedure
+Report | Collection Name	| Datasets | statistic_class_name	| Procedure
 -------|----------|----------|----------------------|----------
 Custom Counters	| SQLCustomCounters |	\	| sqlcustomcounters | spotlight_rt_get_custom_counter
 Database Settings	| General DB Properties |	\	| generaldbproperties	| spotlight_rt_get_point_data
