@@ -12,7 +12,7 @@ To create the support bundle from the Spotlight Client
 
 1. Click **Help \| Support Bundle**.
 2. Select whether to capture logs from the current install (recommended) or all historical logs. The historical logs are large and usually not required.
-3. If appropriate you can choose not to include the Spotlight Diagnostic Server. In a federated environment you can choose to collect all or selected Spotlight Diagnostic Servers. 
+3. We suggest collections from the Spotlight Diagnostic Server be included in the Support Bundle, however you can choose not to include them. In a federated environment you can choose to include collections from all or selected Spotlight Diagnostic Servers.
 4. Click **Collect**.
 5. Select whether to open the folder containing the Support Bundle file or email the Support Bundle direct to Quest.
 
