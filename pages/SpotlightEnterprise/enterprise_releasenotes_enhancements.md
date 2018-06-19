@@ -16,5 +16,10 @@ Enhancement | Issue ID
 On the SQL Server \| Workload Analysis drilldown as a performance enhancement the list of SQL statements is loaded 200 at a time. Click **Show More** to show the next 200 statements.  | SoSSE-7336
 On the SQL Server \| Wait Events drilldown, % of Sample Time replaces the % of Total Available CPU Time metric. The % of Sample Time calculates the proportion of wait time (for this wait type) over the time frame selected for the drilldown page. | SoSSE-7378
 Windows Disk Space Report has been improved to better support multiple selected connections. | SoSSE-5383
+Collection of the support bundle has been enhanced. We no longer capture historical logs automatically. The historical logs are large and rarely used. There is an option to include historical logs in the collection if required. | SoSSE-7233
+Collection of the support bundle has been enhanced. You can choose not to include the Spotlight Diagnostic Server. In a federated environment you can choose to collect from all or selected Spotlight Diagnostic Servers in a federation. When the support bundle is emailed there is an option to include the Service Request ID in the email. | SoSSE-7365
+
+On the SQL Activity drilldown on the Plan pane there is a new Objects grid. The operation column cannot be removed.
+
 
 {% include links.html %}
