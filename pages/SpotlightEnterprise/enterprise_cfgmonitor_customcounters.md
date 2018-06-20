@@ -35,7 +35,10 @@ Add custom counters to the list. Click **Add**. Enter the name and query for the
 
 To edit the custom counter name and query, select the custom counter and click **Edit**. To remove a custom counter from the list, select the custom counter and click **Remove**. To disable a custom counter, deselect the check box next to the custom counter name.
 
-Click **Edit Thresholds** to open [Configure \| Alarms][enterprise_cfgmonitor_alarms].
+Click **Edit Thresholds** to open [Configure \| Alarms][enterprise_cfgmonitor_alarms]. Custom Counters are available as Key values in the Configure \| Alarms dialog and thresholds can be independently set for each key value.
+
+{% include tip.html content="If you have just added a new custom counter, click **Apply** before you click **Edit Thresholds** so the newly added Custom Counter is available on the Configure \| Alarms, Key Value list." %}
+
 
 ### Use factory settings
 
