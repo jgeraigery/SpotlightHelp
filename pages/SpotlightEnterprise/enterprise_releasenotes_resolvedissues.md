@@ -11,6 +11,7 @@ readonly: true
 
 Issue | ID
 ------|---
+When monitoring Windows Server on the CPUs drilldown, CPU Utilization chart, corrected a problem with the Arrange by Name setting. | SoSSE-7131
 
 
 
