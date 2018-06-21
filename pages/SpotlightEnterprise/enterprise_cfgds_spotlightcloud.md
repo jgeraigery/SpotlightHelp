@@ -28,7 +28,7 @@ If you clear **Upload data to Spotlight Cloud** then Spotlight Cloud services ar
 
 This section must be filled in when uploading of data to the Spotlight Cloud is enabled. When this section is filled in the Spotlight Organization assigned to your Quest account is on display.
 
-Click **Sign up** if you do not have a Quest account. You must use this link to sign up for a Quest account to use with Spotlight Enterprise. The Sign in link on the website (spotlightessentials.com) is specific to the Spotlight Cloud product and cannot be used with the Spotlight Enterprise product.
+Click **Sign up** if you do not have a Quest account. 
 
 When you have a Quest account then click **Sign in** to enter your Quest account details.
 
