@@ -21,7 +21,7 @@ Configure \| Extended Events has been enhanced with Advanced Settings. | SOSSE-7
 The SQL Server \| Overview Page, Blocked Processes component now links to the **SQL Activity drilldown \| Deadlocks page**. | SoSSE-6918
 While viewing the SQL Server \| SQL Activity drilldown it is now possible to pause auto refresh. | SOSSE-6720
 On Configure Custom Counters, SQL Server, an Apply button has been added. If you have just added a new custom counter, click **Apply** before you click **Edit Thresholds** so the newly added Custom Counter is available on the Configure \| Alarms, Key Value list. | SoSSE-5510
-Windows Disk Space Report has been improved to better support multiple selected connections. | SoSSE-5383
+Windows Disk Space Growth Report has been improved to better support multiple selected connections. | SoSSE-5383
 
 On the SQL Activity drilldown on the Plan pane there is a new Objects grid. The operation column cannot be removed.
 
