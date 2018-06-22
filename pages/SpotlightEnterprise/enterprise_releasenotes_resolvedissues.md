@@ -23,5 +23,7 @@ Corrected a problem where timestamp data was missing from the SQL Server Health 
 The SQL Server, Support Services drilldown, SQL Agent Jobs page now shows "not supported in playback mode" for the Job History and SQL Agent Job Status panels. | SOSSE-6274
 Improved Spotlight Today, Group by Alarms, now expands Low and Informational Severity Alerts to display alarms individually. | SOSSE-6016
 Corrected a problem where the generated Deadlock List Report was incomplete. | SOSSE-5468
+Corrected a problem where in a Federated environment, Connection names have underscores and not backslashes. SOSSE-4522
+
 
 {% include links.html %}
