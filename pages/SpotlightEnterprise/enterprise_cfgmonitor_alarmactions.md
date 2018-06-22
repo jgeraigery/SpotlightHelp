@@ -45,7 +45,7 @@ New | Create a new rule. This opens the [Alarm Action dialog][enterprise_cfgmoni
 Modify | Modify the selected rule. Click on the rule to select it. This opens the rule in the [Alarm Action dialog][enterprise_cfgmonitor_alarmaction].
 Delete | Delete the selected rule.
 Move Down / Move Up | Rules are executed in the order they are listed in the Alarm Action Editor. Move rules up and down to re-organize them. For examples see [Example Alarm Action Rules][enterprise_cfgmonitor_alarmaction_example].
-Enable | Enable / Disable the selected Alarm Action Rule. Disabled rules have the "(disabled)" display to the right of their name in the Alarm Action Editor.
+Enable | Enable / Disable the selected Alarm Action Rule. Disabled rules have the "(Disabled)" display to the right of their name in the Alarm Action Editor.
 
 ## Federate Spotlight Diagnostic Servers
 
