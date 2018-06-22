@@ -18,12 +18,21 @@ Collection of the support bundle has been enhanced. You can choose not to includ
 On the SQL Server \| Workload Analysis drilldown as a performance enhancement the list of SQL statements is loaded 200 at a time. Click **Show More** to show the next 200 statements.  | SoSSE-7336
 Collection of the support bundle has been enhanced. We no longer capture historical logs automatically. The historical logs are large and rarely used. There is an option to include historical logs in the collection if required. | SoSSE-7233
 Configure \| Extended Events has been enhanced with Advanced Settings. | SOSSE-7224
+On the SQL Server, SQL Activity drilldown, Sessions grid the column "Request Granted Memory" has been added. | SOSSE-7143
 The SQL Server \| Overview Page, Blocked Processes component now links to the **SQL Activity drilldown \| Deadlocks page**. | SoSSE-6918
 While viewing the SQL Server \| SQL Activity drilldown it is now possible to pause auto refresh. | SOSSE-6720
 On Configure Custom Counters, SQL Server, an Apply button has been added. If you have just added a new custom counter, click **Apply** before you click **Edit Thresholds** so the newly added Custom Counter is available on the Configure \| Alarms, Key Value list. | SoSSE-5510
 Windows Disk Space Growth Report has been improved to better support multiple selected connections. | SoSSE-5383
 
+
+
+
+
 On the SQL Activity drilldown on the Plan pane there is a new Objects grid. The operation column cannot be removed.
 
+Alarms Dialog now has a **Search** field to search for alarms.
+Playback panel  now has a **Search** field to filter through alarms.
+Connection Manager has been enhanced with Advanced Options for connection types Availability Groups, Replication, SQL Azure and SQL Server. For Connection Failure you can now specify for each connection the connection timeout (in seconds) and the number of retries to attempt before raising a Connection Failure alarm.
+Spotlight Today has been enhanced such that the alarms can now be sorted in "heatmap" order.
 
 {% include links.html %}
