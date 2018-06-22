@@ -11,7 +11,7 @@ readonly: true
 
 Issue | ID
 ------|---
-When monitoring SQL Serer Replication the Spotlight Client has been enhanced to notify when certain drilldown pages are unavailable in Playback mode. When there is no data in the Agent-> Performance drilldown or SQL agent jobs drilldown then the Spotlight Client now shows "This section is not available in playback mode" | SOSSE-7399
+When monitoring SQL Server Replication the Spotlight Client has been enhanced to notify when certain drilldown pages are unavailable in Playback mode. When there is no data in the Agent-> Performance drilldown or SQL agent jobs drilldown then the Spotlight Client now shows "This section is not available in playback mode" | SOSSE-7399
 Corrected a problem where on upgrade from 11.7.1 to 12.1/12.2 the SpotlightDiagnosticServer.ini file did not retain customized proxy settings. | SOSSE-7301
 Corrected the source of Exception Error: Assertion failure error on Datasource.pas, line 1467 | SOSSE-7289
 Corrected the source of an Unexpected Error on closing the Spotlight Client. | SOSSE-7230
@@ -19,6 +19,7 @@ Corrected Unexpected Error that closes the Spotlight client while viewing the SQ
 Corrected a problem where Playback Rewind of CPU Usage and SQL Activity Summary showed data inconsistent with real time analysis. | SOSSE-7216
 When monitoring Windows Server on the CPUs drilldown, CPU Utilization chart, corrected a problem with the Arrange by Name setting. | SoSSE-7131
 Corrected a problem where the Spotlight Client crashed while using the SQL Server, SQL Activity drilldown, Query Execution Statistics page. | SOSSE-6969
-
+Corrected a problem where timestamp data was missing from the SQL Server Health Report. | SOSSE-6398
+The SQL Server, Support Services drilldown, SQL Agent Jobs page now shows "not supported in playback mode" for the Job History and SQL Agent Job Status panels. | SOSSE-6274
 
 {% include links.html %}
