@@ -18,7 +18,7 @@ Corrected the source of an Unexpected Error on closing the Spotlight Client. | S
 Corrected Unexpected Error that closes the Spotlight client while viewing the SQL Activity drilldown. | SOSSE-7218
 Corrected a problem where Playback Rewind of CPU Usage and SQL Activity Summary showed data inconsistent with real time analysis. | SOSSE-7216
 When monitoring Windows Server on the CPUs drilldown, CPU Utilization chart, corrected a problem with the Arrange by Name setting. | SoSSE-7131
-
+Corrected a problem where the Spotlight Client crashed while using the SQL Server, SQL Activity drilldown, Query Execution Statistics page. | SOSSE-6969
 
 
 {% include links.html %}
