@@ -24,8 +24,10 @@ From the Spotlight Client, the Alarm Action dialog has a new option for each ala
 The SQL Server \| Overview Page, Blocked Processes component now links to the **SQL Activity drilldown \| Deadlocks page**. | SoSSE-6918
 While viewing the SQL Server \| SQL Activity drilldown it is now possible to pause auto refresh. | SOSSE-6720
 In the Spotlight Client the Configure Alarms dialog and Playback panel now have the facility to search for alarms  and filter the display accordingly. | SOSSE-6701
+Spotlight Today alarms can now be grouped according to Heat Map order. | SOSSE-5596
 On Configure Custom Counters, SQL Server, an Apply button has been added. If you have just added a new custom counter, click **Apply** before you click **Edit Thresholds** so the newly added Custom Counter is available on the Configure \| Alarms, Key Value list. | SoSSE-5510
 Windows Disk Space Growth Report has been improved to better support multiple selected connections. | SoSSE-5383
+
 
 
 
