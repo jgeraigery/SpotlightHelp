@@ -22,5 +22,6 @@ Corrected a problem where the Spotlight Client crashed while using the SQL Serve
 Corrected a problem where timestamp data was missing from the SQL Server Health Report. | SOSSE-6398
 The SQL Server, Support Services drilldown, SQL Agent Jobs page now shows "not supported in playback mode" for the Job History and SQL Agent Job Status panels. | SOSSE-6274
 Improved Spotlight Today, Group by Alarms, now expands Low and Informational Severity Alerts to display alarms individually. | SOSSE-6016
+Corrected a problem where the generated Deadlock List Report was incomplete. | SOSSE-5468
 
 {% include links.html %}
