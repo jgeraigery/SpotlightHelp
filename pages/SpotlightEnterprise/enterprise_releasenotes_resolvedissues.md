@@ -24,6 +24,7 @@ The SQL Server, Support Services drilldown, SQL Agent Jobs page now shows "not s
 Improved Spotlight Today, Group by Alarms, now expands Low and Informational Severity Alerts to display alarms individually. | SOSSE-6016
 Corrected a problem where the generated Deadlock List Report was incomplete. | SOSSE-5468
 Corrected a problem where in a Federated environment, Connection names have underscores and not backslashes. SOSSE-4522
+Corrected a problem when using the SQL Server Replication Subscriptions drilldown where selecting a Subscriber from the Subscription list results in an error. | SOSSE-49
 
 
 {% include links.html %}
