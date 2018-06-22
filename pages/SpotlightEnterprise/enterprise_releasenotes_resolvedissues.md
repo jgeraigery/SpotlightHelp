@@ -15,6 +15,7 @@ When monitoring SQL Serer Replication the Spotlight Client has been enhanced to 
 Corrected a problem where on upgrade from 11.7.1 to 12.1/12.2 the SpotlightDiagnosticServer.ini file did not retain customized proxy settings. | SOSSE-7301
 Corrected the source of Exception Error: Assertion failure error on Datasource.pas, line 1467 | SOSSE-7289
 Corrected the source of an Unexpected Error on closing the Spotlight Client. | SOSSE-7230
+Corrected Unexpected Error that closes the Spotlight client while viewing the SQL Activity drilldown. | SOSSE-7218
 When monitoring Windows Server on the CPUs drilldown, CPU Utilization chart, corrected a problem with the Arrange by Name setting. | SoSSE-7131
 
 
