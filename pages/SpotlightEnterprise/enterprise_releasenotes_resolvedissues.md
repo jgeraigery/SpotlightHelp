@@ -21,5 +21,6 @@ When monitoring Windows Server on the CPUs drilldown, CPU Utilization chart, cor
 Corrected a problem where the Spotlight Client crashed while using the SQL Server, SQL Activity drilldown, Query Execution Statistics page. | SOSSE-6969
 Corrected a problem where timestamp data was missing from the SQL Server Health Report. | SOSSE-6398
 The SQL Server, Support Services drilldown, SQL Agent Jobs page now shows "not supported in playback mode" for the Job History and SQL Agent Job Status panels. | SOSSE-6274
+Improved Spotlight Today, Group by Alarms, now expands Low and Informational Severity Alerts to display alarms individually. | SOSSE-6016
 
 {% include links.html %}
