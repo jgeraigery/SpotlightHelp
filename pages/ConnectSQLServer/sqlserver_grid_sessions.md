@@ -85,7 +85,7 @@ Number of physical writes performed for each request.
 
 ## Request Granted Memory
 
-Has the memory allocated/requested by a SQL query to execute been granted?
+Number of pages allocated to the execution of a query on the request.
 
 ### Total CPU
 
