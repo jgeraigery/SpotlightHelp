@@ -63,6 +63,8 @@ Information about each alarm is documented under the connection type.
 {% endfor %}
 </ul>
 
+{% include tip.html content="Use the **Search** field above the table to quickly locate an alarm. The list of alarms is filtered to match the text you type in the search field." %}
+
 ## Reuse this configuration
 
 ### Apply configuration to…  
