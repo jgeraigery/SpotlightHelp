@@ -23,7 +23,7 @@ Corrected a problem where timestamp data was missing from the SQL Server Health 
 The SQL Server, Support Services drilldown, SQL Agent Jobs page now shows "not supported in playback mode" for the Job History and SQL Agent Job Status panels. | SOSSE-6274 / DS-1430
 Improved Spotlight Today, Group by Alarms, now expands Low and Informational Severity Alerts to display alarms individually. | SOSSE-6016
 Corrected a problem where the generated Deadlock List Report was incomplete. | SOSSE-5468
-Corrected a problem where in a Federated environment, Connection names have underscores and not backslashes. SOSSE-4522
+Corrected a problem where in a Federated environment, Connection names have underscores and not backslashes. | SOSSE-4522
 Corrected a problem when using the SQL Server Replication Subscriptions drilldown where selecting a Subscriber from the Subscription list results in an error. | SOSSE-49
 Improved the information provided when an execute request is being made for a session that does not exist. | DS1420
 Corrected a problem where an abnormal number of Replication - Publication Expiration alarms are raised.  | DS-1404
