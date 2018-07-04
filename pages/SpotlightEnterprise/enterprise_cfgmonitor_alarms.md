@@ -63,6 +63,8 @@ Information about each alarm is documented under the connection type.
 {% endfor %}
 </ul>
 
+{% include note.html content="Error Log Entry alarms are no longer configured from here. Configure Error Log Entry alarms from [Configure Error Log Entries][enterprise_cfgmonitor_errorlogentries]." %}
+
 {% include tip.html content="Use the **Search** field above the table to quickly locate an alarm. The list of alarms is filtered to match the text you type in the search field." %}
 
 ## Reuse this configuration
