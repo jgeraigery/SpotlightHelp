@@ -47,15 +47,15 @@ For each row on the Match List - If **Enabled** is selected then Spotlight Enter
 
 Enabled | Sev | Log Entries | Raise Alarm | Alarm Raised
 --------|-----|-------------|-------------|-------------
-Yes | Medium | Severity: 17 | Yes | SQL Server Fatal Table Integrity Suspect Error (severity level 22)
-Yes | Medium | Severity: 18 | Yes | SQL Server Fatal Database Integrity Suspect Error (severity level 23)
-Yes | Medium | Severity: 19 | Yes | SQL Server Fatal Hardware Error (severity level 24)
-Yes | High | Severity: 20 | Yes | SQL Server Fatal Hardware Error (severity level 25)
-Yes | High | Severity: 21 | Yes | SQL Server Low Severity Error Log Message
-Yes | High | Severity: 22 | Yes | SQL Server Low Severity Error Log Message
-Yes | High | Severity: 23 | Yes | SQL Server Low Severity Error Log Message
-Yes | High | Severity: 24 | Yes | SQL Server Low Severity Error Log Message
-Yes | High | Severity: 25 | Yes | SQL Server Low Severity Error Log Message
+Yes | Medium | Severity: 17 | No | SQL Server Critical Error (severity level lower than 20)
+Yes | Medium | Severity: 18 | No | SQL Server Critical Error (severity level lower than 20)
+Yes | Medium | Severity: 19 | No | SQL Server Critical Error (severity level lower than 20)
+Yes | High | Severity: 20 | Yes | SQL Server Fatal Current Process Error (severity level 20)
+Yes | High | Severity: 21 | Yes | SQL Server Fatal Database (dbid) Process Error (severity level 21)
+Yes | High | Severity: 22 | Yes | SQL Server Fatal Table Integrity Suspect Error (severity level 22)
+Yes | High | Severity: 23 | Yes | SQL Server Fatal Database Integrity Suspect Error (severity level 23)
+Yes | High | Severity: 24 | Yes | SQL Server Fatal Hardware Error (severity level 24)
+Yes | High | Severity: 25 | Yes | SQL Server Fatal Hardware Error (severity level 25)
 Yes | Low | Backup Failed | No | SQL Server Low Severity Error Log Message
 Yes | Low | SqlDumpExceptionHandler | No | SQL Server Low Severity Error Log Message
 Yes | Low | TABLE corrupt | No | SQL Server Low Severity Error Log Message

@@ -1,7 +1,7 @@
 ---
-title: ﻿SQL Server Nonfatal Error (severity level lower than 20) alarm
+title: ﻿SQL Server Fatal Current Process Error (severity level 20) alarm
 tags: [sqlserver_alarms]
-summary: "The SQL Server Nonfatal Error (severity level lower than 20) alarm becomes active when Spotlight Enterprise detects a new fatal error message that contains the log entry 'Severity: 20' in the SQL Sever error log. It indicates that a statement has encountered a problem."
+summary: "The SQL Server Fatal Current Process Error (severity level 20) alarm becomes active when Spotlight Enterprise detects a new fatal error message that contains the log entry 'Severity: 20' in the SQL Sever error log. It indicates that a statement has encountered a problem."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_errorlog_fatalcurrentprocess.html
 folder: ConnectSQLServer
