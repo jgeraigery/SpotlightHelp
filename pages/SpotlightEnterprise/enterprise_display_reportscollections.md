@@ -22,56 +22,49 @@ Stored procedures return metadata about the Spotlight Statistics Repository or d
 
 ## Default Reports
 
-Report | Collection Name | Collection Procedure
+Report | Collection Procedure | Collection Name
 -------|----------|---------------------
-All SQL Agent Jobs | Agent Job List | spotligtht_rt_get_allsqlagentjobs
-Database Growth	| Database List	| spotlight_rep_growth_data_files
-Failed SQL Agent Jobs	| Agent Jobs Failed	| spotlight_rt_get_failedsqlagentjobs
-SQL Server Availability	| Connection Availability	| text
-SQL Server Blocking	| Blocking List	| spotlight_rt_get_sqlblockingmost, spotlight_rt_get_mostcommonblock, spotlight_rt_get_sqlblockedmost
-SQL Server Configuration | Server Properties, xp_msver properties, Configuration List | text
-SQL Server Connection	| SQL Server Connections | text
-SQL Server Database Space	| Database List	| text
-SQL Server Inventory | Version Information | text
-SQL Server IO |	Buffer Manager, Virtual File Statistics |	text
-SQL Server Job Duration |	Agent Job List | text
-SQL Server Job | Agent Job List |	text
-SQL Server Memory | Buffer Manager, Cache Manager, Memory Manager | text
-SQL Server Performance Summary | SQL CPU Percent | text
-SQL Server Single Server Connection | SQL Server Connection | text
-SQL Server Transaction Daily Range Summary | Database Info | text
-SQL Server Transaction Monthly Summary | Database Info | text
-SQL Server Transaction Single Day Summary | Database Info	| text
-SQL Server Wait Statistics | Wait Statistics Details | spotlight_rt_get_waitstats
-Windows Disk Space | File Systems	| text
-Windows Inventory	| Operating System, Memory, Processor Details	| text
-Windows Memory | Memory | text
-Windows Performance Summary | Processors, Memory, Network, Physical Disks | text
-Windows Virtualization | Virtual Machine Usage | text
+All SQL Agent Jobs Report | SQLAgentJobList | Agent Job List
+Custom Counters Report | SQLCustomCounters, CustomCounters | Custom Counters - SQL Server, Custom Counters - Windows
+Database Growth	Report | SQLDatabaseList	| Database List
+Database Settings Report | GeneralDBProperties | General DB Properties
+Deadlock List Report | DeadlockList | Deadlock List
+Failed SQL Agent Jobs Report	| SQLAgentJobsFailed	| Agent Jobs Failed
+SQL Server Availability Report	| ConnectionAvailability	| Connection Availability
+SQL Server Blocking	Report | SQLBlockingList | Blocking List
+SQL Server Configuration Report | SQLConfigList | Server Properties,xp_msver properties,Configuration List
+SQL Server Connection Report | SQLConnections | SQL Server Connections
+SQL Server Database Space Report	| SQLDatabaseList	| SQL Server Connections
+SQL Server General Statistics Report | SQLConnections,SQLBufferManager<br>SQLStatistics,SQLMemoryManager<br>SQLCacheManager | SQL Server Connections,Buffer Manager<br>Statistics,Memory Manager,<br>Cache Manager
+SQL Server Health Database Files Report | SQLFiles | Files
+SQL Server Health Report | SQLConnections,SQLBufferManager<br>SQLStatistics,SQLMemoryManager<br>SQLCacheManager |  SQL Server Connections,Statistics,<br>Buffer Manager,Cache Manager,<br>Memory Manager
+SQL Server Health Table Summary Report | SQLTableSummary | SQL Table Summary
+SQL Server Index Summary Report | SQLIndexSummary | SQL Index Summary
+SQL Server Inventory Report | SQLVersionInfo | Version Information
+SQL Server IO Report |	SQLBufferManager, VirtualFileStats |	Agent Job List
+SQL Server Job Duration SQLAgentJobList |	Agent Job List | Agent Job List
+SQL Server Job Report | SQLAgentJobList |	Database List
+SQL Server Large Databases Report | SQLDatabaseList | Database List
+SQL Server Memory Report | SQLBufferManager<br>SQLStatistics,SQLMemoryManager<br>SQLCacheManager | Buffer Manager,Cache Manager,Memory Manager
+SQL Server Performance Summary Report | SQLCPUPercent | SQL CPU Percent
+SQL Server Redundant and Reverse Indexes Report | SQLRedundantIndexes, SQLReverseIndexes | Redundant Indexes,Reverse Indexes
+SQL Server Single Server Connection Report | SQLConnections | SQL Server Connections
+SQL Server Tables Missing Clustered Indexes or Primary Keys Report | SQLTablesMissingPrimaryKeys<br>SQLTablesMissingClusteredIndexes | Tables Missing Primary Keys<br>Tables Missing Clustered Indexes
+SQL Server Transaction Daily Range Summary Report | SQLDatabaseInfo | Database Info
+SQL Server Transaction Monthy Summary Report | SQLDatabaseInfo | Database Info
+SQL Server Transaction Single Day Summary Report | SQLDatabaseInfo | Database Info
+SQL Server Wait Statistics Report | SQLWaitStats | SQL Wait Statistics Details
+Windows Configuration Report | OperatingSystem, PagingFiles<br>AdvancedPerformanceOptions<br>SystemOptions | Operating System,Paging Files<br>Advanced Performance Options<br>Windows System Start Options
+Windows Disk Space Growth Report | FileSystems | File Systems
+Windows Disk Space Report | FileSystems | File Systems
+Windows General Statistics Report | Memory, Processes<br>System,Network,LogicalDisks | Memory,Processes,<br>System Performance,Network,Logical Disks
+Windows Hardware Configuration Report | ComputerSystem,ProcessDetails<br>PhysicalMemory,PhysicalDiskDrive,NetworkAdapter | Computer System,Processor Details,<br>Physical Memory,Physical Disk Drive,Network Adapter
+Windows Inventory Report | OperatingSystem,Memory,ProcessDetails | Operating System, Memory, Processor Details
+Windows Memory Report | Memory | Memory
+Windows Performance Summary Report | Processes, Memory,Network,PhysicalDisks | Processors,Memory, Network, Physical Disks
+Windows Server Health Report | Processes,System,<br>Network,LogicalDisks | Processes,System Performance,<br>Memory,Network,Logical Disks
+Windows Virtualization Report | VirtualUsage | Virtual Machine Usage
+Windows Virtualization Summary Report | VirtualUsage | Virtual Machine Usage
 
-
-Report | Collection Name	| Datasets | statistic_class_name	| Procedure
--------|----------|----------|----------------------|----------
-Custom Counters	| SQLCustomCounters |	\	| sqlcustomcounters | spotlight_rt_get_custom_counter
-Database Settings	| General DB Properties |	\	| generaldbproperties	| spotlight_rt_get_point_data
-Deadlock list	| Deadlock List |	\	| deadlocklist | spotlight_rt_get_batch_data
-SQL Server  General Statistics | SQL Server Connections, Buffer Manager, Statistics, Memory Manager, Cache Manager | \	| sqlconnections，sqlbuffermanager, sqlstatistics，sqlmemorymanager，sqlcachemanager | spotlight_rt_get_batch_data
-SQL Server  Health Database Files	| Files |	\	 | sqlfiles	| spotlight_rt_get_point_data
-SQL Server Health	| SQL Server Connections, Statistics, Buffer Manager, Cache Manager, Memory Manager | \	| sqlconnections，sqlstatistics，sqlbuffermanager, sqlcachemanager, sqlmemorymanager | sqlconnections
-SQL Server Health Table Summary | SQL Table Summary | \	| sqltablesummary |	spotlight_rt_get_point_data_top
-SQL Server Index Summary | SQL Index Summary | \ | sqlindexsummary | spotlight_rt_get_point_data_top
-SQL Server Keyd Metric |  |	\	| |
-SQL Server Large Databases | Database List | \	| sqldatabaselist	| spotlight_rt_get_point_data_top
-SQL Server  Metric |  |	SpotlightGetStatClass	| \StoredProcs\SSR_proc_get_tables.sql	| spotlight_get_tables
-. |  | SpotlightGetStatName | b.statistic_class_name = @table_name | text
-. |  | SpotlightGetSQLStat | sc.statistic_class_name = @stat_class_name | text
-SQL Server Redundant and Reverse Indexes | Redundant Indexes, Reverse Indexes | \ | sqlredundantindexes, sqlreverseindexes | spotlight_rt_get_point_data
-SQL Server Tables Missing Clustered Indexes or Primary Keys | Tables Missing Primary Keys, Tables Missing Clustered Indexes | \	| sqltablesmissingprimarykeys, sqltablesmissingclusteredindexes | spotlight_rt_get_point_data
-Windows Configuration	| Operating System, Paging Files, Advanced Performance Options, Windows System Start Options | \ |  operatingsystem, pagingfiles, advancedperformanceoptions, systemoptions | spotlight_rt_get_point_data
-Windows General Statistics | Memory, Processes, SQL CPU Percent, System Performance, Network, Logical Disks | \ | memory, processors, sqlcpupercent, system, network, logicaldisks | spotlight_rt_get_batch_data
-Windows Hardware Configuration | Computer System, Processor Details, Physical Memory, Physical Disk Drive, Network Adapter | \	| computersystem, processordetails, physicalmemory, physicaldiskdrive, networkadapter | spotlight_rt_get_point_data
-Windows Keyed Metrics	| | \	 |  |	text
-Windows Server Health	| Processes, SQL CPU Percent, System Performance, Memory, Network, Logical Disks | \ | processors, sqlcpupercent, system, memory, network, logicaldisks | dbo.spotlight_rt_get_batch_data
-Windows Virtualization Summary |  |	\	|  | text
 
 {% include links.html %}
