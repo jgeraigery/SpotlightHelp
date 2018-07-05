@@ -34,16 +34,16 @@ SQL Server Availability Report	| ConnectionAvailability	| Connection Availabili
 SQL Server Blocking	Report | SQLBlockingList | Blocking List
 SQL Server Configuration Report | SQLConfigList | Server Properties,xp_msver properties,Configuration List
 SQL Server Connection Report | SQLConnections | SQL Server Connections
-SQL Server Database Space Report	| SQLDatabaseList	| SQL Server Connections
+SQL Server Database Space Report	| SQLDatabaseList	| Database List
 SQL Server General Statistics Report | SQLConnections,SQLBufferManager<br>SQLStatistics,SQLMemoryManager<br>SQLCacheManager | SQL Server Connections,Buffer Manager<br>Statistics,Memory Manager,<br>Cache Manager
 SQL Server Health Database Files Report | SQLFiles | Files
 SQL Server Health Report | SQLConnections,SQLBufferManager<br>SQLStatistics,SQLMemoryManager<br>SQLCacheManager |  SQL Server Connections,Statistics,<br>Buffer Manager,Cache Manager,<br>Memory Manager
 SQL Server Health Table Summary Report | SQLTableSummary | SQL Table Summary
 SQL Server Index Summary Report | SQLIndexSummary | SQL Index Summary
 SQL Server Inventory Report | SQLVersionInfo | Version Information
-SQL Server IO Report |	SQLBufferManager, VirtualFileStats |	Agent Job List
-SQL Server Job Duration SQLAgentJobList |	Agent Job List | Agent Job List
-SQL Server Job Report | SQLAgentJobList |	Database List
+SQL Server IO Report |	SQLBufferManager, VirtualFileStats |	Buffer Manager,Virtual File Statistics
+SQL Server Job Duration Report | SQLAgentJobList |	Agent Job List
+SQL Server Job Report | SQLAgentJobList |	Agent Job List
 SQL Server Large Databases Report | SQLDatabaseList | Database List
 SQL Server Memory Report | SQLBufferManager<br>SQLStatistics,SQLMemoryManager<br>SQLCacheManager | Buffer Manager,Cache Manager,Memory Manager
 SQL Server Performance Summary Report | SQLCPUPercent | SQL CPU Percent
