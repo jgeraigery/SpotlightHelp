@@ -741,6 +741,10 @@ entries:
           url: /enterprise_backend_ds_javakeystore.html
           output: web, pdf
 
+        - title: Import an Email Certificate into Spotlight
+          url: /enterprise_backend_ds_importemailcert.html
+          output: web, pdf
+
     - title: Playback Database
       url: /enterprise_backend_playback.html
       output: web, pdf

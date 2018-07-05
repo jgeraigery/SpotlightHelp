@@ -11,7 +11,7 @@ After successfully changing the password, you can use the Java keytool (Agent\bi
 To set the KeyStore password:
 
 1. [Stop the Spotlight Diagnostic Server service.][enterprise_backend_ds_startstop]
-2. From the Spotlight Diagnostic Server install folder, navigate to folder **Agent\bin\**
+2. From the Spotlight Diagnostic Server install folder, navigate to folder **Agent\bin**
 3. Open a cmd shell as the Administrator.
 4. Execute command **DSKeyToolCLI -storepasswd**
 5. Enter a new password of at least 6 characters.
