@@ -16,7 +16,7 @@ Corrected a problem where on upgrade from 11.7.1 to 12.1/12.2 the SpotlightDiagn
 Corrected the source of Exception Error: Assertion failure error on Datasource.pas, line 1467 | SOSSE-7289
 Corrected the source of an Unexpected Error on closing the Spotlight Client. | SOSSE-7230
 Corrected Unexpected Error that closes the Spotlight client while viewing the SQL Activity drilldown. | SOSSE-7218
-Corrected a problem where Playback Rewind of CPU Usage and SQL Activity Summary showed data inconsistent with real time analysis. | SOSSE-7216
+Corrected a problem where Playback Rewind of CPU Usage and SQL Activity Summary showed data inconsistent with real time analysis. | SOSSE-7216, SES-170
 When monitoring Windows Server on the CPUs drilldown, CPU Utilization chart, corrected a problem with the Arrange by Name setting. | SoSSE-7131
 Corrected a problem where the Spotlight Client crashed while using the SQL Server, SQL Activity drilldown, Query Execution Statistics page. | SOSSE-6969
 Corrected a problem where timestamp data was missing from the SQL Server Health Report. | SOSSE-6398
@@ -46,6 +46,7 @@ Corrected a problem where the SQL Agent Job failure alarm may not be synchronize
 Corrected a problem where serializing an alarm caused it to lose its name and id. | DS-896
 Corrected a problem where the alarm Cleared time is not timely updated when the Dead lock alarm is cleared. | DS-850
 Corrected a problem where the Failed SQL Agent Jobs Report did not show all failures. | DS-571
+Corrected a problem executing the spotlight_sqlanalysis_results procedure. | SES-192
 
 
 {% include links.html %}
