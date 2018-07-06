@@ -1,6 +1,5 @@
 ---
 title: Connection Details for SQL Server Replication
-last_updated: July 29, 2016
 tags: [connection_details,connection_details_for_each_connection_type]
 summary: "Monitor a SQL Server Replication environment by supplying the following connection details to Spotlight."
 sidebar: c_replication_sidebar
@@ -36,6 +35,11 @@ Specify the authentication for Spotlight to use to connect to the SQL Server Rep
 Select **Windows Authentication (using Diagnostic Server credentials)** to use the Windows user configured to run the Spotlight Diagnostic Server.
 
 Alternatively, fill in the **User** and **Password** fields.
+
+### Connection Failure Properties
+Set the connection timeout and the number of times Spotlight should attempt to connect to the Replication before raising the [Connection Failure alarm][replication_alarm_monitoredserver_connectionfailure].
+
+{% include tip.html content="If the number of times Spotlight should attempt to connect to the Replication before raising an alarm is greater than 9 then type that number into the given field." %}
 
 
 ## Test the connection

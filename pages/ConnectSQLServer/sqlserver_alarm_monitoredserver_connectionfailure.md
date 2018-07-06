@@ -1,7 +1,6 @@
 ---
 title: ﻿Monitored Server - SQL Server Connection Failure alarm
 tags: [sqlserver_alarms]
-last_updated: July 29, 2016
 summary: "Spotlight has failed to connect to the SQL Server."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_monitoredserver_connectionfailure.html
@@ -50,6 +49,8 @@ Verify the SQL Server instance is available and accessible over the network.
 
 {% include note.html content="The alarm will clear automatically if the error is due to the service being down or network problems and the error condition goes away." %}
 
+## Configuration
+If this alarm is raised too often or not enough for a given SQL Server Instance you can configure certain parameters. See [Configure Connections][enterprise_connect_details].
 
 
 {% include links.html %}

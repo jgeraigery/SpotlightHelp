@@ -1,6 +1,5 @@
 ---
 title: Connection Details for SQL Server
-last_updated: July 29, 2016
 tags: [connection_details,connection_details_for_each_connection_type]
 summary: "Monitor SQL Server by supplying the following connection details to Spotlight."
 sidebar: c_sqlserver_sidebar
@@ -94,6 +93,12 @@ When selected Spotlight sessions are excluded from the Wait Events and Workload 
 When Selected, Spotlight stores SQL query statements and plans in the Playback Database for this SQL Server connection. This data will be available during playback of events and data collected in the recent past in the **SQL Activity drilldown \| Sessions page** and the **SQL Activity drilldown \| Query Execution Statistics page**.
 
 {% include note.html content="Data will not be stored if the Spotlight Diagnostic Server setting has been disabled, see [Configure \| Diagnostic Server \| Store SQL Text and Query Plans in Playback][enterprise_cfgds_storesqltextqueryplans]." %}
+
+### Connection Failure Properties
+Set the connection timeout and the number of times Spotlight should attempt to connect to the SQL Server instance before raising the [Connection Failure alarm][sqlserver_alarm_monitoredserver_connectionfailure].
+
+{% include tip.html content="If the number of times Spotlight should attempt to connect to the SQL Server instance before raising an alarm is greater than 9 then type that number into the given field." %}
+
 
 ### Connection
 Select the Windows server hosting the SQL Server.

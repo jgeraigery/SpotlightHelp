@@ -30,16 +30,8 @@ Windows Disk Space Growth Report has been improved to better support multiple se
 There is now the ability to connect to an e-mail server that does not have TLS enabled; contact support for details. | DS-1402
 The Extended Events session filter has been enhanced. | DS-1245
 Spotlight Enterprise can now be used to monitor SQL Server 2017 Analysis Services. | DS-1191
-Improved efficiency on executing the MoveDiagnosticServerHost stored procedure in the Spotlight Statistics Repository. | DS-976 
+Improved efficiency on executing the MoveDiagnosticServerHost stored procedure in the Spotlight Statistics Repository. | DS-976
 Increased the security between the Spotlight Enterprise Diagnostic Server and the Out of Process Collector using sockets instead of HTTP. | DS-502
-
-
-
-On the SQL Activity drilldown on the Plan pane there is a new Objects grid. The operation column cannot be removed.
-
-Alarms Dialog now has a **Search** field to search for alarms.
-Playback panel  now has a **Search** field to filter through alarms.
-Connection Manager has been enhanced with Advanced Options for connection types Availability Groups, Replication, SQL Azure and SQL Server. For Connection Failure you can now specify for each connection the connection timeout (in seconds) and the number of retries to attempt before raising a Connection Failure alarm.
-Spotlight Today has been enhanced such that the alarms can now be sorted in "heatmap" order.
+Connection Manager has been enhanced with Advanced Options for connection types Availability Groups, Replication, SQL Azure and SQL Server. You can now specify for each connection the connection timeout (in seconds) and the number of retries to attempt before raising a Connection Failure alarm. | 
 
 {% include links.html %}
