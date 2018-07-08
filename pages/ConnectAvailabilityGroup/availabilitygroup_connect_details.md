@@ -39,10 +39,6 @@ Alternatively, fill in the **User** and **Password** fields. Ensure the account 
 ### Connection Failure Properties
 Set the connection timeout and the number of times Spotlight should attempt to connect to the Availability Group before raising the [Connection Failure alarm][availabilitygroup_alarm_monitoredserver_connectionfailure].
 
-{% include tip.html content="If the number of times Spotlight should attempt to connect to the Availability Group before raising an alarm is greater than 9 then type that number into the given field." %}
-
-
-
 
 ## Test the connection
 On entering / modifying connection details in the Spotlight Client, click **Test** to test the connection.
