@@ -33,6 +33,6 @@ Spotlight Enterprise can now be used to monitor SQL Server 2017 Analysis Service
 Improved efficiency on executing the MoveDiagnosticServerHost stored procedure in the Spotlight Statistics Repository. | DS-976
 Increased the security between the Spotlight Enterprise Diagnostic Server and the Out of Process Collector using sockets instead of HTTP. | DS-502
 Connection Manager has been enhanced with Advanced Options for connection types Availability Groups, Replication, SQL Azure and SQL Server. You can now specify for each connection the connection timeout (in seconds) and the number of retries to attempt before raising a Connection Failure alarm. |
-The SQL Server Wait Events drilldown has been enhanced. Each Wait Type has a direct link to Waitopedia. |
+The SQL Server Wait Events drilldown has been enhanced. Each Wait Type has a direct link to Waitopedia. | SOSSE-5775
 
 {% include links.html %}
