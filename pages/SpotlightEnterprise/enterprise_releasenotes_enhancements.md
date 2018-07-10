@@ -15,7 +15,7 @@ Enhancement | Issue ID
 ------------|---------
 On the SQL Server \| Wait Events drilldown, % of Sample Time replaces the % of Total Available CPU Time metric. The % of Sample Time calculates the proportion of wait time (for this wait type) over the time frame selected for the drilldown page. | SoSSE-7378
 Collection of the support bundle has been enhanced. You can choose not to include the Spotlight Diagnostic Server. In a federated environment you can choose to collect from all or selected Spotlight Diagnostic Servers in a federation. When the support bundle is emailed there is an option to include the Service Request ID in the email. | SoSSE-7365
-On the SQL Server \| Workload Analysis drilldown as a performance enhancement the list of SQL statements is loaded 200 at a time. Click **Show More** to show the next 200 statements.  | SoSSE-7336
+On the SQL Server \| Workload Analysis drilldown as a performance enhancement the list of SQL statements is loaded 100 at a time. Click **Show More** to show the next 100 statements.  | SoSSE-7336
 Collection of the support bundle has been enhanced. We no longer capture historical logs automatically. The historical logs are large and rarely used. There is an option to include historical logs in the collection if required. | SoSSE-7233
 Configure \| Extended Events has been enhanced with Advanced Settings. | SOSSE-7224
 On the SQL Server, SQL Activity drilldown, Sessions grid the column "Request Granted Memory" has been added. | SOSSE-7143
@@ -33,6 +33,6 @@ Spotlight Enterprise can now be used to monitor SQL Server 2017 Analysis Service
 Improved efficiency on executing the MoveDiagnosticServerHost stored procedure in the Spotlight Statistics Repository. | DS-976
 Increased the security between the Spotlight Enterprise Diagnostic Server and the Out of Process Collector using sockets instead of HTTP. | DS-502
 Connection Manager has been enhanced with Advanced Options for connection types Availability Groups, Replication, SQL Azure and SQL Server. You can now specify for each connection the connection timeout (in seconds) and the number of retries to attempt before raising a Connection Failure alarm. |
-The SQL Server Wait Events drilldown has been enhanced. Each Wait Type has a direct link to Waitopedia. | 
+The SQL Server Wait Events drilldown has been enhanced. Each Wait Type has a direct link to Waitopedia. |
 
 {% include links.html %}
