@@ -15,7 +15,6 @@ Enhancement | Issue ID
 ------------|---------
 On the SQL Server \| Wait Events drilldown, % of Sample Time replaces the % of Total Available CPU Time metric. The % of Sample Time calculates the proportion of wait time (for this wait type) over the time frame selected for the drilldown page. | SoSSE-7378
 Collection of the support bundle has been enhanced. You can choose not to include the Spotlight Diagnostic Server. In a federated environment you can choose to collect from all or selected Spotlight Diagnostic Servers in a federation. When the support bundle is emailed there is an option to include the Service Request ID in the email. | SoSSE-7365
-The SQL Agent - Jobs Failed alarm has been enhanced to report on all jobs failed within the data collection period. | SOSSE-7343
 On the SQL Server \| Workload Analysis drilldown as a performance enhancement the list of SQL statements is loaded 100 at a time. Click **Show More** to show the next 100 statements.  | SoSSE-7336
 Collection of the support bundle has been enhanced. We no longer capture historical logs automatically. The historical logs are large and rarely used. There is an option to include historical logs in the collection if required. | SoSSE-7233
 Configure \| Extended Events has been enhanced with Advanced Settings. | SOSSE-7224
@@ -30,6 +29,7 @@ On Configure Custom Counters, SQL Server, an Apply button has been added. If you
 Windows Disk Space Growth Report has been improved to better support multiple selected connections. | SoSSE-5383
 There is now the ability to connect to an e-mail server that does not have TLS enabled; contact support for details. | DS-1402
 The Extended Events session filter has been enhanced. | DS-1245
+The SQL Agent - Jobs Failed alarm has been enhanced to report on all jobs failed within the data collection period. | DS-1212
 Spotlight Enterprise can now be used to monitor SQL Server 2017 Analysis Services. | DS-1191
 Improved efficiency on executing the MoveDiagnosticServerHost stored procedure in the Spotlight Statistics Repository. | DS-976
 Increased the security between the Spotlight Enterprise Diagnostic Server and the Out of Process Collector using sockets instead of HTTP. | DS-502
