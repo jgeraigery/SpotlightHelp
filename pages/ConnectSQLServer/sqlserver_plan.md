@@ -8,7 +8,8 @@ folder: ConnectSQLServer
 ---
 
 
-
+Menu | Description
+-----|------------
 {% include inline_imageClient.html file="tb_plan_analysis.png" alt="Analysis" %} | Click to show Analysis of Query for the selected plan. Click **View** to show the Execution Plan. Click **More** to show the SQL Statement.
 {% include inline_imageClient.html file="tb_plan_execution.png" alt="Execution Plan" %} | Click to show the Execution Plan.
 {% include inline_imageClient.html file="tb_plan_operation.png" alt="Operation" %} | Click to show operation of each session for the selected plan. Note that you can show/hide columns using **Organize Columns**.
