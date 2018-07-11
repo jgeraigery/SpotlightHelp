@@ -1,6 +1,5 @@
 ---
 title: Connection Details for SQL Azure
-last_updated: July 29, 2016
 tags: [connection_details,connection_details_for_each_connection_type]
 summary: "Monitor SQL Azure by supplying the following connection details to Spotlight."
 sidebar: c_sqlazure_sidebar
@@ -35,6 +34,10 @@ A valid user that enables Spotlight to connect to the SQL Azure database.
 ### Password
 
 The password required to connect the specified user to the SQL Azure database.
+
+
+### Connection Failure Properties
+Set the connection timeout and the number of times Spotlight should attempt to connect to SQL Azure before raising the [Connection Failure alarm][sqlazure_alarm_monitoredserver_connectionfailure].
 
 
 ## Test the connection

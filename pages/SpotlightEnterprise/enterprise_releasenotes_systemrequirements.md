@@ -57,7 +57,6 @@ Minimum .NET 4.5.
 
 #### Microsoft Internet Explorer® 6.0 or later.
 
-{% include note.html content="Sign up and Sign in to Spotlight Cloud requires Internet Explorer 10 or above or equivalent browser." %}
 
 #### Microsoft Data Access Components (MDAC)
 MDAC includes the ODBC and other components that enable a connection to be established to a SQL Server database. The database may be local or remote. Your client machine must have MDAC 2.7 (or later) installed.

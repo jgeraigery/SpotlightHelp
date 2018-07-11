@@ -8,19 +8,13 @@ folder: ConnectSQLServer
 ---
 
 
-## Known issues with this script
+## SQL Server 2012 and above: Ensure the TrustedUser default database is set to master
 
-The following monitoring functions require sysadmin privileges; hence have known issues when using the script:
+For SQL Server 2012 and above databases, follow these instructions to ensure the SQL Server account default database is set to master.
 
-* Mirroring
-* Number of virtual log files (VLFs)
-* Jobs
-* The SQL Server \| Databases drilldown \| Open transactions count
-* The SQL Server \| Databases drilldown \| Indexes page \| Index Statistics Summary page
-* The SQL Server \| Support Services drilldown \| Service Status page - shows no data
+From SSMS (SQL Server Management Studio): **Security \| Logins \| 'Monitoring account' \| Properties \| General \| Default database** select **master** as the default database.
 
-
-## Script to grant permissions to TrustedUser
+## Run this script to grant permissions to TrustedUser
 
 Run the following SQL script (as sysadmin) to grant the required permissions to user **TrustedUser**. Note the comment lines at the end of the script and un-comment as appropriate for your environment.
 
@@ -157,5 +151,16 @@ end
 
 --Grant ALTER ANY EVENT SESSION to TrustedUser
 ```
+
+### Known issues with this script
+
+The following monitoring functions require sysadmin privileges; hence have known issues when using the script:
+
+* Mirroring
+* Number of virtual log files (VLFs)
+* Jobs
+* The SQL Server \| Databases drilldown \| Open transactions count
+* The SQL Server \| Databases drilldown \| Indexes page \| Index Statistics Summary page
+* The SQL Server \| Support Services drilldown \| Service Status page - shows no data
 
 {% include links.html %}

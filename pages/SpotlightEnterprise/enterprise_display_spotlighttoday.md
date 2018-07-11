@@ -62,7 +62,7 @@ Icon | Ribbon Select | Description
 {% include inline_imageClient.html file="tb_action_settings.png" alt="Alarm Settings" %} | Alarm Settings | Configure the selected alarm by opening the [Alarms dialog][enterprise_cfgmonitor_alarms].
 {% include inline_imageClient.html file="tb_grid_find.png" alt="Find" %} | Find | [Find text][enterprise_display_gridstoolbar.html#findtext] in the list of alarms.
 {% include inline_imageClient.html file="tb_action_collapseall.png" alt="Collapse all" %} | Collapse All | [Collapse][enterprise_display_gridscontent.html#treeview] the tree view of the list of alarms.
-{% include inline_imageClient.html file="tb_action_groupby.png" alt="Group by" %} | Group By | Group the alarms according to: <br> *Alarm* The name of the alarm. <br> *Connection* The name of the connection. <br> *Ungrouped (top 50 only)* Show the alarms in order of severity. Limit the display to 50 alarms.
+{% include inline_imageClient.html file="tb_action_groupby.png" alt="Group by" %} | Group By | Group the alarms according to: <br> *Alarm* The name of the alarm. <br> *Connection* The name of the connection. <br> *Ungrouped (top 50 only)* Show the alarms in order of severity. Limit the display to 50 alarms. <br> *Heatmap* As per the heatmap display, order connections based on the comparative number and severity of alarms raised against them.
 
 
 {% include links.html %}

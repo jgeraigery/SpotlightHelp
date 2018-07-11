@@ -30,7 +30,7 @@ Check the address is a valid IP address or hostname of the Hyper-V server.
 
 When **Use Diagnostic Server credentials** is selected then the account running the Spotlight Diagnostic Server is used to connect to the Hyper-V Server. Ensure the Windows user running the Spotlight Diagnostic Server can access the Hyper-V Server.
 
-If you select to fill in the **user** and **password** fields, verify the user has at least a read-only role.
+If you select to fill in the **user** and **password** fields, verify the user has the privileges required to retrieve server information and access WMI.
 
 ## Hyper-V Server availability
 

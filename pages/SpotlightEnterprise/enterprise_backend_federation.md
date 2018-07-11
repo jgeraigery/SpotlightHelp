@@ -27,5 +27,8 @@ When the deployment is federated a Spotlight Client monitors connections from al
 
 {% include imageClient.html file="figure_federation_Federation-of-DS.png" %}
 
+{% include note.html content="Since Spotlight Enterprise 12.1 the Spotlight Client performance has been optimized for large-scale environments (up to 1500 connections). This is especially true in environments that are federated. Areas of major optimization are: opening the Spotlight Client (improved 1.5 times), adding connections (improved 1.8 times), deleting connections (improved 5.5 times), configure Alarms/Schedule (improved 1.8 times), modifying a view (improved 20 times), deleting a view ( improved 12 times), navigating connections (improved 1.5 times)." %}
+
+
 
 {% include links.html %}

@@ -22,7 +22,7 @@ The tree will show one entry for each session that is blocked, and one for each 
 
 ### Refresh
 
-The Blocking grid is not refreshed automatically. To refresh the Blocking grid, click **Refresh**.
+The screen refreshes automatically. To pause Auto Refresh click {% include inline_imageClient.html file="tb_drilldown_session_refresh.png" alt="Pause Auto Refresh" %}. Click again to re-start auto refresh.
 
 ### Kill this session
 

@@ -43,7 +43,7 @@ Filter the Alarm log from the Filter ribbon group.
 Ribbon Select | Description
 --------------|------------
 Filter by Severity | Show alarms of a certain severity.
-Filter by Time | Show alarms raised and canceled in the last 15 minutes, 30 minutes, 1 hour, 1 day, 1 week. Select **All** to show all alarms raised and canceled in the alarm log.
+Filter by Time | Show alarms raised and canceled in the last 15 minutes, 30 minutes, 1 hour, 6 hours, 1 day, 1 week. Select **All** to show all alarms raised and canceled in the alarm log.
 
 {% include note.html content="By default the Alarm log grid is filtered to show alarms raised and canceled in the last 15 minutes. Use **Filter by Time** to extend this time period. If a long period of time is selected and a large number of connections are monitored then the Alarm log may take some time to load." %}
 

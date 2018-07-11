@@ -1,7 +1,7 @@
 ---
 title: Additional stored procedures
 keywords: reports
-summary: "Stored procedures return metadata about the Spotlight Statistics Repository or data from within the Spotlight Statistics Repository. The following procuedures are in addition to the Spotlight API Stored Procedures."
+summary: "Stored procedures return metadata about the Spotlight Statistics Repository or data from within the Spotlight Statistics Repository. The following procedures are in addition to the Spotlight API Stored Procedures."
 sidebar: p_enterprise_sidebar
 permalink: enterprise_ssrquery_storedprocedures_custom.html
 folder: SpotlightEnterprise

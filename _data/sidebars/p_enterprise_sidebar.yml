@@ -1,7 +1,7 @@
 entries:
 - title: sidebar
   product: Spotlight Enterprise
-  version: 12.2
+  version: 12.3
 
   folders:
 
@@ -41,10 +41,6 @@ entries:
 
         - title: Enhancements
           url: /enterprise_releasenotes_enhancements.html
-          output: web, pdf
-
-        - title: Deprecated features
-          url: /enterprise_releasenotes_deprecated.html
           output: web, pdf
 
         - title: Resolved issues
@@ -326,6 +322,10 @@ entries:
 
         - title: List the Default Reports
           url: /enterprise_display_reportsshipped.html
+          output: web, pdf
+
+        - title: Collections used by the Default Reports
+          url: /enterprise_display_reportscollections.html
           output: web, pdf
 
       - title: Query the Spotlight Statistics Repository
@@ -735,6 +735,10 @@ entries:
 
         - title: Java KeyStore
           url: /enterprise_backend_ds_javakeystore.html
+          output: web, pdf
+
+        - title: Import an Email Certificate into Spotlight
+          url: /enterprise_backend_ds_importemailcert.html
           output: web, pdf
 
     - title: Playback Database

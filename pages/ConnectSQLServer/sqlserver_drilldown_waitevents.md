@@ -67,11 +67,10 @@ Possible actions you can take on the grids and charts:
 
 Grid  | Description
 ------|------------
-Wait Type | The wait type impacting on wait time.
+Wait Type | The wait type impacting on wait time. Click {% include inline_imageClient.html file="tb_waitopedia.png" alt="Waitopedia" %} to investigate this wait type in Waitopedia.
 Wait Time | The wait time spent on this wait type aggregated over the last hour.
 % of Total Wait | The proportion of wait time spent on this wait type, compared to other wait types of the selected workload.
-% of Total Available CPU Time | The proportion of available CPU time spent on this wait type over the time frame selected on this drilldown page.
-
+% of Sample Time | The proportion of wait time (for this wait type) over the time frame selected on this drilldown page.
 
 
 #### Category : Selected item compared to All

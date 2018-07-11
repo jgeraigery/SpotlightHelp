@@ -24,14 +24,16 @@ Ensure the following programs are accessible to the user logged on to the Unix/L
 * cat
 * date
 * df
+* dpkg ( Ubuntu only)
+* free
 * grep
-* ifconfig
 * iostat
+* mpstat
 * netstat
 * ps
+* rpm
 * sar
 * sed
-* tr
 * uname
 * uptime
 * vmstat

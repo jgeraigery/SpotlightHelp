@@ -1,7 +1,6 @@
 ---
 title: ﻿Monitored Server - Availability Group Connection Failure alarm
 tags: availability_group_alarms
-last_updated: July 29, 2016
 summary: "Spotlight has failed to connect to the SQL Server Availability Group."
 sidebar: c_availabilitygroup_sidebar
 permalink: availabilitygroup_alarm_monitoredserver_connectionfailure.html
@@ -48,6 +47,10 @@ If the SQL Server instance is hosted on a Windows server and UDP port 1434 is cl
 
 {% include note.html content="The alarm will clear automatically if the error is due to the service being down or network problems and the error condition goes away." %}
 
+
+
+## Configuration
+If this alarm is raised too often or not enough for a given Availability Group you can configure certain parameters. See [Configure Connections][availabilitygroup_connect_details].
 
 
 {% include links.html %}
