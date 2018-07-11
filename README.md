@@ -1,3 +1,4 @@
 ## Spotlight Help
 
-Source Code for user documentation to products: Spotlight Enterprise and Spotlight Mobile.
+
+Source Code for user documentation to Spotlight Enterprise, Cloud Connect and Spotlight Mobile.

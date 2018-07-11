@@ -1,5 +1,5 @@
 ---
-title: Snooze alarms in Spotlight Mobile
+title: Snooze alarms in Spotlight Cloud Mobile
 tags: [snooze]
 keywords: alarms, snooze, mobile
 summary: "Temporarily remove the visual alert associated with an alarm."
@@ -29,7 +29,7 @@ folder: SpotlightMobile
 
 ## How to unsnooze an alarm
 
-{% include note.html content="In a Spotlight Enterprise deployment, use a Spotlight Client to unsnooze an alarms. Spotlight Mobile cannot be used to unsnooze alarms." %}
+{% include note.html content="In a Spotlight Enterprise deployment, use a Spotlight Client to unsnooze an alarms. Spotlight Cloud Mobile cannot be used to unsnooze alarms." %}
 
 
 {% include links.html %}

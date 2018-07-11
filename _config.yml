@@ -93,7 +93,6 @@ defaults:
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- home_sidebar
 - p_enterprise_sidebar
 - p_cloud_sidebar
 - p_mobile_sidebar

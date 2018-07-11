@@ -1,14 +1,14 @@
 ---
 title: Settings
 keywords: settings, configure, mobile
-summary: "Configure Spotlight Mobile."
+summary: "Configure Spotlight Cloud Mobile."
 sidebar: p_mobile_sidebar
 permalink: mobile_settings.html
 folder: SpotlightMobile
 ---
 
 
-Tap the icon to configure Spotlight Mobile.
+Tap the icon to configure Spotlight Cloud Mobile.
 
 Android | iPhone
 --------|-------
@@ -32,6 +32,6 @@ Select the startup screen. Select from the [Heat Map][mobile_heatmap] or [Alarm 
 
 ### About Spotlight
 
-Display legal information for Spotlight Mobile.
+Display legal information for Spotlight Cloud Mobile.
 
 {% include links.html %}

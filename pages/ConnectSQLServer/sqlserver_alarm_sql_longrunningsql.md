@@ -21,6 +21,10 @@ You work in an OLTP environment and often get complaints about delays in server 
 
 Open the **SQL Server \| SQL Activity Drilldown \| Sessions page**. View the long running SQL.
 
+
+## Did you upgrade from Spotlight Enterprise 12.1?
+If you used Spotlight Enterprise 12.1 to configure a new severity to the SQL - Long Running SQL alarm, then on upgrade the reporting of the duration of time of the raised alarm in the description will be incorrect. To correct this issue, please replace the function *toDurationFromMS* with *toDurationFromSec* in the Alarm Setting description. This issue is specific to upgrades from Spotlight Enterprise 12.1 and configurations saved using Spotlight Enterprise 12.1. Other versions of Spotlight Enterprise, fresh installs and upgrades from Spotlight Enterprise 12.0 and earlier are not affected.
+
 ## Configuration
 
 In Spotlight Enterprise, from a Spotlight Client:

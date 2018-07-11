@@ -1,6 +1,6 @@
 ---
-title: Connections display in Spotlight Mobile
-summary: "Select a Spotlight Mobile connection or connection view to display. Create a new connection view."
+title: Connections display in Spotlight Cloud Mobile
+summary: "Select a Spotlight Cloud Mobile connection or connection view to display. Create a new connection view."
 sidebar: p_mobile_sidebar
 permalink: mobile_connections.html
 folder: SpotlightMobile
@@ -31,6 +31,6 @@ Tap {% include inline_imageMobile.html file="tap_edit-button.png" alt="Add butto
 
 ## Add / Remove / Manage connections
 
-{% include note.html content="In a Spotlight Enterprise deployment, use a Spotlight Client to add and remove the connections monitored by Spotlight Enterprise and edit connection properties. Spotlight Mobile does not have the facility to manage (add, remove, edit the properties of) Spotlight connections." %}
+{% include note.html content="In a Spotlight Enterprise deployment, use a Spotlight Client to add and remove the connections monitored by Spotlight Enterprise and edit connection properties. Spotlight Cloud Mobile does not have the facility to manage (add, remove, edit the properties of) Spotlight connections." %}
 
 {% include links.html %}

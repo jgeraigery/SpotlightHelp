@@ -20,15 +20,15 @@ A standard scenario may be:
 
 ### Receive push notifications
 
-Ensure [Spotlight Mobile][mobile_welcome] is installed and operational.
+Ensure [Spotlight Cloud Mobile][mobile_welcome] is installed and operational.
 
-Ensure Spotlight Mobile is enabled to receive push notifications from Spotlight. During install of Spotlight Mobile you may be given the opportunity to disable push notifications. Following install, refer to the instructions for your mobile device.
+Ensure Spotlight Cloud Mobile is enabled to receive push notifications from Spotlight. During install of Spotlight Cloud Mobile you may be given the opportunity to disable push notifications. Following install, refer to the instructions for your mobile device.
 
 {% include tip.html content="On an iPhone navigate to Settings \| Spotlight. On an android device navigate to Settings \| Application manager \| Spotlight." %}
 
 ### Send push notifications from Spotlight Enterprise
 
-Ensure Spotlight is configured to send push notifications to Spotlight Mobile. Do this from the Spotlight Client. For more information, see [Send a Push Notification Dialog][enterprise_cfgmonitor_alarmaction_pushnotification].
+Ensure Spotlight is configured to send push notifications to Spotlight Cloud Mobile. Do this from the Spotlight Client. For more information, see [Send a Push Notification Dialog][enterprise_cfgmonitor_alarmaction_pushnotification].
 
 
 ## Push notifications history

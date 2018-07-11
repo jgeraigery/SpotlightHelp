@@ -8,14 +8,28 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Products
+    - title: Setup and Deploy
       folderitems:
-        - title: Spotlight Enterprise
-          url: /enterprise_welcome.html
+        - title: Install Spotlight Enterprise
+          url: /enterprise_install.html
+        - title: Configure Diagnostic Server
+          url: /enterprise_cfgds_select.html
+        - title: Backend deployment
+          url: /enterprise_backend.html
+        - title: Federation of Diagnostic Servers
+          url: /enterprise_backend_federation.html
+    - title: Data Interfaces
+      folderitems:
+        - title: Spotlight Client
+          url: /enterprise_interface_client.html
         - title: Cloud Connect
           url: /cloud_welcome.html
-        - title: Spotlight Mobile
+        - title: Spotlight Cloud Mobile
           url: /mobile_welcome.html
+        - title: Spotlight Management Pack for SCOM
+          url: /enterprise_interface_scom.html
+        - title: PagerDuty
+          url: /enterprise_interface_pagerduty.html
     - title: Connection Types
       folderitems:
         - title: SQL Server

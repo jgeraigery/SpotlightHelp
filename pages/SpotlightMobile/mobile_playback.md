@@ -1,5 +1,5 @@
 ---
-title: Playback in Spotlight Mobile
+title: Playback in Spotlight Cloud Mobile
 tags: [playback]
 keywords: playback, mobile
 summary: "Reproduce the Spotlight Overview page for a date and time from the recent past."

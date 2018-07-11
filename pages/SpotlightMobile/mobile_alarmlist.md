@@ -1,5 +1,5 @@
 ---
-title: Alarm list in Spotlight Mobile
+title: Alarm list in Spotlight Cloud Mobile
 keywords: alarms, display, mobile
 summary: "List all alarms raised against the connection or connection view."
 sidebar: p_mobile_sidebar

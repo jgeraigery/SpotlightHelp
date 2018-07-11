@@ -8,5 +8,6 @@ folder: SpotlightEnterprise
 readonly: true
 ---
 
+Spotlight can no longer be used to monitor SQL Server 2000 connections.
 
 {% include links.html %}
