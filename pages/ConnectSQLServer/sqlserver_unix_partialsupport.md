@@ -1,6 +1,5 @@
 ---
 title: "Partial support for monitoring SQL Server: SQL Server 2017 and Linux hosted SQL Server connections"
-last_updated: October 27, 2017
 summary: "Spotlight Enterprise provides partial support for monitoring SQL Server 2017 connections and SQL Server connections hosted on Linux."
 sidebar: c_sqlserver_sidebar
 id: SQL_Statement
@@ -26,11 +25,8 @@ The following alarms are not supported when SQL Server 2017 is hosted on Linux:
 * Mirroring Failedover
 * Monitored Server - SQL Server Host Not Defined
 * Services - DTC Service Status
-* Services - Full Text Search Service
-* Services - Integration Service Status
 * Services - Reporting Service Status
 * Services - SQL Agent Mail Status
-* Services - SQL Mail Status
 * SQL Agent - Alerts
 * SQL Agent - Jobs Failed
 * SQL Agent - Long Running Jobs (Percent)
