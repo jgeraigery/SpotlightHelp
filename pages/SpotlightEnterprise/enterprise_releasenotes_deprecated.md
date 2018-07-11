@@ -8,6 +8,6 @@ folder: SpotlightEnterprise
 readonly: true
 ---
 
-Spotlight can no longer be used to monitor SQL Server 2000 connections.
+For customized Reports the store procedure spotlight_rt_get_failedsqlagentjobs is deprecated and no longer works. Use spotlight_rt_get_batch_data instead.
 
 {% include links.html %}

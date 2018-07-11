@@ -15,8 +15,8 @@ folder: SpotlightEnterprise
 The following stored procedures can be used as examples of how to retrieve data from the Spotlight Statistics Repository.
 
 * spotlight_rt_get_allsqlagentjobs
+* spotlight_rt_get_batch_data
 * spotlight_rt_get_custom_counter
-* spotlight_rt_get_failedsqlagentjobs
 * spotlight_rt_get_mostcommonblock
 * spotlight_rt_get_sqlblockedmost
 * spotlight_rt_get_sqlblockingmost

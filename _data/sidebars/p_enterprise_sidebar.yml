@@ -43,6 +43,10 @@ entries:
           url: /enterprise_releasenotes_enhancements.html
           output: web, pdf
 
+        - title: Deprecated Features
+          url: /enterprise_releasenotes_deprecated.html
+          output: web, pdf
+
         - title: Resolved issues
           url: /enterprise_releasenotes_resolvedissues.html
           output: web, pdf
@@ -659,11 +663,11 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Spotlight Cloud Mobile
+    - title: Spotlight Mobile
       url: /enterprise_interface_mobile.html
       output: web, pdf
 
-    - title: Spotlight Cloud web site
+    - title: Spotlight web site
       url: /enterprise_interface_website.html
       output: web, pdf
 
