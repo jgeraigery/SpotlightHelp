@@ -25,7 +25,7 @@ The SQL Server, Support Services drilldown, SQL Agent Jobs page now shows "not s
 Corrected a problem where the generated Deadlock List Report was incomplete. | SOSSE-5468
 Corrected a problem where in a Federated environment, Connection names have underscores and not backslashes. | SOSSE-4522
 Corrected a problem when using the SQL Server Replication Subscriptions drilldown where selecting a Subscriber from the Subscription list results in an error. | SOSSE-49
-Improved the information provided when an execute request is being made for a session that does not exist. | DS1420
+Improved the information provided when an execute request is being made for a session that does not exist. | DS-1420
 Corrected a problem where an abnormal number of Replication - Publication Expiration alarms are raised.  | DS-1404
 MEMORY_PARTITION_MODE now "PER_NODE" by default instead of "PER_CPU". | DS-1389
 Corrected our interaction with old SQL Server versions prior to the development of the UseExtendedEvents property. | DS-1388
