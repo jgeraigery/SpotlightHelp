@@ -42,10 +42,13 @@ Corrected a problem of no date on the SQL Server Wait Events and Workload Analys
 Corrected a problem where the SQL Server Tempdb Usage drilldown charts showed no data. | DS-1201
 Corrected a problem behind "Queue length exceeded (200) error" that stops the ability to configure monitoring on a Spotlight Client that has been up for a few days. | DS-1186
 Corrected a problem where the SQL Agent Job failure alarm may not be synchronized for Spotlight email alerts, the Alarm Log and the Spotlight Overview page. | DS-1081
+Improved the efficiency for the Spotlight Stored Procedure "MoveDiagnosticServerHost". | DS-976
 Corrected a problem where serializing an alarm caused it to lose its name and id. | DS-896
 Corrected a problem where the alarm Cleared time is not timely updated when the Dead lock alarm is cleared. | DS-850
 Corrected a problem where the Failed SQL Agent Jobs Report did not show all failures. | DS-571
 Corrected a problem executing the spotlight_sqlanalysis_results procedure. | SES-192
-
+Fixed an issue that the SQL Server Blocking drilldown took too long to return data. | SES-175
+Corrected Spotlight's reporting of the SQL Agent Job failure alarm. | SES-112
+Corrected a problem where session SPID > 2000 may be excluded from the session list. | ES-219
 
 {% include links.html %}
