@@ -50,6 +50,6 @@ Corrected a problem where the Failed SQL Agent Jobs Report did not show all fail
 Corrected a problem executing the spotlight_sqlanalysis_results procedure. | SES-192
 Fixed an issue that the SQL Server Blocking drilldown took too long to return data. | SES-175
 Corrected Spotlight's reporting of the SQL Agent Job failure alarm. | SES-112
-Corrected a problem where session SPID > 2000 may be excluded from the session list. | ES-219
+Corrected a problem where session SPID > 2000 may be excluded from the session list. | SES-219
 
 {% include links.html %}
