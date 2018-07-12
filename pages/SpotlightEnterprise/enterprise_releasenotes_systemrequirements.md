@@ -218,7 +218,6 @@ The TCP protocol must be enabled on the instance where the Spotlight Statistics 
 It is highly recommended that regular maintenance is performed on the Spotlight Statistics Repository. See [Maintenance plan for Spotlight Statistics Repository and Playback Database][enterprise_backend_maintenanceplan].
 
 ## Spotlight Cloud
-Sign up and Sign in to Spotlight Cloud requires Internet Explorer 10 or above or equivalent browser.
 
 ## Upgrade and compatibility
 Use the Spotlight installer to upgrade from Spotlight on SQL Server version 10.0 or later. To upgrade from an earlier version of Spotlight than 10.0, upgrade to at least version 10.0 before upgrading to 11.7. To upgrade from 10.5.0, first upgrade to 10.5.2 and then upgrade to 12.1.
