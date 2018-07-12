@@ -55,6 +55,11 @@ It is recommended that the latest .NET be installed.
 Minimum .NET 4.5.
 .NET is required for the Performance Health drilldowns and the Spotlight Report Viewer.
 
+#### Support for TLS 1.2
+In general every Windows version after and including Windows Server 2012 R2 or Windows 8.1 include TLS 1.2 support by default. For older versions, consult the Microsoft table  [https://support.microsoft.com/en-us/help/3135244/tls-1.2-support-for-microsoft-sql-server](https://support.microsoft.com/en-us/help/3135244/tls-1.2-support-for-microsoft-sql-server).
+
+As part of the support for TLS 1.2, ensure the ODBC Driver 13 for SQL Server is installed.
+
 #### Microsoft Internet Explorer® 6.0 or later.
 
 
@@ -124,6 +129,9 @@ Required by Auto Update and Spotlight Cloud. Required to monitor your Spotlight 
 
 #### Connection Limit
 A single Spotlight Diagnostic Server is designed to monitor a maximum of 100 SQL Servers, Analysis Services or Replication instances and 100 Windows servers. Exceeding this recommended limit on 32 bit environments may result in poor performance or product instability, due to the 1 Gb memory limit. On 64 bit environments theoretically more connections can be monitored as the 1 Gb limit no longer applies, however testing of this has been limited. In environments that exceed this number of connections, consider a deployment of federation of Spotlight Diagnostic Server.
+
+#### Support for TLS 1.2
+In general every Windows version after and including Windows Server 2012 R2 or Windows 8.1 include TLS 1.2 support by default. For older versions, consult the Microsoft table  [https://support.microsoft.com/en-us/help/3135244/tls-1.2-support-for-microsoft-sql-server](https://support.microsoft.com/en-us/help/3135244/tls-1.2-support-for-microsoft-sql-server).
 
 
 ## Monitoring
