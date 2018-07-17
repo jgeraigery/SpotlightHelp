@@ -37,7 +37,7 @@ Spotlight Enterprise can now be used to monitor SQL Server 2017 Analysis Service
 Improved efficiency on executing the MoveDiagnosticServerHost stored procedure in the Spotlight Statistics Repository. | DS-976
 Increased the security between the Spotlight Enterprise Diagnostic Server and the Out of Process Collector using sockets instead of HTTP. | DS-502
 Connection Manager has been enhanced with Advanced Options for connection types Availability Groups, Replication, SQL Azure and SQL Server. You can now specify for each connection the connection timeout (in seconds) and the number of retries to attempt before raising a Connection Failure alarm. | SES-197
-
+The Error Log Alarms have been refined and enhanced and are now fully configurable from the Spotlight Client, Configure | Error Log Entries dialog. | SCMM-279
 
 
 {% include links.html %}
