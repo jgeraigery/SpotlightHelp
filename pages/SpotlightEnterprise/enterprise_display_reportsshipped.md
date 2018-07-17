@@ -142,6 +142,9 @@ Report on the bytes read per second, bytes written per second, IO's per second, 
 ## Windows Disk Space Report
 Use this report to identify Windows server disks nearing capacity.
 
+## Windows Disk Space Growth Report
+This report shows Window server disks growth. 
+
 ## Windows General Statistics Report
 
 * Report on the amount of CPU being used by the SQL Server instance against the total amount being used by all Windows processes.
