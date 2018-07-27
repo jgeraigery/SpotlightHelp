@@ -9,7 +9,7 @@ folder: SpotlightEnterprise
 
 ## Permission to use Spotlight
 
-The Windows credentials used to run the Spotlight Client must be a member of at least one of the three groups for the given Spotlight Diagnostic Server: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. Your Network Administrator can add members, increase and decrease your membership as required. These groups exist locally on the Diagnostic server, members can be added and removed through Computer Management > Local Users and Groups. 
+The Windows credentials used to run the Spotlight Client must be a member of at least one of the three groups for the given Spotlight Diagnostic Server: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. Your Network Administrator can add members, increase and decrease your membership as required. These groups exist locally on the Spotlight Diagnostic server host; members can be added and removed through Computer Management > Local Users and Groups. 
 
 ## Acknowledge, snooze and ignore alarms
 
