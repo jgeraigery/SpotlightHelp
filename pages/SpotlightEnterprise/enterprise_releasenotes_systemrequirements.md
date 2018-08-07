@@ -55,9 +55,13 @@ It is recommended that the latest .NET be installed.
 Minimum .NET 4.5.
 .NET is required for the Performance Health drilldowns and the Spotlight Report Viewer.
 
+#### Support for TLS 1.2
+In general every Windows version after and including Windows Server 2008 or Windows 7 include TLS 1.2 support by default. For older versions, consult the Microsoft table  [https://support.microsoft.com/en-us/help/3135244/tls-1.2-support-for-microsoft-sql-server](https://support.microsoft.com/en-us/help/3135244/tls-1.2-support-for-microsoft-sql-server).
+
+As part of the support for TLS 1.2, ensure the ODBC Driver 13 for SQL Server is installed.
+
 #### Microsoft Internet Explorer® 6.0 or later.
 
-{% include note.html content="Sign up and Sign in to Spotlight Cloud requires Internet Explorer 10 or above or equivalent browser." %}
 
 #### Microsoft Data Access Components (MDAC)
 MDAC includes the ODBC and other components that enable a connection to be established to a SQL Server database. The database may be local or remote. Your client machine must have MDAC 2.7 (or later) installed.
@@ -125,6 +129,9 @@ Required by Auto Update and Spotlight Cloud. Required to monitor your Spotlight 
 
 #### Connection Limit
 A single Spotlight Diagnostic Server is designed to monitor a maximum of 100 SQL Servers, Analysis Services or Replication instances and 100 Windows servers. Exceeding this recommended limit on 32 bit environments may result in poor performance or product instability, due to the 1 Gb memory limit. On 64 bit environments theoretically more connections can be monitored as the 1 Gb limit no longer applies, however testing of this has been limited. In environments that exceed this number of connections, consider a deployment of federation of Spotlight Diagnostic Server.
+
+#### Support for TLS 1.2
+In general every Windows version after and including Windows Server 2008 or Windows 7 include TLS 1.2 support by default. For older versions, consult the Microsoft table  [https://support.microsoft.com/en-us/help/3135244/tls-1.2-support-for-microsoft-sql-server](https://support.microsoft.com/en-us/help/3135244/tls-1.2-support-for-microsoft-sql-server).
 
 
 ## Monitoring
@@ -219,7 +226,6 @@ The TCP protocol must be enabled on the instance where the Spotlight Statistics 
 It is highly recommended that regular maintenance is performed on the Spotlight Statistics Repository. See [Maintenance plan for Spotlight Statistics Repository and Playback Database][enterprise_backend_maintenanceplan].
 
 ## Spotlight Cloud
-Sign up and Sign in to Spotlight Cloud requires Internet Explorer 10 or above or equivalent browser.
 
 ## Upgrade and compatibility
 Use the Spotlight installer to upgrade from Spotlight on SQL Server version 10.0 or later. To upgrade from an earlier version of Spotlight than 10.0, upgrade to at least version 10.0 before upgrading to 11.7. To upgrade from 10.5.0, first upgrade to 10.5.2 and then upgrade to 12.1.

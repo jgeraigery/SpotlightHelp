@@ -33,7 +33,7 @@ This test checks that Microsoft tools can connect to WMI.
 
 Run this test from the Spotlight Diagnostic Server.
 
-1. Login to the Spotlight Diagnostic Server under the account used to run the Spotlight Diagnostic Server.
+1. Login to the Spotlight Diagnostic Server host under the account used to run the Spotlight Diagnostic Server service.
 2. Click **Control Panel \| Administrative Tools \| Computer Management**.
 3. Right click **Computer Management (Local) \| Connect to another computer**.
 4. Specify the \\HOSTNAME where HOSTNAME is the name of machine you want to monitor with Spotlight.
@@ -244,8 +244,7 @@ The specified host, user or domain name contains special characters like '-' or 
 
 Solution: Modify the command by adding quotation marks.
 
-wmic /node: 'MonHostFQDN' /user: 'DOMAIN\USER' path Win32_PerfRawData_PerfDisk_LogicalDisk get FreeMegabytes
-
+wmic /node: "MonHostFQDN" /user: "DOMAIN\USER" path Win32_PerfRawData_PerfDisk_LogicalDisk get FreeMegabytes
 
 
 {% include links.html %}

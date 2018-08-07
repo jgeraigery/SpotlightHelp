@@ -22,56 +22,90 @@ Click {% include inline_imageClient.html file="tb_config_errorlogentries.png" al
 
 {% include tip.html content="To open this screen with a connection pre-selected, from the SQL Server \| Overview page click **Error Log**, or from the SQL Server \| Error Log drilldown click **Error Log Entries**." %}
 
-## Select template or connection to configure
 
-Select the SQL Server connection from the list of available options. Spotlight will show the configuration for that connection. Make changes if required. Optionally use the options at the bottom of the screen to apply the same configuration to other SQL Server connections or save the configuration as a template.
+## Select template or connection to configure
+Select a SQL Server connection from the list of available options. On selecting the connection you can view / modify the configuration. When done you can use the options at the bottom of the screen to apply this same configuration to other SQL Server connections or save the configuration as a template.
 
 Alternatively, select a template to configure. The templates you have previously saved for Spotlight Error Log Entries configuration are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see [Configuration templates][enterprise_cfgmonitor_templates].
 
+
 ## Override or use the factory settings
+Select the **Override the factory settings** option to modify the settings for the selected template or connection.
 
-### Override the factory settings
-
-1. Select the **Override the factory settings** option to modify the settings for the selected template or connection.
-2. Select **Enable error log scanning** to request Spotlight scan the SQL Server error log for matching entries.
-3. Edit the list of log entry text strings as appropriate.
-
-### Use factory settings
-
-Clear the **Override the factory settings** option to return the settings for the selected template or connection to the Factory Settings. These are the settings that were shipped with Spotlight.
-
-The default setting is to not scan the SQL Server error log for matching entries.
+When you clear the **Override the factory settings** option you return the settings for the selected template or connection to the Factory Settings. These are the settings that were shipped with Spotlight Enterprise.
 
 
-## Edit the list of log entry text strings as appropriate
+## Enable error log scanning
+By default this option is selected and Spotlight Enterprise scans the SQL Server error logs. Clear the **Enable error log scanning** option to stop Spotlight Enterprise from scanning the SQL Server error logs.
 
-Click **Add** to add to the list. Each text string can be enabled or disabled as appropriate. Spotlight only matches enabled text strings.
 
-### Add
+## Match List
+For each row on the Match List - If **Enabled** is selected then Spotlight Enterprise scans the SQL Server error log for the given **Log Entry**. If found then the log entry will be tabled in the Error Log drilldown. Additionally, if **Raise Alarm** is selected then Spotlight Enterprise will raise an alarm of the severity in the **Sev** column. See more on [SQL Server Alarms][sqlserver_alarms].
 
-Add a new text string for Spotlight to scan each log entry for.
 
-Do not use the \| character as part of the text string as Spotlight uses this character to mark the end of the string.
+### Default settings for the Match List
 
-### Edit
+Enabled | Sev | Log Entries | Raise Alarm | Alarm Raised
+--------|-----|-------------|-------------|-------------
+Yes | Medium | Severity: 17 | No | SQL Server Critical Error (severity level lower than 20)
+Yes | Medium | Severity: 18 | No | SQL Server Critical Error (severity level lower than 20)
+Yes | Medium | Severity: 19 | No | SQL Server Critical Error (severity level lower than 20)
+Yes | High | Severity: 20 | Yes | SQL Server Fatal Current Process Error (severity level 20)
+Yes | High | Severity: 21 | Yes | SQL Server Fatal Database (dbid) Process Error (severity level 21)
+Yes | High | Severity: 22 | Yes | SQL Server Fatal Table Integrity Suspect Error (severity level 22)
+Yes | High | Severity: 23 | Yes | SQL Server Fatal Database Integrity Suspect Error (severity level 23)
+Yes | High | Severity: 24 | Yes | SQL Server Fatal Hardware Error (severity level 24)
+Yes | High | Severity: 25 | Yes | SQL Server Fatal Hardware Error (severity level 25)
+Yes | Low | Backup Failed | No | SQL Server Low Severity Error Log Message
+Yes | Low | SqlDumpExceptionHandler | No | SQL Server Low Severity Error Log Message
+Yes | Low | TABLE corrupt | No | SQL Server Low Severity Error Log Message
+Yes | Low | admin | No | SQL Server Low Severity Error Log Message
+Yes | Low | cannot obtain a LOCK | No | SQL Server Low Severity Error Log Message
+Yes | Low | Error | No | SQL Server Low Severity Error Log Message
+Yes | Low | Victim Resource | No | SQL Server Low Severity Error Log Message
+Yes | Low | Expire | No | SQL Server Low Severity Error Log Message
+Yes | Low | stack | No | SQL Server Low Severity Error Log Message
+Yes | Low | is full | No | SQL Server Low Severity Error Log Message
+Yes | Low | cannot | No | SQL Server Low Severity Error Log Message
+Yes | Low | hung | No | SQL Server Low Severity Error Log Message
+Yes | Low | WARNING | No | SQL Server Low Severity Error Log Message
+Yes | Low | Unable | No | SQL Server Low Severity Error Log Message
+Yes | Low | Could not allocate new page | No | SQL Server Low Severity Error Log Message
+Yes | Low | attempting to unlock unowned | No | SQL Server Low Severity Error Log Message
+Yes | Low | failed | No | SQL Server Low Severity Error Log Message
 
-Modify the selected text string.
+### Changing the Match List
+Providing the **Override the factory settings** option is selected above, you can modify entries tabled on the Match List.
 
-### Delete
+#### Enabled
+An entry must be **Enabled** for Spotlight Enterprise to scan the SQL Server error logs for it.
 
-Remove the selected text string.
+#### Add / Edit
+Click **Add** to add an entry to the Match List. Click **Edit** to modify the selected entry on the Match List.
 
-### Copy
+{% include note.html content="For the **Error Log Entry** text do not use the \| character as Spotlight uses this character to mark the end of the string." %}
 
-Copy the selected text string to a new entry.
+#### Copy
+Make a copy of the selected entry on the Match List.
 
-### Enable All
+#### Delete
+Remove the selected entry from the Match List.
 
-Enable all text strings.
+#### Enable All / Disable All
+Click **Enable All** to enable all entries on the Match List. Click **Disable All** to disable all entries on the Match List.
 
-### Disable All
+#### Raise alarm
+When **Raise alarm** is selected, Spotlight Enterprise will raise an alarm when the SQL Server error log entry is found. Note that you will not be able to select the **Raise alarm** option while the **Enabled** option is not selected.
 
-Disable all text strings.
+
+## Ignore List  
+Spotlight Enterprise will not raise an alarm for error log entries that are matched by at least one entry on the Ignore List. Use the Ignore List to define cases where error log entries matched (from the Match List) should be ignored by Spotlight Enterprise.
+
+### Default string entries in the Ignore List
+
+* Login
+* START_FAILED
+* ANSI_WARNINGS
 
 
 ## Reuse this configuration

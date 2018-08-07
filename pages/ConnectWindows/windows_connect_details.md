@@ -1,6 +1,5 @@
 ---
 title: Connection Details for Windows server
-last_updated: July 29, 2016
 tags: [connection_details,connection_details_for_each_connection_type]
 summary: "Monitor a Windows server (Windows hosts of your database connections) by supplying the following connection details to Spotlight."
 sidebar: c_windows_sidebar
@@ -40,6 +39,10 @@ Specify the authentication for Spotlight to use to connect to the Windows server
 Select **Use Diagnostic Server credentials** to use the Windows user configured to run the Spotlight Diagnostic Server. You are required to select this option for the Windows Server that hosts the Spotlight Diagnostic Server. If you select this option and the Windows Server is remote from the Spotlight Diagnostic Server then ensure the Windows user running the Spotlight Diagnostic Server can access the Windows Server. (By default the Spotlight Diagnostic Server runs under the "Local System" account, which will not have privileges on a remote Windows Server). If you select this option and the Windows Server is in a different domain from the Spotlight Diagnostic Server then ensure the domain the Windows Server is in trusts the domain of the user running the Spotlight Diagnostic Server.
 
 Alternatively, fill in the **User** and **Password** fields. Include the Windows domain in the user name. For example, “domain\johnsmith”, instead of “johnsmith”. The account must have the privileges required to retrieve server information, query the registry, and access WMI and performance monitor objects. An account with administrative rights to the Windows server allows this. If this is not feasible in your environment then the following instructions are provided: [How to configure WMI with minimum required user permissions][windows_connect_wmiminimumpermissions].
+
+
+### Retries
+Set the number of times Spotlight should attempt to connect to the Windows Server before raising the [Connection Failure alarm][windows_alarm_monitoredserver_connectionfailure].
 
 
 ### Virtualization details

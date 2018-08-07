@@ -13,7 +13,7 @@ The following is supported:
 
 The username used to connect to the virtual guest machine must have at least a read-only role.
 
-Ensure any firewall is configured to open TCP port 135.
+Ensure any firewall is configured to open TCP port 443.
 
 
 {% include links.html %}

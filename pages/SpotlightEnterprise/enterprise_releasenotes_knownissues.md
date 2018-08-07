@@ -48,7 +48,7 @@ Known Issue | Issue ID
 Known Issue | Issue ID
 ------------|---------
 **History Browser and Playback mode.** Playback data is collected at scheduled intervals, in response to some alarms, and also while viewing a drilldown using the Spotlight client. This means that history data may not be available for a drilldown in Playback mode. To change the rate at which data is collected, go to **Configure \| Scheduling**. | N/A
-
+The **Show System Sessions** filter is not supported in Playback mode. | SoSSE-7031
 
 
 ## known issues using the Spotlight Statistics Repository
@@ -72,15 +72,6 @@ Known Issue | Issue ID
 **Spotlight Cloud** - On the Configure \| Spotlight Cloud page, the organization name or the text "My Organization" may be displayed instead of the email address for customers who signed in to Spotlight Cloud using Spotlight Enterprise versions earlier than 12.2. | ENT-217
 **Cap on collections.** To limit Spotlight's load and memory consumption, a cap of 10000 rows is placed on most collections. To modify this cap, edit the following text in file ..\agent\bin\DiagnosticServer.properties: <br><br> "-Dcom.quest.adk.rowLimit=10000" | 11685
 **Unable to receive email attachment** - If the Spotlight Diagnostics Server sends an email with an attachment, that attachment will have a .zip extension. Some email servers automatically reject attachments with a .zip extension. <br><br> *Workaround* - Change the .zip extension to something else. In the Spotlight Diagnostic Server installation folder, in the **Agent/conf** folder, modify the text file **DiagnosticServer.properties** by changing the value of the property **com.quest.adk.email.attachment.extension**. | SOSSE-5698
-
-
-## knows issues connecting to Spotlight Cloud
-
-Known Issue | Issue ID
-------------|---------
-Keyboard shortcuts do not work on the Sign in and Sign up pages. | SOSSE-6887
-Use of the Sign in and Sign up pages requires Internet Explorer 10 or above or equivalent browser. | SOSSE-7188
-When using the Sign in and Sign up pages ensure Internet Explorer Enhanced Security Configuration is disabled. | SCM-88
 
 
 ## Monitoring Connections

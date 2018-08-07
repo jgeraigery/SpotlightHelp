@@ -68,8 +68,6 @@ spotlight_rep_top_sql_summary
 
 spotlight_rt_get_aggregated_workload_analysis
 
-spotlight_rt_get_allsqlagentjobs
-
 spotlight_rt_get_batch_data
 
 spotlight_rt_get_batch_data2

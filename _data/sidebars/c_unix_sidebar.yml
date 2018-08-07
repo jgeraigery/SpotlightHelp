@@ -229,6 +229,10 @@ entries:
           url: /unix_component_cputype.html
           output: web, pdf
 
+        - title: Virtualization Overhead
+          url: /unix_component_virtualoverhead.html
+          output: web, pdf
+
         - title: CPU Usage
           url: /unix_component_cpuusage.html
           output: web, pdf
@@ -400,7 +404,7 @@ entries:
     - title: Version
       url: /unix_component_version.html
       output: web, pdf
-  
+
   - title: Collections
     output: web, pdf
     folderitems:
@@ -408,4 +412,3 @@ entries:
     - title: Collections
       url: /unix_collections.html
       output: web, pdf
-

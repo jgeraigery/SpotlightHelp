@@ -8,6 +8,9 @@ folder: SpotlightEnterprise
 ---
 
 
+{% include note.html content="Error Log Entry alarms are no longer configured from here. Configure Error Log Entry alarms from [Configure Error Log Entries][enterprise_cfgmonitor_errorlogentries]." %}
+
+
 ## Factory Settings
 
 ### Select
