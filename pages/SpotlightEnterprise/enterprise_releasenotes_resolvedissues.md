@@ -49,6 +49,7 @@ Corrected a problem where the alarm Cleared time is not timely updated when the 
 Corrected a problem where the Failed SQL Agent Jobs Report did not show all failures. | DS-571
 Corrected a problem executing the spotlight_sqlanalysis_results procedure. | SES-192
 Fixed an issue that the SQL Server Blocking drilldown took too long to return data. | SES-175
+Corrected a problem where Spotlight sometimes raised the error: “HTTP request to http://127.0.0.1:3166/CommandInBody failed” | SES-141, DS-1244
 Corrected Spotlight's reporting of the SQL Agent Job failure alarm. | SES-112
 Corrected a problem where session SPID > 2000 may be excluded from the session list. | SES-219
 
