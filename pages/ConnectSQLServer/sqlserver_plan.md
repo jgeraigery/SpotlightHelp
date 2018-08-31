@@ -8,9 +8,13 @@ folder: ConnectSQLServer
 ---
 
 
-
-{% include inline_imageClient.html file="tb_optimizerplan_plan.png" alt="Plan" %} | Click to show Visualization.
-{% include inline_imageClient.html file="tb_optimizerplan_sql.png" alt="SQL" %} | Click to show SQL.
+Menu | Description
+-----|------------
+{% include inline_imageClient.html file="tb_plan_analysis.png" alt="Analysis" %} | Click to show Analysis of Query for the selected plan. Click **View** to show the Execution Plan. Click **More** to show the SQL Statement.
+{% include inline_imageClient.html file="tb_plan_execution.png" alt="Execution Plan" %} | Click to show the Execution Plan.
+{% include inline_imageClient.html file="tb_plan_operation.png" alt="Operation" %} | Click to show the operation of each session for the selected plan. Note that you can show/hide columns using **Organize Columns**.
+{% include inline_imageClient.html file="tb_plan_sql.png" alt="SQL" %} | Click to show the SQL statement for the selected plan.
+{% include inline_imageClient.html file="tb_plan_objects.png" alt="SQL" %} | Click to show a tabular view of all objects in use by the plan and the operations they are used in.
 
 
 {% include tip.html content="While the Session Status is running there is an option to **View SQL for Batch**." %}

@@ -41,6 +41,9 @@ To upgrade from an earlier version of Spotlight on SQL Server than 10.0, upgrade
 
 To upgrade from Spotlight on SQL Server 10.5.0, first upgrade to 10.5.2 and then upgrade to Spotlight Enterprise.
 
+### Spotlight Enterprise 12.3 and SQL Server Error Log Alarms
+On upgrade to Spotlight Enterprise 12.3 from 12.2 any Error Log alarms configured by you in the Spotlight Client, Configure \| Alarms dialog to be enabled, require acknowledgement, have changed content or ignore certain values, will have these configurations returned to Factory Settings. The Error Log Alarms have been refined and enhanced and are now fully configurable from the Spotlight Client, Configure | Error Log Entries dialog.
+
 ### Spotlight Enterprise 12.1 and SQL Server Waits
 On upgrade to Spotlight Enterprise 12.1 there are new categories of wait events on the SQL Server Performance Health drilldown, Wait Statisitcs drilldown and Wait Events drilldown.
 

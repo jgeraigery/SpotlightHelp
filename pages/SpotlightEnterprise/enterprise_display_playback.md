@@ -23,8 +23,7 @@ Control | Description
 --------|-------------
 {% include inline_imageClient.html file="pane_playback_day.png" alt="Select the date" %}  | Select the date. Use the back and forward buttons to change the date.
 {% include inline_imageClient.html file="pane_playback_time.png" alt="Select the time of day" %}  | Select the time of day. Press and hold to magnify the time scale. The time scale is colored according to the most severe alarm raised against the connection at that time.
-{% include inline_imageClient.html file="pane_playback_alarm.png" alt="Alarms list" %}   | The alarms list shows alarms raised on the selected day. It scrolls to show those alarms raised at the given time. Select an alarm to playback to the time when the alarm was raised.
-
+{% include inline_imageClient.html file="pane_playback_alarm.png" alt="Alarms list" %}   | The alarms list shows alarms raised on the selected day. It scrolls to show those alarms raised at the given time. Select an alarm to playback to the time when the alarm was raised.<br><br>Use the **Search** field above the table to quickly locate an alarm. The list of alarms is filtered to match the text you type in the search field.
 
 Icon | Name | Description
 -----|-----------|------------------------

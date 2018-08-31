@@ -33,7 +33,8 @@ Click {% include inline_imageClient.html file="tb_config_alarms.png" alt="Config
 
 Option | Description
 -------|------------
-Factory Settings | Select to show the settings shipped with Spotlight. These settings can be reapplied to a connection. These settings cannot be changed.
+Factory Settings | Select to show the standard settings shipped with Spotlight. These settings can be reapplied to a connection. These settings cannot be changed.
+Factory Reduced Sensitivity Template | Select to show reduced severity settings shipped with Spotlight. These settings reduce the severity of many alarms raised (compared to standard Factory Settings) and are more likely to raise a high severity alarm only where the situation presents an availability issue. These settings can be reapplied to a connection. These settings can be changed.
 Connection | Select a Spotlight connection to show / change alarm configurations for that connection.
 Template | Select a template to show / change / reapply a template configuration. Select a template to delete or rename that template. The templates you have previously saved are listed. For more information, see [Configuration templates][enterprise_cfgmonitor_templates].
 
@@ -62,6 +63,10 @@ Information about each alarm is documented under the connection type.
 {% endfor %}
 {% endfor %}
 </ul>
+
+{% include note.html content="Error Log Entry alarms are no longer configured from here. Configure Error Log Entry alarms from [Configure Error Log Entries][enterprise_cfgmonitor_errorlogentries]." %}
+
+{% include tip.html content="Use the **Search** field above the table to quickly locate an alarm. The list of alarms is filtered to match the text you type in the search field." %}
 
 ## Reuse this configuration
 

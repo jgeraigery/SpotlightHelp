@@ -12,4 +12,6 @@ Blocking in SQL Server occurs when a session that was performing some task is un
 
 The **SQL Activity drilldown \| Blocking page** shows details about the current blocks.
 
+See also the The **SQL Activity drilldown \| Deadlocks page**.
+
 {% include links.html %}

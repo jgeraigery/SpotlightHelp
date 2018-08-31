@@ -15,7 +15,7 @@ The average queue time should remain under 60,000ns. This alarm is raised when t
 
 When the alarm is raised there is CPU starvation.
 
-*  See the Windows Server \| CPU Drilldown \| Virtualized CPU page \| CPU wait time per dispatch chart.
+*  For Windows Server see the Windows Server \| CPU Drilldown \| Virtualized CPU page \| CPU wait time per dispatch chart.
 *  See your Hyper-V administrator for ways to address this issue.
 
 

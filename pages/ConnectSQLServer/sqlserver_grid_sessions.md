@@ -1,6 +1,5 @@
 ---
 title: Sessions grid
-last_updated: October 16, 2017
 summary: "The Sessions grid shows all SQL Server sessions, each row representing a single SQL Server session."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_sessions.html
@@ -15,6 +14,9 @@ folder: ConnectSQLServer
 * When there are more than 2000 sessions only those sessions that are active (and those sessions that are blocked and blocking) are shown.
 * To show only those sessions that are currently executing, click **Show active sessions only**.
 * To close a SQL Server session, right click and select **Kill this session**. This option is available only to members of the Spotlight Diagnostic Administrators group.
+* The screen refreshes automatically. To pause Auto Refresh click {% include inline_imageClient.html file="tb_drilldown_session_refresh.png" alt="Pause Auto Refresh" %}. Click again to re-start auto refresh.
+* The status column of the grid is color coded for readability.
+* You can view more details for a session by clicking it in this grid. Additional pages are then displayed in the lower half of the drilldown.
 
 ## General tips to using Spotlight grids
 
@@ -80,6 +82,10 @@ Number of physical reads performed for each request.
 ### Writes
 
 Number of physical writes performed for each request.
+
+## Request Granted Memory
+
+Number of pages allocated to the execution of a query on the request.
 
 ### Total CPU
 

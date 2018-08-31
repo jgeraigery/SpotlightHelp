@@ -1,6 +1,5 @@
 ---
 title: Workload Analysis drilldown
-last_updated: July 29, 2016
 summary: "Drilldown on the workload of this SQL Server instance. What work is the database system producing in a given time? What resources are consumed in producing this work?"
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_drilldown_workloadanalysis.html
@@ -39,7 +38,7 @@ Database | Analyze which database is contributing most to the workload of the se
 Application | Analyze which application is contributing most to the workload of the selected resource.
 User | Analyze which user is contributing most to the workload of the selected resource.
 Host | Analyze which host is contributing most to the workload of the selected resource.
-Statement | Analyze which SQL statement is contributing most to the workload of the selected resource.
+Statement | Analyze which SQL statement is contributing most to the workload of the selected resource. Note that only 200 SQL Statements are shown at a time; click **Show More** to show the next 1000 statements.
 
 Possible actions you can take once the resource and workload item are selected:
 

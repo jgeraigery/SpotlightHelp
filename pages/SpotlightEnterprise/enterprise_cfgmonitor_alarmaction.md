@@ -260,4 +260,13 @@ The message field is required; it cannot be empty. The default message is:
 
 The message can include variables. For more information on variables, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].
 
+
+## Run this action now on existing alarms
+
+### Selected
+Execute the action(s) immediately for this Alarm Action Rule - as soon as the Alarm Action Editor is closed.
+
+### Not Selected  
+Execute the action(s) for this Alarm Action Rule from next rule evaluation. For example if the Alarm Action Rule specifies to execute the action(s) at 4pm then wait till 4pm to execute the action(s).
+
 {% include links.html %}
