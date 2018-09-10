@@ -11,5 +11,4 @@ folder: ConnectSQLServer
 
 The log files displayed can be restricted by clicking the **database(s)** of interest in the Databases grid at the top of the drilldown. They can then be further restricted by clicking just the log files of interest in the Log Files grid. Hold down the **Shift** key to select multiple log files, or the **CTRL** key to select individual log files.
 
-
 {% include links.html %}
