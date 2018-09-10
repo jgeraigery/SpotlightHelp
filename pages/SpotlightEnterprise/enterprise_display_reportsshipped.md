@@ -19,7 +19,7 @@ Report on user actions from within Spotlight. The Audit Report is a historical r
 Report on data collected for configured custom counters on selected SQL Servers or Windows hosts.
 
 ## Configuration Changes Report  
-Report on configuration changes to the database.
+Report on your configuration of the Spotlight Enterprise application settings as compared to the default settings.
 
 {% include note.html content="The procedure that writes the configuration changes to the database runs every 30 minutes." %}
 
