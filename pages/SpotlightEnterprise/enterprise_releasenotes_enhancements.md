@@ -13,7 +13,7 @@ readonly: true
 Enhancement | Issue ID
 ------------|---------
 Added more time periods to Playback Rewind and Skip: 2 hours, 6 hours, 12 hours. | SOSSE-6038
-New Backup Report that shows the last backup time of selected connections. | SOSSE-2408
+New Backup Report that shows the last backup time of databases on selected SQL Server connections. | SOSSE-2408
 
 
 ## Enhancements implemented in Spotlight Enterprise 12.3
