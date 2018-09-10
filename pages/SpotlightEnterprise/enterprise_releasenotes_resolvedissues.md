@@ -9,6 +9,19 @@ readonly: true
 ---
 
 
+
+## Issues resolved in Spotlight Enterprise 12.3.1
+
+Enhancement | Issue ID
+------------|---------
+In a federated environment corrected a problem where configuring Alarms, Alarm Actions, Scheduling and Planned Outages was inaccessible when one of the Spotlight Diagnostic Server was unavailable. | SOSSE-7479
+On the SQL Server \| Fragmented Indexes drilldown corrected a problem where on click "Restore default settings" the drilldown shows "Loading ..." message forever. | SOSSE-7452
+When generating a report and multiple SQL Server instances and/or Windows Servers were selected, corrected a problem where the maximum length of the parameter was exceeded. | SOSSE-7202
+From a Spotlight Client installed on Windows Server 2008 SP2, corrected an unexpected error on acknowledging a Diagnostic Server Web Connection alarm. | SOSSE-6703
+Corrected a problem behind an unexpected error, raised on generating a defragmentation script. | SOSSE-2408
+
+## Issues resolved in Spotlight Enterprise 12.3
+
 Issue | ID
 ------|---
 When monitoring SQL Server Replication the Spotlight Client has been enhanced to notify when certain drilldown pages are unavailable in Playback mode. When there is no data in the Agent-> Performance drilldown or SQL agent jobs drilldown then the Spotlight Client now shows "This section is not available in playback mode" | SOSSE-7399
