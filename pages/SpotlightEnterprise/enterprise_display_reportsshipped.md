@@ -47,6 +47,9 @@ Report on alarms that have occurred on the specified server for a set time perio
 ## SQL Server Availability Report
 Report on how available the given SQL Server instances have been over the specified time period. Include uptime statistics and the reason for any downtime periods (as per Spotlight alarms raised).
 
+## SQL Server Backup Report
+Report on the last backup time of databases on selected SQL Server connections.
+
 ## SQL Server Blocking Report
 Report on the lead blockers and the number of blocked processes over the selected time range. Report on the SQL statements that have caused the most blocking over the selected time range. Report on the SQL statements that have been blocked most often over the selected time range.
 
@@ -143,7 +146,7 @@ Report on the bytes read per second, bytes written per second, IO's per second, 
 Use this report to identify Windows server disks nearing capacity.
 
 ## Windows Disk Space Growth Report
-This report shows Window server disks growth. 
+This report shows Window server disks growth.
 
 ## Windows General Statistics Report
 
