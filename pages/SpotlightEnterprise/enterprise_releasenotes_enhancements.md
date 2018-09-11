@@ -12,9 +12,9 @@ readonly: true
 
 Enhancement | Issue ID
 ------------|---------
+New Backup Report that shows the last backup time of databases on selected SQL Server connections. | SOSSE-6744
 Virtual Log Files have been added to the SQL Server \| Databases drilldown, Log Files grid. There is a new Virtual Log Files Count chart. | SOSSE-6648
 Added more time periods to Playback Rewind and Skip: 2 hours, 6 hours, 12 hours. | SOSSE-6038
-New Backup Report that shows the last backup time of databases on selected SQL Server connections. | SOSSE-2408
 
 
 ## Enhancements implemented in Spotlight Enterprise 12.3
