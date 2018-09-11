@@ -140,13 +140,11 @@ Shows all log files in the selected databases, including their size, free space 
 
 You can restrict the log files included in the charts by highlighting just the records you are interested in.
 
-#### Log File Space chart
-Shows the total space allocated to each log file, displayed in megabytes or as a percentage of disk space. To switch between statistics, click the arrow next to the chart name.
+#### Log File Space charts
+Shows the total space allocated to each log file, displayed in megabytes or as a percentage of disk space. To switch between the charts, click the arrow next to the chart name.
 
-The Virtual Log Files Count chart is accessible from these charts. Click the arrow next to the chart name to see the option.
-
-#### Log File Growth chart
-Shows the amount by which each log file is growing over time.
+#### Growth charts
+Shows the amount by which each log file is growing over time. To switch between the charts, click the arrow next to the chart name.
 
 
 ### Tables page
