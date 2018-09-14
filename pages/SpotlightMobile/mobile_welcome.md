@@ -23,10 +23,4 @@ During installation, you may be given the opportunity to decline to receive push
 
 Sign in to the Spotlight Cloud Mobile app with your Quest Account. If you have many Quest Accounts then each can be added to Spotlight Cloud Mobile.
 
-
-## Configure the Spotlight Diagnostic Server
-In a Spotlight Enterprise deployment, use a Spotlight Client to [configure uploading to the Spotlight Cloud][enterprise_cfgds_spotlightcloud].
-
-
-
 {% include links.html %}

@@ -8,7 +8,12 @@ folder: SpotlightEnterprise
 
 ## Installation
 
-The Spotlight Client is installed by the [Spotlight Enterprise installer][enterprise_install]. The Spotlight Client is installed on a Windows server. The Spotlight Client can be installed on the same Windows server as the Spotlight Diagnostic Server but does not have to be.
+The Spotlight Client is installed by the [Spotlight Enterprise installer][enterprise_install]. The Spotlight Client can be installed on the same Windows server as the Spotlight Diagnostic Server but does not have to be.
+
+## Monitor Connections
+
+Use the Spotlight Client to monitor connections. See the [Heatmap in Spotlight Enterprise][enterprise_display_heatmap].
+
 
 ## Deployment
 

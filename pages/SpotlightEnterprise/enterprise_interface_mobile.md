@@ -22,4 +22,8 @@ The Spotlight Diagnostic Server must be configured to upload data to the Spotlig
 {% include note.html content="The Spotlight Diagnostic Server must have access to the Internet. See [Spotlight Services requiring Internet Access][enterprise_backend_ds_internetaccess]." %}
 
 
+## Help on using Spotlight Cloud Mobile
+See [Spotlight Cloud Mobile Summary][mobile_summary].
+
+
 {% include links.html %}
