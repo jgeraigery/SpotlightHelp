@@ -18,8 +18,8 @@ In the SQL Server \| Databases drilldown \| Fragmented indexes grid, corrected t
 In a federated environment corrected a problem where configuring Alarms, Alarm Actions, Scheduling and Planned Outages was inaccessible when one of the Spotlight Diagnostic Server was unavailable. | SOSSE-7479
 On the SQL Server \| Fragmented Indexes drilldown corrected a problem where on click "Restore default settings" the drilldown shows "Loading ..." message forever. | SOSSE-7452
 When generating a report and multiple SQL Server instances and/or Windows Servers were selected, corrected a problem where the maximum length of the parameter was exceeded. | SOSSE-7202
+On the SQL Server \| Overview page corrected a problem reporting the fragmentation index alarm. | SOSSE-7144
 
-Raise fragmentation index alarm in homepage that should not be raised | SOSSE-7144
 Spotlight does not show some of the data on the overview randomly | SOSSE-6760
 
 From a Spotlight Client installed on Windows Server 2008 SP2, corrected an unexpected error on acknowledging a Diagnostic Server Web Connection alarm. | SOSSE-6703
