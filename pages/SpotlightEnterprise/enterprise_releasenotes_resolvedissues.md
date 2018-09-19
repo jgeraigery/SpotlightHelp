@@ -22,9 +22,8 @@ On the SQL Server \| Overview page corrected a problem reporting the fragmentati
 When using the Spotlight Client, corrected a refresh issue on the Spotlight Overview page when switching between many connections. | SOSSE-6760
 From a Spotlight Client installed on Windows Server 2008 SP2, corrected an unexpected error on acknowledging a Diagnostic Server Web Connection alarm. | SOSSE-6703
 Corrected a problem behind an unexpected error, raised on generating a defragmentation script. | SOSSE-2408
-
-Change the order of useextendedevents properties lookup in monitored entity | DS-1508
-No data in WA and WE after upgrade to 12.3 for one of connections | DS-1498
+Cleared duplicated properties "useextendedevents" in Monitored_Entity files. | DS-1508
+Corrected a problem where the SQL Server, Wait Events and Workload Analysis drilldowns, showed no data on upgrade to 12.3. | DS-1498
 Failed to kill an OOPCollector process. | DS-1434
 
 ## Issues resolved in Spotlight Enterprise 12.3
