@@ -24,7 +24,9 @@ From a Spotlight Client installed on Windows Server 2008 SP2, corrected an unexp
 Corrected a problem behind an unexpected error, raised on generating a defragmentation script. | SOSSE-2408
 Cleared duplicated properties "useextendedevents" in Monitored_Entity files. | DS-1508
 Corrected a problem where the SQL Server, Wait Events and Workload Analysis drilldowns, showed no data on upgrade to 12.3. | DS-1498
+Corrected a problem where the SQL File Groups collection put an incorrect value in the DiskSizeInfoAvailable column. | DS-1495
 Corrected a problem where Spotlight stopped collecting data from SQL Server connections due to a failure to kill a Spotlight OOP Collector process. | DS-1434
+
 
 ## Issues resolved in Spotlight Enterprise 12.3
 
