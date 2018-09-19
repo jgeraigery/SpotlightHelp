@@ -14,11 +14,20 @@ readonly: true
 
 Enhancement | Issue ID
 ------------|---------
+In the SQL Server \| Databases drilldown \| Fragmented indexes grid, corrected the values in the Recovery column. | SOSSE-7589
 In a federated environment corrected a problem where configuring Alarms, Alarm Actions, Scheduling and Planned Outages was inaccessible when one of the Spotlight Diagnostic Server was unavailable. | SOSSE-7479
 On the SQL Server \| Fragmented Indexes drilldown corrected a problem where on click "Restore default settings" the drilldown shows "Loading ..." message forever. | SOSSE-7452
 When generating a report and multiple SQL Server instances and/or Windows Servers were selected, corrected a problem where the maximum length of the parameter was exceeded. | SOSSE-7202
+
+Raise fragmentation index alarm in homepage that should not be raised | SOSSE-7144
+Spotlight does not show some of the data on the overview randomly | SOSSE-6760
+
 From a Spotlight Client installed on Windows Server 2008 SP2, corrected an unexpected error on acknowledging a Diagnostic Server Web Connection alarm. | SOSSE-6703
 Corrected a problem behind an unexpected error, raised on generating a defragmentation script. | SOSSE-2408
+
+Change the order of useextendedevents properties lookup in monitored entity | DS-1508
+No data in WA and WE after upgrade to 12.3 for one of connections | DS-1498
+Failed to kill an OOPCollector process. | DS-1434
 
 ## Issues resolved in Spotlight Enterprise 12.3
 
