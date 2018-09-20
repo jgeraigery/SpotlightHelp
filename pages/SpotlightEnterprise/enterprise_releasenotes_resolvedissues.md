@@ -12,8 +12,8 @@ readonly: true
 
 ## Issues resolved in Spotlight Enterprise 12.3.1
 
-Enhancement | Issue ID
-------------|---------
+Issue | ID
+------|---
 In the SQL Server \| Databases drilldown \| Fragmented indexes grid, corrected the values in the Recovery column. | SOSSE-7589
 In a federated environment corrected a problem where configuring Alarms, Alarm Actions, Scheduling and Planned Outages was inaccessible when one of the Spotlight Diagnostic Server was unavailable. | SOSSE-7479
 On the SQL Server \| Fragmented Indexes drilldown corrected a problem where on click "Restore default settings" the drilldown shows "Loading ..." message forever. | SOSSE-7452
@@ -26,6 +26,10 @@ Cleared duplicated properties "useextendedevents" in Monitored_Entity files. | D
 Corrected a problem where the SQL Server, Wait Events and Workload Analysis drilldowns, showed no data on upgrade to 12.3. | DS-1498
 Corrected a problem where the SQL File Groups collection put an incorrect value in the DiskSizeInfoAvailable column. | DS-1495
 Corrected a problem where Spotlight stopped collecting data from SQL Server connections due to a failure to kill a Spotlight OOP Collector process. | DS-1434
+
+
+
+False alarm of "Databases - Data File Group Space Used" | DS-1490
 
 
 ## Issues resolved in Spotlight Enterprise 12.3
