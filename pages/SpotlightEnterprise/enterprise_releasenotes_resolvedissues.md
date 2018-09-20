@@ -27,7 +27,7 @@ Corrected a problem where the SQL Server, Wait Events and Workload Analysis dril
 Corrected a problem where the SQL File Groups collection put an incorrect value in the DiskSizeInfoAvailable column. | DS-1495
 Corrected false alarms of "Databases - Data File Group Space Used" | DS-1490
 Corrected a problem where Spotlight stopped collecting data from SQL Server connections due to a failure to kill a Spotlight OOP Collector process. | DS-1434
-
+Error returned by VMware procedures "Object reference not set to an instance of an object" - Have reduced the occurrence of this error by making improvements to the VMware collector code. | DS-744
 
 
 ## Issues resolved in Spotlight Enterprise 12.3
