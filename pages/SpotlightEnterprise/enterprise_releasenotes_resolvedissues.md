@@ -14,6 +14,7 @@ readonly: true
 
 Issue | ID
 ------|---
+Corrected a performance problem with the SQL Server \| Workload Analysis drilldown where there could be a noticeable delay selecting an item. | SOSSE-7597
 In the SQL Server \| Databases drilldown \| Fragmented indexes grid, corrected the values in the Recovery column. | SOSSE-7589
 In a federated environment corrected a problem where configuring Alarms, Alarm Actions, Scheduling and Planned Outages was inaccessible when one of the Spotlight Diagnostic Server was unavailable. | SOSSE-7479
 On the SQL Server \| Fragmented Indexes drilldown corrected a problem where on click "Restore default settings" the drilldown shows "Loading ..." message forever. | SOSSE-7452
