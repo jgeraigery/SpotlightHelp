@@ -11,7 +11,7 @@ folder: SpotlightEnterprise
 ## Requirements to monitor Spotlight connections from the Spotlight Cloud web site
 The Spotlight Diagnostic Server must be configured to upload data to the Spotlight Cloud. Use a Spotlight Client to [Configure uploading to the Spotlight Cloud][enterprise_cfgds_spotlightcloud].
 
-You must have a Quest Account that is in the same organization as that configured for the Spotlight Diagnostic Server. Either your Quest Account was used to configure uploading to Spotlight Cloud or you have accepted an invitation to join the organization. See [Accept the invitation to join Spotlight Cloud][cloud_welcome_acceptinvite].
+You must have a Quest Account that is in the same Spotlight Organization as that configured for the Spotlight Diagnostic Server. Either your Quest Account was used to configure uploading to Spotlight Cloud or you have accepted an invitation to join the Spotlight Organization. See [Accept the invitation to join Spotlight Cloud][cloud_welcome_acceptinvite].
 
 ## How to monitor Spotlight connections from the Spotlight Cloud web site
 

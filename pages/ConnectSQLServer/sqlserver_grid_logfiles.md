@@ -1,6 +1,5 @@
 ---
 title: Log Files grid
-last_updated: July 29, 2016
 summary: "The Log Files grid shows information on all log files in the selected databases."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_grid_logfiles.html
@@ -62,6 +61,10 @@ If the log file can grow.
 ### Path
 
 The location of the log file.
+
+### Virtual Log Files Count
+
+Count of the number of Virtual Log Files as sourced from vlfcount procedure SQLVirtualLogFilesCount
 
 ### Free Pct
 

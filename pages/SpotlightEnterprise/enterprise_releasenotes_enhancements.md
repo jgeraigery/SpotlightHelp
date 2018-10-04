@@ -8,6 +8,14 @@ folder: SpotlightEnterprise
 readonly: true
 ---
 
+## Enhancements implemented in Spotlight Enterprise 12.3.1
+
+Enhancement | Issue ID
+------------|---------
+New Backup Report that shows the last backup time of databases on selected SQL Server connections. | SOSSE-6744
+Virtual Log Files have been added to the SQL Server \| Databases drilldown, Log Files grid, space and growth charts. | SOSSE-6648
+Added more time periods to Playback Rewind and Skip: 2 hours, 6 hours, 12 hours. | SOSSE-6038
+Added the ability to use encryption for the connections used to access the Playback Database and Spotlight Statistics Repository. | DS-1504
 
 ## Enhancements implemented in Spotlight Enterprise 12.3
 

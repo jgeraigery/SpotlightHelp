@@ -24,7 +24,7 @@ entries:
     - title: Welcome
       url: /mobile_welcome.html
       output: web, pdf
-  
+
   - title: Monitoring Displays
     output: web, pdf
     folderitems:
@@ -83,7 +83,7 @@ entries:
 
     - title: Profile
       url: /mobile_profile.html
-      output: web, pdf  
+      output: web, pdf
 
     - title: Refresh
       url: /mobile_refresh.html
@@ -95,4 +95,12 @@ entries:
 
     - title: Backend Deployment (Spotlight Enterprise)
       url: /mobile_backend_enterprise.html
+      output: web, pdf
+
+  - title: Troubleshoot
+    output: web, pdf
+    folderitems:
+
+    - title: Troubleshoot (no data)
+      url: /mobile_troubleshoot_nodata.html
       output: web, pdf
