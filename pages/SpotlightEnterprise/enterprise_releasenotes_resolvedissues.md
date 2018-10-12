@@ -24,6 +24,7 @@ When using the Spotlight Client, corrected a refresh issue on the Spotlight Over
 From a Spotlight Client installed on Windows Server 2008 SP2, corrected an unexpected error on acknowledging a Diagnostic Server Web Connection alarm. | SOSSE-6703
 Corrected a problem behind an unexpected error, raised on generating a defragmentation script. | SOSSE-2408
 Corrected a problem where on error "Cannot connect to Windows host 'SRV-SCCM-SQL' : WMI Query 'Win32_PerfRawData_PerfOS-System' failed : The remote procedure call failed. (Exception from HRESULT: 0X800706BE0). (requires acknowledgement)" cannot connect to monitored Windows Server connections on upgrade to 12.3. | DS-1569
+Corrected a problem where Spotlight incorrectly aggregated Extended Events by database name for the SQL Server Workload Analysis drilldown for the 2008 algorithm.  | DS-1543
 Corrected a problem where extended events session not work due to duplicated properties "useextendedevents" in Monitored_Entity files. | DS-1508, SOSSE-7379
 Corrected a problem where Spotlight Alarm Actions were triggered after the alarm was cleared.  | DS-1553
 Corrected a problem where the SQL File Groups collection put an incorrect value in the DiskSizeInfoAvailable column. | DS-1495
