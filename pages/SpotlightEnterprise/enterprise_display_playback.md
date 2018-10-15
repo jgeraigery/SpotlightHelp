@@ -28,8 +28,8 @@ Control | Description
 Icon | Name | Description
 -----|-----------|------------------------
 {% include inline_imageClient.html file="tb_playback_realtime.png" alt="Real time button" %}  | Real Time | Return to present time.
-{% include inline_imageClient.html file="tb_playback_rewind.png" alt="Rewind butto" %} | Rewind | Go back in time. Click the associate arrow to define how far back in time to travel: 1 minute, 5 minutes, 10 minutes, 1 hour or 1 day.
-{% include inline_imageClient.html file="tb_playback_skip.png" alt="Skip button" %} | Skip | Starting from the past, skip forward in time. Click the associate arrow to define how far forward to skip: 1 minute, 5 minutes, 10 minutes, 1 hour or 1 day.
+{% include inline_imageClient.html file="tb_playback_rewind.png" alt="Rewind button" %} | Rewind | Go back in time. Click the associate arrow to define how far back in time to travel: 1 minute, 5 minutes, 10 minutes, 1 hour, 2 hours, 6 hours, 12 hours or 1 day.
+{% include inline_imageClient.html file="tb_playback_skip.png" alt="Skip button" %} | Skip | Starting from the past, skip forward in time. Click the associate arrow to define how far forward to skip: 1 minute, 5 minutes, 10 minutes, 1 hour, 2 hours, 6 hours, 12 hours or 1 day.
 {% include inline_imageClient.html file="tb_playback_play.png" alt="Play button" %} | Play | Starting from the past, step forward in time through the alarms in sequence. Click the associate arrow to define the speed of play.
 
  {% include note.html content="Playback data is not displayed for SQL Azure database connections." %}

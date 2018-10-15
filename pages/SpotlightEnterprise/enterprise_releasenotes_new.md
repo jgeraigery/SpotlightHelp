@@ -17,7 +17,7 @@ On the SQL Server, **SQL Activity | Sessions | Plan** and **SQL Activity | Query
 When configuring alarms there are two Factory Templates shipped with Spotlight: the Factory Settings Template and Factory Reduced Sensitivity Template. The new Factory Reduced Sensitivity Template reduces the severity of many alarms raised and is more likely to raise a high severity alarm only where the situation presents an availability issue. See [Configure Alarms][enterprise_cfgmonitor_alarms].
 
 ## Configuration Changes Report
-This new report reports on configuration changes to the database. See the [List of Default Reports][enterprise_display_reportsshipped].
+This new report reports on your configuration of the Spotlight Enterprise application settings as compared to the default settings. See the [List of Default Reports][enterprise_display_reportsshipped].
 
 ## Windows Disk Space Growth Report
 This new report supports multiple selected connections. See the [List of Default Reports][enterprise_display_reportsshipped].
