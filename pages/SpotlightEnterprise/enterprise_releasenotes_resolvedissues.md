@@ -14,6 +14,6 @@ readonly: true
 
 Issue | ID
 ------|---
-
+Corrected a problem on the SQL Server \| Blocking drilldown. In playback mode the blocking grid sometimes showed "No Data". | SOSSE-7248
 
 {% include links.html %}
