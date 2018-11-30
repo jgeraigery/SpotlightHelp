@@ -63,6 +63,9 @@ Take action when the specified alarm is raised. If an alarm is not specified thi
 
 Note the option to select "is" or "is not". Where "is not" is selected, take action for any alarm raised except the specified alarm.
 
+{% include tip.html content="When combining with 'The connection is' condition the connection types must match." %}
+
+
 ### The alarm severity is…
 
 Take action when the alarm severity changes to one of the following: {% include inline_imageClient.html file="icon_alarm_blue.png" alt="Information" %} Information, {% include inline_imageClient.html file="icon_alarm_yellow.png" alt="Low" %} Low, {% include inline_imageClient.html file="icon_alarm_orange.png" alt="Medium" %} Medium or {% include inline_imageClient.html file="icon_alarm_red.png" alt="High" %} High.
