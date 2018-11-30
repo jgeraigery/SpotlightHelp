@@ -31,7 +31,7 @@ entries:
     - title: Alarms
       url: /spotlightds_alarms.html
       output: web, pdf
-  
+
     - title: Diagnostic Server - Alarm Action Failure
       url: /spotlightds_alarm_alarmactionfailure.html
       output: web, pdf
@@ -39,7 +39,7 @@ entries:
     - title: Diagnostic Server - Alarm Evaluation Failure
       url: /spotlightds_alarm_alarmevaluationfailure.html
       output: web, pdf
-  
+
     - title: Diagnostic Server - Auto Update Failure
       url: /spotlightds_alarm_autoupdatefailure.html
       output: web, pdf
@@ -58,6 +58,10 @@ entries:
 
     - title: Diagnostic Server - Federation Communications Failure
       url: /spotlightds_alarm_federationcommunicationsfailure.html
+      output: web, pdf
+
+    - title: Diagnostic Server - HTTP Request Size
+      url: /spotlightds_alarm_httprequestsize.html
       output: web, pdf
 
     - title: Diagnostic Server - License Service
