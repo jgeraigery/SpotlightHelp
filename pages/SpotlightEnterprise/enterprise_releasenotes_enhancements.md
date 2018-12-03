@@ -12,6 +12,8 @@ readonly: true
 
 Enhancement | Issue ID
 ------------|---------
+The Windows **Services - Service not running** alarm now excludes Trigger and Delayed Start Automatic services for Windows Server 2016 and above. | DS-907
+
 
 
 {% include links.html %}
