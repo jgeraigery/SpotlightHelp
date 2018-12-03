@@ -30,7 +30,7 @@ Investigate SQL sessions including session details and locks.
 #### Session grid
 Shows all SQL Server sessions, each row representing a single session. Many applications create multiple connections to SQL Server. When there are more than 2000 connections only those connections that are active are shown.
 
-To show only those sessions that are currently executing,, click **Active only**.
+Shows those sessions that are currently executing when **Active Sessions** is selected. Shows system sessions when **System Sessions** is selected.
 
 
 ##### Tips for using the Session grid in the Spotlight Client

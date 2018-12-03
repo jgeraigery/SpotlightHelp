@@ -12,7 +12,7 @@ folder: ConnectSQLServer
 * Click a session in the grid for more details on the session.
 * Many applications create multiple connections to SQL Server.
 * When there are more than 2000 sessions only those sessions that are active (and those sessions that are blocked and blocking) are shown.
-* To show only those sessions that are currently executing, click **Show active sessions only**.
+* Show those sessions that are currently executing when **Active Sessions** is selected. Show system sessions when **System Sessions** is selected.
 * To close a SQL Server session, right click and select **Kill this session**. This option is available only to members of the Spotlight Diagnostic Administrators group.
 * The screen refreshes automatically. To pause Auto Refresh click {% include inline_imageClient.html file="tb_drilldown_session_refresh.png" alt="Pause Auto Refresh" %}. Click again to re-start auto refresh.
 * The status column of the grid is color coded for readability.
