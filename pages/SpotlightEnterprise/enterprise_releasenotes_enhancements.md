@@ -13,7 +13,7 @@ readonly: true
 Enhancement | Issue ID
 ------------|---------
 The Windows **Services - Service not running** alarm now excludes Trigger and Delayed Start Automatic services for Windows Server 2016 and above. | DS-907
-
+New **SQL - Running out of Threads** alarm raised when the number of worker threads in use is high compared to the maximum number of worker threads configured. | SOSSE-7835
 
 
 {% include links.html %}
