@@ -12,7 +12,7 @@ readonly: true
 
 Known Issue | Issue ID
 ------------|---------
-Alarms and PagerDuty - When an alarm is cleared automatically Spotlight does not send a resolve event to PagerDuty to change the incident from Triggered state to Resolved state. |
+Alarms and PagerDuty - When an alarm is cleared automatically Spotlight does not send a resolve event to PagerDuty to change the incident from Triggered state to Resolved state. | DS-863
 Spotlight Clients installed on Windows 10 - Exception error may occur on deleting two connetions at the same time. | SOSSE-6556
 If the Spotlight Client looses connection to the Spotlight Diagnostic Server then after a period of days the Spotlight Client will develop a minor memory leak. <br><br>*Workaround:* Restart the Spotlight Client. | 5433
 The Spotlight Client can experience performance issues (opening the home page, acknowledging and snoozing alarms) when a large number of alarms are raised against the one connection. | 2651
