@@ -39,7 +39,7 @@ Get-Connection
 ### Add a planned outage
 
 ```
-Add-Outage -Address @{VMware="zhuvcradw10.prod.quest.corp"} -ReoccurenceType Once -StartDateTime "11/4/2018 12:46" -FinishDateTime "11/4/2018 13:46" -Description AddforVMware -PassThru
+Add-Outage -Address @{VMware="address"} -ReoccurenceType Once -StartDateTime "11/4/2018 12:46" -FinishDateTime "11/4/2018 13:46" -Description AddforVMware -PassThru
 ```
 
 
