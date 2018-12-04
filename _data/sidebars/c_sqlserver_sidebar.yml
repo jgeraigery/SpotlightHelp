@@ -589,6 +589,10 @@ entries:
           url: /sqlserver_component_version.html
           output: web, pdf
 
+        - title: Host
+          url: /sqlserver_component_host.html
+          output: web, pdf
+
         - title: Custom
           url: /sqlserver_component_customcounters.html
           output: web, pdf
