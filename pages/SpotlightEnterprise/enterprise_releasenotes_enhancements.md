@@ -14,8 +14,7 @@ Enhancement | Issue ID
 ------------|---------
 The Windows **Services - Service not running** alarm now excludes Trigger and Delayed Start Automatic services for Windows Server 2016 and above. | DS-907
 New **SQL - Running out of Threads** alarm raised when the number of worker threads in use is high compared to the maximum number of worker threads configured. | SOSSE-7835
-The SQL Server **SQL Activity / Sessions** drilldown has been enhanced to make the "Active Sessions" and "System Sessions" filters more visible. | 
-
-
+The SQL Server **SQL Activity / Sessions** drilldown has been enhanced to make the "Active Sessions" and "System Sessions" filters more visible. |
+You can now schedule planned outages from Windows Powershell / the command line. | SOSSE-6382
 
 {% include links.html %}
