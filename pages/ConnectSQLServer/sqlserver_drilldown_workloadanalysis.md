@@ -96,8 +96,11 @@ This chart shows the proportion of resource usage by the selected workload compa
 For example: Expand the **All Workload** menu to select a specific database. The pie represents all database usage of the selected resource. The selected segment of the pie shows the proportion of that usage by the selected database.
 
 
-### Additional - when a Statement is selected from the All Workload menu
-You can now show the workload for the selected item:
+## Select a SQL Statement from the All Workload menu
+Additional information is available when a SQL Statement is selected from the All Workload menu.
+
+### Overview
+You can show the workload for the selected item:
 
 * CPU (ms/s)
 * Duration (ms/s)
@@ -114,5 +117,10 @@ You can now show the workload for the selected item:
 
 {% include note.html content="SQL Server 2012 and above differentiates physical reads from logical reads." %}
 
+### Plan  
+The Optimizer Plan Visualization control provides an interactive and intuitive way to view your plan. See [Plan][sqlserver_plan].
+
+### SQL
+Show the entire SQL Statement.
 
 {% include links.html %}
