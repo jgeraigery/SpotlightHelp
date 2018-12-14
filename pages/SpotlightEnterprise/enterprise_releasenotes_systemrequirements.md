@@ -185,6 +185,8 @@ The Playback Database can be installed on:
 
 {% include tip.html content="Due to the size of the Playback Database, it is recommended that this database is not installed on a SQL Express instance. The Playback Database is not supported on High Availability Always On and mirrored databases. The Playback Database cannot be installed on SQL Server 2000." %}
 
+{% include tip.html content="The Playback Database can be hosted on a Windows or Linux operating system." %}
+
 
 ### Other requirements
 The SQL Browser service must be running on the machine where the Playback Database is installed. Alternatively you can use the host and port number of the (named) SQL Server instance you want to connect to, when creating a connection and connecting to the Playback Database.
@@ -215,6 +217,9 @@ The Spotlight Statistics Repository can be installed on:
 * SQL Server 2005
 
 {% include tip.html content="Due to the size of the Spotlight Statistics Repository, it is recommended that this database is not installed on a SQL Express instance. The Spotlight Statistics Repository is not supported on High Availability Always On and mirrored databases. The Spotlight Statistics Repository cannot be installed on SQL Server 2000." %}
+
+{% include tip.html content="The Spotlight Statistics Repository can be hosted on a Windows or Linux operating system." %}
+
 
 
 ### Other Requirements
