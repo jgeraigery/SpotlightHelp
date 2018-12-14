@@ -22,7 +22,6 @@ Corrected a problem where a Spotlight monitoring Extended Events session with in
 Corrected false alarms of “Databases - Data File Group Space Used” | DS-1490
 Corrected a problem where Spotlight could not show the database size correctly for databases of type FILESTREAM. | DS-1419
 Corrected a problem with the health check warnings where only one of the categories included in the message "This is because excessive time is being spent on Other, Network.” had a significant value. | DS-1258
-
-
+Corrected a problem where adding a Windows host to a Hyper-V connection type incorrectly raises error "Collection 'Hyper-V - Hypervisor Logical Processor' failed : WMI query failed : Invalid class. [0x80041010]" on test. | DS-1218
 
 {% include links.html %}
