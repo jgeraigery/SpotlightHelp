@@ -8,5 +8,6 @@ folder: ConnectSpotlightDS
 ---
 
 
+Spotlight allows for a message size of 10mb so it would be unusual for this alarm to be raised. If this alarm is raised please contact support.
 
 {% include links.html %}

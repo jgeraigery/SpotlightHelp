@@ -19,6 +19,7 @@ You can now schedule planned outages from Windows Powershell / the command line.
 The SQL Server \| Workload Analysis drilldown has been enhanced with Plan and SQL tabs for a selected SQL Statement, same as for the SQL Activity \| Sessions \| Query Execution Statistics drilldown page. | SOSSE-6060
 The Spotlight Native Collector when opening an XEventsReader connection now tries to connect with a secured connection on first attempt and only when that fails does it retry with an unsecured connection.  | DS-1615
 The Windows **Services - Service not running** alarm now excludes Trigger and Delayed Start Automatic services for Windows Server 2016 and above. | DS-907
+New diagnostic server alarm limits the upload packet size to the cloud. | DS-1073
 
 
 {% include links.html %}
