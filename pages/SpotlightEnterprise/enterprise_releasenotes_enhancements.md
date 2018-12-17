@@ -18,10 +18,15 @@ The SQL Server **SQL Activity / Sessions** drilldown has been enhanced to make t
 On the SQL Server | Overview page corrected all problems reporting the fragmentation index alarm. | SOSSE-7144
 When monitoring SQL Server, new In-Memory view added to the Databases drilldown to show memory consumption of In Memory OLTP. | SOSSE-6662
 You can now schedule planned outages from Windows Powershell / the command line. | SOSSE-6382
+A new **Alarms Report** gives you the ability to sort and filter alarms by name, severity and change in status and specify the connection(s) to report on. | SOSSE-6180
 The SQL Server \| Workload Analysis drilldown has been enhanced with Plan and SQL tabs for a selected SQL Statement, same as for the SQL Activity \| Sessions \| Query Execution Statistics drilldown page. | SOSSE-6060
 The Spotlight Native Collector when opening an XEventsReader connection now tries to connect with a secured connection on first attempt and only when that fails does it retry with an unsecured connection.  | DS-1615
 The Windows **Services - Service not running** alarm now excludes Trigger and Delayed Start Automatic services for Windows Server 2016 and above. | DS-907
-New diagnostic server alarm limits the upload packet size to the cloud. | DS-1073
+New diagnostic server alarm limits the upload packet size to the cloud. | DS-1073''
+
+
+
+
 
 
 {% include links.html %}
