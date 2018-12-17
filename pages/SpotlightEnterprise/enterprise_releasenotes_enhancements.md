@@ -14,7 +14,6 @@ Enhancement | Issue ID
 ------------|---------
 New **SQL - Running out of Threads** alarm raised when the number of worker threads in use is high compared to the maximum number of worker threads configured. | SOSSE-7835
 The SQL Server **SQL Activity / Sessions** drilldown has been enhanced to make the "Active Sessions" and "System Sessions" filters more visible. | SOSSE-7265
-On the SQL Server | Overview page corrected all problems reporting the fragmentation index alarm. | SOSSE-7144
 When monitoring SQL Server, new In-Memory view added to the Databases drilldown to show memory consumption of In Memory OLTP. | SOSSE-6662
 You can now schedule planned outages from Windows Powershell / the command line. | SOSSE-6382
 A new **Alarms Report** gives you the ability to sort and filter alarms by name, severity and change in status and specify the connection(s) to report on. | SOSSE-6180

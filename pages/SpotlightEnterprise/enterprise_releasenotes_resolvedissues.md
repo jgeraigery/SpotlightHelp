@@ -16,6 +16,7 @@ Issue | ID
 ------|---
 In a federated environment corrected a problem where Spotlight displays message "The Diagnostic Server is operating normally" during expected Diagnostic Server disconnects. | SOSSE-7524
 Corrected a problem on the SQL Server \| Blocking drilldown. In playback mode the blocking grid sometimes showed "No Data". | SOSSE-7248
+On the SQL Server \| Overview page corrected all problems reporting the fragmentation index alarm. | SOSSE-7144
 When configuring a planned outage, corrected the problem that led to error: "A task was canceled". | SOSSE-6921
 Corrected the problem behind an error message raised on the Overview page when investigating a "User - Connection Count" alarm. | SOSSE-6757
 Corrected a problem where the Spotlight Diagnostic Server crashed with StackOverflowError in relation to configuring alarms where the message contains the message variable. | DS-1657
