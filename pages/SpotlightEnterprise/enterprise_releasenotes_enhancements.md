@@ -21,7 +21,7 @@ The SQL Server \| Workload Analysis drilldown has been enhanced with Plan and SQ
 The Spotlight Native Collector when opening an XEventsReader connection now tries to connect with a secured connection on first attempt and only when that fails does it retry with an unsecured connection.  | DS-1615
 Renamed all Error Log alarms to begin with "Error Log - ". All error log alarms are non configurable. | DS-1570
 The Windows **Services - Service not running** alarm now excludes Trigger and Delayed Start Automatic services for Windows Server 2016 and above. | DS-907
-New diagnostic server alarm limits the upload packet size to the cloud. | DS-1073''
+New diagnostic server alarm limits the upload packet size to the cloud. | DS-1073
 
 
 {% include links.html %}
