@@ -1,7 +1,7 @@
 ---
-title: ﻿SQL Server Fatal Table Integrity Suspect Error (severity level 22) alarm
+title: ﻿Error Log - Fatal Table Integrity Suspect Error (severity level 22) alarm
 tags: [sqlserver_alarms]
-summary: "The SQL Server Fatal Table Integrity Suspect Error (severity level 22) alarm becomes active when Spotlight Enterprise detects a new fatal error message that contains the log entry 'Severity: 22' in the SQL Sever error log. It might indicate that the table or index specified in the message has been damaged by a software or hardware problem."
+summary: "The Error Log - Fatal Table Integrity Suspect Error (severity level 22) alarm becomes active when Spotlight Enterprise detects a new fatal error message that contains the log entry 'Severity: 22' in the SQL Sever error log. It might indicate that the table or index specified in the message has been damaged by a software or hardware problem."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_errorlog_fataltableintegritysuspect.html
 folder: ConnectSQLServer

@@ -1,7 +1,7 @@
 ---
-title: ﻿SQL Server Fatal Database (dbid) Processes Error (severity level 21) alarm
+title: ﻿Error Log - Fatal Database (dbid) Processes Error (severity level 21) alarm
 tags: [sqlserver_alarms]
-summary: "The SQL Server Fatal Database (dbid) Processes Error (severity level 21) alarm becomes active when Spotlight Enterprise detects a new fatal error message that contains the log entry 'Severity: 21' in the SQL Sever error log. It indicates that a problem has been encountered that affects all tasks in the current database, but it is unlikely that the database itself has been damaged."
+summary: "The Error Log - Fatal Database (dbid) Processes Error (severity level 21) alarm becomes active when Spotlight Enterprise detects a new fatal error message that contains the log entry 'Severity: 21' in the SQL Sever error log. It indicates that a problem has been encountered that affects all tasks in the current database, but it is unlikely that the database itself has been damaged."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_errorlog_fataldatabaseprocess.html
 folder: ConnectSQLServer

@@ -1,7 +1,7 @@
 ---
-title: SQL Server High Severity Error Log Message alarm
+title: Error Log - High Severity Error Log Message alarm
 tags: [sqlserver_alarms]
-summary: "The SQL Server High Severity Error Log Message alarm becomes active when Spotlight Enterprise detects a new error message that contains one of the custom log entries of high severity that are defined in the Error log entries configuration window."
+summary: "The Error Log - High Severity Error Log Message alarm becomes active when Spotlight Enterprise detects a new error message that contains one of the custom log entries of high severity that are defined in the Error log entries configuration window."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_errorlog_highseverity.html
 folder: ConnectSQLServer

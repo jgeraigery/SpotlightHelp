@@ -1,7 +1,7 @@
 ---
-title: ﻿SQL Server Medium Severity Error Log Message alarm
+title: ﻿Error Log - Medium Severity Error Log Message alarm
 tags: [sqlserver_alarms]
-summary: "The SQL Server Medium Severity Error Log Message alarm becomes active when Spotlight Enterprise detects a new error message that contains one of the custom log entries of medium severity that are defined in the Error log entries configuration window."
+summary: "The Error Log - Medium Severity Error Log Message alarm becomes active when Spotlight Enterprise detects a new error message that contains one of the custom log entries of medium severity that are defined in the Error log entries configuration window."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_errorlog_mediumseverity.html
 folder: ConnectSQLServer

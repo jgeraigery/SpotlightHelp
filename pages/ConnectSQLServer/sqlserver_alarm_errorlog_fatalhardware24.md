@@ -1,7 +1,7 @@
 ---
-title: SQL Server Fatal Hardware Error (severity level 24) alarm
+title: Error Log - Fatal Hardware Error (severity level 24) alarm
 tags: [sqlserver_alarms]
-summary: "The SQL Server Fatal Hardware Error (severity level 24) alarm becomes active when Spotlight Enterprise detects a new fatal error message that contains the log entry 'Severity: 24' in the SQL Sever error log. It indicates a media failure."
+summary: "The Error Log - Fatal Hardware Error (severity level 24) alarm becomes active when Spotlight Enterprise detects a new fatal error message that contains the log entry 'Severity: 24' in the SQL Sever error log. It indicates a media failure."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_errorlog_fatalhardware24.html
 folder: ConnectSQLServer
