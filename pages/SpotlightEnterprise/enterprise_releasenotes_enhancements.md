@@ -21,6 +21,7 @@ Spotlight has introduced a facility to allow you to customize the display name f
 The SQL Server \| Workload Analysis drilldown has been enhanced with Plan and SQL tabs for a selected SQL Statement, same as for the SQL Activity \| Sessions \| Query Execution Statistics drilldown page. | SOSSE-6060
 The Spotlight Native Collector when opening an XEventsReader connection now tries to connect with a secured connection on first attempt and only when that fails does it retry with an unsecured connection.  | DS-1615
 Renamed all Error Log alarms to begin with "Error Log - ". All error log alarms are non configurable. | DS-1570
+Spotlight Enterprise is now capable of checking database backups across Availability Groups. Spotlight uses the backup details from all replicas in the group when determining if a backup alarm should be raised. The prerequisite is that you must have a SQL Server connection for every replica in the Availability Group as well as a High Availability connection for the group. | DS-1425
 The Windows **Services - Service not running** alarm now excludes Trigger and Delayed Start Automatic services for Windows Server 2016 and above. | DS-907
 New diagnostic server alarm limits the upload packet size to the cloud. | DS-1073
 
