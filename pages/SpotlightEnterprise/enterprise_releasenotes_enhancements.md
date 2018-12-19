@@ -23,7 +23,6 @@ The Spotlight Native Collector when opening an XEventsReader connection now trie
 Renamed all Error Log alarms to begin with "Error Log - ". All error log alarms are non configurable. | DS-1570
 Spotlight Enterprise is now capable of checking database backups across Availability Groups. Spotlight uses the backup details from all replicas in the group when determining if a backup alarm should be raised. The prerequisite is that you must have a SQL Server connection for every replica in the Availability Group as well as a High Availability connection for the group. | DS-1425
 The Windows **Services - Service not running** alarm now excludes Trigger and Delayed Start Automatic services for Windows Server 2016 and above. | DS-907
-New diagnostic server alarm limits the upload packet size to the cloud. | DS-1073
 
 
 {% include links.html %}

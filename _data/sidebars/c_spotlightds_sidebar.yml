@@ -60,10 +60,6 @@ entries:
       url: /spotlightds_alarm_federationcommunicationsfailure.html
       output: web, pdf
 
-    - title: Diagnostic Server - HTTP Request Size
-      url: /spotlightds_alarm_httprequestsize.html
-      output: web, pdf
-
     - title: Diagnostic Server - License Service
       url: /spotlightds_alarm_licenseservice.html
       output: web, pdf
