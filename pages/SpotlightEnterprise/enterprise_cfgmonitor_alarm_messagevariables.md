@@ -35,7 +35,7 @@ The name of the connection the alarm was raised on.
 ```
 {% endraw %}
 
-For SQL Server only, the display name of the connection the alarm was raised on. The display name of the SQL Server is used in all Spotlight displays including the connection tree, connection lists, reports, tables, grids and charts, alarms, alarm actions, alarm descriptions, configuration files, template files, Heatmap and drilldowns. The display name is defined in the [Spotlight Connection Properties for the SQL Server][sqlserver_connect_details].
+For SQL Server and Windows Server only, the display name of the connection the alarm was raised on. The display name is used in all Spotlight displays including the connection tree, connection lists, reports, tables, grids and charts, alarms, alarm actions, alarm descriptions, configuration files, template files, Heatmap and drilldowns. The display name is defined in the [Spotlight Connection Properties for SQL Server][sqlserver_connect_details] or [Spotlight Connection Properties for Windows Server][windows_connect_details].
 
 
 ### Message

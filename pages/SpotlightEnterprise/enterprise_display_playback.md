@@ -32,7 +32,7 @@ Icon | Name | Description
 {% include inline_imageClient.html file="tb_playback_skip.png" alt="Skip button" %} | Skip | Starting from the past, skip forward in time. Click the associate arrow to define how far forward to skip: 1 minute, 5 minutes, 10 minutes, 1 hour, 2 hours, 6 hours, 12 hours or 1 day.
 {% include inline_imageClient.html file="tb_playback_play.png" alt="Play button" %} | Play | Starting from the past, step forward in time through the alarms in sequence. Click the associate arrow to define the speed of play.
 
- {% include note.html content="For SQL Server connections, only the current display name (as defined by [SQL Server Connection Properties][sqlserver_connect_details] will be used. The Spotlight Playback Database does not store/show historical display names of SQL Server connections." %}
+ {% include note.html content="For SQL Server and Windows Server connections, only the current display name (as defined by [SQL Server Connection Properties][sqlserver_connect_details]or [Windows Server Connection Properties][windows_connect_details] will be used. The Spotlight Playback Database does not store/show historical display names." %}
 
  {% include note.html content="Playback data is not displayed for SQL Azure database connections." %}
 
