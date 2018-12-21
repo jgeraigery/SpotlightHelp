@@ -88,6 +88,17 @@ Take action when an alarm is raised against a connection with matching connectio
 
 This condition is appropriate if your organization has defined tags for Spotlight connections. Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection. In the Modify Criteria dialog, use the drop down menu to select from tags currently assigned to connections on the Spotlight Diagnostic Server. For more information on tags, see [Connection Properties \| Tags][enterprise_cfgmonitor_connect_tags].
 
+### The date is in the interval...
+
+Take action when the alarm is raised (or is not raised) between two specific dates and times.
+
+For example:
+
+* Take no action when the alarm is raised between 9am June 21 2018 and midnight June 22 2018.
+* Take action only when the alarm is raised between midnight December 24 2018 and midnight December 26 2018.
+
+Where multiple timezones are involved, the date is as per the date on the Spotlight Diagnostic Server.
+
 ### The date is…
 
 Take action when the alarm is raised on the specified date.

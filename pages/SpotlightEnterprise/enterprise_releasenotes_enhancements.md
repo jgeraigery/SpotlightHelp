@@ -12,6 +12,7 @@ readonly: true
 
 Enhancement | Issue ID
 ------------|---------
+Configuration of alarm actions has been enhanced to allow for the condition of taking an action (or taking no action) when an alarm is raised between two specific dates and times. | SOSSE-7909
 New **SQL - Running out of Threads** alarm raised when the number of worker threads in use is high compared to the maximum number of worker threads configured. | SOSSE-7835
 Spotlight has introduced a facility to allow you to customize the display name for Windows Server connections. The customized display name is used in all displays including the connection tree, connection lists, reports, tables, grids and charts, alarms, alarm actions, alarm descriptions, configuration files, template files, Heatmap and drilldowns. It is also available as an Alarm Message Variable. | SOSSE-7734
 The SQL Server **SQL Activity / Sessions** drilldown has been enhanced to make the "Active Sessions" and "System Sessions" filters more visible. | SOSSE-7265
@@ -25,6 +26,9 @@ Spotlight now supports all SQLAgentJobsFailed columns as variables in the JobsFa
 Renamed all Error Log alarms to begin with "Error Log - ". All error log alarms are non configurable. | DS-1570
 Spotlight Enterprise is now capable of checking database backups across Availability Groups. Spotlight uses the backup details from all replicas in the group when determining if a backup alarm should be raised. The prerequisite is that you must have a SQL Server connection for every replica in the Availability Group as well as a High Availability connection for the group. | DS-1425
 The Windows **Services - Service not running** alarm now excludes Trigger and Delayed Start Automatic services for Windows Server 2016 and above. | DS-907
+
+
+
 
 
 {% include links.html %}
