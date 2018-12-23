@@ -24,7 +24,7 @@ Stored procedures return metadata about the Spotlight Statistics Repository or d
 
 Report | Collection Procedure | Collection Name
 -------|----------|---------------------
-Alarms Report | | spotlight_get_monitored_objects, Spotlight_rep_alarms_multi_select_details, Spotlight_rep_alarms_multi_select_summary | 
+Alarms Report | | N/A | N/A
 All SQL Agent Jobs Report | SQLAgentJobList | Agent Job List
 Custom Counters Report | SQLCustomCounters, CustomCounters | Custom Counters - SQL Server, Custom Counters - Windows
 Database Growth	Report | SQLDatabaseList	| Database List
