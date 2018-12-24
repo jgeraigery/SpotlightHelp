@@ -23,10 +23,13 @@ From Windows Powershell, enter command: **Import-DS | Add-DS -PassThru**.
 
 ## 2. Command Spotlight from Windows Powershell / the command line
 
-* Basic commands
-* Windows Powershell / Command line parameters
-* Add a list of connections
-* Remove many connections
+* List Spotlight connections
+* Add a planned outage scheduled to occur once only
+* Add a planned outage scheduled to occur every day
+* Add a planned outage scheduled to occur on given days of the week
+* Add a planned outage scheduled to occur on the given day of the given months
+
+
 
 ## Basic commands
 
@@ -36,21 +39,52 @@ From Windows Powershell, enter command: **Import-DS | Add-DS -PassThru**.
 Get-Connection
 ```
 
-### Add a planned outage
+### Add a planned outage scheduled to occur once only
 
 ```
-Add-Outage -Address @{VMware="address"} -ReoccurenceType Once -StartDateTime "11/4/2018 12:46" -FinishDateTime "11/4/2018 13:46" -Description AddforVMware -PassThru
+Add-Outage -Address @{SqlServer="sqlserver1,sqlserver2,sqlserver3"; Windows="windows1,windows2,windows3"} -ReoccurenceType Once -StartDateTime "10/27/2018 10:46" -FinishDateTime "10/27/2018 12:46" -Description OnceOutageDescription PassThru
+```
+
+
+### Add a planned outage scheduled to occur every day
+
+```
+Add-Outage -Address @{SqlServer="sqlserver1,sqlserver2,sqlserver3"; Windows="windows1,windows2,windows3"} -ReoccurenceType Daily -StartTime "10:46" -FinishTime "12:46" -Description DailyOutageDescription -PassThru
+```
+
+
+### Add a planned outage scheduled to occur on given days of the week
+
+```
+Add-Outage -Address @{Replication="replication1,replication2"; VMware="vmware1,vmware2,vmware2"} -ReoccurenceType Weekly -DaysOfWeek Monday,Tuesday,Friday -StartTime "1:46" -FinishTime "2:46" -Description "WeeklyReplication and VMware" -PassThru
+```
+
+
+### Add a planned outage scheduled to occur on the given day of the given months
+
+```
+Add-Outage -Address @{SqlServer="sqlserver1,sqlserver2,sqlserver3"; Windows="windows1,windows2,windows3"} -ReoccurenceType Monthly -Day 2 -MonthInterval 3 -StartTime "10:46" -FinishTime "12:46" -Description MonthlyFixedOutageDescription -PassThru
+```
+
+
+```
+Add-Outage -Address @{SqlServer="sqlserver1,sqlserver2,sqlserver3"; Windows="windows1,windows2,windows3"} -ReoccurenceType Monthly  -WhichWeekInMonth "second" -DayOfWeekInMonth "weekday" -MonthInterval 4 -StartTime "10:46" -FinishTime "12:46" -Description MonthlyNonFixedOutageDescription -PassThru
+```
+
+
+### Get help
+
+```
+get-help add-outage -full
 ```
 
 
 ## Windows Powershell / Command line parameters
 
 ### -Address address
-
-Supply the address of the Spotlight connection as per the form of the address entered in the **Spotlight Client \| Configure Connections \| Properties \| Details \| Address field**. For example: the Server Name, Server Instance Name, or IP address.
+Supply the address of the Spotlight connection(s) as per the form of the address entered in the **Spotlight Client \| Configure Connections \| Properties \| Details \| Address field**. For example: the Server Name, Server Instance Name, or IP address.
 
 {% include note.html content="The connection name -Name is not available with the Add-Outage command." %}
-
 
 ### -ReoccurenceType value
 
@@ -58,23 +92,66 @@ Value | Description
 ------|------------
 Once | This planned outage is scheduled to occur once only.
 Daily | This planned outage is scheduled to occur every day.
-Weekly | This planned outage is scheduled to occur on the selected days of the week.
-Monthly | This planned outage is scheduled to occur on the selected day of the selected months.<br><br>To schedule a planned outage for the last day of the month over multiple months select 31 as the day of the month. This will schedule the outage to the last day of the month regardless of whether the month has 31 days.<br><br>If the selected day of the month is 29, 30 or 31 then for months that have fewer than those number of days the planned outage will be scheduled for the last day of the month.
+Weekly | This planned outage is scheduled to occur on the given day(s) of the week.
+Monthly | This planned outage is scheduled to occur on the given day(s) of the given months.
+
+### -StartTime "12:46"
+Used to add a planned outage scheduled to occur every day, on given days of the week or given days of given months. Enclose the time in double quotes. The start time of the planned outage is of the form: hh:mm
+
+
+### -FinishTime "13:46"  
+Used to add a planned outage scheduled to occur every day, on given days of the week or given days of given months. Enclose the time in double quotes. The finish time of the planned outage is of the form: hh:mm
 
 
 ### -StartDateTime "11/4/2018 12:46"
-The start date and time of the planned outage of the form: "mm/dd/yyyy hh:mm"
+Used to add a planned outage scheduled to occur once only.
+
+The start date and time of the planned outage is of the form: "mm/dd/yyyy hh:mm"
 
 Enclose the date and time in double quotes.
 
-### -FinishDateTime "11/4/2018 13:46"
+The time is as per the time zone of the Spotlight Diagnostic Server.
+
+
+### -FinishDateTime  "11/4/2018 13:46"
+Used to add a planned outage scheduled to occur once only.
+
 The end date and time of the planned outage of the form: "mm/dd/yyyy hh:mm"
 
 Enclose the date and time in double quotes.
 
+The time is as per the time zone of the Spotlight Diagnostic Server.
 
-### -Description
+
+### -Description "description"
 A description for the planned outage as will be displayed on the [Planned Outage dialog][enterprise_cfgmonitor_plannedoutage].
+
+
+### -DaysOfWeek Monday,Tuesday,Friday
+Used to add a planned outage scheduled to occur on given days of the week.
+
+Add the days of the week to conduct the planned outage, separated by a comma.
+
+
+### -Day 2
+Used to add a planned outage scheduled to occur on the given day of the given months.
+
+In the above example the outage is scheduled to occur on the second day of given months.
+
+To schedule a planned outage for the last day of the month over multiple months select 31 as the day of the month. This will schedule the outage to the last day of the month regardless of whether the month has 31 days. If the selected day of the month is 29, 30 or 31 then for months that have fewer than those number of days the planned outage will be scheduled for the last day of the month.
+
+
+### -WhichWeekInMonth "second" -DayOfWeekInMonth "weekday"
+Used to add a planned outage scheduled to occur on the given day of the given months.
+
+In the above example the outage is scheduled to occur in the second week of the month on a weekday.
+
+
+### -MonthInterval 4
+Used to add a planned outage scheduled to occur on the given day of the given months.
+
+In the above example the outage is scheduled to occur every 4 months.
+
 
 
 {% include links.html %}
