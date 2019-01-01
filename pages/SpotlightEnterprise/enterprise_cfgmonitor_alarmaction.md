@@ -105,13 +105,13 @@ Take action when the alarm is raised on the specified date.
 
 Note the option to select "is" or "is not". Where "is not" is selected, take action when the alarm is raised on any date except the specified date. For example, you may want no action taken on a scheduled public holiday.
 
-Where multiple timezones are involved, the date is as per the date on the Spotlight Diagnostic Server.
+Where multiple timezones are involved, the date is taken from the timezone the Spotlight Diagnostic Server is in.
 
 ### The day of the week is…
 
 Take action when the alarm is raised on the specified day(s) of the week. For example, act on this rule when the alarm is raised on a Monday, take no action on this rule when the alarm is raised on any other day of the week.
 
-Where multiple timezones are involved, the day of the week is as per the day on the Spotlight Diagnostic Server.
+Where multiple timezones are involved, the day of the week is taken from the timezone the Spotlight Diagnostic Server is in.
 
 ### The details contain…
 
@@ -129,7 +129,7 @@ This option is applicable to a [federated system][enterprise_backend_federation]
 
 Take action during the specified time frame. For example, take the actions associated with this rule when the alarm is raised between 6:00pm and 6:00am. Take no actions associated with this rule outside of that time frame.
 
-Where multiple timezones are involved, the time of day is as per the time on the Spotlight Diagnostic Server.
+Where multiple timezones are involved, the time of day is taken from the timezone the Spotlight Diagnostic Server is in.
 
 
 
