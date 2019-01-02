@@ -82,9 +82,17 @@ get-help add-outage -full
 ## Windows Powershell / Command line parameters
 
 ### -Address address
-Supply the address of the Spotlight connection(s) as per the form of the address entered in the **Spotlight Client \| Configure Connections \| Properties \| Details \| Address field**. For example: the Server Name, Server Instance Name, or IP address.
+The listed connections will be added to the planned outage.
 
-{% include note.html content="The connection name -Name is not available with the Add-Outage command." %}
+List the connections in the form @{SqlServer="sqlserver1"} where in this example *SqlServer* is the connection type and *sqlserver1* the address of the SQL Server connection.
+
+For multiple connections of the same connection type, separate each address with a comma as in @{SqlServer="sqlserver1,sqlserver2"}
+
+For multiple connections of different connection types, list connections of each type separately as in @{SqlServer="sqlserver1,sqlserver2"; Windows="windows1,windows2"}
+
+The address of the connection can take the same forms as available in the **Spotlight Client \| Configure Connections \| Properties \| Details \| Address field**. For example: the Server Name, Server Instance Name, or IP address.
+
+{% include note.html content="The -Name command line parameter (used to [List / edit / delete Spotlight Connections][enterprise_connect_commandline]) is not available with the Add-Outage command." %}
 
 ### -ReoccurenceType value
 
