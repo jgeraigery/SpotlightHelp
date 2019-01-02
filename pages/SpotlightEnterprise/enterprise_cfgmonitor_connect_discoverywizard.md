@@ -168,8 +168,8 @@ Consider a deployment of more than one Spotlight Diagnostic Server. A single Spo
 ## How to apply an alarms configuration template to new SQL Server connections
 Once Spotlight has identified the new SQL Server connections by discovery or File Import, click **Edit** to modify identified connection properties. For example: apply an alarms [configuration template][enterprise_cfgmonitor_templates] to new SQL Server connections.
 
-## SQL Server and Windows Server Display Name
-The SQL Server and Windows Server display name can be entered post import via [SQL Server Connection Properties][sqlserver_connect_details] / [Windows Server Connection Properties][windows_connect_details]. The display name cannot be entered via file import and the Connection Discovery Wizard.
+## SQL Server and Windows Server Display Names
+The SQL Server and Windows Server display names can be entered post import via [SQL Server Connection Properties][sqlserver_connect_details] / [Windows Server Connection Properties][windows_connect_details]. The display name cannot be entered via file import and the Connection Discovery Wizard.
 
 
 {% include links.html %}
