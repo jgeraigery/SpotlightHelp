@@ -33,7 +33,7 @@ Specify the connect string used to link to the SQL Server (that is, the Server N
 {% include note.html content="If the SQL Server instance is hosted on a Windows server and UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance." %}
 
 
-## Display Name
+### Display Name
 The display name of the SQL Server connection. The display name is used in all displays including the connection tree, connection lists, reports, tables, grids and charts, alarms, alarm actions, alarm descriptions, configuration files, template files, Heatmap and drilldowns.
 
 The display name can be up to 255 characters long. Use letters and numbers. Do not use special characters like % and spaces in the display name.  The display name is not case sensitive. The display name must be unique; no two Spotlight connections to SQL Server can have the same display name.
