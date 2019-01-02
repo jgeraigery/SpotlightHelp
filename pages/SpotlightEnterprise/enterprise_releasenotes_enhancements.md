@@ -13,14 +13,10 @@ readonly: true
 Enhancement | Issue ID
 ------------|---------
 Configuration of alarm actions has been enhanced to allow for the condition of taking an action (or taking no action) when an alarm is raised between two specific dates and times. | SOSSE-6537
-New **SQL - Running out of Threads** alarm raised when the number of worker threads in use is high compared to the maximum number of worker threads configured. | SOSSE-7835
 Spotlight has introduced a facility to allow you to customize the display name for Windows Server connections. The customized display name is used in all displays including the connection tree, connection lists, reports, tables, grids and charts, alarms, alarm actions, alarm descriptions, configuration files, template files, Heatmap and drilldowns. It is also available as an Alarm Message Variable. | SOSSE-7734
 The SQL Server **SQL Activity / Sessions** drilldown has been enhanced to make the "Active Sessions" and "System Sessions" filters more visible. | SOSSE-7265
 When monitoring SQL Server, new In-Memory view added to the Databases drilldown to show memory consumption of In Memory OLTP. | SOSSE-6662
-You can now schedule planned outages from Windows Powershell / the command line. | SOSSE-6382
-A new **Alarms Report** gives you the ability to sort and filter alarms by name, severity and change in status and specify the connection(s) to report on. | SOSSE-6180
 Spotlight has introduced a facility to allow you to customize the display name for SQL Server connections. The customized display name is used in all displays including the connection tree, connection lists, reports, tables, grids and charts, alarms, alarm actions, alarm descriptions, configuration files, template files, Heatmap and drilldowns. It is also available as an Alarm Message Variable. | SOSSE-6096
-The SQL Server \| Workload Analysis drilldown has been enhanced with Plan and SQL tabs for a selected SQL Statement, same as for the SQL Activity \| Sessions \| Query Execution Statistics drilldown page. | SOSSE-6060
 The Spotlight Native Collector when opening an XEventsReader connection now tries to connect with a secured connection on first attempt and only when that fails does it retry with an unsecured connection.  | DS-1615
 Spotlight now supports all SQLAgentJobsFailed columns as variables in the JobsFailed alarm message. Previously the JobCategory column was not supported. | DS-1591
 Renamed all Error Log alarms to begin with "Error Log - ". All error log alarms are non configurable. | DS-1570

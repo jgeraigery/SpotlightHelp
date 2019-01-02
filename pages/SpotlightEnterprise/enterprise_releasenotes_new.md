@@ -10,6 +10,17 @@ readonly: true
 ---
 
 
+## SQL Server \| Workload Analysis drilldown
+The SQL Server \| Workload Analysis drilldown has been enhanced with new **Plan** and **SQL** tabs for a selected SQL Statement. The Plan and SQL tabs are the same as for the SQL Activity \| Sessions \| Query Execution Statistics drilldown page.
+
+## Alarms Report
+With the new Alarms Report you can sort and filter alarms by name, severity and change in status. You can also specify the connection(s) to report on.
+
+## Configure Planned Outages
+You can now schedule planned outages from Windows Powershell / the command line.
+
+## SQL - Running out of Threads alarm
+* The new SQL - Running out of Threads alarm is raised when the number of worker threads in use is high compared to the maximum number of worker threads configured.
 
 
 {% include tip.html content="The Deadlocks, Wait Events and Workload Analysis features in Spotlight Enterprise make use of Extended Events. Spotlight will continue to use Extended Events in the development of the product's features." %}
