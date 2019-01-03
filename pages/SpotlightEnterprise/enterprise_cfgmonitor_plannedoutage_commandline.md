@@ -99,9 +99,7 @@ Get-Help Add-Outage -full
 ## Windows Powershell / Command line parameters
 
 ### -Address address
-The listed connections will be added to the planned outage.
-
-List the connections in the form @{SqlServer="sqlserver1"} where in this example *SqlServer* is the connection type and *sqlserver1* the address of the SQL Server connection.
+List the connections to be added to the planned outage in the form @{SqlServer="sqlserver1"} where in this example *SqlServer* is the connection type and *sqlserver1* the address of the SQL Server connection.
 
 The connection types are (case insensitive):
 
