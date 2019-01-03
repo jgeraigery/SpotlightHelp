@@ -23,13 +23,30 @@ From Windows Powershell, enter command: **Import-DS | Add-DS -PassThru**.
 
 ## 2. Command Spotlight from Windows Powershell / the command line
 
+Basic Commands
+
 * List Spotlight connections
 * Add a planned outage scheduled to occur once only
 * Add a planned outage scheduled to occur every day
 * Add a planned outage scheduled to occur on given days of the week
 * Add a planned outage scheduled to occur on the given day of the given months
+* Get help
 
+Windows Powershell / Command line parameters
 
+Parameter | Use
+----------|----
+-Address | Required
+-ReoccurenceType | Once, daily, weekly or monthly.
+-StartTime | Used to add a planned outage scheduled to occur every day, on given days of the week or given days of given months.
+-FinishTime | Used to add a planned outage scheduled to occur every day, on given days of the week or given days of given months.
+-StartDateTime | Used to add a planned outage scheduled to occur once only.
+-FinishDateTime | Used to add a planned outage scheduled to occur once only.
+-Description | Optional. Use with any Add-Outage command
+-DaysOfWeek | Used to add a planned outage scheduled to occur on given days of the week.
+-Day | Used to add a planned outage scheduled to occur on the given day of the given months.
+-WhichWeekInMonth | Used to add a planned outage scheduled to occur on the given day of the given months.
+-MonthInterval | Used to add a planned outage scheduled to occur on the given day of the given months.
 
 ## Basic commands
 
