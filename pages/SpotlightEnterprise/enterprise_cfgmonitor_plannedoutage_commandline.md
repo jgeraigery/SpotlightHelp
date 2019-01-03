@@ -23,7 +23,7 @@ From Windows Powershell, enter command: **Import-DS | Add-DS -PassThru**.
 
 ## 2. Command Spotlight from Windows Powershell / the command line
 
-Basic Commands
+Basic commands
 
 * List Spotlight connections
 * Add a planned outage scheduled to occur once only
@@ -32,7 +32,7 @@ Basic Commands
 * Add a planned outage scheduled to occur on the given day of the given months
 * Get help
 
-Windows Powershell / Command line parameters
+Command parameters
 
 Parameter | Use
 ----------|----
