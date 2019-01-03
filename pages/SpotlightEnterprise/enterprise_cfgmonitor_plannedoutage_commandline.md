@@ -59,7 +59,7 @@ Get-Connection
 ### Add a planned outage scheduled to occur once only
 
 ```
-Add-Outage -Address @{SqlServer="sqlserver1,sqlserver2,sqlserver3"; Windows="windows1,windows2,windows3"} -ReoccurenceType Once -StartDateTime "10/27/2018 10:46" -FinishDateTime "10/27/2018 12:46" -Description OnceOutageDescription PassThru
+Add-Outage -Address @{SqlServer="sqlserver1,sqlserver2,sqlserver3"; Windows="windows1,windows2,windows3"} -ReoccurenceType Once -StartDateTime "10/27/2018 10:46" -FinishDateTime "10/27/2018 12:46" -Description OnceOutageDescription -PassThru
 ```
 
 
@@ -92,7 +92,7 @@ Add-Outage -Address @{SqlServer="sqlserver1,sqlserver2,sqlserver3"; Windows="win
 ### Get help
 
 ```
-get-help add-outage -full
+Get-Help Add-Outage -full
 ```
 
 
