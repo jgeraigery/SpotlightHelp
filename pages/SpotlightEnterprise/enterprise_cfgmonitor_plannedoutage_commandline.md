@@ -86,13 +86,29 @@ The listed connections will be added to the planned outage.
 
 List the connections in the form @{SqlServer="sqlserver1"} where in this example *SqlServer* is the connection type and *sqlserver1* the address of the SQL Server connection.
 
+The connection types are (case insensitive):
+
+* sqlserver
+* windows
+* hyperv
+* analysisservices
+* availabilitygroup
+* replication
+* sqlazure
+* vmware
+* unix/linux
+
 For multiple connections of the same connection type, separate each address with a comma as in @{SqlServer="sqlserver1,sqlserver2"}
 
 For multiple connections of different connection types, list connections of each type separately as in @{SqlServer="sqlserver1,sqlserver2"; Windows="windows1,windows2"}
 
 The address of the connection can take the same forms as available in the **Spotlight Client \| Configure Connections \| Properties \| Details \| Address field**. For example: the Server Name, Server Instance Name, or IP address.
 
+
+{% include note.html content="The -Address command line parameter is required. It cannot be empty or null. If the address does not exist the command will fail." %}
+
 {% include note.html content="The -Name command line parameter (used to [List / edit / delete Spotlight Connections][enterprise_connect_commandline]) is not available with the Add-Outage command." %}
+
 
 ### -ReoccurenceType value
 
@@ -109,6 +125,9 @@ Used to add a planned outage scheduled to occur every day, on given days of the 
 
 ### -FinishTime "13:46"  
 Used to add a planned outage scheduled to occur every day, on given days of the week or given days of given months. Enclose the time in double quotes. The finish time of the planned outage is of the form: hh:mm
+
+{% include note.html content="The add-outage command will fail if the time format is wrong or time period is unreasonable, such as the -FinishTime is before the -StartTime." %}
+
 
 
 ### -StartDateTime "11/4/2018 12:46"
@@ -129,6 +148,9 @@ The end date and time of the planned outage of the form: "mm/dd/yyyy hh:mm"
 Enclose the date and time in double quotes.
 
 The time is as per the time zone of the Spotlight Diagnostic Server.
+
+{% include note.html content="The add-outage command will fail if the time format is wrong or time period is unreasonable, such as the -FinishDateTime is before the -StartDateTime." %}
+
 
 
 ### -Description "description"
@@ -159,7 +181,6 @@ In the above example the outage is scheduled to occur in the second week of the 
 Used to add a planned outage scheduled to occur on the given day of the given months.
 
 In the above example the outage is scheduled to occur every 4 months.
-
 
 
 {% include links.html %}
