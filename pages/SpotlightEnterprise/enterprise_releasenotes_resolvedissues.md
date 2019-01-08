@@ -21,6 +21,7 @@ When configuring a planned outage, corrected the problem that led to error: "A t
 Corrected the problem behind an error message raised on the Overview page when investigating a "User - Connection Count" alarm. | SOSSE-6757
 Corrected a problem where the Spotlight Diagnostic Server crashed with StackOverflowError in relation to configuring alarms where the message contains the message variable. | DS-1657
 Corrected a problem where a Spotlight monitoring Extended Events session with incorrect name was created on testing a connection in Configure \| Connections. | DS-1597
+Corrected a problem where an Alarm Action to send an email did not work when the alarm was cleared. | DS-1585
 Corrected false alarms of “Databases - Data File Group Space Used” | DS-1490
 Corrected a problem where Spotlight could not show the database size correctly for databases of type FILESTREAM. | DS-1419
 Corrected a problem with the health check warnings where only one of the categories included in the message "This is because excessive time is being spent on Other, Network.” had a significant value. | DS-1258
