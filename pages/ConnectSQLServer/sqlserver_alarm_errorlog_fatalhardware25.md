@@ -1,7 +1,7 @@
 ---
-title: SQL Server Fatal Hardware Error (severity level 25) alarm
+title: Error Log - Fatal Hardware Error (severity level 25) alarm
 tags: [sqlserver_alarms]
-summary: "The SQL Server Fatal Hardware Error (severity level 25) alarm becomes active when Spotlight Enterprise detects a new fatal error message that contains the log entry 'Severity: 25' in the SQL Sever error log. It indicates a system error."
+summary: "The Error Log - Fatal Hardware Error (severity level 25) alarm becomes active when Spotlight Enterprise detects a new fatal error message that contains the log entry 'Severity: 25' in the SQL Sever error log. It indicates a system error."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_errorlog_fatalhardware25.html
 folder: ConnectSQLServer

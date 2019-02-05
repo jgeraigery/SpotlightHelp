@@ -32,6 +32,15 @@ If the Windows Server is in a different domain to the Spotlight Diagnostic Serve
 
 {% include note.html content="Spotlight can only connect to Windows servers in a domain. Spotlight cannot connect to Windows servers in a workgroup. Spotlight cannot connect to databases hosted on Windows servers in a workgroup." %}
 
+
+### Display Name
+The display name of the Windows connection. The display name is used in all displays including the connection tree, connection lists, reports, tables, grids and charts, alarms, alarm actions, alarm descriptions, configuration files, template files, Heatmap and drilldowns.
+
+The display name can be up to 255 characters long. Use letters and numbers. Do not use special characters like % and spaces in the display name.  The display name is not case sensitive. The display name must be unique; no two Spotlight connections of the Windows connection type can have the same display name.
+
+If you don't create a display name then Spotlight uses the Windows Server address for display purposes.
+
+
 ### Authentication
 
 Specify the authentication for Spotlight to use to connect to the Windows server and retrieve performance data.

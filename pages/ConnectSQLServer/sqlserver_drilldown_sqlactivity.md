@@ -30,14 +30,14 @@ Investigate SQL sessions including session details and locks.
 #### Session grid
 Shows all SQL Server sessions, each row representing a single session. Many applications create multiple connections to SQL Server. When there are more than 2000 connections only those connections that are active are shown.
 
-To show only those sessions that are currently executing,, click **Active only**.
+Shows those sessions that are currently executing when **Active Sessions** is selected. Shows system sessions when **System Sessions** is selected.
 
 
 ##### Tips for using the Session grid in the Spotlight Client
 
 * Some columns may be hidden by default. To view them, right-click the grid headings and select **Organize Columns**.
 * To close a SQL Server session, right click and select **Kill this session**. This option is available only to members of the Spotlight Diagnostic Administrators group. For more information, see [Spotlight diagnostic user groups][enterprise_backend_spotlightdiagnosticusergroups].
-* The screen refreshes automatically. To pause Auto Refresh click {% include inline_imageClient.html file="tb_drilldown_session_refresh.png" alt="Pause Auto Refresh" %}. Click again to re-start auto refresh.
+* The screen refreshes automatically when set to {% include inline_imageClient.html file="tb_drilldown_session_refresh.png" alt="Auto Refresh" %} **Resume Refresh**. When you wish the screen data to pause as is / freeze, click the icon to {% include inline_imageClient.html file="tb_drilldown_session_refresh.png" alt="Auto Refresh" %} **Pause Refresh**. Click the icon again to {% include inline_imageClient.html file="tb_drilldown_session_refresh.png" alt="Auto Refresh" %} **Resume Refresh**.
 * The status column of the grid is color coded for readability.
 * You can view more details for a session by clicking it in this grid. Additional pages are then displayed in the lower half of the drilldown.
 * The data displayed in this grid can be **Filtered**. Filtering is the method Spotlight uses to restrict displays to a manageable or relevant set of data. You can view or change the filter by right-clicking the grid and choosing **View/Edit Filter**.

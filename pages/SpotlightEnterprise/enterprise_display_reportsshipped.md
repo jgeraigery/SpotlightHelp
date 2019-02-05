@@ -8,6 +8,8 @@ folder: SpotlightEnterprise
 ---
 
 
+## Alarms Report
+Report on alarms raised against specified connection(s). Sort and filter alarms by name, severity and change in status and specify the connection(s) to report on.
 
 ## All SQL Agent Jobs Report
 Report on the SQL Agent Jobs defined on selected SQL Server instances.

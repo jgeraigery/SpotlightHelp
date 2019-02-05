@@ -40,7 +40,18 @@ Databases - Log File Space Used Alarm | Files | Minimum refresh for this collect
 Databases - Log Flush Wait Time Alarm | Database Info |  
 Databases - SQL I/O Errors Alarm | Global Variables |  
 Databases - Unavailable Alarm | Database List |  
-Error Log - Error Count Alarm | Error Log Scan |  
+Error Log - Critical Error (severity level lower than 20) Alarm | Error Log Scan - Summary |  Non configurable
+Error Log - Error Count Alarm | Error Log Scan - Summary |  Non configurable
+Error Log - Fatal Current Process Error (severity level 20) Alarm | Error Log Scan - Summary |  Non configurable
+Error Log - Fatal Database Integrity Suspect Error (severity level 23) Alarm | Error Log Scan - Summary |  Non configurable
+Error Log - Fatal Database (dbid) Process Error (severity level 21) Alarm | Error Log Scan - Summary |  Non configurable
+Error Log - Fatal Hardware Error (severity level 24) Alarm | Error Log Scan - Summary |  Non configurable
+Error Log - Fatal Hardware Error (severity level 25) Alarm | Error Log Scan - Summary |  Non configurable
+Error Log - Fatal Table Integrity Suspect Error (severity level 22) Alarm | Error Log Scan - Summary |  Non configurable
+Error Log - High Severity Message Alarm | Error Log Scan - Summary |  Non configurable
+Error Log - Information Severity Message Alarm | Error Log Scan - Summary |  Non configurable
+Error Log - Low Severity Message Alarm | Error Log Scan - Summary |  Non configurable
+Error Log - Medium Severity Message Alarm | Error Log Scan - Summary |  Non configurable
 I/O Stall Time Alarm | IO Stall |  
 Index Fragmentation Alarm | Fragmentation Overview |  
 Index Fragmentation Status Alarm | Fragmentation Overview |  

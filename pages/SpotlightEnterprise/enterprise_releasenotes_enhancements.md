@@ -1,51 +1,28 @@
 ---
 title: Enhancements in this release
 keywords: release notes
-summary: "The following is a list of enhancements implemented in Spotlight Enterprise 12.3"
+summary: "The following is a list of enhancements implemented in Spotlight Enterprise 12.4"
 sidebar: p_enterprise_sidebar
 permalink: enterprise_releasenotes_enhancements.html
 folder: SpotlightEnterprise
 readonly: true
 ---
 
-## Enhancements implemented in Spotlight Enterprise 12.3.1
+## Enhancements implemented in Spotlight Enterprise 12.4
 
 Enhancement | Issue ID
 ------------|---------
-New Backup Report that shows the last backup time of databases on selected SQL Server connections. | SOSSE-6744
-Virtual Log Files have been added to the SQL Server \| Databases drilldown, Log Files grid, space and growth charts. | SOSSE-6648
-Added more time periods to Playback Rewind and Skip: 2 hours, 6 hours, 12 hours. | SOSSE-6038
-Added the ability to use encryption for the connections used to access the Playback Database and Spotlight Statistics Repository. | DS-1504
-
-## Enhancements implemented in Spotlight Enterprise 12.3
-
-Enhancement | Issue ID
-------------|---------
-The Spotlight Client and Spotlight Diagnostic Server communicate over TLS 1.2; earlier protocols are no longer supported. | SOSSE-7433
-On the SQL Server \| Wait Events drilldown, % of Sample Time replaces the % of Total Available CPU Time metric. The % of Sample Time calculates the proportion of wait time (for this wait type) over the time frame selected for the drilldown page. | SoSSE-7378
-Collection of the support bundle has been enhanced. You can choose not to include the Spotlight Diagnostic Server. In a federated environment you can choose to collect from all or selected Spotlight Diagnostic Servers in a federation. When the support bundle is emailed there is an option to include the Service Request ID in the email. | SoSSE-7365
-On the SQL Server \| Workload Analysis drilldown as a performance enhancement the list of SQL statements is loaded 200 at a time. Click **Show More** to show the next 1000 statements.  | SoSSE-7336
-Collection of the support bundle has been enhanced. We no longer capture historical logs automatically. The historical logs are large and rarely used. There is an option to include historical logs in the collection if required. | SoSSE-7233
-Configure \| Extended Events has been enhanced with Advanced Settings. | SOSSE-7224
-On the SQL Server, SQL Activity drilldown, Sessions grid the column "Request Granted Memory" has been added. | SOSSE-7143
-From the Spotlight Client, the Configure Alarm Action Editor now has an option to enable/disable an alarm action rule. | SOSSE-7038, DS-552
-From the Spotlight Client, the Alarm Action dialog has a new option for each alarm action rule to "Run this action now on existing alarms". | SOSSE-7034, DS-1076
-The SQL Server \| Overview Page, Blocked Processes component now links to the **SQL Activity drilldown \| Deadlocks page**. | SoSSE-6918
-While viewing the SQL Server \| SQL Activity drilldown it is now possible to pause auto refresh. | SOSSE-6720
-In the Spotlight Client the Configure Alarms dialog and Playback panel now have the facility to search for alarms  and filter the display accordingly. | SOSSE-6701
-Support has been improved for monitoring SQL Server instances hosted on Linux 2017. | SoSSE-6145
-The Alarm Log has been enhanced with a new entry to the Filter by Time selector (6 hours) | SOSSE-6035
-The SQL Server Wait Events drilldown has been enhanced. Each Wait Type has a direct link to Waitopedia. | SOSSE-5775
-Spotlight Today alarms can now be grouped according to Heat Map order. | SOSSE-5596
-On Configure Custom Counters, SQL Server, an Apply button has been added. If you have just added a new custom counter, click **Apply** before you click **Edit Thresholds** so the newly added Custom Counter is available on the Configure \| Alarms, Key Value list. | SoSSE-5510
-There is now the ability to connect to an e-mail server that does not have TLS enabled; contact support for details. | DS-1402
-The Extended Events session filter has been enhanced. | DS-1245
-The SQL Agent - Jobs Failed alarm has been enhanced to report on all jobs failed within the data collection period. | DS-1212
-Spotlight Enterprise can now be used to monitor SQL Server 2017 Analysis Services. | DS-1191
-Improved efficiency on executing the MoveDiagnosticServerHost stored procedure in the Spotlight Statistics Repository. | DS-976
-Increased the security between the Spotlight Enterprise Diagnostic Server and the Out of Process Collector using sockets instead of HTTP. | DS-502
-Connection Manager has been enhanced with Advanced Options for connection types Availability Groups, Replication, SQL Azure and SQL Server. You can now specify for each connection the connection timeout (in seconds) and the number of retries to attempt before raising a Connection Failure alarm. | SES-197
-The Error Log Alarms have been refined and enhanced and are now fully configurable from the Spotlight Client, Configure \| Error Log Entries dialog. | SCMM-279
+Configuration of alarm actions has been enhanced to allow for the condition of taking an action (or taking no action) when an alarm is raised between two specific dates and times. | SOSSE-6537
+Spotlight has introduced a facility to allow you to customize the display name for Windows Server connections. The customized display name is used in all displays including the connection tree, connection lists, reports, tables, grids and charts, alarms, alarm actions, alarm descriptions, configuration files, template files, Heatmap and drilldowns. It is also available as an Alarm Message Variable. | SOSSE-7734
+The SQL Server **SQL Activity / Sessions** drilldown has been enhanced to make the "Active Sessions" and "System Sessions" filters more visible. | SOSSE-7265
+When monitoring SQL Server, new In-Memory view added to the Databases drilldown to show memory consumption of In Memory OLTP. | SOSSE-6662
+Spotlight has introduced a facility to allow you to customize the display name for SQL Server connections. The customized display name is used in all displays including the connection tree, connection lists, reports, tables, grids and charts, alarms, alarm actions, alarm descriptions, configuration files, template files, Heatmap and drilldowns. It is also available as an Alarm Message Variable. | SOSSE-6096
+When monitoring a clustered SQL Server instance you can now see which cluster node the instance is running on from the SQL Server Overview page. | SOSSE-4110
+The Spotlight Native Collector when opening an XEventsReader connection now tries to connect with a secured connection on first attempt and only when that fails does it retry with an unsecured connection.  | DS-1615
+Spotlight now supports all SQLAgentJobsFailed columns as variables in the JobsFailed alarm message. Previously the JobCategory column was not supported. | DS-1591
+Renamed all Error Log alarms to begin with "Error Log - ". All error log alarms are non configurable. | DS-1570
+Spotlight Enterprise is now capable of checking database backups across Availability Groups. Spotlight uses the backup details from all replicas in the group when determining if a backup alarm should be raised. The prerequisite is that you must have a SQL Server connection for every replica in the Availability Group as well as a High Availability connection for the group. | DS-1425
+The Windows **Services - Service not running** alarm now excludes Trigger and Delayed Start Automatic services for Windows Server 2016 and above. | DS-907
 
 
 {% include links.html %}

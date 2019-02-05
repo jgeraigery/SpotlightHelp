@@ -26,6 +26,18 @@ Average utilization of processor {{key}} is {{value}}%.
 
 The name of the connection the alarm was raised on.
 
+
+### Display Name
+
+{% raw %}
+```liquid
+{{CONNECTION_DESC}}
+```
+{% endraw %}
+
+For SQL Server and Windows Server only, the display name of the connection the alarm was raised on. The display name is used in all Spotlight displays including the connection tree, connection lists, reports, tables, grids and charts, alarms, alarm actions, alarm descriptions, configuration files, template files, Heatmap and drilldowns. The display name is defined in the [Spotlight Connection Properties for SQL Server][sqlserver_connect_details] or [Spotlight Connection Properties for Windows Server][windows_connect_details].
+
+
 ### Message
 
 {% raw %}

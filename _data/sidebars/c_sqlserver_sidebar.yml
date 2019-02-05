@@ -304,6 +304,10 @@ entries:
       url: /sqlserver_alarm_sql_longrunningsql.html
       output: web, pdf
 
+    - title: SQL - Running out of Threads
+      url: /sqlserver_alarm_sql_runningoutofthreads.html
+      output: web, pdf
+
     - title: SQL Agent - Alerts
       url: /sqlserver_alarm_sqlagent_alerts.html
       output: web, pdf
@@ -583,6 +587,10 @@ entries:
 
         - title: Version
           url: /sqlserver_component_version.html
+          output: web, pdf
+
+        - title: Host
+          url: /sqlserver_component_host.html
           output: web, pdf
 
         - title: Custom

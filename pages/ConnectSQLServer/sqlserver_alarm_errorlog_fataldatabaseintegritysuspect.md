@@ -1,7 +1,7 @@
 ---
-title: ﻿SQL Server Fatal Database Integrity Suspect Error (severity level 23) alarm
+title: Error Log - Fatal Database Integrity Suspect Error (severity level 23) alarm
 tags: [sqlserver_alarms]
-summary: "The SQL Server Fatal Database Integrity Suspect Error (severity level 23) alarm becomes active when Spotlight Enterprise detects a new fatal error message that contains the log entry 'Severity: 23' in the SQL Sever error log. It indicates that the integrity of the entire database is in question because of a hardware or software problem."
+summary: "The Error Log - Fatal Database Integrity Suspect Error (severity level 23) alarm becomes active when Spotlight Enterprise detects a new fatal error message that contains the log entry 'Severity: 23' in the SQL Sever error log. It indicates that the integrity of the entire database is in question because of a hardware or software problem."
 sidebar: c_sqlserver_sidebar
 permalink: sqlserver_alarm_errorlog_fataldatabaseintegritysuspect.html
 folder: ConnectSQLServer

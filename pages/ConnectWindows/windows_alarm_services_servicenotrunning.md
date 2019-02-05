@@ -1,13 +1,15 @@
 ---
 title: Services - Service Not Running alarm
 tags: [windows_alarms]
-last_updated: July 29, 2016
 summary: "The Services - Service Not Running alarm occurs when a Windows service that is set to start automatically is not running."
 sidebar: c_windows_sidebar
 permalink: windows_alarm_services_servicenotrunning.html
 id: ServiceNotRunning.alarm
 folder: ConnectWindows
 ---
+
+
+{% include note.html content="This alarm now excludes Trigger and Delayed Start Automatic services for Windows Server 2016 and above." %}
 
 
 ## To start the service from the Spotlight Client

@@ -63,6 +63,9 @@ Take action when the specified alarm is raised. If an alarm is not specified thi
 
 Note the option to select "is" or "is not". Where "is not" is selected, take action for any alarm raised except the specified alarm.
 
+{% include tip.html content="When combining with 'The connection is' condition the connection types must match." %}
+
+
 ### The alarm severity is…
 
 Take action when the alarm severity changes to one of the following: {% include inline_imageClient.html file="icon_alarm_blue.png" alt="Information" %} Information, {% include inline_imageClient.html file="icon_alarm_yellow.png" alt="Low" %} Low, {% include inline_imageClient.html file="icon_alarm_orange.png" alt="Medium" %} Medium or {% include inline_imageClient.html file="icon_alarm_red.png" alt="High" %} High.
@@ -85,19 +88,30 @@ Take action when an alarm is raised against a connection with matching connectio
 
 This condition is appropriate if your organization has defined tags for Spotlight connections. Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection. In the Modify Criteria dialog, use the drop down menu to select from tags currently assigned to connections on the Spotlight Diagnostic Server. For more information on tags, see [Connection Properties \| Tags][enterprise_cfgmonitor_connect_tags].
 
+### The date is in the interval...
+
+Take action when the alarm is raised (or is not raised) between two specific dates and times.
+
+For example:
+
+* Take no action when the alarm is raised between 9am June 21 2018 and midnight June 22 2018.
+* Take action only when the alarm is raised between midnight December 24 2018 and midnight December 26 2018.
+
+Where multiple timezones are involved, the date is as per the date on the Spotlight Diagnostic Server.
+
 ### The date is…
 
 Take action when the alarm is raised on the specified date.
 
 Note the option to select "is" or "is not". Where "is not" is selected, take action when the alarm is raised on any date except the specified date. For example, you may want no action taken on a scheduled public holiday.
 
-Where multiple timezones are involved, the date is as per the date on the Spotlight Diagnostic Server.
+Where multiple timezones are involved, the date is taken from the timezone the Spotlight Diagnostic Server is in.
 
 ### The day of the week is…
 
 Take action when the alarm is raised on the specified day(s) of the week. For example, act on this rule when the alarm is raised on a Monday, take no action on this rule when the alarm is raised on any other day of the week.
 
-Where multiple timezones are involved, the day of the week is as per the day on the Spotlight Diagnostic Server.
+Where multiple timezones are involved, the day of the week is taken from the timezone the Spotlight Diagnostic Server is in.
 
 ### The details contain…
 
@@ -115,7 +129,7 @@ This option is applicable to a [federated system][enterprise_backend_federation]
 
 Take action during the specified time frame. For example, take the actions associated with this rule when the alarm is raised between 6:00pm and 6:00am. Take no actions associated with this rule outside of that time frame.
 
-Where multiple timezones are involved, the time of day is as per the time on the Spotlight Diagnostic Server.
+Where multiple timezones are involved, the time of day is taken from the timezone the Spotlight Diagnostic Server is in.
 
 
 

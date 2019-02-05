@@ -41,3 +41,5 @@ readonly: true
 
 
 {% include tip.html content="The collections used to monitor SQL Server Availability Groups are documented at: [Collections](availabilitygroup_collections.html)." %}
+
+{% include tip.html content="Spotlight Enterprise is capable of checking database backups across Availability Groups. Spotlight uses the backup details from all replicas in the group when determining if a backup alarm should be raised. The prerequisite is that you must have a SQL Server connection for every replica in the Availability Group as well as a High Availability connection for the group." %}
