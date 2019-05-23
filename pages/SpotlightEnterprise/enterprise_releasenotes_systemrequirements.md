@@ -185,7 +185,9 @@ The Playback Database can be installed on:
 * SQL Server 2008
 * SQL Server 2005
 
-{% include tip.html content="Due to the size of the Playback Database, it is recommended that this database is not installed on a SQL Express instance. The Playback Database is not supported on High Availability Always On and mirrored databases. The Playback Database cannot be installed on SQL Server 2000." %}
+{% include tip.html content="Due to the size of the Playback Database, it is recommended that this database is not installed on a SQL Express instance. The Playback Database is not supported on mirrored databases. The Playback Database cannot be installed on SQL Server 2000." %}
+
+{% include tip.html content="The Playback Database is supported on High Availability Always On Availability Group. Use Availability Group listener as the instance name to connect." %}
 
 {% include tip.html content="The Playback Database can be hosted on a Windows or Linux operating system." %}
 
@@ -218,7 +220,9 @@ The Spotlight Statistics Repository can be installed on:
 * SQL Server 2008
 * SQL Server 2005
 
-{% include tip.html content="Due to the size of the Spotlight Statistics Repository, it is recommended that this database is not installed on a SQL Express instance. The Spotlight Statistics Repository is not supported on High Availability Always On and mirrored databases. The Spotlight Statistics Repository cannot be installed on SQL Server 2000." %}
+{% include tip.html content="Due to the size of the Spotlight Statistics Repository, it is recommended that this database is not installed on a SQL Express instance. The Spotlight Statistics Repository is not supported on mirrored databases. The Spotlight Statistics Repository cannot be installed on SQL Server 2000." %}
+
+{% include tip.html content="The Spotlight Statistics Repository is supported on High Availability Always On Availability Group. Use Availability Group listener as the instance name to connect." %}
 
 {% include tip.html content="The Spotlight Statistics Repository can be hosted on a Windows or Linux operating system." %}
 
