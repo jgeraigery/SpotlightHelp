@@ -14,6 +14,6 @@ readonly: true
 
 Issue | ID
 ------|---
-
+Corrected a problem where on monitoring Availability Group there were duplications in Replica and Databases. | DS-1779
 
 {% include links.html %}
