@@ -9,11 +9,10 @@ folder: ConnectVMware
 
 The following is supported:
 
-* VMware ESX infrastructure. VMware vCenter 2.5 (or later). VMware ESX Server 4.0 (or later)
+* VMware ESX infrastructure. VMware vCenter 6.7 (or later). VMware ESXi Server 6.7 (or later)
 
 The username used to connect to the virtual guest machine must have at least a read-only role.
 
 Ensure any firewall is configured to open TCP port 443.
-
 
 {% include links.html %}
