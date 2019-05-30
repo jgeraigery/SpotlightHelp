@@ -778,6 +778,10 @@ entries:
       url: /enterprise_backend_maintenanceplan.html
       output: web, pdf
 
+    - title: Migrate Spotlight to a new Diagnostic Server host
+      url: /enterprise_backend_ds_migrate.html
+      output: web, pdf
+
     - title: Backup Spotlight Data
       url: /enterprise_backend_backupdata.html
       output: web, pdf
