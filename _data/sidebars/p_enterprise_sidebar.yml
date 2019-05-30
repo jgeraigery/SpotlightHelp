@@ -604,6 +604,10 @@ entries:
       url: /enterprise_cfgds_autoupdate.html
       output: web, pdf
 
+    - title: Manage access to Spotlight connections
+      url: /enterprise_cfgds_manageaccess.html
+      output: web, pdf
+
       subfolders:
       - title: Configure the Diagnostic Server's mail server
         output: web
