@@ -10,10 +10,11 @@ readonly: true
 
 
 
-## Issues resolved in Spotlight Enterprise 12.4
+## Issues resolved in Spotlight Enterprise 13.0
 
 Issue | ID
 ------|---
+Corrected a problem where SQL Running Out Of Threads alarm is reporting false positives. | DS-1814
 Corrected a problem where on monitoring Availability Group there were duplications in Replica and Databases. | DS-1779
 Corrected a problem where multiple duplicate alerts were sent after an alarm actions change. | DS-1712
 Corrected a problem where SQL Agent - Jobs Failed alerts were re-sent when alarm actions were created. | DS-1743
