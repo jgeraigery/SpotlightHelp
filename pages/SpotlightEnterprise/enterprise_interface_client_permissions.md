@@ -41,7 +41,7 @@ Icon | Action | Administrator | User | Read-only
 {% include inline_imageClient.html file="tb_config_monitoredfiles.png" alt="Configure Monitored Files" %} | Configure Monitored Files | Yes | Yes | No
  | Apply Configuration To… | Yes | Yes | No
  | Configuration templates (Save, Delete, Rename) | Yes | Yes | No
- | Configure Defragmentation Collection | Yes | Yes | No
+{% include inline_imageClient.html file="tb_config_defragmentation.png" alt="Configure Defragmentation Collection" %} | Configure Defragmentation Collection | Yes | Yes | No
 
 
 ## Configure the Diagnostic Server
