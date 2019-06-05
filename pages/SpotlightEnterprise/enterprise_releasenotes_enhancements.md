@@ -8,7 +8,7 @@ folder: SpotlightEnterprise
 readonly: true
 ---
 
-## Enhancements implemented in Spotlight Enterprise 12.4
+## Enhancements implemented in Spotlight Enterprise 13.0
 
 Enhancement | Issue ID
 ------------|---------
