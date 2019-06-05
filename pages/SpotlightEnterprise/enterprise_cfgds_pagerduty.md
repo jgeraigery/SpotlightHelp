@@ -11,7 +11,7 @@ folder: SpotlightEnterprise
 
 ## PagerDuty and Spotlight
 
-Prior to following these instructions ensure you have your PagerDuty API Access Key and Service API key. The instructions in the Spotlight Enterprise Integration Guide on the PagerDuty web site provide you with the necessary steps: [www.pagerduty.com/docs](https://www.pagerduty.com/docs). PagerDuty is a third party product ([www.pagerduty.com](https://www.pagerduty.com/)).
+Prior to following these instructions ensure you have your PagerDuty Integration Key. The instructions in the Spotlight Enterprise Integration Guide on the PagerDuty web site provide you with the necessary steps: [www.pagerduty.com/docs](https://www.pagerduty.com/docs). PagerDuty is a third party product ([www.pagerduty.com](https://www.pagerduty.com/)).
 
 The Spotlight Diagnostic Server requires Internet access in order to fulfill on [Configure \| Alarm Actions \| Alarm Action \| Send PagerDuty incident][enterprise_cfgmonitor_alarmaction].
 
@@ -27,13 +27,10 @@ For federated Spotlight Diagnostic Server you will be prompted to select the Spo
 
 ## Specify your PagerDuty account details.
 
-### API Access Key
+### Integration Key
 
-The API Access Key authenticates the Spotlight Diagnostic Server to your PagerDuty account.
+The Integration Key authenticates the Spotlight Diagnostic Server to your PagerDuty account.
 
-### Service API Key
-
-The Service API Key links the Spotlight Diagnostic Server to the PagerDuty service.
 
 
 ## Click Trigger Test Incident

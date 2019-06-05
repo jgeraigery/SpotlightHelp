@@ -24,13 +24,12 @@ No change in Spotlight. | The incident is acknowledged or resolved in PagerDuty.
 
 ### In PagerDuty:
 
-1. Log in to your PagerDuty account. Configure an **API access key** to create an authentication for Spotlight to use to send alarm notifications to your PagerDuty account. Select **Configuration \| API Access**.
-2. On the PagerDuty API Access Keys page, provide a Description for the API Access Key and click **Create Key**.
-3. On the PagerDuty API Access Keys page, take note of the API Key for later use (in Spotlight).
-4. Create a PagerDuty service for Spotlight to send alarm notifications to. Select **Configuration \| Services**.
-5. From the Services page, click **Add New Service**.
-6. Create a name for the service. Assign an escalation policy. Select **Use our API directly**. Click **Add Service**.
-7. On the PagerDuty service page (for Spotlight Enterprise), take note of the Service API Key for later use (in Spotlight Enterprise).
+1. Log in to your PagerDuty account. Create a PagerDuty service for Spotlight to send alarm notifications to. Select **Configuration \| Services**.
+2. From the Services page, click **Add New Service**.
+3. Create a name for the service. In General Settings, enter a Name for your new service. Then, in Incident Settings, specify the Escalation Policy, Notification Urgency, and Incident Behavior for your new service.
+4. Select your app from the Integration Type menu choose **Use our API** directly and Select **Events API v1** then enter an Integration Name.
+5. Click **Add Service**.
+6. On the PagerDuty service page (for Spotlight Enterprise), take note of the Integration Key for later use (in Spotlight Enterprise).
 
 ### Use a Spotlight Client to apply these configurations to the Spotlight Diagnostic Server.
 
