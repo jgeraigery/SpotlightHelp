@@ -14,6 +14,7 @@ readonly: true
 
 Issue | ID
 ------|---
+Corrected a problem where Spotlight MIB file is not valid. | DS-652
 Corrected a problem where SQL Running Out Of Threads alarm is reporting false positives. | DS-1814
 Corrected a problem where on monitoring Availability Group there were duplications in Replica and Databases. | DS-1779
 Corrected a problem where multiple duplicate alerts were sent after an alarm actions change. | DS-1712
