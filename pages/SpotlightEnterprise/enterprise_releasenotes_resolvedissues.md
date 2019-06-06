@@ -16,6 +16,7 @@ Issue | ID
 ------|---
 Corrected a problem where Spotlight MIB file is not valid. | DS-652
 Corrected a problem where SQL Running Out Of Threads alarm is reporting false positives. | DS-1814
+Corrected a problem where duplicate alerts were sent for some alarms. | DS-1797
 Corrected a problem where on monitoring Availability Group there were duplications in Replica and Databases. | DS-1779
 Corrected a problem where the 'User-Connection Count' alarm showed a wrong message in playback mode. | DS-1753
 Corrected a problem where the I/O Stall Time alarm does not work after applying the Factory Reduced Sensitivity Template. | DS-1751 
