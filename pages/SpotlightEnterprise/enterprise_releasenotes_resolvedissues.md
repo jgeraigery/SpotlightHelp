@@ -23,6 +23,7 @@ Corrected a problem where Alarm action generate Deadlock alarm can't find zip fi
 Corrected a problem where multiple duplicate alerts were sent after an alarm actions change. | DS-1712
 Corrected a problem where Clusters - Failed over Alarm Shouldn't be raised when scheduled outage ends. | DS-1688
 Corrected a problem where SQL Agent Job List writes too much data to Spotlight Statistics Repository. | DS-1630
+Corrected a problem where Client process was terminated due to an unhandled exception. | SOSSE-8068
 
 
 {% include links.html %}
