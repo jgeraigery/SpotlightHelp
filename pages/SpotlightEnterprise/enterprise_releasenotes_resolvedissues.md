@@ -19,6 +19,7 @@ Corrected a problem where SQL Running Out Of Threads alarm is reporting false po
 Corrected a problem where on monitoring Availability Group there were duplications in Replica and Databases. | DS-1779
 Corrected a problem where the I/O Stall Time alarm does not work after applying the Factory Reduced Sensitivity Template. | DS-1751 
 Corrected a problem where SQL Agent - Jobs Failed alerts were re-sent when alarm actions were created. | DS-1743
+Corrected a problem where Alarm action generate Deadlock alarm can't find zip file. | DS-1721
 Corrected a problem where multiple duplicate alerts were sent after an alarm actions change. | DS-1712
 Corrected a problem where SQL Agent Job List writes too much data to Spotlight Statistics Repository. | DS-1630
 
