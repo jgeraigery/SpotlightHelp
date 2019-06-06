@@ -17,9 +17,16 @@ Issue | ID
 Corrected a problem where Spotlight MIB file is not valid. | DS-652
 Corrected a problem where SQL Running Out Of Threads alarm is reporting false positives. | DS-1814
 Corrected a problem where on monitoring Availability Group there were duplications in Replica and Databases. | DS-1779
-Corrected a problem where multiple duplicate alerts were sent after an alarm actions change. | DS-1712
+Corrected a problem where User-Connection Count alarm shows wrong message in playback mode. | DS-1753
+Corrected a problem where the I/O Stall Time alarm does not work after applying the Factory Reduced Sensitivity Template. | DS-1751 
 Corrected a problem where SQL Agent - Jobs Failed alerts were re-sent when alarm actions were created. | DS-1743
+Corrected a problem where Alarm action generate Deadlock alarm can't find zip file. | DS-1721
+Corrected a problem where multiple duplicate alerts were sent after an alarm actions change. | DS-1712
+Corrected a problem where Clusters - Failed over Alarm Shouldn't be raised when scheduled outage ends. | DS-1688
 Corrected a problem where SQL Agent Job List writes too much data to Spotlight Statistics Repository. | DS-1630
+Corrected a problem where No data in SQL activity. | DS-1573
+Corrected a problem where Fragmentation by Index procedure is executed when the drilldown is first visited. | SOSSE-7999
+Corrected a problem where Client process was terminated due to an unhandled exception. | SOSSE-8068
 
 
 {% include links.html %}
