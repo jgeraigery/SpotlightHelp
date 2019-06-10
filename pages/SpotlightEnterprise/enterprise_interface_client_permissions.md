@@ -62,7 +62,7 @@ Icon | Action | Administrator | User | Read-only
 {% include inline_imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %} | Configure the use of Extended Events | Yes | No | No
 {% include inline_imageClient.html file="tb_config_spotlightcloud.png" alt="Configure Spotlight Cloud" %} | Configure uploading to Spotlight Cloud | Yes | Yes | No
 {% include inline_imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %} | Federate Diagnostic Servers | Yes | Yes | No
-
+{% include inline_imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %} | Manage access to Spotlight connections | Yes | No | No
 
 ## Configure the Spotlight Client
 
