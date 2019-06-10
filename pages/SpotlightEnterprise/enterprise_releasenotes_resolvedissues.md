@@ -28,6 +28,7 @@ Corrected a problem where SQL Agent Job List writes too much data to Spotlight S
 Corrected a problem where there was no data in SQL activity. | DS-1573
 Corrected a problem where the 'Fragmentation by Index' procedure was executed when the drilldown was first visited. | SOSSE-7999
 Corrected a problem where the client process was terminated due to an unhandled exception. | SOSSE-8068
+Corrected a problem where Spotlight threw the error "Cannot assign a default value" after upgrading to 12.4 | SOSSE-8233
 
 
 {% include links.html %}
