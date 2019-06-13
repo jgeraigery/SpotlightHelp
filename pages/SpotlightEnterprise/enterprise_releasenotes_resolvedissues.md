@@ -29,6 +29,7 @@ Corrected a problem where the SQL Agent Job List writes too much data to Spotlig
 Corrected a problem where there was no data in SQL activity. | DS-1573
 Corrected a problem where Spotlight MIB file is not valid. | DS-652
 Corrected a problem where Spotlight threw the error "Cannot assign a default value" after upgrading to 12.4 | SOSSE-8233
+Corrected a problem where there was no data in the SQL and Query Plan columns in the SQL Activity drilldown in playback mode. | SOSSE-8125
 Corrected a problem where the client process was terminated due to an unhandled exception. | SOSSE-8068
 Corrected a problem where the "Fragmentation by Index" procedure was executed when the drilldown was first visited. | SOSSE-7999
 Corrected a problem where Spotlight asked for confirmation when applying a template to a connection but there were no changes in the template.  | SOSSE-7655
