@@ -17,6 +17,7 @@ Issue | ID
 Corrected a problem where the "SQL Running Out Of Threads" alarm was reporting false positives. | DS-1814
 Corrected a problem where duplicate alerts were sent for some alarms. | DS-1797
 Corrected a problem where on monitoring Availability Group there were duplications in Replica and Databases. | DS-1779
+Corrected a problem where the SpotlightOOPCollector data collection process restarted due to improper use of interrupts. | DS-1691
 Corrected a problem where the Availability Group State collection did not fail when a collection it was dependent on failed. | DS-1764
 Corrected a problem where the "User-Connection Count" alarm showed a wrong message in playback mode. | DS-1753
 Corrected a problem where the "I/O Stall Time" alarm did not work after applying the Factory Reduced Sensitivity Template. | DS-1751 
