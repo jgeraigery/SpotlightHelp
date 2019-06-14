@@ -9,7 +9,7 @@ folder: ConnectVMware
 
 The following is supported:
 
-* VMware ESX infrastructure. VMware vCenter 6.7 (or later). VMware ESXi Server 6.7 (or later)
+* VMware ESX infrastructure. VMware vCenter 2.5 to 6.7. VMware ESXi Server 4.0 to 6.7
 
 The username used to connect to the virtual guest machine must have at least a read-only role.
 
