@@ -25,7 +25,7 @@ Select a user from the left column of Spotlight Users. Spotlight connections are
 ## Manage Access to Spotlight connections
 
 Action on Manage Access to Spotlight connections | Spotlight Diagnostic Administrators | Spotlight Diagnostic Users | Spotlight Diagnostic Read-Only
-------------|---------
+-------------------------------------------------|-------------------------------------|----------------------------|-------------------------------
 View all users | Yes | Yes | Yes
 View all connections | Yes | Yes
 View which connections are accessible by which users | Yes | Yes | Yes
