@@ -27,7 +27,7 @@ Select a user from the left column of Spotlight Users. Spotlight connections are
 Action on Manage Access to Spotlight connections | Spotlight Diagnostic Administrators | Spotlight Diagnostic Users | Spotlight Diagnostic Read-Only
 -------------------------------------------------|-------------------------------------|----------------------------|-------------------------------
 View all users | Yes | Yes | Yes
-View all connections | Yes | Yes
+View all connections | Yes | Yes | Yes
 View which connections are accessible by which users | Yes | Yes | Yes
 Search user by user name | Yes | Yes | Yes
 Search connection by connection name, display name,connection type and tag | Yes | Yes | Yes
@@ -42,7 +42,7 @@ Because of an Active Directory user may also included in Active Directory groups
 
 Here are some rules for resolving permissions conflicts:
 
-1. "Administrator" role generally take precedence over "Non Administrator" role.
+1. "Administrator" role generally takes precedence over "Non Administrator" role.
 2. "Deny" permissions generally take precedence over "Allow" permissions.
 
 For more on Spotlight Diagnostic User Groups, see [Spotlight Diagnostic User Groups][enterprise_backend_spotlightdiagnosticusergroups].
