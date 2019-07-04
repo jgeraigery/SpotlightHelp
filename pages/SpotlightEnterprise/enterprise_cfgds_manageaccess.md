@@ -34,15 +34,16 @@ Search connection by connection name, display name,connection type and tag | Yes
 Allow/Deny connection to Spotlight Diagnostic Administrators group | No | No | No
 Allow/Deny connection to Spotlight Diagnostic Users or Spotlight Diagnostic Read-Only Users groups | Yes | No | No
 
-Important Notes: All users are entitled to access all the connections (including any new added connection) until Administrator explicitly deny it.
+{% include note.html content="All users are entitled to access all the connections (including any new added connection) until Administrator explicitly deny it." %}
+
 
 ## Permission Precedence
 Because of an Active Directory user may also included in Active Directory groups and a Spotlight user may have different roles configured, it is possible that conflicting permission settings might happen. 
 
 Here are some rules for resolving permissions conflicts:
 
-1."Administrator" role generally take precedence over "Non Administrator" role.
-2."Deny" permissions generally take precedence over "Allow" permissions.
+1. "Administrator" role generally take precedence over "Non Administrator" role.
+2. "Deny" permissions generally take precedence over "Allow" permissions.
 
 For more on Spotlight Diagnostic User Groups, see [Spotlight Diagnostic User Groups][enterprise_backend_spotlightdiagnosticusergroups].
 For more on Manage access to Spotlight connections known issues, see [known issues configuring Spotlight][enterprise_releasenotes_knownissues].
