@@ -24,15 +24,15 @@ Select a user from the left column of Spotlight Users. Spotlight connections are
 
 ## Manage Access to Spotlight connections
 
-Action on Manage Access to Spotlight connections | Spotlight Diagnostic Administrators | Spotlight Diagnostic Users | Spotlight Diagnostic Read-Only
--------------------------------------------------|-------------------------------------|----------------------------|-------------------------------
+Action on Manage Access to Spotlight connections | Administrator | User | Read-Only
+-------------------------------------------------|---------------|------|----------
 View all users | Yes | Yes | Yes
 View all connections | Yes | Yes | Yes
 View which connections are accessible by which users | Yes | Yes | Yes
 Search user by user name | Yes | Yes | Yes
 Search connection by connection name, display name,connection type and tag | Yes | Yes | Yes
-Allow/Deny connection to Spotlight Diagnostic Administrators group | No | No | No
-Allow/Deny connection to Spotlight Diagnostic Users or Spotlight Diagnostic Read-Only Users groups | Yes | No | No
+Allow/Deny connection to Administrator | No | No | No
+Allow/Deny connection to User or Read-Only user | Yes | No | No
 
 {% include note.html content="All users are entitled to access all the connections (including any new added connection) until Administrator explicitly deny it." %}
 
