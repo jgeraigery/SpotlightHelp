@@ -37,7 +37,7 @@ Icon | Action | Administrator | User | Read-only
 {% include inline_imageClient.html file="tb_config_plannedoutage.png" alt="Configure Planned Outage" %} | Configure Planned Outage (Add, Edit, Remove) | Yes | Yes | No
 {% include inline_imageClient.html file="tb_config_sqlserverresponse.png" alt="Configure SQL Server Response Time" %} | Configure SQL Server Response Time | Yes | No | No
 {% include inline_imageClient.html file="tb_config_customcounters.png" alt="Configure Custom Counters" %} | Configure Custom Counters | Yes | Yes | No
-{% include inline_imageClient.html file="tb_config_errorlogentries.png" alt="Configure Error Log Entries" %} | Configure Error Log Entries | Yes | Yes | No
+{% include inline_imageClient.html file="tb_config_errorlogentries.png" alt="Configure Error Log Entries" %} | Configure Error Log Entries | Yes | No | No
 {% include inline_imageClient.html file="tb_config_monitoredfiles.png" alt="Configure Monitored Files" %} | Configure Monitored Files | Yes | Yes | No
  | Apply Configuration To… | Yes | Yes | No
  | Configuration templates (Save, Delete, Rename) | Yes | Yes | No
