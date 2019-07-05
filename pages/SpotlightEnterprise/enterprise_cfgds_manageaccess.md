@@ -29,16 +29,16 @@ Action on Manage Access to Spotlight connections | Administrator | User | Read-O
 View all users | Yes | Yes | Yes
 View all connections | Yes | Yes | Yes
 View which connections are accessible by which users | Yes | Yes | Yes
-Search user by user name | Yes | Yes | Yes
-Search connection by connection name, display name,connection type and tag | Yes | Yes | Yes
-Allow/Deny connection to Administrator | No | No | No
+Search user by username | Yes | Yes | Yes
+Search connection by connection name, display name, connection type and tag | Yes | Yes | Yes
+Deny the Administrator access to the connection | No | No | No
 Allow/Deny connection to User or Read-Only user | Yes | No | No
 
-{% include note.html content="All users are entitled to access all the connections (including any new added connection) until Administrator explicitly deny it." %}
+{% include note.html content="All users are entitled to access all the connections(including newly added connections) until the Administrator explicitly denies it." %}
 
 
 ## Permission Precedence
-Because of an Active Directory user may also included in Active Directory groups and a Spotlight user may have different roles configured, it is possible that conflicting permission settings might happen. 
+Because an Active Directory user may also be included in Active Directory groups and a Spotlight user may have different roles configured, it is possible for conflicting permission settings to happen.
 
 Here are some rules for resolving permissions conflicts:
 
