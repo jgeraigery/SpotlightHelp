@@ -818,6 +818,14 @@ entries:
       url: /sqlserver_drilldown_waitevents.html
       output: web, pdf
 
+    - title: SQL
+      url: /sqlserver_sql.html
+      output: web, pdf
+
+    - title: Plan
+      url: /sqlserver_plan.html
+      output: web, pdf
+
   - title: High Availability drilldown
     output: web, pdf
     folderitems:
@@ -1128,6 +1136,14 @@ entries:
 
     - title: Workload Analysis drilldown
       url: /sqlserver_drilldown_workloadanalysis.html
+      output: web, pdf
+
+    - title: SQL
+      url: /sqlserver_sql.html
+      output: web, pdf
+
+    - title: Plan
+      url: /sqlserver_plan.html
       output: web, pdf
 
   - title: Tempdb drilldown

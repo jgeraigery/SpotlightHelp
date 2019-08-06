@@ -9,7 +9,7 @@ folder: SpotlightEnterprise
 
 ## Permission to use Spotlight
 
-The Windows credentials used to run the Spotlight Client must be a member of at least one of the three groups for the given Spotlight Diagnostic Server: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. Your Network Administrator can add members, increase and decrease your membership as required. These groups exist locally on the Spotlight Diagnostic server host; members can be added and removed through Computer Management > Local Users and Groups. 
+The Windows credentials used to run the Spotlight Client must be a member of at least one of the three groups for the given Spotlight Diagnostic Server: Spotlight Diagnostic Administrators, Spotlight Diagnostic Users, Spotlight Diagnostic Read-Only. Your Network Administrator can add members, increase and decrease your membership as required. These groups exist locally on the Spotlight Diagnostic server host; members can be added and removed through Computer Management > Local Users and Groups.
 
 ## Acknowledge, snooze and ignore alarms
 
@@ -32,16 +32,16 @@ Icon | Action | Administrator | User | Read-only
 {% include inline_imageClient.html file="tb_config_connections.png" alt="Configure Connections" %} | Configure Connections: Add/Replace/Delete tags | Yes | Yes | No
 {% include inline_imageClient.html file="tb_config_connections.png" alt="Configure Connections" %} | Configure Connections: Enable/Disable monitoring | Yes | Yes | No
 {% include inline_imageClient.html file="tb_config_alarms.png" alt="Configure Alarms" %} | Configure Alarms | Yes | Yes | No
-{% include inline_imageClient.html file="tb_config_alarmactions.png" alt="Alarm Action Editor" %} | Alarm Action Editor | Yes | Yes | No
- | Alarm Actions \| Run a program | Yes | No | No
+{% include inline_imageClient.html file="tb_config_alarmactions.png" alt="Alarm Action Editor" %} | Alarm Action Editor | Yes | No | No
 {% include inline_imageClient.html file="tb_config_scheduling.png" alt="Configure Scheduling" %} | Configure Scheduling | Yes | Yes | No
-{% include inline_imageClient.html file="tb_config_plannedoutage.png" alt="Configure Planned Outage" %} | Configure Planned Outage (Add, Edit, Remove) | Yes | No | No
+{% include inline_imageClient.html file="tb_config_plannedoutage.png" alt="Configure Planned Outage" %} | Configure Planned Outage (Add, Edit, Remove) | Yes | Yes | No
 {% include inline_imageClient.html file="tb_config_sqlserverresponse.png" alt="Configure SQL Server Response Time" %} | Configure SQL Server Response Time | Yes | No | No
 {% include inline_imageClient.html file="tb_config_customcounters.png" alt="Configure Custom Counters" %} | Configure Custom Counters | Yes | Yes | No
-{% include inline_imageClient.html file="tb_config_errorlogentries.png" alt="Configure Error Log Entries" %} | Configure Error Log Entries | Yes | Yes | No
+{% include inline_imageClient.html file="tb_config_errorlogentries.png" alt="Configure Error Log Entries" %} | Configure Error Log Entries | Yes | No | No
 {% include inline_imageClient.html file="tb_config_monitoredfiles.png" alt="Configure Monitored Files" %} | Configure Monitored Files | Yes | Yes | No
  | Apply Configuration To… | Yes | Yes | No
- | Configureation templates (Save, Delete, Rename) | Yes | Yes | No
+ | Configuration templates (Save, Delete, Rename) | Yes | Yes | No
+{% include inline_imageClient.html file="tb_config_defragmentation.png" alt="Configure Defragmentation Collection" %} | Configure Defragmentation Collection | Yes | Yes | No
 
 
 ## Configure the Diagnostic Server
@@ -56,12 +56,13 @@ Icon | Action | Administrator | User | Read-only
 {% include inline_imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %} | Configure the auto-update facility | Yes | Yes | No
 {% include inline_imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %} | Configure the Diagnostic Server's mail server | Yes | Yes | No
 {% include inline_imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %} | Configure the Playback Database | Yes | Yes | No
+ | Configure Store SQL text and query plans in playback | Yes | No | No
 {% include inline_imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %} | Configure the SNMP Trap | Yes | Yes | No
 {% include inline_imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %} | Configure the Spotlight Statistics Repository | Yes | Yes | No
-{% include inline_imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %} | Configure the use of Extended Events | Yes | Yes | No
+{% include inline_imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %} | Configure the use of Extended Events | Yes | No | No
 {% include inline_imageClient.html file="tb_config_spotlightcloud.png" alt="Configure Spotlight Cloud" %} | Configure uploading to Spotlight Cloud | Yes | Yes | No
 {% include inline_imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %} | Federate Diagnostic Servers | Yes | Yes | No
-
+{% include inline_imageClient.html file="tb_config_dserver.png" alt="Configure Diagnostic Server" %} | Manage access to Spotlight connections | Yes | No | No
 
 ## Configure the Spotlight Client
 
@@ -69,7 +70,7 @@ Icon | Action | Administrator | User | Read-only
 -----|--------|---------------|------|----------
 {% include inline_imageClient.html file="tb_config_spotlight.png" alt="Configure Spotlight" %} | Change Display  | Yes | Yes | Yes
 {% include inline_imageClient.html file="tb_config_spotlight.png" alt="Configure Spotlight" %} | Troubleshoot Spotlight  | Yes | Yes | Yes
-{% include inline_imageClient.html file="tb_config_userexperience.png" alt="Configure User Experience" %} | User Experience | Yes | Yes | No
+{% include inline_imageClient.html file="tb_config_userexperience.png" alt="Configure User Experience" %} | User Experience | Yes | Yes | Yes
 
 
 ## Execute tasks on monitored SQL Server

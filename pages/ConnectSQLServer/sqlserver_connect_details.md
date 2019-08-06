@@ -107,6 +107,8 @@ Set the connection timeout and the number of times Spotlight should attempt to c
 
 {% include tip.html content="If the number of times Spotlight should attempt to connect to the SQL Server instance before raising an alarm is greater than 9 then type that number into the given field." %}
 
+{% include note.html content="When the SQL Server host is set to 'Cluster (Monitor active node)' the connection timeout is set to 30 seconds and the number of times Spotlight should attempt to connect to the SQL Server instance before raising the Connection Failure alarm is 4. These settings cannot be changed." %}
+
 
 ### Connection
 Select the Windows server hosting the SQL Server.

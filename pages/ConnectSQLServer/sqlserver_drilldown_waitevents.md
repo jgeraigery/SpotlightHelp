@@ -49,10 +49,10 @@ Statement | Which SQL statement is contributing most to the wait time?
 
 Possible actions you can take once the category and workload are selected:
 
-* Copy a SQL statement to the clipboard or select part of the SQL statement to copy just the selected part to the clipboard.
+* Click on the SQL statement to show the Overview, SQL and Plan tabs.
 * To open the SQL statement in an external editor, right click on it.
 * To show the SQL statement in the **SQL Server \| Workload Analysis drilldown** right click on it. Workload Analysis will provide execution details of the SQL statement like how many times the query ran.
-* Export data from statement nodes to an .xlsx file for further analysis. Select the SQL statement then click {% include inline_imageClient.html file="tb_grid_save.png" alt="Wait Events export" %}. Data includes: STATEMENT, WAIT TIME, % OF TOTAL WAIT, % OF TOTAL AVAILABLE CPU TIME.
+* Export data from statement nodes to an .csv file for further analysis. Select the SQL statement then click {% include inline_imageClient.html file="tb_grid_save.png" alt="Wait Events export" %}. Data includes: WAIT TYPE, WAIT TIME, % OF TOTAL WAIT, % OF SAMPLE TIME, CATEGORY.
 
 
 ### Grids and Charts

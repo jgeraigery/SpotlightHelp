@@ -42,7 +42,7 @@ Statement | Analyze which SQL statement is contributing most to the workload of 
 
 Possible actions you can take once the resource and workload item are selected:
 
-* Copy the SQL statement to the clipboard or select part of the SQL statement to copy just the selected part to the clipboard.
+* Click on the SQL statement to show the Overview, SQL and Plan tabs.
 * Right click on the SQL statement to open the SQL statement in an external editor.
 * Right click on the SQL statement to show it in the **SQL Server \| Wait Events drilldown**.
 * Use **Export all the statements** to save all SQL statements to a file (default filename SQLStatementList.sql). If the exporting tree list is large, Spotlight will save to multiple files; each output file no greater than 10Mb.
