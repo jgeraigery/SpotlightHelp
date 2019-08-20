@@ -34,7 +34,7 @@ C:\Program Files\Quest Software\Diagnostic Server
 ```
 C:\Program Files\Quest Software\Diagnostic Server\Agent\Bin\
 ```
-2.  Run: **ImportSosse.BAT “<path>”** where path is backed up source server path from **Step 1: Backup Data Files**.
+2.  Run: **ImportSosse.BAT** **“\<path\>”** where path is backed up source server path from **Step 1: Backup Data Files**.
 3.  You should see the message at the end of process:
 
     {% include imageClient.html file="pane_backend_dsmigration.jpg" alt="Diagnostic Server Migration" %}
@@ -91,6 +91,16 @@ Update the Playback Database and Statistics Repository with the newly located Sp
     * set @FixBug = 0 if the Diagnostic Server port is 3843, otherwise, set to 1
 
 
+## Step 9: Prior to using Spotlight Cloud, sign in again and re-enter all passwords
+For Spotlight Enterprise 13.1 and later, using a Spotlight Client:
+
+1. Click **Configure \| Diagnostic Server \| Configure uploading to the Spotlight Cloud**. Sign in again with Quest account details. 
+
+2. Click **Configure \| Connections**. For each connection, if a password is entered, re-enter that password. This is not necessary for connections using Windows authentication.
+
+3. Click **Configure \| Diagnostic Server \| Playback Database**. If SQL Server authentication is used then re-enter the password to connect to the Playback Database.
+
+4. Click **Configure \| Diagnostic Server \| Spotlight Statistics Repository**. If SQL Server authentication is used then re-enter the password to connect to the  Spotlight Statistics Repository.
 
 ### Script run in Step 8 point 4
 
