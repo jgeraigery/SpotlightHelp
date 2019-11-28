@@ -417,10 +417,6 @@ entries:
           url: /enterprise_cfgmonitor_connect_discoverywizard.html
           output: web, pdf
 
-        - title: Windows Powershell / Command line access
-          url: /enterprise_connect_commandline.html
-          output: web, pdf
-
       - title: Configure Alarms
         output: web
         subfolderitems:
@@ -503,10 +499,6 @@ entries:
 
         - title: Planned Outage Details
           url: /enterprise_cfgmonitor_plannedoutage_details.html
-          output: web, pdf
-
-        - title: Windows Powershell / Command line access
-          url: /enterprise_cfgmonitor_plannedoutage_commandline.html
           output: web, pdf
 
     - title: Configure SQL Server Response Time
@@ -598,10 +590,6 @@ entries:
 
     - title: Configure PagerDuty
       url: /enterprise_cfgds_pagerduty.html
-      output: web, pdf
-
-    - title: Configure the auto-update facility
-      url: /enterprise_cfgds_autoupdate.html
       output: web, pdf
 
     - title: Manage access to Spotlight connections
@@ -718,6 +706,30 @@ entries:
 
         - title: Troubleshooting
           url: /enterprise_interface_scom_troubleshoot.html
+          output: web, pdf
+          
+      - title: Windows Powershell / Command line access
+        output: web
+        subfolderitems:
+
+        - title: Windows Powershell / Command line access
+          url: /enterprise_commandline_summary.html
+          output: web, pdf
+
+        - title: Spotlight Connections
+          url: /enterprise_commandline_connections.html
+          output: web, pdf
+
+        - title: Alarms
+          url: /enterprise_commandline_alarms.html
+          output: web, pdf
+
+        - title: Manage Connection Access
+          url: /enterprise_commandline_userlevelaccess.html
+          output: web, pdf
+
+        - title: Schedule planned outages
+          url: /enterprise_commandline_plannedoutage.html
           output: web, pdf
 
   - title: Backend deployment
