@@ -205,7 +205,7 @@ folder: SpotlightEnterprise
 		<td>SQL Server</td>
 		<td>Databases - Log Flush Wait Time</td>
 		<td>Database Info</td>
-		<td>6 hour</td>
+		<td>5 mins</td>
 	</tr>
 	<tr >
 		<td>SQL Server</td>
