@@ -177,6 +177,7 @@ This estimate assumes default configuration in an average environment. Actual sp
 
 The Playback Database can be installed on:
 
+* SQL Server 2019
 * SQL Server 2017
 * SQL Server 2016
 * SQL Server 2014
@@ -212,6 +213,7 @@ This estimate assumes default configuration in an average environment. Actual sp
 ### SQL Server
 The Spotlight Statistics Repository can be installed on:
 
+* SQL Server 2019
 * SQL Server 2017
 * SQL Server 2016
 * SQL Server 2014

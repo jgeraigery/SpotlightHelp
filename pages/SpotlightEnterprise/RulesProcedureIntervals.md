@@ -108,7 +108,7 @@ folder: SpotlightEnterprise
 	<tr >
 		<td>SQL Server Replication</td>
 		<td>Replication - Publisher Failure</td>
-		<td>Replication Publications</td>
+		<td>Replication Publishers</td>
 		<td>5 mins</td>
 	</tr>
 	<tr >
@@ -643,7 +643,7 @@ folder: SpotlightEnterprise
 		<td>Windows</td>
 		<td>Disks - Free Space</td>
 		<td>File Systems</td>
-		<td>6 hour</td>
+		<td>5 mins</td>
 	</tr>
 	<tr >
 		<td>Windows</td>

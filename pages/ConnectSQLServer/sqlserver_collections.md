@@ -254,7 +254,7 @@ Application | Collection Name
 SQL Optimizer | QueryExecutionStatistics
 
 
-## Collections not supported when SQL Server 2017 is hosted on Linux
+## Collections not supported when SQL Server 2017(and above) is hosted on Linux
 See [Partial support for monitoring SQL Server: SQL Server 2017 and Linux hosted SQL Server connections][sqlserver_unix_partialsupport].
 
 
