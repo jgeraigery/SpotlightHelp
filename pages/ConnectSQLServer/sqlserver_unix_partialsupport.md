@@ -1,6 +1,6 @@
 ---
-title: "Partial support for monitoring SQL Server: SQL Server 2017 and Linux hosted SQL Server connections"
-summary: "Spotlight Enterprise provides partial support for monitoring SQL Server 2017 connections and SQL Server connections hosted on Linux."
+title: "Partial support for monitoring SQL Server: SQL Server 2017 and above hosted on Linux"
+summary: "Spotlight Enterprise provides partial support for monitoring SQL Server 2017 and above hosted on Linux."
 sidebar: c_sqlserver_sidebar
 id: SQL_Statement
 permalink: sqlserver_unix_partialsupport.html
@@ -9,7 +9,7 @@ folder: ConnectSQLServer
 
 
 ## Alarms
-The following alarms are not supported when SQL Server 2017 is hosted on Linux:
+The following alarms are not supported when SQL Server 2017 and above is hosted on Linux:
 
 * Clusters - Failed over
 * Clusters - File Share Witness inaccessible
@@ -41,10 +41,10 @@ When SQL Server is hosted on Linux, on the System panel, Custom Counters are not
 ## SQL Server Drilldowns
 
 * The SQL Activity \| Custom Counters drilldown is not supported for SQL Server connections hosted on Linux.
-* The High Availability drilldown Log Shipping configuration is partially supported for SQL Server 2017 connections hosted on Linux.
-* The Support Services \| DTC drilldown is not supported for SQL Server 2017 connections hosted on Linux.
-* The Databases \| Disk Space drilldown is not supported for SQL Server 2017 connections hosted on Linux.
-* The SQL Agent Error Log is partially supported for SQL Server 2017 connections hosted on Linux.
+* The High Availability drilldown Log Shipping configuration is partially supported for SQL Server connections hosted on Linux.
+* The Support Services \| DTC drilldown is not supported for SQL Server connections hosted on Linux.
+* The Databases \| Disk Space drilldown is not supported for SQL Server connections hosted on Linux.
+* The SQL Agent Error Log is partially supported for SQL Server connections hosted on Linux.
 
 
 ## Reports
@@ -55,8 +55,8 @@ When SQL Server is hosted on Linux, on the System panel, Custom Counters are not
 ## Configure monitoring SQL Server
 
 * Configure \| Connections - The Spotlight Discovery Wizard does not discover SQL Server instances hosted on Linux.
-* Configure \| Alarm Actions - For SQL Server 2017 connections hosted on Linux, some alarms are not supported (see above). No Actions are taken for alarms that are not supported. For Linux, there are no equivalent alarm actions for 'Execute a Powershell script' and 'Write the alarm details to a Windows Event log'.
-* Configure \| Scheduling - The following SQL Server collections are not supported for SQL Server 2017 connections hosted on Linux.
+* Configure \| Alarm Actions - For SQL Server connections hosted on Linux, some alarms are not supported (see above). No Actions are taken for alarms that are not supported. For Linux, there are no equivalent alarm actions for 'Execute a Powershell script' and 'Write the alarm details to a Windows Event log'.
+* Configure \| Scheduling - The following SQL Server collections are not supported for SQL Server connections hosted on Linux.
     * Agent Job List
     * Agent Jobs Failed
     * Alert Failures

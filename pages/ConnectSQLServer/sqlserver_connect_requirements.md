@@ -19,7 +19,7 @@ Spotlight can monitor SQL Server instances of the following versions, editions E
 * SQL Server 2008 (32-bit and 64-bit)
 * SQL Server 2005 (32-bit and 64-bit)
 
-Partial support is provided for monitoring SQL Server 2017(and above) connections on Linux hosts. For more information on monitoring SQL Server connections on Linux hosts, particularly SQL Server 2017 connections, see: [Partial support for monitoring SQL Server: SQL Server 2017 and Linux hosted SQL Server connections][sqlserver_unix_partialsupport].
+Partial support is provided for monitoring SQL Server 2017 and above hosted on Linux. For more information on monitoring SQL Server connections on Linux hosts, particularly SQL Server 2017 and above connections, see: [Partial support for monitoring SQL Server: SQL Server 2017 and above hosted on Linux][sqlserver_unix_partialsupport].
 
 Spotlight Enterprise also supports MSDE (2000), SQL Express (2005) and SQL Server 2008 Express Edition. Note that use of these versions to host playback or Spotlight Statistics Repository databases is not supported.
 

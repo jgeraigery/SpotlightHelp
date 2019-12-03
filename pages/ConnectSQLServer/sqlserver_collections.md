@@ -1,6 +1,6 @@
 ---
 title: SQL Server collections
-last_updated: July 29, 2016
+last_updated: December 3, 2019
 tags: [collections,collections_for_each_connection_type]
 summary: "Data is collected from the SQL Server connection from the following Spotlight collections."
 sidebar: c_sqlserver_sidebar
@@ -254,8 +254,8 @@ Application | Collection Name
 SQL Optimizer | QueryExecutionStatistics
 
 
-## Collections not supported when SQL Server 2017(and above) is hosted on Linux
-See [Partial support for monitoring SQL Server: SQL Server 2017 and Linux hosted SQL Server connections][sqlserver_unix_partialsupport].
+## Collections not supported when SQL Server 2017 and above is hosted on Linux
+See [Partial support for monitoring SQL Server: SQL Server 2017 and above hosted on Linux][sqlserver_unix_partialsupport].
 
 
 
