@@ -10,4 +10,8 @@ readonly: true
 ---
 
 
+## Windows PowerShell / Command line Manage access to Spotlight connections 
+Use commands to define which Spotlight Users are entitled to view which Spotlight connections. 
+
+
 {% include links.html %}
