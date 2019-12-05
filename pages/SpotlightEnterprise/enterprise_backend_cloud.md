@@ -32,7 +32,7 @@ For more information on Data handling and Security, see [Data handling and Secur
 
 * Spotlight Cloud is a cloud-powered SQL Server Performance monitoring solution that provides 24*7 monitoring, instant diagnostics, and powerful tuning to ensure consistent performance and high availability.
 * To try the Spotlight Cloud Product, please following the Getting Started documentation on [doc.spotlightcloud.io/getting-started/](https://doc.spotlightcloud.io/getting-started/).
-* Spotlight Cloud is a SaaS offering and is charged on a subscription basis. At the end of the 30-day free trial, you need to pick from one of the two plans depending on your SQL Server performance monitoring needs. [www.spotlightcloud.io/pricing](https://www.spotlightcloud.io/pricing).
+* Spotlight Cloud is a SaaS offering and is charged on a subscription basis. Your first subscription is a 30-day Professional Trial. Enjoy the benefits of a Professional Trial subscription for 30 days free of charge. At the end of 30 days purchase Spotlight Cloud Professional or continue to use Spotlight Cloud on a Basic subscription. To determine the subscription that best suits your needs visit [www.spotlightcloud.io/pricing](https://www.spotlightcloud.io/pricing).
 
 ## Troubleshooting Errors
 
