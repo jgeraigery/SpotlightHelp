@@ -8,6 +8,6 @@ folder: SpotlightEnterprise
 readonly: true
 ---
 
-The auto update feature has been removed.
+Spotlight no longer auto updates the Diagnostic Server.
 
 {% include links.html %}

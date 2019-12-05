@@ -21,17 +21,17 @@ To retrieve the analysis of this data, use a web browser to sign in with your Qu
 
 For more information on Data handling and Security, see [Data handling and Security](cloud_legal_datahandlingsecurity.html)
 
-## Spotlight Enterprise Cloud Integration vs. Spotlight Cloud solution
+## Spotlight Enterprise Cloud Integration vs. Spotlight Cloud Product
 
 ### Spotlight Enterprise Cloud Integration
 
 * On Spotlight Cloud a small subset of monitoring features are available for Spotlight Enterprise users such as SQL Server Overview page monitoring, Alarms, Performance health, etc.
 * This particular integration is free for Spotlight Enterprise users.
 
-### Spotlight Cloud Solution
+### Spotlight Cloud Product
 
 * Spotlight Cloud is a cloud-powered SQL Server Performance monitoring solution that provides 24*7 monitoring, instant diagnostics, and powerful tuning to ensure consistent performance and high availability.
-* To try the Spotlight Cloud solution, please following the Getting Started documentation on [doc.spotlightcloud.io/getting-started/](https://doc.spotlightcloud.io/getting-started/).
+* To try the Spotlight Cloud Product, please following the Getting Started documentation on [doc.spotlightcloud.io/getting-started/](https://doc.spotlightcloud.io/getting-started/).
 * Spotlight Cloud is a SaaS offering and is charged on a subscription basis. At the end of the 30-day free trial, you need to pick from one of the two plans depending on your SQL Server performance monitoring needs. [www.spotlightcloud.io/pricing](https://www.spotlightcloud.io/pricing).
 
 ## Troubleshooting Errors
