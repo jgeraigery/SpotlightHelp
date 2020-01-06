@@ -87,7 +87,7 @@ Host CPUs (2.4GHz) | Host RAM | DS JVM Settings | #DB Connections | #OS Connecti
 4 cores | 14GB | 4GB | 100 | 100
 
 ### Hard disk space
-300 MB
+500 MB
 
 If the Diagnostic Server’s connection to the Spotlight Statistics Repository or Playback database is interrupted, the Diagnostic Server will cache data to the local disk. In this event, an extra 2 MB per hour, per monitored server is required.
 
