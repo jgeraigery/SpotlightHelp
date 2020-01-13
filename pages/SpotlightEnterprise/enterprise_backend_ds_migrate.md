@@ -14,17 +14,18 @@ These steps apply to federated and non federated environments. Steps for (federa
 ## Step 1: Backup Data Files
 
 1.  Use the Spotlight Client to verify and record the current Spotlight version. Use the Spotlight Client, About window to do this.
-2.  Locate the Spotlight Diagnostic Server installation folder. By default (in the server where the Diagnostic Server is installed):
+2.  [Stop the Spotlight Diagnostic Server service.][enterprise_backend_ds_startstop]
+3.  Locate the Spotlight Diagnostic Server installation folder. By default (in the server where the Diagnostic Server is installed):
 ```
 C:\Program Files\Quest Software\Diagnostic Server
 ```
-3.  Copy of this folder to the server you are migrating the Diagnostic Server to. (or a shared drive that this server can access) You will need the path to this folder in **Step 3: Migrate Data**
+4.  Copy of this folder to the server you are migrating the Diagnostic Server to. (or a shared drive that this server can access) You will need the path to this folder in **Step 3: Migrate Data**
 
 
 
 ## Step 2: Install Spotlight on the new Diagnostic Server host
 
-1.  Install the same version of the Spotlight client and Diagnostic Server on the destination server as in source server
+1.  Install the same version of the Spotlight client and Diagnostic Server on the destination server as in source server. Use the same Playback database used in the source Diagnostic Server.
 2.  Open the Spotlight Client on the destination server and ensure it connects to the Diagnostic Server
 
 
@@ -34,7 +35,7 @@ C:\Program Files\Quest Software\Diagnostic Server
 ```
 C:\Program Files\Quest Software\Diagnostic Server\Agent\Bin\
 ```
-2.  Run: **ImportSosse.BAT “<path>”** where path is backed up source server path from **Step 1: Backup Data Files**.
+2.  Run: **ImportSosse.BAT** **“\<path\>”** where path is backed up source server path from **Step 1: Backup Data Files**.
 3.  You should see the message at the end of process:
 
     {% include imageClient.html file="pane_backend_dsmigration.jpg" alt="Diagnostic Server Migration" %}
@@ -91,6 +92,16 @@ Update the Playback Database and Statistics Repository with the newly located Sp
     * set @FixBug = 0 if the Diagnostic Server port is 3843, otherwise, set to 1
 
 
+## Step 9: Prior to using Spotlight Cloud, sign in again and re-enter all passwords
+For Spotlight Enterprise 13.1 and later, using a Spotlight Client:
+
+1. Click **Configure \| Diagnostic Server \| Configure uploading to the Spotlight Cloud**. Sign in again with Quest account details. 
+
+2. Click **Configure \| Connections**. For each connection, if a password is entered, re-enter that password. This is not necessary for connections using Windows authentication.
+
+3. Click **Configure \| Diagnostic Server \| Playback Database**. If SQL Server authentication is used then re-enter the password to connect to the Playback Database.
+
+4. Click **Configure \| Diagnostic Server \| Spotlight Statistics Repository**. If SQL Server authentication is used then re-enter the password to connect to the  Spotlight Statistics Repository.
 
 ### Script run in Step 8 point 4
 

@@ -28,6 +28,7 @@ This port is used by the Spotlight Diagnostic Server to communicate with Spotlig
 This port is used by the Spotlight Client to communicate with the Spotlight Diagnostic Server. This port must be open for incoming connections on the Spotlight Diagnostic Server host.
 
 
+
 ## Network ports on monitored Windows servers and hosts of database connections
 
 ### TCP 135
