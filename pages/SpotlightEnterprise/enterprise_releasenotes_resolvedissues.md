@@ -14,8 +14,8 @@ readonly: true
 
 Issue | ID
 ------|---
-Corrected a problem where Spotlight Extended Events session collected null plan_handle statements. | SEMB-442,SOSSE-8686
-Corrected a problem where Spotlight will cause a SQL Sever log message if 'Database Mail XPs' is disabled. | SEMB-434,SOSSE-8705
+Corrected a problem where the Spotlight Extended Events session collected events that did not contain relevant information. | SEMB-442,SOSSE-8686
+Corrected a problem where Spotlight caused a SQL Server log message if 'Database Mail XPs' is disabled. | SEMB-434,SOSSE-8705
 
 
 {% include links.html %}
