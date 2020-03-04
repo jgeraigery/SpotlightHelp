@@ -11,6 +11,6 @@ readonly: true
 
 
 ## Upload to Spotlight Cloud
-New Spotlight Cloud Future Incompatibility alarm and Spotlight Cloud Incompatibility alarm.
+New [Spotlight Cloud Future Incompatibility alarm][spotlightds_alarm_cloudfutureincompatibility] and [Spotlight Cloud Incompatibility alarm][spotlightds_alarm_cloudincompatibility].
 
 {% include links.html %}
