@@ -16,6 +16,8 @@ Issue | ID
 ------|---
 Corrected a problem where the Spotlight Extended Events session collected events that did not contain relevant information. | SEMB-442,SOSSE-8686
 Corrected a problem where Spotlight caused a SQL Server log message if 'Database Mail XPs' is disabled. | SEMB-434,SOSSE-8705
+Corrected a problem where running an Alarm Action failed with the error 'Internal error; null pointer'. | SOSSE-8618
+Corrected a problem where the "I/O Stall Time" alarm did not work. | SOSSE-8677
 
 
 {% include links.html %}
