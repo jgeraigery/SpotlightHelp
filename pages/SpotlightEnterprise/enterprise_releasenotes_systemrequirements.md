@@ -61,6 +61,15 @@ In general every Windows version after and including Windows Server 2008 or Wind
 
 As part of the support for TLS 1.2, ensure the ODBC Driver 13 for SQL Server is installed.
 
+#### Internet Access
+Required by Spotlight Cloud. Required to monitor your Spotlight connections from the Spotlight Cloud web site or a mobile device.
+If Windows Firewall is set up to block traffic by default then in Windows Firewall | Advanced Settings add new inbound and outbound rules to enable the following URLs on TCP port 443:
+https://api.spotlightessentials.com
+https://authzp.spotlightessentials.com
+https://dsmetadata.spotlightessentials.com
+https://id.quest.com/
+https://um-v2.spotlightessentials.com
+
 #### Microsoft Internet Explorer® 6.0 or later.
 
 
@@ -72,7 +81,7 @@ MDAC is available from the Microsoft website: www.microsoft.com/downloads
 To find out the version of MDAC that you are currently running, you can download an application from the Microsoft website called the Component Checker Tool. Review the following Microsoft Knowledge Base article for more information: http://support.microsoft.com/kb/301202
 
 #### Microsoft Windows Powershell 3.0 or above
-Microsoft Windows Powershell 3.0 or above is required to [access Spotlight from the command line][enterprise_connect_commandline].
+Microsoft Windows Powershell 3.0 or above is required to [access Spotlight from the command line][enterprise_commandline_summary].
 
 {% include note.html content="Microsoft Windows Server 2008 requires Microsoft Windows Powershell 3.0 or above to install." %}
 
@@ -128,6 +137,18 @@ The SQL Server Management Tools are available from any SQL Server 2005, SQL Serv
 
 #### Internet Access
 Required by Spotlight Cloud. Required to monitor your Spotlight connections from the Spotlight Cloud web site or a mobile device.
+If Windows Firewall is set up to block traffic by default then in Windows Firewall | Advanced Settings add new inbound and outbound rules to enable the following URLs on TCP port 443:
+https://api.spotlightessentials.com
+https://audit.spotlightessentials.com
+https://authzp.spotlightessentials.com
+https://dsmetadata.spotlightessentials.com
+https://mds-alarmingest-v4-spot-prod.spotlightcloud.io
+https://mds-egress-v4-spot-prod.spotlightcloud.io
+https://mds-ingest-v4-spot-prod.spotlightcloud.io
+https://versions.spotlightcloud.io/
+https://spn.spotlightcloud.io
+https://login.microsoftonline.com
+https://spotlight.blob.core.windows.net
 
 #### Connection Limit
 A single Spotlight Diagnostic Server is designed to monitor a maximum of 100 SQL Servers, Analysis Services or Replication instances and 100 Windows servers. Exceeding this recommended limit on 32 bit environments may result in poor performance or product instability, due to the 1 Gb memory limit. On 64 bit environments theoretically more connections can be monitored as the 1 Gb limit no longer applies, however testing of this has been limited. In environments that exceed this number of connections, consider a deployment of federation of Spotlight Diagnostic Server.
