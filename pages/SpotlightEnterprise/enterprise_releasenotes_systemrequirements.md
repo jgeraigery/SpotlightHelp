@@ -137,6 +137,7 @@ The SQL Server Management Tools are available from any SQL Server 2005, SQL Serv
 
 #### Internet Access
 Required by Spotlight Cloud. Required to monitor your Spotlight connections from the Spotlight Cloud web site or a mobile device.
+
 If Windows Firewall is set up to block traffic by default then in Windows Firewall | Advanced Settings add new inbound and outbound rules to enable the following URLs on TCP port 443:
 * https://api.spotlightessentials.com
 * https://audit.spotlightessentials.com
