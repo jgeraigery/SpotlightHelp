@@ -34,7 +34,7 @@ entries:
       output: web, pdf
       
     - title: Compatible Spotlight Enterprise versions
-      url: /cloud_welcome_browsersupport.html
+      url: /cloud_welcome_sossesupport.html
       output: web, pdf      
 
   - title: Your Quest Account
