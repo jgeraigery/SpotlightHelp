@@ -1,10 +1,10 @@
 ---
 title: Compatible Spotlight Enterprise versions
-summary: "Use the compatible Spotlight Enterprise versions to access cloud-connect."
+summary: "Cloud Connect is compatible with SoSSE versions 13.2 and higher."
 sidebar: p_cloud_sidebar
 permalink: cloud_welcome_sossesupport.html
 folder: CloudConnect
 ---
 
-
-From the 1st of June 2020, earlier versions of SOSSE (versions prior to 13.2) will no longer have access to cloud-connect.  Cloud-connect is required to monitor performance data via a web browser or mobile app.
+This is effective from the 1st of June 2020.
+If your SoSSE version is less than this and you want to use Cloud Connect, please upgrade to 13.2.

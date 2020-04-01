@@ -8,6 +8,6 @@ folder: SpotlightEnterprise
 readonly: true
 ---
 
-Starting June 1st, we will only support cloud-connect functionality for customers who run SoSSE versions 13.2 or higher which include the new cloud-connect quality and security enhancements.If you are interested in continuing to use the cloud-connect functionality, please upgrade to SoSSE version 13.2 by June 1st.
+From the 1st of June 2020, earlier versions of SOSSE (versions prior to 13.2) will no longer have access to cloud-connect.  Cloud-connect is required to monitor performance data via a web browser or mobile app.
 
 {% include links.html %}
