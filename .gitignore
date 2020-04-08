@@ -12,3 +12,4 @@ _sitePDF/
 _sitePDFStage/
 *.swp
 *.zip
+Gemfile.lock
