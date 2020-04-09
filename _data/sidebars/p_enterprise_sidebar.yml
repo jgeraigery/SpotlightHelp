@@ -1,7 +1,7 @@
 entries:
 - title: sidebar
   product: Spotlight Enterprise
-  version: 13.1
+  version: 13.2
 
   folders:
 
@@ -42,7 +42,7 @@ entries:
         - title: Deprecated Features
           url: /enterprise_releasenotes_deprecated.html
           output: web, pdf
-
+          
         - title: Resolved issues
           url: /enterprise_releasenotes_resolvedissues.html
           output: web, pdf
