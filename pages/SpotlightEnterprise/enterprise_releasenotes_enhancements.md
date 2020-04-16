@@ -12,6 +12,6 @@ readonly: true
 
 Enhancement | Issue ID
 ------------|---------
-
+Plan visualization and plan analysis have been enhanced to show more optimization suggestions. | SEMB-463
 
 {% include links.html %}
