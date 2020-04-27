@@ -13,5 +13,6 @@ readonly: true
 Enhancement | Issue ID
 ------------|---------
 Plan visualization and plan analysis have been enhanced to show more optimization suggestions. | SEMB-463
+DS will send a resolve event to PagerDuty when alarm is cleared automatically. | SEMB-432, SOSSE-8697
 
 {% include links.html %}
