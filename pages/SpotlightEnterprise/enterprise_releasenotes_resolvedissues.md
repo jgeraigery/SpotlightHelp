@@ -14,7 +14,14 @@ readonly: true
 
 Issue | ID
 ------|---
+Corrected a problem where the Spotlight Extended Events session collected events that did not contain relevant information. | SEMB-442,SOSSE-8686
+Corrected a problem where Spotlight caused a SQL Server log message if ‘Database Mail XPs’ is disabled. | SEMB-434,SOSSE-8705
+Corrected a problem where running an Alarm Action failed with the error ‘Internal error; null pointer’. | SOSSE-8618
+Corrected a problem where the “I/O Stall Time” alarm did not work. | SOSSE-8677
+Corrected a problem where the Spotlight client was unable to connect to the Diagnostic Server after the Daylight Saving Time changed. | SEMB-493,SOSSE-8811
 Corrected a problem where Diagnostic Server crashes with StackOverflowError during group membership check. | SEMB-435,SOSSE-8813
-Corrected a problem where Diagnostic Server crashes with out of memory error due to too many HTTP requests again.| SEMB-280,SOSSE-8699
+Corrected a problem where Diagnostic Server crashes with out of memory error due to too many HTTP requests again. | SEMB-280,SOSSE-8699
+Corrected a problem where Diagnostic Server stopped uploading data to the cloud. | SEMB-504,SOSSE-8846
+
 
 {% include links.html %}
