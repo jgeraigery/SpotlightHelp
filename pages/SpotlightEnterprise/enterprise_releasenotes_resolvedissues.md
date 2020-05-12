@@ -14,8 +14,6 @@ readonly: true
 
 Issue | ID
 ------|---
-Corrected a problem where Diagnostic Server crashes with StackOverflowError during group membership check. | SEMB-435,SOSSE-8813
-Corrected a problem where Diagnostic Server crashes with out of memory error due to too many HTTP requests again.| SEMB-280,SOSSE-8699
-Corrected a problem where the Spotlight Statistics Repository deletion script caused tempdb to fill up. | SEMB-452
+Corrected a problem where the Spotlight Statistics Repository deletion script caused tempdb to fill up. | SEMB-452,SOSSE-8702
 
 {% include links.html %}
