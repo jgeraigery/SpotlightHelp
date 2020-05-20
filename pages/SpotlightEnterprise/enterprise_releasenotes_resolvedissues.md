@@ -23,5 +23,8 @@ Corrected a problem where the Diagnostic Server crashes with StackOverflowError 
 Corrected a problem where the Diagnostic Server crashes with out of memory error due to too many HTTP requests again. | SEMB-280,SOSSE-8699
 Corrected a problem where the Diagnostic Server stopped uploading data to the cloud. | SEMB-504,SOSSE-8846
 Corrected a problem where the Spotlight Today Drilldown stops refreshing after some alarms are acknowledged. | SOSSE-8842,SEMB-490
+Corrected a problem where the Workload Analysis and Wait Events collections failed on SQL Server 2008 or 2008 R2. | SOSSE-8851,SEMB-508
+Corrected a problem where the Workload Analysis drilldown did not display data due to an authorization failure. | SOSSE-8852,SEMB-509
+Corrected a problem where the Diagnostic Server would not start after a user certificate was imported into the key store. | SOSSE-8856
 
 {% include links.html %}
