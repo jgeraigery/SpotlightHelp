@@ -66,7 +66,7 @@ from another Spotlight Diagnostic Server. A workaround for this restriction is t
 * All Spotlight Clients in the federation retrieve monitoring information directly from the Spotlight Diagnostic Server. TCP port 3843 must be open for incoming connections from all Spotlight Diagnostic Server in the federation.
 * We recommend implementing a VPN with a federated system for increased security.
 * Connections that have been migrated from one Spotlight Diagnostic Server to another within a federation do not have their Playback and Spotlight Statistics Repository data preserved automatically. If you want to preserve that data see
-[Reorganizing SSR historical data after creating a federation][enterprise_backend_federation_add#Reorganizing-SSR].
+[Reorganizing SSR historical data after creating a federation][enterprise_backend_federation_add.html#Reorganizing-SSR].
 
 ### On adding a Spotlight Diagnostic Server to the federation
 
