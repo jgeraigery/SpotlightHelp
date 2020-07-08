@@ -65,8 +65,7 @@ from another Spotlight Diagnostic Server. A workaround for this restriction is t
 * Each Spotlight Diagnostic Server in the federation authenticates with one selected Spotlight Diagnostic Server in the federation (the Configuration server documented on the [Configure Operations][enterprise_backend_federation_cfgops] page). Each Spotlight Diagnostic Server authenticates with the Configuration server using Windows authentication over TCP port 40403. The Windows account that each Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server. Spotlight Diagnostic Server running under the built in Windows accounts (local system or network service) cannot be federated.
 * All Spotlight Clients in the federation retrieve monitoring information directly from the Spotlight Diagnostic Server. TCP port 3843 must be open for incoming connections from all Spotlight Diagnostic Server in the federation.
 * We recommend implementing a VPN with a federated system for increased security.
-* Connections that have been migrated from one Spotlight Diagnostic Server to another within a federation do not have their Playback and Spotlight Statistics Repository data preserved automatically. If you want to preserve that data see
-[Reorganizing SSR historical data after creating a federation][enterprise_backend_federation_add.html#reorganizingssr].
+* Connections that have been migrated from one Spotlight Diagnostic Server to another within a federation do not have their Playback and Spotlight Statistics Repository data preserved automatically. If you want to preserve that data see [Reorganizing SSR historical data after creating a federation][enterprise_backend_federation_add.html#reorganizingssr] .
 
 ### On adding a Spotlight Diagnostic Server to the federation
 
