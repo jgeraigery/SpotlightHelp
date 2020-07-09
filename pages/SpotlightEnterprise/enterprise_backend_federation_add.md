@@ -13,11 +13,16 @@ Start with two separate Spotlight deployments.
 ## Notes on making a federation
 
 * A Spotlight Diagnostic Server can connect to one federation at a time. Remove a Spotlight Diagnostic Server from one federation before adding it to a different federation.
-* The Spotlight Diagnostic Servers in the federation cannot be monitoring the same connections. Where duplicate connections exist, federation cannot proceed. Spotlight will prompt you to delete duplicate connections.
+* The Spotlight Diagnostic Servers in a federation cannot monitor the same connections. Federation cannot proceed where duplicate connections exist. Spotlight will prompt you to delete duplicate connections.
+* Windows connections that have the same VMware host connection can only be monitored by one Spotlight Diagnostic Server in a federation because the VMware host connection
+can only defined in one Spotlight Diagnostic Server and connections in one Spotlight Diagnostic Server cannot use a host connection
+from another Spotlight Diagnostic Server. A workaround for this restriction is to create duplicate VMware host connections in different Diagnostic Servers by using an IP address or fully qualified host name.        
 * Each Spotlight Diagnostic Server in the federation must be running the same Spotlight version. Federation is supported for Spotlight Enterprise (Spotlight on SQL Server) versions 11.6 and above.
 * Each Spotlight Diagnostic Server in the federation authenticates with one selected Spotlight Diagnostic Server in the federation (the Configuration server documented on the [Configure Operations][enterprise_backend_federation_cfgops] page). Each Spotlight Diagnostic Server authenticates with the Configuration server using Windows authentication over TCP port 40403. The Windows account that each Spotlight Diagnostic Server is running under must be valid in the domain of the Configuration server. Spotlight Diagnostic Server running under the built in Windows accounts (local system or network service) cannot be federated.
 * All Spotlight Clients in the federation retrieve monitoring information directly from the Spotlight Diagnostic Server. TCP port 3843 must be open for incoming connections from all Spotlight Diagnostic Server in the federation.
-* We suggest that a VPN is implemented with a federated system for increased security.
+* We recommend implementing a VPN with a federated system for increased security.
+* Connections that have been migrated from one Spotlight Diagnostic Server to another within a federation do not have their Playback and Spotlight Statistics Repository data preserved automatically. If you want to preserve that data see [Reorganizing SSR historical data after creating a federation](enterprise_backend_federation_add.html#reorganizingssr).
+
 
 ## Steps to make (add to) a federation
 
@@ -51,7 +56,7 @@ Spotlight Clients in the federation have access to all configuration templates i
 ### Spotlight license
 The Spotlight license applied to the Configuration server is applied to the federation. For more information, see the Configuration server on the  [Configure Operations][enterprise_backend_federation_cfgops] page.
 
-## Reorganizing SSR historical data after creating a federation
+## Reorganizing SSR historical data after creating a federation {#reorganizingssr}
 
 If you have created a Federation that monitors connections that were previously monitored by one Diagnostic Server and that Diagnostic Server was storing data to the Spotlight Statistics Repository (SSR) and you want to preserve the historical data in the SSR take the following steps. This should only be done after the Federation has been writing to the SSR for one day to ensure that all connections have been re-created in the new SSR.
 
@@ -71,7 +76,7 @@ For example, say there are three domain ids in your SSR. Domain id 1 is the hist
 
 2. Execute the spotlight_merge_data_in_same_ssr procedure with the parameter @To_domain_id set to 3 which will merge the historical data from domain 1 to the new domain 3.
    exec spotlight_merge_data_in_same_ssr 3  
-	
+
 After these two steps, the historical data from domain 1 will have been merged to the currently used domains 2 and 3.
 
 
