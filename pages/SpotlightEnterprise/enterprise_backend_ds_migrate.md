@@ -84,11 +84,11 @@ Update the Playback Database and Statistics Repository with the newly located Sp
 
 {% include note.html content="Perform these steps only if historical reporting data was configured in source Diagnostic Server." %}
 
-5.  In SSMS login to the instance holding your Spotlight Statistics Repository database. Run the following query against the Spotlight Statistic Repository to identify the Domain IDs of the source and destination Diagnostic Server host names: **select * from spotlight_domains**
-6.  Under SpotlightStatisticsRespository \| Programmability node, execute **SP MoveDiagnosticServerHost()**
+1.  In SSMS login to the instance holding your Spotlight Statistics Repository database. Run the following query against the Spotlight Statistic Repository to identify the Domain IDs of the source and destination Diagnostic Server host names:<br>**select * from spotlight_domains**
+2.  Under SpotlightStatisticsRespository \| Programmability node, execute **SP MoveDiagnosticServerHost()**
     Enter the input parameter values:
-    * set @From_Domain = Domain ID of source Diagnostic Server from step 3
-    * set @To_Domain = Domain ID to destination Diagnostic Server from step 3
+    * set @From_Domain = Domain ID of source Diagnostic Server from the query.
+    * set @To_Domain = Domain ID to destination Diagnostic Server from the query.
     * set @FixBug = 0 if the Diagnostic Server port is 3843, otherwise, set to 1
 
 
